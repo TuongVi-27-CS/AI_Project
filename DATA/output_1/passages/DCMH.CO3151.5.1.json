@@ -1,0 +1,593 @@
+[
+  {
+    "passage_id": "DCMH.CO3151.5.1_P1",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 1,
+    "section_path": [
+      "Thông tin chung",
+      "Mục tiêu môn học"
+    ],
+    "content_type": "paragraph",
+    "text": ". Hiểu rõ mô hình quản lý mạng tiêu chuẩn ISO (FCAPS) và các giao thức cốt lõi như SNMP, NetFlow, AAA. Nắm vững nguyên lý thiết kế mạng dự phòng và các công nghệ tự động hóa mạng (NetDevOps). Triển khai thành thạo các hệ thống giám sát tập trung (NMS) để theo dõi hiệu suất và cảnh báo sự cố theo thời gian thực. Sử dụng ngôn ngữ lập trình (Python) và công cụ (Ansible) để tự động hóa các tác vụ quản trị lặp đi lặp lại. Hình thành tư duy quản lý chủ động, luôn sẵn sàng ứng phó với các kịch bản lỗi và đảm bảo tính liên tục của dịch vụ.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.mucTieuMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P2",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 2,
+    "section_path": [
+      "Thông tin chung",
+      "Nội dung tóm tắt môn học"
+    ],
+    "content_type": "paragraph",
+    "text": "Môn học tập trung vào việc chuyển đổi từ quản trị thiết bị đơn lẻ sang quản lý hệ thống mạng quy mô lớn. Sinh viên sẽ học cách vận hành mạng dựa trên khung tiêu chuẩn FCAPS:. Quy hoạch và dự phòng: Tập trung vào thiết kế hạ tầng bền vững thông qua các công nghệ dự phòng Lớp 2 (RSTP, EtherChannel) và Lớp 3 (HSRP/VRRP), kết hợp với quy hoạch địa chỉ IP (VLSM). Giám sát và quản lý hiệu suất Triển khai các hệ thống giám sát tập trung (NMS) sử dụng giao thức SNMP và NetFlow. Sinh viên học cách thiết lập Dashboard, cảnh báo tự động và phân tích gói tin (Wireshark) để tối ưu hiệu suất. An ninh và tự động hóa: Tiếp cận xu hướng quản trị mạng hiện đại (NetDevOps), quản trị truy cập tập trung (AAA) và ứng dụng Python/Ansible để tự động hóa cấu hình hàng loạt.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.noiDungTomTatMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P3",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 3,
+    "section_path": [
+      "Thông tin chung",
+      "Tài liệu học tập"
+    ],
+    "content_type": "paragraph",
+    "text": ". Computer Networks, Andrew S. Tanenbaum, Nick Feamster, David J. Wetherall, 6th Edition, Pearson, 2021. Network Management: Principles and Practice, Mani Subramanian, 2nd Edition, Pearson Education, 2012. CCNA 200-301 Official Cert Guide, Volume 1 & 2, Wendell Odom, Cisco Press, 2023. Automating Network Administration with Python, Michael Bridgen, Packt Publishing, 2021.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.taiLieuHocTap.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P4",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 4,
+    "section_path": [
+      "Thông tin chung",
+      "Hướng dẫn cách học"
+    ],
+    "content_type": "paragraph",
+    "text": ". Môn học sẽ được đánh giá qua bài tập lớn, các bài thực hành trên phòng thí nghiệm và thi cuối kỳ, theo tỷ lệ phần trăm như sau:. Bài thực hành (20%) Được thực hiện theo từng cá nhân Việc tham gia các giờ thực hành là bắt buộc. Bài tập lớn (30%) Được thực hiện theo nhóm (2 hoặc 3 sinh viên Thi cuối kỳ (50%).",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.huongDanCachHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P5",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 5,
+    "section_path": [
+      "Phân bổ thời gian"
+    ],
+    "content_type": "paragraph",
+    "text": "Phân bổ tín chỉ: {'soTC': 3, 'soTC_ETC': 6, 'lyThuyet': 2, 'baiTapThucHanh': 0, 'thiNghiem': 0.67, 'baiTapLon': 0.33, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 0, 'khac': 0} | Phân bổ tiết: {'tongSoTiet': 150, 'tongGioHocTapLamViec': 136.5, 'lyThuyet': 30, 'baiTapThucHanh': 0, 'thiNghiem': 20, 'baiTapLon': 15, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 70, 'khac': 15}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "pbsotc_pbsotiet"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P6",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 6,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[0].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P7",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 7,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[1].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P8",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 8,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[2].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P9",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 9,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[3].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P10",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 10,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[4].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P11",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 11,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[5].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P12",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 12,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[6].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P13",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 13,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[7].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P14",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 14,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[8].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P15",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 15,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[9].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P16",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 16,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[10].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P17",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 17,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[11].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P18",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 18,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[12].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P19",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 19,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[13].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P20",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 20,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 78407, 'stt': 0, 'ma': 'A.O', 'capdo': '0', 'parentid': None, 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}, 'noidung': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P21",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 21,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.2"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 78408, 'stt': 0, 'ma': 'A.O.2', 'capdo': '1', 'parentid': '78407', 'loaihoatdong': {'ma': 'EXM', 'ten': {'vi': 'Thi cuối kỳ', 'en': 'Final exam'}}, 'ten': {'vi': 'Kiểm tra cuối kỳ', 'en': 'Exam'}, 'noidung': {'vi': 'Kiểm tra cuối kỳ', 'en': 'Exam'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P22",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 22,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.3"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 78409, 'stt': 0, 'ma': 'A.O.3', 'capdo': '1', 'parentid': '78407', 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Thực hành', 'en': 'Lab'}, 'noidung': {'vi': 'Thực hành', 'en': 'Lab'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P23",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 23,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.4"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 78410, 'stt': 0, 'ma': 'A.O.4', 'capdo': '1', 'parentid': '78407', 'loaihoatdong': {'ma': 'IHW', 'ten': {'vi': 'Bài tập cá nhân về nhà', 'en': 'Individual homework'}}, 'ten': {'vi': 'Bài tập lớn', 'en': 'Assignment'}, 'noidung': {'vi': 'Bài tập lớn', 'en': 'Assignment'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P24",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 24,
+    "section_path": [
+      "Nội dung chi tiết",
+      "1"
+    ],
+    "content_type": "paragraph",
+    "text": "Tổng quan Quản lý mạng và Mô hình FCAPS: - Định nghĩa quản lý mạng - Phân tích 5 chức năng FCAPS - Kiến trúc Manager-Agent Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P25",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 25,
+    "section_path": [
+      "Nội dung chi tiết",
+      "2"
+    ],
+    "content_type": "paragraph",
+    "text": "Thiết kế dự phòng Lớp 2 (STP, EtherChannel) - Giao thức STP/RSTP - Cơ chế bầu chọn Root Bridge - Cấu hình EtherChannel (LACP) Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P26",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 26,
+    "section_path": [
+      "Nội dung chi tiết",
+      "3"
+    ],
+    "content_type": "paragraph",
+    "text": "Thiết kế dự phòng Lớp 3 (HSRP/VRRP) - Giao thức FHRP (HSRP/VRRP) - Cơ chế dự phòng Gateway và chia tải. Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P27",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 27,
+    "section_path": [
+      "Nội dung chi tiết",
+      "4"
+    ],
+    "content_type": "paragraph",
+    "text": "Quy hoạch IPAM & VLAN nâng cao - Kỹ thuật VLSM - Quy hoạch vùng địa chỉ IP - Định tuyến Inter-VLAN Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Làm bài tập trên lớp",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P28",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 28,
+    "section_path": [
+      "Nội dung chi tiết",
+      "5"
+    ],
+    "content_type": "paragraph",
+    "text": "Giao thức SNMP và Kiến trúc MIB - Kiến trúc SNMP - Cấu trúc cây MIB & OID - SNMP Traps Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[4]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P29",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 29,
+    "section_path": [
+      "Nội dung chi tiết",
+      "6"
+    ],
+    "content_type": "paragraph",
+    "text": "Phân tích lưu lượng với NetFlow - Nguyên lý NetFlow - Phân tích băng thông ứng dụng - Giám sát từ xa RMON Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[5]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P30",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 30,
+    "section_path": [
+      "Nội dung chi tiết",
+      "7,8"
+    ],
+    "content_type": "paragraph",
+    "text": "Triển khai hệ thống giám sát mạng - Kiến trúc NMS - Thiết lập cảnh báo - Thiết kế Dashboard Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[6]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P31",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 31,
+    "section_path": [
+      "Nội dung chi tiết",
+      "9"
+    ],
+    "content_type": "paragraph",
+    "text": "Phân tích gói tin với Wireshark (SPAN/RSPAN) - Kỹ thuật SPAN/RSPAN - Sử dụng Wireshark chuyên sâu để xử lý sự cố kết nối Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[7]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P32",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 32,
+    "section_path": [
+      "Nội dung chi tiết",
+      "10"
+    ],
+    "content_type": "paragraph",
+    "text": "Bảo mật hạ tầng với AAA - Giao thức RADIUS/TACACS+ - Phân quyền quản trị viên trên thiết bị Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[8]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P33",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 33,
+    "section_path": [
+      "Nội dung chi tiết",
+      "11"
+    ],
+    "content_type": "paragraph",
+    "text": "Quản lý cấu hình và Sao lưu tự động - Sao lưu tự động - Quản lý phiên bản - Quy trình khôi phục thảm họa Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[9]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P34",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 34,
+    "section_path": [
+      "Nội dung chi tiết",
+      "12"
+    ],
+    "content_type": "paragraph",
+    "text": "Tự động hóa với Python - Thư viện Netmiko - Kết nối SSH - Script thay đổi cấu hình hàng loạt Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[10]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P35",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 35,
+    "section_path": [
+      "Nội dung chi tiết",
+      "13"
+    ],
+    "content_type": "paragraph",
+    "text": "Tự động hóa với Ansible - Kiến trúc Agentless - Tự động hóa VLAN/Routing quy mô lớn Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học Thực hành ở phòng thí nghiệm",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[11]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P36",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 36,
+    "section_path": [
+      "Nội dung chi tiết",
+      "14"
+    ],
+    "content_type": "paragraph",
+    "text": "Quản lý SDN và điện toán đám mây - Mạng điều khiển bằng phần mềm - Quản lý mạng trên Điện toán đám mây Hoạt động giảng viên: Giảng dạy trên lớp Hoạt động sinh viên: Thảo luận trên lớp và tự học",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[12]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3151.5.1_P37",
+    "doc_id": "DCMH.CO3151.5.1",
+    "order": 37,
+    "section_path": [
+      "Nội dung chi tiết",
+      "15"
+    ],
+    "content_type": "paragraph",
+    "text": "Ôn tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[13]"
+    },
+    "review_status": "pending"
+  }
+]

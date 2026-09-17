@@ -1,0 +1,927 @@
+{
+  "ma": "DCMH.CO7279.1.1",
+  "phienban": "1.1",
+  "capnhat": "11/09/2026 14:43",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO7279",
+  "ten": "CO7279 - Luận án tiến sĩ - phần 4",
+  "ten_eng": "CO7279 - PhD Dissertation - part 4",
+  "hockyapdung": "HK261",
+  "sotcgoc": 15,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 4,
+      "ma": "TS",
+      "ten": {
+        "vi": "Tiến sĩ",
+        "en": "PhD"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 5,
+      "ma": "LV",
+      "ten": {
+        "vi": "Luận Văn",
+        "en": "Thesis"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p><p>Học phần này nhằm giúp nghiên cứu sinh hoàn thiện phương pháp nghiên cứu và củng cố các đóng góp khoa học cốt lõi của luận án tiến sĩ trong lĩnh vực Khoa học máy tính. Trên cơ sở đó, nghiên cứu sinh phát triển năng lực trình bày và công bố kết quả nghiên cứu ở cấp độ quốc tế thông qua việc chuẩn bị, viết và nộp bài báo khoa học trên các tạp chí uy tín. Học phần cũng trang bị cho nghiên cứu sinh kỹ năng phản biện học thuật, bảo vệ lập luận khoa học, và tương tác hiệu quả với cộng đồng nghiên cứu thông qua seminar và quy trình phản biện quốc tế.</p>\n\n\n<br></p>",
+      "en": "<p>This course aims to enable doctoral candidates to refine their research methodology and consolidate the core scientific&nbsp;contributions of their dissertation in Computer Science. Building upon this foundation, candidates develop the&nbsp;capability to present and disseminate research outcomes at an international level by preparing, writing, and&nbsp;submitting manuscripts to reputable journals. The course also equips candidates with essential skills in academic&nbsp;critique, rigorous scientific argumentation, and effective engagement with the research community through seminars&nbsp;and the peer-review process.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p><p>Học phần tập trung vào hai nội dung chính: (i) hoàn thiện phương pháp nghiên cứu và chứng minh đóng góp khoa học thông qua phân tích lý thuyết, mô phỏng, hoặc thực nghiệm; (ii) phát triển và triển khai công bố quốc tế dưới dạng bài báo khoa học. Nghiên cứu sinh sẽ chuẩn hóa mô hình nghiên cứu, thiết kế khung đánh giá, và thực hiện so sánh với các phương pháp tiên tiến nhằm chứng minh tính mới và hiệu quả của giải pháp đề xuất. Đồng thời, nghiên cứu sinh được hướng dẫn xây dựng bài báo theo chuẩn quốc tế, lựa chọn tạp chí phù hợp, thực hiện quy trình nộp bài, và xử lý phản biện. Học phần kết thúc bằng seminar báo cáo tiến độ.</p></p>",
+      "en": "<p>The course focuses on two main components: (i) refining research methodology and validating scientific contributions&nbsp;through theoretical analysis, simulation, or experimental evaluation; and (ii) developing and executing international&nbsp;publication in the form of scientific manuscripts. Doctoral candidates will standardize research models, design&nbsp;evaluation frameworks, and perform benchmarking against state-of-the-art approaches to demonstrate novelty and&nbsp;effectiveness. In parallel, they are guided in preparing manuscripts according to international standards, selecting appropriate journals, managing the submission process, and addressing reviewer feedback. The course concludes with&nbsp;a research seminar.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>1. Giáo trình<br>[1] P. Oliver, Writing Your Thesis, 4th ed. London, U.K.: SAGE Publications, 2019. ISBN: 978-1526460108.<br>[2] C. George Thomas, Research Methodology and Scientific Writing, Springer, 2021.<br>2. Tài liệu tham khảo<br>[3] W. C. Booth, G. G. Colomb, J. M. Williams, J. Bizup, and W. T. FitzGerald, The Craft of Research, 4th ed. Chicago,&nbsp;IL, USA: University of Chicago Press, 2016. ISBN: 978-0226239736.<br>[4] J. Glasman-Deal, Science Research Writing for Non-Native Speakers of English, 2nd ed. London, U.K.: Imperial&nbsp;College Press, 2020. ISBN: 978-1783267328.<br>[5] M. Gastel and R. A. Day, How to Write and Publish a Scientific Paper, 9th ed. Cambridge, U.K.: Cambridge&nbsp;University Press, 2022. ISBN: 978-1108794492.<br></p>",
+      "en": "<p>1. Textbooks<br>[1] P. Oliver, Writing Your Thesis, 4th ed. London, U.K.: SAGE Publications, 2019. ISBN: 978-1526460108.<br>[2] C. George Thomas, Research Methodology and Scientific Writing, Springer, 2021.<br>2. References<br>[3] W. C. Booth, G. G. Colomb, J. M. Williams, J. Bizup, and W. T. FitzGerald, The Craft of Research, 4th ed. Chicago,&nbsp;IL, USA: University of Chicago Press, 2016. ISBN: 978-0226239736.<br>[4] J. Glasman-Deal, Science Research Writing for Non-Native Speakers of English, 2nd ed. London, U.K.: Imperial&nbsp;College Press, 2020. ISBN: 978-1783267328.<br>[5] M. Gastel and R. A. Day, How to Write and Publish a Scientific Paper, 9th ed. Cambridge, U.K.: Cambridge&nbsp;University Press, 2022. ISBN: 978-1108794492.<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Nghiên cứu sinh cần chủ động xây dựng kế hoạch nghiên cứu chi tiết, đảm bảo tiến độ hoàn thiện các thành phần cốt lõi&nbsp;của luận án, bao gồm mô hình, thuật toán hoặc hệ thống đề xuất. Việc trao đổi thường xuyên với giảng viên hướng dẫn&nbsp;và tham gia các buổi phản biện kỹ thuật là bắt buộc nhằm đảm bảo tính chặt chẽ và độ tin cậy của kết quả nghiên cứu.&nbsp;Nghiên cứu sinh phải tuân thủ các chuẩn mực đạo đức học thuật, đặc biệt trong trích dẫn tài liệu và tránh đạo văn. Đối&nbsp;với công bố quốc tế, cần lựa chọn tạp chí phù hợp với phạm vi nghiên cứu, chuẩn bị bản thảo theo đúng định dạng, và&nbsp;tích cực cải thiện chất lượng bài báo thông qua phản hồi từ giảng viên và phản biện.<br>Liêm chính học thuật và quy định sử dụng AI:<br></p><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul><p></p>",
+      "en": "<p>Doctoral candidates are expected to proactively develop a detailed research plan and ensure steady progress in&nbsp;completing the core components of their dissertation, including proposed models, algorithms, or systems. Regular&nbsp;consultation with supervisors and active participation in technical review sessions are essential to ensure the rigor and&nbsp;reliability of research outcomes. Candidates must adhere to academic integrity standards, particularly in proper&nbsp;citation practices and avoidance of plagiarism. For international publication, candidates should carefully select&nbsp;suitable journals, prepare manuscripts in accordance with required formats, and continuously improve the quality of&nbsp;their work based on feedback from supervisors and reviewers.<br>Academic Integrity and Use of AI Tools:<br></p><ul><li>Students must comply with the university's academic integrity regulations.</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation.</li><li>Students are not allowed to submit work that is wholly or substantially generated by AI.</li><li>When AI tools are used, students must clearly indicate the tool and how it was used in references or footnotes.</li><li>Any misuse of AI for academic dishonesty will be considered a violation and handled according to university regulations.</li></ul><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 1
+  },
+  "nganh": [
+    {
+      "id": 10726,
+      "ma": "NG_9480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Tiến sĩ  Dạy và học bằng tiếng Anh phương thức 1 (đã có bằng thạc sĩ) ngành Khoa học máy tính",
+        "en": "English-taught Doctoral Program - Mode 1 (with Master’s entry) in Computer Science"
+      }
+    },
+    {
+      "id": 10609,
+      "ma": "NG_9480101",
+      "ten": {
+        "vi": "Chương trình đào tạo tiến sĩ phương thức 2 (đã có bằng thạc sĩ) ngành Khoa học máy tính",
+        "en": "Doctoral Program - Mode 2 (with Master’s entry) in Computer Science"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn CO7279 - Luận án tiến sĩ - phần 4"
+    },
+    {
+      "id": -2,
+      "ma": "",
+      "ten": "Áp dụng cho toàn Khoa Khoa Khoa học và Kỹ thuật Máy tính"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 15,
+    "soTC_ETC": 30,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 15,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 750,
+    "tongGioHocTapLamViec": 675,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 675,
+    "tuHoc": 0,
+    "khac": 75
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 100,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 0,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 961,
+      "maBoMon": "GTI",
+      "tenBoMon": {
+        "vi": "Giáo Vụ Khoa Tin Học"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "028-39647256 (EXT: 7847)"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1146,
+        "maGiangVien": "002765",
+        "tenGiangVien": "PHẠM QUỐC CƯỜNG",
+        "emailGiangVien": "cuongpham@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "15_0_0_0_0",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 97517,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 97518,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "97517",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo tiến độ",
+        "en": "Progress Report"
+      },
+      "noidung": {
+        "vi": "Báo cáo tiến độ",
+        "en": "Progress Report"
+      }
+    },
+    {
+      "id": 97519,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "97517",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo cuối kỳ",
+        "en": "Final  Report"
+      },
+      "noidung": {
+        "vi": "Báo cáo cuối kỳ",
+        "en": "Final  Report"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 121691,
+      "stt": 1,
+      "buoi": "1-7",
+      "chuandaurachitiet": [
+        {
+          "id": 162788,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Định hướng cách chứng minh tính mới và tính đúng đắn. Góp ý về thiết kế thí nghiệm và so sánh với baseline. Đánh giá tính logic và chặt chẽ của lập luận khoa học.",
+            "en": "Guide validation of novelty and correctness. Provide feedback on experimental design and benchmarking. Evaluate rigor and logical consistency."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện mô phỏng/ thực nghiệm để chứng minh đóng góp. So sánh định lượng với các phương pháp hiện có. Viết chương “Đóng góp khoa học”.",
+            "en": "Conduct simulations/experiments to validate contributions. Perform quantitative comparisons with existing methods. Draft the “Scientific Contributions” chapter."
+          },
+          "chuandaura": {
+            "id": 283456,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Chứng minh đóng góp khoa học",
+              "en": "Demonstrate scientific contribution"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268635,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97518,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ",
+                  "en": "Progress Report"
+                }
+              }
+            },
+            {
+              "id": 268631,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97519,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo cuối kỳ",
+                  "en": "Final  Report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162786,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn lựa chọn phương pháp nghiên cứu phù hợp (analytical, simulation, experimental). Góp ý về mô hình toán học, kiến trúc hệ thống, và giả thiết nghiên cứu. Tổ chức các buổi phản biện kỹ thuật (technical review sessions)",
+            "en": "Advise on appropriate research methodologies (analytical, simulation, experimental). Provide feedback on mathematical models, system architectures, and assumptions. Conduct technical review sessions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện mô hình nghiên cứu và thuật toán. Xây dựng kịch bản mô phỏng hoặc thiết kế hệ thống thực nghiệm. Viết báo cáo kỹ thuật về phương pháp nghiên cứu",
+            "en": "Refine research models and algorithms. Develop simulation scenarios or experimental setups. Prepare technical reports on methodology"
+          },
+          "chuandaura": {
+            "id": 283455,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hoàn thiện phương pháp nghiên cứu",
+              "en": "Refine research methodology"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268637,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97518,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ",
+                  "en": "Progress Report"
+                }
+              }
+            },
+            {
+              "id": 268630,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97519,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo cuối kỳ",
+                  "en": "Final  Report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hoàn thiện phương pháp nghiên cứu và chứng minh đóng góp khoa học\n- Rà soát và chuẩn hóa mô hình nghiên cứu (lý thuyết, mô phỏng, thực nghiệm)\n- Hoàn thiện thuật toán, mô hình toán học hoặc thiết kế hệ thống (hardware/software)\n- Xây dựng khung đánh giá (benchmarking, dataset, kịch bản mô phỏng)\n- So sánh với các phương pháp hiện có (state-of-the-art)\n- Xác thực kết quả bằng mô phỏng, thực nghiệm hoặc prototype\n- Viết bản thảo chương “Đóng góp khoa học” trong luận án",
+        "en": "Refinement of Research Methodology and Validation of Scientific Contributions\n- Review and standardize research models (theoretical, simulation, experimental)\n- Refine algorithms, mathematical models, or system design (hardware/software)\n- Develop evaluation framework (benchmarks, datasets, simulation scenarios)\n- Compare with state-of-the-art approaches\n- Validate results via simulation, experiments, or prototype implementation\n- Draft dissertation chapter on scientific contributions"
+      }
+    },
+    {
+      "id": 121692,
+      "stt": 2,
+      "buoi": "8-13",
+      "chuandaurachitiet": [
+        {
+          "id": 162790,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn cấu trúc và chuẩn viết bài báo quốc tế. Góp ý chi tiết từng phần bản thảo. Định hướng chọn tạp chí phù hợp",
+            "en": "Guide structure and standards of international publications. Provide detailed feedback on manuscript drafts. Advise on suitable journals"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Viết hoàn chỉnh ít nhất 01 bài báo quốc tế. Chuẩn hóa hình vẽ, bảng biểu, và tài liệu tham khảo. Trau dồi kỹ năng viết học thuật bằng tiếng Anh",
+            "en": "Complete at least one international journal paper. Standardize figures, tables, and references. Improve academic writing skills in English"
+          },
+          "chuandaura": {
+            "id": 283457,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Viết bài báo quốc tế",
+              "en": "Write international journal paper"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268629,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97518,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ",
+                  "en": "Progress Report"
+                }
+              }
+            },
+            {
+              "id": 268636,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97519,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo cuối kỳ",
+                  "en": "Final  Report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162789,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn quy trình nộp bài và lựa chọn tạp chí. Hướng dẫn phản hồi phản biện",
+            "en": "Guide submission procedures and journal selection. Advise on responding to reviewers"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nộp bài báo lên tạp chí quốc tế. Chuẩn bị hồ sơ submission đầy đủ. Soạn phản hồi phản biện",
+            "en": "Submit manuscript to an international journal. Prepare complete submission package. Draft responses to reviewer comments"
+          },
+          "chuandaura": {
+            "id": 283458,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Gửi bài báo tạp chí",
+              "en": "Submit journal manuscript"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268638,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97518,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ",
+                  "en": "Progress Report"
+                }
+              }
+            },
+            {
+              "id": 268627,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97519,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo cuối kỳ",
+                  "en": "Final  Report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Viết và nộp bài báo quốc tế\n- Cấu trúc bài báo khoa học (IEEE/Elsevier/Springer)\n- Viết phần Abstract, Introduction, Related Work\n- Trình bày phương pháp và kết quả\n- Chuẩn hóa tài liệu tham khảo và đạo văn\n- Lựa chọn tạp chí/hội nghị phù hợp\n- Quy trình nộp bài\n- Phản hồi phản biện",
+        "en": "International Publication and Manuscript Submission\n- Structure of scientific papers (IEEE/Elsevier/Springer)\n- Writing Abstract, Introduction, and Related Work\n- Presenting methods and results\n- Reference management and plagiarism ethics\n- Selecting appropriate journals/conferences\n- Submission process (ScholarOne, Editorial Manager)\n- Responding to reviewer comments"
+      }
+    },
+    {
+      "id": 121690,
+      "stt": 3,
+      "buoi": "14-15",
+      "chuandaurachitiet": [
+        {
+          "id": 162791,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Tổ chức seminar và đánh giá bài trình bày. Góp ý cải thiện nội dung khoa học",
+            "en": "Organize seminars and evaluate presentations. Provide feedback on scientific content"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày bài báo và nội dung nghiên cứu. Tiếp thu góp ý và chỉnh sửa",
+            "en": "Present research and submitted papers. Incorporate feedback for improvement"
+          },
+          "chuandaura": {
+            "id": 283457,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Viết bài báo quốc tế",
+              "en": "Write international journal paper"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268628,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97518,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ",
+                  "en": "Progress Report"
+                }
+              }
+            },
+            {
+              "id": 268634,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97519,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo cuối kỳ",
+                  "en": "Final  Report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162787,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá mức độ sẵn sàng công bố. Định hướng chiến lược công bố tiếp theo",
+            "en": "Evaluate publication readiness. Advise on future publication strategy"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo tình trạng bài báo (submitted/revised). Hoàn thiện báo cáo tiến độ học phần",
+            "en": "Report manuscript status (submitted/revised). Finalize course progress report"
+          },
+          "chuandaura": {
+            "id": 283458,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Gửi bài báo tạp chí",
+              "en": "Submit journal manuscript"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268632,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97518,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ",
+                  "en": "Progress Report"
+                }
+              }
+            },
+            {
+              "id": 268633,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97519,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo cuối kỳ",
+                  "en": "Final  Report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Seminar báo cáo tiến độ và kết quả nghiên cứu\n- Trình bày tổng thể luận án\n- Trình bày bài báo đã nộp\n- Hoàn thiện báo cáo tiến độ luận án",
+        "en": "Research Seminar and Progress Presentation\n- Present dissertation overview (problem – method –results – contributions)\n- Present submitted paper(s)\n- Finalize dissertation progress report"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 283455,
+      "ma": "L.O.1.1",
+      "ten_vi": "Hoàn thiện phương pháp nghiên cứu",
+      "ten_en": "Refine research methodology",
+      "hddg": [
+        {
+          "id": 97518,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiến độ",
+          "ten_en": "Progress Report"
+        },
+        {
+          "id": 97519,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo cuối kỳ",
+          "ten_en": "Final  Report"
+        }
+      ]
+    },
+    {
+      "id": 283456,
+      "ma": "L.O.1.2",
+      "ten_vi": "Chứng minh đóng góp khoa học",
+      "ten_en": "Demonstrate scientific contribution",
+      "hddg": [
+        {
+          "id": 97518,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiến độ",
+          "ten_en": "Progress Report"
+        },
+        {
+          "id": 97519,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo cuối kỳ",
+          "ten_en": "Final  Report"
+        }
+      ]
+    },
+    {
+      "id": 283457,
+      "ma": "L.O.2.1",
+      "ten_vi": "Viết bài báo quốc tế",
+      "ten_en": "Write international journal paper",
+      "hddg": [
+        {
+          "id": 97518,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiến độ",
+          "ten_en": "Progress Report"
+        },
+        {
+          "id": 97519,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo cuối kỳ",
+          "ten_en": "Final  Report"
+        }
+      ]
+    },
+    {
+      "id": 283458,
+      "ma": "L.O.2.2",
+      "ten_vi": "Gửi bài báo tạp chí",
+      "ten_en": "Submit journal manuscript",
+      "hddg": [
+        {
+          "id": 97518,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiến độ",
+          "ten_en": "Progress Report"
+        },
+        {
+          "id": 97519,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo cuối kỳ",
+          "ten_en": "Final  Report"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Luận án tiến sĩ - phần 4",
+  "tenmonhoc_eng": "PhD Dissertation - part 4",
+  "kkt_JSON": null,
+  "phuongthucgiangday_json": [
+    {
+      "id": 4,
+      "ma": "pphtqnc",
+      "ten": {
+        "vi": "Phương pháp học tập qua nghiên cứu",
+        "en": "Research-based learning "
+      }
+    }
+  ]
+}

@@ -1,0 +1,1612 @@
+{
+  "ma": "DCMH.CO2013.6.1",
+  "phienban": "5.1",
+  "capnhat": "27/01/2026 09:22",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO2013",
+  "ten": "CO2013 - Hệ cơ sở Dữ liệu",
+  "ten_eng": "CO2013 - Database Systems",
+  "hockyapdung": "HK261",
+  "sotcgoc": 4,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học này giới thiệu các kiến thức cơ bản về hệ cơ sở dữ liệu (CSDL) bao gồm: lịch sử và động cơ phát triển của hệ cơ sở dữ liệu, kiến trúc và các thành phần của hệ cơ sở dữ liệu, các mô  hình dữ liệu luận lý và ý niệm như mô hình dữ liệu quan hệ và mô hình thực thể mối liên kết. Ngoài ra, môn học này cũng thảo luận về đại số quan hệ, ngôn ngữ SQL, nguyên lý và phương pháp thiết kế CSDL cũng như các vấn đề lưu trữ, quản lý, bảo mật CSDL với các hệ quản trị cơ sở dữ liệu để phát triển ứng dụng CSDL hiệu quả cho các hệ thống thông tin.<br></p>",
+      "en": "<p>This course is to introduce the history and motivation for development of database systems, architecture and components, conceptual and logical data models such as relational data model and entity relationship model. The course also discusses relational algebra, SQL, and database design methodologies as well as data storage, management, and security issues with database management system (DBMS) to develop database applications effectively for information systems.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>●  Lịch sử và các động cơ phát triển của hệ cơ sở dữ liệu<br>●  Kiến trúc và các thành phần của hệ cơ sở dữ liệu<br>●  Mô hình thực thể mối liên kết và các thể mở rộng của mô hình này<br>●  Mô hình dữ liệu và mô hình dữ liệu quan hệ<br>●  Đại số quan hệ và SQL<br>●  Phương pháp luận thiết kế cơ sở dữ liệu<br>●  Phụ thuộc hàm và chuẩn hóa dữ liệu<br>●  Lưu trữ, quản lý và bảo mật cơ sở dữ liệu<br>●  Ứng dụng cơ sở dữ liệu<br><br></p>",
+      "en": "<p>●  History and motivations for database systems<br>●  Architecture and components of a database systems<br>●  Entity relationship model and its extensions<br>●  Data models and relational data model<br>●  Relational algebra and SQL<br>●  Database design methodologies <br>●  Functional dependencies and data normalization<br>●  Database storage, management, and security<br>●  Database applications<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>Sách, Giáo trình chính:</b><br>[1] Fundamentals of Database Systems, 7th Edition – R. Elmasri &amp; S.B. Navathe, Addison-Wesley, 2017.<br><b>Sách tham khảo:</b><br>[1]  Relational Database Systems: Language, Conceptual, Modeling and Design for Engineers, Suphamit Chittayasothorn, 2017.<br>[2]  Database Systems – A Practical Approach to Design, Implementation, and Management, Vol. 1.3 – T. Connolly &amp; C. Begg, Addison-Wesley, 2005.<br>[3] Database Systems Concepts, 6th Edition – A. Silberschatz, H.F. Korth &amp; S. Sudarshan, McGraw-Hill, 2006.<br>[4]  Database Systems – The Complete Book, 2nd Edition – H.G. Molina, J.D. Ullman &amp; J. Widom, Prentice-Hall, 2009.<br>[5]  The Data Warehouse Toolkit, 3rd Edition – R. Kimball, M. Ross, Wiley, 2013.<br>\n\n[6] Trần Minh Quang, \"Khai Phá Dữ Liệu và Kỹ Thuật Phân Lớp\", NXB Đại Học Quốc Gia TP. HCM, 2020.\n\n<br></p>",
+      "en": "<p>\n\n<b>Main:</b><br>[1] Fundamentals of Database Systems, 7th Edition – R. Elmasri &amp; S.B. Navathe, Addison-Wesley, 2017.<br><b>Minor:</b><br>\n\n[1]  Relational Database Systems: Language, Conceptual, Modeling and Design for Engineers, Suphamit Chittayasothorn, 2017.<br>[2]  Database Systems – A Practical Approach to Design, Implementation, and Management, Vol. 1.3 – T. Connolly &amp; C. Begg, Addison-Wesley, 2005.<br>[3] Database Systems Concepts, 6th Edition – A. Silberschatz, H.F. Korth &amp; S. Sudarshan, McGraw-Hill, 2006.<br>[4]  Database Systems – The Complete Book, 2nd Edition – H.G. Molina, J.D. Ullman &amp; J. Widom, Prentice-Hall, 2009.<br>[5]  The Data Warehouse Toolkit, 3rd Edition – R. Kimball, M. Ross, Wiley, 2013.<br>\n\n[6] Trần Minh Quang, \"Khai Phá Dữ Liệu và Kỹ Thuật Phân Lớp\", NXB Đại Học Quốc Gia TP. HCM, 2020.\n\n\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p></p><ul><li>Tài liệu (slide bài giảng) được đưa lên BKeL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học.</li><li>Sinh viên cần thực hiện đầy đủ các bài tập và các bài thực hành.</li><li>Sinh viên phải đi học đầy đủ và làm bài tập trong quá trình học.</li><li>Đối với phần thực hành, sinh viên tham gia đầy đủ các buổi thí nghiệm và nộp lại báo cáo thí nghiệm theo yêu cầu của giảng viên phụ trách.</li></ul><p></p><br><p></p>",
+      "en": "<ul><li><b></b>Materials (lecture slides) are uploaded to BKeL weekly. Students download, print, and bring with them to class.</li><li>Students need to complete the exercises and practice exercises.</li><li>Students must attend school fully and do homework during their studies.</li><li>For the practical part, students fully participate in the experiment sessions and submit the experimental report at the request of the lecturer in charge.</li></ul><b></b><p><b></b></p>\n\n<p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 1242,
+      "ma": "CN_CND",
+      "ten": {
+        "vi": "Chuyên ngành: Công nghệ Dữ liệu Bảo mật và Trí tuệ Kinh doanh",
+        "en": "Data, Security Engineering an Business Intelligence Data Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1205,
+      "ma": "003178",
+      "ten": "Phan Trọng Nhân"
+    },
+    {
+      "id": 1202,
+      "ma": "002919",
+      "ten": "Võ Thị Ngọc Châu"
+    },
+    {
+      "id": 1201,
+      "ma": "002890",
+      "ten": "Trần Thị Quế Nguyệt"
+    },
+    {
+      "id": 1200,
+      "ma": "002889",
+      "ten": "Trương Quỳnh Chi"
+    },
+    {
+      "id": 1207,
+      "ma": "003183",
+      "ten": "Nguyễn Thị Ái Thảo"
+    },
+    {
+      "id": 1211,
+      "ma": "003383",
+      "ten": "Lê Thị Bảo Thu"
+    },
+    {
+      "id": 1209,
+      "ma": "003379",
+      "ten": "NGUYỄN THANH TÙNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 4,
+    "soTC_ETC": 8,
+    "lyThuyet": 3,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 1,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 200,
+    "tongGioHocTapLamViec": 181.5,
+    "lyThuyet": 45,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 30,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 105,
+    "khac": 20
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 30,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 20,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 964,
+      "maBoMon": "CDL",
+      "tenBoMon": {
+        "vi": "Hệ Thống Thông Tin"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1193,
+        "maGiangVien": "001964",
+        "tenGiangVien": "Trần Minh Quang",
+        "emailGiangVien": "quangtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "4_3_0_1_0",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 71900,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 71901,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "71900",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Tính 50% số điểm. Bài kiểm tra gồm các câu hỏi trắc nghiệm và trả lời ngắn.",
+        "en": "Account for 50% of the total score. The test consists of multi-choice questions and short writing questions."
+      }
+    },
+    {
+      "id": 71902,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "71900",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập, bài quiz, thuyết trình tại lớp",
+        "en": "Test/Quiz, presentation "
+      },
+      "noidung": {
+        "vi": "Tính 20% số điểm thông qua các bài thuyết trình theo nhóm dưới sự phân công của giảng viên.",
+        "en": "Account for 20% of the score: via in-class presentations by group under the assignment from instructors."
+      }
+    },
+    {
+      "id": 71903,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "71900",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+        "en": "Assignment in the Labs"
+      },
+      "noidung": {
+        "vi": "30% số điểm thông qua tiểu luận và các hoạt động tại phòng thí nghiệm",
+        "en": "30% of the total score via Lab activities and assignments"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 85739,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 109586,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân/nhóm",
+            "en": "- Individual/group class questions"
+          },
+          "chuandaura": {
+            "id": 182371,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Mô tả, so sánh được kiến trúc của hệ cơ sở dữ liệu và các thành phần của một hệ cơ sở dữ liệu. Nêu ra được các ứng dụng của hệ cơ sở dữ liệu",
+              "en": "Describe and compare the architecture of database systems and their components. Identify applications of database systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172676,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172675,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71902,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập, bài quiz, thuyết trình tại lớp",
+                  "en": "Test/Quiz, presentation "
+                }
+              }
+            },
+            {
+              "id": 172696,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109588,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân/nhóm",
+            "en": "- Individual/group class questions"
+          },
+          "chuandaura": {
+            "id": 182370,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích, minh họa được mô hình dữ liệu quan hệ, đại số quan hệ, SQL, các phương thức thiết kế cơ sở dữ liệu, mô hình thực thể mối liên kết, chuẩn hóa dữ liệu, cấu trúc tệp, chỉ mục",
+              "en": "Explain and illustrate the relational data model, relational algebra, SQL, database design methodologies, the Entity-Relationship model, data normalization, file structures, and indexing."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172679,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172680,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71902,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập, bài quiz, thuyết trình tại lớp",
+                  "en": "Test/Quiz, presentation "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109587,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân/nhóm",
+            "en": "- Individual/group class questions"
+          },
+          "chuandaura": {
+            "id": 182369,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích, nắm rõ được các khái niệm cơ bản: dữ liệu, mô hình dữ liệu, cơ sở dữ liệu, hệ cơ sở dữ liệu",
+              "en": "Explain and comprehend fundamental concepts: data, data models, databases, and database systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172677,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            },
+            {
+              "id": 172678,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "1.\tTổng quan về hệ cơ sở dữ liệu\n1.1.\tCác khái niệm: dữ liệu, thông tin, siêu dữ liệu\n1.2.\tHệ thống xử lý tập tin\n1.3.\tCách tiếp cận cơ sở dữ liệu\n1.4.\tMô hình dữ liệu. Các loại mô hình dữ liệu\n1.5.\tHệ quản trị cơ sở dữ liệu\n1.6.\tHệ cơ sở dữ liệu. Kiến trúc 3 mức, các thành phần, và khái niệm độc lập dữ liệu\n1.7.\tỨng dụng cơ sở dữ liệu\n1.8.\tCâu hỏi ôn tập\nYêu cầu tự học đ/v sinh viên: 8 giờ\n",
+        "en": "1. Database System Overview\n1.1. Concepts: data, information, metadata\n1.2. File handling system\n1.3. Database approach\n1.4. Data model. Types of data models\n1.5. Database management system\n1.6. Database system. 3-level architecture, components, and data independence concept\n1.7. Database Application\n1.8. Review questions\nSelf-study requirements for students: 8 hours"
+      }
+    },
+    {
+      "id": 85737,
+      "stt": 2,
+      "buoi": "2, 3",
+      "chuandaurachitiet": [
+        {
+          "id": 109584,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "- Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182373,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Thiết kế được lược đồ ý niệm dựa trên mô hình thực thể mối liên kết và các thể mở rộng của mô hình này thoả mãn các yêu cầu dữ liệu của một ứng dụng cơ sở dữ liệu cụ thể",
+              "en": " Design a conceptual schema using the entity relationship model and its extended versions in such a way that data requirements of a given database application are satisfied."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172672,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            },
+            {
+              "id": 172671,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109583,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "- Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182369,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích, nắm rõ được các khái niệm cơ bản: dữ liệu, mô hình dữ liệu, cơ sở dữ liệu, hệ cơ sở dữ liệu",
+              "en": "Explain and comprehend fundamental concepts: data, data models, databases, and database systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172670,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            },
+            {
+              "id": 172669,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2.\tMô hình thực thể mối liên kết\n2.1.\tCác bước phát triển cơ sở dữ liệu\n2.2.\tMô hình hóa dữ liệu ý niệm\n2.3.\tMô hình thực thể mối liên kết\n2.4.\tMô hình thực thể mối liên kết mở rộng\n2.5.\tCâu hỏi và bài tập ôn tập\nYêu cầu tự học đ/v sinh viên: 8 giờ\n",
+        "en": "2. Relationship entity model\n2.1. Database development steps\n2.2. Modeling conceptual data\n2.3. Relationship entity model\n2.4. Extended Association Entity Model\n2.5. Questions and practice exercises\nSelf-study requirements for students: 8 hours"
+      }
+    },
+    {
+      "id": 85742,
+      "stt": 3,
+      "buoi": "4, 5",
+      "chuandaurachitiet": [
+        {
+          "id": 109593,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "- Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182374,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phát triển được một lược đồ quan hệ từ lược đồ ý niệm đã được phát triển với mô hình thực thể mối liên kết và các thể mở rộng của mô hình này",
+              "en": "Develop a relational schema from a conceptual schema which is designed using the entity relationship model and its extended versions"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172690,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            },
+            {
+              "id": 172689,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109592,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "- Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182370,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích, minh họa được mô hình dữ liệu quan hệ, đại số quan hệ, SQL, các phương thức thiết kế cơ sở dữ liệu, mô hình thực thể mối liên kết, chuẩn hóa dữ liệu, cấu trúc tệp, chỉ mục",
+              "en": "Explain and illustrate the relational data model, relational algebra, SQL, database design methodologies, the Entity-Relationship model, data normalization, file structures, and indexing."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172688,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71902,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập, bài quiz, thuyết trình tại lớp",
+                  "en": "Test/Quiz, presentation "
+                }
+              }
+            },
+            {
+              "id": 172687,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "3.\tMô hình dữ liệu quan hệ\n3.1.\tCác khái niệm: miền, tích Descartes, thuộc tính\n3.2.\tLược đồ quan hệ. Quan hệ\n3.3.\tBiến đổi lược đồ thực thể mối liên kết ở mức ý niệm thành các quan hệ\n3.4.\tĐại số quan hệ\n3.5.\tCâu hỏi và bài tập ôn tập\nYêu cầu tự học đ/v sinh viên: 16 giờ\n",
+        "en": "3. Relational Data Model\n3.1. Concepts: domain, Cartesian product, attribute\n3.2. Relationship diagram. Relationship\n3.3. Converting entity relationship diagram at the conceptual level into relations\n3.4. Relational Algebra\n3.5. Questions and practice exercises\nSelf-study requirements for students: 16 hours"
+      }
+    },
+    {
+      "id": 85741,
+      "stt": 4,
+      "buoi": "6, 7, 8",
+      "chuandaurachitiet": [
+        {
+          "id": 109589,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "- Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182377,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Viết được các câu lệnh định nghĩa và thao tác (truy vấn, thêm mới, xóa, và cập nhật) dữ liệu cũng như các thủ tục/hàm/trigger xử lý với ngôn ngữ SQL",
+              "en": "Write Data Definition Language (DDL) and Data Manipulation Language (DML) statements—including queries, insertions, deletions, and updates—as well as stored procedures, functions, and triggers using SQL."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172682,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172681,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109591,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết",
+            "en": "Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182379,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Sử dụng các kỹ thuật bảo mật cơ bản như phân quyền và quản lý người dùng trên nền tảng một hệ quản trị cơ sở dữ liệu sẵn có",
+              "en": "Apply basic security techniques such as authorization and user management on an existing database management system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172685,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172686,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109590,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết ",
+            "en": "Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182378,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Hiện thực và quản lý cơ sở dữ liệu cho các ứng dụng cơ sở dữ liệu trên nền tảng một hệ quản trị cơ sở dữ liệu sẵn có",
+              "en": "Implement and manage databases for database applications using an existing database management system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172683,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172684,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4.\tNgôn ngữ SQL\n4.1.\tNgôn ngữ SQL\n4.2.\tCác lệnh định nghĩa dữ liệu (DDL)\n4.3.\tCác lệnh thao tác dữ liệu (DML)\n4.4.\tCác lệnh điều khiển (DCL)\n4.5.\tHàm\n4.6.\tThủ tục\n4.7.\tChương trình kích khởi (trigger)\n4.8.\tCâu hỏi và bài tập ôn tập\nYêu cầu tự học đ/v sinh viên: 16 giờ\n",
+        "en": "4. SQL language\n4.1. SQL language\n4.2. Data definition language (DDL) statements\n4.3. Data manipulation language (DML) statements\n4.4. Data Control language (DCL) statements\n4.5. Function\n4.6. Procedure\n4.7. Trigger\n4.8. Questions and practice exercises\nSelf-study requirements for students: 16 hours"
+      }
+    },
+    {
+      "id": 85743,
+      "stt": 5,
+      "buoi": "9, 10",
+      "chuandaurachitiet": [
+        {
+          "id": 109594,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": " - Giảng lý thuyết",
+            "en": "- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "- Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182381,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phối hợp với các thành viên trong nhóm để phân tích tính hữu dụng, hiệu năng, bảo mật và các ràng buộc về tài nguyên và công nghệ",
+              "en": "Coordinate with team members to analyze usability, performance, security, and resource/technological constraints"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172691,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172692,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109595,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết",
+            "en": "\n- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo nhóm",
+            "en": "\n- Questions and exercises in class in groups"
+          },
+          "chuandaura": {
+            "id": 182375,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Xác định được các phụ thuộc hàm của một quan hệ và xác định được khóa của một quan hệ với một tập phụ thuộc hàm cho trước. Xác định được dạng chuẩn (1NF, 2NF, 3NF, BCNF) của một quan hệ dựa trên khóa chính và tập phụ thuộc hàm cho trước",
+              "en": "Determine the functional dependencies of a relation and identify its keys based on a given set of functional dependencies. Determine the normal form (1NF, 2NF, 3NF, BCNF) of a relation based on its primary key and a given set of functional dependencies."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172693,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172694,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "5.\tPhương pháp thiết kế cơ sở dữ liệu\n5.1.\tHướng dẫn thiết kết lược đồ cơ sở dữ liệu quan hệ\n5.2.\tPhụ thuộc hàm\n5.3.\tCác dạng chuẩn dựa trên khóa chính\n5.4.\tDạng chuẩn Boyce-Codd\n5.5.\tCác đặc điểm phân rã lược đồ quan hệ\n5.6.\tCác giải thuật thiết kế lược đồ cơ sở dữ liệu quan hệ\n5.7.\tCâu hỏi và bài tập ôn tập\nYêu cầu tự học đ/v sinh viên: 16 giờ\n",
+        "en": "5. Database Design Methods\n5.1. Guidelines for designing relational database schemas\n5.2. Functional dependency\n5.3. Normal forms based on primary key\n5.4. Boyce-Codd normal form\n5.5. Relational schema decomposition features\n5.6. Relational database schema design algorithms\n5.7. Questions and practice exercises\nSelf-study requirements for students: 16 hours"
+      }
+    },
+    {
+      "id": 85736,
+      "stt": 6,
+      "buoi": "11, 12",
+      "chuandaurachitiet": [
+        {
+          "id": 109582,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n\n\n",
+            "en": "\n- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân/nhóm",
+            "en": "- Individual/group class questions"
+          },
+          "chuandaura": {
+            "id": 182370,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích, minh họa được mô hình dữ liệu quan hệ, đại số quan hệ, SQL, các phương thức thiết kế cơ sở dữ liệu, mô hình thực thể mối liên kết, chuẩn hóa dữ liệu, cấu trúc tệp, chỉ mục",
+              "en": "Explain and illustrate the relational data model, relational algebra, SQL, database design methodologies, the Entity-Relationship model, data normalization, file structures, and indexing."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172667,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172668,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109581,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết ",
+            "en": "- Lectures on theory "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân/nhóm",
+            "en": "- Individual/group class questions"
+          },
+          "chuandaura": {
+            "id": 182382,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Xác định, đánh giá sự phù hợp và hiệu quả của cách tiếp cận cơ sở dữ liệu, các mô hình dữ liệu và hệ quản trị cơ sở dữ liệu cho các ứng dụng trong một hệ thống thông tin",
+              "en": "Identify and evaluate the suitability and effectiveness of database approaches, data models, and database management systems for applications within an information system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172666,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 172695,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "6.\tLưu trữ và quản lý cơ sở dữ liệu\n6.1.\tLưu trữ dữ liệu vật lý\n6.2.\tCác kỹ thuật đánh chỉ mục dữ liệu\n6.3.\tCác cách tiếp cận quản lý dữ liệu phức tạp (dữ liệu bán cấu trúc và dữ liệu phi cấu trúc)\n6.4.\tCác cách tiếp cận quản lý dữ liệu siêu lớn\n6.5.\tCác vấn đề về chất lượng dữ liệu: khả tin cậy, khả co giãn theo qui mô dữ liệu, hiệu suất, và hiệu quả \n6.6.\tCâu hỏi ôn tập\nYêu cầu tự học đ/v sinh viên: 16 giờ\n",
+        "en": "6. Database storage and management\n6.1. Physical data storage\n6.2. Data indexing techniques\n6.3. Complex data management approaches (semi-structured and unstructured data)\n6.4. Approaches to managing super big data\n6.5. Data quality issues: reliability, scalability, performance, and efficiency\n6.6. Review questions\nSelf-study requirements for students: 16 hours"
+      }
+    },
+    {
+      "id": 85738,
+      "stt": 7,
+      "buoi": "13, 14",
+      "chuandaurachitiet": [
+        {
+          "id": 109585,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n\n\n\n\n",
+            "en": "\n- Lectures on theory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm",
+            "en": "\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 182379,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Sử dụng các kỹ thuật bảo mật cơ bản như phân quyền và quản lý người dùng trên nền tảng một hệ quản trị cơ sở dữ liệu sẵn có",
+              "en": "Apply basic security techniques such as authorization and user management on an existing database management system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172673,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71903,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+                  "en": "Assignment in the Labs"
+                }
+              }
+            },
+            {
+              "id": 172674,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71901,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "7.\tBảo mật cơ sở dữ liệu\n7.1.\tĐiều khiển truy xuất cơ sở dữ liệu theo cơ chế DAC & MAC\n7.2.\tĐiều khiển dòng thông tin và bài toán suy diễn thông tin\n7.3.\tNhững vấn đề bảo mật trong các hệ quản trị dữ liệu mới\n7.4.\tCâu hỏi và bài tập ôn tập\nYêu cầu tự học đ/v sinh viên: 16 giờ\n",
+        "en": "7. Database security\n7.1. Controlling database access by DAC & MAC\n7.2. Information flow control and information inference problem\n7.3. Security issues in new data management systems\n7.4. Questions and practice exercises\nSelf-study requirements for students: 16 hours"
+      }
+    },
+    {
+      "id": 85740,
+      "stt": 8,
+      "buoi": "15",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "8.\tÔn tập\n8.1.\tNhững công nghệ cơ sở dữ liệu mới\n8.2.\tNhững ứng dụng cơ sở dữ liệu mới\n8.3.\tNhững hướng nghiên cứu mới về cơ sở dữ liệu và hệ thống thống tin\n8.4.\tÔn tập cuối kỳ\n",
+        "en": "8. Reviewing\n8.1. New database technologies\n8.2. New Database Applications\n8.3. New research directions on databases and information systems\n8.4. Final review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 182369,
+      "ma": "L.O.1.1",
+      "ten_vi": "Giải thích, nắm rõ được các khái niệm cơ bản: dữ liệu, mô hình dữ liệu, cơ sở dữ liệu, hệ cơ sở dữ liệu",
+      "ten_en": "Explain and comprehend fundamental concepts: data, data models, databases, and database systems.",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182370,
+      "ma": "L.O.1.2",
+      "ten_vi": "Giải thích, minh họa được mô hình dữ liệu quan hệ, đại số quan hệ, SQL, các phương thức thiết kế cơ sở dữ liệu, mô hình thực thể mối liên kết, chuẩn hóa dữ liệu, cấu trúc tệp, chỉ mục",
+      "ten_en": "Explain and illustrate the relational data model, relational algebra, SQL, database design methodologies, the Entity-Relationship model, data normalization, file structures, and indexing.",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71902,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập, bài quiz, thuyết trình tại lớp",
+          "ten_en": "Test/Quiz, presentation "
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182371,
+      "ma": "L.O.1.3",
+      "ten_vi": "Mô tả, so sánh được kiến trúc của hệ cơ sở dữ liệu và các thành phần của một hệ cơ sở dữ liệu. Nêu ra được các ứng dụng của hệ cơ sở dữ liệu",
+      "ten_en": "Describe and compare the architecture of database systems and their components. Identify applications of database systems.",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71902,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập, bài quiz, thuyết trình tại lớp",
+          "ten_en": "Test/Quiz, presentation "
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182373,
+      "ma": "L.O.2.1",
+      "ten_vi": "Thiết kế được lược đồ ý niệm dựa trên mô hình thực thể mối liên kết và các thể mở rộng của mô hình này thoả mãn các yêu cầu dữ liệu của một ứng dụng cơ sở dữ liệu cụ thể",
+      "ten_en": " Design a conceptual schema using the entity relationship model and its extended versions in such a way that data requirements of a given database application are satisfied.",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182374,
+      "ma": "L.O.2.2",
+      "ten_vi": "Phát triển được một lược đồ quan hệ từ lược đồ ý niệm đã được phát triển với mô hình thực thể mối liên kết và các thể mở rộng của mô hình này",
+      "ten_en": "Develop a relational schema from a conceptual schema which is designed using the entity relationship model and its extended versions",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182375,
+      "ma": "L.O.2.3",
+      "ten_vi": "Xác định được các phụ thuộc hàm của một quan hệ và xác định được khóa của một quan hệ với một tập phụ thuộc hàm cho trước. Xác định được dạng chuẩn (1NF, 2NF, 3NF, BCNF) của một quan hệ dựa trên khóa chính và tập phụ thuộc hàm cho trước",
+      "ten_en": "Determine the functional dependencies of a relation and identify its keys based on a given set of functional dependencies. Determine the normal form (1NF, 2NF, 3NF, BCNF) of a relation based on its primary key and a given set of functional dependencies.",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182377,
+      "ma": "L.O.3.1",
+      "ten_vi": "Viết được các câu lệnh định nghĩa và thao tác (truy vấn, thêm mới, xóa, và cập nhật) dữ liệu cũng như các thủ tục/hàm/trigger xử lý với ngôn ngữ SQL",
+      "ten_en": "Write Data Definition Language (DDL) and Data Manipulation Language (DML) statements—including queries, insertions, deletions, and updates—as well as stored procedures, functions, and triggers using SQL.",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182378,
+      "ma": "L.O.3.2",
+      "ten_vi": "Hiện thực và quản lý cơ sở dữ liệu cho các ứng dụng cơ sở dữ liệu trên nền tảng một hệ quản trị cơ sở dữ liệu sẵn có",
+      "ten_en": "Implement and manage databases for database applications using an existing database management system",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182379,
+      "ma": "L.O.3.3",
+      "ten_vi": "Sử dụng các kỹ thuật bảo mật cơ bản như phân quyền và quản lý người dùng trên nền tảng một hệ quản trị cơ sở dữ liệu sẵn có",
+      "ten_en": "Apply basic security techniques such as authorization and user management on an existing database management system",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182381,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phối hợp với các thành viên trong nhóm để phân tích tính hữu dụng, hiệu năng, bảo mật và các ràng buộc về tài nguyên và công nghệ",
+      "ten_en": "Coordinate with team members to analyze usability, performance, security, and resource/technological constraints",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    },
+    {
+      "id": 182382,
+      "ma": "L.O.4.2",
+      "ten_vi": "Xác định, đánh giá sự phù hợp và hiệu quả của cách tiếp cận cơ sở dữ liệu, các mô hình dữ liệu và hệ quản trị cơ sở dữ liệu cho các ứng dụng trong một hệ thống thông tin",
+      "ten_en": "Identify and evaluate the suitability and effectiveness of database approaches, data models, and database management systems for applications within an information system",
+      "hddg": [
+        {
+          "id": 71901,
+          "ma": "A.O.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 71903,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận trong phần thực hành tại Lab",
+          "ten_en": "Assignment in the Labs"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Hệ cơ sở Dữ liệu",
+  "tenmonhoc_eng": "Database Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

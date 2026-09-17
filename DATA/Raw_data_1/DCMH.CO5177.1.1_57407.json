@@ -1,0 +1,1615 @@
+{
+  "ma": "DCMH.CO5177.1.1",
+  "phienban": "1.1",
+  "capnhat": "11/09/2026 14:23",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO5177",
+  "ten": "CO5177 - Nền tảng lập trình cho phân tích và trực quan dữ liệu",
+  "ten_eng": "CO5177 - Programming Foundation for Data Analytics and Visualization",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Học phần trang bị cho học viên sau đại học năng lực lập trình cấp độ nghiên cứu để thực hiện toàn bộ vòng đời phân tích và trực quan hóa dữ liệu phục vụ luận văn/luận án. Trọng tâm không chỉ là viết được mã, mà là xây dựng quy trình phân tích tái lập được (reproducible research) - điều đã trở thành yêu cầu bắt buộc trong công bố khoa học hiện đại.<br>Học viên làm chủ hệ sinh thái dữ liệu Python (pandas/Polars, SQL/DuckDB, NumPy/Arrow), trực quan hóa chất lượng xuất bản và tương tác, các thực hành kỹ thuật phần mềm cho nghiên cứu (Git, quản lý môi trường, container, kiểm thử, versioning dữ liệu, experiment tracking), đồng thời học cách sử dụng trợ lý lập trình AI và LLM một cách có phê phán và có trách nhiệm.<br></p>",
+      "en": "<p>This course equips postgraduate students with research-grade programming skills to carry out the full data analytics and visualization lifecycle in support of their thesis or dissertation work. The emphasis is not merely on writing code, but on building reproducible-research workflows - now a baseline requirement in modern scientific publishing.<br>Students master the Python data ecosystem (pandas/Polars, SQL/DuckDB, NumPy/Arrow), publication-quality and interactive visualization, and software-engineering practices for research (Git, environment management, containers, testing, data versioning, experiment tracking), while learning to use AI coding assistants and LLMs critically and responsibly.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Học phần gồm bốn mạch chính: (1) lập trình Python cho dữ liệu và xử lý dữ liệu bảng ở quy mô lớn (pandas, Polars, SQL/DuckDB); (2) phân tích khám phá dữ liệu (EDA) nghiêm ngặt về thống kê và trực quan hóa chất lượng xuất bản &amp; tương tác; (3) quy trình nghiên cứu tái lập (Git, môi trường/container, Quarto, versioning dữ liệu, experiment tracking) và xây dựng data app; (4) sử dụng AI/LLM có phê phán cùng đạo đức và quản trị dữ liệu.<br></p>",
+      "en": "<p>The course covers four main threads: (1) Python programming for data and large-scale tabular-data processing (pandas, Polars, SQL/DuckDB); (2) statistically rigorous exploratory data analysis (EDA) and publication-quality &amp; interactive visualization; (3) reproducible-research workflows (Git, environments/containers, Quarto, data versioning, experiment tracking) and building data apps; and (4) critical use of AI/LLMs together with data ethics and governance.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>Giáo trình:</b></p><blockquote><p>●  Wes McKinney, Python for Data Analysis, 3rd ed. (O'Reilly, 2023)</p><p>●  Claus O. Wilke, Fundamentals of Data Visualization (O'Reilly, 2019)</p></blockquote><p><b></b></p><p><b>Tài liệu tham khảo:</b></p><blockquote><p>●  Tài liệu chính thức: pandas, Polars, DuckDB, NumPy/Arrow, Altair/Vega-Lite, Plotly, Streamlit, Quarto.</p><p>●  Jeroen Janssens &amp; Thijs Nieuwdorp, Python Polars: The Definitive Guide (O'Reilly, 2025).</p><p>●  Mark Needham, Michael Hunger &amp; Michael Simons, DuckDB in Action (Manning, 2024).</p><p>●  Cole Nussbaumer Knaflic, Storytelling with Data&nbsp;(O'Reilly, 2019).</p><p>●  Wilson et al., Good Enough Practices in Scientific Computing.</p></blockquote><p><b></b><b><br></b></p>",
+      "en": "<p></p><p><b>Giáo trình:</b></p><blockquote><p>●  Wes McKinney, Python for Data Analysis, 3rd ed. (O'Reilly, 2023)</p><p>●  Claus O. Wilke, Fundamentals of Data Visualization (O'Reilly, 2019)</p></blockquote><p><b></b></p><p><b>References:</b></p><blockquote><p>●  Tài liệu chính thức: pandas, Polars, DuckDB, NumPy/Arrow, Altair/Vega-Lite, Plotly, Streamlit, Quarto.</p><p>●  Jeroen Janssens &amp; Thijs Nieuwdorp, Python Polars: The Definitive Guide (O'Reilly, 2025).</p><p>●  Mark Needham, Michael Hunger &amp; Michael Simons, DuckDB in Action (Manning, 2024).</p><p>●  Cole Nussbaumer Knaflic, Storytelling with Data (O'Reilly, 2019).</p><p>●  Wilson et al., Good Enough Practices in Scientific Computing.</p></blockquote><p></p><br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><ul><li>Tài liệu học tập gồm: đề cương môn học, slide bài giảng, bộ lab notebook được lưu trữ trên hệ thống quản lý học liệu của khoa/trường. Học viên cần tải về, xem trước khi lên lớp và mang theo máy tính cá nhân đã cài sẵn môi trường (Python, Git và các thư viện cần thiết) để thực hành ngay tại lớp.</li><li>Bên cạnh tài liệu được cung cấp, học viên nên chủ động tìm thêm tài liệu liên quan từ Internet: tài liệu chính thức của các thư viện, chương trình/notebook mẫu, các tập dữ liệu mở (Kaggle, Hugging Face) và các mô hình tiền huấn luyện cho văn bản/hình ảnh khi cần cho đồ án. Việc dùng trợ lý lập trình AI/LLM được khuyến khích nhưng phải có phê phán - luôn kiểm chứng, hiểu rõ và ghi nguồn kết quả do AI sinh ra.</li><li>Học viên cần tham gia đầy đủ các buổi học và tích cực trao đổi, đặt câu hỏi trên lớp để làm rõ các vấn đề.</li><li>Ngoài giờ lên lớp, học viên nên nghiên cứu kỹ tài liệu, lập trình và thực hành nhiều hơn, duy trì kho mã (repository) một cách có tổ chức và tái lập được, đồng thời hoàn thành đầy đủ bài tập và đồ án gắn với chủ đề nghiên cứu của mình.</li></ul><p></p><p></p><ul><li>Liêm chính học thuật và sử dụng công cụ AI:<br>+ Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.<br>+ Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.<br>+ Khi có sử dụng AI trong quá trình lâm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.<br>+ Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul>",
+      "en": "<p></p><ul><li>Course materials - the syllabus, lecture slides, the lab notebooks are hosted on the faculty/university learning-management server. Students should download and review them before class, and bring a personal laptop with the environment pre-installed (Python, Git, and the required libraries) to practice during class.</li><li>Beyond the provided materials, students are encouraged to seek additional resources online: official library documentation, sample programs/notebooks, open datasets (Kaggle, Hugging Face), and pretrained text/image models when needed for the project. Using AI/LLM coding assistants is encouraged, but must be done critically - always verify, understand, and attribute AI-generated output.</li><li>Students should attend all sessions and actively discuss and ask questions in class to clarify concepts.</li><li>Outside class, students should study the materials carefully, program and practice more, maintain their repository in an organized and reproducible way, and complete all exercises and the research-linked project in full.</li></ul><ul><li>Academic Integrity and use of AI tools:<br>+ Students must comply with the university’ s academic integrity regulations.<br>+ The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.<br>+ When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.<br>+ Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</li></ul><p><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1392,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho trương trình đào tạo toàn khóa",
+        "en": "Áp dụng cho trương trình đào tạo toàn khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn CO5177 - Nền tảng lập trình cho phân tích và trực quan dữ liệu"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 21,
+        "ma": "TN2",
+        "text": {
+          "vi": "Trắc nghiệm (chấm máy)",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 40,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": null,
+  "chmh_mau": "3_2_0.4_0_0.6_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 97473,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 97474,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "97473",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Exercise"
+      },
+      "noidung": {
+        "vi": "Trắc nghiệm, thực hành coding",
+        "en": "Quiz, coding practice"
+      }
+    },
+    {
+      "id": 97475,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "97473",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Project nhóm, thuyết trình",
+        "en": "Group project, Presentation"
+      }
+    },
+    {
+      "id": 97476,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "97473",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 121632,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 162638,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, Live coding",
+            "en": "Lecture, live coding"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Cài đặt môi trường, thực hành Git cơ bản, làm bài tập Python ngắn tại lớp.",
+            "en": "Set up the environment, practice basic Git, complete short in-class Python exercises."
+          },
+          "chuandaura": {
+            "id": 260485,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "L.O.1 - Phát triển các đoạn mã Python sạch, tái lập được và xây dựng pipeline dữ liệu bảng end-to-end: nạp, làm sạch, biến đổi và truy vấn dữ liệu.",
+              "en": "L.O.1 - Develop clean, reproducible Python and build end-to-end tabular-data pipelines: load, clean, transform, and query data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268251,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268262,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268237,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162636,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, live coding",
+            "en": "Lecture, live coding"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Cài đặt môi trường, thực hành Git cơ bản, làm bài tập Python ngắn tại lớp.",
+            "en": "Set up the environment, practice basic Git, complete short in-class Python exercises."
+          },
+          "chuandaura": {
+            "id": 260597,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "L.O.3 - Thiết lập quy trình reproducible research và xây data app/báo cáo tái lập để chia sẻ kết quả.",
+              "en": "L.O.3 - Establish reproducible-research workflows and build data apps / reproducible reports to share results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268244,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268236,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268277,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nền tảng & toolchain + Python cho nghiên cứu: vòng đời dữ liệu, khủng hoảng tái lập; cài đặt toolchain ((Python, uv, Git, VS Code, Colab/Jupyter/Marimo); Python idiomatic, type hints, hàm thuần, clean code.",
+        "en": "Foundations & toolchain + Python for research: the data lifecycle, the reproducibility crisis; setting up the toolchain (Python, uv, Git, VS Code, Colab/Jupyter/Marimo); idiomatic Python, type hints, pure functions, clean code."
+      }
+    },
+    {
+      "id": 121623,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 162634,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Live-coding pandas & tidy data; giải thích làm sạch, join, reshape, groupby.",
+            "en": "Live-coding pandas & tidy data; explaining cleaning, joins, reshaping, groupby."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thành notebook xử lý dữ liệu bảng.",
+            "en": "Complete a tabular-data notebook."
+          },
+          "chuandaura": {
+            "id": 260485,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "L.O.1 - Phát triển các đoạn mã Python sạch, tái lập được và xây dựng pipeline dữ liệu bảng end-to-end: nạp, làm sạch, biến đổi và truy vấn dữ liệu.",
+              "en": "L.O.1 - Develop clean, reproducible Python and build end-to-end tabular-data pipelines: load, clean, transform, and query data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268259,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268260,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268270,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Dữ liệu bảng với pandas: NumPy & tư duy vector hóa; pandas nạp/chọn/dtypes; nguyên tắc tidy data; làm sạch, xử lý thiếu, join, reshape, groupby.",
+        "en": "Tabular data with pandas: NumPy & vectorized thinking; pandas loading/selection/dtypes; tidy-data principles; cleaning, missing values, joins, reshaping, groupby."
+      }
+    },
+    {
+      "id": 121624,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 162644,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Demo Polars (lazy) và DuckDB; đối chiếu với pandas; phân tích khi nào dùng công cụ nào.",
+            "en": "Demo Polars (lazy) and DuckDB; contrast with pandas; when to use which."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Chuyển một pipeline pandas sang Polars; viết truy vấn SQL trên file với DuckDB.",
+            "en": "Port a pandas pipeline to Polars; write SQL queries over files with DuckDB."
+          },
+          "chuandaura": {
+            "id": 260485,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "L.O.1 - Phát triển các đoạn mã Python sạch, tái lập được và xây dựng pipeline dữ liệu bảng end-to-end: nạp, làm sạch, biến đổi và truy vấn dữ liệu.",
+              "en": "L.O.1 - Develop clean, reproducible Python and build end-to-end tabular-data pipelines: load, clean, transform, and query data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268245,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268272,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268261,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "DataFrame & SQL: Polars + Arrow; xử lý dữ liệu lớn hơn RAM; SQL cho phân tích với DuckDB.",
+        "en": "SQL & dataframes: Polars + Arrow; larger-than-memory data; analytical SQL with DuckDB."
+      }
+    },
+    {
+      "id": 121625,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 162635,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng EDA & cạm bẫy thống kê; demo profiling; thảo luận các ca lỗi.",
+            "en": "Lecture on EDA & statistical pitfalls; profiling demo; discuss failure cases."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện EDA trên một tập dữ liệu; nhận diện cạm bẫy; chuẩn bị đề xuất chủ đề đồ án.",
+            "en": "Run EDA on a dataset; spot pitfalls; prepare the project topic proposal."
+          },
+          "chuandaura": {
+            "id": 260486,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "L.O.2 - Thực hiện EDA nghiêm ngặt về thống kê và thiết kế trực quan hóa chất lượng xuất bản & tương tác để diễn giải, trình bày dữ liệu.",
+              "en": "L.O.2 - Perform statistically rigorous EDA and design publication-quality and interactive visualizations to interpret and present data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268263,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268246,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268252,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "EDA chuyên sâu: profiling, phân phối, tương quan, ngoại lệ; cạm bẫy thống kê - nghịch lý Simpson, confounding, data leakage, multiple testing; EDA tái lập.",
+        "en": "In-depth EDA: profiling, distributions, correlations, outliers; statistical pitfalls - Simpson's paradox, confounding, data leakage, multiple testing; reproducible EDA."
+      }
+    },
+    {
+      "id": 121626,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 162640,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng grammar of graphics & nguyên tắc trực quan; live-coding matplotlib/seaborn; critique figure.",
+            "en": "Lecture on grammar of graphics & visual principles; live-coding matplotlib/seaborn; figure critique."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Dựng figure chất lượng xuất bản, xuất vector; tự phê bình theo checklist.",
+            "en": "Build publication-quality figures, export vectors; self-critique against a checklist."
+          },
+          "chuandaura": {
+            "id": 260486,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "L.O.2 - Thực hiện EDA nghiêm ngặt về thống kê và thiết kế trực quan hóa chất lượng xuất bản & tương tác để diễn giải, trình bày dữ liệu.",
+              "en": "L.O.2 - Perform statistically rigorous EDA and design publication-quality and interactive visualizations to interpret and present data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268253,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268271,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268254,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trực quan hóa I - chất lượng xuất bản: grammar of graphics; matplotlib/seaborn; nguyên tắc cảm nhận, màu, khả năng tiếp cận; figure cho paper.",
+        "en": "Visualization I - publication quality: grammar of graphics; matplotlib/seaborn; perception, color, and accessibility principles; figures for papers."
+      }
+    },
+    {
+      "id": 121627,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 162645,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Demo Plotly/Altair và data app Streamlit; hướng dẫn linked/faceted views.",
+            "en": "Demo Plotly/Altair and a Streamlit data app; guide linked/faceted views."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xây một dashboard/data app nhỏ từ dữ liệu của mình.",
+            "en": "Build a small dashboard/data app from their own data."
+          },
+          "chuandaura": {
+            "id": 260486,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "L.O.2 - Thực hiện EDA nghiêm ngặt về thống kê và thiết kế trực quan hóa chất lượng xuất bản & tương tác để diễn giải, trình bày dữ liệu.",
+              "en": "L.O.2 - Perform statistically rigorous EDA and design publication-quality and interactive visualizations to interpret and present data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268255,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268274,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268256,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162633,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Demo Plotly/Altair và data app Streamlit; hướng dẫn linked/faceted views.",
+            "en": "Demo Plotly/Altair and a Streamlit data app; guide linked/faceted views."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xây một dashboard/data app nhỏ từ dữ liệu của mình.",
+            "en": "Build a small dashboard/data app from their own data."
+          },
+          "chuandaura": {
+            "id": 260597,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "L.O.3 - Thiết lập quy trình reproducible research và xây data app/báo cáo tái lập để chia sẻ kết quả.",
+              "en": "L.O.3 - Establish reproducible-research workflows and build data apps / reproducible reports to share results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268275,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268247,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268257,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trực quan hóa II - tương tác & data app: Plotly & Altair/Vega-Lite; faceting, linked/brushed views; xây data app/dashboard (Streamlit/Gradio) để chia sẻ kết quả.",
+        "en": "Visualization II - interactive & data apps: Plotly & Altair/Vega-Lite; faceting, linked/brushed views; building data apps/dashboards (Streamlit/Gradio) to share results."
+      }
+    },
+    {
+      "id": 121628,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 162637,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn Git workflow, môi trường/Docker, Quarto, DVC, kiểm thử, experiment tracking; review cấu trúc repo.",
+            "en": "Walk through Git workflow, environments/Docker, Quarto, DVC, testing, experiment tracking; review repo structure."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tổ chức repo đồ án theo chuẩn tái lập; viết test và báo cáo Quarto.",
+            "en": "Organize the project repo to reproducibility standards; write tests and a Quarto report."
+          },
+          "chuandaura": {
+            "id": 260597,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "L.O.3 - Thiết lập quy trình reproducible research và xây data app/báo cáo tái lập để chia sẻ kết quả.",
+              "en": "L.O.3 - Establish reproducible-research workflows and build data apps / reproducible reports to share results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268258,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268276,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268278,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Reproducible research toolkit: Git/GitHub workflow; môi trường (uv/conda) & giới thiệu Docker; versioning dữ liệu (DVC); Quarto (notebook → paper); kiểm thử code phân tích; experiment tracking (MLflow/W&B, mức giới thiệu).",
+        "en": "Reproducible-research toolkit: Git/GitHub workflow; environments (uv/conda) & an introduction to Docker; data versioning (DVC); Quarto (notebook → paper); testing analysis code; experiment tracking (MLflow/W&B, introductory level)."
+      }
+    },
+    {
+      "id": 121629,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 162639,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Demo nạp dữ liệu API/web & xử lý dữ liệu lớn với DuckDB; trích xuất bằng LLM và cách kiểm chứng.",
+            "en": "Demo API/web ingestion & large-data processing with DuckDB; LLM extraction and how to verify it."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thu thập & xử lý dữ liệu thực; thử trích xuất bằng LLM rồi kiểm chứng kết quả.",
+            "en": "Collect & process real data; try LLM extraction, then verify the results."
+          },
+          "chuandaura": {
+            "id": 260573,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "L.O.4 - Đánh giá phê phán đầu ra của AI/LLM và phân tích các vấn đề đạo đức, quản trị dữ liệu trong nghiên cứu.",
+              "en": "L.O.4 - Evaluate critically AI/LLM output and analyze ethical and data-governance issues (bias, FAIR, sensitive data, PDPD/GDPR) in research."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268239,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268264,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268248,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Dữ liệu thực & LLM trong nghiên cứu: API/web, xử lý text & ngày tháng, dữ liệu bán cấu trúc; xử lý dữ liệu lớn với DuckDB; trích xuất có cấu trúc bằng LLM và cách kiểm chứng.",
+        "en": "Real-world data & LLMs in research: APIs/web, text & date handling, semi-structured data; large-data processing with DuckDB; structured extraction with LLMs and how to verify it."
+      }
+    },
+    {
+      "id": 121630,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 162642,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng FAIR/RDM/dữ liệu nhạy cảm, đạo đức AI; hướng dẫn data storytelling.",
+            "en": "Lecture on FAIR/RDM/sensitive data, AI ethics; guide data storytelling."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Viết phần đạo đức/quản trị dữ liệu cho đồ án; dựng narrative từ figure.",
+            "en": "Write the ethics/data-governance part of the project; craft a narrative from figures."
+          },
+          "chuandaura": {
+            "id": 260573,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "L.O.4 - Đánh giá phê phán đầu ra của AI/LLM và phân tích các vấn đề đạo đức, quản trị dữ liệu trong nghiên cứu.",
+              "en": "L.O.4 - Evaluate critically AI/LLM output and analyze ethical and data-governance issues (bias, FAIR, sensitive data, PDPD/GDPR) in research."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268238,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268279,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268249,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Quản trị dữ liệu, đạo đức & data storytelling: FAIR, RDM, dữ liệu nhạy cảm & de-identification, bias; đạo đức dùng AI; từ figure đến narrative, figure cho paper/slide/poster.",
+        "en": "Data governance, ethics & data storytelling: FAIR, RDM, sensitive data & de-identification, bias; the ethics of using AI; from figure to narrative, figures for papers/slides/posters."
+      }
+    },
+    {
+      "id": 121631,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 162641,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành.",
+            "en": "Facilitate the seminar & peer review; overall review; brief the hands-on exam format."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập.",
+            "en": "Present & defend the project; peer-review; revise."
+          },
+          "chuandaura": {
+            "id": 260573,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "L.O.4 - Đánh giá phê phán đầu ra của AI/LLM và phân tích các vấn đề đạo đức, quản trị dữ liệu trong nghiên cứu.",
+              "en": "L.O.4 - Evaluate critically AI/LLM output and analyze ethical and data-governance issues (bias, FAIR, sensitive data, PDPD/GDPR) in research."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268240,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268280,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268250,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162632,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành.",
+            "en": "Facilitate the seminar & peer review; overall review; brief the hands-on exam format."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập.",
+            "en": "Present & defend the project; peer-review; revise."
+          },
+          "chuandaura": {
+            "id": 260597,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "L.O.3 - Thiết lập quy trình reproducible research và xây data app/báo cáo tái lập để chia sẻ kết quả.",
+              "en": "L.O.3 - Establish reproducible-research workflows and build data apps / reproducible reports to share results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268268,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268273,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268265,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162646,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành.",
+            "en": "Facilitate the seminar & peer review; overall review; brief the hands-on exam format."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập.",
+            "en": "Present & defend the project; peer-review; revise."
+          },
+          "chuandaura": {
+            "id": 260486,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "L.O.2 - Thực hiện EDA nghiêm ngặt về thống kê và thiết kế trực quan hóa chất lượng xuất bản & tương tác để diễn giải, trình bày dữ liệu.",
+              "en": "L.O.2 - Perform statistically rigorous EDA and design publication-quality and interactive visualizations to interpret and present data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268269,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268241,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268243,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162643,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành.",
+            "en": "Facilitate the seminar & peer review; overall review; brief the hands-on exam format."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập.",
+            "en": "Present & defend the project; peer-review; revise."
+          },
+          "chuandaura": {
+            "id": 260485,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "L.O.1 - Phát triển các đoạn mã Python sạch, tái lập được và xây dựng pipeline dữ liệu bảng end-to-end: nạp, làm sạch, biến đổi và truy vấn dữ liệu.",
+              "en": "L.O.1 - Develop clean, reproducible Python and build end-to-end tabular-data pipelines: load, clean, transform, and query data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268266,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97474,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 268267,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97475,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 268242,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 97476,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Seminar & tổng kết: trình bày đồ án + phản biện chéo.",
+        "en": "Seminar & wrap-up: project presentations + peer review."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 260485,
+      "ma": "L.O.1",
+      "ten_vi": "L.O.1 - Phát triển các đoạn mã Python sạch, tái lập được và xây dựng pipeline dữ liệu bảng end-to-end: nạp, làm sạch, biến đổi và truy vấn dữ liệu.",
+      "ten_en": "L.O.1 - Develop clean, reproducible Python and build end-to-end tabular-data pipelines: load, clean, transform, and query data.",
+      "hddg": [
+        {
+          "id": 97474,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 97475,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 97476,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 260486,
+      "ma": "L.O.2",
+      "ten_vi": "L.O.2 - Thực hiện EDA nghiêm ngặt về thống kê và thiết kế trực quan hóa chất lượng xuất bản & tương tác để diễn giải, trình bày dữ liệu.",
+      "ten_en": "L.O.2 - Perform statistically rigorous EDA and design publication-quality and interactive visualizations to interpret and present data.",
+      "hddg": [
+        {
+          "id": 97474,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 97475,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 97476,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 260597,
+      "ma": "L.O.3",
+      "ten_vi": "L.O.3 - Thiết lập quy trình reproducible research và xây data app/báo cáo tái lập để chia sẻ kết quả.",
+      "ten_en": "L.O.3 - Establish reproducible-research workflows and build data apps / reproducible reports to share results.",
+      "hddg": [
+        {
+          "id": 97474,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 97475,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 97476,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 260573,
+      "ma": "L.O.4",
+      "ten_vi": "L.O.4 - Đánh giá phê phán đầu ra của AI/LLM và phân tích các vấn đề đạo đức, quản trị dữ liệu trong nghiên cứu.",
+      "ten_en": "L.O.4 - Evaluate critically AI/LLM output and analyze ethical and data-governance issues (bias, FAIR, sensitive data, PDPD/GDPR) in research.",
+      "hddg": [
+        {
+          "id": 97474,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 97475,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 97476,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Nền tảng lập trình cho phân tích và trực quan dữ liệu",
+  "tenmonhoc_eng": "Programming Foundation for Data Analytics and Visualization",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+[
+  {
+    "passage_id": "DCMH.CO5327.1.1_P1",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 1,
+    "section_path": [
+      "Thông tin chung",
+      "Mục tiêu môn học"
+    ],
+    "content_type": "paragraph",
+    "text": "Môn học trang bị cho học viên hai nhóm năng lực bổ sung cho nhau: nền tảng lý thuyết bền vững và năng lực ứng dụng cập nhật. Về nền tảng, học viên nắm toán lattice (SIS/LWE/Module-LWE), bốn họ mật mã hậu lượng tử (post-quantum cryptography, PQC) và các nguyên lý an toàn cơ bản; giải thích được tác động của máy tính lượng tử tới mật mã hiện hành (thuật toán Shor phá RSA và ECC, thuật toán Grover với AES và hàm băm) cùng nguyên lý và giới hạn của mật mã lượng tử (QKD BB84); phân tích bốn họ PQC (dựa trên lưới, dựa trên hàm băm, dựa trên mã, đồng đẳng) và các chuẩn NIST đã ban hành (FIPS 203/204/205, SP 800-208) cùng HQC (đã được chọn, đang chuẩn hóa). Về ứng dụng, học viên thiết kế, hiện thực và đánh giá lộ trình chuyển đổi mật mã cổ điển sang hậu lượng tử theo các nguyên lý tính linh hoạt mật mã (crypto-agility), lược đồ lai (hybrid), kiểm kê mật mã và CBOM, rủi ro 'thu thập trước, giải mã sau' (harvest-now-decrypt-later), bất đẳng thức Mosca, theo lịch trình do NIST IR 8547 và NSA CNSA 2.0 đặt ra (RSA và ECC loại bỏ dần khoảng năm 2030, không cho phép sau năm 2035). Hai mảng nội dung tạo thành hai trụ cột chính của môn: mật mã lượng tử (buổi 1–4) và mật mã hậu lượng tử (buổi 5–10).",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.mucTieuMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P2",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 2,
+    "section_path": [
+      "Thông tin chung",
+      "Nội dung tóm tắt môn học"
+    ],
+    "content_type": "paragraph",
+    "text": "Môn học thuộc khối kiến thức chuyên ngành tự chọn (khối C.2) của chương trình Thạc sĩ Khoa học Máy tính, hướng An ninh mạng. Môn gồm 10 buổi và được tổ chức quanh hai trụ cột chính. Trụ cột (I) Mật mã lượng tử: tính toán lượng tử và mối đe dọa (Shor, Grover) cùng phân phối khóa lượng tử (QKD: BB84, E91, giới hạn), buổi 1–4. Trụ cột (II) Mật mã hậu lượng tử: bốn họ PQC, chuẩn NIST và di trú, buổi 5–10, gồm toán lattice và bốn họ PQC, nguyên lý crypto-agility và lược đồ lai, lộ trình di trú (kiểm kê mật mã và CBOM, HNDL, Mosca, CISA, NIST IR 8547, SP 1800-38, CNSA 2.0, GSMA PQ.03), cùng thực thi và đo hiệu năng trên OpenSSL 3.5/liboqs.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.noiDungTomTatMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P3",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 3,
+    "section_path": [
+      "Thông tin chung",
+      "Tài liệu học tập"
+    ],
+    "content_type": "paragraph",
+    "text": "A. Giáo trình:. ﻿[1] Aumasson, J.-P. (2024). Serious Cryptography, ấn bản 2. No Starch Press. ISBN 978-1-7185-0384-7. ﻿[2] Zhang, J., Zhang, Z. (2020). Lattice-Based Cryptosystems: A Design Perspective. Springer. ISBN 978-981-15-8426-8. DOI: 10.1007/978-981-15-8427-5. ﻿B. Tài liệu tham khảo:. ﻿[3] NIST (2024–2025). FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), FIPS 205 (SLH-DSA), ba chuẩn PQC đầu tiên (13/8/2024); FN-DSA (từ FALCON) đang ở dự thảo FIPS 206 (nộp phê duyệt 8/2025). https://csrc.nist.gov/pubs/fips/203/final , /204/final , /205/final ; https://csrc.nist.gov/projects/post-quantum-cryptography. ﻿[4] NIST (2024). NIST IR 8547 (bản thảo): Transition to Post-Quantum Cryptography Standards (12/11/2024). https://csrc.nist.gov/pubs/ir/8547/ipd. ﻿[5] Open Quantum Safe: liboqs ( https://github.com/open-quantum-safe/liboqs ), oqs-provider; OpenSSL 3.5 (8/4/2025, hỗ trợ nguyên bản ML-KEM/ML-DSA/SLH-DSA): https://openssl-library.org/post/2025-04-08-openssl-35-final-release/. ﻿[6] Bernstein, D. J., Buchmann, J., Dahmen, E. (Eds.) (2009). Post-Quantum Cryptography. Springer. ISBN 978-3-540-88701-0. DOI: 10.1007/978-3-540-88702-7. ﻿[7] Mật mã lượng tử (Quantum Cryptography / QKD): Bennett & Brassard (1984, BB84); Ekert (1991, E91, dựa trên định lý Bell), Phys. Rev. Lett. 67, 661, DOI: 10.1103/PhysRevLett.67.661; tổng quan QKD độc lập thiết bị: npj Quantum Information 9, 10 (2023), DOI: 10.1038/s41534-023-00684-x; chuẩn ETSI ISG QKD: https://www.etsi.org/technologies/quantum-key-distribution. ﻿Tài liệu đọc thêm bổ sung do giảng viên cung cấp theo học kỳ triển khai, tùy nội dung bài tập, bài tập lớn và tính thời sự của môn học.﻿.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.taiLieuHocTap.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P4",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 4,
+    "section_path": [
+      "Thông tin chung",
+      "Hướng dẫn cách học"
+    ],
+    "content_type": "paragraph",
+    "text": "Tinh thần tự học chủ động, tích cực: học viên đọc/xem tài liệu trước buổi học, giải bài tập trước, và chuẩn bị câu hỏi để thảo luận trên lớp. Cả Bài tập/Thực hành tại lớp và Bài tập lớn có thể triển khai theo hình thức cá nhân hoặc nhóm 3–6 học viên, do giảng viên phụ trách chọn theo từng học kỳ; khi cần đánh giá năng lực làm việc nhóm thì triển khai theo nhóm. Đề tài, phạm vi và chỉ dẫn cụ thể do giảng viên quy định linh hoạt theo học kỳ, miễn bảo đảm đạt chuẩn đầu ra (Mục 4). Đề thi cuối kỳ (trắc nghiệm) có thể bổ sung một số câu hỏi nâng cao dựa trên nội dung Bài tập lớn và Bài tập/Thực hành tại lớp, tùy từng học kỳ. Liêm chính học thuật & sử dụng công cụ AI:. • Người học phải tuân thủ các quy định về liêm chính học thuật của Nhà trường. • Việc sử dụng công cụ AI (ví dụ ChatGPT, Copilot) chỉ được phép ở mức hỗ trợ, ví dụ tìm tài liệu, gợi ý ý tưởng, kiểm tra ngữ pháp hoặc gợi ý cách trình bày; người học phải hiểu và tự chịu trách nhiệm về mọi nội dung nộp, không nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn. • Khi có sử dụng AI trong quá trình làm bài, người học ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú. • Mọi hành vi lạm dụng AI nhằm gian lận được xử lý theo quy định về liêm chính học thuật của Nhà trường.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.huongDanCachHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P5",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 5,
+    "section_path": [
+      "Thông tin chung",
+      "Ghi chú"
+    ],
+    "content_type": "paragraph",
+    "text": "Đề cương nêu khung nội dung cùng một số chủ đề và tài liệu tiêu biểu. Giảng viên phụ trách được linh hoạt điều chỉnh thứ tự, lựa chọn chuyên đề ở buổi cuối, đề tài Bài tập/Thực hành và Bài tập lớn, và bổ sung tài liệu/hướng dẫn chi tiết phù hợp từng học kỳ và đối tượng học viên, miễn bảo đảm đạt chuẩn đầu ra (Mục 4). Thiết kế mô-đun (nhiều giảng viên, thứ tự linh hoạt): mỗi buổi được biên soạn tương đối độc lập, tự chứa về nội dung và tài liệu, để nhiều giảng viên có thể cùng phụ trách và giảng theo thứ tự khác nhau; thứ tự tuần ở trên là mặc định theo trình tự sư phạm, có thể hoán đổi miễn tôn trọng các tiên quyết nội bộ tối thiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.ghiChu.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P6",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 6,
+    "section_path": [
+      "Phân bổ thời gian"
+    ],
+    "content_type": "paragraph",
+    "text": "Phân bổ tín chỉ: {'soTC': 3, 'soTC_ETC': 6, 'lyThuyet': 2, 'baiTapThucHanh': 0.4, 'thiNghiem': 0, 'baiTapLon': 0.6, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 0, 'khac': 0} | Phân bổ tiết: {'tongSoTiet': 150, 'tongGioHocTapLamViec': 136.5, 'lyThuyet': 30, 'baiTapThucHanh': 12, 'thiNghiem': 0, 'baiTapLon': 27, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 66, 'khac': 15}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "pbsotc_pbsotiet"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P7",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 7,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[0].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P8",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 8,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[1].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P9",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 9,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[2].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P10",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 10,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[3].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P11",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 11,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[4].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P12",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 12,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[5].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P13",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 13,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[6].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P14",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 14,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[7].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P15",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 15,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[8].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P16",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 16,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[9].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P17",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 17,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[10].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P18",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 18,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[11].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P19",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 19,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[12].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P20",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 20,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[13].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P21",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 21,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97577, 'stt': 0, 'ma': 'A.O', 'capdo': '0', 'parentid': None, 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}, 'noidung': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P22",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 22,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.1"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97578, 'stt': 0, 'ma': 'A.O.1', 'capdo': '1', 'parentid': '97577', 'loaihoatdong': {'ma': 'EXM', 'ten': {'vi': 'Thi cuối kỳ', 'en': 'Final exam'}}, 'ten': {'vi': 'Thi cuối kì -- 50%', 'en': 'Final Exam -- 50%'}, 'noidung': {'vi': 'Trắc nghiệm, 90 phút; phủ toàn bộ nội dung lý thuyết.', 'en': 'Multiple choice, 90 min; covers all lecture content.'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P23",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 23,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.2"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97579, 'stt': 0, 'ma': 'A.O.2', 'capdo': '1', 'parentid': '97577', 'loaihoatdong': {'ma': 'GPJ', 'ten': {'vi': 'Project nhóm', 'en': 'Group project'}}, 'ten': {'vi': 'Bài tập lớn --30%', 'en': 'Assignment -- 30%'}, 'noidung': {'vi': 'Cá nhân hoặc nhóm 3–6 học viên (tùy học kỳ); hiện thực Python/C++ + thực nghiệm + demo mã nguồn + khảo cứu tài liệu liên quan; nộp báo cáo kỹ thuật, và thuyết trình.', 'en': 'Individual or group of 3–6 (per semester); Python/C++ implementation + experiments + code demo + related-literature review; technical report and presentation.'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P24",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 24,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.3"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97580, 'stt': 0, 'ma': 'A.O.3', 'capdo': '1', 'parentid': '97577', 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Bài tập / Thực hành tại lớp — 20%', 'en': 'Exercises / in-class practice -- 20%'}, 'noidung': {'vi': 'Cá nhân hoặc nhóm 3–6 học viên (tùy học kỳ); bài tập và thực hành giải/hiện thực giải thuật trên lớp và ở nhà; có thể gồm kiểm tra nhỏ; thực hiện xuyên suốt học kỳ.', 'en': 'Individual or group of 3–6 (per semester); in-class and take-home exercises solving/implementing algorithms; may include short quizzes; throughout the semester.'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P25",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 25,
+    "section_path": [
+      "Nội dung chi tiết",
+      "1"
+    ],
+    "content_type": "paragraph",
+    "text": "Nhập môn và bối cảnh PQC: Ôn RSA/ECC/AES/hàm băm; cơ bản máy tính lượng tử; vì sao PQC khác QKD; toàn cảnh chuẩn hóa NIST và rủi ro HNDL. Giới thiệu Bài tập lớn và lộ trình di trú. TL: [1] Ch.1–2; [6] Ch.1; [3]; [4] Hoạt động giảng viên: Thuyết giảng bối cảnh; bất đẳng thức Mosca, lịch IR 8547 và CNSA 2.0; giao đề Bài tập lớn. Hoạt động sinh viên: Ôn mật mã cổ điển; áp Mosca cho hệ dữ liệu vòng đời dài; đăng ký nhóm.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P26",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 26,
+    "section_path": [
+      "Nội dung chi tiết",
+      "2"
+    ],
+    "content_type": "paragraph",
+    "text": "Mối đe dọa lượng tử I: Thuật toán Shor Shor: QFT, tìm chu kỳ; phá RSA và ECC; hệ quả cho PKI. TL: [1]; [6]; tài liệu do GV cung cấp Hoạt động giảng viên: Giảng cơ chế Shor; ví dụ số nhỏ. Hoạt động sinh viên: Giải bài tập tìm chu kỳ.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P27",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 27,
+    "section_path": [
+      "Nội dung chi tiết",
+      "3"
+    ],
+    "content_type": "paragraph",
+    "text": "Mối đe dọa lượng tử II: Grover Grover tăng tốc căn bậc hai; tác động AES/hàm băm; quy tắc nhân đôi khóa. TL / Refs: [1]; [6]; tài liệu do GV cung cấp Hoạt động giảng viên: Giảng Grover; bài tập ước lượng an toàn. Hoạt động sinh viên: Tính lại mức an toàn AES/hàm băm.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P28",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 28,
+    "section_path": [
+      "Nội dung chi tiết",
+      "4"
+    ],
+    "content_type": "paragraph",
+    "text": "Mật mã lượng tử (QKD): BB84 BB84 và E91 (dựa trên định lý Bell), no-cloning, an toàn theo lý thuyết thông tin; MDI-QKD/QKD độc lập thiết bị (giới thiệu); giới hạn thực tế (khoảng cách, thiết bị, kênh bên, chi phí) so với PQC. TL: [1] Ch.1; [7] (BB84, E91, QKD review, ETSI); tài liệu do GV cung cấp Hoạt động giảng viên: Giảng BB84; mô phỏng trao đổi khóa. Hoạt động sinh viên: Mô phỏng BB84; bảng ưu/nhược QKD vs PQC.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P29",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 29,
+    "section_path": [
+      "Nội dung chi tiết",
+      "5"
+    ],
+    "content_type": "paragraph",
+    "text": "PQC I: Lattice và LWE SIS/LWE/Module-LWE; ML-KEM (FIPS 203); ML-DSA (FIPS 204); Falcon/FN-DSA; tham số và đánh đổi. TL: [2]; [3] (FIPS 203, 204); [6] Hoạt động giảng viên: Giảng LWE và lattice; đọc trích FIPS 203/204. Hoạt động sinh viên: Đọc-phản biện tham số ML-KEM/ML-DSA. Hoạt động giảng viên: Giảng LWE và lattice; đọc trích FIPS 203/204. Hoạt động sinh viên: Đọc-phản biện tham số ML-KEM/ML-DSA.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[4]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P30",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 30,
+    "section_path": [
+      "Nội dung chi tiết",
+      "6"
+    ],
+    "content_type": "paragraph",
+    "text": "PQC II: Chữ ký dựa trên hàm băm Lamport/Merkle; SLH-DSA (FIPS 205) không trạng thái; LMS/XMSS (SP 800-208) có trạng thái. TL: [3] (FIPS 205); [1]; [6]; tài liệu do GV cung cấp Hoạt động giảng viên: Giảng Merkle và SPHINCS+; rủi ro trạng thái. Hoạt động sinh viên: So sánh không trạng thái/có trạng thái.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[5]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P31",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 31,
+    "section_path": [
+      "Nội dung chi tiết",
+      "7"
+    ],
+    "content_type": "paragraph",
+    "text": "PQC III: Dựa trên mã và đồng đẳng Classic McEliece, HQC (NIST chọn 2025); đồng đẳng sau khi SIKE bị phá 2022; bài học đa dạng hóa giả định. TL / Refs: [3]; [6]; tài liệu do GV cung cấp (HQC 2025, SIKE) Hoạt động giảng viên: Giảng code-based và đồng đẳng; case SIKE. Hoạt động sinh viên: Đọc-phản biện; tự cập nhật HQC. Hoạt động giảng viên: Giảng code-based và đồng đẳng; case SIKE. Hoạt động sinh viên: Đọc-phản biện; tự cập nhật HQC. Hoạt động giảng viên: Giảng code-based và đồng đẳng; case SIKE. Hoạt động sinh viên: Đọc-phản biện; tự cập nhật HQC.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[6]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P32",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 32,
+    "section_path": [
+      "Nội dung chi tiết",
+      "8"
+    ],
+    "content_type": "paragraph",
+    "text": "Crypto-agility và lược đồ lai: Crypto-agility; hybrid KEM và chữ ký trong TLS 1.3, PKI, IKEv2; đánh đổi. Khởi động hiện thực liboqs/oqs-provider. TL: [5] (liboqs, OpenSSL 3.5); tài liệu do GV cung cấp Hoạt động giảng viên: Giảng crypto-agility và hybrid; demo trên OpenSSL 3.5 ([5]). Hoạt động sinh viên: Cài OpenSSL 3.5; hiện thực hybrid KEM. Hoạt động giảng viên: Giảng crypto-agility và hybrid; demo trên OpenSSL 3.5 ([5]). Hoạt động sinh viên: Cài OpenSSL 3.5; hiện thực hybrid KEM. Hoạt động giảng viên: Giảng crypto-agility và hybrid; demo trên OpenSSL 3.5 ([5]). Hoạt động sinh viên: Cài OpenSSL 3.5; hiện thực hybrid KEM.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[7]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P33",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 33,
+    "section_path": [
+      "Nội dung chi tiết",
+      "9"
+    ],
+    "content_type": "paragraph",
+    "text": "Di trú hạ tầng mật mã I: Kiểm kê mật mã và quản trị rủi ro Kiểm kê mật mã, CBOM; HNDL; SP 1800-38; CNSA 2.0; ETSI/BSI. Xây kế hoạch di trú của Bài tập lớn. TL: [4] (IR 8547); tài liệu do GV cung cấp (CISA, CNSA 2.0, GSMA PQ.03) Hoạt động giảng viên: Giảng kiểm kê và CBOM; quy trình CISA; IR 8547 ([4]). Hoạt động sinh viên: Kiểm kê một hệ mẫu; lập CBOM và lộ trình. Hoạt động giảng viên: Giảng kiểm kê và CBOM; quy trình CISA; IR 8547 ([4]). Hoạt động sinh viên: Kiểm kê một hệ mẫu; lập CBOM và lộ trình. Hoạt động giảng viên: Giảng kiểm kê và CBOM; quy trình CISA; IR 8547 ([4]). Hoạt động sinh viên: Kiểm kê một hệ mẫu; lập CBOM và lộ trình.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[8]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5327.1.1_P34",
+    "doc_id": "DCMH.CO5327.1.1",
+    "order": 34,
+    "section_path": [
+      "Nội dung chi tiết",
+      "10"
+    ],
+    "content_type": "paragraph",
+    "text": "Di trú hạ tầng mật mã II: Thực thi, tổng hợp và chuyên đề Di trú TLS/IKEv2/PKI/HSM; hiện thực và đo hiệu năng liboqs/OpenSSL; bảo vệ Bài tập lớn; chuyên đề (kênh bên, QROM, cloud hybrid). TL: [5] (liboqs, OpenSSL 3.5); [4]; tài liệu do GV cung cấp Hoạt động giảng viên: Điều phối bảo vệ; hướng dẫn đo hiệu năng ([5]); tổng kết. Hoạt động sinh viên: Đo hiệu năng Python trên OpenSSL 3.5/liboqs; bảo vệ nhóm. Hoạt động giảng viên: Điều phối bảo vệ; hướng dẫn đo hiệu năng ([5]); tổng kết. Hoạt động sinh viên: Đo hiệu năng Python trên OpenSSL 3.5/liboqs; bảo vệ nhóm. Hoạt động giảng viên: Điều phối bảo vệ; hướng dẫn đo hiệu năng ([5]); tổng kết. Hoạt động sinh viên: Đo hiệu năng Python trên OpenSSL 3.5/liboqs; bảo vệ nhóm.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[9]"
+    },
+    "review_status": "pending"
+  }
+]
