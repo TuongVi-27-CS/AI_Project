@@ -1,0 +1,981 @@
+{
+  "ma": "DCMH.EN3213.5.1",
+  "phienban": "5.1",
+  "capnhat": "03/02/2026 09:17",
+  "khoa": {
+    "vi": "Khoa Môi trường và Tài nguyên",
+    "en": "Faculty of Environment and Natural Resources"
+  },
+  "mamonhoc": "EN3213",
+  "ten": "EN3213 - Tối ưu hóa và Quy hoạch thực nghiệm",
+  "ten_eng": "EN3213 - Optimization and Experimental Planning",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Học phần cung cấp cho người học các kiến thức, kỹ năng thao tác phần mềm để đáp ứng mục tiêu tối ưu hóa công nghệ môi trường. Sau khóa học, người học có thể tự đánh giá được sự phù hợp, sự phát triển công nghệ tương ứng với nhu cầu cụ thể.</p>",
+      "en": "<p>This course provides learners with knowledge and software manipulation skills to meet the goal of optimizing environmental technology. After the course, learners can self-assess the suitability and development of technology corresponding to specific needs.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Khóa học này bao gồm một số kiến ​​thức về tối ưu hóa trong hệ thống kỹ thuật và môi trường. Các công cụ toán và phần mềm hiện đại được cung cấp để giải quyết các vấn đề về môi trường bằng các phương pháp tối ưu. Hơn nữa, kiến thức về  phương pháp quy hoạch thực nghiệm sẽ hỗ trợ người học trong nghiên cứu cũng như việc tự học, tự đề xuất các phương án phù hợp.<br></p>",
+      "en": "<p>This course covers some knowledge about optimization in engineering systems. Modern software and mathematical tools are provided to solve environmental problems using optimal methods. Furthermore, knowledge of design of experiment methods will support learners in research as well as self-study and propose appropriate solutions.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Giáo trình:</p><p>TS. Nguyễn Hữu Lộc, Giáo trình quy hoạch và phân tích thực nghiệm, Trường Đại học Bách Khoa Tp.HCM, NXB Đại học Quốc gia Tp.HCM, 2021.</p><p><br></p><p>Tài liệu tham khảo:&nbsp;</p><p></p><ul><li>Singeresu S. Rao, Enineering Optimization – Theory and Practice, 4th Edition, Wiley, 2009</li><li>PGS. TS. Nguyễn Nhật Lệ (2009), Các bài toán cơ bản của tối ưu hóa và điều khiển tối ưu, NXB Khoa học và Kỹ thuật</li><li>Nguyễn Đình Soa, Nguyễn Cảnh, Tối ưu hóa thực nghiệm trong hóa học và kỹ thuật hóa học, Trường Đại học kỹ thuật TP.HCM, 1994.</li></ul><p></p>",
+      "en": "<p>\n\n</p><p>Textbooks:</p><p>TS. Nguyễn Hữu Lộc, Giáo trình quy hoạch và phân tích thực nghiệm, Trường Đại học Bách Khoa Tp.HCM, NXB Đại học Quốc gia Tp.HCM, 2021.</p><p><br></p><p>References: </p><p></p><ul><li>Singeresu S. Rao, Enineering Optimization – Theory and Practice, 4th Edition, Wiley, 2009</li><li>PGS. TS. Nguyễn Nhật Lệ (2009), Các bài toán cơ bản của tối ưu hóa và điều khiển tối ưu, NXB Khoa học và Kỹ thuật</li><li>Nguyễn Đình Soa, Nguyễn Cảnh, Tối ưu hóa thực nghiệm trong hóa học và kỹ thuật hóa học, Trường Đại học kỹ thuật TP.HCM, 1994.</li></ul><p></p>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu học tập có thể được tải xuống từ trang BKEL. Các slide bài giảng được cập nhật hàng tuần theo tiến độ học tập trên lớp. Bên cạnh đó, sinh viên có thể tự học, tìm hiểu sâu hơn thông qua các tài liệu tham khảo mà giảng viên đã đề nghị.﻿<br></p><p>\n\n<p>Yêu cầu sinh viên tham gia đầy đủ số tiết học trên lớp.&nbsp;</p><p>Ngoài ra, các nội dung sau đây giúp định hướng sinh viên chủ động, hiệu quả và đúng mục tiêu </p><p>khi liên kết, sử dụng Công cụ Trí tuệ nhân tạo (AI), đảm bảo Liêm chính học thuật (Academic Integrity).</p><p>(A) Chủ động chuẩn bị trước khi đến lớp:</p><p><ul><li>&nbsp;Đọc trước tài liệu được phân công (slide, chương sách, giáo trình, tài liệu tham khảo).</li><li>&nbsp;Ghi chú các khái niệm, mô hình hoặc thuật toán chưa hiểu rõ để thảo luận trên lớp.</li><li>&nbsp;Xem video minh họa liên quan để hình dung trực quan về AI.</li></ul></p><p>(B) Tham gia tích cực vào thảo luận và hoạt động nhóm:</p><p><ul><li>&nbsp;Đóng góp ý kiến, phân tích, phản biện các mô hình AI/giải pháp kỹ thuật trong nhóm.</li><li>&nbsp;Hợp tác với bạn học trong bài tập nhóm, đảm nhận vai trò rõ ràng, đúng hạn.</li><li>&nbsp;Tận dụng các buổi thảo luận để rèn luyện kỹ năng mềm: truyền đạt ý tưởng, tư duy phản biện, giải quyết vấn đề.</li></ul></p><p>(C) Tự học có định hướng và thực hành thường xuyên:</p><p><ul><li>&nbsp;Dành thời gian ngoài giờ học để ôn lại kiến thức, đọc thêm tài liệu nâng cao (bài báo khoc học, hỏi đáp nhóm liên quan môn học…).</li><li>&nbsp;Chủ động tìm hiểu các ứng dụng AI &nbsp;</li><li>&nbsp;Thực hành AI để củng cố hiểu biết.</li></ul></p><p>(D) Tìm hiểu và rèn luyện đảm bảo tuân thủ Liêm chính học thuật</p><p><ul><li>&nbsp;Chủ động tìm hiểu về Liêm chính học thuật</li><li>&nbsp;Thực hành Liêm chính học thuật trong viết báo cáo</li></ul></p>\n\n<br></p>",
+      "en": "<p>Learning materials can be downloaded from BKEL website. Lecture slides are updated weekly according to class progress. Besides, students can self-study and learn more deeply through the references that the lecturer has suggested.﻿<br></p><p>\n\n<p>Students are required to attend all scheduled classes. Additionally, the following guidelines are designed to help students be proactive, effective, and goal-oriented when integrating and using Artificial Intelligence (AI) tools, while ensuring <b>Academic Integrity</b>.</p><p>(A) Proactive Preparation Before Class</p><p><ul><li><b>Pre-read assigned materials:</b> Review slides, book chapters, textbooks, and reference documents.</li><li><b>Note-taking:</b> Identify concepts, models, or algorithms that are unclear to discuss further in class.</li><li><b>Visual learning:</b> Watch relevant illustrative videos to gain a better visual understanding of AI.</li></ul></p><p>(B) Active Participation in Discussions and Group Work</p><p><ul><li><b>Contribute insights:</b> Analyze and provide critical feedback on AI models and technical solutions within your group.</li><li><b>Collaborate effectively:</b> Work with peers on group assignments, taking on clear roles and meeting deadlines.</li><li><b>Skill development:</b> Utilize discussion sessions to practice soft skills, such as communicating ideas, critical thinking, and problem-solving.</li></ul></p><p>(C) Self-Directed Study and Regular Practice</p><p><ul><li><b>Extended learning:</b> Dedicate time outside of class to review knowledge and read advanced materials (scientific papers, course-related Q&amp;A groups, etc.).</li><li><b>Independent research:</b> Proactively explore AI applications.</li><li><b>Hands-on practice:</b> Apply AI tools in practice to reinforce your understanding.</li></ul></p><p>(D) Understanding and Maintaining Academic Integrity</p><p><ul><li><b>Proactive research:</b> Take the initiative to learn about the principles of Academic Integrity.</li><li><b>Practical application:</b> Consistently uphold Academic Integrity standards when writing reports and assignments.</li></ul></p>\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 3885,
+      "ma": "NG_KMT",
+      "ten": {
+        "vi": "Chương trình đào tạo ngành Kỹ thuật Môi trường",
+        "en": "Environmental Engineering"
+      }
+    },
+    {
+      "id": 7825,
+      "ma": "NG_KMT",
+      "ten": {
+        "vi": "Chương trình đào tạo ngành Kỹ thuật môi trường",
+        "en": "Program: Environmental Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 9970,
+      "ma": "004115",
+      "ten": "NGUYỄN THÁI ANH"
+    },
+    {
+      "id": 1038,
+      "ma": "002903",
+      "ten": "NGUYỄN NHẬT HUY"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.33,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 4,
+        "ma": "80",
+        "thoigian": 80,
+        "text": {
+          "vi": "80 phút",
+          "en": "80 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 50,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1015,
+      "maBoMon": "KMT",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Môi Trường"
+      },
+      "maKhoa": "MO",
+      "tenKhoa": {
+        "vi": "Khoa Môi trường và Tài nguyên",
+        "en": "Faculty of Environment and Natural Resources"
+      },
+      "vanPhong": "268 Lý Thường Kiệt, Phường 14, Quận 10, Thành phố Hồ Chí Minh",
+      "dienThoai": "028 3864 7256"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 9970,
+        "maGiangVien": "004115",
+        "tenGiangVien": "NGUYỄN THÁI ANH",
+        "emailGiangVien": "anhnt83@hcmut.edu.vn"
+      },
+      {
+        "id": 1038,
+        "maGiangVien": "002903",
+        "tenGiangVien": "NGUYỄN NHẬT HUY",
+        "emailGiangVien": "nnhuy@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 74592,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 74593,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "74592",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Tính toán, giải thích mô hình, thuyết trình vấn đáp",
+        "en": "Calculations, Modelling explanations, and oral presentations/Q&A"
+      }
+    },
+    {
+      "id": 74594,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "74592",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Bài thi trắc nghiệm",
+        "en": "Multiple-choice examination"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 90181,
+      "stt": 1,
+      "buoi": "1-3",
+      "chuandaurachitiet": [
+        {
+          "id": 115856,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận ",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188206,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Phối hợp, tổ chức và dẫn dắt làm việc nhóm một cách hiệu quả trong các bối cảnh nghề nghiệp đa dạng.",
+              "en": "An ability to co-ordinate, organize, and perform team-leading effectively in diverse professional contexts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184726,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115850,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận ",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188207,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Thể hiện tác phong nghề nghiệp, tinh thần trách nhiệm, phẩm chất chính trị và đạo đức trong quá trình học tập và phục vụ cộng đồng.",
+              "en": "An ability to demonstrate professional conduct, responsibility, political qualities, and ethical behavior in academic and community-service activities."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184730,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 184727,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74594,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Tổng quan về tối ưu hóa\n1.1 Lịch sử về tối ưu hóa\n1.2 Kiểm soát vận hành của quy trình công nghệ\n1.3 Các ứng dụng của tối ưu hóa trong lĩnh vực môi trường\n1.4 Phần mềm để giải các bài toán tối ưu",
+        "en": "Chapter 1. Overview of optimization \n1.1 History of optimization\n1.2 Operating Control of Technological process  \n1.3 Application of optimization in the field of environment\n1.4 Software to solve optimized problems"
+      }
+    },
+    {
+      "id": 90182,
+      "stt": 2,
+      "buoi": "4-8",
+      "chuandaurachitiet": [
+        {
+          "id": 115854,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188205,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Đánh giá các giải pháp chuyên sâu trong ngành Kỹ thuật Môi trường dựa trên tiêu chí khoa học, hiệu quả và an toàn.",
+              "en": "An ability to evaluate specialized solutions in the field of Environmental Engineering upon required scientific, effectiveness, and safety criteria."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184732,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74594,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 184736,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115852,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188207,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Thể hiện tác phong nghề nghiệp, tinh thần trách nhiệm, phẩm chất chính trị và đạo đức trong quá trình học tập và phục vụ cộng đồng.",
+              "en": "An ability to demonstrate professional conduct, responsibility, political qualities, and ethical behavior in academic and community-service activities."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184731,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 184728,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74594,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Lý thuyết về tối ưu hóa\n2.1 Bài toán tối ưu hóa tổng quát\n2.2 Phân tích cỡ mẫu\n2.3 Tối ưu hóa 2 chiều \n2.4 Phân tích phương sai (ANOVA)\n2.5 Cách xác định P-value\n2.6 Phương trình hồi quy\n",
+        "en": "Chapter 2. Optimization theory \n2.1 General optimization problem\n2.2 Sample sizes\n2.3 2D optimization\n2.4 The Analysis of Variance (ANOVA) \n2.5 The determination method of P-value\n2.6 Regression modeling equation"
+      }
+    },
+    {
+      "id": 90183,
+      "stt": 3,
+      "buoi": "9-12",
+      "chuandaurachitiet": [
+        {
+          "id": 115855,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188205,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Đánh giá các giải pháp chuyên sâu trong ngành Kỹ thuật Môi trường dựa trên tiêu chí khoa học, hiệu quả và an toàn.",
+              "en": "An ability to evaluate specialized solutions in the field of Environmental Engineering upon required scientific, effectiveness, and safety criteria."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184733,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74594,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 184729,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115853,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188206,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Phối hợp, tổ chức và dẫn dắt làm việc nhóm một cách hiệu quả trong các bối cảnh nghề nghiệp đa dạng.",
+              "en": "An ability to co-ordinate, organize, and perform team-leading effectively in diverse professional contexts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184725,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Quy hoạch thực nghiệm\n3.1 Tối ưu hóa thực nghiệm trong hóa học\n3.2 Mô hình nhân tố toàn phần\n3.3 Mô hình bề mặt đáp ứng khối lập phương \n3.4 Mô hình bề mặt đáp ứng Box-Behnken\n3.5 Đánh giá sự phù hợp của các thông số các mô hình\n",
+        "en": "Chapter 3. Design of Experiment (DOE)\n3.1 Experimental optimization in chemistry\n3.2 Factorial model\n3.3 Response surface methodology CCD model\n3.4 Response surface methodology Box-Behnken\n3.5 Evaluate the suitability of model parameters"
+      }
+    },
+    {
+      "id": 90184,
+      "stt": 4,
+      "buoi": "13-15",
+      "chuandaurachitiet": [
+        {
+          "id": 115851,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188205,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Đánh giá các giải pháp chuyên sâu trong ngành Kỹ thuật Môi trường dựa trên tiêu chí khoa học, hiệu quả và an toàn.",
+              "en": "An ability to evaluate specialized solutions in the field of Environmental Engineering upon required scientific, effectiveness, and safety criteria."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184734,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74594,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 184735,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115849,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu, thuyết giảng, phân nhóm thảo luận",
+            "en": "Introduction, group discussion, exercises instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phát biểu, thảo luận",
+            "en": "Discussing, doing exercises"
+          },
+          "chuandaura": {
+            "id": 188206,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Phối hợp, tổ chức và dẫn dắt làm việc nhóm một cách hiệu quả trong các bối cảnh nghề nghiệp đa dạng.",
+              "en": "An ability to co-ordinate, organize, and perform team-leading effectively in diverse professional contexts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184724,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74593,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Tối ưu hóa bằng thực hành phần mềm\n- Báo cáo thuyết trình BTL",
+        "en": "- Optimization by software practices\n- Oral presentation"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 188205,
+      "ma": "L.O.1",
+      "ten_vi": "Đánh giá các giải pháp chuyên sâu trong ngành Kỹ thuật Môi trường dựa trên tiêu chí khoa học, hiệu quả và an toàn.",
+      "ten_en": "An ability to evaluate specialized solutions in the field of Environmental Engineering upon required scientific, effectiveness, and safety criteria.",
+      "hddg": [
+        {
+          "id": 74593,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 74594,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 188206,
+      "ma": "L.O.2",
+      "ten_vi": "Phối hợp, tổ chức và dẫn dắt làm việc nhóm một cách hiệu quả trong các bối cảnh nghề nghiệp đa dạng.",
+      "ten_en": "An ability to co-ordinate, organize, and perform team-leading effectively in diverse professional contexts.",
+      "hddg": [
+        {
+          "id": 74593,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 188207,
+      "ma": "L.O.3",
+      "ten_vi": "Thể hiện tác phong nghề nghiệp, tinh thần trách nhiệm, phẩm chất chính trị và đạo đức trong quá trình học tập và phục vụ cộng đồng.",
+      "ten_en": "An ability to demonstrate professional conduct, responsibility, political qualities, and ethical behavior in academic and community-service activities.",
+      "hddg": [
+        {
+          "id": 74593,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 74594,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Tối ưu hóa và Quy hoạch thực nghiệm",
+  "tenmonhoc_eng": "Optimization and Experimental Planning",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2124 @@
+{
+  "ma": "DCMH.CO2011.4.1",
+  "phienban": "4.1",
+  "capnhat": "07/10/2024 14:37",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO2011",
+  "ten": "CO2011 - Mô hình hóa Toán học",
+  "ten_eng": "CO2011 - MaThematical Modeling",
+  "hockyapdung": "HK221",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 2,
+      "ma": "TK",
+      "ten": {
+        "vi": "Toàn khoa"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học là một nhập môn về mô hình hóa hệ thống thông qua kiến thức căn bản về logic vị từ nâng cao, quy hoạch tuyến tính (nguyên, hỗn hợp, nhị phân), automata hữu hạn và ngôn ngữ hình thức. Sinh viên cũng sẽ được trang bị thêm một số kỹ thuật mô hình hóa toán học khác như các hệ động lực, mô hình hóa ngẫu nhiên và các phương pháp thống kê thông dụng, kiểm tra mô hình qua hệ thống bài tập thực hành và bài tập lớn. Đây là các phương pháp căn bản để giải quyết các bài toán thực tiễn bằng cách lập ra và giải các mô hình toán học và sẽ được ứng dụng trong nhiều chủ đề chính của Khoa học và Kỹ thuật Máy tính như thiết kế thuật toán, cơ sở dữ liệu, trí tuệ nhân tạo, kiểm thử phần mềm... <br><br>Sau hoàn thành môn học này, sinh viên có thể mô hình hóa hệ thống đơn giản bằng các bài toán quy hoạch tuyến tính, automata hữu hạn và ngôn ngữ hình thức; cũng như bằng các phương trình vi phân, sai phân, các mô hình ngẫu nhiên, và các mô hình thống kê.<br><br></p>",
+      "en": "<p>The course is an introduction to mathematics modelling for CSE students. It covers advanced predicate logic, integer linear programming, automata and formal languages. Students will also be introduced to dynamical systems, stochastic modeling and mathematical statistic models, model-checking. These are the mathematical foundation and fundamental techniques to model real life problems which appear in many topics of Computer Science and Engineering such as algorithm design and analysis, databases, artificial intelligence, program verification, etc. <br>Upon successful completion of the course, students should be capable of formulating deterministic and stochastic mathematical models in real life problem involving the analysis of various variables within the framework of finite automata, dynamical systems, random variables and their distributions, ARIMA model, model checking.<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>●  Logic vị từ nâng cao, nhằm hướng đến việc diễn đạt mạch lạc và mô hình hóa hiệu quả các bài toán thực tiễn trong Khoa học- Kỹ thuật máy tính<br>●  Quy hoạch nguyên và các mô hình liên quan; <br>●  Automata và ngôn ngữ hình thức; <br>●  Hệ động lực<br>●  Trong phần bài tập thực hành và bài tập lớn, SV sẽ được giới thiệu cách mô hình hóa bài toán thực.<br><br></p>",
+      "en": "<p>●  Advanced predicate logic, aimed to represent clearly and model efficiently practical problems arising in Computer Science, Computer Engineering<br>●  Introduction to mathematical optimization, focusing on linear and integer programming<br>●  Automata and formal languages; <br>●  Dynamical system;<br>●  In home-works and assignments, students will also be introduced how to model a real life problem.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br> [1] F.R. Giordano, W.P. Fox &amp; S.B. Horton, A First Course in Mathematical Modeling, 5th ed., Cengage, 2014.<br>[2] P. Linz, An Introduction to Formal Languages and Automata, Jones &amp; Bartlett Learning; 5th edition, 2011.<br>[3] Matousek et al. Understanding and using linear programming, Springer, 2007.<br><br>Sách tham khảo thêm/Further Readings:<br>[4] K. M. Bliss K. R. Fowler B. J. Galluzzo, Math Modeling: getting started &amp; getting solutions. Society for Industrial and Applied Mathematics (SIAM) Handbook, 2014.<br>[5] J.E. Hopcroft, R. Motwani &amp; J.D. Ullamn, Introduction to Automata Theory, Languages, and Computation, 3rd ed., Prentice Hall, 2006.<br>[6] G.L. Nemhauser, L. A. Wolsey, Integer and Combinatorial Optimization, 2nd ed., Wiley, 1999.<br>[7] J. Hopcroft, R. Motwani &amp; J. Ullman, Automata theory, languages and computation, 3rd edition, Addison-Wesley, 2007. <br>[8] M. Huth &amp; M. Ryan, Logic in Computer Science, 2nd ed., Cambridge University Press, 2001.<br>[9] R.J. Vanderbei, Linear programming, 3rd edition, Springer 2001.<br>[10] M. Baron,  Probability and Statistics for Computer Scientists, 2nd ed., CRC, 2013.<br><br></p>",
+      "en": "<p>Sách, Giáo trình chính:<br> [1] F.R. Giordano, W.P. Fox &amp; S.B. Horton, A First Course in Mathematical Modeling, 5th ed., Cengage, 2014.<br>[2] P. Linz, An Introduction to Formal Languages and Automata, Jones &amp; Bartlett Learning; 5th edition, 2011.<br>[3] Matousek et al. Understanding and using linear programming, Springer, 2007.<br><br>Sách tham khảo thêm/Further Readings:<br>[4] K. M. Bliss K. R. Fowler B. J. Galluzzo, Math Modeling: getting started &amp; getting solutions. Society for Industrial and Applied Mathematics (SIAM) Handbook, 2014.<br>[5] J.E. Hopcroft, R. Motwani &amp; J.D. Ullamn, Introduction to Automata Theory, Languages, and Computation, 3rd ed., Prentice Hall, 2006.<br>[6] G.L. Nemhauser, L. A. Wolsey, Integer and Combinatorial Optimization, 2nd ed., Wiley, 1999.<br>[7] J. Hopcroft, R. Motwani &amp; J. Ullman, Automata theory, languages and computation, 3rd edition, Addison-Wesley, 2007. <br>[8] M. Huth &amp; M. Ryan, Logic in Computer Science, 2nd ed., Cambridge University Press, 2001.<br>[9] R.J. Vanderbei, Linear programming, 3rd edition, Springer 2001.<br>[10] M. Baron,  Probability and Statistics for Computer Scientists, 2nd ed., CRC, 2013.<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Hướng dẫn cách học:<br>●  Tài liệu (slide bài giảng) được đưa lên SAKAI hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Sinh viên cần làm thêm các bài tập, các bài trắc nghiệm online và các bài thực hành. Sinh viên nên đi học đầy đủ và làm bài tập trong quá trình học sẽ giúp tiết kiệm thời gian trong quá trình ôn thi giữa kỳ và cuối kỳ. <br><br></p>",
+      "en": "<p>N/A<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 379,
+      "ma": "NG_KTM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Ngành Kỹ thuật Máy tính"
+      }
+    },
+    {
+      "id": 377,
+      "ma": "NG_KHM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Ngành Khoa học Máy tính"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1833,
+      "ma": "003634",
+      "ten": "Nguyễn An Khương"
+    },
+    {
+      "id": 1172,
+      "ma": "003045",
+      "ten": "Huỳnh Tường Nguyên"
+    },
+    {
+      "id": 1230,
+      "ma": "001742",
+      "ten": "Trần Văn Hoài"
+    },
+    {
+      "id": 5282,
+      "ma": "003744",
+      "ten": "Lê Hồng Trang"
+    },
+    {
+      "id": 8798,
+      "ma": "003965",
+      "ten": "Nguyễn Tiến Thịnh"
+    },
+    {
+      "id": 5780,
+      "ma": "003778",
+      "ten": "Trần Tuấn Anh"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 1.0,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 45,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 60,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 4,
+        "ma": "80",
+        "thoigian": 80,
+        "text": {
+          "vi": "80 phút",
+          "en": "80 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 20,
+    "doAn": 0,
+    "kiemTra": 40,
+    "thi": 40,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 965,
+      "maBoMon": "DTO",
+      "tenBoMon": {
+        "vi": "Khoa Học Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "5847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1833,
+        "maGiangVien": "003634",
+        "tenGiangVien": "Nguyễn An Khương",
+        "emailGiangVien": "nakhuong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO1007 - Cấu trúc Rời rạc cho Khoa học Máy tính",
+        "en": "CO1007 - Discrete Structures for Computing"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cấu trúc Rời rạc cho Khoa học Máy tính",
+        "en": "Discrete Structures for Computing"
+      },
+      "mamonhoc": "CO1007"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 20905,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root Evaluation Activity"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root Evaluation Activity"
+      }
+    },
+    {
+      "id": 20906,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "20905",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": " Classroom exercises"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": " Classroom exercises"
+      }
+    },
+    {
+      "id": 20907,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "20905",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 20908,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "20905",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kì",
+        "en": "Mid-term exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kì",
+        "en": "Mid-term exam"
+      }
+    },
+    {
+      "id": 20909,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "20905",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      }
+    },
+    {
+      "id": 20910,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "20905",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập online trắc nghiệm",
+        "en": " Online quizzes"
+      },
+      "noidung": {
+        "vi": "Bài tập online trắc nghiệm",
+        "en": " Online quizzes"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 24389,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 33033,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "\n- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "\n- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67239,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có thể đưa ví dụ về logic vị từ ",
+              "en": "Give an example of predicate logic"
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1.\tGiới thiệu \n1.1.\tCác hướng nghiên cứu và ứng dụng mới nhất\n1.2.\tGiới thiệu phương pháp học\n1.3.\tCác phần mềm\nYêu cầu tự học đ/v sinh viên: 2 giờ\n",
+        "en": "Chapter 1. Introduction\n1.1. The latest research directions and applications\n1.2. Introduction to learning methods\n1.3. Softwares\nSelf-study requirements for students: 2 hours"
+      }
+    },
+    {
+      "id": 24391,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 33036,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67241,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Biểu diễn/đặc tả được theo logic vị từ trong một ứng dụng thực tiễn",
+              "en": "Describe logic expression for some real problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53136,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53137,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53139,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53138,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53140,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33038,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67240,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích biểu thức logic trong một ứng dụng thực tiễn",
+              "en": "Explain logic expression for some real problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53146,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53147,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53149,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53148,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53150,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33037,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67239,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có thể đưa ví dụ về logic vị từ ",
+              "en": "Give an example of predicate logic"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53143,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53144,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53141,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53142,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53145,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2.1.\tLogic vị từ nâng cao\n2.1.\tLogic mệnh đề và logic vị từ\n2.2.\tHoare logic\n2.3.\tỨng dụng logic trong chứng minh chương trình\n2.4.\tBài tập\nYêu cầu tự học đ/v sinh viên: 6 giờ\n",
+        "en": "2.1. Advanced predicate logic\n2.1. Propositional logic and predicate logic\n2.2. Hoare logic\n2.3. Application of logic in program proof\n2.4. Exercise\nSelf-study requirements for students: 6 hours"
+      }
+    },
+    {
+      "id": 24390,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 33034,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67246,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Xây dựng mô hình rời rạc từ một bài toán đơn giản",
+              "en": "Construct a discrete model for a simple problem"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53127,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53126,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53128,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53130,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53129,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33043,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67248,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Khả năng tinh toán nghiệm tối ưu của mô hình quy hoạch tuyến tính & nguyên, có thể cần sự hỗ trợ của thư viện phù hợp ",
+              "en": "Compute/Determine  optimal/feasible solutions of integer linear programming models, possibly utilizing adequate libraries "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53125,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53122,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53123,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53124,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53121,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33035,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67243,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Giải thích được mô hình quy hoạch tuyến tính (phát biểu mô hình toán)",
+              "en": "Explain a linear programming (mathematical statement)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53135,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53131,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53132,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53133,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53134,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2.1.\tQuy hoạch nguyên\n3.1.\tGiới thiệu\n3.2.\tThuật toán Simplex\n3.3.\tDuality\n3.4.\tInteger linear programming\n3.5.\tCutting plane methods\n3.6.\tInterior point methods\n3.7.\tBài tập\nYêu cầu tự học đ/v sinh viên: 12 giờ\n",
+        "en": "2.1. Original planning\n3.1. Introduce\n3.2. Simplex algorithm\n3.3. Duality\n3.4. Integer linear programming\n3.5. Cutting plane methods\n3.6. Interior point methods\n3.7. Exercise\nSelf-study requirements for students: 12 hours"
+      }
+    },
+    {
+      "id": 24393,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 33031,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "\n- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67243,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Giải thích được mô hình quy hoạch tuyến tính (phát biểu mô hình toán)",
+              "en": "Explain a linear programming (mathematical statement)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53163,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53162,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53164,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53165,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53161,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33032,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "\n- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67246,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Xây dựng mô hình rời rạc từ một bài toán đơn giản",
+              "en": "Construct a discrete model for a simple problem"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53166,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53169,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53168,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53170,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53167,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33042,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "\n- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "\n- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67245,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Đưa ra phản ví dụ cho một mô hình thiết kế sai",
+              "en": "Give a counter-example  for a given wrong model"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53181,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53182,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53183,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53184,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53185,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33041,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67249,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Khả năng tính toán thực tế - tối ưu hóa rời rạc (automat,..), có thể cần sự hỗ trợ của thư viện phù hợp",
+              "en": "Compute/ optimize solution models based on automata, …, possibly utilizing adequate libraries "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53176,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53179,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53180,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53177,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53178,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33040,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "\n- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67244,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Trình bày một vài cấu trúc rời rạc cơ bản",
+              "en": "State some well-known discrete structures"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53172,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53173,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53174,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53171,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53175,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "3.1.\tAutomat\n4.1.\tGiới thiệu về automat\n4.2.\tDeterministic Finite Automata\n4.3.\tNondeterministic Finite Automata\n4.4.\tBiểu thức chính qui\n4.5.\tBài tập\nYêu cầu tự học đ/v sinh viên: 4 giờ\n",
+        "en": "3.1. Automat\n4.1. Introduction to automat\n4.2. Deterministic Finite Automata\n4.3. Nondeterministic Finite Automata\n4.4. Regular expression\n4.5. Exercise\nSelf-study requirements for students: 4 hours"
+      }
+    },
+    {
+      "id": 24392,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 33044,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67249,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Khả năng tính toán thực tế - tối ưu hóa rời rạc (automat,..), có thể cần sự hỗ trợ của thư viện phù hợp",
+              "en": "Compute/ optimize solution models based on automata, …, possibly utilizing adequate libraries "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53153,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53155,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53151,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53154,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53152,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33039,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho sinh viên làm bài tập trên lớp/ online và giải thích\n\n\n",
+            "en": "- Lectures on theory\n- Let students do the exercises in class/online and explain"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên xem trước bài giảng trước khi lên lớp.\n- Câu hỏi và bài tập trên lớp theo cá nhân/nhóm \n\n",
+            "en": "- Students preview the lecture before class.\n- Individual/group class questions and exercises"
+          },
+          "chuandaura": {
+            "id": 67248,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Khả năng tinh toán nghiệm tối ưu của mô hình quy hoạch tuyến tính & nguyên, có thể cần sự hỗ trợ của thư viện phù hợp ",
+              "en": "Compute/Determine  optimal/feasible solutions of integer linear programming models, possibly utilizing adequate libraries "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 53156,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20906,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": " Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 53158,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20907,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 53160,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20908,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 53157,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 20909,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 53159,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 20910,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập online trắc nghiệm",
+                  "en": " Online quizzes"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5.\tCác chủ đề nâng cao\nChủ đề có thể thay đổi theo từng niên khóa, cụ thể vài chủ đề:\n5.1.\tMạng Petri\n5.2.\tHệ động lực\n5.3.\tBài tập\nYêu cầu tự học đ/v sinh viên: 8 giờ\n",
+        "en": "Chapter 5. Advanced Topics\nTopics can change from year to year, specifically a few topics:\n5.1. Petri network\n5.2. Propulsion system\n5.3. Exercise\nSelf-study requirements for students: 8 hours"
+      }
+    },
+    {
+      "id": 24394,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Nội dung giới hạn cho kiểm tra giữa kỳ (tập trung)\nChương 1 – 4\nƯớc tính số giờ SV cần chuẩn bị để kiểm tra giữa kỳ: 12 giờ\nNội dung thi cuối kỳ (tập trung)\nCác chương còn lại\nƯớc tính số giờ SV cần chuẩn bị để thi cuối kỳ: 12 giờ\n",
+        "en": "Limited content for midterm examination (concentration)\nChapter 1 – 4\nEstimated number of hours students need to prepare for midterm exam: 12 hours\nFinal exam content (concentration)\nThe rest of the chapters\nEstimated number of hours students need to prepare for the final exam: 12 hours"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 67239,
+      "ma": "L.O.1.1",
+      "ten_vi": "Có thể đưa ví dụ về logic vị từ ",
+      "ten_en": "Give an example of predicate logic",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67240,
+      "ma": "L.O.1.2",
+      "ten_vi": "Giải thích biểu thức logic trong một ứng dụng thực tiễn",
+      "ten_en": "Explain logic expression for some real problems",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67241,
+      "ma": "L.O.1.3",
+      "ten_vi": "Biểu diễn/đặc tả được theo logic vị từ trong một ứng dụng thực tiễn",
+      "ten_en": "Describe logic expression for some real problems",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67243,
+      "ma": "L.O.2.1",
+      "ten_vi": "Giải thích được mô hình quy hoạch tuyến tính (phát biểu mô hình toán)",
+      "ten_en": "Explain a linear programming (mathematical statement)",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67244,
+      "ma": "L.O.2.2",
+      "ten_vi": "Trình bày một vài cấu trúc rời rạc cơ bản",
+      "ten_en": "State some well-known discrete structures",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67245,
+      "ma": "L.O.2.3",
+      "ten_vi": "Đưa ra phản ví dụ cho một mô hình thiết kế sai",
+      "ten_en": "Give a counter-example  for a given wrong model",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67246,
+      "ma": "L.O.2.4",
+      "ten_vi": "Xây dựng mô hình rời rạc từ một bài toán đơn giản",
+      "ten_en": "Construct a discrete model for a simple problem",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67248,
+      "ma": "L.O.3.1",
+      "ten_vi": "Khả năng tinh toán nghiệm tối ưu của mô hình quy hoạch tuyến tính & nguyên, có thể cần sự hỗ trợ của thư viện phù hợp ",
+      "ten_en": "Compute/Determine  optimal/feasible solutions of integer linear programming models, possibly utilizing adequate libraries ",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    },
+    {
+      "id": 67249,
+      "ma": "L.O.3.2",
+      "ten_vi": "Khả năng tính toán thực tế - tối ưu hóa rời rạc (automat,..), có thể cần sự hỗ trợ của thư viện phù hợp",
+      "ten_en": "Compute/ optimize solution models based on automata, …, possibly utilizing adequate libraries ",
+      "hddg": [
+        {
+          "id": 20906,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": " Classroom exercises"
+        },
+        {
+          "id": 20907,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 20908,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 20909,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20910,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập online trắc nghiệm",
+          "ten_en": " Online quizzes"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Mô hình hóa Toán học",
+  "tenmonhoc_eng": "MaThematical Modeling",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

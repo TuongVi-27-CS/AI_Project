@@ -1,0 +1,1387 @@
+{
+  "ma": "DCMH.CI3251.4.1",
+  "phienban": "4.1",
+  "capnhat": "04/07/2024 14:49",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Xây Dựng",
+    "en": "Faculty of Civil Engineering"
+  },
+  "mamonhoc": "CI3251",
+  "ten": "CI3251 - Lý Thuyết Sai số và Xử lý Số liệu",
+  "ten_eng": "CI3251 - Theory of Errors and Data Processing",
+  "hockyapdung": "HK231",
+  "sotcgoc": 4,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n<b></b>Thông qua môn học, sinh viên có thể xác định, tính toán sai số đo cũng như xử lý số liệu bằng máy tính và ngôn ngữ lập trình.\n<b></b>\n\n<br></p>",
+      "en": "<p>\n\n<b></b>Over the course, students will be able to identify and calculate measurement errors, as well as process data using the computer and programming language.<b>\n</b></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nMôn học giới thiệu về trị đo và sai số, cách thức tính toán sai số đo và lan truyền sai số, các phương pháp xử lý số liệu đo trực tiếp, và áp dụng nguyên tắc bình phương cực tiểu trong bài toán bình sai. Môn học bao gồm phần thực hành sử dụng máy tính và ngôn ngữ lập trình để xử lý số liệu.\n\n<br></p>",
+      "en": "<p>\n\n<b></b>This course introduces the observations and errors, methods for calculating errors and error propagation, methods for processing the direct measurements and adjustment applying the principle of least squares. Experiments with the computer and programming language for data processing are included.<b>\n</b></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n</p><p>[1] Đào Xuân Lộc (2012). Cơ sở lý thuyết xử lý số liệu đo đạc. NXB Đại học Quốc gia TPHCM.<br><b></b></p><p>[2]&nbsp;Ghilani C.D. (2018). Adjustment computation, 6th ed.. Wiley, USA.</p><p></p>",
+      "en": "<p>\n\n</p><p>\n\n</p><p>[1] Đào Xuân Lộc (2012). Theory of errors and observation processing. VNU-HCM.<br><b></b></p><p>[2] Ghilani C.D. (2018). Adjustment computation, 6th ed.. Wiley, USA.</p>\n\n<p></p><p></p><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n</p><p><b></b>Bài giảng được đưa lên BKEL. Điểm tổng kết môn học được đánh giá:.</p><ul><li><p>Thí nghiệm: 25%, chấm điểm các bài thực hành trên máy tính</p></li><li><p>Kiểm tra: 25%, kiểm tra viết tại lớp, 50 phút</p></li><li><p>Thi: 50%, thi viết, 90 phút</p></li></ul><p></p>",
+      "en": "<p>Grading:</p><p></p><ul><li>Experiment: 25%, on computer</li><li>Midterm exam: 25%, written in class, 50 mins</li><li>Final exam:&nbsp;\n\n50%, written, 90 mins\n\n</li></ul><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>\n\n</p><ul><li>Lớp lý thuyết: tối đa 50 sv / lớp<br></li></ul><ul><li>\n\nLớp thí nghiệm: tối đa 25 sv / lớp; học 5 tiết / buổi; kết thúc cùng lúc với lớp lý thuyết</li></ul><br><p></p>",
+      "en": "<p>\n\n</p><ul><li><p>Theory part:&nbsp;max \n\n 50 student / class</p></li><li><p>Experiment part: max 25 student / class; 5 hrs / week; complete at the same time with the theory part</p></li></ul><p></p><ul><p></p></ul><p></p>"
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 2612,
+      "ma": "NG_TDI",
+      "ten": {
+        "vi": "Kỹ thuật Trắc địa - Bản đồ 2023",
+        "en": "Surveying and Mapping Engineering 2023"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 800,
+      "ma": "002495",
+      "ten": "Lương Bảo Bình"
+    },
+    {
+      "id": 1657,
+      "ma": "003428",
+      "ten": "Trịnh Đình Vũ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 4,
+    "soTC_ETC": 8,
+    "lyThuyet": 3.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": 1.0,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": null,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 200,
+    "tongGio_HocTap_LamViec": 182.33,
+    "lyThuyet": 45,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 30,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 0,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 105,
+    "khac": "20"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": false,
+      "kiemTra": true,
+      "thiNghiem": true,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 25,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 0,
+    "doAn": 0,
+    "kiemTra": 25,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1054,
+      "maBoMon": "TDI",
+      "tenBoMon": {
+        "vi": "Địa - Tin Học"
+      },
+      "maKhoa": "XD",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Xây Dựng",
+        "en": "Faculty of Civil Engineering"
+      },
+      "vanPhong": "102 B6",
+      "dienThoai": "028 38 655142"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 800,
+        "maGiangVien": "002495",
+        "tenGiangVien": "Lương Bảo Bình",
+        "emailGiangVien": "lbbinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "4c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CI1007 - Trắc địa Đại cương",
+        "en": "CI1007 - Basis of Surveying"
+      },
+      "tenmonhoc_only": {
+        "vi": "Trắc địa Đại cương",
+        "en": "Basis of Surveying"
+      },
+      "mamonhoc": "CI1007"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 8226,
+      "stt": 1,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 8227,
+      "stt": 1,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "8226",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC",
+        "en": "AIC"
+      },
+      "noidung": {
+        "vi": "Hoạt động trong lớp",
+        "en": "Activities in class"
+      }
+    },
+    {
+      "id": 8228,
+      "stt": 2,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "8226",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "GPJ",
+        "en": "GPJ"
+      },
+      "noidung": {
+        "vi": "Project nhóm",
+        "en": "Group project"
+      }
+    },
+    {
+      "id": 8229,
+      "stt": 3,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "8226",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "TES",
+        "en": "TES"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Test"
+      }
+    },
+    {
+      "id": 8230,
+      "stt": 4,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "8226",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "EXM",
+        "en": "EXM"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 8427,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Giới thiệu môn học",
+        "en": "Introduction"
+      }
+    },
+    {
+      "id": 8424,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 11482,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discussion"
+          },
+          "chuandaura": {
+            "id": 48045,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Xác định các đại lượng đặc trưng của trị đo và các loại sai số",
+              "en": "Identify the characteristic quantities of observations and errors"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18703,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8227,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CÁC KHÁI NIỆM CƠ BẢN\n- Trị đo\n- Sai số\n- Độ chính xác\n- Trị đo dư và bài toán bình sai\n",
+        "en": "Basic concepts"
+      }
+    },
+    {
+      "id": 8411,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 11469,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discussion"
+          },
+          "chuandaura": {
+            "id": 48045,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Xác định các đại lượng đặc trưng của trị đo và các loại sai số",
+              "en": "Identify the characteristic quantities of observations and errors"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18690,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8227,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "TRỊ ĐO\n- Mẫu và toàn thể\n- Giá trị trung tâm\n- Độ phân tán\n- Histogram\n",
+        "en": "Observations\n- Sample versus Population\n- Central value\n- Deviation\n- Histogram"
+      }
+    },
+    {
+      "id": 8412,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 11470,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48046,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Tính toán các đại lượng đặc trưng cho độ chính xác và lan truyền sai số",
+              "en": "Compute the accuracy and the error propagation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18691,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8229,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "TES",
+                  "en": "TES"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tương quan và hồi quy",
+        "en": "Correlation and Regression"
+      }
+    },
+    {
+      "id": 8413,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 11471,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discussion"
+          },
+          "chuandaura": {
+            "id": 48045,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Xác định các đại lượng đặc trưng của trị đo và các loại sai số",
+              "en": "Identify the characteristic quantities of observations and errors"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18692,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8227,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Lý thuyết sai số ngẫu nhiên",
+        "en": "Theory of random error"
+      }
+    },
+    {
+      "id": 8414,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 11472,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discussion"
+          },
+          "chuandaura": {
+            "id": 48045,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Xác định các đại lượng đặc trưng của trị đo và các loại sai số",
+              "en": "Identify the characteristic quantities of observations and errors"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18693,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8227,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Các loại sai số",
+        "en": "Errors"
+      }
+    },
+    {
+      "id": 8415,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 11473,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48046,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Tính toán các đại lượng đặc trưng cho độ chính xác và lan truyền sai số",
+              "en": "Compute the accuracy and the error propagation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18694,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 8229,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "TES",
+                  "en": "TES"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khoảng tin cậy, Trọng số",
+        "en": "Confidence interval, Weight"
+      }
+    },
+    {
+      "id": 8425,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 11483,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48046,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Tính toán các đại lượng đặc trưng cho độ chính xác và lan truyền sai số",
+              "en": "Compute the accuracy and the error propagation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18704,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8229,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "TES",
+                  "en": "TES"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Lan truyền sai số",
+        "en": "Error propagation"
+      }
+    },
+    {
+      "id": 8416,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 11474,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48048,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Xử lý trị đo trực tiếp",
+              "en": "Process the direct observations"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18695,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8230,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Xử lý trị đo lặp",
+        "en": "Process the repeated observations"
+      }
+    },
+    {
+      "id": 8417,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 11475,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48048,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Xử lý trị đo trực tiếp",
+              "en": "Process the direct observations"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18696,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8230,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá độ chính xác theo chuỗi hiệu 2 lần đo",
+        "en": "Accuracy assessment for series of double-run observations"
+      }
+    },
+    {
+      "id": 8418,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 11476,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discussion"
+          },
+          "chuandaura": {
+            "id": 48049,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán bình sai theo nguyên tắc bình phương cực tiểu",
+              "en": "Compute the least-square adjustment"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18697,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8227,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nguyên tắc Bình phương cực tiểu",
+        "en": "Least-square method"
+      }
+    },
+    {
+      "id": 8419,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 11477,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48049,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán bình sai theo nguyên tắc bình phương cực tiểu",
+              "en": "Compute the least-square adjustment"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18698,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8230,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bình sai điều kiện",
+        "en": "Constrain adjustment"
+      }
+    },
+    {
+      "id": 8420,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 11478,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48049,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán bình sai theo nguyên tắc bình phương cực tiểu",
+              "en": "Compute the least-square adjustment"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18699,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8230,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá độ chính xác trong bình sai điều kiện",
+        "en": "Accuracy assessment in constrain adjustment"
+      }
+    },
+    {
+      "id": 8421,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 11479,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48049,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán bình sai theo nguyên tắc bình phương cực tiểu",
+              "en": "Compute the least-square adjustment"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18700,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8230,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bình sai tham số",
+        "en": "Parameter adjustment"
+      }
+    },
+    {
+      "id": 8426,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 11484,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 48049,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán bình sai theo nguyên tắc bình phương cực tiểu",
+              "en": "Compute the least-square adjustment"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18705,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8230,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá độ chính xác trong bình sai tham số",
+        "en": "Accuracy assessment in parameter adjustment"
+      }
+    },
+    {
+      "id": 8422,
+      "stt": 16,
+      "buoi": "16",
+      "chuandaurachitiet": [
+        {
+          "id": 11480,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn",
+            "en": "Tutorial"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành",
+            "en": "Practice"
+          },
+          "chuandaura": {
+            "id": 48052,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng phần mềm và ngôn ngữ lập trình trong xử lý số liệu",
+              "en": "Using software and programming language for data processing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18701,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 8228,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ",
+                  "en": "GPJ"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Các bài Thí nghiệm:\n  -TN1: Làm quen với MATLAB / SciLab\n  -TN2: Tính toán các đại lượng thống kê\n  -TN3: Tương quan và hồi quy\n  -TN4: Xử lý trị đo trực tiếp\n  -TN5: Bình sai",
+        "en": "Experiments:\n  -Exp1: Introduction to MATLAB / SciLab\n  -Exp2: Statistical computation\n  -ExP3: Correlation and Regression\n  -Exp4: Process direct observations\n  -Exp5: Adjustment"
+      }
+    },
+    {
+      "id": 8423,
+      "stt": 17,
+      "buoi": "17",
+      "chuandaurachitiet": [
+        {
+          "id": 11481,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá + Phản hồi",
+            "en": "Assess + Feedback"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành + Trình bày",
+            "en": "Practice + Present"
+          },
+          "chuandaura": {
+            "id": 48052,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng phần mềm và ngôn ngữ lập trình trong xử lý số liệu",
+              "en": "Using software and programming language for data processing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 18702,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 8228,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ",
+                  "en": "GPJ"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kiểm tra",
+        "en": "Test"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 48045,
+      "ma": "L.O.1.1",
+      "ten_vi": "Xác định các đại lượng đặc trưng của trị đo và các loại sai số",
+      "ten_en": "Identify the characteristic quantities of observations and errors",
+      "hddg": [
+        {
+          "id": 8227,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC"
+        }
+      ]
+    },
+    {
+      "id": 48046,
+      "ma": "L.O.1.2",
+      "ten_vi": "Tính toán các đại lượng đặc trưng cho độ chính xác và lan truyền sai số",
+      "ten_en": "Compute the accuracy and the error propagation",
+      "hddg": [
+        {
+          "id": 8229,
+          "ma": "A.O.3",
+          "ten_vi": "TES",
+          "ten_en": "TES"
+        }
+      ]
+    },
+    {
+      "id": 48048,
+      "ma": "L.O.2.1",
+      "ten_vi": "Xử lý trị đo trực tiếp",
+      "ten_en": "Process the direct observations",
+      "hddg": [
+        {
+          "id": 8230,
+          "ma": "A.O.4",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 48049,
+      "ma": "L.O.2.2",
+      "ten_vi": "Tính toán bình sai theo nguyên tắc bình phương cực tiểu",
+      "ten_en": "Compute the least-square adjustment",
+      "hddg": [
+        {
+          "id": 8227,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 8230,
+          "ma": "A.O.4",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 48052,
+      "ma": "L.O.3.1",
+      "ten_vi": "Sử dụng phần mềm và ngôn ngữ lập trình trong xử lý số liệu",
+      "ten_en": "Using software and programming language for data processing",
+      "hddg": [
+        {
+          "id": 8228,
+          "ma": "A.O.2",
+          "ten_vi": "GPJ",
+          "ten_en": "GPJ"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Lý Thuyết Sai số và Xử lý Số liệu",
+  "tenmonhoc_eng": "Theory of Errors and Data Processing",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

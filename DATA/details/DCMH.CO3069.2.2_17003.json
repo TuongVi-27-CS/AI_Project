@@ -1,0 +1,2777 @@
+{
+  "ma": "DCMH.CO3069.2.2",
+  "phienban": "2.2",
+  "capnhat": "29/10/2024 10:05",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3069",
+  "ten": "CO3069 - Mật mã và An ninh mạng",
+  "ten_eng": "CO3069 - Cryptography and Network Security",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Mục tiêu chính của môn học là cung cấp kiến thức cơ bản về mật mã học và chuyên sâu về an ninh mạng.</p>",
+      "en": "<p>The goal of this course is to provide fundamental issues in Cryptography and Advanced knowledge in Network Security.</p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Cơ sở về mật mã như giải thuật khoá đối xứng, khoá công khai, hàm băm và các ứng dụng.<br> Thiết kế và hiện thực an ninh mạng trên các ứng dụng cần xác thực, các dịch vụ<br>mạng điển hình (E-mail, Web), tường lửa (Firewall),<br> Các hệ thống phát hiện và phòng chống xâmnhập bất hợp pháp (IDS/IPS).<br></p>",
+      "en": "<p><p><p>﻿Fundamentals in Cryptography, such as symmetric-key and public-key algorithms, hash</p></p>functions, applications, ...<br> Design and implementation of applications in network security focused on authentication and<br>other services (E-mail, Web, ... ), firewall, ....<br> Intrusion Detection/Prevention Systems (IDS/IPS)<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1].“Cryptography and Network Security”, William Stallings, 6<br><br>th Edition, Prentice Hall, 2013<br><br>2/6<br><br>[2].“Cryptography and Network Security”, William Stallings, 5<br><br>th Edition, Prentice Hall, 2011<br><br>[3].“Certified Ethical Hacker”, version 8, Study Slides, EC-Council<br></p>",
+      "en": "<p>[1].“Cryptography and Network Security”, William Stallings, 6<br><br>th Edition, Prentice Hall, 2013<br><br>2/6<br><br>[2].“Cryptography and Network Security”, William Stallings, 5<br><br>th Edition, Prentice Hall, 2011<br><br>[3].“Certified Ethical Hacker”, version 8, Study Slides, EC-Council<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p> Tài liệu học tập được giới thiệu cho sinh viên vào buổi học đầu tiên của môn học.<br> Kế hoạch học tập và bài tập lớn được đăng trên SAKAI.<br> Giờ bài tập và thực hành là bắt buộc, là một trong các tiêu chí đánh giá điểm tương ứng<br> Các cột điểm đánh giá<br>- Thực hành: 20%<br>- Bài tập lớn / tiểu luận: 30%<br>- Thi cuối kỳ: 50%<br></p>",
+      "en": "<p>\n\n<b></b></p><ol><li><p><b>Attend class lectures + do group assignments (30%)</b></p></li><li><p><b>Labs (20%)</b></p></li><li><p><b>Final exam (50%)</b></p></li></ol>\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1222,
+      "ma": "003048",
+      "ten": "Nguyễn Đức Thái"
+    },
+    {
+      "id": 1386,
+      "ma": "002415",
+      "ten": "NGUYỄN CAO ĐẠT"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": 0.67,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 0.33,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 15,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 70,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": true,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 10,
+    "doAn": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 963,
+      "maBoMon": "PMH",
+      "tenBoMon": {
+        "vi": "Hệ Thống và Mạng Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Nhà A3 - Trường Đại học Bách Khoa",
+      "dienThoai": "38647256 - Ext 5840"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1222,
+        "maGiangVien": "003048",
+        "tenGiangVien": "Nguyễn Đức Thái",
+        "emailGiangVien": "ngdthai@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3e",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 24445,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 24446,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "24445",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập và thực hành",
+        "en": "Lab exercises"
+      },
+      "noidung": {
+        "vi": "Bài tập và thực hành",
+        "en": "Lab exercises"
+      }
+    },
+    {
+      "id": 24447,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "24445",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Mini project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Mini project"
+      }
+    },
+    {
+      "id": 24448,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "24445",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 28506,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 39237,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hỏi bài và thảo luận trên lớp\nBài tập trên lớp\nBài tập về nhà\n\n",
+            "en": "Ask questions and discuss in class\nClassroom exercises\nHomework"
+          },
+          "chuandaura": {
+            "id": 71516,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Cơ hội việc làm",
+              "en": "Job opportunities"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63523,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            },
+            {
+              "id": 63545,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39239,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hỏi bài và thảo luận trên lớp\nBài tập trên lớp\nBài tập về nhà\n",
+            "en": "Ask questions and discuss in class\nClassroom exercises\nHomework\n\n"
+          },
+          "chuandaura": {
+            "id": 71515,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Vai trò của chuyên gia an ninh mạng",
+              "en": "The role of network security expert"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63524,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63546,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39238,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hỏi bài và thảo luận trên lớp\nBài tập trên lớp\nBài tập về nhà\n",
+            "en": "Ask questions and discuss in class\nClassroom exercises\nHomework\n"
+          },
+          "chuandaura": {
+            "id": 71499,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Nắm các giải thuật khóa đối xứng và bất đối xứng, các giải thuật mã hóa thông dụng khác, ...",
+              "en": "Understand symmetric-key and asymmetric-key algorithms, other known encryption algorithms, ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63547,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63548,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu môn học\n- Mục tiêu của an ninh mạng\n- Kiến trúc an ninh OSI\n- Mô hình an ninh mạng",
+        "en": "Course introduction\n•\tNetwork Security Objectives\n•\tThe OSI Security Architecture\n•\tA Model for Network Security"
+      }
+    },
+    {
+      "id": 28507,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 39241,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hỏi bài và thảo luận trên lớp\nBài tập trên lớp\nBài tập về nhà\n",
+            "en": "Ask questions and discuss in class\nClassroom exercises\nHomework"
+          },
+          "chuandaura": {
+            "id": 71499,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Nắm các giải thuật khóa đối xứng và bất đối xứng, các giải thuật mã hóa thông dụng khác, ...",
+              "en": "Understand symmetric-key and asymmetric-key algorithms, other known encryption algorithms, ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63509,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63549,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39240,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hỏi bài và thảo luận trên lớp\nBài tập trên lớp\nBài tập về nhà\n",
+            "en": "Ask questions and discuss in class\nClassroom exercises\nHomework\n"
+          },
+          "chuandaura": {
+            "id": 71498,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Gợi nhớ kiến thức về số học, xác suất thống kê...",
+              "en": "Remind knowledge on number theory and, probability and statistics..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63527,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63528,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mã hóa đối xứng:\n- Những kỹ thuật mã hóa cổ điển\n- Mã hóa khối và giải thuật mã hóa DES\n- Các khái niệm cơ bản về lý thuyết số và trường hữu hạn\n- Giải thuật mã hoá AES (Advanced Encryption Standard)\n- Cách tính mã hóa khối",
+        "en": "Symmetric ciphers:\n- Classical Encryption Techniques\n- Block Cipher and Data Encryption Standard\n- Basic Concepts in Number Theory and Finite Fields\n- Advanced Encryption Standard\n- Block Cipher Operation"
+      }
+    },
+    {
+      "id": 28508,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 39242,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71499,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Nắm các giải thuật khóa đối xứng và bất đối xứng, các giải thuật mã hóa thông dụng khác, ...",
+              "en": "Understand symmetric-key and asymmetric-key algorithms, other known encryption algorithms, ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63512,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63550,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mã hóa bất đối xứng:\n- Mật mã học dùng khóa công khai\n- Những hệ thống mã hóa dùng khóa công khai khác.",
+        "en": "Asymmetric ciphers:\n- Public-key Cryptography\n- Other Public-Key Cryptosystems"
+      }
+    },
+    {
+      "id": 28509,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 39243,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71499,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Nắm các giải thuật khóa đối xứng và bất đối xứng, các giải thuật mã hóa thông dụng khác, ...",
+              "en": "Understand symmetric-key and asymmetric-key algorithms, other known encryption algorithms, ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63551,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63529,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Những giải thuật mã hóa toàn vẹn dữ liệu:\n- Những hàm băm mật mã\n- Mã xác thực thông điệp\n- Chữ ký số",
+        "en": "Cryptographic Data Integrity Algorithms:\n- Cryptographic Hash Functions\n- Message Authentication Code\n- Digital Signatures"
+      }
+    },
+    {
+      "id": 28519,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 39272,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71501,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Gợi nhớ cấu trúc đơn vị dữ liệu như khung dữ liệu, packet, segment, địa chỉ MAC, địa chỉ IP, các giao thức mạng, ...",
+              "en": "Remind structure different data units such as frame, packet, segements, MAC address, IP address, protocols, ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63513,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63552,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39275,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71505,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "So sánh sự khác nhau của các cuộc tấn công dựa trên kết quả phân tích",
+              "en": "Compare attacks based on the analysis above"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63530,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63553,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39274,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71502,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thông qua các công cụ như Wireshark và các công cụ khác để phân tích gói tin, ...",
+              "en": "Use Wireshark and other tools to analyze data flow"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63514,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63568,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39273,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71504,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Nhận dạng và phân loại các kiểu tấn công an ninh mạng dựa trên đặc tính và hành vi",
+              "en": "Identify and classify attacks based on characteristics and behaviors of intruders"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63569,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63554,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kiểm soát truy cập mạng và bảo mật điện toán đám\nmây:\n- Kiểm soát truy cập mạng\n- Giao thức xác thực mở rộng\n- Điện toán đám mây\n- Bảo vệ dữ liệu trên đám mây\n- Bảo mật đám mây như là một loại dịch vụ",
+        "en": "Network access control and Cloud security:\n- Network Access Control\n- Extensible Authentication Protocol\n- Cloud Computing\n- Data Protection in the Cloud\n- Cloud Security as a Service"
+      }
+    },
+    {
+      "id": 28510,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 39244,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71501,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Gợi nhớ cấu trúc đơn vị dữ liệu như khung dữ liệu, packet, segment, địa chỉ MAC, địa chỉ IP, các giao thức mạng, ...",
+              "en": "Remind structure different data units such as frame, packet, segements, MAC address, IP address, protocols, ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63570,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63571,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39247,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "\nBài tập trên lớp theo nhóm",
+            "en": " Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71504,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Nhận dạng và phân loại các kiểu tấn công an ninh mạng dựa trên đặc tính và hành vi",
+              "en": "Identify and classify attacks based on characteristics and behaviors of intruders"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63531,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63555,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39246,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71502,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thông qua các công cụ như Wireshark và các công cụ khác để phân tích gói tin, ...",
+              "en": "Use Wireshark and other tools to analyze data flow"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63532,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63533,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39245,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71505,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "So sánh sự khác nhau của các cuộc tấn công dựa trên kết quả phân tích",
+              "en": "Compare attacks based on the analysis above"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63556,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63572,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bảo mật tầng vận chuyển:\n- Nghiên cứu vấn đề bảo mật trong môi trường web\n- Tầng bảo mậy socket (SSL)\n- Bảo mật trên tầng vận chuyển\n- Giao thức bảo mật HTTPS\n- Giao thức bảo mật SSH",
+        "en": "Transport-layer security:\n- Web Security Considerations\n- Secure Sockets Layer\n- Transport Layer Security\n- HTTPS\n- Secure Shell (SSH)"
+      }
+    },
+    {
+      "id": 28511,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 39249,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "\nBài tập trên lớp theo nhóm",
+            "en": " Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71505,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "So sánh sự khác nhau của các cuộc tấn công dựa trên kết quả phân tích",
+              "en": "Compare attacks based on the analysis above"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63557,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63510,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39248,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71504,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Nhận dạng và phân loại các kiểu tấn công an ninh mạng dựa trên đặc tính và hành vi",
+              "en": "Identify and classify attacks based on characteristics and behaviors of intruders"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63573,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63534,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bảo mật mạng không dây:\n- Bảo mật không dây\n- Bảo mật các thiết bị di động\n- Giới thiệu bảo mật mạng LAN không dây IEEE 802.11\n- Bảo mật mạng LAN không dây theo chuẩn IEEE 802.11i",
+        "en": "Wireless network security:\n- Wireless Security\n- Mobile Device Security\n- IEEE 802.11 Wireless LAN Overview\n- IEEE 802.11i Wireless LAN Security"
+      }
+    },
+    {
+      "id": 28512,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 39252,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": " Group exercises in class\n"
+          },
+          "chuandaura": {
+            "id": 71504,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Nhận dạng và phân loại các kiểu tấn công an ninh mạng dựa trên đặc tính và hành vi",
+              "en": "Identify and classify attacks based on characteristics and behaviors of intruders"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63574,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63575,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39250,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71505,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "So sánh sự khác nhau của các cuộc tấn công dựa trên kết quả phân tích",
+              "en": "Compare attacks based on the analysis above"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63535,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            },
+            {
+              "id": 63511,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bảo mật thư điện tử:\n- Phương pháp bảo mật Pretty Good Privacy\n- Phương pháp bảo mật S/MIME\n",
+        "en": "Electronic mail security:\n- Pretty Good Privacy\n- S/MIME\n"
+      }
+    },
+    {
+      "id": 28513,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 39251,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71505,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "So sánh sự khác nhau của các cuộc tấn công dựa trên kết quả phân tích",
+              "en": "Compare attacks based on the analysis above"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63576,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63558,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39254,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "bài tập ",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 71509,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Đề xuất giải pháp chống lại các nguy cơ an ninh mạng",
+              "en": " Suggest solutions on security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63577,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63578,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39253,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "Group homework"
+          },
+          "chuandaura": {
+            "id": 71504,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Nhận dạng và phân loại các kiểu tấn công an ninh mạng dựa trên đặc tính và hành vi",
+              "en": "Identify and classify attacks based on characteristics and behaviors of intruders"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63579,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63536,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bảo mật tầng IP:\n- Tổng quan bảo mật tầng IP\n- Chính sách bảo mật tầng IP\n- Giao thức bảo mật ESP (Encapsulating Security Payload)\n- Kết hợp các liên kết bảo mật\n- Phương pháp trao đổi khóa Internet\n- Các bộ mật mã",
+        "en": "IP security:\n- IP Security Overview\n- IP Security Policy\n- Encapsulating Security Payload\n- Combining Security Associations\n- Internet Key Exchange\n- Cryptographic Suites"
+      }
+    },
+    {
+      "id": 28514,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 39255,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71508,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "– Xác định mức độ nguy hại của các nguy cơ bảo mật",
+              "en": "Identify dangerous level of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63559,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63515,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39257,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71509,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Đề xuất giải pháp chống lại các nguy cơ an ninh mạng",
+              "en": " Suggest solutions on security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63516,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63537,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39256,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71507,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Mô tả những yếu tố cơ bản cần có để chống lại các nguy cơ an ninh mạng.",
+              "en": "Describe issues needed to solve problems of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63560,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63517,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kẻ xâm nhập bất hợp pháp:\n- Các kẻ xâm nhập\n- Phát hiện xâm nhập\n- Quản lý mật khẩu",
+        "en": "Intruders:\n- Intruders\n- Intrusion Detection\n- Password Management"
+      }
+    },
+    {
+      "id": 28518,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 39268,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71511,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Sử dụng công cụ Wireshark để bắt gói tin",
+              "en": "UseWireshark to analyze data flow in/out the system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63580,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63581,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39271,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71508,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "– Xác định mức độ nguy hại của các nguy cơ bảo mật",
+              "en": "Identify dangerous level of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63582,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63538,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39270,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71509,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Đề xuất giải pháp chống lại các nguy cơ an ninh mạng",
+              "en": " Suggest solutions on security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63561,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63583,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39269,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71507,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Mô tả những yếu tố cơ bản cần có để chống lại các nguy cơ an ninh mạng.",
+              "en": "Describe issues needed to solve problems of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63539,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63562,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mã độc:\n- Các loại mã độc\n- Các loại virus\n- Các phương pháp phòng chống virus\n- Các loại sâu máy tính",
+        "en": "Malicious software:\n- Types of Malicious Software\n- Viruses\n- Virus Countermeasures\n- Worms"
+      }
+    },
+    {
+      "id": 28515,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 39258,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71507,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Mô tả những yếu tố cơ bản cần có để chống lại các nguy cơ an ninh mạng.",
+              "en": "Describe issues needed to solve problems of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63584,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63585,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39261,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71512,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Sử dụng các công cụ truy vết, như Whois, nslookup, ...",
+              "en": " Use supporting tools on footprinting such as Whois, nslookup,"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63540,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63520,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39260,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "Bài tập nhóm"
+          },
+          "chuandaura": {
+            "id": 71509,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Đề xuất giải pháp chống lại các nguy cơ an ninh mạng",
+              "en": " Suggest solutions on security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63521,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63565,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39259,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "classwork"
+          },
+          "chuandaura": {
+            "id": 71508,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "– Xác định mức độ nguy hại của các nguy cơ bảo mật",
+              "en": "Identify dangerous level of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63566,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63541,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tường lửa:\n- Sự cần thiết của tường lửa\n- Các tính chất của tường lửa\n- Các loại tường lửa\n- Cấu hình tường lửa và cách sử dụng",
+        "en": "Firewalls:\n- The Need for Firewalls\n- Firewall Characteristics\n- Types of Firewalls\n- Firewall Location and Configurations"
+      }
+    },
+    {
+      "id": 28516,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 39262,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "bài tập theo nhóm trên lớp",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71504,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Nhận dạng và phân loại các kiểu tấn công an ninh mạng dựa trên đặc tính và hành vi",
+              "en": "Identify and classify attacks based on characteristics and behaviors of intruders"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63522,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63542,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39265,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm\n",
+            "en": " Group exercises in class\n\n"
+          },
+          "chuandaura": {
+            "id": 71508,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "– Xác định mức độ nguy hại của các nguy cơ bảo mật",
+              "en": "Identify dangerous level of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63543,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63567,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39264,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm",
+            "en": "Group homework"
+          },
+          "chuandaura": {
+            "id": 71507,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Mô tả những yếu tố cơ bản cần có để chống lại các nguy cơ an ninh mạng.",
+              "en": "Describe issues needed to solve problems of security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63586,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63544,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39263,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập trên lớp theo nhóm",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71509,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Đề xuất giải pháp chống lại các nguy cơ an ninh mạng",
+              "en": " Suggest solutions on security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63563,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63564,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tấn công từ chối dịch vụ:\n- Các kỹ thuật tấn công từ chối dịch vụ\n- Các kiểu tấn công vào băng thông\n- Các kiểu tấn công DOS SYN\n- Các kiểu tấn công ICMP Flood\n- Tấn công từ chối dịch vụ phân tán DDoS\n- Các công cụ tấn công và phòng chống DDoS",
+        "en": "Denial of Service:\n- DoS Attack Techniques\n- Bandwidth Attacks\n- SYN Attacks\n- ICMP Flood Attack\n- Distributed DoS\n- DDoS Tools"
+      }
+    },
+    {
+      "id": 28517,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 39267,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "giảng",
+            "en": "lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "bài tập",
+            "en": "Exercise"
+          },
+          "chuandaura": {
+            "id": 71513,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Sử dụng các công cụ quét, như Nmap, Nessus, Metasploit, Cain&Abel, ...",
+              "en": "Use supporting on scanning such as Nmap, Nessus, Metasploit, Cain&Abel, ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63518,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63519,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24447,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Mini project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39266,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập theo nhóm trên lớp",
+            "en": "Group exercises in class"
+          },
+          "chuandaura": {
+            "id": 71509,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Đề xuất giải pháp chống lại các nguy cơ an ninh mạng",
+              "en": " Suggest solutions on security threats"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 63525,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 24446,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập và thực hành",
+                  "en": "Lab exercises"
+                }
+              }
+            },
+            {
+              "id": 63526,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 24448,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn tập\n",
+        "en": "Review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 71498,
+      "ma": "L.O.1.1",
+      "ten_vi": "Gợi nhớ kiến thức về số học, xác suất thống kê...",
+      "ten_en": "Remind knowledge on number theory and, probability and statistics...",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71499,
+      "ma": "L.O.1.2",
+      "ten_vi": "Nắm các giải thuật khóa đối xứng và bất đối xứng, các giải thuật mã hóa thông dụng khác, ...",
+      "ten_en": "Understand symmetric-key and asymmetric-key algorithms, other known encryption algorithms, ...",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71501,
+      "ma": "L.O.2.1",
+      "ten_vi": "Gợi nhớ cấu trúc đơn vị dữ liệu như khung dữ liệu, packet, segment, địa chỉ MAC, địa chỉ IP, các giao thức mạng, ...",
+      "ten_en": "Remind structure different data units such as frame, packet, segements, MAC address, IP address, protocols, ...",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71502,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thông qua các công cụ như Wireshark và các công cụ khác để phân tích gói tin, ...",
+      "ten_en": "Use Wireshark and other tools to analyze data flow",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71504,
+      "ma": "L.O.3.1",
+      "ten_vi": "Nhận dạng và phân loại các kiểu tấn công an ninh mạng dựa trên đặc tính và hành vi",
+      "ten_en": "Identify and classify attacks based on characteristics and behaviors of intruders",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71505,
+      "ma": "L.O.3.2",
+      "ten_vi": "So sánh sự khác nhau của các cuộc tấn công dựa trên kết quả phân tích",
+      "ten_en": "Compare attacks based on the analysis above",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71507,
+      "ma": "L.O.4.1",
+      "ten_vi": "Mô tả những yếu tố cơ bản cần có để chống lại các nguy cơ an ninh mạng.",
+      "ten_en": "Describe issues needed to solve problems of security threats",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71508,
+      "ma": "L.O.4.2",
+      "ten_vi": "– Xác định mức độ nguy hại của các nguy cơ bảo mật",
+      "ten_en": "Identify dangerous level of security threats",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71509,
+      "ma": "L.O.4.3",
+      "ten_vi": "Đề xuất giải pháp chống lại các nguy cơ an ninh mạng",
+      "ten_en": " Suggest solutions on security threats",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        },
+        {
+          "id": 24448,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71511,
+      "ma": "L.O.5.1",
+      "ten_vi": "Sử dụng công cụ Wireshark để bắt gói tin",
+      "ten_en": "UseWireshark to analyze data flow in/out the system",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71512,
+      "ma": "L.O.5.2",
+      "ten_vi": "Sử dụng các công cụ truy vết, như Whois, nslookup, ...",
+      "ten_en": " Use supporting tools on footprinting such as Whois, nslookup,",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71513,
+      "ma": "L.O.5.3",
+      "ten_vi": "Sử dụng các công cụ quét, như Nmap, Nessus, Metasploit, Cain&Abel, ...",
+      "ten_en": "Use supporting on scanning such as Nmap, Nessus, Metasploit, Cain&Abel, ...",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71515,
+      "ma": "L.O.6.1",
+      "ten_vi": "Vai trò của chuyên gia an ninh mạng",
+      "ten_en": "The role of network security expert",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    },
+    {
+      "id": 71516,
+      "ma": "L.O.6.2",
+      "ten_vi": "Cơ hội việc làm",
+      "ten_en": "Job opportunities",
+      "hddg": [
+        {
+          "id": 24446,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập và thực hành",
+          "ten_en": "Lab exercises"
+        },
+        {
+          "id": 24447,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Mini project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Mật mã và An ninh mạng",
+  "tenmonhoc_eng": "Cryptography and Network Security",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

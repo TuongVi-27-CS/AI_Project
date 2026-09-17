@@ -1,0 +1,1420 @@
+{
+  "ma": "DCMH.CO3021.2.1",
+  "phienban": "2.1",
+  "capnhat": "07/10/2024 14:27",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3021",
+  "ten": "CO3021 - Hệ Quản trị Cơ sở Dữ Liệu",
+  "ten_eng": "CO3021 - Database Management Systems",
+  "hockyapdung": "HK221",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p><p></p><p></p><p>Môn học có các mục tiêu cụ thể như sau:</p>\n<ul>\n<li><i>Trang bị cho sinh viên các khái niệm và các vấn đề hiện thực liên quan các hệ quản trị cơ sở dữ liệu.</i></li>\n<li><i>Tạo khả năng cho sinh viên có thể vận dụng hiệu quả phần hiện thực của các mô-đun trong các hệ quản trị cơ sở dữ liệu hỗ trợ mô hình dữ liệu quan hệ ở mức vật lý như:</i> <i>quản lý lưu trữ và truy xuất bộ nhớ thứ cấp, các cấu trúc tập tin dữ liệu, các cấu trúc chỉ mục. </i></li>\n<li><i>Tạo khả năng cho sinh viên có thể sử dụng hiệu quả phần xử lý và tối ưu hóa truy vấn với ngôn ngữ SQL trên các cơ sở dữ liệu quan hệ.</i></li>\n<li><i>Tạo khả năng cho sinh viên có thể vận dụng các kỹ thuật liên quan để giải quyết các sự cố có thể xảy ra làm dữ liệu không nhất quán và mất mát cũng như xử lý dữ liệu trong môi trường đa người dùng đồng thời: xử lý giao tác, điều khiển tương tranh và khôi phục dữ liệu.</i></li>\n</ul><br></p>",
+      "en": "<p><p>The objectives of the course are listed as follows:</p>\n<ul>\n<li><b></b><i>To provide students with basic concepts and implementation issues of database management systems. </i></li>\n<li><b></b><i>To enable students to effectively and efficiently use several modules of database management systems to support relational databases at the physical level such as physical storage and access management, file structures, and index structures.</i></li>\n<li><b></b><i>To enable students to effectively and efficiently use a query processor and optimizer of a relational database management system with SQL language.</i></li>\n<li><b></b><i>To enable students to effectively and efficiently use the techniques related to transaction management, concurrency control, and database recovery and backup in order to solve the problems with system crash to avoid data inconsistencies and loss as well as to manage data in a concurrent multi-user environment.</i></li>\n</ul><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p><p>Môn học này cung cấp kiến thức về các khái niệm và các vấn đề hiện thực liên quan đến các hệ quản trị cơ sở dữ liệu. Nội dung môn học bao gồm phần hiện thực của các mô-đun trong các hệ quản trị cơ sở dữ liệu hỗ trợ mô hình dữ liệu quan hệ ở mức vật lý như: quản lý lưu trữ và truy xuất bộ nhớ thứ cấp, các cấu trúc tập tin dữ liệu, các cấu trúc chỉ mục, xử lý và tối ưu hóa truy vấn. Kế đến môn học đề cập những vấn đề và kỹ thuật để đối phó với các sự cố có thể xảy ra làm dữ liệu không nhất quán và mất mát cũng như các xử lý dữ liệu trong môi trường đa người dùng đồng thời: xử lý giao tác, điểu khiển tương tranh và khôi phục dữ liệu.</p></p>",
+      "en": "<p><p>This course aims to provide students with the knowledge about database management systems such as the concepts and implementation of these systems. The content consists of physical implementation of several modules of the database management systems that support the relational database model. The main modules are related to disk storage and access management, file structures, index structures, query processing and optimization. Other topics discussed in this course are the issues and techniques that handle the databases and systems when there is a crash leading to data inconsistencies and loss. A multi-user environment with concurrent execution is also considered. The issues and techniques are related to transaction management, concurrency control, database recovery and backup.</p><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><p></p><p>[1] R. Elmasri, S. R. Navathe, Fundamentals of Database Systems, 7th Edition, Pearson- Addison Wesley, 2016.</p>\n<p>[2] H. G. Molina, J. D. Ullman, J. Widom, Database System Implementation, Prentice-Hall, 2000.</p>\n<p>[3] H. G. Molina, J. D. Ullman, J. Widom, Database Systems: The Complete Book, Prentice-Hall, 2002</p>\n<p>[4] A. Silberschatz, H. F. Korth, S. Sudarshan, Database System Concepts, 7th Edition, McGraw-Hill, 2019.</p>\n<p>[5] R. Ramakrishnan, J. Gehrke, Database Management Systems, 4th edition, McGraw-Hill 2018.</p>\n<p>[6] Specifications of today’s datatabase management systems in practice: Oracle, MS SQL Server, MySQL, PostgreSQL, Versant, Apache Cache, MongoDB, Neo4J, etc.</p><br></p>",
+      "en": "<p><p>[1] R. Elmasri, S. R. Navathe, Fundamentals of Database Systems, 7th Edition, Pearson- Addison Wesley, 2016.</p>\n<p>[2] H. G. Molina, J. D. Ullman, J. Widom, Database System Implementation, Prentice-Hall, 2000.</p>\n<p>[3] H. G. Molina, J. D. Ullman, J. Widom, Database Systems: The Complete Book, Prentice-Hall, 2002</p>\n<p>[4] A. Silberschatz, H. F. Korth, S. Sudarshan, Database System Concepts, 7th Edition, McGraw-Hill, 2019.</p>\n<p>[5] R. Ramakrishnan, J. Gehrke, Database Management Systems, 4th edition, McGraw-Hill 2018.</p>\n<p>[6] Specifications of today’s datatabase management systems in practice: Oracle, MS SQL Server, MySQL, PostgreSQL, Versant, Apache Cache, MongoDB, Neo4J, etc.</p><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><p>Để đáp ứng mục tiêu của môn học, sinh viên cần thực hiện tốt các đòi hỏi sau đây:</p>\n<ol>\n<ul>\n<li><i>Có mặt tại lớp phải hơn 75%.</i></li>\n<li><i>Trước và sau mỗi chương, sinh viên làm các bài tập của chương.</i></li>\n<li><i>Sinh viên thực hiện bài tập lớn theo nhóm và do đó, cần có hoạt động nhóm hiệu quả. </i></li>\n</ul>\n</ol>\n<p><i></i><br></p>\n<p>Về đánh giá, có tất cả 3 cột điểm:</p>\n<ol>\n<ul>\n<li><i>Bài tập\t\t\t: 15%</i></li>\n<li><i>Bài tập lớn &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 35%</i></li>\n<li><i>Thi cuối kỳ &nbsp; \t\t: 50%</i></li>\n</ul>\n</ol>\n<p><i></i><br></p>\n<p>Hình thức làm bài như sau:</p>\n<ol>\n<ul>\n<li><i>Bài tập: được thực hiện cá nhân hoặc theo nhóm trên e-learning và tại lớp trước và sau mỗi chương.</i></li>\n<li><i>Bài tập lớn: được thực hiện theo nhóm ngoài lớp và nộp báo cáo vào tuần 14.</i></li>\n<li><i>Thi cuối kỳ: trắc nghiệm + tự luận, được thực hiện theo lịch thi cuối kỳ của toàn trường, thời gian làm bài 100 phút.</i></li>\n</ul>\n</ol><br></p>",
+      "en": "<p><p><i>In order to achieve the objectives of the course, students are asked to fullfil the following requirements:</i></p>\n<ol>\n<li><i>Join at least 75% of in-class activities,</i></li>\n<li><i>Complete the exercises of each chapter before and after the chapter is discussed,</i></li>\n<li><i>Work on projects in team.</i></li>\n</ol>\n<p><i></i><br></p>\n<p><i>Regarding assessment, there are 3 grade components:</i></p>\n<ol>\n<li><i>Exercises\t: 15%</i></li>\n<li><i>Projects\t: 35%</i></li>\n<li><i>Final exam\t: 50%</i></li>\n</ol>\n<p><i></i><br></p>\n<p><i>Learning strategies:</i></p>\n<ol>\n<li><i>Exercises: complete individual and group exercises in e-learning and in class sessions before and after each chapter is discussed.</i></li>\n<li><i>Projects: work in team from week 2 to week 14, present your project in a technical report, make a presentation and submit the work in week 14.</i></li><li><i>Final exam: complete an exam of multiple-choice and writing questions in 100 minutes according to the final exam schedule of the university.</i></li></ol></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 1242,
+      "ma": "CN_CND",
+      "ten": {
+        "vi": "Chuyên ngành: Công nghệ Dữ liệu Bảo mật và Trí tuệ Kinh doanh",
+        "en": "Data, Security Engineering an Business Intelligence Data Engineering"
+      }
+    },
+    {
+      "id": 378,
+      "ma": "CN_KHM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Chuyên ngành Khoa học Máy tính"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1202,
+      "ma": "002919",
+      "ten": "Võ Thị Ngọc Châu"
+    },
+    {
+      "id": 1205,
+      "ma": "003178",
+      "ten": "Phan Trọng Nhân"
+    },
+    {
+      "id": 1207,
+      "ma": "003183",
+      "ten": "Nguyễn Thị Ái Thảo"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 1.0,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 45,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 60,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 15,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 35,
+    "doAn": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 964,
+      "maBoMon": "CDL",
+      "tenBoMon": {
+        "vi": "Hệ Thống Thông Tin"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Nhà A3",
+      "dienThoai": "38647256 - Ext 5847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1202,
+        "maGiangVien": "002919",
+        "tenGiangVien": "Võ Thị Ngọc Châu",
+        "emailGiangVien": "chauvtn@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO2013 - Hệ cơ sở Dữ liệu",
+        "en": "CO2013 - Database Systems"
+      },
+      "tenmonhoc_only": {
+        "vi": "Hệ cơ sở Dữ liệu",
+        "en": "Database Systems"
+      },
+      "mamonhoc": "CO2013"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 20846,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 20847,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "20846",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Exercises"
+      },
+      "noidung": {
+        "vi": "Bài tập: trên lớp + ở nhà, cá nhân + nhóm",
+        "en": "Exercises: in class + at home, individual + group"
+      }
+    },
+    {
+      "id": 20848,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "20846",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": " trắc nghiệm + tự luận, được thực hiện theo lịch thi cuối kỳ, thời gian làm bài 100 phút.",
+        "en": "multiple choice + essay, conducted according to the final exam schedule, the time to do the test is 100 minutes."
+      }
+    },
+    {
+      "id": 20849,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "20846",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "được thực hiện theo nhóm ngoài lớp và nộp báo cáo vào tuần 14",
+        "en": "work in team and complete by week 14"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 24274,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 32755,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận, làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66962,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phát biểu định nghĩa và các chức năng của một hệ quản trị cơ sở dữ liệu.",
+              "en": "State a definition and capabilities of a database management system. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52514,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52515,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52537,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 32756,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66963,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Chỉ ra các thành phần chức năng cơ bản trong một hệ quản trị cơ sở dữ liệu.",
+              "en": "Indicate several typical components of a database management system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52516,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52536,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52513,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Tổng quan về hệ quản trị cơ sở dữ liệu\n1.1. Định nghĩa hệ quản trị cơ sở dữ liệu (database management systems, DBMS)\n1.2. Các chức năng chính của DBMS\n1.3. Kiến trúc của DBMS\n1.4. Lịch sử phát triển\n1.5. Các lý do cần và không cần dùng DBMS\n1.6. Vấn đề nghề nghiệp nếu sử dụng DBMS thành thạo và hiệu quả\nYêu cầu tự học : 4 giờ (Nắm vững lý thuyết)",
+        "en": "Chapter 1: An overview on database management systems\n1.1. Definition of a database management system (DBMS)\n1.2. Capabilities of a DBMS\n1.3. DBMS architecture\n1.4. Development History\n1.5. When a DBMS should and should not be used\n1.6. Professional issues with using DBMSs successfully\nSelf-study : 4 hours (Master the required content)"
+      }
+    },
+    {
+      "id": 24272,
+      "stt": 2,
+      "buoi": "2, 3",
+      "chuandaurachitiet": [
+        {
+          "id": 32749,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66965,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Thao tác các tiện ích về tổ chức lưu trữ vật lý và các cấu trúc tập tin.",
+              "en": "Manipulate the facilities for disk storage and file structures."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52522,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52538,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52539,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Tổ chức lưu trữ và các cấu trúc tập tin cơ bản\n2.1. Tổ chức lưu trữ thứ cấp\n2.2. Các tập tin không có thứ tự\n2.3. Các tập tin có thứ tự\n2.4. Các tập tin băm\n2.5. Các cấu trúc tập tin khác\n2.6. Các công nghệ lưu trữ ngày nay\n2.7. Các hỗ trợ lưu trữ vật lý của các DBMS ngày nay\nYêu cầu tự học : 8 giờ (Nắm vững lý thuyết và làm các bài tập của chương trên hệ thống e-learning)",
+        "en": "Chapter 2: Physical storage and file structures\n2.1. Secondary storage\n2.2. Unordered files\n2.3. Ordered files\n2.4. Hash files\n2.5. Other file structures\n2.6. Today’s storage technologies\n2.7. Physical storage in today’s DBMSs\nSelf-study : 8 hours (Master the required content and complete the exercises in BKEL)"
+      }
+    },
+    {
+      "id": 24276,
+      "stt": 3,
+      "buoi": "4, 5",
+      "chuandaurachitiet": [
+        {
+          "id": 32750,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66966,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Sử dụng các cấu trúc chỉ mục trong các ứng dụng thực tiễn.",
+              "en": "Use some typical index structures in practical applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52517,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52518,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52528,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Các cấu trúc chỉ mục cho tập tin dữ liệu\n3.1. Các loại chỉ mục có thứ tự đơn mức\n3.2. Chỉ mục đa mức\n3.3. Chỉ mục đa mức động dùng cấu trúc chỉ mục B-tree và B+-tree\n3.4. Các cấu trúc chỉ mục khác\n3.5. Các hỗ trợ chỉ mục của các DBMS ngày nay\nYêu cầu tự học : 8 giờ (Nắm vững lý thuyết và làm các bài tập của chương trên hệ thống e-learning)",
+        "en": "Chapter 3: Indexing structures for files\n3.1. Types of single-level ordered indexes\n3.2. Multilevel indexes\n3.3. Dynamic multilevel indexes using B-tree and B+-tree\n3.4. Other indexing structures\n3.5. Indexes in today’s DBMSs\nSelf-study : 8 hours (Master the required content and complete the exercises in BKEL)"
+      }
+    },
+    {
+      "id": 24275,
+      "stt": 4,
+      "buoi": "6, 7, 8, 9",
+      "chuandaurachitiet": [
+        {
+          "id": 32751,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66968,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Diễn tả các bước trong quá trình xử lý và tối ưu truy vấn với các dạng câu truy vấn tiêu biểu như chọn, chiếu, kết, ...",
+              "en": "Illustrate the typical steps when processing and optimizing a high-level query for selection, projection, and join."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52529,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52523,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52525,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 32752,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66969,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thực hiện tối ưu truy vấn dựa vào quá trình tối ưu truy vấn phổ biến cho các dạng câu truy vấn tiêu biểu như chọn, chiếu, kết, ....",
+              "en": "Produce a query plan of a typical high-level query for selection and join using a popular query optimizer."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52526,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52530,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52533,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Xử lý và tối ưu hóa truy vấn\n4.1. Tổng quan về xử lý và tối ưu hóa truy vấn\n4.2. Xử lý truy vấn cho phép chọn\n4.3. Xử lý truy vấn cho phép kết\n4.4. Xử lý truy vấn cho phép chiếu và các phép toán tập hợp\n4.5. Các kỹ thuật cho xử lý truy vấn phức hợp\n4.6. Tối ưu hóa truy vấn dựa trên chi phí\n4.7. Các kỹ thuật xử lý và tối ưu hóa truy vấn khác\n4.8. Xử lý và tối ưu hóa truy vấn trong các DBMS ngày nay\nYêu cầu tự học : 16 giờ (Nắm vững lý thuyết và làm các bài tập của chương trên hệ thống e-learning)",
+        "en": "Chapter 4: Query processing and optimization\n4.1. An overview on query processing and optimization\n4.2. Query processing for SELECT operation\n4.3. Query processing for JOIN operation\n4.4. Query processing for PROJECT and SET operations\n4.5. Query processing for complex queries\n4.6. Cost-based query optimization\n4.7. Other query processing and optimization techniques\n4.8. Query processing and optimization in today’s DBMSs\nSelf-study : 16 hours (Master the required content and complete the exercises in BKEL)"
+      }
+    },
+    {
+      "id": 24271,
+      "stt": 5,
+      "buoi": "10, 11",
+      "chuandaurachitiet": [
+        {
+          "id": 32753,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66971,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thao tác với giao tác và lịch biểu.",
+              "en": "Manipulate transactions and their schedules."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52534,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52519,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52520,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Xử lý giao tác\n5.1. Tổng quan về xử lý giao tác\n5.2. Định nghĩa giao tác và các đặc tính của giao tác\n5.3. Định nghĩa lịch biểu và các đặc tính của lịch biểu\n5.4. Đặc trưng hóa các lịch biểu dựa vào tính khả phục hồi\n5.5. Đặc trưng hóa các lịch biểu dựa vào tính khả tuần tự hóa\n5.6. Hỗ trợ giao tác trong các DBMS ngày nay\nYêu cầu tự học : 8 giờ (Nắm vững lý thuyết và làm các bài tập của chương trên hệ thống e-learning)",
+        "en": "Chapter 5: Transaction Processing\n5.1. An overview on transaction processing\n5.2. Definition of a transaction and its desirable properties \n5.3. Definition of a schedule and its characteristics \n5.4. Characterizing schedules based on recoverability \n5.5. Characterizing schedules based on serializability\n5.6. Transaction support in today’s DBMSs\nSelf-study : 8 hours (Master the required content and complete the exercises in BKEL)"
+      }
+    },
+    {
+      "id": 24277,
+      "stt": 6,
+      "buoi": "12, 13",
+      "chuandaurachitiet": [
+        {
+          "id": 32754,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66972,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Sử dụng các kỹ thuật điều khiển tương tranh để xử lý dữ liệu trong môi trường đa người dùng đồng thời.",
+              "en": "Use concurrency control techniques to manage data in a concurrent multi-user environment."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52524,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52531,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52527,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Các kỹ thuật điều khiển tương tranh\n6.1. Tổng quan về điều khiển tương tranh\n6.2. Các kỹ thuật khóa hai-pha \n6.3. Điều khiển tương tranh dựa vào thứ tự nhãn thời gian\n6.4. Các kỹ thuật điều khiển tương tranh đa phiên bản\n6.5. Độ mịn của dữ liệu và kỹ thuật khóa hai-pha đa độ mịn\n6.6. Các kỹ thuật điều khiển tương tranh khác\n6.7. Hỗ trợ điều khiển tương tranh trong các DBMS ngày nay\nYêu cầu tự học : 8 giờ (Nắm vững lý thuyết và làm các bài tập của chương trên hệ thống e-learning)",
+        "en": "Chapter 6: Concurrency control techniques\n6.1. An overview on concurrency control\n6.2. Two-phase locking techniques\n6.3. Concurrency control based on timestamp ordering\n6.4. Multiversion concurrency control techniques\n6.5. Granularity of Data Items and Multiple Granularity Locking Technique\n6.6. Other concurrency control techniques\n6.7. Concurrency control in today’s DBMSs\nSelf-study : 8 hours (Master the required content and complete the exercises in BKEL)"
+      }
+    },
+    {
+      "id": 24273,
+      "stt": 7,
+      "buoi": "14, 15",
+      "chuandaurachitiet": [
+        {
+          "id": 32757,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và làm bài tập",
+            "en": "Discussion and quiz"
+          },
+          "chuandaura": {
+            "id": 66973,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Sử dụng các kỹ thuật điều khiển tương tranh để xử lý dữ liệu trong môi trường đa người dùng đồng thời.",
+              "en": "Use database recovery techniques to manage data when there is a system crash."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 52521,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 20847,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 52532,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 20849,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 52535,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 20848,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Các kỹ thuật phục hồi dữ liệu\n7.1. Tổng quan về phục hồi dữ liệu\n7.2. Các kỹ thuật phục hồi dữ liệu dựa vào sự cập nhật trì hoãn\n7.3. Các kỹ thuật phục hồi dữ liệu dựa vào sự cập nhật tức thời\n7.4. Kỹ thuật phân trang bóng âm\n7.5. Kỹ thuật ARIES\n7.6. Vấn đề sao lưu dữ liệu\n7.7. Các kỹ thuật phục hồi và sao lưu dữ liệu khác\n7.8. Hỗ trợ phục hồi và sao lưu dữ liệu trong các DBMS ngày nay\nYêu cầu tự học : 8 giờ (Nắm vững lý thuyết và làm các bài tập của chương trên hệ thống e-learning)",
+        "en": "Chapter 7: Database recovery techniques\n7.1. An overview on database recovery\n7.2. Recovery based on deferred update\n7.3. Recovery based on immediate update\n7.4. Shadow paging\n7.5. ARIES recovery algorithm\n7.6. Database backup\n7.7. Other backup and recovery techniques\n7.8. Backup and recovery in today’s DBMSs\nSelf-study : 8 hours (Master the required content and complete the exercises in BKEL)"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 66962,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phát biểu định nghĩa và các chức năng của một hệ quản trị cơ sở dữ liệu.",
+      "ten_en": "State a definition and capabilities of a database management system. ",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66963,
+      "ma": "L.O.1.2",
+      "ten_vi": "Chỉ ra các thành phần chức năng cơ bản trong một hệ quản trị cơ sở dữ liệu.",
+      "ten_en": "Indicate several typical components of a database management system.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66965,
+      "ma": "L.O.2.1",
+      "ten_vi": "Thao tác các tiện ích về tổ chức lưu trữ vật lý và các cấu trúc tập tin.",
+      "ten_en": "Manipulate the facilities for disk storage and file structures.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66966,
+      "ma": "L.O.2.2",
+      "ten_vi": "Sử dụng các cấu trúc chỉ mục trong các ứng dụng thực tiễn.",
+      "ten_en": "Use some typical index structures in practical applications.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66968,
+      "ma": "L.O.3.1",
+      "ten_vi": "Diễn tả các bước trong quá trình xử lý và tối ưu truy vấn với các dạng câu truy vấn tiêu biểu như chọn, chiếu, kết, ...",
+      "ten_en": "Illustrate the typical steps when processing and optimizing a high-level query for selection, projection, and join.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66969,
+      "ma": "L.O.3.2",
+      "ten_vi": "Thực hiện tối ưu truy vấn dựa vào quá trình tối ưu truy vấn phổ biến cho các dạng câu truy vấn tiêu biểu như chọn, chiếu, kết, ....",
+      "ten_en": "Produce a query plan of a typical high-level query for selection and join using a popular query optimizer.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66971,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thao tác với giao tác và lịch biểu.",
+      "ten_en": "Manipulate transactions and their schedules.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66972,
+      "ma": "L.O.4.2",
+      "ten_vi": "Sử dụng các kỹ thuật điều khiển tương tranh để xử lý dữ liệu trong môi trường đa người dùng đồng thời.",
+      "ten_en": "Use concurrency control techniques to manage data in a concurrent multi-user environment.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 66973,
+      "ma": "L.O.4.3",
+      "ten_vi": "Sử dụng các kỹ thuật điều khiển tương tranh để xử lý dữ liệu trong môi trường đa người dùng đồng thời.",
+      "ten_en": "Use database recovery techniques to manage data when there is a system crash.",
+      "hddg": [
+        {
+          "id": 20847,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 20848,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 20849,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Hệ Quản trị Cơ sở Dữ Liệu",
+  "tenmonhoc_eng": "Database Management Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

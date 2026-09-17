@@ -1,0 +1,1998 @@
+{
+  "ma": "DCMH.TR3057.6.1",
+  "phienban": "3.1",
+  "capnhat": "24/03/2026 13:55",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Giao Thông",
+    "en": "Faculty of Transportation Engineering"
+  },
+  "mamonhoc": "TR3057",
+  "ten": "TR3057 - Phương pháp phân tích Kết cấu tàu",
+  "ten_eng": "TR3057 - Structural Analysis of Ship",
+  "hockyapdung": "HK263",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học đề cập đến cơ sở lý thuyết và các phương pháp phân tích kết cấu và kết cấu tàu nói riêng. Bên cạnh các nguyên tắc cơ bản được sử dụng để thiết lập phương trình vi phân, các nguyên lý biến phân được đề cập như là một phương pháp tiếp cận nâng cao. Thay vì các phương pháp truyền thống, các phương pháp giải gần đúng có thể được rút ra trực tiếp từ các nguyên lý biến phân và được áp dụng để giải các phương trình vi phân này. Chúng được đề cập cho các giải pháp tính toán của các bài toán cơ học kết cấu. Mặc dù các phương pháp giải cổ điển như phương pháp sai phân hữu hạn và phương pháp phần tử biên được xem xét, nhưng phương pháp phần tử hữu hạn lại được nhấn mạnh chính.<br></p>",
+      "en": "<p>The course deals with the formulation and methods of structural analysis and also ship structures in particular. Beside the fundamental principles used to derive differential equations, variational principles are also considered as an advanced ones. As an alternative, approximate solution formulations can be derived directly from the variational principles and applied to solve differential equations. They are presented for the computational solution of structural mechanics problems. Although classical approaches, Finite Difference and Boundary Element Methods are considered, primary emphasis is given to Finite Element formulations. <br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nCác nội dung chính của môn học: các phương pháp biến phân và phần dư có trọng số, phương pháp sai phân hữu hạn, phương pháp phần tử hữu hạn, phương pháp phần tử biên. Ngoài ra môn học còn giới thiệu các phương pháp tính trong phân tích độ tin cậy trong thiết kế kết cấu tàu thủy. Một thư viện hàm Matlab dành cho phương pháp phần tử hữu hạn để giải các bài toán kết cấu khác nhau. Sử dụng phần mềm phần tử hữu hạn thương mại và lập trình phương pháp phần tử hữu hạn cũng được yêu cầu đối với sinh viên.\n\n <br></p>",
+      "en": "<p>the course also introduces practical methods for structural reliability analyses applied to ship structural design. A Finite Element toolbox in form of Matlab functions are also provided for different types of structural mechanics problems. Using commercial FEM software and FEM programming is then required.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\nSách, Giáo trình chính:&nbsp;</p><p>[1] Lê Tất Hiển, Trần Công Nghị, \"Phương pháp phân tích kết cấu tàu\",&nbsp;NXB ĐHQG Tp.HCM,&nbsp;2015.</p><p>[2]&nbsp;\n\nYong Bai, \"Marine Structural Design\",&nbsp;ELSEVIER, 2003.<br></p><p>[3]&nbsp;&nbsp;Zienkievicz, O.C. and Taylor, R.L., (2000), “The Finite Element Method, Vol 1, Vol 2”, 5th ed., Butterworth  Heinemann, London.</p><p>\n\n[4] Melchers, R.E., (2002), “Structural Reliability Analysis and Prediction”, John Wiley &amp; Sons, New York, USA.<br></p><p>Sách tham khảo:&nbsp;<br></p><p>[5] W. Wunderlich, W.D. Pilkey, Mechanics of Structures: variational and computational methods, CRC Press,\n2003.&nbsp;<br></p><p>\n\n[6] &nbsp; M. Géradin, D.J. Rixen,  \"Mechanical vibrations theory and application to structural dynamics\" 3rd Edition, Wiley, 2015. \n\n<br></p><p>[7] CALFEM - “Computer Aided Learning of the Finite Element Method\", Lund University, 2006.</p><p>\n\n[8] Papanikolaou A.D. (Editor), (2009), “Risk-Based Ship Design”, Springer-Verlag Berlin Heidelberg.\n\n<br><br><br><br><br></p>",
+      "en": "<p>\n\n</p><p>Books: </p><p>[1] Lê Tất Hiển, Trần Công Nghị, \"Phương pháp phân tích kết cấu tàu\", NXB ĐHQG Tp.HCM, 2015.</p><p>[2] \n\nYong Bai, \"Marine Structural Design\", ELSEVIER, 2003.<br></p><p>[3] &nbsp;Zienkievicz, O.C. and Taylor, R.L., (2000), “The Finite Element Method, Vol 1, Vol 2”, 5th ed., Butterworth  Heinemann, London.</p><p>\n\n[4] Melchers, R.E., (2002), “Structural Reliability Analysis and Prediction”, John Wiley &amp; Sons, New York, USA.<br></p><p>References: <br></p><p>[5] W. Wunderlich, W.D. Pilkey, Mechanics of Structures: variational and computational methods, CRC Press,\n2003. <br></p><p>\n\n[6] &nbsp; M. Géradin, D.J. Rixen,  \"Mechanical vibrations theory and application to structural dynamics\" 3rd Edition, Wiley, 2015. \n\n<br></p><p>[7] CALFEM - “Computer Aided Learning of the Finite Element Method\", Lund University, 2006.</p><p>\n\n[8] Papanikolaou A.D. (Editor), (2009), “Risk-Based Ship Design”, Springer-Verlag Berlin Heidelberg.\n\n<br><br></p>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\nTài liệu được đưa lên BK-Elearning hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học.&nbsp;</p><p>Điểm tổng\nkết môn học được đánh giá xuyên suốt quá trình học.&nbsp;</p><p>\n\n• Bài tập / Thực hành tại lớp : 20% \n\n<br></p><p>• Bài tập lớn/Tiểu luận: 20%&nbsp;</p><p>• Kiểm tra: 20%&nbsp;</p><p>• Thi: 40%\n\n<br></p>",
+      "en": "<p>\n\n</p><p>Documents are posted at BKEL site weekly. Students download, print out, and bring them to class. The overall score of the subjects assessed  throughout the learning process.</p><p>\n\n</p><p>●  Exercises: 20%<br></p><p>● Projects: 20%</p><p>● Mid-term test: 20%</p><p>● Final test: 40%</p><p></p>\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>_</p>",
+      "en": "<p>_</p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 622,
+      "ma": "001705",
+      "ten": "Lê Đình Tuân"
+    },
+    {
+      "id": 626,
+      "ma": "002533",
+      "ten": "Lê Tất Hiển"
+    },
+    {
+      "id": 628,
+      "ma": "003175",
+      "ten": "Trần Hải"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 960,
+      "maBoMon": "TAU",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Tàu Thủy"
+      },
+      "maKhoa": "GT",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Giao Thông",
+        "en": "Faculty of Transportation Engineering"
+      },
+      "vanPhong": "Bộ môn Kỹ thuật Tàu Thủy (Department of Naval Architecture & Marine Engineering)",
+      "dienThoai": "+84-28 3864 7257  (ext.7655)"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 622,
+        "maGiangVien": "001705",
+        "tenGiangVien": "Lê Đình Tuân",
+        "emailGiangVien": "tuan-ledinh@hcmut.edu.vn"
+      },
+      {
+        "id": 626,
+        "maGiangVien": "002533",
+        "tenGiangVien": "Lê Tất Hiển",
+        "emailGiangVien": "hienlt@hcmut.edu.vn"
+      },
+      {
+        "id": 628,
+        "maGiangVien": "003175",
+        "tenGiangVien": "Trần Hải",
+        "emailGiangVien": "haitran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0.67_0.33",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 81979,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root review activities"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root review activities"
+      }
+    },
+    {
+      "id": 81980,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "81979",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá, lập danh sách nhóm",
+        "en": "Detailed content of the subject, time of distribution, way to evaluate, list of groups"
+      },
+      "noidung": {
+        "vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá, lập danh sách nhóm",
+        "en": "Detailed content of the subject, time of distribution, way to evaluate, list of groups"
+      }
+    },
+    {
+      "id": 81986,
+      "stt": 0,
+      "ma": "A.O.1.1",
+      "capdo": "2",
+      "parentid": "81980",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá",
+        "en": "Detailed content of the subject, time of distribution, way to evaluate"
+      },
+      "noidung": {
+        "vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá",
+        "en": "Detailed content of the subject, time of distribution, way to evaluate"
+      }
+    },
+    {
+      "id": 81987,
+      "stt": 0,
+      "ma": "A.O.1.2",
+      "capdo": "2",
+      "parentid": "81980",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Lập danh sách nhóm",
+        "en": "list of groups"
+      },
+      "noidung": {
+        "vi": "Lập danh sách nhóm",
+        "en": "list of groups"
+      }
+    },
+    {
+      "id": 81981,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "81979",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp,  Bài tập trên lớp ",
+        "en": "Class attendance,  In class exercises"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp,  Bài tập trên lớp ",
+        "en": "Class attendance,  In class exercises"
+      }
+    },
+    {
+      "id": 81988,
+      "stt": 0,
+      "ma": "A.O.2.1",
+      "capdo": "2",
+      "parentid": "81981",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp ",
+        "en": "Class attendance"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      }
+    },
+    {
+      "id": 81989,
+      "stt": 0,
+      "ma": "A.O.2.2",
+      "capdo": "2",
+      "parentid": "81981",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIL #1.1-1.5",
+        "en": " In class exercises AIL #1.1-1.5"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIL #1.1-1.5",
+        "en": " In class exercises AIL #1.1-1.5"
+      }
+    },
+    {
+      "id": 81982,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "81979",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp, Bài tập trên lớp",
+        "en": "Class attendance,  In class exercises"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp, Bài tập trên lớp",
+        "en": "Class attendance,  In class exercises"
+      }
+    },
+    {
+      "id": 81990,
+      "stt": 0,
+      "ma": "A.O.3.1",
+      "capdo": "2",
+      "parentid": "81982",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      }
+    },
+    {
+      "id": 81991,
+      "stt": 0,
+      "ma": "A.O.3.2",
+      "capdo": "2",
+      "parentid": "81982",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIL #2.1-2.5",
+        "en": " In class exercises AIL #2.1-2.5"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIL #2.1-2.5",
+        "en": " In class exercises AIL #2.1-2.5"
+      }
+    },
+    {
+      "id": 81983,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "81979",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp, Bài tập trên lớp, Bài tập về nhà cá nhân",
+        "en": "Class attendance,  In class exercises, Individual homework exercises"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp, Bài tập trên lớp, Bài tập về nhà cá nhân",
+        "en": "Class attendance,  In class exercises, Individual homework exercises"
+      }
+    },
+    {
+      "id": 81992,
+      "stt": 0,
+      "ma": "A.O.4.1",
+      "capdo": "2",
+      "parentid": "81983",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      }
+    },
+    {
+      "id": 81993,
+      "stt": 0,
+      "ma": "A.O.4.2",
+      "capdo": "2",
+      "parentid": "81983",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIL #3.1-3.10",
+        "en": " In class exercises AIL #3.1-3.10"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIL #3.1-3.10",
+        "en": " In class exercises AIL #3.1-3.10"
+      }
+    },
+    {
+      "id": 81994,
+      "stt": 0,
+      "ma": "A.O.4.3",
+      "capdo": "2",
+      "parentid": "81983",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà cá nhân IHW #3.1-3.10",
+        "en": " Individual homework exercises IHW #3.1-3.10"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà cá nhân IHW #3.1-3.10",
+        "en": " Individual homework exercises IHW #3.1-3.10"
+      }
+    },
+    {
+      "id": 81984,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "81979",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Lập trình phương pháp phần tử hữu hạn",
+        "en": "Finite element method programming"
+      },
+      "noidung": {
+        "vi": "Lập trình phương pháp phần tử hữu hạn",
+        "en": "Finite element method programming"
+      }
+    },
+    {
+      "id": 81995,
+      "stt": 0,
+      "ma": "A.O.5.1",
+      "capdo": "2",
+      "parentid": "81984",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      }
+    },
+    {
+      "id": 81996,
+      "stt": 0,
+      "ma": "A.O.5.2",
+      "capdo": "2",
+      "parentid": "81984",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIL #4.1-4.5",
+        "en": " In class exercises AIL  #4.1-4.5"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIL #4.1-4.5",
+        "en": " In class exercises AIL  #4.1-4.5"
+      }
+    },
+    {
+      "id": 81997,
+      "stt": 0,
+      "ma": "A.O.5.3",
+      "capdo": "2",
+      "parentid": "81984",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà cá nhân IHW #4.1-4.10",
+        "en": "Individual homework exercises IHW #4.1-4.10"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà cá nhân IHW #4.1-4.10",
+        "en": "Individual homework exercises IHW #4.1-4.10"
+      }
+    },
+    {
+      "id": 81998,
+      "stt": 0,
+      "ma": "A.O.5.4",
+      "capdo": "2",
+      "parentid": "81984",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lập trình trên lớp PRO #4.1-4.5",
+        "en": "In class programming exercises   PRO #4.1-4.5"
+      },
+      "noidung": {
+        "vi": "Bài tập lập trình trên lớp PRO #4.1-4.5",
+        "en": "In class programming exercises  PRO #4.1-4.5"
+      }
+    },
+    {
+      "id": 81999,
+      "stt": 0,
+      "ma": "A.O.5.5",
+      "capdo": "2",
+      "parentid": "81984",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lập trình về nhà cá nhân PRO_IHW #4.1-4.10",
+        "en": "Individual  programming homework  PRO_IHW #4.1-4.10"
+      },
+      "noidung": {
+        "vi": "Bài tập lập trình về nhà cá nhân PRO_IHW #4.1-4.10",
+        "en": "Individual  programming homework  PRO_IHW #4.1-4.10"
+      }
+    },
+    {
+      "id": 81985,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "81979",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp, Bài tập trên lớp",
+        "en": "Class attendance,  In class exercises"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp, Bài tập trên lớp",
+        "en": "Class attendance,  In class exercises"
+      }
+    },
+    {
+      "id": 82000,
+      "stt": 0,
+      "ma": "A.O.6.1",
+      "capdo": "2",
+      "parentid": "81985",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      },
+      "noidung": {
+        "vi": "Tham gia bài giảng trên lớp",
+        "en": "Class attendance"
+      }
+    },
+    {
+      "id": 82001,
+      "stt": 0,
+      "ma": "A.O.6.2",
+      "capdo": "2",
+      "parentid": "81985",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIL #5.1-5.5",
+        "en": " In class exercises AIL #5.1-5.5"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIL #5.1-5.5",
+        "en": " In class exercises AIL #5.1-5.5"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 101784,
+      "stt": 1,
+      "buoi": "Tuần 1",
+      "chuandaurachitiet": [
+        {
+          "id": 131366,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n\n- Sơ lược đề cương môn học\n\n- Cách thức dạy và học, đánh giá môn học \n\n- Các yêu cầu tự học\n",
+            "en": "- Self-introduction \n\n- Subject outline\n\n- Way to teach and learn and evaluation\n\n- Self-study requirements"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tự phân nhóm theo\nhướng dẫn - Thảo\nluận cách đánh giá",
+            "en": "- Self-grouping - discussion about the assessment "
+          },
+          "chuandaura": {
+            "id": 189065,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Thực hiện độc lập, đảm nhận chủ động quản lý thời gian hoàn thành các bài tập về nhà cá nhân và nhóm",
+              "en": "A brief self-introduction and general information about the subject"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213827,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81986,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá",
+                  "en": "Detailed content of the subject, time of distribution, way to evaluate"
+                }
+              }
+            },
+            {
+              "id": 213828,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81987,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Lập danh sách nhóm",
+                  "en": "list of groups"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131365,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Sơ lược đề cương môn học \n- Cách thức dạy và học, đánh giá môn học\n- Các yêu cầu tự học",
+            "en": "- Self-introduction \n- Subject outline \n- Way to teach and learn and evaluation\n- Self-study requirements"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tự phân nhóm theo hướng dẫn \n- Thảo luận cách đánh giá",
+            "en": "- Self-grouping \n- Discussion about the  assessment"
+          },
+          "chuandaura": {
+            "id": 189066,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Thiết lập nhóm theo thỏa thuận, quản lý nhóm, thực hiện báo cáo các bài tập về nhà được giao theo dạng báo cáo chuyên đề tổng hợp theo phân chia nhóm, biết ứng dụng trí tuệ nhân tạo để phục vụ cho việc học tập nâng cao trình độ.",
+              "en": "Set up the group as agreed, Perform the report of homework."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213826,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81986,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá",
+                  "en": "Detailed content of the subject, time of distribution, way to evaluate"
+                }
+              }
+            },
+            {
+              "id": 213825,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81987,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Lập danh sách nhóm",
+                  "en": "list of groups"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về môn học - Thông tin Thầy/Cô - Các vấn đề liên quan đến môn học - Cách thức dạy và học",
+        "en": "Introduction to the subject - Lecturer's information - Subject-related issues - Way to teach and learn"
+      }
+    },
+    {
+      "id": 101782,
+      "stt": 2,
+      "buoi": "Tuần 2-4, Nội dung  C1-2 [1, 2,3], TLTK NC[5]",
+      "chuandaurachitiet": [
+        {
+          "id": 131360,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Slide bài giảng qua\nBKEL / Kiểm tra\nnhanh việc đọc hiểu\ntài liệu ARQ #1 (Accelerated\nReading\nQuiz) / Trắc nghiệm\ntrước khi qua bài\nmới CQ #1 (Concept Quiz)",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #1 /  Concept Quiz CQ #1 "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng\ntrên lớp / Bài tập\ntrên lớp AIL #1.1-1.5",
+            "en": "Class attendance / In class exercises  AIL #1.1-1.5"
+          },
+          "chuandaura": {
+            "id": 189050,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nhận biết được cái khái niệm tổng quan về các  phương pháp biến phân và phương pháp tính toán trong cơ học kết cấu, nhấn mạnh đến các phương pháp PTHH, phương pháp sai phân hữu hạn, phương pháp phần tử biên.",
+              "en": "Having an overview concept of functional methods and computational methods in structural mechanics, emphasizing finite element method, finite differential method, boundary element method."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213815,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81988,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp ",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213816,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81989,
+                "ma": "A.O.2.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #1.1-1.5",
+                  "en": " In class exercises AIL #1.1-1.5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131363,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Slide bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #1 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ #1 (Concept Quiz)\t",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #1 /  Concept Quiz CQ #1 "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng trên lớp / Bài tập trên lớp AIL #2.1-2.5",
+            "en": "Class attendance/ In class exercises AIL #2.1-2.5"
+          },
+          "chuandaura": {
+            "id": 189053,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Mô tả, giải thích được các nguyên lý công ào, công ảo bù, nguyên  lý biến phân, nguyên lý thế năng dừng; áp dụng các nguyên lý trên vào việc xây dựng mô hình tính các phần tử thanh kéo nén, dầm, thanh xoắn, biến dạng 2 chiều,.",
+              "en": "Master the principles of virtual work, complementary virtual work, functional principle, stationary energy principle; apply the above principles to the construction of a model to calculate rod elements, beams, torsion bars, 2-dimensional deformation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213821,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81990,
+                "ma": "A.O.3.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213822,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81991,
+                "ma": "A.O.3.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #2.1-2.5",
+                  "en": " In class exercises AIL #2.1-2.5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131362,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Slide bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #1 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ #1 (Concept Quiz)",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #1 /  Concept Quiz CQ #1 "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng\ntrên lớp / Bài tập\ntrên lớp AIL #1.1-1.5",
+            "en": "Class attendance/ In class exercises AIL #1.1-1.5"
+          },
+          "chuandaura": {
+            "id": 189051,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Trình bày được vài trò quan trọng của các phương pháp biến phân trong việc phát triển các công cụ tính toán  và phân tích kết cấu.",
+              "en": "Recognize the important role of functional methods in the development of structural analysis and calculation tools."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213820,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81988,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp ",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213819,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81989,
+                "ma": "A.O.2.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #1.1-1.5",
+                  "en": " In class exercises AIL #1.1-1.5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131361,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Slide bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #1 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ #1 (Concept Quiz)\t",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #1 /  Concept Quiz CQ #1 "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng trên lớp / Bài tập trên lớp AIL #2.1-2.5",
+            "en": "Class attendance/ In class exercises AIL #2.1-2.5"
+          },
+          "chuandaura": {
+            "id": 216972,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Trình bày được cách thành lập các dạng phương trình chủ đạo cho các bài toán kết cấu theo các dạng khác nhau; áp dụng giải các bài toán kết cấu cụ thể: tìm phương trình chủ đạo, đặc trưng kết cấu, chuyển vị, lực...",
+              "en": "Establish the governing equations for structural problems in different forms; apply solving specific structural problems: find the governing equation, structural characteristics, displacement, force ..."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213817,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81990,
+                "ma": "A.O.3.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213818,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81991,
+                "ma": "A.O.3.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #2.1-2.5",
+                  "en": " In class exercises AIL #2.1-2.5"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Lý thuyết đàn hồi: phương trình tương thích, phương trình cân bằng, định luật ứng xử vật liệu\n- Công và năng lượng, nguyên lý biến phân cổ điển: nguyên lý công ảo / công ảo bù, nguyên lý thế năng tổng dừng (delta_PI = 0), nguyên lý năng lượng tổng bù (delta_PI* = 0) dừng\n- Nguyên lý biến phân tổng quát và các dạng khác nhau\n-  Áp dụng các nguyên lý biến phân cổ điển / tổng quát\n- Hệ luận từ các nguyên lý: Định lý Castigliano (I, II), Phương pháp Chuyển vị Đơn vị, Phương pháp Tải Đơn vị, Định lý Công Tối thiểu, Định lý Tương hỗ Betti.\n\nPhương pháp hàm thử: Phương pháp biến phân và Phương pháp hàm dư có trọng số\n- Phương trình vi phân chủ đạo\n- Các hàm thử\n- Phương pháp hàm dư: PP sắp xếp (collocation), PP Bình phương tối thiểu phần dư tại các điểm sắp xếp (Least Square Collocation)\n- Phương pháp biến phân: PP Ritz, PP Galerkin, PP Rayleigh–Ritz, PP PTHH\n- Ví dụ cho dầm uốn chịu lực biến đổi tuyến tính, xoắn dầm, uốn tấm, dao động kết cấu thanh, dầm, tấm, khung giàn...\n\nPhương pháp sai phân hữu hạn\n- Cơ sở sai phân hữu hạn\n- Phương trình đạo hàm riêng\n- Sai phân hữu hạn dựa trên biến phân\n- Ví dụ cho dầm có tiết diện biến đổi, dầm có tải biến đổi tuyến tính, ứng suất xoắn trên mặt cắt ngang của thanh, tấm phẳng chịu lực trong mặt.\n\nPhương pháp phần tử biên\n- Dầm\n- Phương trình Poisson, phương trình Laplace\n- Áp dụng cho bài toán đàn hồi 2 và 3 chiều\n- Hàm nội suy và các ma trận phần tử\n- Tích phân trực tiếp và phương trình tích phân\n- Ví dụ cho dầm chịu tải biến đổi tuyến tính, xoắn thanh lăng trụ, moment quán tính chống xoắn (J)  ",
+        "en": "- Elastic theory: compatibility equation, equilibrium equation, law of material behavior\n- Work and energy, classical variation principle: virtual work principle / complementary virtual work principle, stationary total potential principle (delta_PI = 0), stationary total complementary energy principle (delta_PI* = 0) \n- Generalized variation principle and various forms\n- Application of classical/general variation principles\n- Corollary from the principles: Castigliano's theorem (I, II), Unit Transfer Method, Unit Load Method, Minimum work Theorem, Betti Mutuality Theorem.\n\nTest Function Method: Variation Method and Weighted Residual Function Method\n- Governing differential equation\n- Test functions\n- Residual function method: collocation method, Least Square Collocation method\n- Variation method: Ritz method, Galerkin method, Rayleigh–Ritz method, finite element method\n- Examples for linearly variable load-bearing bending beams, beam torsion, plate bending, vibration of bar structure, beams, plates, truss frames...\nFinite difference method\n- Finite difference  basis\n- Partial differential equation\n- Finite difference based on variation\n- Examples for beams with variable cross sections, beams with linearly variable loads, torsional stress on the cross section of the bar, in-plane load plates.\n\nBoundary element method\n- Beams\n- Poisson equation, Laplace equation\n- Application to 2- and 3-dimensional elastic problems\n- Interpolation functions and element matrices\n- Direct integrals and integral equations\n- Examples for linearly variable load beams, prismatic bar torsion, torsional inertial moment (J)  "
+      }
+    },
+    {
+      "id": 101786,
+      "stt": 3,
+      "buoi": "Tuần 5-8, Nội dung NC [1, 2,3], TLTK NC[5]",
+      "chuandaurachitiet": [
+        {
+          "id": 131370,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Slides bài giảng qua\nBKEL / Kiểm tra\nnhanh việc đọc hiểu\ntài liệu ARQ #2\n(Accelerated\nReading Quiz) /\nTrắc nghiệm trước\nkhi qua bài mới\nCQ#2 (Concept\nQuiz) / Xem ví dụ\ncó lời giải SP #2.1-\n2.4 (Solved\nProblems)",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #2 /  Concept Quiz CQ #2 / Solved\nProblems SP #2.1-2.4 "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng trên lớp / Bài tập trên lớp AIL #3.1-3.10",
+            "en": "Class attendance/ In class exercises AIL #3.1-3.10"
+          },
+          "chuandaura": {
+            "id": 189057,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Đánh giá, giải quyết được cơ sở hình thành các bước chính  trong phương pháp PTHH từ mô hình hóa đến giải bài toán.",
+              "en": "Master the basis for forming the main steps in the finite element method from modeling to problem solving."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213838,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81992,
+                "ma": "A.O.4.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213839,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81993,
+                "ma": "A.O.4.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #3.1-3.10",
+                  "en": " In class exercises AIL #3.1-3.10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131372,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Slides bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #2 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ#2 (Concept Quiz) / Xem ví dụ có lời giải SP #2.1- 2.4 (Solved Problems)",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #2 /  Concept Quiz CQ #2 /  Solved Problems SP #2.1- 2.4 "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng\ntrên lớp / Bài tập\ntrên lớp AIL #3.1-3.10 / Bài tập về nhà\ncá nhân IHW #3.1-3.10",
+            "en": "Class attendance/ In class exercises AIL #3.1-3.10 / Individual homework IHW #3.1-3.10"
+          },
+          "chuandaura": {
+            "id": 189058,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Mô phỏng ứng dụng phương pháp PTHH vào việc giải một số bài toán kết cấu điển hình.",
+              "en": "Applying the finite element method to solve some typical structural problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213843,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81992,
+                "ma": "A.O.4.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213844,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81993,
+                "ma": "A.O.4.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #3.1-3.10",
+                  "en": " In class exercises AIL #3.1-3.10"
+                }
+              }
+            },
+            {
+              "id": 213845,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 81994,
+                "ma": "A.O.4.3",
+                "ten": {
+                  "vi": "Bài tập về nhà cá nhân IHW #3.1-3.10",
+                  "en": " Individual homework exercises IHW #3.1-3.10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131371,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Slides bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #2 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ#2 (Concept Quiz) / Xem ví dụ có lời giải SP #2.1- 2.4 (Solved Problems)",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #2 /  Concept Quiz CQ #2 /  Solved Problems SP #2.1- 2.4"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng trên lớp / Bài tập trên lớp AIL #3.1-3.10 / Bài tập về nhà cá nhân IHW #3.1-3.10",
+            "en": "Class attendance/ In class exercises AIL #3.1-3.10 / Individual homework IHW #3.1-3.10"
+          },
+          "chuandaura": {
+            "id": 189059,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Phân tích và đánh giá kết quả tính toán bằng phương pháp PTHH phục vụ cho việc thiết kế kết cấu.",
+              "en": "Analysis and evaluation of calculation results using the finite element method for structural design."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213842,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81992,
+                "ma": "A.O.4.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213840,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81993,
+                "ma": "A.O.4.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #3.1-3.10",
+                  "en": " In class exercises AIL #3.1-3.10"
+                }
+              }
+            },
+            {
+              "id": 213841,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 81994,
+                "ma": "A.O.4.3",
+                "ten": {
+                  "vi": "Bài tập về nhà cá nhân IHW #3.1-3.10",
+                  "en": " Individual homework exercises IHW #3.1-3.10"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Phương pháp Phần tử hữu hạn:\n1. Giới thiệu \n2. Giả thuyết tĩnh học   \n3. Điều kiện biên  \n4. Nguyên lý biến phân: 4.1 Chuyển vị khả dĩ động;  4.2 Xấp xỉ trường chuyển vị; 4.3 Cực tiểu hóa thế năng biến dạng; 4.4 Năng lượng biến dạng; 4.5 Công nội lực & ngoại lực; 4.6 Hệ phương trình đại số tuyến tính cần giải\n5. Phần tử tham khảo: 5.1 Định nghĩa; 5.2 Ma trận Jacobi  \n6. Tính ma trận phần tử: 6.1 Năng lượng tổng; 6.2 Biểu thức ma trận độ cứng & vector tải phần tử; 6.3 Lắp ráp phần tử (độ cứng, lực)  \n7. Giải hệ thống: 7.1 Giải hệ phương trình số; 7.2 Tính biến dạng, ứng suất   \n8. Tích phân số: 8.1 Định nghĩa; 8.2 Ví dụ;  8.3 Kết quả tính số\n\n- Ứng dụng giải bài toán kết cấu bằng PP PTHH:\n1. Giới thiệu: 1.1 Phát biểu bài toán (mô hình vật lý); 1.2 Lời giải giải tích\n2. Rời rạc hóa PTHH:  2.1 Rời rạc hóa  2.2 Hàm dạng  2.3 Phần tử tham khảo  2.4 Hàm dạng của phần tử tham khảo trong hệ tọa độ địa phương  2.5 Biểu thức tính biến dạng trong 1 phần tử 2.6 Biểu thức tính năng lượng tổng của hệ  2.7 Năng lượng biến dạng 2.8 Công của các lực 2.9 Tổng năng lượng dừng (tổng thế năng dừng) 2.10 Tính ma trận độ cứng 2.11 Tính vector tải 2.12 Lắp ráp ma trận phần tử vào ma trận tổng thể\n3. Giải hệ phương trình \n4. Tính toán các kết quả khác: 4.1 Tính biến dạng, ứng suất;  4.2 So sánh kết quả giải tích & lời giải rời rạc (PTHH) ; 4.3 Phân tích\n5. Tính bằng phần mềm PTHH: 5.1 Giới thiệu;  5.2 Tích phân số;  5.3 Tích phân số với 1 & 2 điểm Gauss; 5.4 Kết quả tính;  5.5 Kết quả tính với 1 & 2 điểm Gauss     \n6. Tóm lược\n",
+        "en": "1. Introduction \n2. Static hypothesis \n3. Boundary conditions \n4. Variational approach: 4.1. Admissible kinetic displacement; 4.2. Approximation of the displacement field; 4.3. Minimization of the potential energy; 4.4. Expression of the deformation energy; 4.5. Expression of the work of the internal and external forces P; 4.6. Determination of the numerical system to solve \n5. Reference element : 5.1. Definition; 5.2. About the Jacobian\n6. Computation of the elementary systems : 6.1. Total energy of the system; 6.2. Expression of the elementary systems; 6.3. Assembly of the elementary systems \n7. Resolution: 7.1. Resolution of the numerical system; 7.2. Computation of strains and stresses \n8. Numerical integration: 8.1. Definition; 8.2. Example; 8.3. Results computation\n\nApplication of solving structural problems using finite element method:\n1. Physical problem: 1.1. Statement of the physical problem; 1.2. Analytical solution\n2. Finite Element discretisation:  2.1. Discretisation; 2.2. Shape function; 2.3. Reference element; 2.4. Shape function of the reference element in reference coordinates; 2.5. Expression of the strains in one element: 2.6. Expression of the total energy of the system: 2.7. Strain energy: 2.8. Work of the forces: 2.9. Stationarity of the total energy; 2.10. Computation of the stiffness matrix K; 2.11. Computation of the force vector F; 2.12. Assembly\n3. Resolution \n4. Results computation: 4.1. Strains computation; 4.2. Stresses computation; 4.3. Results comparison between analytical and discretised solution; 4.4. Analysis\n5. Computation with a finite element code:  5.1. Introduction; 5.2. Numerical integration; 5.3. Example of numerical integration with one Gauss point; 5.4. Example of numerical integration with two Gauss points; 5.5. Results computation; 5.6. Example of results computation with one Gauss point; 5.7. Example of results computation with two Gauss points \n6. Resume\n\n"
+      }
+    },
+    {
+      "id": 101785,
+      "stt": 4,
+      "buoi": "Tuần 9-11, Nội dung  NC [1, 2,3], TLTK NC[5]",
+      "chuandaurachitiet": [
+        {
+          "id": 131367,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Slides bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #3 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ#3 (Concept Quiz) / Xem ví dụ có lời giải SP #3.1- 3.4 (Solved Problems)\t",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #3 /  Concept Quiz CQ #3,  Solved Problems SP #3.1- 3.4 \t"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng trên lớp / Bài tập trên lớp AIL #4.1-4.5 / Bài tập về nhà cá nhân IHW #4.1-4.5",
+            "en": "Class attendance / In class exercises AIL #4.1-4.5 /  Individual homework IHW #4.1-4.5"
+          },
+          "chuandaura": {
+            "id": 189061,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thực hiện được trình tự giải bài toán kết cấu bằng phương pháp phần tử hữu hạn  từ mô hình hóa đến lời giải cuối cùng. ",
+              "en": "Master the procedure of solving structural problems using the finite element method from modeling to the final solution."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213831,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81995,
+                "ma": "A.O.5.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213829,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81996,
+                "ma": "A.O.5.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #4.1-4.5",
+                  "en": " In class exercises AIL  #4.1-4.5"
+                }
+              }
+            },
+            {
+              "id": 213830,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 81997,
+                "ma": "A.O.5.3",
+                "ten": {
+                  "vi": "Bài tập về nhà cá nhân IHW #4.1-4.10",
+                  "en": "Individual homework exercises IHW #4.1-4.10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131369,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Slides bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #3 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ#3 (Concept Quiz) / Xem ví dụ có lời giải SP #3.1- 3.4 (Solved Problems)\t",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #3 /  Concept Quiz CQ #3 /  Solved Problems SP #3.1- 3.4 "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng trên lớp / Bài tập trên lớp AIL #4.1-4.5 / Bài tập về nhà cá nhân IHW #4.1-4.5",
+            "en": "Class attendance/ In class exercises AIL #4.1-4.5 / Individual homework IHW #4.1-4.5"
+          },
+          "chuandaura": {
+            "id": 189062,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Vận hành, sử dụng được các công cụ giải bài toán kết cấu bằng phương pháp phần tữ hữu hạn bằng phần mềm ứng dụng.",
+              "en": "Application by solving tools to solve structural problems by finite element method using software."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213837,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81995,
+                "ma": "A.O.5.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213835,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81996,
+                "ma": "A.O.5.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #4.1-4.5",
+                  "en": " In class exercises AIL  #4.1-4.5"
+                }
+              }
+            },
+            {
+              "id": 213836,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 81997,
+                "ma": "A.O.5.3",
+                "ten": {
+                  "vi": "Bài tập về nhà cá nhân IHW #4.1-4.10",
+                  "en": "Individual homework exercises IHW #4.1-4.10"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131368,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Slides bài giảng qua BKEL / Kiểm tra nhanh việc đọc hiểu tài liệu ARQ #3 (Accelerated Reading Quiz) / Trắc nghiệm trước khi qua bài mới CQ#3 (Concept Quiz) / Hướng dẫn lập chương trình  CODE #3.1- 3.4 \t",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #3 /  Concept Quiz CQ #3 /  Code programming CODE #3.1- 3.4 \t"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia bài giảng trên lớp /\nBài tập lập trình trên lớp PRO #4.1-4.5 / \nBài tập lập trình về nhà cá nhân PRO_IHW #4.1-4.10",
+            "en": "lass attendance/ In class programming exercises AIL #4.1-4.5 / Individual programming homework  PRO_IHW #4.1-4.10"
+          },
+          "chuandaura": {
+            "id": 189063,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Phân tích tổng hợp bài toán kết cấu bằng phương pháp phần tử hữu hạn thông qua việc lập trình ứng dụng.",
+              "en": "Full analysis of structural problems by finite element method through application programming."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213832,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 81995,
+                "ma": "A.O.5.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213833,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 81998,
+                "ma": "A.O.5.4",
+                "ten": {
+                  "vi": "Bài tập lập trình trên lớp PRO #4.1-4.5",
+                  "en": "In class programming exercises   PRO #4.1-4.5"
+                }
+              }
+            },
+            {
+              "id": 213834,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 81999,
+                "ma": "A.O.5.5",
+                "ten": {
+                  "vi": "Bài tập lập trình về nhà cá nhân PRO_IHW #4.1-4.10",
+                  "en": "Individual  programming homework  PRO_IHW #4.1-4.10"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "-  Ứng dụng PP PTHH trong giải bài toán kết cấu:\n1. Bài toán thanh chịu kéo\n   1.1. Mô tả bài toán\n   1.2. Chọn mô hình PTHH \n   1.3. Chọn dạng hàm hàm dạng\n   1.4. Tính ma trận phần tử & nguyên lý cực tiểu năng lượng \n   1.5. Lắp ráp ma trận phần tử vào ma trận tổng thể\n   1.6. Giải và tính các chuyển vị nút\n   1.7. Tính biến dạng & ứng suất\n   1.8. Ứng dụng số\n2. Uốn dầm:\n   2.1. Đặc trưng phần tử\n   2.2. Các bậc tự do của phần tử\n   2.3. Phần tử tham khảo\n   2.4. Tính toán hàm dạng\n   2.5. Biểu thức tính biến dạng dài\n   2.6. Tính ma trận độ cứng phần tử\n   2.7. Tính vector tải phần tử\n   2.8. Bài toán dầm\n   2.9. Điều kiện biên\n   2.10. Lắp ráp hệ thống\n   2.11. Ứng dụng số\n- Sử dụng phần mềm PTHH tính kết cấu, phân tích kết cấu  bằng lập trình ứng dụng (Matlab)\n   3.1. Giới thiệu phần mềm PTHH \n   3.2. Các mô-đun chính của phần mềm PTHH, các giai đoạn chính trong phân tích\n   3.3. Áp dụng phần mềm PTHH: Tạo mô hình hình học; Xác định thông số (hoặc biến) phân tích; Gán dữ liệu phân tích & các ràng buộc lưới PTHH; Tạo lưới PTHH; Kiểm tra chất lượng mô hình lưới; Điều chỉnh mô hình lưới; Kiểm tra tính nhất quán của dữ liệu phân tích; Chạy một phân tích (mô-đun tính) trên mô hình lưới; Hiển thị đồ họa (hậu xử lý) các kết quả phân tích.\n   3.4 Lập trình và phân  tích kết cấu bằng PP PTHH trên môi trường Matlab: Giới thiệu các môđun chính, các hàm thư viện, sơ lược về cấu trúc chương trình tính; Áp dụng cho bài toán thanh chịu kéo/nén & dầm;  khung giàn; bài toán 2 chiều, 3 chiều; tấm vỏ; bài toán trị riêng, đáp ứng dao động cưỡng bức.\n\n\n",
+        "en": "- Application of finite element method in solving structural problems:\n1. Rod under traction problem:\n   1.1. Description of the problem\n   1.2. Choose a finite element model \n   1.3. Choose a shape function \n   1.4. Element matrix calculation & minimum energy  principle \n   1.5. Assembling the element matrix into the general matrix\n   1.6. Solving and calculating nodal displacements\n   1.7. Calculate strain & stress\n   1.8. Numerical applications\n2. Bending beams:\n   2.1. Element characteristics\n   2.2.  Degrees of freedom of element\n   2.3. Reference elements\n   2.4. Calculating shape functions\n   2.5. Expressions for normal strains\n   2.6. Calculate the element stiffness matrix\n   2.7. Calculate element load vector\n   2.8. Beam problem\n   2.9. Boundary conditions\n   2.10. System sssembling\n   2.11. Numerical applications\n- Using  finite element software for structural analysis by applied programming (Matlab code)\n   3.1. Introduction of finite element  software \n   3.2. Main modules of finite element  software, main steps in analysis\n   3.3. Apply finite element software: Create geometric models; Determination of analytical parameters (or variables); Assign analytical data &  finite element  meshing constraints;  finite element meshing; Check the quality of the  finite element  model;  Finite element meshing  model adjustment; Check the consistency of analytical data; Run an analysis (calculation module) on the  finite element  meshing model; Graphical display (post-processing) of the results of the analysis.\n3.4 Programming and structural analysis using finite element method on Matlab environment: Introduction of main modules, library functions, outline of computer program structure; Applies to tensile/compressive rod problem & beams;  truss frame; 2-dimensional, 3-dimensional problems; plate & shell; eigen-valued problem, forced vibration responses.\n\n"
+      }
+    },
+    {
+      "id": 101783,
+      "stt": 5,
+      "buoi": "Tuần 12, Nội dung NC [1-4], TLTK NC",
+      "chuandaurachitiet": [
+        {
+          "id": 131364,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Slide bài giảng qua\nBKEL / Kiểm tra\nnhanh việc đọc hiểu tài liệu ARQ #5 (Accelerated Reading Quiz) /\nTrắc nghiệm trước khi qua bài mới CQ#5 (Concept Quiz) / Xem ví dụ có lời giải SP #5.1- 5.5 (Solved Problems)",
+            "en": "Slides on BKEL /  Accelerated Reading Quiz ARQ #5 /  Concept Quiz CQ #5 / Solved Problems SP #5.1- 5.5 \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên tham gia theo các bước giải bài toán để nắm vững cách làm,\nNhóm sinh viên báo cáo bài tập lớn ",
+            "en": "Class attendance/ In class exercises AIL #5.1-5.5"
+          },
+          "chuandaura": {
+            "id": 189066,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Thiết lập nhóm theo thỏa thuận, quản lý nhóm, thực hiện báo cáo các bài tập về nhà được giao theo dạng báo cáo chuyên đề tổng hợp theo phân chia nhóm, biết ứng dụng trí tuệ nhân tạo để phục vụ cho việc học tập nâng cao trình độ.",
+              "en": "Set up the group as agreed, Perform the report of homework."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213823,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82000,
+                "ma": "A.O.6.1",
+                "ten": {
+                  "vi": "Tham gia bài giảng trên lớp",
+                  "en": "Class attendance"
+                }
+              }
+            },
+            {
+              "id": 213824,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82001,
+                "ma": "A.O.6.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIL #5.1-5.5",
+                  "en": " In class exercises AIL #5.1-5.5"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Áp đụng PPPTHH để giải bài toán cụ thể tại lớp, sữa các bài tập cá nhân về nhà.\nNhóm trình bày cách giải quyết bài tập lớn của nhóm, các giải pháp đưa ra, phân tích đánh giá kết quả sau cùng.",
+        "en": "Apply numerical/coordinated methods to solve specific in-class problems and correct individual home assignments. Groups present their final project solutions, proposed strategies, and the analysis and evaluation of the final result"
+      }
+    },
+    {
+      "id": 101787,
+      "stt": 6,
+      "buoi": "Tuần 13",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Ôn tập",
+        "en": "."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 189050,
+      "ma": "L.O.1.1",
+      "ten_vi": "Nhận biết được cái khái niệm tổng quan về các  phương pháp biến phân và phương pháp tính toán trong cơ học kết cấu, nhấn mạnh đến các phương pháp PTHH, phương pháp sai phân hữu hạn, phương pháp phần tử biên.",
+      "ten_en": "Having an overview concept of functional methods and computational methods in structural mechanics, emphasizing finite element method, finite differential method, boundary element method.",
+      "hddg": [
+        {
+          "id": 81988,
+          "ma": "A.O.2.1",
+          "ten_vi": "Tham gia bài giảng trên lớp ",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81989,
+          "ma": "A.O.2.2",
+          "ten_vi": "Bài tập trên lớp AIL #1.1-1.5",
+          "ten_en": " In class exercises AIL #1.1-1.5"
+        }
+      ]
+    },
+    {
+      "id": 189051,
+      "ma": "L.O.1.2",
+      "ten_vi": "Trình bày được vài trò quan trọng của các phương pháp biến phân trong việc phát triển các công cụ tính toán  và phân tích kết cấu.",
+      "ten_en": "Recognize the important role of functional methods in the development of structural analysis and calculation tools.",
+      "hddg": [
+        {
+          "id": 81988,
+          "ma": "A.O.2.1",
+          "ten_vi": "Tham gia bài giảng trên lớp ",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81989,
+          "ma": "A.O.2.2",
+          "ten_vi": "Bài tập trên lớp AIL #1.1-1.5",
+          "ten_en": " In class exercises AIL #1.1-1.5"
+        }
+      ]
+    },
+    {
+      "id": 189053,
+      "ma": "L.O.2.1",
+      "ten_vi": "Mô tả, giải thích được các nguyên lý công ào, công ảo bù, nguyên  lý biến phân, nguyên lý thế năng dừng; áp dụng các nguyên lý trên vào việc xây dựng mô hình tính các phần tử thanh kéo nén, dầm, thanh xoắn, biến dạng 2 chiều,.",
+      "ten_en": "Master the principles of virtual work, complementary virtual work, functional principle, stationary energy principle; apply the above principles to the construction of a model to calculate rod elements, beams, torsion bars, 2-dimensional deformation.",
+      "hddg": [
+        {
+          "id": 81990,
+          "ma": "A.O.3.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81991,
+          "ma": "A.O.3.2",
+          "ten_vi": "Bài tập trên lớp AIL #2.1-2.5",
+          "ten_en": " In class exercises AIL #2.1-2.5"
+        }
+      ]
+    },
+    {
+      "id": 216972,
+      "ma": "L.O.2.2",
+      "ten_vi": "Trình bày được cách thành lập các dạng phương trình chủ đạo cho các bài toán kết cấu theo các dạng khác nhau; áp dụng giải các bài toán kết cấu cụ thể: tìm phương trình chủ đạo, đặc trưng kết cấu, chuyển vị, lực...",
+      "ten_en": "Establish the governing equations for structural problems in different forms; apply solving specific structural problems: find the governing equation, structural characteristics, displacement, force ...",
+      "hddg": [
+        {
+          "id": 81990,
+          "ma": "A.O.3.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81991,
+          "ma": "A.O.3.2",
+          "ten_vi": "Bài tập trên lớp AIL #2.1-2.5",
+          "ten_en": " In class exercises AIL #2.1-2.5"
+        }
+      ]
+    },
+    {
+      "id": 189057,
+      "ma": "L.O.3.1",
+      "ten_vi": "Đánh giá, giải quyết được cơ sở hình thành các bước chính  trong phương pháp PTHH từ mô hình hóa đến giải bài toán.",
+      "ten_en": "Master the basis for forming the main steps in the finite element method from modeling to problem solving.",
+      "hddg": [
+        {
+          "id": 81992,
+          "ma": "A.O.4.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81993,
+          "ma": "A.O.4.2",
+          "ten_vi": "Bài tập trên lớp AIL #3.1-3.10",
+          "ten_en": " In class exercises AIL #3.1-3.10"
+        }
+      ]
+    },
+    {
+      "id": 189058,
+      "ma": "L.O.3.2",
+      "ten_vi": "Mô phỏng ứng dụng phương pháp PTHH vào việc giải một số bài toán kết cấu điển hình.",
+      "ten_en": "Applying the finite element method to solve some typical structural problems.",
+      "hddg": [
+        {
+          "id": 81992,
+          "ma": "A.O.4.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81993,
+          "ma": "A.O.4.2",
+          "ten_vi": "Bài tập trên lớp AIL #3.1-3.10",
+          "ten_en": " In class exercises AIL #3.1-3.10"
+        },
+        {
+          "id": 81994,
+          "ma": "A.O.4.3",
+          "ten_vi": "Bài tập về nhà cá nhân IHW #3.1-3.10",
+          "ten_en": " Individual homework exercises IHW #3.1-3.10"
+        }
+      ]
+    },
+    {
+      "id": 189059,
+      "ma": "L.O.3.3",
+      "ten_vi": "Phân tích và đánh giá kết quả tính toán bằng phương pháp PTHH phục vụ cho việc thiết kế kết cấu.",
+      "ten_en": "Analysis and evaluation of calculation results using the finite element method for structural design.",
+      "hddg": [
+        {
+          "id": 81992,
+          "ma": "A.O.4.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81993,
+          "ma": "A.O.4.2",
+          "ten_vi": "Bài tập trên lớp AIL #3.1-3.10",
+          "ten_en": " In class exercises AIL #3.1-3.10"
+        },
+        {
+          "id": 81994,
+          "ma": "A.O.4.3",
+          "ten_vi": "Bài tập về nhà cá nhân IHW #3.1-3.10",
+          "ten_en": " Individual homework exercises IHW #3.1-3.10"
+        }
+      ]
+    },
+    {
+      "id": 189061,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thực hiện được trình tự giải bài toán kết cấu bằng phương pháp phần tử hữu hạn  từ mô hình hóa đến lời giải cuối cùng. ",
+      "ten_en": "Master the procedure of solving structural problems using the finite element method from modeling to the final solution.",
+      "hddg": [
+        {
+          "id": 81995,
+          "ma": "A.O.5.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81996,
+          "ma": "A.O.5.2",
+          "ten_vi": "Bài tập trên lớp AIL #4.1-4.5",
+          "ten_en": " In class exercises AIL  #4.1-4.5"
+        },
+        {
+          "id": 81997,
+          "ma": "A.O.5.3",
+          "ten_vi": "Bài tập về nhà cá nhân IHW #4.1-4.10",
+          "ten_en": "Individual homework exercises IHW #4.1-4.10"
+        }
+      ]
+    },
+    {
+      "id": 189062,
+      "ma": "L.O.4.2",
+      "ten_vi": "Vận hành, sử dụng được các công cụ giải bài toán kết cấu bằng phương pháp phần tữ hữu hạn bằng phần mềm ứng dụng.",
+      "ten_en": "Application by solving tools to solve structural problems by finite element method using software.",
+      "hddg": [
+        {
+          "id": 81995,
+          "ma": "A.O.5.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81996,
+          "ma": "A.O.5.2",
+          "ten_vi": "Bài tập trên lớp AIL #4.1-4.5",
+          "ten_en": " In class exercises AIL  #4.1-4.5"
+        },
+        {
+          "id": 81997,
+          "ma": "A.O.5.3",
+          "ten_vi": "Bài tập về nhà cá nhân IHW #4.1-4.10",
+          "ten_en": "Individual homework exercises IHW #4.1-4.10"
+        }
+      ]
+    },
+    {
+      "id": 189063,
+      "ma": "L.O.4.3",
+      "ten_vi": "Phân tích tổng hợp bài toán kết cấu bằng phương pháp phần tử hữu hạn thông qua việc lập trình ứng dụng.",
+      "ten_en": "Full analysis of structural problems by finite element method through application programming.",
+      "hddg": [
+        {
+          "id": 81995,
+          "ma": "A.O.5.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 81998,
+          "ma": "A.O.5.4",
+          "ten_vi": "Bài tập lập trình trên lớp PRO #4.1-4.5",
+          "ten_en": "In class programming exercises   PRO #4.1-4.5"
+        },
+        {
+          "id": 81999,
+          "ma": "A.O.5.5",
+          "ten_vi": "Bài tập lập trình về nhà cá nhân PRO_IHW #4.1-4.10",
+          "ten_en": "Individual  programming homework  PRO_IHW #4.1-4.10"
+        }
+      ]
+    },
+    {
+      "id": 189065,
+      "ma": "L.O.5.1",
+      "ten_vi": "Thực hiện độc lập, đảm nhận chủ động quản lý thời gian hoàn thành các bài tập về nhà cá nhân và nhóm",
+      "ten_en": "A brief self-introduction and general information about the subject",
+      "hddg": [
+        {
+          "id": 81986,
+          "ma": "A.O.1.1",
+          "ten_vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá",
+          "ten_en": "Detailed content of the subject, time of distribution, way to evaluate"
+        },
+        {
+          "id": 81987,
+          "ma": "A.O.1.2",
+          "ten_vi": "Lập danh sách nhóm",
+          "ten_en": "list of groups"
+        }
+      ]
+    },
+    {
+      "id": 189066,
+      "ma": "L.O.5.2",
+      "ten_vi": "Thiết lập nhóm theo thỏa thuận, quản lý nhóm, thực hiện báo cáo các bài tập về nhà được giao theo dạng báo cáo chuyên đề tổng hợp theo phân chia nhóm, biết ứng dụng trí tuệ nhân tạo để phục vụ cho việc học tập nâng cao trình độ.",
+      "ten_en": "Set up the group as agreed, Perform the report of homework.",
+      "hddg": [
+        {
+          "id": 81986,
+          "ma": "A.O.1.1",
+          "ten_vi": "Nội dung chi tiết của môn học, thời gian phân bố, cách đánh giá",
+          "ten_en": "Detailed content of the subject, time of distribution, way to evaluate"
+        },
+        {
+          "id": 81987,
+          "ma": "A.O.1.2",
+          "ten_vi": "Lập danh sách nhóm",
+          "ten_en": "list of groups"
+        },
+        {
+          "id": 82000,
+          "ma": "A.O.6.1",
+          "ten_vi": "Tham gia bài giảng trên lớp",
+          "ten_en": "Class attendance"
+        },
+        {
+          "id": 82001,
+          "ma": "A.O.6.2",
+          "ten_vi": "Bài tập trên lớp AIL #5.1-5.5",
+          "ten_en": " In class exercises AIL #5.1-5.5"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phương pháp phân tích Kết cấu tàu",
+  "tenmonhoc_eng": "Structural Analysis of Ship",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1236 @@
+{
+  "ma": "DCMH.CO3097.6.1",
+  "phienban": "6.1",
+  "capnhat": "21/04/2025 08:27",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3097",
+  "ten": "CO3097 - Thiết kế Vi mạch",
+  "ten_eng": "CO3097 - LSI Logic Design",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Cung cấp cho người học những kiến thức và kỹ năng thiết kế vi mạch LSI tập trung vào các bước tổng hợp, kiểm tra và bố trí vi mạch.<br></p>",
+      "en": "<p>Providing a comprehensive coverage of and skills in LSI designs focusing on synthesis, verification, and layout design. <br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Các nội dung chính bao gồm:<br>•  Giới thiệu về thiết kế LSI<br>•  Các phần tử luận lý và tín hiệu điện tử trên silicon<br>•  Thiết kế LSI mức luận lý<br>•  Thiết kế đồng bộ<br>•  Thiết kế khả kiểm tra và bố trí vi mạch<br><br></p>",
+      "en": "<p>The major contents include:<br>•  Introduction to LSI Development<br>•  Logic elements and Electronic signal on silicon<br>•  LSI Logic Design<br>•  Synchronous design<br>•  Design for testability (DFT) &amp; layout<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br>[1] “Digital Integrated Circuit Design: From VLSI Architecture to CMOS Fabrication”, by Hubert Kaeslin, Cambridge University Press, 1st edition (April/2008)<br><br>Sách tham khảo:<br>[2] “Digital Design: Principles and Practices”, by John F. Wakerly, Pearson, 5th edition (Aug/2018)<br>[3] “Digital Integrated Circuits: A Design Perspective”, by Jan M. Rabaey, Pearson, 2nd edition (Jan/2003)<br>[4] Slides và Handouts<br><br></p>",
+      "en": "<p>Textbook:<br>[1] “Digital Integrated Circuit Design: From VLSI Architecture to CMOS Fabrication”, by Hubert Kaeslin, Cambridge University Press, 1st edition (April/2008)<br><br>Reference books:<br>[2] “Digital Design: Principles and Practices”, by John F. Wakerly, Pearson, 5th edition (Aug/2018)<br>[3] “Digital Integrated Circuits: A Design Perspective”, by Jan M. Rabaey, Pearson, 2nd edition (Jan/2003)<br>[4] Slides và Handouts<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>- Tài liệu (slide bài giảng) được đưa lên BKeL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học.<br>- Sinh viên làm thêm các bài tập và đọc thêm trong sách<br>- Sinh viên nên đi học đầy đủ và làm bài tập trong quá trình học sẽ giúp tiết kiệm thời gian trong quá trình ôn thi giữa kỳ và cuối kỳ.<br>- Đối với phần thực hành, sinh viên tham gia đầy đủ các buổi thí nghiệm và nộp lại báo cáo thí nghiệm ngay cuối giờ thí nghiệm.<br><br></p>",
+      "en": "Slides are provided weekly on BKEL. Students can download, print, and use them in class when attending lectures&nbsp;<br>Students should attend regular lectures and do exercises in class or at home.&nbsp;<br>This will surely help them to learn the course effectively and will obtain a satisfactory achievement for the course.&nbsp;<div>For the lab and tutorial, students should also attend and do the work.</div>"
+    },
+    "ghiChu": {
+      "vi": "<p>(*)Sinh viên sẽ phải tự học và giảng viên sắp giờ linh hoạt hàng tuần phản hồi thắc mắc và hỗ trợ sinh viên làm BTL.<br></p>",
+      "en": "<p>(*) Students have to self-study and the lecturer responds to questions and supports students to do projects.</p>"
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1006,
+      "ma": "CN_IVV",
+      "ten": {
+        "vi": "Chuyên ngành: Internet vạn vật và An ninh mạng",
+        "en": "Speciality: IoTs and Network Security"
+      }
+    },
+    {
+      "id": 1007,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Chuyên ngành: Kỹ thuật Máy tính",
+        "en": "Speciality: Computer Engineering"
+      }
+    },
+    {
+      "id": 1005,
+      "ma": "CN_HTH",
+      "ten": {
+        "vi": "Chuyên ngành: Hệ thống tính toán hiện đại",
+        "en": "     Speciality: Modern Computing Systems"
+      }
+    },
+    {
+      "id": 885,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Ngành Kỹ thuật Máy tính",
+        "en": "Computer Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1146,
+      "ma": "002765",
+      "ten": "Phạm Quốc Cường"
+    },
+    {
+      "id": 1139,
+      "ma": "001897",
+      "ten": "Trần Ngọc Thịnh"
+    },
+    {
+      "id": 9778,
+      "ma": "004077",
+      "ten": "HUỲNH PHÚC NGHỊ"
+    },
+    {
+      "id": 10910,
+      "ma": "004202",
+      "ten": "NGUYỄN THIÊN ÂN"
+    },
+    {
+      "id": 11908,
+      "ma": "004269",
+      "ten": "NGUYỄN THÀNH LỘC"
+    },
+    {
+      "id": 11568,
+      "ma": "004258",
+      "ten": "PHẠM CÔNG THÁI"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon_TieuLuan": 0.33,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon_TieuLuan": 15,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 10,
+    "baiTapLon_TieuLuan": 30,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 40,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 967,
+      "maBoMon": "KTM",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1146,
+        "maGiangVien": "002765",
+        "tenGiangVien": "Phạm Quốc Cường",
+        "emailGiangVien": "cuongpham@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3e",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO1023 - Hệ thống số",
+        "en": "CO1023 - Digital Systems"
+      },
+      "tenmonhoc_only": {
+        "vi": "Hệ thống số",
+        "en": "Digital Systems"
+      },
+      "mamonhoc": "CO1023"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO1025 - Thiết kế Luận lý Với HDL",
+        "en": "CO1025 - Logic Design wiTh HDL"
+      },
+      "tenmonhoc_only": {
+        "vi": "Thiết kế Luận lý Với HDL",
+        "en": "Logic Design wiTh HDL"
+      },
+      "mamonhoc": "CO1025"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 47245,
+      "stt": 1,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 47246,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "47245",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      }
+    },
+    {
+      "id": 47247,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "47245",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Lab report"
+      },
+      "noidung": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Lab report"
+      }
+    },
+    {
+      "id": 47248,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "47245",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 54197,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 70559,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "listen to lectures"
+          },
+          "chuandaura": {
+            "id": 38018,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Mô tả các bước thiết kế trong quy trình thiết kế",
+              "en": "Describe design steps in the LSI design flow"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111402,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111401,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47248,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70558,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "listen to lectures"
+          },
+          "chuandaura": {
+            "id": 38017,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả các thành phần luận lý LSI",
+              "en": "Describe LSI logic elements"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111400,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111399,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47248,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "1. Introduction to LSI Development\n1.1. Semiconductor products.\n1.2. LSI Development Flow.\n1.3. LSI Design Flow and methodologies.\n1.4. An example.\n",
+        "en": "1. Introduction to LSI Development\n1.1. Semiconductor products.\n1.2. LSI Development Flow.\n1.3. LSI Design Flow and methodologies.\n1.4. An example.\n"
+      }
+    },
+    {
+      "id": 54198,
+      "stt": 2,
+      "buoi": "2-3",
+      "chuandaurachitiet": [
+        {
+          "id": 70560,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Thuyết giảng"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Nghe giảng"
+          },
+          "chuandaura": {
+            "id": 38020,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Sử dụng công cụ để mô phỏng các thiết kế",
+              "en": "Use simulation tools to simulate design LSI circuits. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111404,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111403,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47248,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70561,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn thí nghiệm",
+            "en": "Lab instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành",
+            "en": "Practice"
+          },
+          "chuandaura": {
+            "id": 38021,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Sử dụng công cụ để tổng hợp và kiểm tra vi mạch",
+              "en": "Use synthesis and verification tools"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111405,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111406,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47248,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2. Logic elements and Electronic signal on silicon\n2.1. Digital logic and CMOS circuit.\n2.2. Logic gate on silicon.\n2.3. Electronic signal propagation on silicon.\n2.4. Problem with electronic signal.\n",
+        "en": "2. Logic elements and Electronic signal on silicon\n2.1. Digital logic and CMOS circuit.\n2.2. Logic gate on silicon.\n2.3. Electronic signal propagation on silicon.\n2.4. Problem with electronic signal.\n"
+      }
+    },
+    {
+      "id": 54199,
+      "stt": 3,
+      "buoi": "4-7",
+      "chuandaurachitiet": [
+        {
+          "id": 70563,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "listen to lectures"
+          },
+          "chuandaura": {
+            "id": 38023,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": " Phân tích các yêu cầu thiết kế",
+              "en": "Analyze requirements for the problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111409,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111410,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47247,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70562,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "listen to lectures"
+          },
+          "chuandaura": {
+            "id": 38024,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "– Thiết kế và hiện thực vi mạch sử dụng quy trình thiết kế mạch LSI",
+              "en": "Design and implement circuits with LSI logic design flow"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111407,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111408,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47247,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "3. LSI Logic Design\n3.1. Design and modeling.\n3.2. RTL logic design and verification.\n3.3. Logic synthesis and cell base design.\n3.4. Gate level design and verification.\n3.5. Layout design and verification.\n",
+        "en": "3. LSI Logic Design\n3.1. Design and modeling.\n3.2. RTL logic design and verification.\n3.3. Logic synthesis and cell base design.\n3.4. Gate level design and verification.\n3.5. Layout design and verification.\n"
+      }
+    },
+    {
+      "id": 54200,
+      "stt": 4,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 70565,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn thí nghiệm",
+            "en": "Lab instructions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành",
+            "en": "Practice"
+          },
+          "chuandaura": {
+            "id": 38024,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "– Thiết kế và hiện thực vi mạch sử dụng quy trình thiết kế mạch LSI",
+              "en": "Design and implement circuits with LSI logic design flow"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111412,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111413,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47247,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70564,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "listen to lectures"
+          },
+          "chuandaura": {
+            "id": 38023,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": " Phân tích các yêu cầu thiết kế",
+              "en": "Analyze requirements for the problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111411,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47247,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4. Synchronous design\n4.1. Timing issue of logic data.\n4.2. Synchronous design and Static Timing Analysis (STA).\n",
+        "en": "4. Synchronous design\n4.1. Timing issue of logic data.\n4.2. Synchronous design and Static Timing Analysis (STA).\n"
+      }
+    },
+    {
+      "id": 54201,
+      "stt": 5,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 70566,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "listen to lectures"
+          },
+          "chuandaura": {
+            "id": 38023,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": " Phân tích các yêu cầu thiết kế",
+              "en": "Analyze requirements for the problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111414,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111415,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47247,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4. Synchronous design\n4.1. Timing issue of logic data.\n4.2. Synchronous design and Static Timing Analysis (STA).\n",
+        "en": "4. Synchronous design\n4.1. Timing issue of logic data.\n4.2. Synchronous design and Static Timing Analysis (STA).\n"
+      }
+    },
+    {
+      "id": 54202,
+      "stt": 6,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 70567,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "listen to lectures"
+          },
+          "chuandaura": {
+            "id": 38024,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "– Thiết kế và hiện thực vi mạch sử dụng quy trình thiết kế mạch LSI",
+              "en": "Design and implement circuits with LSI logic design flow"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111416,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47246,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111417,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47247,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "6. Layout design\n6.1. Layout design flow.\n6.2. Design for manufacturing.\n",
+        "en": "6. Layout design\n6.1. Layout design flow.\n6.2. Design for manufacturing.\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 38017,
+      "ma": "L.O.1.1",
+      "ten_vi": "Mô tả các thành phần luận lý LSI",
+      "ten_en": "Describe LSI logic elements",
+      "hddg": [
+        {
+          "id": 47246,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47248,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm"
+        }
+      ]
+    },
+    {
+      "id": 38018,
+      "ma": "L.O.1.2",
+      "ten_vi": "Mô tả các bước thiết kế trong quy trình thiết kế",
+      "ten_en": "Describe design steps in the LSI design flow",
+      "hddg": [
+        {
+          "id": 47246,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47248,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm"
+        }
+      ]
+    },
+    {
+      "id": 38020,
+      "ma": "L.O.2.1",
+      "ten_vi": "Sử dụng công cụ để mô phỏng các thiết kế",
+      "ten_en": "Use simulation tools to simulate design LSI circuits. ",
+      "hddg": [
+        {
+          "id": 47246,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47248,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm"
+        }
+      ]
+    },
+    {
+      "id": 38021,
+      "ma": "L.O.2.2",
+      "ten_vi": "Sử dụng công cụ để tổng hợp và kiểm tra vi mạch",
+      "ten_en": "Use synthesis and verification tools",
+      "hddg": [
+        {
+          "id": 47246,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47248,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm"
+        }
+      ]
+    },
+    {
+      "id": 38023,
+      "ma": "L.O.3.1",
+      "ten_vi": " Phân tích các yêu cầu thiết kế",
+      "ten_en": "Analyze requirements for the problems",
+      "hddg": [
+        {
+          "id": 47246,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47247,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab report"
+        }
+      ]
+    },
+    {
+      "id": 38024,
+      "ma": "L.O.3.2",
+      "ten_vi": "– Thiết kế và hiện thực vi mạch sử dụng quy trình thiết kế mạch LSI",
+      "ten_en": "Design and implement circuits with LSI logic design flow",
+      "hddg": [
+        {
+          "id": 47246,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47247,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab report"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế Vi mạch",
+  "tenmonhoc_eng": "LSI Logic Design",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1650 @@
+{
+  "ma": "DCMH.ME2009.10.1",
+  "phienban": "10.1",
+  "capnhat": "01/06/2026 16:04",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME2009",
+  "ten": "ME2009 - Kỹ thuật Điều khiển Tự động",
+  "ten_eng": "ME2009 - Control System Technology",
+  "hockyapdung": "HK262",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Môn học\nnhằm trang bị cho sinh viên những kiến thức cơ bản về cấu tạo, thành phần, nguyên lý\nhoạt động và mối liên kết của các phần tử trong một hệ thống điều khiển tự\nđộng. </p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p>\n\n\n\n\n\n\n\n\n\n\n\n\nThe subject aims to equip students with basic knowledge about the structure, components, operating principles and connections of elements in an automatic control system.\n\n\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học giới thiệu các thành phần cơ bản trong một hệ thống điều khiển tự động bao gồm phần tử cảm biến, phần tử tác động, phần tử điều khiển, và mối liên kết giữa các phần tử này. Các nội dung chính bao gồm:<br>- Giới thiệu, trình bày các khái niệm và nguyên lý cơ bản về một hệ thống điều khiển.<br>- Trình bày các đặc tính các phần tử trong một hệ thống điều khiển. <br>- Trình bày phép biến đổi Laplace và ứng dụng của phép biến đổi Laplace. Giới thiệu hàm truyền, cách xây dựng hàm truyền của 1 hệ thống. Giới thiệu biểu đồ Bode, phân tích và đánh giá tính ổn định của hệ thống.<br>- Giới thiệu các phương pháp xử lý tín hiệu: các mạch Op Amp, các loại mạch lọc, bộ chuyển đổi tín hiệu ADC, DAC, nguyên lý lấy mẫu dữ liệu.<br>- Giới thiệu về cơ cấu tác động: công tắc cơ, công tắc bán dẫn, động cơ điện, xy lanh khí nén – thủy lực.<br>- Giới thiệu cơ cấu cảm biến: vị trí, vận tốc, gia tốc, nhiệt độ, lưu lượng,... Trình bày cách lựa chọn cảm biến trong một hệ thống điều khiển.<br>- Giới thiệu và xây dựng về bộ Điều khiển tuần tự (bộ điều khiển ON - OFF). Giới thiệu về Điều khiển quá trình. Giới thiệu về Bộ điều khiển PID: các chế độ điều khiển, cách xác định các hệ số Kp, Ki, Kd (phương pháp thực nghiệm).<br><br></p>",
+      "en": "<p>The course introduces the basic components in an automatic control system including sensors, actuators, control elements, and the connections between these elements. The main contents include:<br>- Introduction, presentation of basic concepts and principles of a control system.<br>- Presentation of characteristics of elements in a control system.<br>- Presentation of Laplace transform and application of Laplace transform. Introduction of transfer function, how to construct transfer function of a system. Introduction of Bode diagram, analysis and evaluation of system stability.<br>- Introduction of signal processing methods: Op Amp circuits, types of filter circuits, ADC, DAC signal converters, data sampling principles.<br>- Introduction to actuating mechanisms: mechanical switches, semiconductor switches, electric motors, pneumatic-hydraulic cylinders.<br>- Introduction to sensor mechanisms: position, velocity, acceleration, temperature, flow,... Present how to select sensors in a control system.<br>- Introduction and construction of a sequential controller (ON - OFF controller). Introduction to Process Control. Introduction to PID Controller: control modes, how to determine coefficients Kp, Ki, Kd (experimental method).<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Giáo trình</p><p>[1] Lý thuyết điều khiển hiện đại Tác giả: Nguyễn Thị Phương Hà Năm xuất bản: 2016<br></p><p>TLTK</p><p>[1]  Robert N. Bateson, Introduction to Control System Technology, 7th Edition, Prentice Hall, 2002.<br>[2]  Curtis D. Johnson, Process Control Instrumentation Technology, 7th Edition, Prentice Hall, 2003.<br>[3]  Christopher T. Kilian, Modern Control Technology: Components and Systems, 2nd Edition, Delmar Thomson Learning, 2001.<br><br></p>",
+      "en": "<p>\n\n[1]  Robert N. Bateson, Introduction to Control System Technology, 7th Edition, Prentice Hall, 2002.<br>[2]  Curtis D. Johnson, Process Control Instrumentation Technology, 7th Edition, Prentice Hall, 2003.<br>[3]  Christopher T. Kilian, Modern Control Technology: Components and Systems, 2nd Edition, Delmar Thomson Learning, 2001.<br>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>-  Áp dụng các phương pháp học tập tích cực, chủ động trên lớp: kết hợp truyền đạt kiến thức thông qua bài giảng, xem video, mô phỏng, làm bài tập trên lớp, đặt câu hỏi để sinh viên trả lời, tạo các hoạt động thảo luận, thi đua giữa các nhóm, khuyến khích sinh viên đặt câu hỏi và trình bày suy nghĩ cá nhân.<br>-  Đưa bài giảng, bài tập, đề cương môn học, các thông báo, yêu cầu về bài tập, đồ án, các tài liệu tham khảo, điểm đánh giá, điểm thi vv... lên website E-learning để sinh viên có thể chủ động hơn trong việc học tập; tạo diễn đàn trao đổi các vấn đề liên quan đến môn học<br></p><p>\n\n&nbsp;Yêu cầu về Liêm chính học thuật và quy định sử dụng AI:<ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul>\n\n<br></p>",
+      "en": "<p>The course will be offered simultaneously in class and online. The course will meet for three hours weekly and additional 15 hours of experiments. During class time, students will attend lectures from the instructor; participate in active learning activities such as Questions &amp; Answers, problem-based discussion in group, one minute writing feedbacks, games, project – based learning, etc. Besides, you are always able to access online course materials in order to download lectures, exercises, previous projects and exams, etc. anytime and anywhere you want.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>Môn học bắt buộc SV phải thực hành / thí nghiệm trên các mô hình thực tế tại PTN của Bộ môn Cơ điện tử<br></p>",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn ME2009 - Kỹ thuật Điều khiển Tự động"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 30,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "210  B11",
+      "dienThoai": "(028) 38688611"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 915,
+        "maGiangVien": "002588",
+        "tenGiangVien": "PHÙNG TRÍ CÔNG",
+        "emailGiangVien": "ptcong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0.67_0.33",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME2179 - Hệ truyền động điện",
+        "en": "ME2179 - Electric Drive System"
+      },
+      "tenmonhoc_only": {
+        "vi": "Hệ truyền động điện",
+        "en": "Electric Drive System"
+      },
+      "mamonhoc": "ME2179"
+    },
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME2005 - Trang bị Điện - Điện tử trong Máy công nghiệp",
+        "en": "ME2005 - Electrical and Electronic Equipment for Industrial Machinery"
+      },
+      "tenmonhoc_only": {
+        "vi": "Trang bị Điện - Điện tử trong Máy công nghiệp",
+        "en": "Electrical and Electronic Equipment for Industrial Machinery"
+      },
+      "mamonhoc": "ME2005"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 90856,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 90857,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#1",
+        "en": "AIC#1"
+      },
+      "noidung": {
+        "vi": "AIC#1",
+        "en": "AIC#1"
+      }
+    },
+    {
+      "id": 90865,
+      "stt": 0,
+      "ma": "A.O.10",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "GPJ-TNg",
+        "en": "GPJ-TNg"
+      },
+      "noidung": {
+        "vi": "GPJ-TNg",
+        "en": "GPJ-TNg"
+      }
+    },
+    {
+      "id": 90866,
+      "stt": 0,
+      "ma": "A.O.11",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#7",
+        "en": "AIC#7"
+      },
+      "noidung": {
+        "vi": "AIC#7",
+        "en": "AIC#7"
+      }
+    },
+    {
+      "id": 90867,
+      "stt": 0,
+      "ma": "A.O.12",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#8",
+        "en": "AIC#8"
+      },
+      "noidung": {
+        "vi": "AIC#8",
+        "en": "AIC#8"
+      }
+    },
+    {
+      "id": 90858,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#2",
+        "en": "AIC#2"
+      },
+      "noidung": {
+        "vi": "AIC#2",
+        "en": "AIC#2"
+      }
+    },
+    {
+      "id": 90859,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#3",
+        "en": "AIC#3"
+      },
+      "noidung": {
+        "vi": "AIC#3",
+        "en": "AIC#3"
+      }
+    },
+    {
+      "id": 90860,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#4",
+        "en": "AIC#4"
+      },
+      "noidung": {
+        "vi": "AIC#4",
+        "en": "AIC#4"
+      }
+    },
+    {
+      "id": 90861,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#5",
+        "en": "AIC#5"
+      },
+      "noidung": {
+        "vi": "AIC#5",
+        "en": "AIC#5"
+      }
+    },
+    {
+      "id": 90862,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#6",
+        "en": "AIC#6"
+      },
+      "noidung": {
+        "vi": "AIC#6",
+        "en": "AIC#6"
+      }
+    },
+    {
+      "id": 90863,
+      "stt": 0,
+      "ma": "A.O.7",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "GPJ#1",
+        "en": "GPJ#1"
+      },
+      "noidung": {
+        "vi": "GPJ#1",
+        "en": "GPJ#1"
+      }
+    },
+    {
+      "id": 90864,
+      "stt": 0,
+      "ma": "A.O.9",
+      "capdo": "1",
+      "parentid": "90856",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "EXM#1",
+        "en": "EXM#1"
+      },
+      "noidung": {
+        "vi": "EXM#1",
+        "en": "EXM#1"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 112639,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 149959,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180497,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được được các khái niệm: hệ thống điều khiển, sơ đồ khối và hàm truyền",
+              "en": "Explain the concept: control systems, block diagrams and transfer function"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246038,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90857,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1",
+                  "en": "AIC#1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Giới thiệu môn học\n- Chương 1: Tổng quan\n+ Các khái niệm, nguyên lý cơ bản của một hệ thống điều khiển tự động, \n+ các ví dụ về một hệ thống tự động.",
+        "en": "- Course Introduction\n- Chapter 1: Overview\n+ Basic concepts and principles of an automatic control system,\n+ examples of an automatic system.\n"
+      }
+    },
+    {
+      "id": 112644,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 149964,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180498,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân biệt được hệ thống vòng hở và hệ thống vòng kín",
+              "en": "Distinguish the open loop and closed loop control system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246045,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90858,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "AIC#2",
+                  "en": "AIC#2"
+                }
+              }
+            },
+            {
+              "id": 246046,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90863,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "GPJ#1",
+                  "en": "GPJ#1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Tổng quan\n- Mục tiêu thiết kế một hệ thống điều khiển tự động\n- Phân biệt hệ thống vòng hở và vòng kín\n",
+        "en": "Chapter 1: Overview\n- Design objectives of an automatic control system\n- Distinguishing between open-loop and closed-loop systems\n"
+      }
+    },
+    {
+      "id": 112637,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 149957,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180500,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Nêu ví dụ về phần tử cảm biến, phần tử tác động, và phần tử điều khiển",
+              "en": "Give examples of sensors, actuators, and control elements"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246036,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90859,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "AIC#3",
+                  "en": "AIC#3"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Đặc tính chung các phần tử\n- Lỏng\n- Khí\n- Nhiệt\n- Điện\n- Cơ ",
+        "en": "Chapter 2: General properties of elements\n- Liquid\n- Gas\n- Thermal\n- Electrical\n- Mechanical"
+      }
+    },
+    {
+      "id": 112640,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 149960,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180497,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được được các khái niệm: hệ thống điều khiển, sơ đồ khối và hàm truyền",
+              "en": "Explain the concept: control systems, block diagrams and transfer function"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246039,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90860,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "AIC#4",
+                  "en": "AIC#4"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Phép biến đổi Laplace và các phép biến đổi sơ đồ khối\n- Khái niệm phép biến đổi Laplace\n- Thực hiện biến đổi Laplace và biến đổi Laplace ngược\n- Định lý giá trị đầu cuối ",
+        "en": "Chapter 3: Laplace Transform and Flowchart Transforms\n- Concept of the Laplace Transform\n- Performing the Laplace Transform and the Inverse Laplace Transform\n- Terminal Value Theorem"
+      }
+    },
+    {
+      "id": 112641,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 149961,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180501,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Áp dụng được các phép biến đổi đơn giản sơ đồ khối hệ thống",
+              "en": "Apply block diagrams to a simpler form"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246040,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90861,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "AIC#5",
+                  "en": "AIC#5"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Phép biến đổi Laplace và các phép biến đổi sơ đồ khối\n- Phương pháp thiết lập hàm truyền của hệ thống\n- Khảo sát đáp ứng thông qua hàm truyền\n- Các phép biến đổi sơ đồ khối",
+        "en": "Chapter 3: Laplace Transform and Block Diagram Transformations\n- Methods for establishing the system's transfer function\n- Analyzing the response through the transfer function\n- Block diagram transformations\n"
+      }
+    },
+    {
+      "id": 112636,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 149956,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand)\n"
+          },
+          "chuandaura": {
+            "id": 180506,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Tính toán được tần số và khoảng thời gian lấy mẫu",
+              "en": "Compute sampling rate and sampling period"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246034,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90865,
+                "ma": "A.O.10",
+                "ten": {
+                  "vi": "GPJ-TNg",
+                  "en": "GPJ-TNg"
+                }
+              }
+            },
+            {
+              "id": 246035,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90861,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "AIC#5",
+                  "en": "AIC#5"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Xử lý tín hiệu số\n- Mạch khuếch đại thuật toán\n- Mạch lọc\n",
+        "en": "Chapter 4: Digital Signal Processing\n- Operational Amplifiers\n- Filters\n"
+      }
+    },
+    {
+      "id": 112642,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 149962,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180507,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Xác định sai số của các bộ chuyển đổi ADC và DAC",
+              "en": "Determine quantization error of the ADC and DAC converters"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246042,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90863,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "GPJ#1",
+                  "en": "GPJ#1"
+                }
+              }
+            },
+            {
+              "id": 246041,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90866,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "AIC#7",
+                  "en": "AIC#7"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Xử lý tín hiệu số\n- Định lý lấy mẫu\n- Bộ chuyển đổi tín hiệu tương tự sang số, và số sang tương tự (ADC, DAC)\n",
+        "en": "Chapter 4: Digital Signal Processing\n- Sampling Theorem\n- Analog-to-Digital and Digital-to-Analog Converters (ADCs, DACs)\n\n"
+      }
+    },
+    {
+      "id": 112643,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 149963,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180501,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Áp dụng được các phép biến đổi đơn giản sơ đồ khối hệ thống",
+              "en": "Apply block diagrams to a simpler form"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246043,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90864,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "EXM#1",
+                  "en": "EXM#1"
+                }
+              }
+            },
+            {
+              "id": 246044,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90862,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "AIC#6",
+                  "en": "AIC#6"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Cơ cấu cảm biến\n- Cảm biến vị trí\n- Cảm biến vận tốc\n- Cảm biến gia tốc\n\n",
+        "en": "Chapter 5: Sensors\n- Position Sensors\n- Velocity Sensors\n- Acceleration Sensors\n\n"
+      }
+    },
+    {
+      "id": 112635,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 149955,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180501,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Áp dụng được các phép biến đổi đơn giản sơ đồ khối hệ thống",
+              "en": "Apply block diagrams to a simpler form"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246033,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90866,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "AIC#7",
+                  "en": "AIC#7"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Cơ cấu cảm biến\n- Cảm biến lực\n- Cảm biến áp suất\n- Cảm biến nhiệt độ\n- Cảm biến mức\n",
+        "en": "Chapter 5: Sensors\n- Force Sensors\n- Pressure Sensors\n- Temperature Sensors\n- Level Sensors\n\n"
+      }
+    },
+    {
+      "id": 112638,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 149958,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180501,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Áp dụng được các phép biến đổi đơn giản sơ đồ khối hệ thống",
+              "en": "Apply block diagrams to a simpler form"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246037,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90866,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "AIC#7",
+                  "en": "AIC#7"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Cơ cấu tác động\n- Cơ cấu đóng mở điện, cơ\n- Cơ cấu đóng mở bán dẫn\n- Cơ cấu tác động thủy lực, khí nén\n\n",
+        "en": "Chapter 6: Actuator Mechanisms\n- Electrical and mechanical switching mechanisms\n- Semiconductor switching mechanisms\n- Hydraulic and pneumatic actuating mechanisms\n"
+      }
+    },
+    {
+      "id": 112645,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 149965,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180501,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Áp dụng được các phép biến đổi đơn giản sơ đồ khối hệ thống",
+              "en": "Apply block diagrams to a simpler form"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246047,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90867,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "AIC#8",
+                  "en": "AIC#8"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Cơ cấu tác động\n- Động cơ DC\n- Động cơ Bước\n- Động cơ AC\n",
+        "en": "Chapter 6: Actuator Mechanisms\n- DC Motors\n- Stepper Motors\n- AC Motors\n"
+      }
+    },
+    {
+      "id": 112646,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 149966,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180503,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Biểu diễn được đồ thị thể hiện được đặc tính đáp ứng bước của hệ thống điều khiển vòng kín bằng Matlab",
+              "en": "Desmontrate the response to a step input for a closed loop control system using Matlab"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246048,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90867,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "AIC#8",
+                  "en": "AIC#8"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Điều khiển quá trình\n- Quá trình liên tục\n- Quá trình rời rạc\n",
+        "en": "Chapter 7: Process Control\n- Continuous Processes\n- Discrete Processes\n"
+      }
+    },
+    {
+      "id": 112633,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 149953,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180503,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Biểu diễn được đồ thị thể hiện được đặc tính đáp ứng bước của hệ thống điều khiển vòng kín bằng Matlab",
+              "en": "Desmontrate the response to a step input for a closed loop control system using Matlab"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246031,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90866,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "AIC#7",
+                  "en": "AIC#7"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8: Bộ điều khiển PID\n- Các chế độ điều khiển: P, I, D\n- Xác định các hệ số: Kp, Ki, Kd\n",
+        "en": "Chapter 8: PID Controller\n- Control modes: P, I, D\n- Determining the coefficients: Kp, Ki, Kd\n"
+      }
+    },
+    {
+      "id": 112632,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 149952,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Chiếu video clips giới thiệu\n- Giảng bài kết hợp trình chiếu các slide bài giảng powerpoint.\n",
+            "en": "- Show video clips \n- Lecture combined with presentation of PowerPoint lecture slides\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia các hoạt động giáo viên đưa ra\n- Tham gia thảo luận nhóm.\n",
+            "en": "- Participate in the activities given by the teacher \n- Group discussion to understand\n"
+          },
+          "chuandaura": {
+            "id": 180500,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Nêu ví dụ về phần tử cảm biến, phần tử tác động, và phần tử điều khiển",
+              "en": "Give examples of sensors, actuators, and control elements"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246030,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90867,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "AIC#8",
+                  "en": "AIC#8"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9: Giản đồ Bode\n- Giản đồ Bode cho hệ thống vòng hở/vòng kín\n- Vẽ giản đồ Bode dùng MATLAB\n- Sử dụng giản đồ Bode phân tích tính ổn định của hệ thống điều khiển.\n",
+        "en": "Chapter 9: Bode Diagrams\n- Bode diagrams for open-loop/closed-loop systems\n- Drawing Bode diagrams using MATLAB\n- Using Bode diagrams to analyze the stability of control systems.\n"
+      }
+    },
+    {
+      "id": 112634,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 149954,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giáo viên ôn tập",
+            "en": "Review"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên ôn tập",
+            "en": "Review"
+          },
+          "chuandaura": {
+            "id": 180497,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được được các khái niệm: hệ thống điều khiển, sơ đồ khối và hàm truyền",
+              "en": "Explain the concept: control systems, block diagrams and transfer function"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246032,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90864,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "EXM#1",
+                  "en": "EXM#1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn tập",
+        "en": "Review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 180497,
+      "ma": "L.O.1.1",
+      "ten_vi": "Giải thích được được các khái niệm: hệ thống điều khiển, sơ đồ khối và hàm truyền",
+      "ten_en": "Explain the concept: control systems, block diagrams and transfer function",
+      "hddg": [
+        {
+          "id": 90857,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1",
+          "ten_en": "AIC#1"
+        },
+        {
+          "id": 90860,
+          "ma": "A.O.4",
+          "ten_vi": "AIC#4",
+          "ten_en": "AIC#4"
+        },
+        {
+          "id": 90864,
+          "ma": "A.O.9",
+          "ten_vi": "EXM#1",
+          "ten_en": "EXM#1"
+        }
+      ]
+    },
+    {
+      "id": 180498,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân biệt được hệ thống vòng hở và hệ thống vòng kín",
+      "ten_en": "Distinguish the open loop and closed loop control system",
+      "hddg": [
+        {
+          "id": 90858,
+          "ma": "A.O.2",
+          "ten_vi": "AIC#2",
+          "ten_en": "AIC#2"
+        },
+        {
+          "id": 90863,
+          "ma": "A.O.7",
+          "ten_vi": "GPJ#1",
+          "ten_en": "GPJ#1"
+        }
+      ]
+    },
+    {
+      "id": 180500,
+      "ma": "L.O.2.1",
+      "ten_vi": "Nêu ví dụ về phần tử cảm biến, phần tử tác động, và phần tử điều khiển",
+      "ten_en": "Give examples of sensors, actuators, and control elements",
+      "hddg": [
+        {
+          "id": 90867,
+          "ma": "A.O.12",
+          "ten_vi": "AIC#8",
+          "ten_en": "AIC#8"
+        },
+        {
+          "id": 90859,
+          "ma": "A.O.3",
+          "ten_vi": "AIC#3",
+          "ten_en": "AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 180501,
+      "ma": "L.O.2.2",
+      "ten_vi": "Áp dụng được các phép biến đổi đơn giản sơ đồ khối hệ thống",
+      "ten_en": "Apply block diagrams to a simpler form",
+      "hddg": [
+        {
+          "id": 90866,
+          "ma": "A.O.11",
+          "ten_vi": "AIC#7",
+          "ten_en": "AIC#7"
+        },
+        {
+          "id": 90867,
+          "ma": "A.O.12",
+          "ten_vi": "AIC#8",
+          "ten_en": "AIC#8"
+        },
+        {
+          "id": 90861,
+          "ma": "A.O.5",
+          "ten_vi": "AIC#5",
+          "ten_en": "AIC#5"
+        },
+        {
+          "id": 90862,
+          "ma": "A.O.6",
+          "ten_vi": "AIC#6",
+          "ten_en": "AIC#6"
+        },
+        {
+          "id": 90864,
+          "ma": "A.O.9",
+          "ten_vi": "EXM#1",
+          "ten_en": "EXM#1"
+        }
+      ]
+    },
+    {
+      "id": 180503,
+      "ma": "L.O.3.1",
+      "ten_vi": "Biểu diễn được đồ thị thể hiện được đặc tính đáp ứng bước của hệ thống điều khiển vòng kín bằng Matlab",
+      "ten_en": "Desmontrate the response to a step input for a closed loop control system using Matlab",
+      "hddg": [
+        {
+          "id": 90866,
+          "ma": "A.O.11",
+          "ten_vi": "AIC#7",
+          "ten_en": "AIC#7"
+        },
+        {
+          "id": 90867,
+          "ma": "A.O.12",
+          "ten_vi": "AIC#8",
+          "ten_en": "AIC#8"
+        }
+      ]
+    },
+    {
+      "id": 180506,
+      "ma": "L.O.4.1",
+      "ten_vi": "Tính toán được tần số và khoảng thời gian lấy mẫu",
+      "ten_en": "Compute sampling rate and sampling period",
+      "hddg": [
+        {
+          "id": 90865,
+          "ma": "A.O.10",
+          "ten_vi": "GPJ-TNg",
+          "ten_en": "GPJ-TNg"
+        },
+        {
+          "id": 90861,
+          "ma": "A.O.5",
+          "ten_vi": "AIC#5",
+          "ten_en": "AIC#5"
+        }
+      ]
+    },
+    {
+      "id": 180507,
+      "ma": "L.O.4.2",
+      "ten_vi": "Xác định sai số của các bộ chuyển đổi ADC và DAC",
+      "ten_en": "Determine quantization error of the ADC and DAC converters",
+      "hddg": [
+        {
+          "id": 90866,
+          "ma": "A.O.11",
+          "ten_vi": "AIC#7",
+          "ten_en": "AIC#7"
+        },
+        {
+          "id": 90863,
+          "ma": "A.O.7",
+          "ten_vi": "GPJ#1",
+          "ten_en": "GPJ#1"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Kỹ thuật Điều khiển Tự động",
+  "tenmonhoc_eng": "Control System Technology",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

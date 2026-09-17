@@ -1,0 +1,2215 @@
+{
+  "ma": "DCMH.ME3181.5.1",
+  "phienban": "5.1",
+  "capnhat": "01/06/2026 15:58",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME3181",
+  "ten": "ME3181 - Trí tuệ Nhân tạo Ứng dụng",
+  "ten_eng": "ME3181 - Applications of Artificial Intellignence",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\nHọc phần cung cấp kiến thức nền tảng và kỹ năng thực hành về trí tuệ nhân tạo và xử lý dữ liệu cho các bài toán kỹ thuật. Nội dung bao gồm các khái niệm cơ bản về dữ liệu, học máy, học sâu, cùng với quy trình xử lý dữ liệu có cấu trúc từ thu thập, tiền xử lý đến biểu diễn và trực quan hóa. Học phần giới thiệu và áp dụng các thuật toán học máy có giám sát và không giám sát cho hồi quy, phân loại, phân cụm và giảm chiều dữ liệu. Đồng thời, sinh viên triển khai các mô hình mạng neuron và học sâu gồm ANN, mạng neuron tích chập (CNN) cho thị giác máy tính và các mô hình xử lý chuỗi như RNN/LSTM cho dữ liệu chuỗi hoặc tín hiệu cảm biến, nhằm phân tích, đánh giá và lựa chọn giải pháp AI phù hợp cho các ứng dụng kỹ thuật thực tế.\n\n<br></p>",
+      "en": "<p>\n\nThis course provides fundamental knowledge and hands-on skills in artificial intelligence and data processing for engineering applications. The course covers core concepts of data, Machine Learning, and Deep Learning, together with a structured data processing pipeline from data collection and preprocessing to representation and visualization. Students learn and apply supervised and unsupervised machine learning algorithms for regression, classification, clustering, and dimensionality reduction. The course also introduces the implementation of neural network and deep learning models, including Artificial Neural Networks (ANNs), Convolutional Neural Networks (CNNs) for computer vision, and sequence models such as RNNs/LSTMs for sequential or sensor data, enabling students to analyze, evaluate, and select appropriate AI solutions for real-world engineering problems.\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Các chủ đề sau được thảo luận trong khóa học này:</p><p></p><ul><li>Cơ sở về dữ liệu, học máy và trí tuệ nhân tạo.</li><li>Cách biểu diễn, xử lý và mô tả dữ liệu.</li><li>Các bài toán cơ bản của học máy và ứng dụng.</li><li>Cơ sở về mạng nơ-ron nhân tạo và ứng dụng.</li><li>Cơ sở về mạng tích chập và ứng dụng.</li><li>Các phương pháp xử lý dữ liệu dạng chuỗi và ứng dụng.&nbsp;</li></ul><p></p>",
+      "en": "<p>\n\nThe following topics are covered in this course:&nbsp;</p><p></p><ul><li>Fundamentals of data, machine learning, and artificial intelligence.&nbsp;</li><li>Methods for data representation, preprocessing, and descriptive analysis.&nbsp;</li><li>Fundamental machine learning problems and their applications.&nbsp;</li><li>Fundamentals of artificial neural networks and their applications.&nbsp;</li><li>Fundamentals of convolutional neural networks and their applications.&nbsp;</li><li>Methods for processing sequential data and their applications.</li></ul><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><ul><li><b>Sách, Giáo trình chính:</b></li></ul>[1] Raschka, S., Liu, Y., and Mirjalili, V. Machine Learning with PyTorch and Scikit-Learn, Packt Publishing, 2022.<br>[2] Géron, A.Hands-On Machine Learning with Scikit-Learn and PyTorch: Concepts, Tools, and Techniques to Build Intelligent Systems, 1st ed., O’Reilly Media, 2025.<br>[3]&nbsp;M. Ekman, Learning Deep Learning: Theory and Practice of Neural Networks, Computer Vision, Natural Language Processing, and Transformers Using TensorFlow. Addison-Wesley Professional, 2021.<br>[4] Ryan G. McClarren,&nbsp;Machine Learning for Engineers: Using data to solve problems for physical systems. Springer 2021.&nbsp;<p></p><p>Tàil liệu tham khảo:<br>[1] Goodfellow, I., Bengio, Y., &amp; Courville, A. Deep Learning. MIT Press 2016.<br>[2]&nbsp;Feature Engineering for Machine Learning: Principles and Techniques. O’Reilly Media 2018.<br>[3]&nbsp;Ayyadevara, V. K. Modern computer vision with PyTorch: Explore deep learning concepts and implement over 50 real-world image applications. Packt 2021.&nbsp;<br>[4] Tất cả các tài liệu online liên quan tới Data Science, Machine Learning, Artificial Intelligence.&nbsp;</p>",
+      "en": "<p>\n\n</p><p>+ Text book:<br>[1] Raschka, S., Liu, Y., and Mirjalili, V. Machine Learning with PyTorch and Scikit-Learn, Packt Publishing, 2022.<br>[2] Géron, A. Hands-On Machine Learning with Scikit-Learn and PyTorch: Concepts, Tools, and Techniques to Build Intelligent Systems, 1st ed., O’Reilly Media, 2025.&nbsp;<br>[3] M. Ekman, Learning Deep Learning: Theory and Practice of Neural Networks, Computer Vision, Natural Language Processing, and Transformers Using TensorFlow. Addison-Wesley Professional, 2021.<br>[4] Ryan G. McClarren, Machine Learning for Engineers: Using data to solve problems for physical systems. Springer 2021. </p><p>+ References:<br>[1] Goodfellow, I., Bengio, Y., &amp; Courville, A. Deep Learning. MIT Press 2016.<br>[2] Feature Engineering for Machine Learning: Principles and Techniques. O’Reilly Media 2018.<br>[3] Ayyadevara, V. K. Modern computer vision with PyTorch: Explore deep learning concepts and implement over 50 real-world image applications. Packt 2021. <br>[4] All available references related to Data Science, Machine Learning, and Artificial Intelligence.</p><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. <br>Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học, bao gồm:<br></p><ul><li>Bài tập: 30%</li><li>Bài tập lớn : 30%</li><li>Thi cuối kỳ : 40%</li></ul><p></p><p>Điều kiện dự thi:<br></p><ul><li>Sinh viên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm danh chuyên cần). Ngoài ra, sinh viên phải hoàn thành tất cả bài tập trên lớp và 70% bài tập về nhà. Nếu sinh viên nào không tham gia buổi thuyết trình của nhóm thì điểm thuyết trình của sinh viên đó sẽ bằng không.</li></ul>Sinh viên cần lưu ý thời hạn nộp bài tập. Nộp muộn sẽ không được chấp nhận nếu không có một lý do chính đáng đã được trình bày và phê duyệt của giảng viên trước ngày đến hạn. Bài tập nộp muộn cho phép sẽ bị trừ đi 2 điểm đối với mỗi ngày nộp trễ.<p></p><p><b>Quy định về Liêm chính học thuật và sử dụng AI:</b></p><p>\n\n</p><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul><p></p>",
+      "en": "<p>Materials are uploaded to the Learning Management System (LMS) weekly. Students are required to download, print, and bring them to class.<br>The final grade for the course is evaluated continuously throughout the semester as follows:<br></p><ul><li>Assignments: 30%</li><li>Project / Major Assignment: 30%</li><li>Final Exam: 40%</li></ul>Conditions for Taking the Final Exam:<br><ul><li>Students must attend at least 70% of the in-class sessions (based on attendance records). In addition, students are required to complete all in-class assignments and at least 70% of the homework assignments. Any student who does not participate in their group presentation will receive a score of zero for that presentation component.</li></ul>The final exam may be in the form of multiple-choice questions, essay questions, or a combination of both.<br>Students must strictly observe the assignment submission deadlines. Late submissions will not be accepted unless there is a valid reason that has been communicated and approved by the instructor in advance of the due date.<br>If a late submission is permitted, a penalty of 2 points per day late will be deducted from the assignment score.<br><p></p><p>\n\n</p><p><strong>Academic Integrity and Use of AI Tools:</strong></p>\n<ul>\n<li>\nStudents must comply with the university’s regulations on academic integrity.\n</li>\n<li>\nThe use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as searching for materials, exploring ideas, checking grammar, or suggesting presentation formats. Students must not submit work that is entirely or predominantly generated by AI.\n</li>\n<li>\nWhen AI tools are used during the completion of assignments, students must clearly acknowledge the tools and describe how they were used in the references or notes section.\n</li>\n<li>\nAny misuse of AI for dishonest purposes will be considered a violation of academic integrity and will be subject to disciplinary actions in accordance with university regulations.</li></ul>\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1646,
+      "ma": "CN_CDT",
+      "ten": {
+        "vi": "3. Kỹ thuật Cơ điện tử - 2020",
+        "en": "2. Mechatronic Engineering - 2020"
+      }
+    },
+    {
+      "id": 1228,
+      "ma": "CN_CDT",
+      "ten": {
+        "vi": "2.1 Kỹ thuật Cơ điện tử 2019",
+        "en": "Mechatronic Engineering 2019"
+      }
+    },
+    {
+      "id": 2495,
+      "ma": "NG_COD",
+      "ten": {
+        "vi": "2. Kỹ thuật Cơ điện tử - 2023",
+        "en": "Mechatronic Engineering - 2023"
+      }
+    },
+    {
+      "id": 1407,
+      "ma": "NG_COD",
+      "ten": {
+        "vi": " 2. Kỹ thuật Cơ điện tử - 2021",
+        "en": "Mechatronic Engineering"
+      }
+    },
+    {
+      "id": 1905,
+      "ma": "CN_COD",
+      "ten": {
+        "vi": "2. Kỹ thuật Cơ điện tử - 2022",
+        "en": "Mechatronic Engineering - 2022"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 911,
+      "ma": "002338",
+      "ten": "NGUYỄN QUỐC CHÍ"
+    },
+    {
+      "id": 9882,
+      "ma": "004059",
+      "ten": "DƯƠNG VĂN TÚ"
+    },
+    {
+      "id": 916,
+      "ma": "002917",
+      "ten": "LÊ ĐỨC HẠNH"
+    },
+    {
+      "id": 10989,
+      "ma": "004212",
+      "ten": "PHÙNG THANH HUY"
+    },
+    {
+      "id": 12370,
+      "ma": "004284",
+      "ten": "TRƯƠNG NGỌC CƯỜNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": 0,
+    "baiTapLon": 0.2,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "baiTapLon": 9,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 72,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 30,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "210B11",
+      "dienThoai": "(84-28) 3886811"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 10989,
+        "maGiangVien": "004212",
+        "tenGiangVien": "PHÙNG THANH HUY",
+        "emailGiangVien": "huypt@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.8_0_0.2",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 90482,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 90483,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "90482",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC",
+        "en": "AIC "
+      },
+      "noidung": {
+        "vi": "AIC",
+        "en": "AIC"
+      }
+    },
+    {
+      "id": 90484,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "90482",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW",
+        "en": "GHW"
+      },
+      "noidung": {
+        "vi": "GHW",
+        "en": "GHW"
+      }
+    },
+    {
+      "id": 90486,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "90482",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Project",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Project",
+        "en": "Project"
+      }
+    },
+    {
+      "id": 90485,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "90482",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "EXM",
+        "en": "EXM"
+      },
+      "noidung": {
+        "vi": "EXM",
+        "en": "EXM"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 112001,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 148993,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.",
+            "en": "- Give lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận.",
+            "en": "- Discuss."
+          },
+          "chuandaura": {
+            "id": 180549,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả và giải thích các khái niệm cơ bản về dữ liệu, Big Data, Machine Learning, Deep Learning và Trí tuệ nhân tạo",
+              "en": "Describe and explain fundamental concepts of data, Big Data, Machine Learning, Deep Learning, and Artificial Intelligence"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244216,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244218,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 244217,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Giới thiệu khoá học.\n- Chia nhóm học tập. \n- Tổng quan về trí tuệ nhân tạo và trí tuệ nhân tạo dựa trên dữ liệu. \n   + Khái niệm, phạm vi và mối quan hệ giữa AI, Machine Learning và Deep Learning. \n   + Vai trò của dữ liệu trong các hệ thống trí tuệ nhân tạo\n   + Phân loại các bài toán AI trong kỹ thuật và công nghiệp\n   + Quy trình xây dựng và triển khai một ứng dụng AI\n- Giáo trình chính: [2], [4]; Tham khảo: [1], [4]",
+        "en": "- Introduction to the course.\n- Prepare for teamwork.\n- Overview of Artificial Intelligence and Data-Driven AI\n   + Concepts, scope, and relationships between Artificial Intelligence, Machine Learning, and Deep Learning\n   + Key roles of data in artificial intelligence systems\n   + Classification of AI problem types in engineering and industrial applications\n   + General workflow for developing and deploying AI applications.\n- Main textbooks: [2], [4]; References: [1], [4]."
+      }
+    },
+    {
+      "id": 111999,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 148991,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận. \n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180550,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích và triển khai quy trình xử lý dữ liệu:thu thập, tiền xử lý, biểu diễn và trực quan hóa dữ liệu",
+              "en": "Explain and implement the data processing pipeline, including data collection, preprocessing, representation, and visualization"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244212,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244211,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244213,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Dữ liệu và các thao tác trên dữ liệu:\n   + Các loại dữ liệu trong AI: dữ liệu bảng, ảnh, dữ liệu chuỗi\n   + Thu thập, tổ chức và quản lý dữ liệu\n   + Các kỹ năng ứng dụng và thực hành tương ứng.\n- Giáo trình chính: [1], [2]; Tham khảo: [2], [4]",
+        "en": "- Data and data operations:\n   + Types of data in AI: tabular, image, and sequential data\n   + Data collection, organization, and management\n   + Corresponding skills and applications. \n- Main textbooks: [1], [2]; References: [2], [4]"
+      }
+    },
+    {
+      "id": 112006,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 148976,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, \n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180550,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích và triển khai quy trình xử lý dữ liệu:thu thập, tiền xử lý, biểu diễn và trực quan hóa dữ liệu",
+              "en": "Explain and implement the data processing pipeline, including data collection, preprocessing, representation, and visualization"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244227,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244231,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244244,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": " - Dữ liệu và các thao tác trên dữ liệu (Tiếp theo):\n   + Tiền xử lý, chuẩn hóa và biến đổi đặc trưng\n   + Trực quan hóa và phân tích dữ liệu thăm dò\n   + Các kỹ năng ứng dụng và thực hành tương ứng.\n- Giáo trình chính: [1], [2]; Tham khảo: [2], [4]",
+        "en": " - Data and data operations (cont.):\n   + Types of data in AI: tabular, image, and sequential data\n   + Data visualization and exploratory data analysis\n   + Corresponding skills and applications. \n- Main textbooks: [1], [2]; References: [2], [4]"
+      }
+    },
+    {
+      "id": 111995,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 148987,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận. \n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180552,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng các thuật toán học máy có giám sát cho các bài toán hồi quy và phân loại trong các bài toán kỹ thuật",
+              "en": "Apply supervised machine learning algorithms to regression and classification problems in engineering applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244201,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244202,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244200,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Nền tảng học máy và ứng dụng:\n   + Học máy có giám sát và không giám sát\n   + Các mô hình học máy cho hồi quy \n   + Thuật toán Gradient Descend.\n   + Đánh giá và so sánh hiệu năng các mô hình hồi quy.  \n- Giáo trình chính: [1], [2], [4]; Tham khảo: [2], [4]",
+        "en": "- Machine learning foundations and applications.\n   + Supervised and unsupervised learning\n   + Machine learning models for regression \n   + Gradient Descend method and variations. \n   + Regression model evaluation and performance comparison. \nMain textbooks: [1], [2], [4]; References: [2], [4]"
+      }
+    },
+    {
+      "id": 112005,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 148978,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận.\n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180552,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng các thuật toán học máy có giám sát cho các bài toán hồi quy và phân loại trong các bài toán kỹ thuật",
+              "en": "Apply supervised machine learning algorithms to regression and classification problems in engineering applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244245,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244232,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244190,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Nền tảng học máy và ứng dụng (tiếp theo):\n   + Các mô hình học máy cho phân loại\n   + Kỹ thuật kết hợp mô hình (Ensemble Learning)\n   + Đánh giá và so sánh hiệu năng mô hình\n   + Các kỹ năng và ứng dụng tương ứng\n- Giáo trình chính: [1], [2], [4]; Tham khảo: [2], [4]",
+        "en": "- Machine learning foundations and applications (cont.):\n   + Machine learning models for classification\n   + Ensemble learning techniques\n   + Model evaluation and performance comparison\n   + Corresponding skills and applications.\nMain textbooks: [1], [2], [4]; References: [2], [4]"
+      }
+    },
+    {
+      "id": 112003,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 148994,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện lập trình trên một nền tảng lập trình .",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận.\n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180553,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hiện và phân tích so sánh các kỹ thuật học máy không giám sát như phân cụm và giảm chiều dữ liệu",
+              "en": "Perform and analyze comparisons of unsupervised machine learning techniques such as clustering and dimensionality reduction"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244233,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244234,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244228,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Nền tảng học máy và ứng dụng (tiếp theo):\n   + Học máy không giám sát\n   + Phân cụm và giảm chiều dữ liệu\n   + Đánh giá và so sánh hiệu năng mô hình\n   + Các kỹ năng và ứng dụng tương ứng. \n- Giáo trình chính: [1], [2], [4]; Tham khảo: [2], [4]",
+        "en": "- Machine learning foundations and applications (cont.)\n   + Unsupervised learning\n   + Ensemble learning techniques\n   + Model evaluation and performance comparison\n   + Corresponding skills and applications\nMain textbooks: [1], [2], [4]; References: [2], [4]"
+      }
+    },
+    {
+      "id": 111996,
+      "stt": 7,
+      "buoi": "7,",
+      "chuandaurachitiet": [
+        {
+          "id": 148989,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lectures.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận. \n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180556,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Triển khai huấn luyện các mô hình ANN cơ bản cho dự đoán, phân loại",
+              "en": "Implement ANN models for regression or classification tasks"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244206,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244205,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148988,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận. \n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180555,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích cấu trúc và cơ chế huấn luyện của ANN",
+              "en": "Explain the structure and training mechanisms of Artificial Neural Networks (ANNs)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244204,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244203,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Cơ sở mạng thần kinh nhân tạo và ứng dụng.\n   + Cấu trúc và nguyên lý hoạt động của mạng nơ-ron nhân tạo\n   + Huấn luyện và tối ưu mô hình ANN\n   + Một số ứng dụng và kỹ năng tương ứng\n- Giáo trình chính: [2], [3]; Tham khảo: [1]",
+        "en": "- Fundamentals of Artificial Neural Networks and Applications.\n   + Structure and operating principles of artificial neural networks\n   + Training and optimization of ANN models\n   + Corresponding skills and applications. \n- Main textbooks: [2], [3]; References: [1]"
+      }
+    },
+    {
+      "id": 111997,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 148990,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận. \n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180558,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình CNN cho bài ứng dụng thị giác máy tính",
+              "en": "Explain and implement Convolutional Neural Network (CNN) models for computer vision applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244209,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244208,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244207,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 244210,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Mạng tích chập và ứng dụng cho bài toán thị giác máy tính:\n   + Nguyên lý và kiến trúc mạng tích chập (CNN)\n   + Transfer Learning và Fine-tuning mô hình\n   + Ứng dụng CNN trong phân loại ảnh\n   + Các kỹ năng và ứng dụng tương ứng \n- Giáo trình chính: [2], [3]; Tham khảo: [1], [3]",
+        "en": "- Convolutional networks and their applications in computer vision:\n   + Principles and architectures of convolutional neural networks\n   + Transfer learning and model fine-tuning\n   + CNN applications in image classification\n   + Corresponding skills and applications\n- Main textbooks: [2], [3]; References: [1], [3]"
+      }
+    },
+    {
+      "id": 111992,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 148977,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện lập trình trên một nền tảng lập trình .",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận.\n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180558,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình CNN cho bài ứng dụng thị giác máy tính",
+              "en": "Explain and implement Convolutional Neural Network (CNN) models for computer vision applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244191,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244237,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244192,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 244235,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Mạng tích chập và ứng dụng cho bài toán thị giác máy tính (tiếp theo):\n+ Ứng dụng CNN trong phát hiện, nhận dạng đối tượng\n+ Các kỹ năng và ứng dụng tương ứng\n- Giáo trình chính: [2], [3]; Tham khảo: [1], [3]",
+        "en": "- Convolutional networks and their applications in computer vision.\n  + Object detection\n  + Corresponding skills and applications\n- Main textbooks: [2], [3]; References: [1], [3]"
+      }
+    },
+    {
+      "id": 112002,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 148981,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện lập trình trên một nền tảng lập trình .",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận.\n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180558,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình CNN cho bài ứng dụng thị giác máy tính",
+              "en": "Explain and implement Convolutional Neural Network (CNN) models for computer vision applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244193,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244194,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244195,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            },
+            {
+              "id": 244224,
+              "stt": 5,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Mạng tích chập và ứng dụng cho bài toán thị giác máy tính (tiếp theo):\n  + Autoencoder. \n  + Bài toán phân đoạn ảnh.\n  + Các kỹ năng và ứng dụng tương ứng. \n- Giáo trình chính: [2], [3]; Tham khảo: [1], [3]",
+        "en": "- Convolutional networks and their applications in computer vision (cont.):\n  + Autoencoder. \n  + Segmentation.\n  + Corresponding skills and applications. \n- Main textbooks: [2], [3]; References: [1], [3]"
+      }
+    },
+    {
+      "id": 111994,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 148986,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Thực hiện mẫu trên một nền tảng lập trình. ",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận. \n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180559,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình RNN/LSTM cho xử lý dữ liệu chuỗi hoặc tín hiệu cảm biến",
+              "en": "Explain and conceptually implement RNN/LSTM models for sequence data or sensor signal processing applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244196,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244199,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244198,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 244197,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Xử lý dữ liệu dạng chuỗi tuần tự và ứng dụng:\n   + Đặc điểm dữ liệu chuỗi thời gian và dữ liệu tuần tự\n   + Các mô hình học sâu cho dữ liệu chuỗi (RNN, LSTM)\n   + Các kỹ năng và ứng dụng tương ứng.\n- Giáo trình chính: [2], [3], [4]; Tham khảo: [1]",
+        "en": "- Sequential data processing and applications.\n   + Characteristics of time-series and sequential data\n   + Deep learning models for sequential data (RNN, LSTM)\n   + Corresponding skills and applications\n- Main textbooks: [2], [3], [4]; References: [1]"
+      }
+    },
+    {
+      "id": 112004,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 148985,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện lập trình trên một nền tảng lập trình .",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận.\n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180559,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình RNN/LSTM cho xử lý dữ liệu chuỗi hoặc tín hiệu cảm biến",
+              "en": "Explain and conceptually implement RNN/LSTM models for sequence data or sensor signal processing applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244229,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244238,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244239,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            },
+            {
+              "id": 244241,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Xử lý dữ liệu dạng chuỗi tuần tự và ứng dụng (tiếp theo):\n   + Ứng dụng dự đoán chuỗi thời gian\n   + Ứng dụng phân tích dữ liệu cảm biến và giám sát hệ thống\n- Giáo trình chính: [2], [3], [4]; Tham khảo: [1]",
+        "en": "- Sequential data processing and applications (cont.):\n   + Applications in time-series forecasting\n   + Applications in sensor data analysis and system monitoring, and anomaly detection\n- Main textbooks: [2], [3], [4]; References: [1]\n"
+      }
+    },
+    {
+      "id": 111993,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 148995,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện lập trình trên một nền tảng lập trình.",
+            "en": "- Give lecture.\n- Demonstrate the contents using a programming language or platform. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận.\n- Thực hiện bài tập và lập trình theo hướng dẫn. ",
+            "en": "- Discuss.\n- Do the exercises. Code the samples. "
+          },
+          "chuandaura": {
+            "id": 180559,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình RNN/LSTM cho xử lý dữ liệu chuỗi hoặc tín hiệu cảm biến",
+              "en": "Explain and conceptually implement RNN/LSTM models for sequence data or sensor signal processing applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244221,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244222,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Xử lý dữ liệu dạng chuỗi tuần tự và ứng dụng (tiếp theo):\n   + Giới thiệu về cơ chế attention và mô hình ngôn ngữ lớn (LLM)\n- Giáo trình chính: [2], [3], [4]; Tham khảo: [1]",
+        "en": "- Sequential data processing and applications (cont.):\n   + Introduction to attention mechanisms and LLMs \n- Main textbooks: [2], [3], [4]; References: [1]\n"
+      }
+    },
+    {
+      "id": 112000,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 148992,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Thảo luận cùng sinh viên. ",
+            "en": "- Give lecture.\n- Discuss. "
+          },
+          "hoatdongsinhvien": {
+            "vi": " - Thảo luận.",
+            "en": " - Discuss."
+          },
+          "chuandaura": {
+            "id": 180549,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả và giải thích các khái niệm cơ bản về dữ liệu, Big Data, Machine Learning, Deep Learning và Trí tuệ nhân tạo",
+              "en": "Describe and explain fundamental concepts of data, Big Data, Machine Learning, Deep Learning, and Artificial Intelligence"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244215,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90483,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC",
+                  "en": "AIC "
+                }
+              }
+            },
+            {
+              "id": 244214,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90484,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GHW",
+                  "en": "GHW"
+                }
+              }
+            },
+            {
+              "id": 244230,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90485,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "EXM",
+                  "en": "EXM"
+                }
+              }
+            },
+            {
+              "id": 244242,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Seminar: Cập nhật các kiến thức mới về trí tuệ nhân tạo và ứng dụng. \nCác ứng dụng AI tiêu biểu mới nhất.\nPhân tích lựa chọn mô hình phù hợp cho từng bài toán.\nCách thức xây dựng một ứng dụng end-to-end.\nXu hướng và thách thức trong ứng dụng AI",
+        "en": "- Seminar: State-of-the-art of AI applications. \nUp-to-date representative AI applications.\nAnalysis of model selection for specific application scenarios.\nBuilding an end-to-end application.\nEmerging trends and challenges in applied artificial intelligence."
+      }
+    },
+    {
+      "id": 111998,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 148996,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project"
+          },
+          "chuandaura": {
+            "id": 180549,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả và giải thích các khái niệm cơ bản về dữ liệu, Big Data, Machine Learning, Deep Learning và Trí tuệ nhân tạo",
+              "en": "Describe and explain fundamental concepts of data, Big Data, Machine Learning, Deep Learning, and Artificial Intelligence"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244240,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148997,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project. "
+          },
+          "chuandaura": {
+            "id": 180550,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích và triển khai quy trình xử lý dữ liệu:thu thập, tiền xử lý, biểu diễn và trực quan hóa dữ liệu",
+              "en": "Explain and implement the data processing pipeline, including data collection, preprocessing, representation, and visualization"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244236,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148979,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project. "
+          },
+          "chuandaura": {
+            "id": 180552,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng các thuật toán học máy có giám sát cho các bài toán hồi quy và phân loại trong các bài toán kỹ thuật",
+              "en": "Apply supervised machine learning algorithms to regression and classification problems in engineering applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244219,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148982,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project. "
+          },
+          "chuandaura": {
+            "id": 180553,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hiện và phân tích so sánh các kỹ thuật học máy không giám sát như phân cụm và giảm chiều dữ liệu",
+              "en": "Perform and analyze comparisons of unsupervised machine learning techniques such as clustering and dimensionality reduction"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244223,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148980,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project. "
+          },
+          "chuandaura": {
+            "id": 180555,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích cấu trúc và cơ chế huấn luyện của ANN",
+              "en": "Explain the structure and training mechanisms of Artificial Neural Networks (ANNs)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244226,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148983,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project. "
+          },
+          "chuandaura": {
+            "id": 180556,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Triển khai huấn luyện các mô hình ANN cơ bản cho dự đoán, phân loại",
+              "en": "Implement ANN models for regression or classification tasks"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244243,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148984,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project. "
+          },
+          "chuandaura": {
+            "id": 180558,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình CNN cho bài ứng dụng thị giác máy tính",
+              "en": "Explain and implement Convolutional Neural Network (CNN) models for computer vision applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244220,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148975,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận, đánh giá, tổng kết khoá học. ",
+            "en": "- Discuss, evaluate, conclude the course. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận, báo cáo bài tập lớn. ",
+            "en": "- Discuss, report the project. "
+          },
+          "chuandaura": {
+            "id": 180559,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Giải thích và triển khai các mô hình RNN/LSTM cho xử lý dữ liệu chuỗi hoặc tín hiệu cảm biến",
+              "en": "Explain and conceptually implement RNN/LSTM models for sequence data or sensor signal processing applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244225,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90486,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Báo cáo bài tập lớn.\n- Tổng kết khoá học. ",
+        "en": "- Project report.\n- Course concluding. "
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 180549,
+      "ma": "L.O.1.1",
+      "ten_vi": "Mô tả và giải thích các khái niệm cơ bản về dữ liệu, Big Data, Machine Learning, Deep Learning và Trí tuệ nhân tạo",
+      "ten_en": "Describe and explain fundamental concepts of data, Big Data, Machine Learning, Deep Learning, and Artificial Intelligence",
+      "hddg": [
+        {
+          "id": 90483,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC "
+        },
+        {
+          "id": 90484,
+          "ma": "A.O.2",
+          "ten_vi": "GHW",
+          "ten_en": "GHW"
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 180550,
+      "ma": "L.O.1.2",
+      "ten_vi": "Giải thích và triển khai quy trình xử lý dữ liệu:thu thập, tiền xử lý, biểu diễn và trực quan hóa dữ liệu",
+      "ten_en": "Explain and implement the data processing pipeline, including data collection, preprocessing, representation, and visualization",
+      "hddg": [
+        {
+          "id": 90483,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC "
+        },
+        {
+          "id": 90484,
+          "ma": "A.O.2",
+          "ten_vi": "GHW",
+          "ten_en": "GHW"
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 180552,
+      "ma": "L.O.2.1",
+      "ten_vi": "Áp dụng các thuật toán học máy có giám sát cho các bài toán hồi quy và phân loại trong các bài toán kỹ thuật",
+      "ten_en": "Apply supervised machine learning algorithms to regression and classification problems in engineering applications",
+      "hddg": [
+        {
+          "id": 90483,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC "
+        },
+        {
+          "id": 90484,
+          "ma": "A.O.2",
+          "ten_vi": "GHW",
+          "ten_en": "GHW"
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 180553,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thực hiện và phân tích so sánh các kỹ thuật học máy không giám sát như phân cụm và giảm chiều dữ liệu",
+      "ten_en": "Perform and analyze comparisons of unsupervised machine learning techniques such as clustering and dimensionality reduction",
+      "hddg": [
+        {
+          "id": 90483,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC "
+        },
+        {
+          "id": 90484,
+          "ma": "A.O.2",
+          "ten_vi": "GHW",
+          "ten_en": "GHW"
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 180555,
+      "ma": "L.O.3.1",
+      "ten_vi": "Giải thích cấu trúc và cơ chế huấn luyện của ANN",
+      "ten_en": "Explain the structure and training mechanisms of Artificial Neural Networks (ANNs)",
+      "hddg": [
+        {
+          "id": 90483,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC "
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 180556,
+      "ma": "L.O.3.2",
+      "ten_vi": "Triển khai huấn luyện các mô hình ANN cơ bản cho dự đoán, phân loại",
+      "ten_en": "Implement ANN models for regression or classification tasks",
+      "hddg": [
+        {
+          "id": 90484,
+          "ma": "A.O.2",
+          "ten_vi": "GHW",
+          "ten_en": "GHW"
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 180558,
+      "ma": "L.O.4.1",
+      "ten_vi": "Giải thích và triển khai các mô hình CNN cho bài ứng dụng thị giác máy tính",
+      "ten_en": "Explain and implement Convolutional Neural Network (CNN) models for computer vision applications",
+      "hddg": [
+        {
+          "id": 90483,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC "
+        },
+        {
+          "id": 90484,
+          "ma": "A.O.2",
+          "ten_vi": "GHW",
+          "ten_en": "GHW"
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    },
+    {
+      "id": 180559,
+      "ma": "L.O.4.2",
+      "ten_vi": "Giải thích và triển khai các mô hình RNN/LSTM cho xử lý dữ liệu chuỗi hoặc tín hiệu cảm biến",
+      "ten_en": "Explain and conceptually implement RNN/LSTM models for sequence data or sensor signal processing applications",
+      "hddg": [
+        {
+          "id": 90483,
+          "ma": "A.O.1",
+          "ten_vi": "AIC",
+          "ten_en": "AIC "
+        },
+        {
+          "id": 90484,
+          "ma": "A.O.2",
+          "ten_vi": "GHW",
+          "ten_en": "GHW"
+        },
+        {
+          "id": 90486,
+          "ma": "A.O.4",
+          "ten_vi": "Project",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90485,
+          "ma": "A.O.5",
+          "ten_vi": "EXM",
+          "ten_en": "EXM"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Trí tuệ Nhân tạo Ứng dụng",
+  "tenmonhoc_eng": "Applications of Artificial Intellignence",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

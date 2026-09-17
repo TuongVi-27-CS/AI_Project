@@ -1,0 +1,1532 @@
+{
+  "ma": "DCMH.EE3117.8.1",
+  "phienban": "8.1",
+  "capnhat": "28/01/2026 08:46",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3117",
+  "ten": "EE3117 - Thiết kế Vi mạch số",
+  "ten_eng": "EE3117 - Digital IC Design",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Mục tiêu của môn học này bao gồm:</p>\n\n<ul>\n <li>Giải\n     thích tổng quan về thiết kế vi mạch số</li>\n <li>Giải\n     thích và phân tích về MOS transistor </li>\n <li>Giải\n     thích lý thuyết về công nghệ CMOS</li>\n <li>Giải\n     thích và phân tích về tính trì hoãn trong thiết kế vi mạch số</li>\n <li>Giải\n     thích về công suất trong vi mạch số</li>\n <li>Thiết kế\n     và mô phỏng vi mạch số đơn giản</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><br></p><p></p>",
+      "en": "<p></p><p>The course goals of this course are:</p><ul><li>Explain overview of digital IC design</li><li>Explain and analyze MOS transistor</li><li>Explain CMOS Technology</li><li>Explain and analyze delay in digital IC design</li><li>Explain power in digital IC design</li><li>Design and simulate simple digital ICs</li></ul><br><br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>Môn học này tập trung vào việc xây dựng\nkiến thức về vi mạch số từ dưới lên. Các nội dung chính là: những linh kiện\nCMOS và công nghệ chế tạo; các cổng logic CMOS và layout của chúng; trì hoãn\ntruyền, lề nhiễu và tiêu tán công suất; thiết kế hệ tổ hợp và hệ tuần tự ở mức\ntransistor, thiết kế mạch nhớ ở mức transistor.</p>\n\n<p>&nbsp;</p><p></p>",
+      "en": "<p>Course Description<b>:</b></p><p>This course focuses on building an understanding of digital integrated circuit from bottom-up. The key contents are: CMOS devices and manufacturing technology; CMOS logic gates and their layout, propagation delay, noise margins and power dissipation; combinational and sequential circuit design at the transistor level, memory circuit design at the transistor level.</p><br>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p>Sách, Giáo trình chính:</p>\n\n<p>[1] Neil Weste and\nDavid Harris, CMOS VLSI Design A Circuits and Systems Perspective, Addison\nWesley, 2010</p>\n\n<p>[2] Tống văn On – Thiết kế vi mạch CMOS VLSI  (tập 1, 2 và 3) – Nhà xuất bản Phương Đông,\n2007 và 2008.</p>\n\n<p>Sách tham khảo:</p>\n\n<p>[3] Tống Văn On, “Thiết kế mạch số\nvới VHDL &amp; Verilog”, Nhà xuất bản Lao động Xã hội.</p>\n\n<p>[4] Kent Martin – Digital\nIntegrated Circuits Design – Oxford University Press, 2000.</p>\n\n<p>[5] J. Rabaey, A. Chandrakasan, B.\nNikolic – Digital Integrated Circuits \n2nd Ed – 2003. </p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><p>Book:&nbsp;</p>\n\n<p>[1] Neil Weste and\nDavid Harris, CMOS VLSI Design A Circuits and Systems Perspective, Addison\nWesley, 2010</p>\n\n<p>[2] Tống văn On – Thiết kế vi mạch CMOS VLSI  (tập 1, 2 và 3) – Nhà xuất bản Phương Đông,\n2007 và 2008.</p><p>Reference books:</p>\n\n<p>[3] Tống Văn On, “Thiết kế mạch số\nvới VHDL &amp; Verilog”, Nhà xuất bản Lao động Xã hội.</p>\n\n<p>[4] Kent Martin – Digital\nIntegrated Circuits Design – Oxford University Press, 2000.</p>\n\n<p>[5] J. Rabaey, A. Chandrakasan, B.\nNikolic – Digital Integrated Circuits \n2nd Ed – 2003. </p>\n\n\n\n\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học</p><p>· &nbsp; &nbsp; Bài tập: 10%</p><p>· &nbsp; &nbsp; Kiểm tra: 30%<i></i></p><p>· &nbsp; &nbsp; Thi: 60%<i></i></p><br><br><p></p>",
+      "en": "<p></p><p>Documents are uploaded to BKEL weekly. Students download, print, and bring with them to class. The final course score is assessed throughout the course of study</p><p>Exercise: 10%&nbsp;</p><p>Test: 30%&nbsp;</p><p>Exam: 60%</p><br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>\n\n<div></div></p>\n\n<div>Điều kiện đăng ký đúng học phần EE3117:</div><div>+ CTĐT Tiêu chuẩn ngành KT ĐT-VT : EE1009 (TQ), EE3165 (KN)</div><div>+ CTĐT Tiêu chuẩn ngành TKVM : EE1009 (TQ), EE3201 (KN)</div><div>+ CTĐT CLC tại VN (PFIEV): EE1009 (TQ), EE4051 (KN)</div>\n\n<p></p><p><br></p>",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1449,
+      "ma": "NG_0N41",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - CTTT - Điện - Điện Tử - Khóa 2021",
+        "en": "Electrical and Electronics Engineering - Year 2021"
+      }
+    },
+    {
+      "id": 1467,
+      "ma": "NG_COD_TN",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa +1",
+        "en": "Áp dụng cho tất cả ngành của khóa +1"
+      }
+    },
+    {
+      "id": 1387,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2019)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2019)"
+      }
+    },
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 1395,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2021)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2021)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 514,
+      "ma": "003176",
+      "ten": "Trần Hoàng Linh"
+    },
+    {
+      "id": 499,
+      "ma": "001900",
+      "ten": "Trương Quang Vinh"
+    },
+    {
+      "id": 503,
+      "ma": "002323",
+      "ten": "Hoàng Trang"
+    },
+    {
+      "id": 8785,
+      "ma": "003961",
+      "ten": "NGUYỄN TRUNG HIẾU"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Bộ môn Điện tử - P. 201B3",
+      "dienThoai": "0838655353"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 514,
+        "maGiangVien": "003176",
+        "tenGiangVien": "Trần Hoàng Linh",
+        "emailGiangVien": "linhtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE1009 - Kỹ thuật số",
+        "en": "EE1009 - Digital Designs"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật số",
+        "en": "Digital Designs"
+      },
+      "mamonhoc": "EE1009"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE2035 - Mạch điện tử",
+        "en": "EE2035 - Electronic Circuits"
+      },
+      "tenmonhoc_only": {
+        "vi": "Mạch điện tử",
+        "en": "Electronic Circuits"
+      },
+      "mamonhoc": "EE2035"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE1007 - Vật lý Bán dẫn",
+        "en": "EE1007 - Semiconductor Physics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vật lý Bán dẫn",
+        "en": "Semiconductor Physics"
+      },
+      "mamonhoc": "EE1007"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE3201 - Cơ sở thiết kế vi mạch",
+        "en": "EE3201 - Introduction to IC Design"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ sở thiết kế vi mạch",
+        "en": "Introduction to IC Design"
+      },
+      "mamonhoc": "EE3201"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE4051 - Thiết kế Vi mạch (Pbl)",
+        "en": "EE4051 - IC Design"
+      },
+      "tenmonhoc_only": {
+        "vi": "Thiết kế Vi mạch (Pbl)",
+        "en": "IC Design"
+      },
+      "mamonhoc": "EE4051"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE3165 - Thiết kế Vi mạch",
+        "en": "EE3165 - IC Design"
+      },
+      "tenmonhoc_only": {
+        "vi": "Thiết kế Vi mạch",
+        "en": "IC Design"
+      },
+      "mamonhoc": "EE3165"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 72983,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 72984,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "72983",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài Tập Về Nhà ",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài Tập Về Nhà ",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 72985,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "72983",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tại lớp",
+        "en": "In class exercises"
+      },
+      "noidung": {
+        "vi": "Bài tập tại lớp",
+        "en": "In class exercises"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 87693,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 112415,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184601,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích hoạt động của MOS transistor",
+              "en": "(K, level 4) Analyze the operation of MOS transistor"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178439,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178447,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112413,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184602,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích đặc tính I-V, C-V của MOS transistor",
+              "en": "(K, level 4) Analyze I-V, C-V of MOS characteristics"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178443,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178433,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112416,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184603,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các hiệu ứng thứ cấp của MOS transistor",
+              "en": "(K, level 4) Analyze the secondary effects of MOS transistor"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178450,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178444,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về môn học\n\n- Thông tin Thầy/Cô\n- Các vấn đề liên quan đến môn học\n- Cách thức dạy và học \n\nChương 1: Giới thiệu về thiết kế vi mạch số\n1.1 Tổng quan về thiết kế vi mạch số\n1.2. MOS transistor\n1.3. Cổng logic CMOS\n1.4. Tiến trình thiết kế vi mạch\n",
+        "en": "Introduction to the subject\n\n- Teacher's information\n- Subject-related issues\n- Teaching and learning methods\n\nChapter 1: Introduction to digital IC design\n1.1 Overview of digital IC design\n1.2. MOS transistor\n1.3. CMOS logic gates\n1.4. Circuit design process"
+      }
+    },
+    {
+      "id": 87692,
+      "stt": 2,
+      "buoi": "2-3",
+      "chuandaurachitiet": [
+        {
+          "id": 112417,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184605,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích công nghệ CMOS",
+              "en": "(K, level 4) Analyze CMOS technology"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178434,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178445,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112414,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184606,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế các cổng logic từ MOS transistor sử dụng công nghệ CMOS",
+              "en": "(K, level 5) Design schematic of logic gates from MOS transistors using CMOS technology"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178446,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178440,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Lý thuyết MOS transistor\n\n2.1. Hoạt động của MOS transistor\n2.2. Đặc tính I-V\n2.3. Đặc tính C-V\n2.4. Đặc tính truyền DC\n",
+        "en": "Chapter 2: MOS transistor theory\n\n2.1. Operation of MOS transistor\n2.2. I-V . characteristic\n2.3. C-V characteristic\n2.4. DC transmission characteristics"
+      }
+    },
+    {
+      "id": 87689,
+      "stt": 3,
+      "buoi": "4-5",
+      "chuandaurachitiet": [
+        {
+          "id": 112418,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184607,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế bố trí cho các cổng logic sử dụng công nghệ CMOS",
+              "en": "(K, level 5) Design layout for logic gates using CMOS technology"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178428,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178429,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Lý thuyết MOS transistor\n\n2.1. Hoạt động của MOS transistor\n2.2. Đặc tính I-V\n2.3. Đặc tính C-V\n2.4. Đặc tính truyền DC\nChương 3: Công nghệ CMOS\n\n3.1. Giới thiệu công nghệ CMOS\n3.2. Luật thiết kế CMOS\n3.3. Vấn đề trong thiết kế và sản xuất vi mạch CMOS\n",
+        "en": "Chapter 2: MOS transistor theory\n\n2.1. Operation of MOS transistor\n2.2. I-V . characteristic\n2.3. C-V characteristic\n2.4. DC transmission characteristics\nChapter 3: CMOS Technology\n"
+      }
+    },
+    {
+      "id": 87690,
+      "stt": 4,
+      "buoi": "6-7",
+      "chuandaurachitiet": [
+        {
+          "id": 112419,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184610,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 4) Tính toán trì hoãn sử dụng mô hình trì hoãn RC",
+              "en": "(K, level 4) Calculate delay using RC delay model"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178430,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178431,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112420,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184609,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích tính trì hoãn trong vi mạch số",
+              "en": "(K, level 4) Analyze delay in digital IC"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178432,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178435,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112412,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184611,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "(K, mức 4) Tính toán trì hoãn sử dụng mô hình trì hoãn tuyến tính",
+              "en": "(K, level 4) Calculate delay using linear delay model"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178436,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178437,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4:  Tính trì hoãn\n\n4.1. Định nghĩa tính trì hoãn\n4.2. Đáp ứng tạm thời\n4.3. Mô hình trì hoãn RC\n4.4. Mô hình trì hoãn tuyến tính\n",
+        "en": "Chapter 4: Procrastination\n\n4.1. Definition of procrastination\n4.2. Temporary response\n4.3. RC . delay model\n4.4. Linear delay model"
+      }
+    },
+    {
+      "id": 87691,
+      "stt": 5,
+      "buoi": "8-9",
+      "chuandaurachitiet": [
+        {
+          "id": 112421,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184613,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích công suất tiêu tán trong vi mạch số",
+              "en": "(K, level 4) Analyze power in digital IC"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178451,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178448,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112423,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184614,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "(K, mức 4) Tính toán công suất động",
+              "en": "(K, level 4) Calculate dynamic power"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178438,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178441,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112422,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và làm bài tập áp dụng.",
+            "en": "Theoretical lectures and practical exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập về nhà.",
+            "en": "Listen to lectures and do homework."
+          },
+          "chuandaura": {
+            "id": 184615,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "(K, mức 4) Tính toán công suất tĩnh",
+              "en": "(K, level 4) Calculate static power"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 178442,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 72984,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 178449,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 72985,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Công suất\n\n5.1. Định nghĩa công suất tiêu tán\n5.2. Công suất động\n5.3. Công suất tĩnh\n5.4. Vi mạch công suất thấp\n",
+        "en": "Chapter 5: Power\n\n5.1. Definition of power dissipation\n5.2. Dynamic power\n5.3. Static power\n5.4. Low Power Circuits"
+      }
+    },
+    {
+      "id": 87688,
+      "stt": 6,
+      "buoi": "10",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Chương 6: Thiết kế và mô phỏng vi mạch số\n\n6.1. Thiết kế vi mạch tổ hợp\n6.2. Thiết kế vi mạch tuần tự\n6.3. Mô phỏng vi mạch số\n6.4. Mô tả vi mạch số sử dụng ngôn ngữ Verilog\n",
+        "en": "\nChapter 6: Digital Circuit Design and Simulation\n\n6.1. Integrated Circuit Design\n6.2. Sequential Circuit Design\n6.3. Digital Circuit Simulation\n6.4. Description of digital ICs using Verilog . language"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 184601,
+      "ma": "L.O.1.1",
+      "ten_vi": "(K, mức 4) Phân tích hoạt động của MOS transistor",
+      "ten_en": "(K, level 4) Analyze the operation of MOS transistor",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184602,
+      "ma": "L.O.1.2",
+      "ten_vi": "(K, mức 4) Phân tích đặc tính I-V, C-V của MOS transistor",
+      "ten_en": "(K, level 4) Analyze I-V, C-V of MOS characteristics",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184603,
+      "ma": "L.O.1.3",
+      "ten_vi": "(K, mức 4) Phân tích các hiệu ứng thứ cấp của MOS transistor",
+      "ten_en": "(K, level 4) Analyze the secondary effects of MOS transistor",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184605,
+      "ma": "L.O.2.1",
+      "ten_vi": "(K, mức 4) Phân tích công nghệ CMOS",
+      "ten_en": "(K, level 4) Analyze CMOS technology",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184606,
+      "ma": "L.O.2.2",
+      "ten_vi": "(K, mức 5) Thiết kế các cổng logic từ MOS transistor sử dụng công nghệ CMOS",
+      "ten_en": "(K, level 5) Design schematic of logic gates from MOS transistors using CMOS technology",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184607,
+      "ma": "L.O.2.3",
+      "ten_vi": "(K, mức 5) Thiết kế bố trí cho các cổng logic sử dụng công nghệ CMOS",
+      "ten_en": "(K, level 5) Design layout for logic gates using CMOS technology",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184609,
+      "ma": "L.O.3.1",
+      "ten_vi": "(K, mức 4) Phân tích tính trì hoãn trong vi mạch số",
+      "ten_en": "(K, level 4) Analyze delay in digital IC",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184610,
+      "ma": "L.O.3.2",
+      "ten_vi": "(K, mức 4) Tính toán trì hoãn sử dụng mô hình trì hoãn RC",
+      "ten_en": "(K, level 4) Calculate delay using RC delay model",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184611,
+      "ma": "L.O.3.3",
+      "ten_vi": "(K, mức 4) Tính toán trì hoãn sử dụng mô hình trì hoãn tuyến tính",
+      "ten_en": "(K, level 4) Calculate delay using linear delay model",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184613,
+      "ma": "L.O.4.1",
+      "ten_vi": "(K, mức 4) Phân tích công suất tiêu tán trong vi mạch số",
+      "ten_en": "(K, level 4) Analyze power in digital IC",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184614,
+      "ma": "L.O.4.2",
+      "ten_vi": "(K, mức 4) Tính toán công suất động",
+      "ten_en": "(K, level 4) Calculate dynamic power",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    },
+    {
+      "id": 184615,
+      "ma": "L.O.4.3",
+      "ten_vi": "(K, mức 4) Tính toán công suất tĩnh",
+      "ten_en": "(K, level 4) Calculate static power",
+      "hddg": [
+        {
+          "id": 72984,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 72985,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế Vi mạch số",
+  "tenmonhoc_eng": "Digital IC Design",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

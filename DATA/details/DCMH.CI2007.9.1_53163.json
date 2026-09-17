@@ -1,0 +1,1629 @@
+{
+  "ma": "DCMH.CI2007.9.1",
+  "phienban": "9.1",
+  "capnhat": "09/06/2026 09:51",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Xây Dựng",
+    "en": "Faculty of Civil Engineering"
+  },
+  "mamonhoc": "CI2007",
+  "ten": "CI2007 - Sức bền Vật liệu",
+  "ten_eng": "CI2007 - Strength of Materials",
+  "hockyapdung": "HK261",
+  "sotcgoc": 4,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học “Sức bền vật liệu” nhằm trang bị cho sinh viên những khái niệm và kiến thức cơ bản về ngoại lực và nội lực xuất hiện trong những hệ kết cấu đơn giản chịu tác dụng của các loại tải trọng khác nhau. Mục đích việc phân tích các kết cấu cơ bản là xác định ứng suất, biến dạng và chuyển vị gây ra bởi tải trọng. <br>Đồng thời, môn học này cũng nhằm giúp cho sinh viên hiểu được cách phân tích các kết cấu đơn giản chịu các trường hợp tải trọng phức tạp và hiểu được hiện tượng mất ổn định của thanh chịu nén. Qua môn học này sinh viên còn có một hiểu biết về sự ứng xử cơ học của vật liệu thiết yếu cho việc tính toán thiết kế an toàn cho mọi kết cấu trong các ngành kỹ thuật xây dựng và cơ khí.<br></p>",
+      "en": "<p>The course “Strength of Materials” aims to provide students with fundamental knowledge of external and internal forces acting on simple structural elements subjected to various types of loading. The primary objective of the analysis is to determine the resulting stresses, strains, and displacements induced by these loads.<br>In addition, the course enables students to analyze simple structures under combined loading conditions and to study the stability behavior of compression members. Furthermore, the course develops an understanding of the mechanical behavior of materials, which is essential for the safe and efficient design of structures in civil and mechanical engineering.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Nội dung môn học bao gồm 11 Chương. Sau các khái niệm và giả thiết mở đầu trong chương 1, lý thuyết nội lực được trình bày trong Chương 2. Ứng xử của thanh chịu kéo hoặc nén đúng tâm và các đặc trưng cơ học của vật liệu được nêu trong Chương 3. Các Chương 4, 5, 6, 7 đề cập đến các phần trạng thái ứng suất, quan hệ ứng suất - biến dạng; lý thuyết bền; đặc trưng hình học của mặt cắt ngang trước khi phân tích ứng xử bao gồm ứng suất, biến dạng, và chuyển vị của thanh chịu uốn phẳng trong Chương 8. Chương 9 trình bày ứng xử của thanh chịu xoắn thuần túy. Sự phân tích ứng suất và chuyển vị của thanh chịu lực phức tạp như uốn xiên, uốn và kéo (nén), uốn và xoắn được đề cập trong Chương 10. Sự ổn định của thanh chịu nén với các điều kiện biên khác nhau; các phương pháp xác định lực tới hạn được diễn tả chi tiết trong Chương 11.<br></p>",
+      "en": "<p>The course content is structured into 11 chapters. Chapter 1 reviews fundamental concepts, basic assumptions, and the importance of equilibrium conditions. Chapter 2 introduces the theory of internal forces. Chapter 3 covers the analysis of normal stress in axially loaded members and discusses fundamental mechanical properties of materials.<br>Chapters 4, 5, and 6 present stress–strain relationships, the transformation of multiaxial stress states, geometric properties of areas, and the application of various failure theories. Chapter 7 focuses on normal and shear stresses due to plane bending. Chapter 8 introduces several methods for calculating beam deflections. Chapter 9 addresses shear stress in torsionally loaded members.<br>Chapter 10 applies the principle of superposition to the analysis of structures under combined loading conditions, including unsymmetrical bending, combined bending with axial tension or compression, combined bending and torsion, and general cases of compound loading. Finally, Chapter 11 presents the theory of column buckling and critical loads, addressing the stability of compression members with various support conditions using both analytical and practical approaches.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Giáo trình chính<br>[1] Đỗ Kiến Quốc, Nguyễn Thị Hiền Lương, Bùi Công Thành, Lê Hoàng Tuấn, Trần Tấn Quốc, Giáo Trình Sức Bền Vật Liệu, Nhà Xuất Bản ĐHQG TPHCM, 2019.<br>[2] \n\nHibbeler, R. C. (2023). Mechanics of Materials. 11th ed. Pearson.\n\n<br>Tài liệu tham khảo<br>[3] Beer, F. P., Johnston, E. R., DeWolf, J. T., and Mazurek, D. F. (2026). Mechanics of Materials. 2026 Release. McGraw Hill.\n\n<br>[4]. Bùi Trọng Lựu - Nguyễn Văn Vượng, Bài tập Sức bền vật liệu, Nhà xuất bản Giáo Dục, 2008.<br></p><p><br></p>",
+      "en": "<p>Primary references<br>[1] Đỗ Kiến Quốc, Nguyễn Thị Hiền Lương, Bùi Công Thành, Lê Hoàng Tuấn, Trần Tấn Quốc, Giáo Trình Sức Bền Vật Liệu, Nhà Xuất Bản ĐHQG TPHCM, 2019.<br>[2] \n\nHibbeler, R. C. (2023). Mechanics of Materials. 11th ed. Pearson.\n\n<br>References<br>[3&nbsp; Beer, F. P., Johnston, E. R., DeWolf, J. T., and Mazurek, D. F. (2026). Mechanics of Materials. 2026 Release. McGraw Hill.\n\n<br>[4]. Bùi Trọng Lựu - Nguyễn Văn Vượng, Bài tập Sức bền vật liệu, Nhà xuất bản Giáo Dục, 2008.<br></p><p><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học, cơ bản gồm ba cột điểm: điểm quá trình (20%), điểm thí nghiệm (20%) và điểm thi cuối kỳ (60%).<br>+ Bài tập:<br>•  Bài tập lớn : 20%<br>+ Thực hành:<br>•  Thí nghiệm  : 20%<br>+ Thi:<br>•  Thi cuối kỳ  : 60%<br></p><p>Điều kiện dự thi:<br>Sinh viên phải hoàn thành tất cả bài tập trên lớp/về nhà/kiểm tra và nộp báo cáo thí nghiệm đúng hạn.</p><p>Liêm chính học thuật và sử dụng công cụ AI:<br>- Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường. <br>- Việc sử dụng các công cụ AI (ví dụ: ChatGPT, Claude, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung (&gt; 50%). <br>- Khi có sử dụng AI trong quá trình làm bài/lập trình,…., người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú. <br>- Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật, hoặc các hành vi không tuân theo các điểm đã nêu ở trên: người học có điểm đánh giá cho phần bài làm tương ứng là 0 điểm. <br><br></p>",
+      "en": "<p>Course materials are updated weekly on the Learning Management System (LMS). Students are responsible for downloading and printing the materials for use during class and for self-study at home.<br>The final grade is determined based on the following components:<br>Laboratory experiments: 20%<br>Assignments: 20%<br>Final examination: 60%<br>Eligibility for the final examination requires that students:<br>Submit all laboratory experiment reports.<br>Complete and submit all assigned coursework.<br></p><p>Academic Integrity and use of AI tools <br>- Students must comply with the university’s academic integrity regulations. <br>- The use of AI tools (e.g., ChatGPT, Claude, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI. <br>- When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes. <br>- Any misuse of AI for academic dishonesty will be considered a violation of academic integrity, or actions that do not comply with the points stated above: the learner will have a score of 0 for the corresponding assignment.<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>\n\n•\nBài tập lớn: thực hiện các bài tập theo yêu cầu của giảng viên<br>•  Thí nghiệm (TNg): Thí nghiệm tại phòng thí nghiệm Sức bền vật liệu (P.109.B6), nộp báo cáo thí nghiệm vào cuối học kì.<br>•  Thi cuối kì: hình thức tự luận, không tham khảo tài liệu.</p>",
+      "en": "<p>- Laboratory Work: Submission of laboratory experiment reports.<br>- Assignments: Completion and submission of assigned coursework.<br>- Final Examination: Written examination, 90 minutes in duration, closed-book format.<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 488,
+      "ma": "NG_KCX",
+      "ten": {
+        "vi": "CTDT Khoa  KỸ THUẬT XÂY DỰNG - Ngành Kỹ thuật Công trình Xây dựng"
+      }
+    },
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 400,
+      "ma": "CN_XDC",
+      "ten": {
+        "vi": "CTDT Khoa  KỸ THUẬT XÂY DỰNG - Chuyên ngành Xây dựng Dân dụng và Công nghiệp"
+      }
+    },
+    {
+      "id": 399,
+      "ma": "NG_KCX",
+      "ten": {
+        "vi": "CTDT Khoa  KỸ THUẬT XÂY DỰNG - Ngành Kỹ thuật Công trình Xây dựng"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 726,
+      "ma": "002355",
+      "ten": "Nguyễn Hồng Ân"
+    },
+    {
+      "id": 6019,
+      "ma": "003789",
+      "ten": "Nguyễn Thái Bình"
+    },
+    {
+      "id": 723,
+      "ma": "001937",
+      "ten": "Lương Văn Hải"
+    },
+    {
+      "id": 1840,
+      "ma": "003642",
+      "ten": "Cao Văn Vui"
+    },
+    {
+      "id": 5600,
+      "ma": "003766",
+      "ten": "Trần Minh Thi"
+    },
+    {
+      "id": 724,
+      "ma": "002167",
+      "ten": "Nguyễn Sỹ Lâm"
+    },
+    {
+      "id": 8661,
+      "ma": "003927",
+      "ten": "Liêu Xuân Quí"
+    },
+    {
+      "id": 7640,
+      "ma": "009911",
+      "ten": "NASSIF YOUSSEF AYMAN"
+    },
+    {
+      "id": 11548,
+      "ma": "004256",
+      "ten": "VŨ BẮC NAM"
+    },
+    {
+      "id": 12528,
+      "ma": "004283",
+      "ten": "BÙI VĂN HỒNG LĨNH"
+    },
+    {
+      "id": 10138,
+      "ma": "004155",
+      "ten": "TRẦN NAM HẢI"
+    },
+    {
+      "id": 13928,
+      "ma": "004357",
+      "ten": "LÊ MINH TOÀN"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 4,
+    "soTC_ETC": 8,
+    "lyThuyet": 3,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 200,
+    "tongGioHocTapLamViec": 181.5,
+    "lyThuyet": 45,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 100,
+    "khac": 20
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1060,
+      "maBoMon": "SBK",
+      "tenBoMon": {
+        "vi": "Sức Bền - Kết Cấu"
+      },
+      "maKhoa": "XD",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Xây Dựng",
+        "en": "Faculty of Civil Engineering"
+      },
+      "vanPhong": "Bộ môn Sức Bền Kết Cấu (109.B6) - Khoa Kỹ Thuật Xây Dựng",
+      "dienThoai": "0909485838"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 726,
+        "maGiangVien": "002355",
+        "tenGiangVien": "Nguyễn Hồng Ân",
+        "emailGiangVien": "anhnguyen@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "4_3_0_0.67_0.33",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 92003,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 92004,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "92003",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 92005,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "92003",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Experiment report"
+      },
+      "noidung": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Experiment report"
+      }
+    },
+    {
+      "id": 92006,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "92003",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Quiz"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Quiz"
+      }
+    },
+    {
+      "id": 92007,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "92003",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối học kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối học kì",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 114554,
+      "stt": 1,
+      "buoi": "Chương 1/Chapter 1 ",
+      "chuandaurachitiet": [
+        {
+          "id": 152467,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186665,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "(K-Kiến thức, Mức 3-Hiểu & Giải thích): Mô tả và giải thích được các giả thuyết, khái niệm về ngoại lực, nội lực, phản lực liên kết, và nguyên lý cộng tác dụng trong tính toán kết cấu.",
+              "en": "((K-Knowledge, Level 3-Understand & Explain): Understand and explain the assumptions and concepts of external forces, internal forces, support reactions, and the principle of superposition in structural analysis.)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250943,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92004,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 250942,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92006,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về môn học\n- Thông tin Thầy/Cô\n-Các vấn đề liên quan đến môn học\n-Nội dung môn học\n-Tài liệu tham khảo\n-Hướng dẫn cách học, chi tiết cách đánh giá môn học\nChương 1. Mở đầu\n•\tKhái niệm môn học: nhiệm vụ, đối tượng. Phân loại vật thể, phân lọai biến dạng cơ bản\n•\tCác giả thiết cơ bản. Ngoại lực, liên kết và phản lực liên kết\n",
+        "en": "Introduction\n- Lecturer informations\n-Related issues\n-Course outline\n-References\n-Learning and assessment methods\nChapter 1. Introduction\n•\tGeneral concepts\n•\tFundamental assumptions, external forces, restraints, support reactions\n"
+      }
+    },
+    {
+      "id": 114561,
+      "stt": 2,
+      "buoi": "Chương 2/Chapter 2",
+      "chuandaurachitiet": [
+        {
+          "id": 152457,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186666,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Xác định sơ đồ tính cho các kết cấu thực tế, mô hình hóa các nguyên nhân tác dụng. Tính toán phản lực và vẽ biểu đồ nội lực hệ thanh. Hiểu được các khái niệm biến dạng, chuyển vị, ứng suất pháp, ứng suất tiếp tại một mặt cắt và các thành phần nội lực tương ứng.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Analyze the structural schemes of practical structures and model the acting loads. Calculate support reactions and draw internal force diagrams of truss and frame members. Demonstrate understanding of deformation concepts, displacement, normal stress, shear stress at a cross-section, and the corresponding internal force components."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250933,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92006,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 250932,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92007,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối học kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Lý thuyết nội lực\n•\tKhái niệm chung \n•\tQuan hệ giữa nội lực và ứng suất, cách xác định nội lực\n•\tBài toán phẳng, qui ước dấu nội lực, biểu đồ nội lực của bài toán phẳng\n•\tLiên hệ vi phân nội lực, tải trọng trong bài toán phẳng\n",
+        "en": "Chapter 2. Internal forces\n•\tGeneral concepts \n•\tInternal force – stress relations, methods to compute internal force\n•\tPlane problem, algebraic sign and diagram of interal forces\n•\tDerivative relations between  interal forces and loads in plane problem\n"
+      }
+    },
+    {
+      "id": 114555,
+      "stt": 3,
+      "buoi": "Chương 2/Chapter 2",
+      "chuandaurachitiet": [
+        {
+          "id": 152468,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186666,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Xác định sơ đồ tính cho các kết cấu thực tế, mô hình hóa các nguyên nhân tác dụng. Tính toán phản lực và vẽ biểu đồ nội lực hệ thanh. Hiểu được các khái niệm biến dạng, chuyển vị, ứng suất pháp, ứng suất tiếp tại một mặt cắt và các thành phần nội lực tương ứng.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Analyze the structural schemes of practical structures and model the acting loads. Calculate support reactions and draw internal force diagrams of truss and frame members. Demonstrate understanding of deformation concepts, displacement, normal stress, shear stress at a cross-section, and the corresponding internal force components."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Lý thuyết nội lực\n•\tLiên hệ vi phân nội lực, tải trọng trong bài toán phẳng\n•\tVí dụ, trình bày 2 cách vẽ biểu đồ nội lực \n•\tRa đề bài tập lớn làm trong vòng 4 tuần\n•\tHướng dẫn bài tập lớn và Bài tập tổng hợp\n",
+        "en": "Chapter 2. Internal forces\n•\tDerivative relations between  interal forces and loads in plane problem\n•\tExample, present 2 methods to plot the internal force diagrams \n•\tGiving assignment (4-week implementation)\n•\tTutorials for the assignment and exercises synthesis\n"
+      }
+    },
+    {
+      "id": 114551,
+      "stt": 4,
+      "buoi": "Chương 3/Chapter 3",
+      "chuandaurachitiet": [
+        {
+          "id": 152464,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186667,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250941,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92004,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 250940,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92007,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối học kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Kéo (nén) đúng tâm\n•\tKhái niệm \n•\tBiểu đồ lực dọc & ứng suất trên mặt cắt ngang\n•\tBiến dạng & chuyển vị\n•\tĐặc trưng cơ học vật liệu - Thế năng BD đàn hồi\n•\tỨng suất cho phép, hệ số an toàn, các bài toán cơ bản\n•\tBài toán siêu tĩnh",
+        "en": "Chapter 3. Axial loading\n•\tGeneral concepts \n•\tAxial force diagram and stress distribution at a cross – sectional area\n•\tStrain and displacement\n•\tMechanical properties of materials – potential engergy of elastic deformation\n•\tAllowable stress, factors of safety, fundamental problems\n•\tStactically indeterminate problems\n"
+      }
+    },
+    {
+      "id": 114553,
+      "stt": 5,
+      "buoi": "Chương 4/Chapter 4",
+      "chuandaurachitiet": [
+        {
+          "id": 152466,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186667,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4.  Trạng thái ứng suất\n•\tKhái niệm chung, phân loại, TTƯS phẳng & phương pháp giải tích \n•\tQuan hệ giữa ứng suất và biến dạng\n•\tThế năng biến dạng đàn hồi\n",
+        "en": "Chapter 4.  Stress states\n•\tGeneral concepts, plane stress state and analytical methods\n•\tStress – strain curve\n•\tPotential energy of elastic deformation\n"
+      }
+    },
+    {
+      "id": 114556,
+      "stt": 6,
+      "buoi": "Chương 5/Chapter 5",
+      "chuandaurachitiet": [
+        {
+          "id": 152469,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186666,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Xác định sơ đồ tính cho các kết cấu thực tế, mô hình hóa các nguyên nhân tác dụng. Tính toán phản lực và vẽ biểu đồ nội lực hệ thanh. Hiểu được các khái niệm biến dạng, chuyển vị, ứng suất pháp, ứng suất tiếp tại một mặt cắt và các thành phần nội lực tương ứng.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Analyze the structural schemes of practical structures and model the acting loads. Calculate support reactions and draw internal force diagrams of truss and frame members. Demonstrate understanding of deformation concepts, displacement, normal stress, shear stress at a cross-section, and the corresponding internal force components."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Các thuyết bền\n•\tThuyết bền I: TB Ứng suất pháp cực đại\n•\tThuyết bền II: TB biến dạng dài cực đại\n•\tThuyết bền III: TB ứng suất tiếp cực đại\n•\tThuyết bền IV: TB TNBĐHD cực đại\n•\tThuyết bền Mohr\n",
+        "en": "Chapter 5. Theories of failure\n•\tMaximum stress theory \n•\tMaximun strain theory\n•\tMaximun shearing stress theory\n•\tMaximum energy of distortion\n•\tMohr’s theory of failure\n"
+      }
+    },
+    {
+      "id": 114557,
+      "stt": 7,
+      "buoi": "Chương 6/Chapter 6",
+      "chuandaurachitiet": [
+        {
+          "id": 152470,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186666,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Xác định sơ đồ tính cho các kết cấu thực tế, mô hình hóa các nguyên nhân tác dụng. Tính toán phản lực và vẽ biểu đồ nội lực hệ thanh. Hiểu được các khái niệm biến dạng, chuyển vị, ứng suất pháp, ứng suất tiếp tại một mặt cắt và các thành phần nội lực tương ứng.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Analyze the structural schemes of practical structures and model the acting loads. Calculate support reactions and draw internal force diagrams of truss and frame members. Demonstrate understanding of deformation concepts, displacement, normal stress, shear stress at a cross-section, and the corresponding internal force components."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Đặc trưng hình học\n•\tCác định nghĩa: momen tĩnh, momen quán tính đ/v 1 trục, momen quán tính ly tâm, momen quán tính cực\n•\tCông thức chuyển trục: song song và quay\n",
+        "en": "Chapter 6. Geometric properties\n•\tGeneral concepts: static moment, moment of inertia, polar moment of inertia, centrifugal moment of inertia\n•\tParallel and rotating axis theorems\n"
+      }
+    },
+    {
+      "id": 114549,
+      "stt": 8,
+      "buoi": "Chương 7/Chapter 7",
+      "chuandaurachitiet": [
+        {
+          "id": 152462,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186667,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Uốn phẳng\n•\tKhái niệm chung\n•\tUốn thuần túy thanh thẳng: ứng suất pháp, biến dạng\n•\tCực trị, biểu đồ ứng suất pháp\n•\tUốn ngang phẳng: ứng suất pháp, ứng suất tiếp\n•\tĐiều kiện bền\n",
+        "en": "Chapter 7. Bending\n•\tGeneral concepts\n•\tPure bending of bars: normal stress, strain\n•\tNormal stress diagram\n•\tBending: normal stress, transverse stress\n•\tDurabity assessment\n"
+      }
+    },
+    {
+      "id": 114552,
+      "stt": 9,
+      "buoi": "Chương 8/Chapter 8",
+      "chuandaurachitiet": [
+        {
+          "id": 152465,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186666,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Xác định sơ đồ tính cho các kết cấu thực tế, mô hình hóa các nguyên nhân tác dụng. Tính toán phản lực và vẽ biểu đồ nội lực hệ thanh. Hiểu được các khái niệm biến dạng, chuyển vị, ứng suất pháp, ứng suất tiếp tại một mặt cắt và các thành phần nội lực tương ứng.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Analyze the structural schemes of practical structures and model the acting loads. Calculate support reactions and draw internal force diagrams of truss and frame members. Demonstrate understanding of deformation concepts, displacement, normal stress, shear stress at a cross-section, and the corresponding internal force components."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. Chuyển vị dầm chịu uốn\n•\tKhái niệm chung, phương trình vi phân của đường đàn hồi\n•\tPhương pháp tải trọng giả tạo\n•\tBài toán siêu tĩnh\n",
+        "en": "Chapter 8. Displacement of beams\n•\tGeneral concepts, differential equations of elastic lines \n•\tConjugate beam model\n•\tStactically indeterminate problems\n"
+      }
+    },
+    {
+      "id": 114550,
+      "stt": 10,
+      "buoi": "Chương 9/Chapter 9",
+      "chuandaurachitiet": [
+        {
+          "id": 152463,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186667,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9. Xoắn thuần túy\n•\tTính thanh tròn chịu xoắn thuần túy: ứng suất, biến dạng, điều kiện bền, điều kiện cứng, ba bài toán cơ bản\n•\tThế năng biến dạng đàn hồi, tính lò xo gồm nội lực, ứng suất, biến dạng\n•\tBài toán siêu tĩnh về xoắn\n",
+        "en": "Chapter 9. Torsion\n•\tThe circular bars under pure torsion: stress, deformation, shear stress and angal of twist assessments, three fundamental problems\n•\tPotential energy, compute internal force, stress, strain of springs\n•\tStactically indeterminate problems\n"
+      }
+    },
+    {
+      "id": 114559,
+      "stt": 11,
+      "buoi": "Chương 10/Chapter 10",
+      "chuandaurachitiet": [
+        {
+          "id": 152453,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186667,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10. Thanh chịu lực phức tạp\n•\tKhái niệm chung\n•\tUốn xiên: ứng suất, đường trung hòa, chuyển vị toàn phần \n•\tUốn cộng kéo (nén): ứng suất, đường trung hòa \n•\tCột chịu kéo (nén) lệch tâm\n•\tUốn cộng xoắn \n•\tChịu lực tổng quát",
+        "en": "Chapter 10. Combined loadings\n•\tGeneral concepts\n•\tUnsymmetric bending: normal stress, neutral axis, displacements \n•\tCombined bending and tension or compression\n•\tEncentric compression (tension) loading\n•\tCombined bending and torsion \n•\tGeneral combined loadings\n"
+      }
+    },
+    {
+      "id": 114548,
+      "stt": 12,
+      "buoi": "Chương 11/Chapter 11",
+      "chuandaurachitiet": [
+        {
+          "id": 152461,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186667,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 11. Ổn định thanh thẳng chịu nén\n•\tKhái niệm chung, tính ổn định trong miền đàn hồi\n•\tLực tới hạn, ứng suất tới hạn, độ mảnh và điều kiện dùng Euler\n•\tTính ổn định bằng phương pháp thực hành\n",
+        "en": "Chapter 11. Stability of compressed bars\n•\tGeneral concepts, stability properties in elastic range\n•\tCritical load, ultimate stress, slenderness and the scope of Euler’s equations\n•\tComputing stability by practical method\n"
+      }
+    },
+    {
+      "id": 114558,
+      "stt": 13,
+      "buoi": "Chương 11/Chapter 11",
+      "chuandaurachitiet": [
+        {
+          "id": 152471,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bài học \n•\tHướng dẫn thực hiện bài tập\n",
+            "en": "•\tDeliver the lesson content\n•\tProvide guidance on solving exercises\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện bài tập trên lớp và thảo luận \n• Nhận bài tập về nhà \n• Chuẩn bị cho buổi học kế tiếp\n",
+            "en": "•\tComplete in-class exercises and participate in discussions\n•\tReceive homework assignments\n•\tPrepare for the next class session\n"
+          },
+          "chuandaura": {
+            "id": 186667,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 11. Ổn định thanh thẳng chịu nén\n•\tKhái niệm chung, tính ổn định trong miền đàn hồi\n•\tLực tới hạn, ứng suất tới hạn, độ mảnh và điều kiện dùng Euler\n•\tTính ổn định bằng phương pháp thực hành\n",
+        "en": "Chapter 11. Stability of compressed bars\n•\tGeneral concepts, stability properties in elastic range\n•\tCritical load, ultimate stress, slenderness and the scope of Euler’s equations\n•\tComputing stability by practical method\n"
+      }
+    },
+    {
+      "id": 114560,
+      "stt": 14,
+      "buoi": "Chương 12/Chapter 12",
+      "chuandaurachitiet": [
+        {
+          "id": 152455,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày lý thuyết thí nghiệm \n•\tHướng dẫn thí nghiệm\n",
+            "en": "•\tIntroduce the theoretical background of the experiments\n•\tGuide students through the experimental procedures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện các bài thí nghiệm \n• Chuẩn bị cho viết báo cáo thí nghiệm\n",
+            "en": "•\tPerform laboratory experiments\n•\tPrepare for laboratory report writing\n"
+          },
+          "chuandaura": {
+            "id": 186669,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai) Trình bày và tiến hành các thí nghiệm để xác định các đặc trưng cơ học của vật liệu, xác định ứng xử của kết cấu thanh chịu các loại tải trọng khác nhau, … Có khả năng trình bày vấn đề dưới dạng báo cáo kết quả của bài thí nghiệm và bài tập lớn",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Demonstrate the ability to prepare and conduct experiments to determine the mechanical properties of materials and the behavior of structural members under various types of loads. Be able to present findings in the form of experimental reports."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250928,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92005,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Experiment report"
+                }
+              }
+            },
+            {
+              "id": 250929,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92004,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152456,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày lý thuyết thí nghiệm \n•\tHướng dẫn thí nghiệm\n",
+            "en": "•\tIntroduce the theoretical background of the experiments\n•\tGuide students through the experimental procedures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện các bài thí nghiệm \n• Chuẩn bị cho viết báo cáo thí nghiệm\n",
+            "en": "•\tPerform laboratory experiments\n•\tPrepare for laboratory report writing\n"
+          },
+          "chuandaura": {
+            "id": 186670,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Trình bày được cách thu thập số liệu, phân tích kết quả và trình bày một báo cáo kỹ thuật.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Interpret data collection methods, analyze results, and present a technical report."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250930,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92005,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Experiment report"
+                }
+              }
+            },
+            {
+              "id": 250931,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92006,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152454,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày lý thuyết thí nghiệm \n•\tHướng dẫn thí nghiệm\n",
+            "en": "•\tIntroduce the theoretical background of the experiments\n•\tGuide students through the experimental procedures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện các bài thí nghiệm \n• Chuẩn bị cho viết báo cáo thí nghiệm\n",
+            "en": "•\tPerform laboratory experiments\n•\tPrepare for laboratory report writing\n"
+          },
+          "chuandaura": {
+            "id": 186671,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai):Biện giải được qui luật ứng xử của kết cấu thông qua thực nghiệm, diễn đạt kết quả thực nghiệm",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Summarize the behavioral rules of structures through experiments and articulate the experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250926,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92005,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Experiment report"
+                }
+              }
+            },
+            {
+              "id": 250927,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92004,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12. Thực hành tại phòng thí nghiệm\n•\tKéo và nén mẫu thép và gang\n•\tXác định mô đun đàn hồi, trượt E, G và hệ số Poisson\n•\tXác định ứng suất và chuyển vị dầm uốn phẳng\n•\tXác định ứng suất và chuyển vị dầm uốn xiên\n•\tXác định ứng suất trong thanh kéo lệch tâm\n•\tXác định lực tới hạn khi uốn dọc\n•\tTrình bày, bình luận và báo cáo kết quả thí nghiệm\n",
+        "en": "Chapter 13. Experiment \n•\tPull and compress steel and iron samples\n•\tDetermine Young’s module, shear module and Poisson’s ratio \n•\tDetermine stress and displacement of beams under pure bending\n•\tDetermine stress and displacement of a beam under  unsymmetric bending\n•\tDetermine stress and displacement of beams under  eccentric loading\n•\tDetermine ultimate compressive load\n•\tPresent and discuss the experiment results\n"
+      }
+    },
+    {
+      "id": 114547,
+      "stt": 15,
+      "buoi": "Chương 12/Chapter 12",
+      "chuandaurachitiet": [
+        {
+          "id": 152458,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày lý thuyết thí nghiệm \n•\tHướng dẫn thí nghiệm\n",
+            "en": "•\tIntroduce the theoretical background of the experiments\n•\tGuide students through the experimental procedures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện các bài thí nghiệm \n• Chuẩn bị cho viết báo cáo thí nghiệm\n",
+            "en": "•\tPerform laboratory experiments\n•\tPrepare for laboratory report writing\n"
+          },
+          "chuandaura": {
+            "id": 186673,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai):Tham gia làm việc nhóm trong giải quyết bài tập lớn/thí nghiệm sức bền vật liệu. Thảo luận và trình bày quan điểm kỹ thuật một cách rõ ràng, tôn trọng ý kiến khác biệt.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Participate effectively in teamwork to solve major assignments/experiments in Strength of Materials. Discuss and present technical viewpoints clearly while respecting different opinions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250934,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92005,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Experiment report"
+                }
+              }
+            },
+            {
+              "id": 250935,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92006,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152459,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày lý thuyết thí nghiệm \n•\tHướng dẫn thí nghiệm\n",
+            "en": "•\tIntroduce the theoretical background of the experiments\n•\tGuide students through the experimental procedures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện các bài thí nghiệm \n• Chuẩn bị cho viết báo cáo thí nghiệm\n",
+            "en": "•\tPerform laboratory experiments\n•\tPrepare for laboratory report writing\n"
+          },
+          "chuandaura": {
+            "id": 186674,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Biết phân chia công việc, thiết lập mục tiêu, quản lý tiến độ và phối hợp để hoàn thành nhiệm vụ nhóm. Viết báo cáo nhóm và trình bày kết quả bằng hình thức chuyên nghiệp.",
+              "en": "(S – Skill, Level 4 – Practice & Implementation): Demonstrate the ability to allocate tasks, set objectives, manage progress, and coordinate effectively to accomplish group assignments. Prepare group reports and present results in a professional manner."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250936,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92005,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Experiment report"
+                }
+              }
+            },
+            {
+              "id": 250937,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92004,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 152460,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày lý thuyết thí nghiệm \n•\tHướng dẫn thí nghiệm\n",
+            "en": "•\tIntroduce the theoretical background of the experiments\n•\tGuide students through the experimental procedures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện các bài thí nghiệm \n• Chuẩn bị cho viết báo cáo thí nghiệm\n",
+            "en": "•\tPerform laboratory experiments\n•\tPrepare for laboratory report writing\n"
+          },
+          "chuandaura": {
+            "id": 186676,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): tuân thủ quy định học tập, làm việc nhóm nghiêm túc, trung thực trong tính toán, báo cáo, có ý thức trích dẫn nguồn tài liệu, và chịu trách nhiệm cá nhân đối với phần công việc được phân công trong các bài tập và thảo luận về sức bền vật liệu.",
+              "en": "(S–Skills, Level 4 – Practice & Implementation): Comply with academic regulations; work effectively and responsibly in teams; demonstrate honesty in calculations and reporting; show proper awareness of citing reference materials; and take individual responsibility for assigned tasks in exercises and discussions related to Strength of Materials."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 250938,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 92005,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Experiment report"
+                }
+              }
+            },
+            {
+              "id": 250939,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 92004,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12. Thực hành tại phòng thí nghiệm\n•\tKéo và nén mẫu thép và gang\n•\tXác định mô đun đàn hồi, trượt E, G và hệ số Poisson\n•\tXác định ứng suất và chuyển vị dầm uốn phẳng\n•\tXác định ứng suất và chuyển vị dầm uốn xiên\n•\tXác định ứng suất trong thanh kéo lệch tâm\n•\tXác định lực tới hạn khi uốn dọc\n•\tTrình bày, bình luận và báo cáo kết quả thí nghiệm\n",
+        "en": "Chapter 12. Experiment \n•\tPull and compress steel and iron samples\n•\tDetermine Young’s module, shear module and Poisson’s ratio \n•\tDetermine stress and displacement of beams under pure bending\n•\tDetermine stress and displacement of a beam under  unsymmetric bending\n•\tDetermine stress and displacement of beams under  eccentric loading\n•\tDetermine ultimate compressive load\n•\tPresent and discuss the experiment results\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 186665,
+      "ma": "L.O.1.1",
+      "ten_vi": "(K-Kiến thức, Mức 3-Hiểu & Giải thích): Mô tả và giải thích được các giả thuyết, khái niệm về ngoại lực, nội lực, phản lực liên kết, và nguyên lý cộng tác dụng trong tính toán kết cấu.",
+      "ten_en": "((K-Knowledge, Level 3-Understand & Explain): Understand and explain the assumptions and concepts of external forces, internal forces, support reactions, and the principle of superposition in structural analysis.)",
+      "hddg": [
+        {
+          "id": 92004,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 92006,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 186666,
+      "ma": "L.O.1.2",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Xác định sơ đồ tính cho các kết cấu thực tế, mô hình hóa các nguyên nhân tác dụng. Tính toán phản lực và vẽ biểu đồ nội lực hệ thanh. Hiểu được các khái niệm biến dạng, chuyển vị, ứng suất pháp, ứng suất tiếp tại một mặt cắt và các thành phần nội lực tương ứng.",
+      "ten_en": "(S – Skill, Level 4 – Practice & Implementation): Analyze the structural schemes of practical structures and model the acting loads. Calculate support reactions and draw internal force diagrams of truss and frame members. Demonstrate understanding of deformation concepts, displacement, normal stress, shear stress at a cross-section, and the corresponding internal force components.",
+      "hddg": [
+        {
+          "id": 92006,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 92007,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối học kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186667,
+      "ma": "L.O.1.3",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Tính toán sự phân bố ứng suất trên mặt cắt ngang của thanh, đánh giá độ bền của hệ thanh. Phân biệt được các khái niệm về hệ số an toàn, ứng suất cho phép, xác định được tải trọng cho phép và diện tích tiết diện tối thiểu. Phân tích và giải các bài toán cơ bản của sức bền vật liệu: kéo – nén, xoắn, uốn, cắt, ổn định thanh.",
+      "ten_en": "(S – Skill, Level 4 – Practice & Implementation): Calculate the stress distribution on the cross-section of structural members and evaluate the strength of truss and frame systems. Distinguish key concepts such as safety factor and allowable stress; determine the allowable load and the minimum cross-sectional area. Analyze and solve fundamental problems in strength of materials, including tension–compression, torsion, bending, shear, and column stability.",
+      "hddg": [
+        {
+          "id": 92004,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 92007,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối học kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186669,
+      "ma": "L.O.2.1",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai) Trình bày và tiến hành các thí nghiệm để xác định các đặc trưng cơ học của vật liệu, xác định ứng xử của kết cấu thanh chịu các loại tải trọng khác nhau, … Có khả năng trình bày vấn đề dưới dạng báo cáo kết quả của bài thí nghiệm và bài tập lớn",
+      "ten_en": "(S – Skill, Level 4 – Practice & Implementation): Demonstrate the ability to prepare and conduct experiments to determine the mechanical properties of materials and the behavior of structural members under various types of loads. Be able to present findings in the form of experimental reports.",
+      "hddg": [
+        {
+          "id": 92004,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 92005,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Experiment report"
+        }
+      ]
+    },
+    {
+      "id": 186670,
+      "ma": "L.O.2.2",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Trình bày được cách thu thập số liệu, phân tích kết quả và trình bày một báo cáo kỹ thuật.",
+      "ten_en": "(S – Skill, Level 4 – Practice & Implementation): Interpret data collection methods, analyze results, and present a technical report.",
+      "hddg": [
+        {
+          "id": 92005,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Experiment report"
+        },
+        {
+          "id": 92006,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 186671,
+      "ma": "L.O.2.3",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai):Biện giải được qui luật ứng xử của kết cấu thông qua thực nghiệm, diễn đạt kết quả thực nghiệm",
+      "ten_en": "(S – Skill, Level 4 – Practice & Implementation): Summarize the behavioral rules of structures through experiments and articulate the experimental results.",
+      "hddg": [
+        {
+          "id": 92004,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 92005,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Experiment report"
+        }
+      ]
+    },
+    {
+      "id": 186673,
+      "ma": "L.O.3.1",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai):Tham gia làm việc nhóm trong giải quyết bài tập lớn/thí nghiệm sức bền vật liệu. Thảo luận và trình bày quan điểm kỹ thuật một cách rõ ràng, tôn trọng ý kiến khác biệt.",
+      "ten_en": "(S – Skill, Level 4 – Practice & Implementation): Participate effectively in teamwork to solve major assignments/experiments in Strength of Materials. Discuss and present technical viewpoints clearly while respecting different opinions.",
+      "hddg": [
+        {
+          "id": 92005,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Experiment report"
+        },
+        {
+          "id": 92006,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 186674,
+      "ma": "L.O.3.2",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): Biết phân chia công việc, thiết lập mục tiêu, quản lý tiến độ và phối hợp để hoàn thành nhiệm vụ nhóm. Viết báo cáo nhóm và trình bày kết quả bằng hình thức chuyên nghiệp.",
+      "ten_en": "(S – Skill, Level 4 – Practice & Implementation): Demonstrate the ability to allocate tasks, set objectives, manage progress, and coordinate effectively to accomplish group assignments. Prepare group reports and present results in a professional manner.",
+      "hddg": [
+        {
+          "id": 92004,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 92005,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Experiment report"
+        }
+      ]
+    },
+    {
+      "id": 186676,
+      "ma": "L.O.4.1",
+      "ten_vi": "(S-Kỹ năng, Mức 4-Thực hành & triển khai): tuân thủ quy định học tập, làm việc nhóm nghiêm túc, trung thực trong tính toán, báo cáo, có ý thức trích dẫn nguồn tài liệu, và chịu trách nhiệm cá nhân đối với phần công việc được phân công trong các bài tập và thảo luận về sức bền vật liệu.",
+      "ten_en": "(S–Skills, Level 4 – Practice & Implementation): Comply with academic regulations; work effectively and responsibly in teams; demonstrate honesty in calculations and reporting; show proper awareness of citing reference materials; and take individual responsibility for assigned tasks in exercises and discussions related to Strength of Materials.",
+      "hddg": [
+        {
+          "id": 92004,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 92005,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Experiment report"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Sức bền Vật liệu",
+  "tenmonhoc_eng": "Strength of Materials",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1137 @@
+{
+  "ma": "DCMH.EE2035.6.1",
+  "phienban": "5.1",
+  "capnhat": "30/01/2026 09:14",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE2035",
+  "ten": "EE2035 - Mạch điện tử",
+  "ten_eng": "EE2035 - Electronic Circuits",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 2,
+      "ma": "TK",
+      "ten": {
+        "vi": "Toàn khoa"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>-  Có khả năng vẽ sơ đồ tương đương tín hiệu bé các mạch khuếch đại đơn tầng, liên tầng và phân biệt được phạm vi ứng dụng của các cấu hình khuếch đại khác nhau sử dụng BJT và FET. Giải thích và tính toán các thông số cơ bản của mạch khuếch đại bao gồm độ lợi, tổng trở ngõ vào và tổng trở ngõ ra của mạch khuếch đại đơn tầng và liên tầng với các cấu hình mạch khuếch đại cascade, cascode, Darlington và vi sai.<br>-  Giải thích được khái niệm đáp ứng tần số mạch khuếch đại, tính toán được các tần số cắt thấp và tần số cắt cao của của các mạch khuếch đại sử dụng BJT, FET. <br>-  Phân biệt được các cấu hình khuếch đại công suất khác nhau (lớp A, lớp B và lớp AB) và tính toán được hiệu suất sử dụng công suất của các cấu hình khuếch đại công suất.<br>-  Phân tích được vai trò của khối hồi tiếp lên các thông số của mạch khuếch đại bao gồm độ lợi, đáp ứng tần số, trở kháng ngõ vào, ngõ ra và méo dạng tín hiệu. Tính toán được độ lợi vòng hở và độ lợi vòng kín của các cấu hình khuếch đại hồi tiếp cơ bản.<br>-  Có khả năng thực hiện đo đạc các thông số ở chế độ DC và AC của mạch khuếch đại đơn tầng và liên tầng.<br></p>",
+      "en": "<p>-  Draw the small signal equivalent circuits of single-stage and multi-stage BJT, FET amplifiers and identify applications of each amplifier configurations. Explain and analyze multi-stage amplifier configurations including cascade, cascode, Darlington and differential amplifier.<br>-  Explain the frequency response of amplifiers and compute the 3dB frequencies of BJT and FET amplifiers. <br>-  Distinguish different power amplifier configurations: class A, class B and class AB and compute the power conversion efficiency of these configurations.<br>-  Analyze effects of feedback on voltage gain, frequency response, and distortion, input and output impedances. Compute open loop gain and closed loop gain of fundamental feedback amplifier configurations.<br>-  Conduct experiment to measure fundamental parameters of amplifiers: voltage gain, input impedance and output impedance.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học có ba mục tiêu chính. Mục tiêu thứ nhất là cung cấp cho sinh viên kiến thức tổng quan, và mạch ứng dụng cơ bản sử dụng khuếch đại thuật toán. Mục tiêu thứ hai là trang bị cho sinh viên kiến thức, cách phân tích và thiết kế mạch ứng dụng sử dụng các linh kiện BJT và FET. Mục tiêu thứ ba là giúp sinh viên biết cách phân tích mạch khuếch đại công suất âm tần.<br><br>Môn học giới thiệu các linh kiện tích cực cơ bản gồm BJT, FET và các ứng dụng của các linh kiện này trong thiết kế các mạch khuếch đại. Chương đầu tiên trình bày về mô hình, thông số kỹ thuật và ứng dụng của mạch khuếch đại thuật toán (OP-AMP). Chương hai sử dụng các kiến thức về đặc tuyến vào-ra, sự phân cực, mô hình tương đương tín hiệu nhỏ tần số thấp của BJT, FET để xây dựng các mạch ghép Cascade, Cascode, Darlington và khuếch đại vi sai. Ảnh hưởng của các tụ điện bao gồm các tụ ghép, tụ thoát và tụ ký sinh trong mạch khuếch đại sử dụng BJT và FET được khảo sát trong chương ba. Chương bốn khảo sát các cấu hình và ứng dụng cơ bản của mạch khuếch đại hồi tiếp. Chương năm nêu các vấn đề trong thiết kế mạch khuếch đại công suất như giải nhiệt, các mạch khuếch đại kéo đẩy, hiệu suất mạch khuếch đại và méo dạng tín hiệu.<br><br></p>",
+      "en": "<p>The course has three main objectives. The first objective is to provide an overview of Operational amplifiers (OpAmps), their terminal characteristics, application circuits and practical limitation. The second objective is to provide students with methods to analyze and design amplifier circuits using Bipolar Junction Transistor (BJT) and Field Effect Transistor (FET). The final objective is to enable students to analyze power amplifiers.<br><br>Throughout this course, fundamental active electronic components (i.e. BJT, FET) and their applications in amplifier circuits are introduced. The first chapter discusses terminal characteristics, basic applications and practical limitation of operational amplifier circuits. The second chapter uses the input-output characteristics, bias conditions and amplifier configurations of BJT and FET to apply in advanced circuits such as cascade amplifiers, cascode amplifier, Darlington amplifier, and differential amplifier. The affects of the capacitors (bypass capacitors, coupling capacitors and parasitic capacitors) on the amplifier circuits using BJT and FET are then discussed in chapter three. Chapter four investigates fundamental feedback configurations and their applications in the design of amplifier circuits. Finally, chapter five focuses on topics related to power amplifier such as temperature control, operation and design of several types of pull-push circuits.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, giáo trình chính:<br>[1]  A.S. Sedra, K.C. Smith, “Microelectronics Circuits”, 7th edition, Oxford University Press, 2014.<br>[2]  D.A. Neamen, “Microelectronics Circuit Analysis and Design”, 4th edition, 2009. <br><br>Sách tham khảo:<br>[3]  B. Razavi, “Fundamentals of Microelectronics”, 2nd edition, 2013<br>[4]  D.L. Schilling, C. Belove, \"Electronic circuits: Discrete and Integrated\", Mc Graw-Hill Inc, 1992. <br>[5]  PGS.TS Lê Tiến Thường, “Mạch Điện tử 1”, NXB ĐHQG, 2012.<br>[6]  PGS.TS Lê Tiến Thường, “Mạch Điện tử 2”, NXB ĐHQG, 2012.<br>[7]  C.Savant, M. Roden, G. Carpenter, \"Electronic design - circuits and systems\", Beniamin/Cummings Publishing Company, 1991.<br></p>",
+      "en": "<p>\n\nTextbooks:<br>[1]  A.S. Sedra, K.C. Smith, “Microelectronics Circuits”, 7th edition, Oxford University Press, 2014.<br>[2]  D.A. Neamen, “Microelectronics Circuit Analysis and Design”, 4th edition, 2009. <br><br>References:<br>[3]  B. Razavi, “Fundamentals of Microelectronics”, 2nd edition, 2013<br>[4]  D.L. Schilling, C. Belove, \"Electronic circuits: Discrete and Integrated\", Mc Graw-Hill Inc, 1992. <br>[5]  PGS.TS Lê Tiến Thường, “Mạch Điện tử 1”, NXB ĐHQG, 2012.<br>[6]  PGS.TS Lê Tiến Thường, “Mạch Điện tử 2”, NXB ĐHQG, 2012.<br>[7]  C.Savant, M. Roden, G. Carpenter, \"Electronic design - circuits and systems\", Beniamin/Cummings Publishing Company, 1991.<br>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>•  Tài liệu tham khảo chính có trong thư viện đại học Bách Khoa. <br>•  Bài giảng, bài tập về nhà và bài tập mô phỏng được đưa lên trang BK Elearning.<br>•  Sinh viên cần tham dự đầy đủ giờ giảng trên lớp.<br>•  Bài tập kiểm tra trên lớp và bài tập về nhà cho sinh viên chiếm 20% điểm tổng kết môn học.<br>•  Thí nghiệm: 20%.<br>•  Thi tự luận cuối kỳ thời gian 90 phút, chiếm 60% điểm tổng kết môn học.<br>•  Thời gian thi cuối kỳ và quy định điểm đạt/không đạt theo quy chế của phòng đào tạo. <br></p>",
+      "en": "<p></p><p></p><p></p><ul><li>Main references are in HCMUT's library</li><li>Lectures, homework and simulation exercises are posted on the BK learning page</li><li>Students attends lectures all the time</li><li>The class tests and homework account 30% of the total score</li><li>Laboratory: 20%</li><li>100 minutes final essay exam accounts 50% of the total score</li><li>The final exam schedule and regulation of pass or fail score according to the regulations of academic's office</li></ul><p></p><p></p><p></p><p><br></p><p></p><p></p><p></p><p></p><br><pre><br></pre><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 2641,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (2023)",
+        "en": "Electronics - Telecommunications Engineering (2023)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 481,
+      "ma": "002807",
+      "ten": "TRỊNH XUÂN DŨNG"
+    },
+    {
+      "id": 466,
+      "ma": "001925",
+      "ten": "HÀ HOÀNG KHA"
+    },
+    {
+      "id": 485,
+      "ma": "003191",
+      "ten": "HOÀNG MẠNH HÀ"
+    },
+    {
+      "id": 465,
+      "ma": "001923",
+      "ten": "HUỲNH PHÚ MINH CƯỜNG"
+    },
+    {
+      "id": 6419,
+      "ma": "003785",
+      "ten": "LÊ AN NHUẬN"
+    },
+    {
+      "id": 563,
+      "ma": "002979",
+      "ten": "NGUYỄN HOÀNG MINH TUẤN"
+    },
+    {
+      "id": 8747,
+      "ma": "003943",
+      "ten": "NGUYỄN KHÁNH LỢI"
+    },
+    {
+      "id": 602,
+      "ma": "002582",
+      "ten": "NGUYỄN PHẠM MINH LUÂN"
+    },
+    {
+      "id": 608,
+      "ma": "002203",
+      "ten": "NGUYỄN PHÚ QUỐC"
+    },
+    {
+      "id": 595,
+      "ma": "003173",
+      "ten": "NGUYỄN PHƯỚC BẢO DUY"
+    },
+    {
+      "id": 596,
+      "ma": "003356",
+      "ten": "NGUYỄN THANH PHƯƠNG"
+    },
+    {
+      "id": 473,
+      "ma": "002330",
+      "ten": "NGUYỄN THANH TUẤN"
+    },
+    {
+      "id": 8684,
+      "ma": "003937",
+      "ten": "NGUYỄN XUÂN XINH"
+    },
+    {
+      "id": 600,
+      "ma": "001988",
+      "ten": "PHAN VĨNH LỘC"
+    },
+    {
+      "id": 1251,
+      "ma": "002003",
+      "ten": "PHAN XUÂN TRUNG"
+    },
+    {
+      "id": 489,
+      "ma": "003396",
+      "ten": "QUẢN TRỌNG LÊ HOÀNG"
+    },
+    {
+      "id": 8101,
+      "ma": "003905",
+      "ten": "VÕ TUẤN KIỆT"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 153,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 15,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1040,
+      "maBoMon": "KTT",
+      "tenBoMon": {
+        "vi": "Viễn Thông"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Phòng 114 Tòa Nhà B3",
+      "dienThoai": "(84.8) 38647256 – 5707"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 481,
+        "maGiangVien": "002807",
+        "tenGiangVien": "Trịnh Xuân Dũng",
+        "emailGiangVien": "dung.trinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0.67_0.33/1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2033 - Giải tích mạch",
+        "en": "EE2033 - Electric Circuit Analysis"
+      },
+      "tenmonhoc_only": {
+        "vi": "Giải tích mạch",
+        "en": "Electric Circuit Analysis"
+      },
+      "mamonhoc": "EE2033"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE1007 - Vật lý Bán dẫn",
+        "en": "EE1007 - Semiconductor Physics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vật lý Bán dẫn",
+        "en": "Semiconductor Physics"
+      },
+      "mamonhoc": "EE1007"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 73202,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 73203,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "73202",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Final Examination"
+      },
+      "noidung": {
+        "vi": "Bài kiểm tra cuối học kỳ",
+        "en": "Final Examination"
+      }
+    },
+    {
+      "id": 73204,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "73202",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 73205,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "73202",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Laboratory Report"
+      },
+      "noidung": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Laboratory Report"
+      }
+    },
+    {
+      "id": 73206,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "73202",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài kiểm tra ngắn trên lớp",
+        "en": "Quiz"
+      },
+      "noidung": {
+        "vi": "Bài kiểm tra ngắn trên lớp",
+        "en": "Quiz, Assignment In Class"
+      }
+    },
+    {
+      "id": 73207,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "73202",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm Exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 88125,
+      "stt": 1,
+      "buoi": "1/1",
+      "chuandaurachitiet": [
+        {
+          "id": 113059,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu về các thông số của OpAmp: tổng trở ngõ vào, tổng trở ngõ ra, độ lợi áp hở mạch. \n- Phân tích các mạch ứng dụng sử dụng OpAmp: khuếch đại đảo, khuếch đại không đảo, mạch so sánh, mạch Schmitt trigger, mạch tích phân, vi phân, ...",
+            "en": "- Introduction to Op-Amp parameters: input impedance, output impedance, open-circuit voltage gain.\n- Analysis of application circuits using Op-Amps: inverting amplifiers, non-inverting amplifiers, comparator circuits, Schmitt trigger circuits, integrators, etc."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe bài giảng của giảng viên.\n- Làm các bài tập trên lớp.\n- Làm các bài tập về nhà. \n- Thực hiện mô phỏng các mạch.",
+            "en": "- Listen to the lecturer's lectures.\n- Complete the in-class exercises.\n- Complete the homework assignments.\n- Perform circuit simulations."
+          },
+          "chuandaura": {
+            "id": 185344,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "(K, mức 4) Có khả năng vẽ sơ đồ tương đương tín hiệu bé các mạch khuếch đại đơn tầng, liên tầng và phân biệt được phạm vi ứng dụng của các cấu hình khuếch đại khác nhau sử dụng BJT và FET. Giải thích và tính toán các thông số cơ bản của mạch khuếch đại bao gồm độ lợi, tổng trở ngõ vào và tổng trở ngõ ra của mạch khuếch đại đơn tầng và liên tầng với các cấu hình mạch khuếch đại cascade, cascode, Darlington và vi sai.",
+              "en": "(K, level 4) Draw small signal equivalent circuits of single-stage and multi-stage amplifiers using BJT, FET and identify applications of each amplifier configurations. Explain and analyze multi-stage amplifier configurations including cascade, cascode, Darlington and differential amplifier."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179551,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 179559,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73207,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: MẠCH KHUẾCH ĐẠI THUẬT TOÁN (OP-AMP)\n   1.1 Sơ đồ khối.\n   1.2 Thông số kỹ thuật.\n   1.3 Mô hình lý tưởng.\n   1.4 Các mạch ứng dụng của khuếch đại thuật toán. ",
+        "en": "Chapter 1: Operational Amplifiers\n   1.1. Block Diagram.\n   1.2. Parameters.\n   1.3. Ideal Model of OpAmp.\n   1.4. Applications of Operational Amplifiers."
+      }
+    },
+    {
+      "id": 88128,
+      "stt": 2,
+      "buoi": "2-4/2",
+      "chuandaurachitiet": [
+        {
+          "id": 113058,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng phương pháp xây dựng các mô hình tương đương tín hiệu nhỏ của BJT, FET và ứng dụng trong phân tích AC của các mạch khuếch đại.\n- Giảng các cấu hình khuếch đại và ưu/nhước điểm của từng cấu hình khuếch đại.",
+            "en": "- Present methods for constructing small-signal equivalent models of BJTs and FETs, and their application in AC analysis of amplifier circuits.\n- Present amplifier configurations and the advantages/disadvantages of each configuration."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe bài giảng.\n- Làm và nộp các bài tập về nhà.\n- Thực hiện và nộp mô phỏng.\n- Thực hiện thí nghiệm và viết báo cáo.",
+            "en": "- Listen to the lecture.\n- Complete and submit homework assignments.\n- Perform and submit simulations.\n- Conduct experiments and write lab report."
+          },
+          "chuandaura": {
+            "id": 185344,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "(K, mức 4) Có khả năng vẽ sơ đồ tương đương tín hiệu bé các mạch khuếch đại đơn tầng, liên tầng và phân biệt được phạm vi ứng dụng của các cấu hình khuếch đại khác nhau sử dụng BJT và FET. Giải thích và tính toán các thông số cơ bản của mạch khuếch đại bao gồm độ lợi, tổng trở ngõ vào và tổng trở ngõ ra của mạch khuếch đại đơn tầng và liên tầng với các cấu hình mạch khuếch đại cascade, cascode, Darlington và vi sai.",
+              "en": "(K, level 4) Draw small signal equivalent circuits of single-stage and multi-stage amplifiers using BJT, FET and identify applications of each amplifier configurations. Explain and analyze multi-stage amplifier configurations including cascade, cascode, Darlington and differential amplifier."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179553,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 179554,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 73207,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113063,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn thí nghiệm",
+            "en": "- Instruct student to perform lab"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm thí nghiệm và viết báo cáo.",
+            "en": "- Do experiment and write report."
+          },
+          "chuandaura": {
+            "id": 185356,
+            "ma": "L.O.5",
+            "ten": {
+              "vi": "(S, mức 4) Có khả năng thực hiện đo đạc các thông số ở chế độ DC và AC của mạch khuếch đại đơn tầng và liên tầng.",
+              "en": "(S, level 4) Conduct experiment to measure fundamental parameters of amplifiers: voltage gain, input impedance and output impedance."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179555,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73205,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Laboratory Report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: MẠCH KHUẾCH ĐẠI LIÊN TẦNG \n2.1. Ôn tập mô hình tương đương tín hiệu bé BJT, FET.\n2.2. Các cấu hình khuếch đại BJT và FET. \n2.3 Mạch ghép Cascade.\n2.4 Mạch khuếch đại Cascode \n2.5 Mạch ghép Darlington.\n4.5 Mạch ghép vi sai.\n",
+        "en": "Chapter 2: Multistage amplifiers\n2.1. Review of small signal model of BJT, FET.\n2.2. BJT and FET amplifier configurations.\n2.3. Cascade amplifier.\n2.4. Cascode amplifier.\n2.5. Darlington Pair."
+      }
+    },
+    {
+      "id": 88127,
+      "stt": 3,
+      "buoi": "5-6/3",
+      "chuandaurachitiet": [
+        {
+          "id": 113062,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng về khái niệm đáp ứng tần số của mạch khuếch đại.\n- Phân tích đáp ứng tần số thấp của mạch.\n- Phân tích đáp ứng tần số cao của mạch.",
+            "en": "- Explain the concept of frequency response of amplifier circuits.\n- Analyze the low-frequency response of the circuit.\n- Analyze the high-frequency response of the circuit."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe bài giảng và làm bài tập về nhà.\n- Thực hiện mô phỏng và nộp kết quả.\n- Thực hiện thí nghiệm và nộp báo cáo.",
+            "en": "- Listen to lectures and complete homework assignments.\n- Conduct simulations and submit results.\n- Perform experiments and submit reports."
+          },
+          "chuandaura": {
+            "id": 185347,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "(K, mức 4) Giải thích được đáp ứng tần số và tính toán các tần số cắt thấp và tần số cắt cao của các mạch khuếch đại sử dụng BJT, FET",
+              "en": "(K, level 4) Explain the frequency response of amplifiers and compute the 3dB frequencies of BJT and FET amplifiers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179557,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73205,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Laboratory Report"
+                }
+              }
+            },
+            {
+              "id": 179560,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73203,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Examination"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113060,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn sinh viên thực hiện thí nghiệm",
+            "en": "- Instruct students to do lab."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm thí nghiệm và viết báo cáo.",
+            "en": "- Do experiment and write report."
+          },
+          "chuandaura": {
+            "id": 185356,
+            "ma": "L.O.5",
+            "ten": {
+              "vi": "(S, mức 4) Có khả năng thực hiện đo đạc các thông số ở chế độ DC và AC của mạch khuếch đại đơn tầng và liên tầng.",
+              "en": "(S, level 4) Conduct experiment to measure fundamental parameters of amplifiers: voltage gain, input impedance and output impedance."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179552,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73205,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Laboratory Report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: ĐÁP ỨNG TẦN SỐ CỦA MẠCH KHUẾCH ĐẠI\n3.1 Đáp ứng tần số thấp của mạch khuếch đại.\n3.2 Đáp ứng tần số cao của mạch khuếch đại.\n3.3. Hiệu ứng Miller trong mạch khuếch đại CE, CS.\n",
+        "en": "Chapter 3: Frequency response of amplifiers:\n3.1. Low frequency response of amplifiers.\n3.2. High frequency response of amplifiers.\n3.3. Miller effect of the CE, CS amplifier."
+      }
+    },
+    {
+      "id": 88126,
+      "stt": 4,
+      "buoi": "7-8/4",
+      "chuandaurachitiet": [
+        {
+          "id": 113061,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng về ảnh hưởng của khối hồi tiếp lên hoạt động của mạch.\n- Phân tích độ lợi vòng hở, độ lợi vòng kin của mạch khuếch đại.\n- Giảng các cấu hình hồi tiếp.",
+            "en": "- Explain the influence of feedback on circuit operation.\n- Analyze open-loop and closed-loop gain of amplifier circuits.\n- Explain feedback configurations."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe bài giảng.\n- Thực hiện bài tập về nhà.\n- Thực hiện mô phỏng, viết báo cáo.",
+            "en": "- Listen to the lecture.\n- Complete the homework assignments.\n- Conduct simulations and write reports."
+          },
+          "chuandaura": {
+            "id": 185353,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích được vai trò của khối hồi tiếp lên các thông số của mạch khuếch đại bao gồm độ lợi, đáp ứng tần số, trở kháng ngõ vào, ngõ ra và méo dạng tín hiệu. Tính toán được độ lợi vòng hở và độ lợi vòng kín của các cấu hình khuếch đại hồi tiếp cơ bản.",
+              "en": "(K, level 4) Analyze effects of feedback on gain, frequency response, distortion, input and output impedances. Calculate open loop gain and closed loop gain of fundamental feedback amplifier configurations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179561,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 179562,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73206,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài kiểm tra ngắn trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: MẠCH KHUẾCH HỒI TIẾP\n4.1 Ảnh hưởng của khối hồi tiếp lên các thông số mạch khuếch đại.\n4.2 Tính toán độ lợi vòng hở, độ lợi vòng kín của mạch khuếch đại hồi tiếp.\n4.3 Các cấu hình khuếch đại hồi tiếp cơ bản.\n",
+        "en": "Chapter 4: Feedback\n4.1. Effect of the feedback on the parameters of the amplifiers.\n4.2. Calculate the open loop gain, close loop gain of the feedback amplifiers.\n4.3. Basic feedback configurations."
+      }
+    },
+    {
+      "id": 88129,
+      "stt": 5,
+      "buoi": "9-10/5",
+      "chuandaurachitiet": [
+        {
+          "id": 113064,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng về các cấu hình khuếch đại và ưu/nhược điểm của các cấu hình khuếch đại.\n- Phân tích mạch khuếch đại lớp A, tính toán hiệu suất.\n- Phân tích mạch khuếch đại lớp B,AB, tính toán hiệu suất.",
+            "en": "- Lecture on amplifier configurations and their advantages/disadvantages.\n- Analyze Class A amplifier circuits and calculate efficiency.\n- Analyze Class B and Class AB amplifier circuits and calculate efficiency."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe bài giảng.\n- Làm bài tập về nhà.",
+            "en": "- Listen to the lecture.\n- Do your homework."
+          },
+          "chuandaura": {
+            "id": 185350,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "(K, mức 4) Phân biệt được các cấu hình khuếch đại công suất khác nhau (lớp A, lớp B, lớp AB) và tính toán được hiệu suất sử dụng công suất của các cấu hình khuếch đại công suất.",
+              "en": "(K, level 4) Distinguish different power amplifier configurations: class A, class B, class AB and compute power conversion efficiency of these configurations"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179556,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 179558,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73203,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: MẠCH KHUẾCH ĐẠI CÔNG SUẤT\n5.1 Các định nghĩa, ứng dụng và kiểu khuếch đại công suất.\n5.2 Mạch khuếch đại lớp A\n5.3 Mạch khuếch đại lớp B, AB.\n5.4 Khuếch đại đẩy-kéo dạng OTL và OCL.\n",
+        "en": "Chapter 5: Power Amplifiers\n5.1. Definitions, applications and power amplifier configurations.\n5.2. Class A power amplifiers.\n5.3. Class B, AB power amplifiers.\n5.4. Puss-pull OTL and OCL."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 185344,
+      "ma": "L.O.1",
+      "ten_vi": "(K, mức 4) Có khả năng vẽ sơ đồ tương đương tín hiệu bé các mạch khuếch đại đơn tầng, liên tầng và phân biệt được phạm vi ứng dụng của các cấu hình khuếch đại khác nhau sử dụng BJT và FET. Giải thích và tính toán các thông số cơ bản của mạch khuếch đại bao gồm độ lợi, tổng trở ngõ vào và tổng trở ngõ ra của mạch khuếch đại đơn tầng và liên tầng với các cấu hình mạch khuếch đại cascade, cascode, Darlington và vi sai.",
+      "ten_en": "(K, level 4) Draw small signal equivalent circuits of single-stage and multi-stage amplifiers using BJT, FET and identify applications of each amplifier configurations. Explain and analyze multi-stage amplifier configurations including cascade, cascode, Darlington and differential amplifier.",
+      "hddg": [
+        {
+          "id": 73204,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 73207,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm Exam"
+        }
+      ]
+    },
+    {
+      "id": 185347,
+      "ma": "L.O.2",
+      "ten_vi": "(K, mức 4) Giải thích được đáp ứng tần số và tính toán các tần số cắt thấp và tần số cắt cao của các mạch khuếch đại sử dụng BJT, FET",
+      "ten_en": "(K, level 4) Explain the frequency response of amplifiers and compute the 3dB frequencies of BJT and FET amplifiers.",
+      "hddg": [
+        {
+          "id": 73203,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final Examination"
+        },
+        {
+          "id": 73205,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Laboratory Report"
+        }
+      ]
+    },
+    {
+      "id": 185350,
+      "ma": "L.O.3",
+      "ten_vi": "(K, mức 4) Phân biệt được các cấu hình khuếch đại công suất khác nhau (lớp A, lớp B, lớp AB) và tính toán được hiệu suất sử dụng công suất của các cấu hình khuếch đại công suất.",
+      "ten_en": "(K, level 4) Distinguish different power amplifier configurations: class A, class B, class AB and compute power conversion efficiency of these configurations",
+      "hddg": [
+        {
+          "id": 73203,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final Examination"
+        },
+        {
+          "id": 73204,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 185353,
+      "ma": "L.O.4",
+      "ten_vi": "(K, mức 4) Phân tích được vai trò của khối hồi tiếp lên các thông số của mạch khuếch đại bao gồm độ lợi, đáp ứng tần số, trở kháng ngõ vào, ngõ ra và méo dạng tín hiệu. Tính toán được độ lợi vòng hở và độ lợi vòng kín của các cấu hình khuếch đại hồi tiếp cơ bản.",
+      "ten_en": "(K, level 4) Analyze effects of feedback on gain, frequency response, distortion, input and output impedances. Calculate open loop gain and closed loop gain of fundamental feedback amplifier configurations.",
+      "hddg": [
+        {
+          "id": 73204,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 73206,
+          "ma": "A.O.4",
+          "ten_vi": "Bài kiểm tra ngắn trên lớp",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 185356,
+      "ma": "L.O.5",
+      "ten_vi": "(S, mức 4) Có khả năng thực hiện đo đạc các thông số ở chế độ DC và AC của mạch khuếch đại đơn tầng và liên tầng.",
+      "ten_en": "(S, level 4) Conduct experiment to measure fundamental parameters of amplifiers: voltage gain, input impedance and output impedance.",
+      "hddg": [
+        {
+          "id": 73205,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Laboratory Report"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Mạch điện tử",
+  "tenmonhoc_eng": "Electronic Circuits",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

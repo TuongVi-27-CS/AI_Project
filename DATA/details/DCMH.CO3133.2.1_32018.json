@@ -1,0 +1,2863 @@
+{
+  "ma": "DCMH.CO3133.2.1",
+  "phienban": "2.1",
+  "capnhat": "21/04/2025 08:33",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3133",
+  "ten": "CO3133 - Học sâu và Ứng dụng",
+  "ten_eng": "CO3133 - Deep Learning and Its Applications",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Môn học nhằm giúp người học hiểu biết, vận dụng và sáng tạo các kiến trúc mạng nơron học sâu để giải quyết các bài toán thực tế, cụ thể là phân tích các dạng dữ liệu như văn bản, hình ảnh, âm thanh, hay dữ liệu đa phương thức. Thông qua môn học này, người học có thể nắm vững toàn bộ quy trình phân tích dữ liệu, từ thu thập, làm sạch, gán nhãn, đến phát triển và triển khai mô hình phân tích.</p><p></p>",
+      "en": "<p>The course aims to help learners understand, apply, and create deep neural network architectures to solve real-world problems, specifically in analyzing various data types such as text, images, audio, or multimodal data. Through this course, learners can master the entire data analysis process, from collecting, cleaning, and labeling data to developing and deploying analytical models.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học này giúp người học tiếp cận các kỹ thuật và công nghệ tiên tiến trong lĩnh vực học sâu và ứng dụng của nó, đặc biệt là trong ngôn ngữ tự nhiên và thị giác máy tính. Cụ thể, môn học cung cấp kiến thức lý thuyết và thực hành để người học có thể hiểu, phân tích, điều chỉnh và sáng tạo các kiến trúc mạng nơron học sâu. Các chủ đề quan trọng khác được giảng dạy trong môn học bao gồm tổ chức dữ liệu và nhãn, cũng như các giải thuật và quy trình huấn luyện mạng nơron học sâu.<br></p>",
+      "en": "<p>This course helps learners approach advanced techniques and technologies in the field of deep learning and its applications, particularly in natural language processing and computer vision. Specifically, the course provides theoretical and practical knowledge for learners to understand, analyze,modify, and create deep learning neural network architectures. Other important topics covered in the course include data organization and labeling, as well as algorithms and training processes for deep learning neural networks.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] &nbsp; Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016), Deep Learning, MIT Press. Online: <a target=\"_blank\" rel=\"nofollow\" href=\"http://www.deeplearningbook.org/\" title=\"Link: http://www.deeplearningbook.org/\">http://www.deeplearningbook.org</a><br></p><p>[2] &nbsp; Francois Chollet (2017), Deep Learning with Python, Manning Publications, (ISBN: 978-1617294433)</p><p>[3] &nbsp; Các bài báo khoa học tại các hội nghị và tạp chí đầu ngành.</p><p>[4] &nbsp; Các nguồn hướng dẫn từ Internet.</p>﻿<br><p></p>",
+      "en": "<p>[1] &nbsp; Ian Goodfellow, Yoshua Bengio and Aaron Courville (2016), Deep Learning, MIT Press. Online: <a target=\"_blank\" rel=\"nofollow\" href=\"http://www.deeplearningbook.org/\" title=\"Link: http://www.deeplearningbook.org/\">http://www.deeplearningbook.org</a><br></p><p>[2] &nbsp; Francois Chollet (2017), Deep Learning with Python, Manning Publications, (ISBN: 978-1617294433)</p><p>[3] &nbsp; The state-of-the-art research papers.</p><p>[4] &nbsp; Online Resources and Guides</p>﻿<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>• &nbsp;Tài liệu học tập bao gồm: đề cương môn học, slide bài giảng và bài tập lớn được lưu trữ trên máy chủ quản lý tài liệu học tập của khoa (trường).Sinh viên cần tải về, in ra và mang theo khi lên lớp.</p><p>• &nbsp;Bên cạnh các tài liệu được cung cấp, sinh viên có thể tìm kiếm thêm tài liệu liên quan từ Internet, như hướng dẫn, kiến trúc mạng nơron mẫu,chương trình mẫu và các tập dữ liệu.</p><p>• &nbsp;Sinh viên cần tham gia đầy đủ các buổi học và tích cực trao đổi trên lớp để làm rõ các vấn đề.</p><p>• &nbsp;Ở nhà, sinh viên nên nghiên cứu kỹ tài liệu, lập trình nhiều hơn và hoàn thành bài tập lớn một cách đầy đủ.</p><br><p></p>",
+      "en": "<p></p><p>• &nbsp;<i>Study materials include: the course syllabus, lecture slides, and major assignments stored on the faculty (school) learning resource server.Students need to download, print, and bring these materials to class.</i></p><p>• &nbsp;<i>In addition to the provided materials, students can search for additional related resources on the Internet, such as guides, sample neuralnetwork architectures, sample programs, and datasets.</i></p><p>• &nbsp;<i>Students are required to attend all classes and actively participate in discussions to clarify issues.</i></p><p>• &nbsp;<i>At home, students should thoroughly study the materials, practice programming more, and complete major assignments fully.</i></p><br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>Sinh viên sẽ nhận điểm điểm tổng kết môn học bằng điểm BTL nếu điểm BTL nhỏ hơn hoặc bằng 3</p><br>",
+      "en": "<p>If the assignment's score is less than or equal to 3 then the final grade for the course is the same as the&nbsp;assignment' score.</p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1392,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho trương trình đào tạo toàn khóa",
+        "en": "Áp dụng cho trương trình đào tạo toàn khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1164,
+      "ma": "001995",
+      "ten": "LÊ THÀNH SÁCH"
+    },
+    {
+      "id": 5780,
+      "ma": "003778",
+      "ten": "TRẦN TUẤN ANH"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 1,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 45,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 40,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 965,
+      "maBoMon": "DTO",
+      "tenBoMon": {
+        "vi": "Khoa Học Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Bộ môn Khoa học Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1164,
+        "maGiangVien": "001995",
+        "tenGiangVien": "LÊ THÀNH SÁCH",
+        "emailGiangVien": "ltsach@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO3061 - Nhập môn Trí tuệ Nhân tạo",
+        "en": "CO3061 - Introduction to Artificial Intelligence"
+      },
+      "tenmonhoc_only": {
+        "vi": "Nhập môn Trí tuệ Nhân tạo",
+        "en": "Introduction to Artificial Intelligence"
+      },
+      "mamonhoc": "CO3061"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 47494,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 47495,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "47494",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn ",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn ",
+        "en": "Assignment"
+      }
+    },
+    {
+      "id": 47496,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "47494",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì",
+        "en": " Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì",
+        "en": " Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 54560,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 71230,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82188,
+            "ma": "L.O.1.4",
+            "ten": {
+              "vi": "Liệt kê được các độ đo đánh giá phù hợp cho các dạng bài toán khác nhau.",
+              "en": "List suitable evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112812,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112811,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71228,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82187,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Liệt kê được các hàm mất mát phù hợp cho các dạng bài toán khác nhau.",
+              "en": "List suitable loss functions for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112808,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112807,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71231,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82185,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hiểu biết và giải thích được về dữ liệu và nhãn, cũng như phương pháp tổ chức và biểu diễn chúng.",
+              "en": "Understand and explain data and labels, as well as methods for organizing and representing them."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112813,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112814,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71227,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112806,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112805,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71229,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects.\n"
+          },
+          "chuandaura": {
+            "id": 82186,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Liệt kê được các mô hình phù hợp cho các dạng bài toán khác nhau.",
+              "en": "List suitable models for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112809,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112810,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Giới thiệu\n1.1.\tCác khái niệm cơ bản\n1.2.\tBiểu diễn dữ liệu và nhãn\n1.3.\tCác bài toán và độ đo đánh giá\n1.4.\tQuy trình phân tích dữ liệu\n1.5.\tCác thư viện lập trình và công nghệ liên quan\n1.6.\tBài toán tổng hợp",
+        "en": "Chapter 1. Introduction\n1.1.\tBasic Concepts\n1.2.\tData and Label Representation\n1.3.\tProblems and Evaluation Metrics\n1.4.\tData Analysis Process\n1.5.\tProgramming Libraries and Related Technologies\n1.6.\tIntegrated Problem"
+      }
+    },
+    {
+      "id": 54557,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 71218,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82190,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Mô hình hoá được mạng nơron và quá trình huấn luyện bằng toán học.",
+              "en": "Model neural networks and the training process mathematically."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112787,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112788,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71215,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82191,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Hiểu và giải thích các hàm mất mát quan trọng.",
+              "en": "Understand and explain important loss functions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112781,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112782,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71214,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82192,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Giải thích được lan truyền thuận, lan truyền ngược và các kỹ thuật cập nhật tham số.",
+              "en": "Explain forward propagation, backward propagation, and parameter update techniques."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112779,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112780,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71216,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82193,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các chiến lược huấn luyện mạng nơron học sâu.",
+              "en": "Explain the principles of various deep neural network training strategies."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112784,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112783,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71213,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112778,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112777,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71217,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82194,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Xây dựng và giải thích được các biểu đồ trong huấn luyện và đánh giá mạng nơron học sâu.",
+              "en": "Construct and explain graphs for training and evaluating deep neural networks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112785,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112786,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Huấn luyện mạng học sâu\n2.1.\tSơ đồ huấn luyện mạng\n2.2.\tGiải thuật huấn luyện\n2.3.\tCác chiến lược huấn luyện\n2.4.\tCác biểu đồ huấn luyện và đánh giá\n2.5.\tBài toán tổng hợp",
+        "en": "Chapter 2. Training Deep Learning Networks\n2.1.\tNetwork Training Diagram\n2.2.\tTraining Algorithms\n2.3.\tTraining Strategies\n2.4.\tTraining and Evaluation Graphs\n2.5.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54559,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 71224,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112799,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112800,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71225,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112801,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112802,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71223,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112798,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112797,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71226,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112803,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112804,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Bài toán phân loại và hồi quy\n3.1.\tCác lớp tính toán\n3.2.\tHàm mất mát và độ đo đánh giá.\n3.3.\tLàm giàu dữ liệu\n3.4.\tCác kiến trúc ứng dụng tiêu biểu\n3.5.\tBài toán tổng hợp\n",
+        "en": "Chapter 3. Classification and Regression\n3.1.\tComputational Layers\n3.2.\tLoss Functions and Evaluation Metrics\n3.3.\tData Augmentation\n3.4.\tTypical Application Architectures\n3.5.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54562,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 71237,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112826,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112825,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71236,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112823,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112824,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71239,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112829,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112830,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71238,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112828,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112827,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Attention và Transformer\n4.1.\tKhối tính toán Attention\n4.2.\tKhối tính toán Transformer\n4.3.\tCác kiến trúc ứng dụng tiêu biểu\n4.4.\tBài toán tổng hợp\n",
+        "en": "Chapter 4. Attention and Transformer\n4.1.\tAttention Computation Block\n4.2.\tTransformer Computation Block\n4.3.\tTypical Application Architectures\n4.4.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54564,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 71246,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112844,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112843,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71244,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112840,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112839,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71247,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112846,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112845,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71245,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112842,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112841,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Kỹ thuật học tự giám sát\n5.1.\tNhãn: từ thủ công đến tự động\n5.2.\tMô hình che lấp cho văn bản\n5.3.\tMô hình che lấp cho hình ảnh\n5.4.\tBài toán tổng hợp\n",
+        "en": "Chapter 5. Self-Supervised Learning Techniques\n5.1.\tLabels: From Manual to Automatic\n5.2.\tMasked Models for Text\n5.3.\tMasked Models for Images\n5.4.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54561,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 71233,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112818,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112817,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71232,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112815,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112816,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71234,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112819,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112820,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71235,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112821,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112822,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Bài toán phân đoạn\n6.1.\tCác lớp tính toán\n6.2.\tHàm mất mát\n6.3.\tLàm giàu dữ liệu\n6.4.\tCác kiến trúc tiêu biểu\n6.5.\tBài toán tổng hợp\n",
+        "en": "Chapter 6. Segmentation Problems\n6.1.\tComputational Layers\n6.2.\tLoss Functions\n6.3.\tData Augmentation\n6.4.\tTypical Architectures\n6.5.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54565,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 71249,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112849,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112850,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71250,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112851,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112852,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71251,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112853,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112854,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71248,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112847,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112848,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Bài toán phát hiện và định danh đối tượng\n7.1.\tCác kiến trúc ứng dụng tiêu biểu\n7.2.\tHàm mất mát\n7.3.\tLàm giàu dữ liệu\n7.4.\tBài toán tổng hợp\n",
+        "en": "Chapter 7. Object Detection and Identification Problems\n7.1.\tTypical Application Architectures\n7.2.\tLoss Functions\n7.3.\tData Augmentation\n7.4.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54563,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 71242,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112836,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112835,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71243,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112837,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112838,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71241,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112834,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112833,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71240,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112831,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112832,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. Mạng nơron hồi quy\n8.1.\tCác phương pháp xử lý tín hiệu có yếu tố thời gian\n8.2.\tMạng nơron hồi quy một chiều\n8.3.\tMạng nơron hồi quy hai chiều\n8.4.\tBài toán tổng hợp\n",
+        "en": "Chapter 8. Recurrent Neural Networks\n8.1.\tTime-Series Signal Processing Methods\n8.2.\tOne-Dimensional Recurrent Neural Networks\n8.3.\tTwo-Dimensional Recurrent Neural Networks\n8.4.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54566,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 71252,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112856,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            },
+            {
+              "id": 112855,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71254,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112859,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112860,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71255,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112862,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112861,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71253,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112858,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112857,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9. Phương pháp tạo sinh\n9.1.\tMô hình sinh cho hình ảnh\n9.2.\tMô hình sinh cho văn bản\n9.3.\tBài toán tổng hợp\n",
+        "en": "Chapter 9. Generative Methods\n9.1.\tGenerative Models for Images\n9.2.\tGenerative Models for Text\n9.3.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 54558,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 71219,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82196,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+              "en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112790,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112789,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71222,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82197,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+              "en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112795,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112796,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71220,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82198,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+              "en": "Compare and select the appropriate computational model for each type of problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112792,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112791,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71221,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.\n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 82200,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+              "en": "Be able to use libraries to develop and evaluate deep learning models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 112793,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 112794,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10. Mô hình đa phương thức và đa nhiệm\n10.1. Các kiến trúc ứng dụng tiêu biểu\n10.2. Hàm mất mát\n10.3. Tổ chức dữ liệu và huấn luyện\n10.4. Bài toán tổng hợp\n",
+        "en": "Chapter 10. Multimodal and Multitask Models\n10.1. Typical Application Architectures\n10.2. Loss Functions\n10.3. Data Organization and Training\n10.4. Integrated Problem\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 82185,
+      "ma": "L.O.1.1",
+      "ten_vi": "Hiểu biết và giải thích được về dữ liệu và nhãn, cũng như phương pháp tổ chức và biểu diễn chúng.",
+      "ten_en": "Understand and explain data and labels, as well as methods for organizing and representing them.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82186,
+      "ma": "L.O.1.2",
+      "ten_vi": "Liệt kê được các mô hình phù hợp cho các dạng bài toán khác nhau.",
+      "ten_en": "List suitable models for different types of problems.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82187,
+      "ma": "L.O.1.3",
+      "ten_vi": "Liệt kê được các hàm mất mát phù hợp cho các dạng bài toán khác nhau.",
+      "ten_en": "List suitable loss functions for different types of problems.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82188,
+      "ma": "L.O.1.4",
+      "ten_vi": "Liệt kê được các độ đo đánh giá phù hợp cho các dạng bài toán khác nhau.",
+      "ten_en": "List suitable evaluation metrics for different types of problems.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82190,
+      "ma": "L.O.2.1",
+      "ten_vi": "Mô hình hoá được mạng nơron và quá trình huấn luyện bằng toán học.",
+      "ten_en": "Model neural networks and the training process mathematically.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 82191,
+      "ma": "L.O.2.2",
+      "ten_vi": "Hiểu và giải thích các hàm mất mát quan trọng.",
+      "ten_en": "Understand and explain important loss functions.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82192,
+      "ma": "L.O.2.3",
+      "ten_vi": "Giải thích được lan truyền thuận, lan truyền ngược và các kỹ thuật cập nhật tham số.",
+      "ten_en": "Explain forward propagation, backward propagation, and parameter update techniques.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82193,
+      "ma": "L.O.2.4",
+      "ten_vi": "Giải thích được nguyên lý hoạt động của các chiến lược huấn luyện mạng nơron học sâu.",
+      "ten_en": "Explain the principles of various deep neural network training strategies.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82194,
+      "ma": "L.O.2.5",
+      "ten_vi": "Xây dựng và giải thích được các biểu đồ trong huấn luyện và đánh giá mạng nơron học sâu.",
+      "ten_en": "Construct and explain graphs for training and evaluating deep neural networks.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82196,
+      "ma": "L.O.3.1",
+      "ten_vi": "Giải thích được nguyên lý hoạt động của các lớp tính toán quan trọng trong mạng nơron học sâu, ví dụ như, lớp tích chập, lớp kết nối đầy đủ, lớp chuẩn hoá, lớp phi tuyến, v.v.",
+      "ten_en": "Explain the operating principles of important computational layers in deep neural networks, such as convolutional layers, fully connected layers, normalization layers, nonlinear activation layers, and so on.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82197,
+      "ma": "L.O.3.2",
+      "ten_vi": "Giải thích được nguyên lý hoạt động của các đồ thị tính toán quan trọng cho từng bài toán và mô hình trong học sâu, ví dụ như, phân loại, hồi quy, phát hiện đối tượng, mô hình tạo sinh, mô hình hồi quy, v.v.",
+      "ten_en": "Explain the operating principles of important computational graphs for different problems and models in deep learning, such as classification, regression, object detection, generative models, and others.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82198,
+      "ma": "L.O.3.3",
+      "ten_vi": "So sánh và lựa chọn được mô hình tính toán phù hợp cho từng dạng bài toán.",
+      "ten_en": "Compare and select the appropriate computational model for each type of problem.",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 82200,
+      "ma": "L.O.4.1",
+      "ten_vi": "Có khả năng vận dụng các thư viện để phát triển và đánh giá các mô hình học sâu.",
+      "ten_en": "Be able to use libraries to develop and evaluate deep learning models",
+      "hddg": [
+        {
+          "id": 47495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 47496,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Học sâu và Ứng dụng",
+  "tenmonhoc_eng": "Deep Learning and Its Applications",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 1
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

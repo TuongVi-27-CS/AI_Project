@@ -1,0 +1,996 @@
+{
+  "ma": "DCMH.AS5067.1.1",
+  "phienban": "1.1",
+  "capnhat": "30/07/2025 15:43",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS5067",
+  "ten": "AS5067 - Tính toán kết cấu nâng cao (PBL)",
+  "ten_eng": "AS5067 - Advanced Structural Analysis (PBL)",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Sau khi hoàn thành học phần, sinh viên đạt được: <br><br>- Các kiến thức nâng cao về phân tích kết cấu gồm các loại bài toán phi tuyến bất ổn định và động lực học. <br><br>- Áp dụng phương pháp chia lưới nâng cao cho những mô hình phức tạp.<br><br>- Những kỹ năng trong việc sử dụng chương trình phần tử hữu hạn để giải quyết các bài toán thực tế trong kỹ thuật.<br></p>",
+      "en": "<p>After completing the course, students will achieve:<br><br>- Advanced knowledge of structural analysis including nonlinear instability and dynamic problems.<br><br>- Apply advanced meshing methods to complex models.<br><br>- Skills in using finite element programs to solve practical problems in engineering.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n</p><p>Môn học cung cấp các kiến thức nâng cao về phân tích kết cấu, những nội dung chính bao gồm:<br><br>- Bài toán bất ổn định phi tuyến.<br><br>- Bài toán động lực học quá độ, động lực học phi tuyến.<br><br>- Các phương pháp chia lưới nâng cao.<br></p><p>- Thực hiện một dự án thực tế có liên quan đến ứng xử bất ổn định và động lực học phi tuyến của kết cấu.</p>\n\n<br><p></p>",
+      "en": "<p>\n\nThe course provides advanced knowledge of structural analysis, the main contents include:<br><br>- Nonlinear buckling problems.<br><br>- Transition dynamics problems, nonlinear dynamics.<br><br>- Advanced meshing methods.\n\n<br></p><p>\n\n- Implementing a practical project related to the nonlinear&nbsp;buckling and nonlinear dynamics behavior of structures.\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>- Xiaolin Chen and Yijun Liu, Finite element modeling and simulation with Ansys Workbench, CRC Press, 2015.</p><p>- Huei Huang Lee, Finite element simulations with \n\nAnsys Workbench, SDC Publications, 2021.</p>",
+      "en": "<p>\n\n<p>- Xiaolin Chen and Yijun Liu, Finite element modeling and simulation with Ansys Workbench, CRC Press, 2015.</p><p>- Huei Huang Lee, Finite element simulations with \n\nAnsys Workbench, SDC Publications, 2021.</p>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Học tập dựa trên dự án, sinh viên cần chủ động và tích cực trong các hoạt động sau đây:&nbsp;</p><p>- Tham gia thảo luận nhóm với các chủ đề, vấn đề được giảng viên đặt ra tại buổi học.&nbsp;</p><p>- Thực hiện các tính toán và mô phỏng tại buổi học.&nbsp;</p><p>- Thực hiện một dự án thực tế được đề xuất từ doanh nghiệp đối tác.<br></p>",
+      "en": "<p>In project-based learning, students need to be proactive and active in the following activities:&nbsp;</p><p>- Participate in group discussions with topics and issues raised by the lecturer in the class.&nbsp;</p><p>- Conduct computations and simulations in the class.&nbsp;</p><p>- Carry out a real-life project proposed by a partner company.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 5185,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Chương trình đào tạo kỹ sư ngành Cơ Kỹ thuật K25",
+        "en": "Engineer training program in Engineering Mechanics K25"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn AS5067 - Tính toán kết cấu nâng cao (PBL)"
+    },
+    {
+      "id": 1412,
+      "ma": "003434",
+      "ten": "TRẦN KIM BẰNG"
+    },
+    {
+      "id": 8789,
+      "ma": "003966",
+      "ten": "LỒ SÌU VẪY"
+    },
+    {
+      "id": 1403,
+      "ma": "002852",
+      "ten": "NGUYỄN THANH NHÃ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 1,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 2,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 135,
+    "lyThuyet": 15,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 90,
+    "tuHoc": 30,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": 5,
+        "ma": "BVHD",
+        "text": {
+          "vi": "Bảo vệ hội đồng",
+          "en": "Project Defense"
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 50,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 0,
+    "lyThuyetKhac": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1079,
+      "maBoMon": "CKT",
+      "tenBoMon": {
+        "vi": "Cơ Kỹ Thuật"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "B4-106",
+      "dienThoai": "0789897651"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1412,
+        "maGiangVien": "003434",
+        "tenGiangVien": "TRẦN KIM BẰNG",
+        "emailGiangVien": "tkbang@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "pbl1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 61609,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 61610,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "61609",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Thảo luận tại lớp",
+        "en": "Discussion in class"
+      },
+      "noidung": {
+        "vi": "Thảo luận tại lớp",
+        "en": "Discussion in class"
+      }
+    },
+    {
+      "id": 61801,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "61609",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Thực hành tại lớp",
+        "en": "Practice in class"
+      },
+      "noidung": {
+        "vi": "Thực hành tại lớp",
+        "en": "Practice in class"
+      }
+    },
+    {
+      "id": 61802,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "61609",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo kết quả dự án",
+        "en": "Project results report"
+      },
+      "noidung": {
+        "vi": "Báo cáo kết quả dự án",
+        "en": "Project results report"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 71614,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 89218,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Lec: Giới thiệu môn học, phương pháp đánh giá và phương pháp học tập dựa trên dự án",
+            "en": "Introduction to the course, assessment methods and project-based learning methods"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tìm hiểu phương pháp học tập dựa trên dự án, tìm hiểu các bài toán thực tế liên quan đến môn học",
+            "en": "Explore the project-based learning method, explore real-world problems related to the course"
+          },
+          "chuandaura": {
+            "id": 102606,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Ứng dụng phương pháp phần tử hữu hạn để phân tích ứng xử cơ học của kết cấu trong kỹ thuật",
+              "en": "Ứng dụng phương pháp phần tử hữu hạn để phân tích ứng xử cơ học của kết cấu trong kỹ thuật"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136208,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 61610,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discussion in class"
+                }
+              }
+            },
+            {
+              "id": 136201,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 61801,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành tại lớp",
+                  "en": "Practice in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu môn học và cách học theo phương pháp PBL",
+        "en": "(Introduction to the course and the PBL method)"
+      }
+    },
+    {
+      "id": 71617,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 89219,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các loại bài toán bất ổn định phi tuyến trong cơ học, tổ chức thảo luận nhóm tại lớp",
+            "en": "Present nonlinear buckling problems in mechanics, organize in-class group discussions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận và thực hành tại lớp",
+            "en": "Participate in class discussions and practice"
+          },
+          "chuandaura": {
+            "id": 102648,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu",
+              "en": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136209,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 61801,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành tại lớp",
+                  "en": "Practice in class"
+                }
+              }
+            },
+            {
+              "id": 136202,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 61610,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discussion in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích bài toán bất ổn định phi tuyến trong kết cấu",
+        "en": "Analysis of nonlinear buckling problem in structure"
+      }
+    },
+    {
+      "id": 71613,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 89215,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các loại bài toán động lực học phi tuyến trong cơ học, tổ chức thảo luận nhóm tại lớp",
+            "en": "Present nonlinear dynamic problems in mechanics, organize in-class group discussions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận và thực hành tại lớp",
+            "en": "Participate in class discussions and practice"
+          },
+          "chuandaura": {
+            "id": 102648,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu",
+              "en": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136206,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 61801,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành tại lớp",
+                  "en": "Practice in class"
+                }
+              }
+            },
+            {
+              "id": 136211,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 61610,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discussion in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích bài toán động lực học phi tuyến trong kết cấu",
+        "en": "Analysis of nonlinear dynamics in structures"
+      }
+    },
+    {
+      "id": 71618,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 89220,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các giải thuật chia lưới nâng cao, tổ chức thảo luận nhóm tại lớp",
+            "en": "Present advanced meshing algorithms, organize in-class group discussions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận và thực hành tại lớp",
+            "en": "Participate in class discussions and practice"
+          },
+          "chuandaura": {
+            "id": 102648,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu",
+              "en": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136020,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 61801,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành tại lớp",
+                  "en": "Practice in class"
+                }
+              }
+            },
+            {
+              "id": 136203,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 61610,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discussion in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ứng dụng giải thuật chia lưới nâng cao trong phân tích kết cấu",
+        "en": "Application of advanced meshing algorithms in structural analysis"
+      }
+    },
+    {
+      "id": 71615,
+      "stt": 5,
+      "buoi": "5-14",
+      "chuandaurachitiet": [
+        {
+          "id": 89217,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu bài toán thực tế (dự án) được đề xuất từ doanh nghiệp để sinh viên thực hiện, hướng dẫn sinh viên trong suốt quá trình thực hiện dự án",
+            "en": "Introduce real-life problems (projects) proposed by the company for students to implement. Guide students throughout the project implementation process"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện dự án trong thời gian quy định",
+            "en": "Execute the project within the specified time"
+          },
+          "chuandaura": {
+            "id": 102671,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có tinh thần nghiên cứu khoa học; tự học hỏi mọi lúc, mọi nơi; có năng lực lý luận, phản biện trong học tập",
+              "en": "Có tinh thần nghiên cứu khoa học; tự học hỏi mọi lúc, mọi nơi; có năng lực lý luận, phản biện trong học tập"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136205,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 61610,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discussion in class"
+                }
+              }
+            },
+            {
+              "id": 136212,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 61801,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành tại lớp",
+                  "en": "Practice in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giải quyết bài toán thực tế",
+        "en": "(Solve practical problems)"
+      }
+    },
+    {
+      "id": 71616,
+      "stt": 6,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 89216,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá kết quả dự án của sinh viên. Thảo luận cùng người hướng dẫn từ doanh nghiệp để cho điểm dự án",
+            "en": "Evaluate student project results. Discuss with the company mentor to grade the project"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thuyết trình về kết quả của dự án thực tế đã thực hiện",
+            "en": "Presentation on the results of the practical project"
+          },
+          "chuandaura": {
+            "id": 102588,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có tư duy sáng tạo, tinh thần làm việc độc lập, hợp tác nhóm trong quá trình thực hiện đề tài nhóm",
+              "en": "Có tư duy sáng tạo, tinh thần làm việc độc lập, hợp tác nhóm trong quá trình thực hiện đề tài nhóm"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136204,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 61610,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discussion in class"
+                }
+              }
+            },
+            {
+              "id": 136207,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 61801,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành tại lớp",
+                  "en": "Practice in class"
+                }
+              }
+            },
+            {
+              "id": 136210,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 61802,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo kết quả dự án",
+                  "en": "Project results report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Báo cáo tổng kết môn học",
+        "en": "(Course final report)"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 102606,
+      "ma": "L.O.1",
+      "ten_vi": "Ứng dụng phương pháp phần tử hữu hạn để phân tích ứng xử cơ học của kết cấu trong kỹ thuật",
+      "ten_en": "Ứng dụng phương pháp phần tử hữu hạn để phân tích ứng xử cơ học của kết cấu trong kỹ thuật",
+      "hddg": [
+        {
+          "id": 61610,
+          "ma": "A.O.1",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discussion in class"
+        },
+        {
+          "id": 61801,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành tại lớp",
+          "ten_en": "Practice in class"
+        }
+      ]
+    },
+    {
+      "id": 102648,
+      "ma": "L.O.2",
+      "ten_vi": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu",
+      "ten_en": "Đánh giá kết quả mô phỏng và đưa ra các dự đoán về ứng xử của kết cấu",
+      "hddg": [
+        {
+          "id": 61610,
+          "ma": "A.O.1",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discussion in class"
+        },
+        {
+          "id": 61801,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành tại lớp",
+          "ten_en": "Practice in class"
+        }
+      ]
+    },
+    {
+      "id": 102588,
+      "ma": "L.O.3",
+      "ten_vi": "Có tư duy sáng tạo, tinh thần làm việc độc lập, hợp tác nhóm trong quá trình thực hiện đề tài nhóm",
+      "ten_en": "Có tư duy sáng tạo, tinh thần làm việc độc lập, hợp tác nhóm trong quá trình thực hiện đề tài nhóm",
+      "hddg": [
+        {
+          "id": 61610,
+          "ma": "A.O.1",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discussion in class"
+        },
+        {
+          "id": 61801,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành tại lớp",
+          "ten_en": "Practice in class"
+        },
+        {
+          "id": 61802,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo kết quả dự án",
+          "ten_en": "Project results report"
+        }
+      ]
+    },
+    {
+      "id": 102671,
+      "ma": "L.O.4",
+      "ten_vi": "Có tinh thần nghiên cứu khoa học; tự học hỏi mọi lúc, mọi nơi; có năng lực lý luận, phản biện trong học tập",
+      "ten_en": "Có tinh thần nghiên cứu khoa học; tự học hỏi mọi lúc, mọi nơi; có năng lực lý luận, phản biện trong học tập",
+      "hddg": [
+        {
+          "id": 61610,
+          "ma": "A.O.1",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discussion in class"
+        },
+        {
+          "id": 61801,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành tại lớp",
+          "ten_en": "Practice in class"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Tính toán kết cấu nâng cao (PBL)",
+  "tenmonhoc_eng": "Advanced Structural Analysis (PBL)",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 1,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

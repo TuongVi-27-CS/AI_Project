@@ -1,0 +1,2794 @@
+{
+  "ma": "DCMH.CO3009.4.1",
+  "phienban": "4.1",
+  "capnhat": "21/04/2025 08:25",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3009",
+  "ten": "CO3009 - Vi xử lý - Vi điều khiển",
+  "ten_eng": "CO3009 - Microprocessors-Microcontrollers",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>•  Cung cấp cho người học những kiến thức về vi xử lý (VXL) – vi điều khiển (VĐK) và các ngoại vi tích hợp trong VĐK.<br>•  Cung cấp cho người học những kiến thức về lập trình cho VXL – VĐK sử dụng ngôn ngữ lập trình C và làm thế nào để viết một chương trình chạy trên VXL-VĐK hiệu quả và dễ mở rộng.<br><br><br></p>",
+      "en": "<p></p><p>· Provide knowledge about microprocessors (uP) and microcontrollers (uC) and their peripherals.</p><p>· Provide knowledge about uP-uC programming using C programing language and about how to write an efficient and extendable firmware for uP-uC.</p><br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>•  Giới thiệu về VXL-VĐK và các ngoại vi.<br>•  Các kiến trúc của một phần mềm nhúng.<br>•  Ngắt, timer và các cổng xuất nhập.<br>•  Thiết kế và hiện thực máy trạng thái sử dụng ngôn ngữ lập trình C.<br>•  Cách hiện thực một hệ điều hành nhúng đơn giản.<br>•  Cách hiện thực bộ định thời các tác vụ trong VXL-VĐK.<br><br></p>",
+      "en": "<p>•  Introduction to uP-uC and their peripherals.<br>•  Embedded software architectures.  <br>•  Interrupts, timers and general purpose inputs/outputs (GPIOs).<br>•  Design finite state machines (FSM) and implement them in C programming language.<br>•  Create an embedded operating system.<br>•  Implement a co-operative scheduler.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Giáo Trình</p><p>\n\n[1] Michael J. Pont, Patterns for time-triggered embedded systems, 2001, Addison-Wesley / ACM Press\n\n<br></p><p>Sách tham khảo:\n\n<br></p><p>[2] PIC Microcontroller: An Introduction to Software &amp; Hardware Interfacing – Han-Way Huang 2007<br>[3] Embedded Design with the PIC18F452 – John B. Peatman, 2003<br>[4] Embedded Microprocessor Systems – Stuart R. Ball. 2000<br>[5] The 8051 MICCONTROLLER – I. Scott MacKenzie 2005<br><br></p>",
+      "en": "<p>Textbook:</p><p>\n\n\n\n[1] Michael J. Pont, Patterns for time-triggered embedded systems, 2001, Addison-Wesley / ACM Press&nbsp;</p><p>References:\n\n<br></p><p>[2] PIC Microcontroller: An Introduction to Software &amp; Hardware Interfacing – Han-Way Huang 2007<br>[3] Embedded Design with the PIC18F452 – John B. Peatman, 2003<br>[4] Embedded Microprocessor Systems – Stuart R. Ball. 2000<br>[5] The 8051 MICCONTROLLER – I. Scott MacKenzie 2005<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu (slide bài giảng) được đưa lên BKeL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học.<br>Sinh viên làm thêm các bài tập và đọc thêm trong sách tham khảo<br>Sinh viên nên đi học đầy đủ và làm bài tập trong quá trình học sẽ giúp tiết kiệm thời gian trong quá trình ôn thi giữa kỳ và cuối kỳ.<br>Đối với phần thực hành, sinh viên tham gia đầy đủ các buổi thí nghiệm và báo cáo kết quả làm được cho mỗi bài thí nghiệm.<br><br></p>",
+      "en": "<p>Course materials are uploaded to BKeL weekly. Students download, print, and bring with them to class.<br>Students do additional exercises and read more in reference books<br>Students should attend lectures and do homework frequently, which will help save time during midterm and final exam review.<br>For the lab classes, students must participate fully in the experimental sessions and report the results of each experiment.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>(*)Sinh viên sẽ phải tự học và giảng viên sắp giờ linh hoạt hàng tuần phản hồi thắc mắc và hỗ trợ sinh viên làm BTL.<br></p>",
+      "en": "<p>(*) Students have to study on their own and the lecturer arranges a weekly schedule to respond to questions and support students to do assignments</p>"
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 379,
+      "ma": "NG_KTM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Ngành Kỹ thuật Máy tính"
+      }
+    },
+    {
+      "id": 1005,
+      "ma": "CN_HTH",
+      "ten": {
+        "vi": "Chuyên ngành: Hệ thống tính toán hiện đại",
+        "en": "     Speciality: Modern Computing Systems"
+      }
+    },
+    {
+      "id": 380,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Chuyên ngành Kỹ thuật Máy tính"
+      }
+    },
+    {
+      "id": 1006,
+      "ma": "CN_IVV",
+      "ten": {
+        "vi": "Chuyên ngành: Internet vạn vật và An ninh mạng",
+        "en": "Speciality: IoTs and Network Security"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1146,
+      "ma": "002765",
+      "ten": "Phạm Quốc Cường"
+    },
+    {
+      "id": 1139,
+      "ma": "001897",
+      "ten": "Trần Ngọc Thịnh"
+    },
+    {
+      "id": 5899,
+      "ma": "003777",
+      "ten": "LÊ TRỌNG NHÂN"
+    },
+    {
+      "id": 1141,
+      "ma": "002603",
+      "ten": "PHẠM HOÀNG ANH"
+    },
+    {
+      "id": 9778,
+      "ma": "004077",
+      "ten": "HUỲNH PHÚC NGHỊ"
+    },
+    {
+      "id": 10910,
+      "ma": "004202",
+      "ten": "NGUYỄN THIÊN ÂN"
+    },
+    {
+      "id": 11908,
+      "ma": "004269",
+      "ten": "NGUYỄN THÀNH LỘC"
+    },
+    {
+      "id": 11568,
+      "ma": "004258",
+      "ten": "PHẠM CÔNG THÁI"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 1,
+    "baiTapLon_TieuLuan": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 30,
+    "baiTapLon_TieuLuan": 0,
+    "tuHoc": 75,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 30,
+    "baiTapLon_TieuLuan": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 967,
+      "maBoMon": "KTM",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 5899,
+        "maGiangVien": "003777",
+        "tenGiangVien": "LÊ TRỌNG NHÂN",
+        "emailGiangVien": "trongnhanle@hcmut.edu.vn"
+      },
+      {
+        "id": 1141,
+        "maGiangVien": "002603",
+        "tenGiangVien": "PHẠM HOÀNG ANH",
+        "emailGiangVien": "anhpham@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3d",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 47204,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 47205,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "47204",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trong lớp",
+        "en": "Class Activities"
+      },
+      "noidung": {
+        "vi": "Hoạt động trong lớp",
+        "en": "Class Activities"
+      }
+    },
+    {
+      "id": 47206,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "47204",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kì",
+        "en": "Mid-term exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kì",
+        "en": "Mid-term exam"
+      }
+    },
+    {
+      "id": 47207,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "47204",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      }
+    },
+    {
+      "id": 47208,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "47204",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Lab classes"
+      },
+      "noidung": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Lab classes"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 54129,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 70437,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71564,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Quá trình lấy lệnh, thực hiện lệnh.",
+              "en": "Fetching and executing an instruction from the system memory"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111179,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111178,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70434,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71565,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Bộ đếm chương trình (PC), thanh ghi lệnh (IR), khối số học và luận lý (ALU).",
+              "en": "Program counter, instruction decode and arithmetic and logic unit (ALU)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111172,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111173,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70436,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71566,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Tổ chức bộ nhớ chương trình, bộ nhớ dữ liệu: tuyến địa chỉ, tuyến dữ liệu, các tín hiệu điều khiển",
+              "en": "The program memory and data memory, the busses"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111177,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111176,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70438,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71567,
+            "ma": "L.O.1.4",
+            "ten": {
+              "vi": "Các phương pháp định vị địa chỉ",
+              "en": "Methods of memory addressing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111181,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111180,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70439,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và Thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71568,
+            "ma": "L.O.1.5",
+            "ten": {
+              "vi": "Khái niệm RISC và CISC.",
+              "en": "Conceptions of RISC and CISC"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111182,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111183,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70435,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71569,
+            "ma": "L.O.1.6",
+            "ten": {
+              "vi": "Khái niệm VXL-VĐK",
+              "en": "Conceptions of uP-uC"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111174,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111175,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cơ bản về vi điều khiển\n1.1 Sự khác biệt giữa Vi xử lý và Vi điều khiển\n1.2 Kiến trúc vi điều khiển\n1.3 Tại sao sử dụng MCU?\n1.4 MCU cung cấp thiết bị ngoại vi nào?\n1.5 Thiết bị ngoại vi Các thiết bị trong MCU\n1.6 Làm cách nào để bắt đầu nhanh?\n1.7 Làm thế nào để bắt đầu?",
+        "en": "Microcontroller Basic\n1.1 Differences between Microprocessors and Microcontrollers\n1.2 Microcontroller Architectures\n1.3 Why Use an MCU?\n1.4 What Peripherals Do MCUs Offer?\n1.5  Peripherals Devices in MCUs\n1.6 How Do I Get a Quick Start?\n1.7 How Do I Get Started?\n\n"
+      }
+    },
+    {
+      "id": 54128,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 70427,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71763,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Tổ chức bộ nhớ chương trình và dữ liệu.",
+              "en": "Memory organization"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111157,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111158,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70433,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71761,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Cấu hình mạch giao động",
+              "en": "Oscillator configuration. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111169,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111171,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111170,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70431,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71764,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Các thao tác đọc, ghi bộ nhớ chương trình",
+              "en": "Reading operands from program memory"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111166,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111165,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70426,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71765,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Tổ chức các hàng lệnh chương trình",
+              "en": "Program instruction sequencing."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111156,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111155,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70428,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71766,
+            "ma": "L.O.2.6",
+            "ten": {
+              "vi": "Các thanh ghi của CPU và các bit trạng thái.",
+              "en": "The CPU and its status bits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111160,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111159,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70432,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71767,
+            "ma": "L.O.2.7",
+            "ten": {
+              "vi": "Tập các thanh ghi đặc biệt",
+              "en": "The special function registers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111167,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111168,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70429,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71768,
+            "ma": "L.O.2.8",
+            "ten": {
+              "vi": "Các thao tác đọc, ghi bộ nhớ dữ liệu",
+              "en": "Chưa có"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111161,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111162,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70430,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71771,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Khái niệm về chương trình phục vụ ngắt quãng.",
+              "en": "Understand the interrupt service routines (ISRs)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111164,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111163,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kiến trúc phần mềm nhúng\n2.1 Round-robin\n2.2 Round-robin với ngắt\n2.3 Function Quêu Scheduling\n2.4 Hệ điều hành thời gian thực\n\nLập trình C nhúng\n2.5 Một chương trình C đơn giản\n2.6 Chức năng chính\n2.7 Khởi tạo hệ thống\n2.8 Clocks\n2.9 Máy trạng thái\n2.10 Công tắc và nút đọc",
+        "en": "Embedded Software Architectures\n2.1 Round robin\n2.2 Round robin with Interrupts\n2.3 Function Queue Scheduling\n2.4 Real time operating system\n\nEmbedded C Programming\n2.5 A simple C program\n2.6 A main Function\n2.7 System initialization\n2.8 Clocks\n2.9 An FSM function\n2.10 Reading Switches and Buttons\n\n"
+      }
+    },
+    {
+      "id": 54123,
+      "stt": 3,
+      "buoi": "3,4",
+      "chuandaurachitiet": [
+        {
+          "id": 70441,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71770,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Hiểu và giải thích cơ chế hoạt động của phần cứng ngắt quãng.",
+              "en": "Analyze and demonstrate the operation of hardware interrupts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111187,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111186,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111188,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70444,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71771,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Khái niệm về chương trình phục vụ ngắt quãng.",
+              "en": "Understand the interrupt service routines (ISRs)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111193,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111194,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111195,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70446,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71777,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Biết ứng dụng các bộ định thì trong 2 chế độ định thời gian và đếm sự kiện",
+              "en": "The timers are used for interval timing and event counting."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111199,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111198,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70447,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71778,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Cơ chế ngắt của bộ định thì.",
+              "en": "The timer interrupts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111200,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111201,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70445,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71766,
+            "ma": "L.O.2.6",
+            "ten": {
+              "vi": "Các thanh ghi của CPU và các bit trạng thái.",
+              "en": "The CPU and its status bits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111196,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111197,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70442,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71767,
+            "ma": "L.O.2.7",
+            "ten": {
+              "vi": "Tập các thanh ghi đặc biệt",
+              "en": "The special function registers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111189,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111190,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70440,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71783,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Sử dụng bộ lấy mẫu, bộ so sánh, bộ điều chế độ rộng xung",
+              "en": "Capture, compare, and pulse width modulation (PWM) functions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111185,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111184,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70443,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71772,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Hoạt động ngắt",
+              "en": "Interrupt operations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111192,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47206,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 111191,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thêm cấu trúc vào chương trình\n3.1. Lập trình hướng đối tượng với C\n3.2. Bố cục chương trình C\n3.3. Các kiểu dữ liệu phổ biến\n3.4. Tại sao sử dụng Project Header?\n\nLàm việc với thời gian: ngắt, bộ đếm và bộ hẹn giờ\n3.5. Timers trong Vi điều khiển\n3.6. Timers cơ bản\n3.7. Lựa chọn timer\n3.8. Kiểm tra tín hiệu đầu vào và so sánh kết quả đầu ra\n3.9. Chế độ đầu vào PWM\n3.10. Bài tập",
+        "en": "Adding Structure To Your Code\n3.1. Object Oriented Programming with C\n3.2. C Program Layout\n3.3. Common data types\n3.4. Why use the Project Header?\n\nWorking with time: interrupts,\ncounters and timers\n3.5. Timer in Microcontrollers\n3.6. General-purpose timers\n3.7. Clock selection\n3.8. Capture/compare channels\n3.9. PWM input mode\n3.10. Exercises\n"
+      }
+    },
+    {
+      "id": 54124,
+      "stt": 4,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 70448,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71786,
+            "ma": "L.O.7.1",
+            "ten": {
+              "vi": "Thiết kế và hiện thực hệ thống nhiều trạng thái theo thời gian.",
+              "en": "Design and implement a timed multi-stage system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111202,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47205,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Class Activities"
+                }
+              }
+            },
+            {
+              "id": 111203,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111204,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70418,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71787,
+            "ma": "L.O.7.2",
+            "ten": {
+              "vi": "Thiết kế và hiện thực hệ thống nhiều trạng thái theo thời gian và tín hiệu đầu vào",
+              "en": "Design and implement a timed/input multi-stage system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111206,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111205,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hệ thống đa trạng thái và chuỗi chức năng\n4.1. Hệ thống đa trạng thái (Định thời gian)\n4.2. Bài tập: Đèn giao thông\n4.3. Ví dụ: Animatronic khủng long\n4.4. Hệ thống đa trạng thái (đầu vào / định thời gian)\n4.5. Hiện thực máy trạng thái sử dụng timeouts\n4.6. Ví dụ: Bộ điều khiển máy giặt",
+        "en": "Multi-state Systems and Function Sequences\n5.1. Multi-state (Timed) systems\n5.2. Exercise: Traffic light\n5.3. Example: Animatronic dinosaur\n5.4. A Multi-State (Input/Timed) System\n5.5. Implementing State timeouts\n5.6. Example: Washing machine controller\n"
+      }
+    },
+    {
+      "id": 54125,
+      "stt": 5,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 70419,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71779,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Sử dụng bộ định thì để hiện thực một hệ điều hành nhúng.",
+              "en": "Using timer to implement an embedded operating system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111139,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111138,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47205,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Class Activities"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tạo hệ điều hành nhúng\n5.1. Kiến trúc Super loop (round-robin)\n5.2. Xem xét một ứng dụng nhúng: hướng dẫn âm thanh\n5.3. Sử dụng kiến trúc Super Loop để thực thi các chức năng theo các khoảng thời gian đều đặn\n5.4. Ngắt dựa trên bộ hẹn giờ (cốt lõi của một hệ điều hành nhúng)\n5.5. Bài tập 1 - Bộ mã hóa quay",
+        "en": "Creating an Embedded Operating System\n5.1. Super loop (round-robin) Architecture\n5.2. Consider an embedded application: an audio guide\n5.3. Using the Super Loop architecture to execute functions at regular intervals\n5.4. Timer-based Interrupt (the core of an embedded OS)\n6.5. Exercise 1 - Rotary Encoder\n"
+      }
+    },
+    {
+      "id": 54126,
+      "stt": 6,
+      "buoi": "7,8",
+      "chuandaurachitiet": [
+        {
+          "id": 70420,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71780,
+            "ma": "L.O.5.4",
+            "ten": {
+              "vi": "Sử dụng bộ định thì để hiện thực một bộ định thời tác vụ.",
+              "en": "Using timer to implement a co-operative scheduler."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111140,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47205,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Class Activities"
+                }
+              }
+            },
+            {
+              "id": 111141,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111142,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bộ lập lịch hợp tác\n6.1 Bộ lập lịch hợp tác là gì?\n6.2.Background - Con trỏ hàm\n6.3. Các thành phần chính của một ứng dụng được lập lịch đơn giản\n6.4. Cấu trúc dữ liệu của bộ lập lịch và mảng tác vụ\n6.5.Chức năng khởi tạo\n6.6 Chức năng 'Cập nhật'\n6.7 Chức năng ‘Thêm nhiệm vụ’\n6.8. ‘Người điều phối’\n6.9 Chức năng 'Xóa tác vụ'\n6.10. Báo cáo lỗi\n6.11.Độ tin cậy và ý nghĩa an toàn\n6.12.Hướng dẫn lập lịch trình có thể dự đoán và đáng tin cậy\n6.13. Điểm mạnh và điểm yếu tổng thể\n6.14. Bài tập",
+        "en": "A co-operative scheduler\n6.1 What is a co-operative scheduler?\n6.2.Background - Function pointer \n6.3. The key components from a simple scheduled application\n6.4.The scheduler data structure and task array\n6.5.The initialization function\n6.6.The ‘Update’ function\n6.7.The ‘Add Task’ function\n6.8.The ‘Dispatcher’\n6.9.The ‘Delete Task’ function\n6.10.Reporting errors\n6.11.Reliability and safety implications\n6.12.Guidelines for predictable and reliable scheduling\n6.13.Overall strengths and weaknesses\n6.14. Exercises\n"
+      }
+    },
+    {
+      "id": 54127,
+      "stt": 7,
+      "buoi": "9,10",
+      "chuandaurachitiet": [
+        {
+          "id": 70424,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71774,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thiết kế các mạch giao tiếp nhập và xuất song song.",
+              "en": "Design basic parallel interface for I/Os."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111150,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47205,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Class Activities"
+                }
+              }
+            },
+            {
+              "id": 111152,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111151,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70421,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71775,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Các giao tiếp nối tiếp như: SPI, I2C, UART",
+              "en": "SPI, I2C, UART peripheral interfaces."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111143,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111145,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47205,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Class Activities"
+                }
+              }
+            },
+            {
+              "id": 111144,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70425,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71762,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Mạch reset.",
+              "en": "Reset"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111153,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 111154,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70422,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71782,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Lập trình mạch biến đổi A/D cho các ứng dụng",
+              "en": "Analog-to-Digital conversion (ADC). "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111147,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47205,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Class Activities"
+                }
+              }
+            },
+            {
+              "id": 111146,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47207,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70423,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và thảo luận",
+            "en": "Lecturing and discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận",
+            "en": "Listening and discussing"
+          },
+          "chuandaura": {
+            "id": 71784,
+            "ma": "L.O.6.3",
+            "ten": {
+              "vi": "Watchdog timer",
+              "en": "Watchdog Timer (WDT)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 111148,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47208,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Lab classes"
+                }
+              }
+            },
+            {
+              "id": 111149,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47205,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Class Activities"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Các chức năng đặc biệt\n7.1 Bộ chuyển đổi tương tự sang kỹ thuật số\n7.2  Watchdog timer\n7.3. Giao diện ngoại vi SPI, I2C, UART.\n7.4. Nền tảng phần cứng cơ bản\n\n\nLàm cách nào để chọn MCU phù hợp?\n8.1.Các câu hỏi cần trả lời\n8.2. Sản phẩm của bạn sẽ cần gì?\n8.3. Sử dụng các công cụ lựa chọn MCU\n8.4. Điều tra các công cụ MCU HW\n8.5. Điều tra các công cụ MCU SW\n8.6. Đào sâu hơn",
+        "en": "Special Functions\n7.1  Analog to Digital Converter\n7.2 Watchdog Timer\n7.3. SPI, I2C, UART peripheral interfaces.\n7.4. Basic hardware foundations\n\nHow Do I Choose the Right MCU?\n8.1.Questions to Answer\n8.2. What Will Your Product Need?\n8.3. Use MCU Selection Tools\n8.4. Investigate MCU HW Tools\n8.5. Investigate MCU SW Tools\n8.6. Dig Deeper\n\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 71564,
+      "ma": "L.O.1.1",
+      "ten_vi": "Quá trình lấy lệnh, thực hiện lệnh.",
+      "ten_en": "Fetching and executing an instruction from the system memory",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71565,
+      "ma": "L.O.1.2",
+      "ten_vi": "Bộ đếm chương trình (PC), thanh ghi lệnh (IR), khối số học và luận lý (ALU).",
+      "ten_en": "Program counter, instruction decode and arithmetic and logic unit (ALU).",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71566,
+      "ma": "L.O.1.3",
+      "ten_vi": "Tổ chức bộ nhớ chương trình, bộ nhớ dữ liệu: tuyến địa chỉ, tuyến dữ liệu, các tín hiệu điều khiển",
+      "ten_en": "The program memory and data memory, the busses",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71567,
+      "ma": "L.O.1.4",
+      "ten_vi": "Các phương pháp định vị địa chỉ",
+      "ten_en": "Methods of memory addressing",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71568,
+      "ma": "L.O.1.5",
+      "ten_vi": "Khái niệm RISC và CISC.",
+      "ten_en": "Conceptions of RISC and CISC",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71569,
+      "ma": "L.O.1.6",
+      "ten_vi": "Khái niệm VXL-VĐK",
+      "ten_en": "Conceptions of uP-uC",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71761,
+      "ma": "L.O.2.1",
+      "ten_vi": "Cấu hình mạch giao động",
+      "ten_en": "Oscillator configuration. ",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71762,
+      "ma": "L.O.2.2",
+      "ten_vi": "Mạch reset.",
+      "ten_en": "Reset",
+      "hddg": [
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71763,
+      "ma": "L.O.2.3",
+      "ten_vi": "Tổ chức bộ nhớ chương trình và dữ liệu.",
+      "ten_en": "Memory organization",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71764,
+      "ma": "L.O.2.4",
+      "ten_vi": "Các thao tác đọc, ghi bộ nhớ chương trình",
+      "ten_en": "Reading operands from program memory",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71765,
+      "ma": "L.O.2.5",
+      "ten_vi": "Tổ chức các hàng lệnh chương trình",
+      "ten_en": "Program instruction sequencing.",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71766,
+      "ma": "L.O.2.6",
+      "ten_vi": "Các thanh ghi của CPU và các bit trạng thái.",
+      "ten_en": "The CPU and its status bits",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71767,
+      "ma": "L.O.2.7",
+      "ten_vi": "Tập các thanh ghi đặc biệt",
+      "ten_en": "The special function registers",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71768,
+      "ma": "L.O.2.8",
+      "ten_vi": "Các thao tác đọc, ghi bộ nhớ dữ liệu",
+      "ten_en": "Chưa có",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71770,
+      "ma": "L.O.3.1",
+      "ten_vi": "Hiểu và giải thích cơ chế hoạt động của phần cứng ngắt quãng.",
+      "ten_en": "Analyze and demonstrate the operation of hardware interrupts.",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71771,
+      "ma": "L.O.3.2",
+      "ten_vi": "Khái niệm về chương trình phục vụ ngắt quãng.",
+      "ten_en": "Understand the interrupt service routines (ISRs).",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71772,
+      "ma": "L.O.3.3",
+      "ten_vi": "Hoạt động ngắt",
+      "ten_en": "Interrupt operations.",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71774,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thiết kế các mạch giao tiếp nhập và xuất song song.",
+      "ten_en": "Design basic parallel interface for I/Os.",
+      "hddg": [
+        {
+          "id": 47205,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Class Activities"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71775,
+      "ma": "L.O.4.2",
+      "ten_vi": "Các giao tiếp nối tiếp như: SPI, I2C, UART",
+      "ten_en": "SPI, I2C, UART peripheral interfaces.",
+      "hddg": [
+        {
+          "id": 47205,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Class Activities"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71777,
+      "ma": "L.O.5.1",
+      "ten_vi": "Biết ứng dụng các bộ định thì trong 2 chế độ định thời gian và đếm sự kiện",
+      "ten_en": "The timers are used for interval timing and event counting.",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71778,
+      "ma": "L.O.5.2",
+      "ten_vi": "Cơ chế ngắt của bộ định thì.",
+      "ten_en": "The timer interrupts.",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71779,
+      "ma": "L.O.5.3",
+      "ten_vi": "Sử dụng bộ định thì để hiện thực một hệ điều hành nhúng.",
+      "ten_en": "Using timer to implement an embedded operating system",
+      "hddg": [
+        {
+          "id": 47205,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Class Activities"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71780,
+      "ma": "L.O.5.4",
+      "ten_vi": "Sử dụng bộ định thì để hiện thực một bộ định thời tác vụ.",
+      "ten_en": "Using timer to implement a co-operative scheduler.",
+      "hddg": [
+        {
+          "id": 47205,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Class Activities"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71782,
+      "ma": "L.O.6.1",
+      "ten_vi": "Lập trình mạch biến đổi A/D cho các ứng dụng",
+      "ten_en": "Analog-to-Digital conversion (ADC). ",
+      "hddg": [
+        {
+          "id": 47205,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Class Activities"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 71783,
+      "ma": "L.O.6.2",
+      "ten_vi": "Sử dụng bộ lấy mẫu, bộ so sánh, bộ điều chế độ rộng xung",
+      "ten_en": "Capture, compare, and pulse width modulation (PWM) functions.",
+      "hddg": [
+        {
+          "id": 47206,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71784,
+      "ma": "L.O.6.3",
+      "ten_vi": "Watchdog timer",
+      "ten_en": "Watchdog Timer (WDT).",
+      "hddg": [
+        {
+          "id": 47205,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Class Activities"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71786,
+      "ma": "L.O.7.1",
+      "ten_vi": "Thiết kế và hiện thực hệ thống nhiều trạng thái theo thời gian.",
+      "ten_en": "Design and implement a timed multi-stage system",
+      "hddg": [
+        {
+          "id": 47205,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Class Activities"
+        },
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    },
+    {
+      "id": 71787,
+      "ma": "L.O.7.2",
+      "ten_vi": "Thiết kế và hiện thực hệ thống nhiều trạng thái theo thời gian và tín hiệu đầu vào",
+      "ten_en": "Design and implement a timed/input multi-stage system",
+      "hddg": [
+        {
+          "id": 47207,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 47208,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Lab classes"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Vi xử lý - Vi điều khiển",
+  "tenmonhoc_eng": "Microprocessors-Microcontrollers",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    }
+  ]
+}

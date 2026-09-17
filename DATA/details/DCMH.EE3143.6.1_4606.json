@@ -1,0 +1,2323 @@
+{
+  "ma": "DCMH.EE3143.6.1",
+  "phienban": "6.1",
+  "capnhat": "26/06/2024 12:19",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3143",
+  "ten": "EE3143 - Điều khiển và ứng dụng các bộ biến đổi công suất",
+  "ten_eng": "EE3143 - Control and Applications of Power Electronic Converters",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>&nbsp;Cung cấp cho người học kiến thức để phân tích và thiết\nkế các mạch điện tử công suất cho các ứng dụng thực tế. Môn học cũng giúp sinh\nviên thấy được vai trò quan trọng của điện tử công suất và hiểu biết về những\nứng dụng của điện tử công suất trong một số lãnh vực như các bộ nguồn cấp điện\nmột chiều, điều khiển động cơ, năng lượng tái tạo và hệ thống điện.\n\n\n\n<br></p>",
+      "en": "<p>The aim of this subject is to provide students with sufficient knowledge for the analysis and design of power electronic circuits in practical applications. The course also describes the important role of power electronics and its applications in switching power supplies, motor control, renewable energy and power systems<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n\n\n\n\n\n\n\n\n\n\n\n\nCác chủ đề được đề cập trong\nmôn học bao gồm: giới thiệu về điện tử công suất và ứng dụng, thiết kế bộ khoá\ncông suất (chọn linh kiện, thiết kế mạch kích và mạch đệm, tính toán tản\nnhiệt), thiết kế điều khiển hồi tiếp cho bộ nguồn đóng ngắt, khảo sát bộ nguồn\nđóng ngắt kiểu cách ly, thiết kế biến áp và cuộn cảm tần số cao, ứng dụng điện\ntử công suất trong lãnh vực điều khiển động cơ, năng lượng tái tạo và hệ thống\nđiện, điều khiển pha thyristor và mạch kích.\n\n\n\n<br></p>",
+      "en": "<p>Topics covered in this course include: Introduction to power electronics and applications, design the switching power pole (selecting transistors and diodes, designing driver circuits and snubber circuits, heating calculations), designing feedback controller for switch-mode dc power supplies, transformer-isolated switch-mode power supplies, design of high frequency transformers and inductors, applications of power electronics in motor controls, renewable energy and utilities, phase control of thyristors and driver circuits<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] N. Mohan, <i>First Course on Power Electronics</i>,\nMNPERE, Minneapolis, MN, 2009.\n\n</p><p>[2] N. Mohan, T.M. Undeland, W.P.\nRobbins, <i>Power Electronics: Converters,\nApplications and Design</i>, John Wiley and Sons, 3rd edition, 2003.</p>\n\n<p>[3] Haitham Abu-Rub, Mariusz\nMalinowski and Kamal Al-Haddad, <i>Power\nElectronics for Renewable Energy Systems, Transportation and Industrial\nApplications</i>, IEEE Press, 2014.</p>\n\n[3] Bài giảng “Điều khiển và ứng dụng\ncác bô biến đổi công suất” (Đang biên soạn)\n\n\n\n<br><p></p>",
+      "en": "<p>[1] N. Mohan, First Course on Power Electronics, MNPERE, Minneapolis, MN, 2009.<br>[2] N. Mohan, T.M. Undeland, W.P. Robbins, Power Electronics: Converters, Applications and Design, John Wiley and Sons, 3rd edition, 2003.<br>[3] Haitham Abu-Rub, Mariusz Malinowski and Kamal Al-Haddad, Power Electronics for Renewable Energy Systems, Transportation and Industrial Applications, IEEE Press, 2014.<br>[3] Lecture \"Control and application of power converters\" (Planned for compilation)<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><b><u>Để đạt được kết quả tốt sinh viên chú ý các yêu cầu sau</u></b><br>- Sinh viên cần theo dõi đầy đủ các giờ giảng lý thuyết (2 tiết/tuần) để nắm kiến thức cơ bản.<br>- Sinh viên phải thực hiện các bài tập lớn<br>- Sinh viên phải tham gia đầy đủ 3 buổi thí nghiệm 5 tiết/ buổi và nộp báo cáo thí nghiệm.<br>- Sinh viên phải thực hiện đầy đủ bài tập giao về nhà với các hoạt động: vận dụng lý thuyết, tìm tài liệu bổ sung, tổng hợp, mô phỏng, báo cáo.<br><b>Giảng viên đánh giá</b><br>- Tỷ lệ đánh giá là : 20% bài tập lớn; 20% thí nghiệm ; 60% thi cuối kỳ (120 phút, thi tự luận )<br>- Các dạng đánh giá đều dựa trên chuẩn đầu ra (L.O.1 – L.O.7).<br>- L.O.1- L.O.6 được đánh giá trong bài tập lớn, bài kiểm tra giữa kỳ và cuối kỳ.<br>- L.O.7 được đánh giá thông qua các báo cáo các bài thí nghiệm.<br></p>",
+      "en": "<p><b>To achieve good results, students should pay attention to the following requirements</b><br>- Students need to fully follow the theory lectures (2 periods/week) to grasp the basic knowledge.<br>- Students have to do big exercises<br>- Students must fully participate in 3 experimental sessions of 5 periods/session and submit test reports.<br>- Students must complete homework assignments with activities: applying theory, finding additional materials, synthesizing, simulating, reporting.<br><b>Instructor evaluation</b><br>- Rate of assessment is: 20% of major exercises; 20% experiment ; 60% final exam (120 minutes, essay exam)<br>- All types of assessment are based on output standards (L.O.1 – L.O.7).<br>- L.O.1- L.O.6 is assessed in large assignments, midterm and final exams.<br>- L.O.7 is evaluated through test reports.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "nganh": [
+    {
+      "id": 1399,
+      "ma": "NG_KDI",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ Thuật Điện (2021)",
+        "en": "Electrical Engineering (2021)"
+      }
+    },
+    {
+      "id": 1105,
+      "ma": "NG_KTD",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ Thuật Điện (2020)",
+        "en": "Electrical Engineering"
+      }
+    },
+    {
+      "id": 1397,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2021)",
+        "en": "Control Engineering and Automation (2021)"
+      }
+    },
+    {
+      "id": 1245,
+      "ma": "NG_KDI",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ Thuật Điện (2019)",
+        "en": "Electrical Engineering"
+      }
+    },
+    {
+      "id": 1247,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2019)",
+        "en": "Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 1157,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2020)",
+        "en": "Control Engineering and Automation"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 520,
+      "ma": "001387",
+      "ten": "Tô Hữu Phúc"
+    },
+    {
+      "id": 522,
+      "ma": "001767",
+      "ten": "Phan Quốc Dũng"
+    },
+    {
+      "id": 613,
+      "ma": "001671",
+      "ten": "Nguyễn Văn Nhờ"
+    },
+    {
+      "id": 524,
+      "ma": "002583",
+      "ten": "Nguyễn Đình Tuyên"
+    },
+    {
+      "id": 528,
+      "ma": "003172",
+      "ten": "Hồ Thanh Phương"
+    },
+    {
+      "id": 525,
+      "ma": "002729",
+      "ten": "Trương Phước Hòa"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": 0.5,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 0.5,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 15,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 23,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 67,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 23,
+        "ma": "120",
+        "thoigian": 120,
+        "text": {
+          "vi": "120 phút",
+          "en": "120 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": true,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 20,
+    "doAn": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1039,
+      "maBoMon": "CCD",
+      "tenBoMon": {
+        "vi": "Cung Cấp Điện"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "107 B1, Khoa Điện - Điện tử",
+      "dienThoai": "0903019288"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 520,
+        "maGiangVien": "001387",
+        "tenGiangVien": "Tô Hữu Phúc",
+        "emailGiangVien": "thphuc@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3g",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2021 - Cơ sở Điện tử Công suất",
+        "en": "EE2021 - Fundamental of Power Electronics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ sở Điện tử Công suất",
+        "en": "Fundamental of Power Electronics"
+      },
+      "mamonhoc": "EE2021"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 7432,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "GiẢng viÊn nhẬn xÉt kẾt quẢ sỬa bÀi tẬp cỦa sinh viÊn",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 7433,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập cá nhân về nhà",
+        "en": "Individual exercises at home"
+      },
+      "noidung": {
+        "vi": "Bài tập cá nhân về nhà",
+        "en": "Individual exercises at home"
+      }
+    },
+    {
+      "id": 7434,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group homework"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group homework"
+      }
+    },
+    {
+      "id": 7435,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Group project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Group project"
+      }
+    },
+    {
+      "id": 7436,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Thuyết trình",
+        "en": "Presentation"
+      },
+      "noidung": {
+        "vi": "Thuyết trình",
+        "en": "Presentation"
+      }
+    },
+    {
+      "id": 7437,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Final exam"
+      }
+    },
+    {
+      "id": 7438,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra thực hiện trên lab",
+        "en": "Test performed on lab"
+      },
+      "noidung": {
+        "vi": "Kiểm tra thực hiện trên lab",
+        "en": "Test performed on lab"
+      }
+    },
+    {
+      "id": 7439,
+      "stt": 0,
+      "ma": "A.O.7",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo thí nghiệm ",
+        "en": "Test report"
+      },
+      "noidung": {
+        "vi": "Báo cáo thí nghiệm ",
+        "en": "Test report"
+      }
+    },
+    {
+      "id": 7440,
+      "stt": 0,
+      "ma": "A.O.8",
+      "capdo": "1",
+      "parentid": "7432",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exercises in class"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exercises in class"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 7446,
+      "stt": 1,
+      "buoi": "1/ Chương 1",
+      "chuandaurachitiet": [
+        {
+          "id": 10372,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide của chương 1\n- Giao bài tập về nhà cho sinh viên",
+            "en": "- Present the slides of chapter 1\n- Assign homework to students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tìm hiểu sử dụng phần mềm PSIM.\n- Tìm hiểu các ứng dụng của điện tử công suất trong thực tế qua sách báo, internet.\n- Làm bài tập về nhà",
+            "en": "- Learn to use PSIM software.\n- Learn the applications of power electronics in practice through books, internet.\n- Do homework"
+          },
+          "chuandaura": {
+            "id": 46952,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Nhận dạng được switching power pole là cấu trúc cơ bản và kỹ thuật điều rộng xung (PWM) là kỹ thuật điều chế cơ bản của các bộ biến đổi kiểu nguồn áp",
+              "en": "Identify switching power-pole as a basic building block and Pulse-Width-Modulation (PWM) as a basic technique for Voltage-source power converter "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16957,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7440,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises in class"
+                }
+              }
+            },
+            {
+              "id": 16958,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10371,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu\n- Giới thiệu về môn học, tài liệu tham khảo và cách đánh giá\n- Nhấn mạnh cấu hình bộ biến đổi kiểu nguồn áp và switching power pole sẽ được dùng trong phân tích và thiết kế các bộ biến đổi điện tử công suất trong môn học.\n- Giới thiệu phần mềm PSIM sẽ dùng để mô phỏng các mạch điện tử công suất trong môn học.\n- Giao bài tập về nhà cho sinh viên.\n",
+            "en": "- Self-introduce\n- Introduction to the subject, references and assessment methods\n- Emphasize the configuration of voltage source converters and switching power poles that will be used in the analysis and design of power electronic converters in the course.\n- Introduction of software PSIM will be used to simulate power electronic circuits in the subject.\n- Assign homework to students."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tìm hiểu sử dụng phần mềm PSIM.\n- Tìm hiểu các ứng dụng của điện tử công suất trong thực tế qua sách báo, internet.\n- Làm bài tập về nhà\n",
+            "en": "- Learn to use PSIM software.\n- Learn the applications of power electronics in practice through books, internet.\n- Do homework"
+          },
+          "chuandaura": {
+            "id": 46951,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hiểu vai trò quan trọng của điện tử công suất qua các ứng dụng  cụ thể trong: dây chuyền  sản xuất, năng lượng, giao thông, dân dụng, v.v…",
+              "en": "Describe the important role of Power Electronics in various applications such as production systems, energy conversions, transportation, domestic appliances, etc."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16956,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7440,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises in class"
+                }
+              }
+            },
+            {
+              "id": 16955,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về môn học\n- Thông tin Thầy/Cô\n- Các vấn đề liên quan đến môn học\n- Cách thức dạy và học \n\nChương 1: Giới thiệu về điện tử công suất và ứng dụng \n1.1\tGiới thiệu về điện tử công suất\n1.2\tVai trò và các lãnh vực ứng dụng của điện tử công suất\n1.3\tBộ biến đổi kiểu nguồn áp và khái niệm switching power pole\n1.4\tGiới thiệu phần mềm dùng để mô phỏng và thiết kế mạch điện tử công suất\n1.5\tNhững thành tựu gần đây và tương lai phát triển của điện tử công suất\n",
+        "en": "Introduction to the subject\n- Teacher's information\n- Subject-related issues\n- Teaching and learning methods\n\nChapter 1: Introduction to power electronics and its applications\n1.1 Introduction to power electronics\n1.2 Roles and application areas of power electronics tử\n1.3 Voltage source type converter and switching power pole . concept\n1.4 Introduction of PSIM software used to simulate and design power electronic circuits\n1.5 Recent achievements and future development of power electronics"
+      }
+    },
+    {
+      "id": 7443,
+      "stt": 2,
+      "buoi": "2,3 / Chương 2",
+      "chuandaurachitiet": [
+        {
+          "id": 10361,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu các đặc tính kỹ thuật thực tế của transistor, diode; giúp sinh viên nắm được các thông số cơ bản từ các đặc tính kỹ thuật này.\n- Giới thiệu đặc tính kỹ thuật thực tế của một số driver IC.\n- Giới thiệu trình tự tính chọn transistor, diode, cách tính toán thiết kế mạch driver, mạch snubber, tản nhiệt qua các ví dụ tính toán với linh kiện thực tế.\n- Giao bài tập về nhà cho sinh viên, bao gồm tính toán và mô phỏng trên PSIM các phần đã học.\n- Giao đề bài tập lớn cho từng nhóm sinh viên\n",
+            "en": "- Introduce the actual technical characteristics of transistors, diodes; help students grasp the basic parameters from these specifications.\n- Introduce the actual specifications of some IC drivers.\n- Introduce the order of calculation of transistor, diode, how to calculate driver circuit design, snubber circuit, heat dissipation through calculation examples with actual components.\n- Assign homework to students, including calculations and simulations on PSIM of the learned parts.\n- Assign large assignments to each group of students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập về nhà \n- Qua sách báo, internet, tìm hiểu các phẩn mềm tính toán thiết kế điện tử công suất khác và 1-2 sinh viên giới thiệu một vài phần mềm này tại lớp (15 – 20 phút)\n",
+            "en": "- Do homework\n- Through books, internet, learn other power electronic design calculation software and 1-2 students introduce some of these software in class (15 - 20 minutes)"
+          },
+          "chuandaura": {
+            "id": 46954,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Thiết kế được bộ khoá công suất, bao gồm việc: chọn lựa các transistor và diode theo thông số thực tế, tính được mạch subber, tính chọn được tản nhiệt, mô phỏng được hoạt động của bộ khoá công suất trên PSIM",
+              "en": "L.O.2.1 – Design the switching power-poles, including: selecting suitable transistors and diodes with practical datasheet, designing their snubber circuits, calculating their heatsinks and simulating their operation with a simualtion software such as PSIM.     "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16934,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7440,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises in class"
+                }
+              }
+            },
+            {
+              "id": 16935,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 16936,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 7437,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10360,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide của chương 2\n- Nhận xét kết quả sửa bài tập tại lớp của sinh viên",
+            "en": "- Present the slides of chapter 2\n- Comment on the results of correcting students' exercises in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập trên lớp\n- Về nhà tìm tài liệu để làm bài tập lớn được giao",
+            "en": "- Do homework in class\n- Go home to find materials to do the big homework assigned"
+          },
+          "chuandaura": {
+            "id": 46955,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thiết kế được được mạch driver cho MOSFET/IGBT với IC thực tế.",
+              "en": "Design driver circuits for MOSFET/IGBT using practical IC"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16932,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 16933,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Thiết kế bộ khoá công suất (switching power pole) \n2.1 Transistor (MOSFET và IGBT) và diode công suất\n2.2 Chọn transistor công suất \n2.3 Chọn diode công suất\n2.4 Đặc tính chuyển mạch và tổn hao công suất trên bộ khoá công suất (switching power pole)\n2.5 Phương pháp điều rộng xung (PWM) và PWM-IC\n2.6 Mạch driver cho transistor \n2.7 Mạch đệm (snubber) cho transistor và diode\n2.8 Tính toán tản nhiệt",
+        "en": "Chapter 2: Designing a switching power pole\n2.1 Transistor (MOSFET and IGBT) and power diode\n2.2 Choosing power transistors\n2.3 Select power diode\n2.4 Switching characteristics and power loss on the switching power pole\n2.5 Pulse Width Modulation (PWM) and PWM-IC\n2.6 Driver circuit for transistor\n2.7 Snubber circuit for transistor and diode\n2.8 Calculation of heat dissipation"
+      }
+    },
+    {
+      "id": 7444,
+      "stt": 3,
+      "buoi": "4-6/Chương 3",
+      "chuandaurachitiet": [
+        {
+          "id": 10364,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại một số kiến thức về lý thuyết điều khiển cho hệ tuyến tính: hàm truyền, thiết kế với khâu hiệu chỉnh kiểu sớm / trễ pha và khâu hiệu chỉnh tỉ lệ - tích phân (PI).\n- Ôn lại kiến thức về các bộ biến đổi điện áp một chiều kiểu buck, boost và buck-boost.\n- Giới thiệu các PWM IC tiêu biểu hoạt động theo nguyên lý điều khiển theo điện áp và điều khiển theo dòng điện.\n- Giới thiệu cách tính toán thiết kế mạch điều khiển bộ nguồn đóng cắt kiểu vòng kín với PWM IC qua các ví dụ thiết kế. \n- Giao bài tập về nhà cho sinh viên (tính toán, mô phỏng)\n",
+            "en": "- Review some knowledge of control theory for linear systems: transfer function, design with phase early/delay correction and proportional - integral (PI) correction.\n- Review knowledge of buck, boost and buck-boost dc voltage converters.\n- Introduction of typical PWM ICs operating on the principle of voltage control and current control.\n- Introduce how to calculate and design the control circuit of closed-loop switching power supply with PWM IC through design examples.\n- Assign homework to students (calculation, simulation)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập về nhà\n- Lập trình mô phỏng trên PSIM các ví dụ thiết kế.\n",
+            "en": "- Do homework\n- Programming simulation on PSIM design examples."
+          },
+          "chuandaura": {
+            "id": 46956,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Tính chọn được các giá trị cần thiết của cuộn cảm, tụ điện, biến áp theo yêu cầu cho trước của mạch ",
+              "en": "Design basic parameters for other devices of a power electronic converters: transformer, inductor, capacitor, etc., on the basis of given requirements for the converter."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16942,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7440,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises in class"
+                }
+              }
+            },
+            {
+              "id": 16941,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10365,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide của chương 3\n- Giao bài tập về nhà cho sinh viên",
+            "en": "- Presenting slides of chapter 3\n- Assign homework to students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập về nhà\n- Mô phỏng bằng PSIM bài tập ",
+            "en": "- Do homework\n- Simulate with PSIM exercises"
+          },
+          "chuandaura": {
+            "id": 46960,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được hoạt động của các cấu hình bộ biến đổi dc-dc cơ bản trong chế độ xác lập",
+              "en": "Analyze the operation of basic DC-DC converter topologies in steady state"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16943,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 16944,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10362,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng bài\n- Tổ chức thảo luận\n- Giải đáp thắc mắc của sinh viên",
+            "en": "- Teaching\n- Organize discussion\n- Answer students' questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Đọc tài liệu trước giờ giảng\n2. Nghe giảng bài và đặt câu hỏi thảo luận\n3. Làm bài tập được giao",
+            "en": "1. Read the materials before class\n2. Listen to lectures and ask discussion questions\n3. Do the assigned homework"
+          },
+          "chuandaura": {
+            "id": 46961,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Mô hình hoá được bộ nguồn đóng cắt điều khiển vòng kín theo hai kiểu: điều khiển theo điện áp và điều khiển theo dòng điện",
+              "en": "Model the DC-DC converters in voltage-mode control and current-mode control"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16938,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7433,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual exercises at home"
+                }
+              }
+            },
+            {
+              "id": 16937,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10363,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "1. Giảng bài\n2. Tổ chức thảo luận, giải đáp thắc mắc của sinh viên\n3. Giao bài tập về nhà",
+            "en": "1. Lectures\n2. Organize discussions and answer questions from students\n3. Assign homework"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Đọc tài liệu trước giờ giảng\n2. Nghe giảng bài và đặt câu hỏi thảo luận\n3. Làm bài tập được giao",
+            "en": "1. Read the materials before class\n2. Listen to lectures and ask discussion questions\n3. Do the assigned homework"
+          },
+          "chuandaura": {
+            "id": 46962,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Thiết kế được mạch điều khiển bộ nguồn đóng cắt kiểu vòng kín với PWM IC thực tế (loại điều khiển theo điện áp và loại điều khiển theo dòng điện)",
+              "en": "Design the closed-loop controllers for DC-DC converters with practical PWM ICs (voltage-mode type and current-mode type)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16939,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 16940,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10366,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "1. Giảng bài\n2. Tổ chức thảo luận, , giải đáp thắc mắc của sinh viên\n3. Giao bài tập lớn số 1 cho sinh viên",
+            "en": "1. Lectures\n2. Organize discussion, answer questions from students\n3. Assign the biggest assignment number 1 to students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Đọc tài liệu trước giờ giảng\n2. Nghe giảng bài và đặt câu hỏi thảo luận\n3. Thực hiện bài tập lớn số 1",
+            "en": "1. Read the materials before class\n2. Listen to lectures and ask discussion questions\n3. Do the big exercise number 1"
+          },
+          "chuandaura": {
+            "id": 46963,
+            "ma": "L.O.3.4",
+            "ten": {
+              "vi": "Mô phỏng được hoạt động của mạch với phần mềm chuyên dụng (như PSIM).",
+              "en": "Simulate the converter circuitry with simulation software such as PSIM"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16945,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 16946,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Thiết kế điều khiển hồi tiếp cho bộ biến đổi dc-dc \n3.1 Một số kiến thức cần thiết về hệ thống điều khiển tuyến tính \n3.2 Các bộ biến đổi một chiều kiểu giảm áp (buck), tăng áp (boost) và tăng giảm áp (buck-boost)\n3.3 Điều khiển theo điện áp (voltage mode) và điều khiển theo dòng điện (current mode)\n3.4 Hàm truyền các phần tử trong bộ nguồn điều khiển theo điện áp\n3.5 Ví dụ thiết kế\n3.6 Hàm truyền các phần tử trong bộ nguồn điều khiển theo dòng điện\n3.7 Ví dụ thiết kế\n",
+        "en": "Chapter 3: Feedback control design for dc-dc . converter\n3.1 Some necessary knowledge about linear control system\n3.2 buck, boost and buck-boost DC converters\n3.3 Voltage mode and current mode\n3.4 Transfer function of elements in a voltage-controlled power supply\n3.5 Design examples\n3.6 Transfer function of elements in a current-driven power supply\n3.7 Design examples"
+      }
+    },
+    {
+      "id": 7447,
+      "stt": 4,
+      "buoi": "7, 8 /Chương 4",
+      "chuandaurachitiet": [
+        {
+          "id": 10374,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1. Giảng bài\n2. Giao bài tập cho sinh viên\n3. Hướng dẫn cho sinh viên mô phỏng PSIM",
+            "en": "1. Lectures\n2. Assigning assignments to students\n3. Student Guide to Simulation PSIM"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Mô phỏng bằng PSIM bài tập được giao\n2. Thảo luận về kết quả mô phỏng",
+            "en": "1. Simulate by PSIM the assigned exercise\n2. Discussion of simulation results"
+          },
+          "chuandaura": {
+            "id": 46963,
+            "ma": "L.O.3.4",
+            "ten": {
+              "vi": "Mô phỏng được hoạt động của mạch với phần mềm chuyên dụng (như PSIM).",
+              "en": "Simulate the converter circuitry with simulation software such as PSIM"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16962,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 16961,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10373,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu hoạt động các bộ nguồn đóng cắt có biến áp cách ly.\n- Hướng dẫn trình tự tính toán thiết kế một bộ nguồn.\n- Hướng dẫn sinh viên lập chương trình mô phỏng hoạt động của bộ nguồn trên PSIM\n- Giao sinh viên bài tập về nhà (tính toán, mô phỏng)\n",
+            "en": "- Introduce the operation of switching power supplies with isolation transformers.\n- Instructions on the sequence of calculating and designing a power supply.\n- Guide students to create a program to simulate the operation of the power supply on PSIM\n- Assign students homework (calculation, simulation)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập về nhà\n- Lập trình mô phỏng trên PSIM các ví dụ thiết kế.\n",
+            "en": "- Do homework\n- Programming simulation on PSIM design examples."
+          },
+          "chuandaura": {
+            "id": 46960,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được hoạt động của các cấu hình bộ biến đổi dc-dc cơ bản trong chế độ xác lập",
+              "en": "Analyze the operation of basic DC-DC converter topologies in steady state"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16959,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 16960,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Bộ nguồn đóng ngắt có biến áp cách ly \n4.1 Giới thiệu về bộ nguồn đóng ngắt có biến áp cách ly và ứng dụng  – Phân loại\n4.2 Bộ biến đổi kiểu flyback\n4.3 Bộ biến đổi kiểu forward\n4.4 Bộ biến đổi kiểu cầu \n4.4 Bộ biến đổi kiểu push-pull\n4.5 Ví dụ thiết kế\n",
+        "en": "Chapter 4: Switching power supplies with isolation transformer\n4.1 Introduction to switching power supplies with isolating transformers and their applications – Classification\n4.2 Flyback type converter\n4.3 Forward . type converter\n4.4 Bridge type converter\n4.4 Push-pull type converters\n4.5 Design examples"
+      }
+    },
+    {
+      "id": 7450,
+      "stt": 5,
+      "buoi": "9, 10 /Chương 5",
+      "chuandaurachitiet": [
+        {
+          "id": 10359,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1. Trình bày các slide của chương 5\n2. Tổ chức thảo luận\n3. Giải đáp thắc mắc của sinh viên",
+            "en": "1. Present the slides of chapter 5\n2. Organize discussion\n3. Answering students' questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Xem trước bài giảng\n2. Trình bày các bài tập được giao trước lớp\n3. Làm bài tập về nhà",
+            "en": "1. Lecture preview\n2. Present the assigned exercises in front of the class\n3. Do your homework"
+          },
+          "chuandaura": {
+            "id": 46958,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thiết kế được biến áp và cuộn cảm tần số cao trong các bộ biến đổi điện tử công suất",
+              "en": "Design high-frequency transformers and inductors for power converter applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16931,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7437,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 16930,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10358,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu các đặc tính kỹ thuật của lõi từ qua các catalog, giúp sinh viên có thể rút ra được các thông số cần thiết của lõi từ khi chọn lõi từ và thiết kế.\n- Gới thiệu trình tự tính toán thiết kế cuộn cảm và biến áp qua các ví dụ tính toán.\n- Giao bài tập về nhà cho sinh viên\n",
+            "en": "- Introduce the technical characteristics of magnetic cores through catalogs, helping students to draw the necessary parameters of magnetic cores when choosing magnetic cores and designing.\n- Introduce the order of calculating inductor and transformer design through calculation examples.\n- Assign homework to students sinh"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập về nhà\n- Tìm hiểu các phần mềm giúp thiết kế cuộn dây và biến áp trên internet và 1-2 sinh viên giới thiệu một vài phần mềm này tại lớp (15 – 20 phút)\n",
+            "en": "- Do homework\n- Learn the software to help design coils and transformers on the internet and 1-2 students introduce some of these software in class (15 - 20 minutes)"
+          },
+          "chuandaura": {
+            "id": 46957,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Xác định được các thông số quan trọng của các loại vật liệu từ và lõi từ tần số cao",
+              "en": "Learn important parameters and characteristics of high-frequency magnetic material and cores"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16928,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7436,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            },
+            {
+              "id": 16929,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Thiết kế cuộn cảm và biến áp tần số cao \n5.1 Giới thiệu\n5.2 Vật liệu từ - Cấu trúc cuộn cảm và biến áp tần số cao\n5.3 Các công thức cơ bản về mạch từ\n5.4 Thiết kế biến áp – Ví dụ tính toán\n5.5 Thiết kế cuộn cảm – Ví dụ tính toán\n",
+        "en": "Chapter 5: Design of high frequency inductors and transformers\n5.1 Introduction\n5.2 Magnetic materials - High frequency transformer and inductor construction\n5.3 Basic formulas of magnetic circuits\n5.4 Transformer design – Calculation example\n5.5 Inductor design – Calculation example"
+      }
+    },
+    {
+      "id": 7451,
+      "stt": 6,
+      "buoi": "11-12 /Chương 6",
+      "chuandaurachitiet": [
+        {
+          "id": 10353,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Ngoài việc trình bày các ứng dụng của điện tử công suất theo nội dung đã nêu trong chương, nên giới thiệu thêm qua hình ảnh, catalog, đoạn video ngắn về các ứng dụng này.",
+            "en": "- In addition to presenting the applications of power electronics according to the content mentioned in the chapter, it is recommended to introduce more images, catalogs, and short videos about these applications."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tìm hiểu thêm về các ứng dụng khác của điện tử công suất trong thực tế và 1-2 sinh viên giới thiệu các ứng dụng  này tại lớp (15 – 20 phút)",
+            "en": "- Learn more about other applications of power electronics in practice and 1-2 students introduce these applications in class (15 - 20 minutes)"
+          },
+          "chuandaura": {
+            "id": 46965,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu nguyên lý điều khiển tốc độ động cơ một chiều và động cơ xoay chiều (đồng bộ và không đồng bộ), đồng thời hiểu cấu trúc và hoạt động",
+              "en": "Learn the principles of speed control of direct-current (dc) motors and induction motors (synchronous and asynchronous types), and topologies and operation principles of power converters for these motor control applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16919,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7436,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            },
+            {
+              "id": 16918,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7437,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10352,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1. Trình bày các slide của chương 6\n2. Tổ chức cho sinh viên thuyết trình\n3. Giải đáp thắc mắc của sinh viên",
+            "en": "1. Present the slides of chapter 6\n2. Organize student presentations\n3. Answering students' questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Xem trước bài giảng\n2. Thuyết trình và đặt câu hỏi liên quan\n3. Làm bài tập nhóm về nhà",
+            "en": "1. Lecture preview\n2. Presenting and asking related questions\n3. Do group homework"
+          },
+          "chuandaura": {
+            "id": 46966,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Hiểu về những ứng dụng các bộ biến đổi điện tử công suất trong lãnh vực năng lượng tái tạo và hệ thống điện",
+              "en": "Learn the applications of power converters in power utilities and renewable energy applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16917,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 16916,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Một số ứng dụng khác của điện tử công suất \n6.1 Giới thiệu\n6.2 Điều khiển động cơ một chiều\n6.3 Điều khiển động cơ xoay chiều\n6.4 Ứng dụng trong năng lượng tái tạo (renewable energy)\n6.5 Ứng dụng trong hệ thống điện",
+        "en": "Chapter 6: Some other applications of power electronics\n6.1 Introduction\n6.2 Controlling a DC motor\n6.3 AC motor control\n6.4 Applications in renewable energy\n6.5 Applications in electrical systems"
+      }
+    },
+    {
+      "id": 7448,
+      "stt": 7,
+      "buoi": "13 /Chương 7",
+      "chuandaurachitiet": [
+        {
+          "id": 10355,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1. Trình bày tiếp các silde của chương 7\n2. Tổ chức thảo luận và giải đáp thắc mắc\n3. Giao bài tập lớn cho sinh viên",
+            "en": "1. Present the slides of chapter 7\n2. Organize discussion and answer questions\n3. Assign large assignments to students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Xem trước bài giảng\n2. Tìm tài liệu để làm bài tập lớn được giao",
+            "en": "1. Lecture preview\n2. Find materials to do the big assignment assigned"
+          },
+          "chuandaura": {
+            "id": 46969,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Hiểu nguyên lý hoạt động của vi mạch điều khiển pha và bộ điều khiển pha công nghiệp tiêu biểu",
+              "en": "Learn the principle operation of a practical IC using for phase control and some typical industrial phase controllers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16922,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 16923,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10354,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Chỉ ra được những điểm chung và điểm khác biệt khi ứng dụng nguyên lý điều khiển pha cho bộ chỉnh lưu và bộ biến đổi điện áp xoay chiều.\n- Giao bài tập về nhà cho sinh viên (mô phỏng mạch điều khiển pha trên PSIM)\n",
+            "en": "- Point out the common points and differences when applying the principle of phase control to rectifiers and AC voltage converters.\n- Assign homework to students (simulate phase control circuit on PSIM)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-  Làm bài tập về nhà.\n- Nghiên cứu thiết kế mạch điều khiển chỉnh lưu 3 pha và bộ biến đổi điện áp xoay chiều 3 pha với bộ điều khiển pha công nghiệp được giới thiệu.\n",
+            "en": "-  Do homework.\n- Research and design of 3-phase rectifier control circuit and 3-phase AC voltage converter with industrial phase controller are introduced."
+          },
+          "chuandaura": {
+            "id": 46968,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Hiểu nguyên lý thực hiện mạch điều khiển pha cho các bộ chỉnh lưu có điều khiển và bộ biến đổi điện áp xoay chiều",
+              "en": "Learn the principle of design the controller using phase control principle for thyristor rectifiers and thyristor ac-ac converters"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16921,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 16920,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7434,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Điều khiển pha thyristor và mạch kích \n7.1 Giới thiệu\n7.2 Các cấu hình ứng dụng điều khiển pha \n7.3 Nguyên lý mạch kích thyristor theo kiểu điều khiển pha – Sơ đồ khối - Giới thiệu vi mạch TCA785 \n7.4 Ví dụ thiết kế: mạch kích cho bộ chỉnh lưu có điều khiển một pha dùng TCA785.\n7.5 Giới thiệu bô điều khiển pha thyristor tiêu biểu trong công nghiệp.\n",
+        "en": "Chapter 7: Thyristor phase control and trigger circuit\n7.1 Introduction\n7.2 Phase control application configurations\n7.3 Principle of thyristor driver circuit according to phase control – Block diagram - Introduction of TCA785 IC\n7.4 Design example: single-phase controlled rectifier excitation circuit using TCA785.\n7.5 Introduction of the typical thyristor phase controller in the industry."
+      }
+    },
+    {
+      "id": 7449,
+      "stt": 8,
+      "buoi": "14, 15/Seminar",
+      "chuandaurachitiet": [
+        {
+          "id": 10357,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1. Tổ chức buổi seminar \n2. Giáo viên chấm chéo\n3. Nhận xét và cho điểm bài tập lớn thuyết trình của sinh viên",
+            "en": "1. Organize seminar\n2. Teacher cross marks\n3. Comment and give marks to students' presentations"
+          },
+          "hoatdongsinhvien": {
+            "vi": "1. Trình bày thuyết trình\n2. Trả lời câu hỏi \n3. Nộp bài tập qua BKel",
+            "en": "1. Presentation presentation\n2. Answer the question\n3. Submit assignments via BKel"
+          },
+          "chuandaura": {
+            "id": 46972,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Thực hiện báo cáo bằng văn bản,  thuyết trình và giao tiếp",
+              "en": "Demonstrate ability to perform a written report, to present and to communicate"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16926,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 16927,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7436,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10356,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Điều khiển buổi trình bày seminar của sinh viên: kiểm soát thời gian, đưa ra câu hỏi gợi ý để thảo luận.",
+            "en": "- Controlling the students' seminar presentation: controlling the time, giving suggested questions for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Trình bày báo cáo và trả lời các câu hỏi của người nghe.",
+            "en": "- Present reports and answer questions from listeners."
+          },
+          "chuandaura": {
+            "id": 46971,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Biết tổ chức và làm việc theo nhóm",
+              "en": "L.O.6.1\tDemonstrate ability to work in groups to solve problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16924,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7435,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 16925,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7436,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Seminar: Các nhóm bài tập lỚn lần lượt trình bày kết quả của nhóm trước lớp\n- Mỗi nhóm nộp báo cáo (bản in hoặc file Word)\n- Mỗi nhóm trình bày về kết quả của nhóm trong 5 – 10ph (sử dụng Power point), phần hỏi – đáp trong 10ph.\n",
+        "en": "Seminar: Large groups of exercises take turns to present their results in front of the class\n- Each group submits a report (print or Word file)\n- Each group presents the results of the group in 5 - 10 minutes (using Power point), the question and answer part in 10 minutes."
+      }
+    },
+    {
+      "id": 7445,
+      "stt": 9,
+      "buoi": "16, 17, 18/TN ",
+      "chuandaurachitiet": [
+        {
+          "id": 10367,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-  Điều khiển buổi thí nghiệm: kiểm tra sự chuẩn bị trước thí nghiệm của sinh viên, giải thích yêu cầu, mục tiêu của thí nghiệm,\n- Hướng dẫn trình tự thí nghiệm,\n- Quan sát và kiểm tra sinh viên mắc mạch và cho phép đóng điện, đảm bảo các điều kiện an toàn\n- Thu kết quả thí nghiệm và ký nhận\n",
+            "en": "- Conduct the experiment session: check the students' pre-experiment preparation, explain the requirements and objectives of the experiment,\n- Instructions for the test sequence,\n- Observe and check students with circuits and allow power on, ensuring safe conditions\n- Collect test results and sign receipt"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị trước ở nhà nội dung bài thí nghiệm\n- Nghe hướng dẫn trình tự thí nghiệm\n- Tuân thủ các quy trình an toàn điện và các quy định khi thí nghiệm\n- Thực hiện thí nghiệm theo hướng dẫn\n- Báo cáo kết quả thí nghiệm theo yêu cầu\n",
+            "en": "- Prepare the test content at home in advance\n- Listen to instructions on the experimental sequence\n- Comply with electrical safety procedures and regulations when testing\n- Carry out the experiment according to the instructions\n- Report test results on request"
+          },
+          "chuandaura": {
+            "id": 46974,
+            "ma": "L.O.7.1",
+            "ten": {
+              "vi": "Hiểu được nguyên lý thực hiện mạch driver cho MOSFET/IGBT và đặc tính đóng cắt của linh kiện",
+              "en": "Know the principle of a driver circuit for MOSFET/IGBT and switching characteristics of these power devices"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16947,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7439,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm ",
+                  "en": "Test report"
+                }
+              }
+            },
+            {
+              "id": 16948,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7438,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kiểm tra thực hiện trên lab",
+                  "en": "Test performed on lab"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10369,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1. Kiểm tra sự chuẩn bị trước buổi thí nghiệm của sinh viên\n2. Kiểm tra sự mắc mạch của các nhóm.\n3. Đánh giá quá trình thí nghiệm của sinh viên cuối buổi thí nghiệm",
+            "en": "1. Check the students' preparation before the experiment\n2. Check the circuit of the groups.\n3. Evaluation of the student's experimental process at the end of the experiment"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị trước ở nhà nội dung bài thí nghiệm\n- Nghe hướngdẫn trình tự thí nghiệm - Tuân thủ các quy trình an toàn điện và các quy định khi thí nghiệm\n- Thực hiện thí nghiệm theo hướng dẫn\n- Trình kết quả cho giáo viên kiểm tra, ký nhận vào cuối buổi thí nghiệm",
+            "en": "- Prepare the test content at home in advance\n- Listen to the test sequence instructions - Follow electrical safety procedures and regulations when testing\n- Carry out the experiment according to the instructions\n- Present the results to the teacher to check and sign at the end of the experiment"
+          },
+          "chuandaura": {
+            "id": 46975,
+            "ma": "L.O.7.2",
+            "ten": {
+              "vi": "Hiểu được nguyên lý tạo xung kiểu PWM và ứng dụng",
+              "en": "Know the principles to generate PWM signals and their applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16952,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7439,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm ",
+                  "en": "Test report"
+                }
+              }
+            },
+            {
+              "id": 16951,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7438,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kiểm tra thực hiện trên lab",
+                  "en": "Test performed on lab"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10370,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "-  Điều khiển buổi thí nghiệm: kiểm tra sự chuẩn bị trước thí nghiệm của sinh viên, giải thích yêu cầu, mục tiêu của thí nghiệm\n- Hướng dẫn trình tự thí nghiệm,\n- Quan sát và kiểm tra sinh viên mắc mạch và cho phép đóng điện, đảm bảo các điều kiện an toàn\n- Thu kết quả thí nghiệm và ký nhận",
+            "en": "- Conduct the experiment session: check the students' pre-experiment preparation, explain the requirements and objectives of the experiment\n- Instructions for the test sequence,\n- Observe and check students with circuits and allow power on, ensuring safe conditions\n- Collect test results and sign receipt"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị trước ở nhà nội dung bài thí nghiệm\n- Nghe hướng dẫn trình tự thí nghiệm\n- Tuân thủ các quy trình an toàn điện và các quy định khi thí nghiệm\n- Thực hiện thí nghiệm theo hướng dẫn\n- Báo cáo kết quả thí nghiệm theo yêu cầu",
+            "en": "- Prepare the test content at home in advance\n- Listen to instructions on the experimental sequence\n- Follow electrical safety procedures and regulations when testing test\n- Carry out the experiment according to the instructions\n- Report test results on request"
+          },
+          "chuandaura": {
+            "id": 46976,
+            "ma": "L.O.7.3",
+            "ten": {
+              "vi": "Hiểu được nguyên lý thiết kế mạch điều khiển vòng kín cho bộ biến đổi DC-DC và các thông số ảnh hưởng lên chất lượng đáp ứng của mạch.",
+              "en": "Know the principles to design the closed loop circuitry for a dc-dc converter, and identify parameters which affect to the performances of the converter."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16954,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7439,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm ",
+                  "en": "Test report"
+                }
+              }
+            },
+            {
+              "id": 16953,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7438,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kiểm tra thực hiện trên lab",
+                  "en": "Test performed on lab"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 10368,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "-  Điều khiển buổi thí nghiệm: kiểm tra sự chuẩn bị trước thí nghiệm của sinh viên, giải thích yêu cầu, mục tiêu của thí nghiệm\n- Hướng dẫn trình tự thí nghiệm\n- Thu kết quả thí nghiệm và ký nhận",
+            "en": "- Conduct the experiment session: check the students' pre-experiment preparation, explain the requirements and objectives of the experiment\n- Instructions for the experimental sequence\n- Collect test results and sign receipt"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị trước ở nhà nội dung bài thí nghiệm\n- Nghe hướng dẫn trình tự thí nghiệm\n- Tuân thủ các quy trình an toàn điện và các quy định khi thí nghiệm\n- Thực hiện thí nghiệm theo hướng dẫn\n- Báo cáo kết quả thí nghiệm theo yêu cầu",
+            "en": "- Prepare the test content at home in advance\n- Listen to instructions on the experimental sequence\n- Follow electrical safety procedures and regulations when testing test\n- Carry out the experiment according to the instructions\n- Report test results on request"
+          },
+          "chuandaura": {
+            "id": 46977,
+            "ma": "L.O.7.4",
+            "ten": {
+              "vi": "Hiểu nguyên lý tạo xung kích điều khiển pha cho thyristor và ứng dụng.",
+              "en": "Know the principles to develop a phase controller fro a thyristor circuitry and their applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 16950,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 7438,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kiểm tra thực hiện trên lab",
+                  "en": "Test performed on lab"
+                }
+              }
+            },
+            {
+              "id": 16949,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 7439,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm ",
+                  "en": "Test report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thí nghiệm môn học\n1. Thí nghiệm mạch kích (driver) cho MOSFET/IGBT và khảo đặc tính đóng cắt của linh kiện \n2. Thí nghiệm mạch tạo xung kích kiểu điều rộng xung (PWM) và ứng dụng\n3. Thí nghiệm điều khiển vòng kín bộ biến đổi DC/DC\n4. Thí nghiệm mạch kích điều khiển pha thyristor và ứng dụng\n",
+        "en": "Subject experiment\n1. Test drive circuit (driver) for MOSFET/IGBT and test switching characteristics of components\n2. Experimental pulse width modulation (PWM) pulse generator circuit and application\n3. DC/DC . converter closed-loop control experiment\n4. Experimental thyristor phase control circuit and application"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 46951,
+      "ma": "L.O.1.1",
+      "ten_vi": "Hiểu vai trò quan trọng của điện tử công suất qua các ứng dụng  cụ thể trong: dây chuyền  sản xuất, năng lượng, giao thông, dân dụng, v.v…",
+      "ten_en": "Describe the important role of Power Electronics in various applications such as production systems, energy conversions, transportation, domestic appliances, etc.",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7440,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exercises in class"
+        }
+      ]
+    },
+    {
+      "id": 46952,
+      "ma": "L.O.1.2",
+      "ten_vi": "Nhận dạng được switching power pole là cấu trúc cơ bản và kỹ thuật điều rộng xung (PWM) là kỹ thuật điều chế cơ bản của các bộ biến đổi kiểu nguồn áp",
+      "ten_en": "Identify switching power-pole as a basic building block and Pulse-Width-Modulation (PWM) as a basic technique for Voltage-source power converter ",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7440,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exercises in class"
+        }
+      ]
+    },
+    {
+      "id": 46954,
+      "ma": "L.O.2.1",
+      "ten_vi": "Thiết kế được bộ khoá công suất, bao gồm việc: chọn lựa các transistor và diode theo thông số thực tế, tính được mạch subber, tính chọn được tản nhiệt, mô phỏng được hoạt động của bộ khoá công suất trên PSIM",
+      "ten_en": "L.O.2.1 – Design the switching power-poles, including: selecting suitable transistors and diodes with practical datasheet, designing their snubber circuits, calculating their heatsinks and simulating their operation with a simualtion software such as PSIM.     ",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7437,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 7440,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exercises in class"
+        }
+      ]
+    },
+    {
+      "id": 46955,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thiết kế được được mạch driver cho MOSFET/IGBT với IC thực tế.",
+      "ten_en": "Design driver circuits for MOSFET/IGBT using practical IC",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        }
+      ]
+    },
+    {
+      "id": 46956,
+      "ma": "L.O.2.3",
+      "ten_vi": "Tính chọn được các giá trị cần thiết của cuộn cảm, tụ điện, biến áp theo yêu cầu cho trước của mạch ",
+      "ten_en": "Design basic parameters for other devices of a power electronic converters: transformer, inductor, capacitor, etc., on the basis of given requirements for the converter.",
+      "hddg": [
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 7440,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exercises in class"
+        }
+      ]
+    },
+    {
+      "id": 46957,
+      "ma": "L.O.2.4",
+      "ten_vi": "Xác định được các thông số quan trọng của các loại vật liệu từ và lõi từ tần số cao",
+      "ten_en": "Learn important parameters and characteristics of high-frequency magnetic material and cores",
+      "hddg": [
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 7436,
+          "ma": "A.O.4",
+          "ten_vi": "Thuyết trình",
+          "ten_en": "Presentation"
+        }
+      ]
+    },
+    {
+      "id": 46958,
+      "ma": "L.O.2.5",
+      "ten_vi": "Thiết kế được biến áp và cuộn cảm tần số cao trong các bộ biến đổi điện tử công suất",
+      "ten_en": "Design high-frequency transformers and inductors for power converter applications",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7437,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 46960,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phân tích được hoạt động của các cấu hình bộ biến đổi dc-dc cơ bản trong chế độ xác lập",
+      "ten_en": "Analyze the operation of basic DC-DC converter topologies in steady state",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        }
+      ]
+    },
+    {
+      "id": 46961,
+      "ma": "L.O.3.2",
+      "ten_vi": "Mô hình hoá được bộ nguồn đóng cắt điều khiển vòng kín theo hai kiểu: điều khiển theo điện áp và điều khiển theo dòng điện",
+      "ten_en": "Model the DC-DC converters in voltage-mode control and current-mode control",
+      "hddg": [
+        {
+          "id": 7433,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual exercises at home"
+        },
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 46962,
+      "ma": "L.O.3.3",
+      "ten_vi": "Thiết kế được mạch điều khiển bộ nguồn đóng cắt kiểu vòng kín với PWM IC thực tế (loại điều khiển theo điện áp và loại điều khiển theo dòng điện)",
+      "ten_en": "Design the closed-loop controllers for DC-DC converters with practical PWM ICs (voltage-mode type and current-mode type).",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        }
+      ]
+    },
+    {
+      "id": 46963,
+      "ma": "L.O.3.4",
+      "ten_vi": "Mô phỏng được hoạt động của mạch với phần mềm chuyên dụng (như PSIM).",
+      "ten_en": "Simulate the converter circuitry with simulation software such as PSIM",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        }
+      ]
+    },
+    {
+      "id": 46965,
+      "ma": "L.O.4.1",
+      "ten_vi": "Hiểu nguyên lý điều khiển tốc độ động cơ một chiều và động cơ xoay chiều (đồng bộ và không đồng bộ), đồng thời hiểu cấu trúc và hoạt động",
+      "ten_en": "Learn the principles of speed control of direct-current (dc) motors and induction motors (synchronous and asynchronous types), and topologies and operation principles of power converters for these motor control applications.",
+      "hddg": [
+        {
+          "id": 7436,
+          "ma": "A.O.4",
+          "ten_vi": "Thuyết trình",
+          "ten_en": "Presentation"
+        },
+        {
+          "id": 7437,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 46966,
+      "ma": "L.O.4.2",
+      "ten_vi": "Hiểu về những ứng dụng các bộ biến đổi điện tử công suất trong lãnh vực năng lượng tái tạo và hệ thống điện",
+      "ten_en": "Learn the applications of power converters in power utilities and renewable energy applications",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        }
+      ]
+    },
+    {
+      "id": 46968,
+      "ma": "L.O.5.1",
+      "ten_vi": "Hiểu nguyên lý thực hiện mạch điều khiển pha cho các bộ chỉnh lưu có điều khiển và bộ biến đổi điện áp xoay chiều",
+      "ten_en": "Learn the principle of design the controller using phase control principle for thyristor rectifiers and thyristor ac-ac converters",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        }
+      ]
+    },
+    {
+      "id": 46969,
+      "ma": "L.O.5.2",
+      "ten_vi": "Hiểu nguyên lý hoạt động của vi mạch điều khiển pha và bộ điều khiển pha công nghiệp tiêu biểu",
+      "ten_en": "Learn the principle operation of a practical IC using for phase control and some typical industrial phase controllers",
+      "hddg": [
+        {
+          "id": 7434,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        }
+      ]
+    },
+    {
+      "id": 46971,
+      "ma": "L.O.6.1",
+      "ten_vi": "Biết tổ chức và làm việc theo nhóm",
+      "ten_en": "L.O.6.1Demonstrate ability to work in groups to solve problems",
+      "hddg": [
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 7436,
+          "ma": "A.O.4",
+          "ten_vi": "Thuyết trình",
+          "ten_en": "Presentation"
+        }
+      ]
+    },
+    {
+      "id": 46972,
+      "ma": "L.O.6.2",
+      "ten_vi": "Thực hiện báo cáo bằng văn bản,  thuyết trình và giao tiếp",
+      "ten_en": "Demonstrate ability to perform a written report, to present and to communicate",
+      "hddg": [
+        {
+          "id": 7435,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 7436,
+          "ma": "A.O.4",
+          "ten_vi": "Thuyết trình",
+          "ten_en": "Presentation"
+        }
+      ]
+    },
+    {
+      "id": 46974,
+      "ma": "L.O.7.1",
+      "ten_vi": "Hiểu được nguyên lý thực hiện mạch driver cho MOSFET/IGBT và đặc tính đóng cắt của linh kiện",
+      "ten_en": "Know the principle of a driver circuit for MOSFET/IGBT and switching characteristics of these power devices",
+      "hddg": [
+        {
+          "id": 7438,
+          "ma": "A.O.6",
+          "ten_vi": "Kiểm tra thực hiện trên lab",
+          "ten_en": "Test performed on lab"
+        },
+        {
+          "id": 7439,
+          "ma": "A.O.7",
+          "ten_vi": "Báo cáo thí nghiệm ",
+          "ten_en": "Test report"
+        }
+      ]
+    },
+    {
+      "id": 46975,
+      "ma": "L.O.7.2",
+      "ten_vi": "Hiểu được nguyên lý tạo xung kiểu PWM và ứng dụng",
+      "ten_en": "Know the principles to generate PWM signals and their applications.",
+      "hddg": [
+        {
+          "id": 7438,
+          "ma": "A.O.6",
+          "ten_vi": "Kiểm tra thực hiện trên lab",
+          "ten_en": "Test performed on lab"
+        },
+        {
+          "id": 7439,
+          "ma": "A.O.7",
+          "ten_vi": "Báo cáo thí nghiệm ",
+          "ten_en": "Test report"
+        }
+      ]
+    },
+    {
+      "id": 46976,
+      "ma": "L.O.7.3",
+      "ten_vi": "Hiểu được nguyên lý thiết kế mạch điều khiển vòng kín cho bộ biến đổi DC-DC và các thông số ảnh hưởng lên chất lượng đáp ứng của mạch.",
+      "ten_en": "Know the principles to design the closed loop circuitry for a dc-dc converter, and identify parameters which affect to the performances of the converter.",
+      "hddg": [
+        {
+          "id": 7438,
+          "ma": "A.O.6",
+          "ten_vi": "Kiểm tra thực hiện trên lab",
+          "ten_en": "Test performed on lab"
+        },
+        {
+          "id": 7439,
+          "ma": "A.O.7",
+          "ten_vi": "Báo cáo thí nghiệm ",
+          "ten_en": "Test report"
+        }
+      ]
+    },
+    {
+      "id": 46977,
+      "ma": "L.O.7.4",
+      "ten_vi": "Hiểu nguyên lý tạo xung kích điều khiển pha cho thyristor và ứng dụng.",
+      "ten_en": "Know the principles to develop a phase controller fro a thyristor circuitry and their applications",
+      "hddg": [
+        {
+          "id": 7438,
+          "ma": "A.O.6",
+          "ten_vi": "Kiểm tra thực hiện trên lab",
+          "ten_en": "Test performed on lab"
+        },
+        {
+          "id": 7439,
+          "ma": "A.O.7",
+          "ten_vi": "Báo cáo thí nghiệm ",
+          "ten_en": "Test report"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Điều khiển và ứng dụng các bộ biến đổi công suất",
+  "tenmonhoc_eng": "Control and Applications of Power Electronic Converters",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

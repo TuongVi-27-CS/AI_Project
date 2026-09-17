@@ -1,0 +1,1092 @@
+{
+  "ma": "DCMH.AS5111.1.1",
+  "phienban": "1.1",
+  "capnhat": "17/07/2026 11:08",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS5111",
+  "ten": "AS5111 - Đại số tuyến tính",
+  "ten_eng": "AS5111 - Linear Algebra",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p><ul><li>\n\nTrang bị các kiến thức cơ bản của Đại số tuyến tính.\n\n</li><li>\n\nRèn luyện kỹ năng vận dụng Đại số tuyến tính vào các bài toán kỹ thuật.\n\n</li></ul></p>",
+      "en": "<p><ul><li>\n\n<small>Provide fundamental knowledge of Linear Algebra.\n\n</small></li><li><small>\n\nDevelop the ability to apply Linear Algebra to engineering problems.</small>\n\n</li></ul></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n<p>Học phần cung cấp các kiến thức cơ bản của Đại số tuyến tính bao gồm:</p><ul><li>Ma trận và hệ phương trình tuyến tính.</li><li>Không gian véc tơ.</li><li>Không gian Euclide.</li><li>Ánh xạ tuyến tính.</li><li>Trị riêng và véc tơ riêng.</li><li>Dạng toàn phương.</li></ul><p>Chương trình được thiết kế theo định hướng ứng dụng cho sinh viên kỹ thuật, chú trọng kỹ năng tính toán và giải quyết bài toán thực tế bằng các công cụ đại số tuyến tính.</p><br>\n\n<small>﻿</small><br></p>",
+      "en": "<p>\n\n<p>This course provides fundamental knowledge of:</p><ul><li>Matrices and systems of linear equations.</li><li>Vector spaces.</li><li>Euclidean spaces.</li><li>Linear transformations.</li><li>Eigenvalues and eigenvectors.</li><li>Quadratic forms.</li></ul><p>The course is application-oriented and emphasizes computational techniques commonly used in engineering problems.</p><br>\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n<p>[1] Đặng Văn Vinh, <em>Giáo trình Đại số tuyến tính</em>, NXB ĐHQG TP.HCM.</p>\n<p>[2] Nguyễn Tiến Dũng, <em>Đại số tuyến tính – Lý thuyết và ứng dụng</em>, NXB ĐHQG TP.HCM.</p>\n\n\n\n<p>[3]Strang G. Linear algebra and its applications, 4th edition, Thomson Brook/Cole, 2006. </p><p>&nbsp;[4] Steven Leon. Linear Algebra with Applications, 7th Edition, Pearson Prentice Hall, 2006 </p><p>&nbsp;[5] David C. Lay, Linear Algebra and its applications, Addison - Wesley Publishing Company, New York, 1993.\n\n<br></p><p>\n\n[6] Howard Anton, Chris Rorrer. Elementary Linear Algebra, application version, 10th edition, John Willey &amp; Sons, 2010.</p>\n\n<small>﻿</small><br></p>",
+      "en": "<p>\n\n<p>[1] Dang Van Vinh, <em>Linear Algebra</em>, VNU-HCM Press.</p>\n<p>[2] Nguyen Tien Dung, <em>Linear Algebra: Theory and Applications</em>, VNU-HCM Press.</p>\n\n\n\n[3]Strang G. Linear algebra and its applications, 4th edition, Thomson Brook/Cole, 2006.&nbsp;</p><p>&nbsp;[4] Steven Leon. Linear Algebra with Applications, 7th Edition, Pearson Prentice Hall, 2006&nbsp;</p><p>&nbsp;[5] David C. Lay, Linear Algebra and its applications, Addison - Wesley Publishing Company, New York, 1993.\n\n<br></p><p>\n\n[6] Howard Anton, Chris Rorrer. Elementary Linear Algebra, application version, 10th edition, John Willey &amp; Sons, 2010.\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n<p><ul><li>Học viên cần chủ động nghiên cứu giáo trình chính, tài liệu tham khảo và các nguồn học liệu do giảng viên cung cấp. Ngoài nội dung trên lớp, học viên được khuyến khích tìm hiểu thêm các tài liệu chuyên khảo, bài báo khoa học và các ứng dụng của Đại số tuyến tính trong khoa học dữ liệu, trí tuệ nhân tạo, tối ưu hóa và các lĩnh vực kỹ thuật liên quan.</li><li>Học viên cần thường xuyên theo dõi hệ thống quản lý học tập hoặc các kênh thông tin của học phần để cập nhật bài giảng, bài tập, tài liệu bổ sung và các thông báo học tập. Việc sử dụng các phần mềm tính toán khoa học như MATLAB, Mathematica, Maple hoặc Python (NumPy, SciPy) được khuyến khích nhằm hỗ trợ quá trình học tập, thực hành và thực hiện bài tập lớn.</li><li>Để đạt được kết quả học tập mong đợi, học viên cần chuẩn bị bài trước khi đến lớp, tích cực tham gia thảo luận học thuật, hoàn thành đầy đủ các bài tập được giao và thực hiện nghiêm túc các yêu cầu của bài tập lớn. Tinh thần tự học, tự nghiên cứu và làm việc nhóm là những yêu cầu quan trọng của học phần.</li></ul></p>\n\n<br></p>",
+      "en": "<p>\n\n<p><ul><li>Students are expected to study the prescribed textbooks and supplementary materials provided by the lecturer. In addition to classroom activities, students are encouraged to explore advanced references, scientific papers, and applications of Linear Algebra in data science, artificial intelligence, optimization, and related engineering fields.</li><li>Students should regularly access the course management system or other communication channels to obtain lecture notes, assignments, supplementary materials, and course announcements. The use of scientific computing software such as MATLAB, Mathematica, Maple, or Python (NumPy, SciPy) is highly recommended to support learning activities and project implementation.</li><li>To achieve the expected learning outcomes, students should prepare before class, actively participate in academic discussions, complete assigned tasks on time, and fulfill all requirements of the course project. Independent study, research capability, and teamwork are essential components of the learning process in this course.</li></ul></p>\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>\n\n<b>Nếu điểm thi bé hơn hoặc bằng 2 thì điểm tổng kết tính theo công thức&nbsp;</b></p><p><b>Điểm tổng kết = min{điểm thi; điểm trung bình môn học}</b><b></b>\n\n<br></p>",
+      "en": "<p>\n\n<b>If the exam score is less than or equal to 2, the final grade is calculated using the formula:&nbsp;</b></p><p><b>&nbsp;Final grade=min {exam score, course average}</b>\n\n<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 10056,
+      "ma": "NG_8460107",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Khoa học Tính toán",
+        "en": "Coursework Master Program in Computational Science"
+      }
+    },
+    {
+      "id": 10077,
+      "ma": "NG_8460107",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Khoa học Tính toán",
+        "en": "Research-intensive Master Program in Computational Science"
+      }
+    },
+    {
+      "id": 10076,
+      "ma": "NG_8460107",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Khoa học Tính Toán",
+        "en": "Research-oriented Master Program in Computational Science"
+      }
+    },
+    {
+      "id": 10078,
+      "ma": "NG_8460112",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Toán Ứng dụng",
+        "en": "Research-oriented Master Program in Applied Mathematics"
+      }
+    },
+    {
+      "id": 10057,
+      "ma": "NG_8460112",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Toán Ứng dụng",
+        "en": "Coursework Master Program in Applied Mathematics"
+      }
+    },
+    {
+      "id": 10079,
+      "ma": "NG_8460112",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Toán Ứng dụng",
+        "en": "Research-intensive Master Program in Applied Mathematics"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1429,
+      "ma": "003323",
+      "ten": "PHAN THỊ KHÁNH VÂN"
+    },
+    {
+      "id": 1423,
+      "ma": "002571",
+      "ten": "ĐẶNG VĂN VINH"
+    },
+    {
+      "id": 1422,
+      "ma": "002288",
+      "ten": "NGUYỄN TIẾN DŨNG"
+    },
+    {
+      "id": 1430,
+      "ma": "003435",
+      "ten": "NGUYỄN HỮU HIỆP"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 4,
+        "ma": "80",
+        "thoigian": 80,
+        "text": {
+          "vi": "80 phút",
+          "en": "80 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1080,
+      "maBoMon": "TUD",
+      "tenBoMon": {
+        "vi": "Toán ứng Dụng"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "104B4",
+      "dienThoai": "0256"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1423,
+        "maGiangVien": "002571",
+        "tenGiangVien": "ĐẶNG VĂN VINH",
+        "emailGiangVien": "dangvvinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 94450,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 94451,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "94450",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm examination"
+      },
+      "noidung": {
+        "vi": "Trắc nghiệm hoặc tự luận",
+        "en": "Multiple choice and/or written test"
+      }
+    },
+    {
+      "id": 94452,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "94450",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final examination"
+      },
+      "noidung": {
+        "vi": "Trắc nghiệm hoặc tự luận",
+        "en": "Multiple choice and/or written test."
+      }
+    },
+    {
+      "id": 94453,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "94450",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Research Project"
+      },
+      "noidung": {
+        "vi": "Thực hiện theo nhóm",
+        "en": "Group project"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 118085,
+      "stt": 1,
+      "buoi": "1-3",
+      "chuandaurachitiet": [
+        {
+          "id": 157317,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các khái niệm và định lý cơ bản về ma trận.\nHướng dẫn phương pháp khử Gauss và Gauss–Jordan.\nGiải các ví dụ minh họa trên lớp.\nTổ chức thảo luận và chữa bài tập.",
+            "en": "Introduce fundamental concepts and theorems of matrices.\nDemonstrate Gaussian and Gauss–Jordan elimination methods.\nSolve illustrative examples in class.\nOrganize discussions and problem-solving sessions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham dự bài giảng và ghi chép.\nLàm bài tập cá nhân và bài tập nhóm.\nTham gia thảo luận trên lớp.\nTự nghiên cứu tài liệu tham khảo.",
+            "en": "Attend lectures and take notes.\nComplete individual and group exercises.\nParticipate in classroom discussions.\nStudy reference materials independently."
+          },
+          "chuandaura": {
+            "id": 256724,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và vận dụng các khái niệm, định lý và cấu trúc cơ bản của đại số tuyến tính hiện đại như không gian vectơ, ánh xạ tuyến tính, trị riêng, vectơ riêng và dạng song tuyến tính.",
+              "en": "Analyze and apply fundamental concepts, theorems, and structures of modern linear algebra, including vector spaces, linear transformations, eigenvalues, eigenvectors, and bilinear forms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259614,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94451,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 259604,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94453,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Research Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Ma trận và hệ phương trình tuyến tính\n1.1. Định nghĩa ma trận.\n1.2. Các phép toán trên ma trận.\n1.3. Các phép biến đổi sơ cấp.\n1.4. Hệ phương trình tuyến tính.\n1.5. Phương pháp khử Gauss.\n1.6. Định thức.\n1.7. Hạng của ma trận.\n1.8. Ma trận nghịch đảo.",
+        "en": "Chapter 1. Matrices and Systems of Linear Equations\n1.1. Definition of matrices.\n1.2. Matrix operations.\n1.3. Elementary row operations.\n1.4. Systems of linear equations.\n1.5. Gaussian elimination.\n1.6. Determinants.\n1.7. Rank of matrices.\n1.8. Inverse matrices."
+      }
+    },
+    {
+      "id": 118087,
+      "stt": 2,
+      "buoi": "4-6",
+      "chuandaurachitiet": [
+        {
+          "id": 157315,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu các khái niệm cơ bản về không gian véc tơ.\nMinh họa các phương pháp xác định cơ sở và số chiều.\nHướng dẫn giải các bài toán về tổng và giao không gian con.\nTổ chức hoạt động thảo luận nhóm.",
+            "en": "Introduce fundamental concepts of vector spaces.\nDemonstrate methods for determining bases and dimensions.\nGuide students in solving problems involving sums and intersections of subspaces.\nOrganize group discussions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện các bài tập về độc lập tuyến tính.\nXác định cơ sở và số chiều của không gian véc tơ.\nThảo luận nhóm về các bài toán không gian con.\nTự học và chuẩn bị bài trước khi lên lớp.",
+            "en": "Solve problems on linear independence.\nDetermine bases and dimensions of vector spaces.\nParticipate in group discussions on subspaces.\nPrepare lessons before class."
+          },
+          "chuandaura": {
+            "id": 256724,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và vận dụng các khái niệm, định lý và cấu trúc cơ bản của đại số tuyến tính hiện đại như không gian vectơ, ánh xạ tuyến tính, trị riêng, vectơ riêng và dạng song tuyến tính.",
+              "en": "Analyze and apply fundamental concepts, theorems, and structures of modern linear algebra, including vector spaces, linear transformations, eigenvalues, eigenvectors, and bilinear forms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259613,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94451,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 259615,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94453,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Research Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Không gian véc tơ\n2.1. Định nghĩa không gian véc tơ.\n2.2. Tổ hợp tuyến tính.\n2.3. Độc lập tuyến tính và phụ thuộc tuyến tính.\n2.4. Hạng của họ véc tơ.\n2.5. Không gian con.\n2.6. Tổng của các không gian con.\n2.7. Giao của các không gian con.\n2.8. Tập sinh.\n2.9. Cơ sở.\n2.10. Số chiều.\n2.11. Tọa độ của véc tơ.\n2.12. Ma trận chuyển cơ sở.\n",
+        "en": "Chapter 2. Vector Spaces\n2.1. Definition of vector spaces.\n2.2. Linear combinations.\n2.3. Linear independence and dependence.\n2.4. Rank of a set of vectors.\n2.5. Subspaces.\n2.6. Sum of subspaces.\n2.7. Intersection of subspaces.\n2.8. Spanning sets.\n2.9. Bases.\n2.10. Dimension.\n2.11. Coordinates of vectors.\n2.12. Change-of-basis matrices."
+      }
+    },
+    {
+      "id": 118088,
+      "stt": 3,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 157311,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng giải các khái niệm hình học trong không gian Euclide.\nHướng dẫn xây dựng cơ sở trực chuẩn bằng Gram–Schmidt.\nGiải ví dụ và bài tập ứng dụng.",
+            "en": "Explain geometric concepts in Euclidean spaces.\nDemonstrate the Gram–Schmidt orthogonalization process.\nSolve illustrative examples and applications."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tính tích vô hướng, khoảng cách và góc.\nThực hành xây dựng cơ sở trực chuẩn.\nTham gia thảo luận và trình bày lời giải.",
+            "en": "Compute inner products, distances and angles.\nPractice constructing orthonormal bases.\nParticipate in discussions and present solutions."
+          },
+          "chuandaura": {
+            "id": 256813,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Sử dụng các phương pháp đại số tuyến tính để mô hình hóa, phân tích và giải quyết các bài toán trong toán học, khoa học dữ liệu, khoa học tính toán và các lĩnh vực liên ngành.",
+              "en": "Apply linear algebraic methods to model, analyze, and solve problems in mathematics, data science, computational science, and interdisciplinary fields."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259605,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94452,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final examination"
+                }
+              }
+            },
+            {
+              "id": 259612,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94453,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Research Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Không gian Euclide\n3.1. Tích vô hướng.\n3.2. Chuẩn và khoảng cách.\n3.3. Góc giữa hai véc tơ.\n3.4. Không gian bù trực giao.\n3.5. Hình chiếu trực giao.\n3.6. Khoảng cách từ véc tơ đến không gian con.\n3.7. Hệ trực giao.\n3.8. Cơ sở trực chuẩn.\n3.9. Thuật toán Gram–Schmidt.",
+        "en": "Chapter 3. Euclidean Spaces\n3.1. Inner products.\n3.2. Norms and distances.\n3.3. Angles between vectors.\n3.4. Orthogonal complements.\n3.5. Orthogonal projections.\n3.6. Distance from a vector to a subspace.\n3.7. Orthogonal systems.\n3.8. Orthonormal bases.\n3.9. Gram–Schmidt orthogonalization process."
+      }
+    },
+    {
+      "id": 118086,
+      "stt": 4,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 157312,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết trị riêng và véc tơ riêng.\nHướng dẫn các phương pháp chéo hóa.\nGiải ví dụ minh họa.",
+            "en": "Present the theory of eigenvalues and eigenvectors.\nDemonstrate diagonalization techniques.\nSolve illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tính trị riêng và véc tơ riêng.\nThực hành chéo hóa ma trận.\nLàm bài tập cá nhân và nhóm.",
+            "en": "Compute eigenvalues and eigenvectors.\nPractice matrix diagonalization.\nComplete individual and group exercises."
+          },
+          "chuandaura": {
+            "id": 256707,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích các tính chất phổ của ma trận và toán tử tuyến tính; vận dụng vào các bài toán tối ưu hóa, mô hình hóa và xử lý dữ liệu.",
+              "en": "Analyze spectral properties of matrices and linear operators and apply them to optimization, mathematical modeling, and data analysis problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259608,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94452,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 157310,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "hoatdongsinhvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "chuandaura": {
+            "id": 256805,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Trình bày, thảo luận và thực hiện nghiên cứu hoặc dự án chuyên đề liên quan đến đại số tuyến tính và các ứng dụng hiện đại của nó.",
+              "en": "Present, discuss, and conduct research or project work related to linear algebra and its modern applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259609,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94453,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Research Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Trị riêng và véc tơ riêng\n5.1. Trị riêng.\n5.2. Véc tơ riêng.\n5.3. Không gian riêng.\n5.4. Bội đại số.\n5.5. Bội hình học.\n5.6. Chéo hóa ma trận.\n5.7. Chéo hóa trực giao ma trận đối xứng.",
+        "en": "Chapter 5. Eigenvalues and Eigenvectors\n5.1. Eigenvalues.\n5.2. Eigenvectors.\n5.3. Eigenspaces.\n5.4. Algebraic multiplicity.\n5.5. Geometric multiplicity.\n5.6. Matrix diagonalization.\n5.7. Orthogonal diagonalization of symmetric matrices."
+      }
+    },
+    {
+      "id": 118090,
+      "stt": 4,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 157309,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Ánh xạ tuyến tính.\nNhân và ảnh.\nĐịnh lý hạng – số khuyết.\nMa trận của ánh xạ tuyến tính.\nMa trận đồng dạng.",
+            "en": "Linear transformations.\nKernel and image.\nRank–nullity theorem.\nMatrix representation.\nSimilar matrices."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các bài toán về ánh xạ tuyến tính.\nXác định ma trận biểu diễn của ánh xạ.\nThực hiện các bài tập nhóm.",
+            "en": "Solve problems involving linear transformations.\nDetermine matrix representations.\nComplete group assignments."
+          },
+          "chuandaura": {
+            "id": 256813,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Sử dụng các phương pháp đại số tuyến tính để mô hình hóa, phân tích và giải quyết các bài toán trong toán học, khoa học dữ liệu, khoa học tính toán và các lĩnh vực liên ngành.",
+              "en": "Apply linear algebraic methods to model, analyze, and solve problems in mathematics, data science, computational science, and interdisciplinary fields."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259606,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94452,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final examination"
+                }
+              }
+            },
+            {
+              "id": 259607,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94453,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Research Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Ánh xạ tuyến tính\n4.1. Định nghĩa ánh xạ tuyến tính.\n4.2. Nhân của ánh xạ tuyến tính.\n4.3. Ảnh của ánh xạ tuyến tính.\n4.4. Định lý hạng – số khuyết.\n4.5. Ma trận của ánh xạ tuyến tính.\n4.6. Ma trận đồng dạng.",
+        "en": "Chapter 4. Linear Transformations\n4.1. Definition of linear transformations.\n4.2. Kernel of a linear transformation.\n4.3. Image of a linear transformation.\n4.4. Rank–nullity theorem.\n4.5. Matrix representation of linear transformations.\n4.6. Similar matrices."
+      }
+    },
+    {
+      "id": 118091,
+      "stt": 6,
+      "buoi": "13-14",
+      "chuandaurachitiet": [
+        {
+          "id": 157314,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu các khái niệm về dạng toàn phương.\nHướng dẫn đưa dạng toàn phương về dạng chính tắc.\nTổ chức thảo luận và giải bài tập.",
+            "en": ".Introduce concepts of quadratic forms.\nDemonstrate reduction to canonical forms.\nOrganize discussions and exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện các phép biến đổi dạng toàn phương.\nPhân loại dạng toàn phương.\nTrình bày kết quả giải bài tập.",
+            "en": "Perform quadratic-form reductions.\nClassify quadratic forms.\nPresent problem-solving results."
+          },
+          "chuandaura": {
+            "id": 256707,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích các tính chất phổ của ma trận và toán tử tuyến tính; vận dụng vào các bài toán tối ưu hóa, mô hình hóa và xử lý dữ liệu.",
+              "en": "Analyze spectral properties of matrices and linear operators and apply them to optimization, mathematical modeling, and data analysis problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259610,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94452,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 157316,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "hoatdongsinhvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "chuandaura": {
+            "id": 256805,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Trình bày, thảo luận và thực hiện nghiên cứu hoặc dự án chuyên đề liên quan đến đại số tuyến tính và các ứng dụng hiện đại của nó.",
+              "en": "Present, discuss, and conduct research or project work related to linear algebra and its modern applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259611,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94453,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Research Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Dạng toàn phương\n6.1. Định nghĩa dạng toàn phương.\n6.2. Ma trận của dạng toàn phương.\n6.3. Dạng chính tắc.\n6.4. Đưa dạng toàn phương về dạng chính tắc bằng phép biến đổi trực giao.\n6.5. Đưa dạng toàn phương về dạng chính tắc bằng phương pháp Lagrange.\n6.6. Phân loại dạng toàn phương.\n6.7. Tiêu chuẩn Sylvester.",
+        "en": "Chapter 6. Quadratic Forms\n6.1. Definition of quadratic forms.\n6.2. Matrix representation of quadratic forms.\n6.3. Canonical forms.\n6.4. Orthogonal reduction to canonical form.\n6.5. Lagrange reduction method.\n6.6. Classification of quadratic forms.\n6.7. Sylvester criterion."
+      }
+    },
+    {
+      "id": 118089,
+      "stt": 7,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 157313,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Tổ chức đánh giá báo cáo.\nĐặt câu hỏi phản biện.\nTổng kết học phần.",
+            "en": "Evaluate project presentations.\nAsk questions and provide feedback.\nSummarize the course."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo kết quả bài tập lớn.\nTrả lời câu hỏi phản biện.\nĐánh giá đồng đẳng.",
+            "en": "Present project outcomes.\nRespond to questions and discussions.\nParticipate in peer evaluation."
+          },
+          "chuandaura": {
+            "id": 256805,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Trình bày, thảo luận và thực hiện nghiên cứu hoặc dự án chuyên đề liên quan đến đại số tuyến tính và các ứng dụng hiện đại của nó.",
+              "en": "Present, discuss, and conduct research or project work related to linear algebra and its modern applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259603,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94453,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Research Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 15. Báo cáo bài tập lớn\nBáo cáo kết quả bài tập lớn.\nThảo luận và phản biện.",
+        "en": "Week 15. Project Presentation\nProject presentation.\nDiscussion and evaluation."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 256724,
+      "ma": "L.O.1",
+      "ten_vi": "Phân tích và vận dụng các khái niệm, định lý và cấu trúc cơ bản của đại số tuyến tính hiện đại như không gian vectơ, ánh xạ tuyến tính, trị riêng, vectơ riêng và dạng song tuyến tính.",
+      "ten_en": "Analyze and apply fundamental concepts, theorems, and structures of modern linear algebra, including vector spaces, linear transformations, eigenvalues, eigenvectors, and bilinear forms.",
+      "hddg": [
+        {
+          "id": 94451,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        },
+        {
+          "id": 94453,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Research Project"
+        }
+      ]
+    },
+    {
+      "id": 256813,
+      "ma": "L.O.2",
+      "ten_vi": "Sử dụng các phương pháp đại số tuyến tính để mô hình hóa, phân tích và giải quyết các bài toán trong toán học, khoa học dữ liệu, khoa học tính toán và các lĩnh vực liên ngành.",
+      "ten_en": "Apply linear algebraic methods to model, analyze, and solve problems in mathematics, data science, computational science, and interdisciplinary fields.",
+      "hddg": [
+        {
+          "id": 94452,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final examination"
+        },
+        {
+          "id": 94453,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Research Project"
+        }
+      ]
+    },
+    {
+      "id": 256707,
+      "ma": "L.O.3",
+      "ten_vi": "Phân tích các tính chất phổ của ma trận và toán tử tuyến tính; vận dụng vào các bài toán tối ưu hóa, mô hình hóa và xử lý dữ liệu.",
+      "ten_en": "Analyze spectral properties of matrices and linear operators and apply them to optimization, mathematical modeling, and data analysis problems.",
+      "hddg": [
+        {
+          "id": 94452,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final examination"
+        }
+      ]
+    },
+    {
+      "id": 256805,
+      "ma": "L.O.4",
+      "ten_vi": "Trình bày, thảo luận và thực hiện nghiên cứu hoặc dự án chuyên đề liên quan đến đại số tuyến tính và các ứng dụng hiện đại của nó.",
+      "ten_en": "Present, discuss, and conduct research or project work related to linear algebra and its modern applications.",
+      "hddg": [
+        {
+          "id": 94453,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Research Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Đại số tuyến tính",
+  "tenmonhoc_eng": "Linear Algebra",
+  "kkt_JSON": null,
+  "phuongthucgiangday_json": null
+}

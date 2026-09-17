@@ -1,0 +1,1249 @@
+{
+  "ma": "DCMH.GE5109.2.1",
+  "phienban": "2.1",
+  "capnhat": "09/07/2026 14:24",
+  "khoa": {
+    "vi": "Khoa Kỹ thuật Địa chất và Dầu khí",
+    "en": "Faculty of Geology and Petroleum Engineering"
+  },
+  "mamonhoc": "GE5109",
+  "ten": "GE5109 - Địa thống kê nâng cao",
+  "ten_eng": "GE5109 - Advanced geostatistics",
+  "hockyapdung": "HK251",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học trang bị cho học viên kiến thức và kỹ năng nâng cao về phân tích dữ liệu không gian, xây dựng variogram, ước lượng và mô phỏng địa thống kê phục vụ đặc trưng hóa vỉa dầu khí. Học viên được hướng dẫn cách tích hợp dữ liệu địa chất, địa vật lý, petrophysics và dữ liệu giếng để xây dựng mô hình thuộc tính vỉa, kiểm chứng mô hình, lượng hóa bất định và hỗ trợ ra quyết định trong mô hình địa chất, mô phỏng vỉa và phát triển mỏ.<br></p>",
+      "en": "<p>The course provides graduate students with advanced knowledge and skills in spatial data analysis, variogram modeling, geostatistical estimation and simulation for petroleum reservoir characterization. Students learn how to integrate geological, geophysical, petrophysical and well data to build reservoir property models, validate models, quantify uncertainty and support decision-making in geological modeling, reservoir simulation and field development.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học được giảng dạy theo workflow: Phân tích và hiểu dữ liệu không gian → kiểm tra chất lượng dữ liệu → phân tích thống kê → phân tích tương quan không gian → xây dựng variogram → ước lượng kriging/co-kriging → mô phỏng nhiều trường hợp → kiểm chứng và lượng hóa bất định → liên kết với mô hình vỉa và quyết định phát triển mỏ. Trọng tâm được đặt vào xây dựng mô hình địa chất, tính phù hợp của mô hình và khả năng diễn giải kết quả trong bối cảnh kỹ thuật dầu khí.<br></p>",
+      "en": "<p>The course follows a workflow: understanding spatial data → data quality control → statistical analysis → spatial correlation analysis → variogram modeling → kriging/co-kriging estimation → multiple-realization simulation → validation and uncertainty quantification → connection to reservoir modeling and field development decisions. Emphasis is placed on geological reasoning, model suitability and interpretation of results in petroleum applications.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n</p><p>[1] M. Kelkar, G. Perez, and A. Chopra, <em>Applied Geostatistics for Reservoir Characterization</em>. Richardson, TX, USA: Society of Petroleum Engineers, 2013. ISBN: 978-1-55563-095-9.</p><p>[2] J. Caers, <em>Petroleum Geostatistics</em>, 2nd ed. Richardson, TX, USA: Society of Petroleum Engineers, 2016. ISBN: 978-1-55563-106-2.</p><p>[3] M. J. Pyrcz and C. V. Deutsch, <em>Geostatistical Reservoir Modeling</em>, 2nd ed. New York, NY, USA: Oxford University Press, 2014. ISBN: 978-0-19-973144-2.</p>\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p>[1] M. Kelkar, G. Perez, and A. Chopra, <em>Applied Geostatistics for Reservoir Characterization</em>. Richardson, TX, USA: Society of Petroleum Engineers, 2013. ISBN: 978-1-55563-095-9.</p><p>[2] J. Caers, <em>Petroleum Geostatistics</em>, 2nd ed. Richardson, TX, USA: Society of Petroleum Engineers, 2016. ISBN: 978-1-55563-106-2.</p><p>[3] M. J. Pyrcz and C. V. Deutsch, <em>Geostatistical Reservoir Modeling</em>, 2nd ed. New York, NY, USA: Oxford University Press, 2014. ISBN: 978-0-19-973144-2.</p>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n</p><p>Học viên cần tham dự ít nhất 70% số buổi học và tham gia đầy đủ các hoạt động thực hành, thảo luận, báo cáo và đồ án học phần.<br>Học viên phải chuẩn bị dữ liệu, bài đọc, bài tập và câu hỏi thảo luận trước mỗi buổi học. Các bài nộp trễ chỉ được xem xét khi có lý do chính đáng.<br>Tất cả báo cáo kỹ thuật phải nêu rõ nguồn dữ liệu, giả định, đơn vị, phần mềm hoặc công cụ sử dụng, phiên bản mô hình, quy trình xử lý, giới hạn áp dụng và mức độ bất định của kết quả.<br>Đồ án nhóm phải có phân công nhiệm vụ rõ ràng, nhật ký làm việc, minh chứng đóng góp và phần phản ánh cá nhân về vai trò kỹ thuật của từng thành viên.<br><br></p><p>Học viên phải tuân thủ đầy đủ các quy định về liêm chính học thuật của Nhà trường. Không chấp nhận sao chép dữ liệu, mã nguồn, hình ảnh, bảng biểu, kết quả tính toán hoặc báo cáo mà không trích dẫn đầy đủ.<br>Việc sử dụng công cụ trí tuệ nhân tạo như ChatGPT, Copilot hoặc các công cụ tương tự chỉ được phép với mục đích hỗ trợ học tập, bao gồm tìm kiếm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, gợi ý cấu trúc trình bày hoặc hỗ trợ rà soát kỹ thuật. Học viên không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung như là sản phẩm học thuật của cá nhân hoặc nhóm.</p><p>Khi có sử dụng AI trong quá trình thực hiện bài tập, báo cáo hoặc đồ án, học viên phải ghi rõ tên công cụ, mục đích sử dụng và phạm vi sử dụng trong phần tài liệu tham khảo, phụ lục hoặc ghi chú của bài nộp.<br>Mọi hành vi lạm dụng AI nhằm gian lận, che giấu nguồn gốc nội dung, tạo dữ liệu giả, làm sai lệch kết quả hoặc thay thế đóng góp học thuật thực chất của người học sẽ được xem là vi phạm liêm chính học thuật và bị xử lý theo quy định của Nhà trường.<br><br></p><p></p>",
+      "en": "<p><b></b>Students must attend at least 70% of class sessions and fully participate in practice activities, discussions, presentations and course projects.<br>Students are required to prepare datasets, readings, assignments and discussion questions before each class. Late submissions will only be considered with valid justification.<br>All technical reports must clearly state data sources, assumptions, units, software or tools used, model versions, processing workflow, limitations of application and the uncertainty level of the results.<br>Group projects must include clear task allocation, work logs, evidence of contribution and individual reflection on each member’s technical role.<br>Students must comply with the University’s academic integrity regulations. Copying data, source code, figures, tables, calculation results or reports without proper citation is not acceptable.<br><br>The use of artificial intelligence tools such as ChatGPT, Copilot or similar tools is permitted only for learning-support purposes, including literature search, idea exploration, grammar checking, presentation-structure suggestions or technical review support. Students must not submit work generated entirely or substantially by AI as their own individual or group academic output.<br>When AI tools are used in preparing assignments, reports or projects, students must clearly declare the tool name, purpose of use and scope of use in the references, appendix or notes of the submitted work.<br>Any misuse of AI for cheating, concealing the origin of content, generating fabricated data, distorting results or replacing the learner’s substantive academic contribution will be considered a violation of academic integrity and handled according to the University’s regulations.<b></b><br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 987,
+      "ma": "001858",
+      "ten": "TẠ QUỐC DŨNG"
+    },
+    {
+      "id": 986,
+      "ma": "001714",
+      "ten": "MAI CAO LÂN"
+    },
+    {
+      "id": 1814,
+      "ma": "003615",
+      "ten": "PHẠM SƠN TÙNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 40,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1068,
+      "maBoMon": "CNK",
+      "tenBoMon": {
+        "vi": "Khoanvà Khai Thác Dầu Khí"
+      },
+      "maKhoa": "DC",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ thuật Địa chất và Dầu khí",
+        "en": "Faculty of Geology and Petroleum Engineering"
+      },
+      "vanPhong": "104 B8",
+      "dienThoai": "0945452576"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 987,
+        "maGiangVien": "001858",
+        "tenGiangVien": "TẠ QUỐC DŨNG",
+        "emailGiangVien": "tqdung@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 94263,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 94264,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "94263",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra tại lớp",
+        "en": "Test in class"
+      },
+      "noidung": {
+        "vi": "Kiểm tra tại lớp",
+        "en": "Test in class"
+      }
+    },
+    {
+      "id": 94265,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "94263",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo bài tập",
+        "en": "Class discussion"
+      },
+      "noidung": {
+        "vi": "Báo cáo bài tập",
+        "en": "Class discussion"
+      }
+    },
+    {
+      "id": 94266,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "94263",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 117864,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 157108,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Study"
+          },
+          "chuandaura": {
+            "id": 258906,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được các khái niệm biến không gian, hỗ trợ mẫu, tương quan không gian, tính dừng, bất đẳng hướng và sai lệch lấy mẫu trong bối cảnh dữ liệu vỉa.",
+              "en": "Explain spatial variables, data support, spatial correlation, stationarity, anisotropy and sampling bias in the context of reservoir data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259201,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94264,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra tại lớp",
+                  "en": "Test in class"
+                }
+              }
+            },
+            {
+              "id": 259202,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94265,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo bài tập",
+                  "en": "Class discussion"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng quan địa thống kê trong đặc trưng hóa vỉa dầu khí; workflow mô hình địa chất tĩnh; vai trò của uncertainty.",
+        "en": "Overview of geostatistics in reservoir characterization; static geological modeling workflow; role of uncertainty."
+      }
+    },
+    {
+      "id": 117855,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 157109,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Studyt"
+          },
+          "chuandaura": {
+            "id": 258907,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Đánh giá được chất lượng, giới hạn và khả năng tích hợp của dữ liệu lõi, log giếng, marker địa tầng, facies, thuộc tính địa chấn và dữ liệu khai thác.",
+              "en": "Evaluate the quality, limitations and integration potential of core, well log, stratigraphic marker, facies, seismic attribute and production data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259198,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94265,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo bài tập",
+                  "en": "Class discussion"
+                }
+              }
+            },
+            {
+              "id": 259196,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94266,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Dữ liệu đầu vào và QA/QC: core, log, facies, marker, seismic attribute, production data; scale/support; data consistency.\n\n",
+        "en": "Input data and QA/QC: core, logs, facies, markers, seismic attributes, production data; scale/support; data consistency."
+      }
+    },
+    {
+      "id": 117858,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 157102,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Study"
+          },
+          "chuandaura": {
+            "id": 258909,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Xây dựng, hiệu chỉnh và diễn giải được variogram thực nghiệm và variogram mô hình, bao gồm nugget, sill, range, nested structures và anisotropy.",
+              "en": "Construct, fit and interpret experimental and modeled variograms, including nugget, sill, range, nested structures and anisotropy."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259192,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94265,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo bài tập",
+                  "en": "Class discussion"
+                }
+              }
+            },
+            {
+              "id": 259193,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94266,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thống kê đơn biến và đa biến: histogram, distribution, transform, correlation, outlier, missing data.\n",
+        "en": "Univariate and multivariate statistics: histograms, distributions, transforms, correlation, outliers, missing data.\n"
+      }
+    },
+    {
+      "id": 117856,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 157103,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Study"
+          },
+          "chuandaura": {
+            "id": 258910,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "So sánh và lựa chọn được các phương pháp OK, SK, UK, co-kriging/collocated co-kriging, SGS, indicator simulation và mô hình facies theo mục tiêu kỹ thuật.",
+              "en": "Compare and select OK, SK, UK, co-kriging/collocated co-kriging, SGS, indicator simulation and facies modeling methods according to engineering objectives."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259194,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94264,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra tại lớp",
+                  "en": "Test in class"
+                }
+              }
+            },
+            {
+              "id": 259187,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94266,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khử ảnh hưởng lấy mẫu không đều (declustering), sai lệch lấy mẫu (sampling bias), mô hình hóa xu thế (trend modeling), tính dừng (stationarity) và tính bất đẳng hướng (anisotropy) trong dữ liệu vỉa.\n",
+        "en": "Declustering, sampling bias, trend modeling, stationarity and anisotropy in reservoir data."
+      }
+    },
+    {
+      "id": 117865,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 157106,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Study"
+          },
+          "chuandaura": {
+            "id": 258912,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thực hiện được QA/QC dữ liệu, phân tích thống kê, declustering, phân tích xu thế, variography, kriging và simulation bằng Python/R/SGeMS/GSLIB/Petrel hoặc công cụ tương đương.",
+              "en": "Perform data QA/QC, statistical analysis, declustering, trend analysis, variography, kriging and simulation using Python/R/SGeMS/GSLIB/Petrel or equivalent tools."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259197,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94265,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo bài tập",
+                  "en": "Class discussion"
+                }
+              }
+            },
+            {
+              "id": 259199,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94266,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích không gian: covariance, variogram cloud, experimental variogram, directional variogram và lựa chọn lag/tolerance.\n\n",
+        "en": "Spatial analysis: covariance, variogram clouds, experimental variograms, directional variograms and lag/tolerance selection."
+      }
+    },
+    {
+      "id": 117860,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 157105,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Study"
+          },
+          "chuandaura": {
+            "id": 258913,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Kiểm chứng mô hình, lượng hóa bất định, phân hạng các hiện thực và diễn giải tác động của bất định đến STOIIP, vị trí giếng, mô phỏng vỉa hoặc quyết định phát triển mỏ.",
+              "en": "Validate models, quantify uncertainty, rank realizations and interpret the impact of uncertainty on STOIIP, well placement, reservoir simulation or field development decisions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259195,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94265,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo bài tập",
+                  "en": "Class discussion"
+                }
+              }
+            },
+            {
+              "id": 259200,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94266,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mô hình variogram: nugget, sill, range, spherical/exponential/Gaussian, nested structures, anisotropy và diễn giải địa chất.\n\n",
+        "en": "Variogram modeling: nugget, sill, range, spherical/exponential/Gaussian models, nested structures, anisotropy and geological interpretation."
+      }
+    },
+    {
+      "id": 117869,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 157104,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Study"
+          },
+          "chuandaura": {
+            "id": 258915,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thể hiện tính trung thực, cẩn trọng và minh bạch khi xử lý dữ liệu, chọn mô hình, thiết lập giả định, báo cáo sai số và giới hạn áp dụng.",
+              "en": "Demonstrate integrity, care and transparency in data handling, model selection, assumptions, error reporting and model limitations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259188,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94265,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo bài tập",
+                  "en": "Class discussion"
+                }
+              }
+            },
+            {
+              "id": 259189,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94266,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp Kriging: Kriging đơn giản (Simple Kriging), Kriging thông thường (Ordinary Kriging), Kriging phổ quát (Universal Kriging), phương sai Kriging (kriging variance) và kiểm chứng chéo (cross-validation).\n",
+        "en": "Kriging: Simple Kriging, Ordinary Kriging, Universal Kriging, kriging variance and cross-validation."
+      }
+    },
+    {
+      "id": 117861,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 157107,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Dạy",
+            "en": "Teach"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học",
+            "en": "Study"
+          },
+          "chuandaura": {
+            "id": 258916,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Thể hiện năng lực hợp tác nhóm, phản biện học thuật, học tập chủ động và trách nhiệm với an toàn, môi trường và phát triển tài nguyên bền vững.",
+              "en": "Demonstrate teamwork, academic peer review, self-directed learning and responsibility for safety, environment and sustainable resource development."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 259190,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94265,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo bài tập",
+                  "en": "Class discussion"
+                }
+              }
+            },
+            {
+              "id": 259191,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94266,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đồng Kriging (co-kriging), đồng Kriging đồng vị trí (collocated co-kriging) và tích hợp thuộc tính địa chấn với dữ liệu phụ trợ trong mô hình hóa thuộc tính vỉa.\n\n",
+        "en": "Co-kriging and collocated co-kriging; integrating seismic attributes and secondary data in reservoir property modeling."
+      }
+    },
+    {
+      "id": 117862,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Mô hình facies: indicator approach, transition probability, object-based concepts và ràng buộc địa chất.\n\n",
+        "en": "Facies modeling: indicator approaches, transition probability, object-based concepts and geological constraints."
+      }
+    },
+    {
+      "id": 117866,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Mô phỏng Gaussian tuần tự (SGS) cho mô hình hóa độ rỗng và độ thấm; biến đổi dữ liệu về phân bố Gaussian; xây dựng nhiều hiện thực mô hình để lượng hóa bất định.\n",
+        "en": "Sequential Gaussian Simulation for porosity/permeability; Gaussian transforms; multiple realizations."
+      }
+    },
+    {
+      "id": 117867,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Mô phỏng chỉ thị (indicator simulation) phục vụ mô hình hóa bất định tướng đá; tích hợp mô hình tướng đá với thuộc tính petrophysics và kiểm tra tính nhất quán địa chất của mô hình vỉa.\n\n",
+        "en": "Indicator simulation and facies uncertainty; facies–petrophysics coupling; geological consistency checks."
+      }
+    },
+    {
+      "id": 117857,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Kiểm chứng và lượng hóa bất định: histogram/variogram reproduction, blind well test, P10/P50/P90, realization ranking.\n\n",
+        "en": "Validation and uncertainty quantification: histogram/variogram reproduction, blind well tests, P10/P50/P90 and realization ranking."
+      }
+    },
+    {
+      "id": 117868,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Upscaling và liên kết với mô phỏng vỉa; tác động của mô hình địa thống kê đến STOIIP, vị trí giếng và phát triển mỏ.\n\n",
+        "en": "Upscaling and connection to reservoir simulation; impact of geostatistical models on STOIIP, well placement and field development."
+      }
+    },
+    {
+      "id": 117859,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Trình bày đồ án nhóm: mô hình, kiểm chứng, bất định và khuyến nghị kỹ thuật; phản biện chéo.\n\n",
+        "en": "Group project presentations: model, validation, uncertainty and engineering recommendations; peer review."
+      }
+    },
+    {
+      "id": 117863,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Tổng kết môn học; bài học thực tế; định hướng nghiên cứu; ôn thi cuối kỳ ",
+        "en": "Course synthesis; practical lessons; research directions; final exam"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 258906,
+      "ma": "L.O.1.1",
+      "ten_vi": "Giải thích được các khái niệm biến không gian, hỗ trợ mẫu, tương quan không gian, tính dừng, bất đẳng hướng và sai lệch lấy mẫu trong bối cảnh dữ liệu vỉa.",
+      "ten_en": "Explain spatial variables, data support, spatial correlation, stationarity, anisotropy and sampling bias in the context of reservoir data.",
+      "hddg": [
+        {
+          "id": 94264,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra tại lớp",
+          "ten_en": "Test in class"
+        },
+        {
+          "id": 94265,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo bài tập",
+          "ten_en": "Class discussion"
+        }
+      ]
+    },
+    {
+      "id": 258907,
+      "ma": "L.O.1.2",
+      "ten_vi": "Đánh giá được chất lượng, giới hạn và khả năng tích hợp của dữ liệu lõi, log giếng, marker địa tầng, facies, thuộc tính địa chấn và dữ liệu khai thác.",
+      "ten_en": "Evaluate the quality, limitations and integration potential of core, well log, stratigraphic marker, facies, seismic attribute and production data.",
+      "hddg": [
+        {
+          "id": 94265,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo bài tập",
+          "ten_en": "Class discussion"
+        },
+        {
+          "id": 94266,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 258909,
+      "ma": "L.O.2.1",
+      "ten_vi": "Xây dựng, hiệu chỉnh và diễn giải được variogram thực nghiệm và variogram mô hình, bao gồm nugget, sill, range, nested structures và anisotropy.",
+      "ten_en": "Construct, fit and interpret experimental and modeled variograms, including nugget, sill, range, nested structures and anisotropy.",
+      "hddg": [
+        {
+          "id": 94265,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo bài tập",
+          "ten_en": "Class discussion"
+        },
+        {
+          "id": 94266,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 258910,
+      "ma": "L.O.2.2",
+      "ten_vi": "So sánh và lựa chọn được các phương pháp OK, SK, UK, co-kriging/collocated co-kriging, SGS, indicator simulation và mô hình facies theo mục tiêu kỹ thuật.",
+      "ten_en": "Compare and select OK, SK, UK, co-kriging/collocated co-kriging, SGS, indicator simulation and facies modeling methods according to engineering objectives.",
+      "hddg": [
+        {
+          "id": 94264,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra tại lớp",
+          "ten_en": "Test in class"
+        },
+        {
+          "id": 94266,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 258912,
+      "ma": "L.O.3.1",
+      "ten_vi": "Thực hiện được QA/QC dữ liệu, phân tích thống kê, declustering, phân tích xu thế, variography, kriging và simulation bằng Python/R/SGeMS/GSLIB/Petrel hoặc công cụ tương đương.",
+      "ten_en": "Perform data QA/QC, statistical analysis, declustering, trend analysis, variography, kriging and simulation using Python/R/SGeMS/GSLIB/Petrel or equivalent tools.",
+      "hddg": [
+        {
+          "id": 94265,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo bài tập",
+          "ten_en": "Class discussion"
+        },
+        {
+          "id": 94266,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 258913,
+      "ma": "L.O.3.2",
+      "ten_vi": "Kiểm chứng mô hình, lượng hóa bất định, phân hạng các hiện thực và diễn giải tác động của bất định đến STOIIP, vị trí giếng, mô phỏng vỉa hoặc quyết định phát triển mỏ.",
+      "ten_en": "Validate models, quantify uncertainty, rank realizations and interpret the impact of uncertainty on STOIIP, well placement, reservoir simulation or field development decisions.",
+      "hddg": [
+        {
+          "id": 94265,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo bài tập",
+          "ten_en": "Class discussion"
+        },
+        {
+          "id": 94266,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 258915,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thể hiện tính trung thực, cẩn trọng và minh bạch khi xử lý dữ liệu, chọn mô hình, thiết lập giả định, báo cáo sai số và giới hạn áp dụng.",
+      "ten_en": "Demonstrate integrity, care and transparency in data handling, model selection, assumptions, error reporting and model limitations.",
+      "hddg": [
+        {
+          "id": 94265,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo bài tập",
+          "ten_en": "Class discussion"
+        },
+        {
+          "id": 94266,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 258916,
+      "ma": "L.O.4.2",
+      "ten_vi": "Thể hiện năng lực hợp tác nhóm, phản biện học thuật, học tập chủ động và trách nhiệm với an toàn, môi trường và phát triển tài nguyên bền vững.",
+      "ten_en": "Demonstrate teamwork, academic peer review, self-directed learning and responsibility for safety, environment and sustainable resource development.",
+      "hddg": [
+        {
+          "id": 94265,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo bài tập",
+          "ten_en": "Class discussion"
+        },
+        {
+          "id": 94266,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Địa thống kê nâng cao",
+  "tenmonhoc_eng": "Advanced geostatistics",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1256 @@
+{
+  "ma": "DCMH.EE3077.8.1",
+  "phienban": "8.1",
+  "capnhat": "30/03/2026 16:08",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3077",
+  "ten": "EE3077 - Thị giác máy",
+  "ten_eng": "EE3077 - Machine Vision",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Học phần nhằm trang bị cho sinh viên những kiến thức nền tảng\nvà kỹ năng căn bản trong lĩnh vực xử lý ảnh số, thị giác máy tính và các phương\npháp máy học/học sâu liên quan. Sau khi hoàn thành môn học, sinh viên sẽ:</p>\n\n<p>- Kiến thức</p>\n\n<ul>\n <li>Hiểu\n     các khái niệm, thuật ngữ, nguyên lý và mô hình cơ bản trong xử lý ảnh và\n     thị giác máy tính.</li>\n <li>Trình\n     bày được các phương pháp nền tảng như: biểu diễn ảnh số, nâng cao chất lượng\n     ảnh, lọc ảnh trong miền không gian, xử lý hình thái học, phân đoạn ảnh,\n     phân loại ảnh và phát hiện vật thể.</li>\n <li>Hiểu\n     các kiến thức cơ bản về máy học và học sâu liên quan thị giác máy tính,\n     bao gồm học có giám sát, AdaBoost, mạng nơ-ron nhân tạo và mạng nơ-ron\n     tích chập.</li>\n</ul>\n\n<p>- Kỹ năng</p>\n\n<ul>\n <li>Áp dụng\n     các phương pháp xử lý ảnh và thị giác máy tính để giải quyết các bài toán\n     thực tế như nâng cao chất lượng ảnh, phân đoạn ảnh, phân loại ảnh và phát\n     hiện vật thể.</li>\n <li>Sử dụng\n     được các công cụ phổ biến như Matlab, OpenCV để triển khai và đánh\n     giá các thuật toán.</li>\n</ul>\n\n<p>- Năng lực giải quyết vấn đề</p>\n\n<ul>\n <li>Nhận\n     diện và giải quyết các bài toán cơ bản trong lĩnh vực xử lý ảnh và thị\n     giác máy tính.</li>\n <li>Phân\n     tích, đánh giá và so sánh các phương pháp xử lý ảnh, thị giác máy tính</li></ul><p></p>",
+      "en": "<p></p><p></p><p><b></b>The course aims to equip students with foundational\nknowledge and basic skills in digital image processing, computer vision, and\nrelated machine learning/deep learning methods. After completing the course,\nstudents will be able to:</p>\n\n<p>- Knowledge</p>\n\n<ul>\n </ul><ul><li>Understand\n     fundamental concepts, terminologies, principles, and models in image\n     processing and computer vision.</li>\n <li>Describe\n     foundational methods such as digital image representation, image\n     enhancement, spatial-domain filtering, morphological processing, image\n     segmentation, image classification, and object detection.</li>\n <li>Understand\n     basic machine learning and deep learning concepts relevant to computer\n     vision, including supervised learning, AdaBoost, artificial neural\n     networks, and convolutional neural networks.</li>\n</ul>\n\n<p>- Skills</p>\n\n<ul>\n <li>Apply\n     image processing and computer vision methods to solve practical problems\n     such as image enhancement, segmentation, classification, and object\n     detection.</li>\n <li>Use\n     common tools such as Matlab and OpenCV to implement and evaluate\n     algorithms.</li>\n</ul>\n\n<p>- Problem-solving Ability</p>\n\n<ul>\n <li>Identify\n     and solve basic problems in image processing and computer vision.</li>\n <li>Analyze,\n     evaluate, and compare image processing and computer vision methods.</li></ul><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>Trong học phần này, sinh viên sẽ\ntìm hiểu các kiến thức nền tảng trong lĩnh vực xử lý ảnh số và thị giác máy\ntính, bao gồm nâng cao chất lượng ảnh, phân đoạn ảnh, phân loại ảnh và phát hiện\nvật thể. Sinh viên cũng sẽ được học các kiến thức cơ bản về máy học và học sâu\nliên quan thị giác máy tính. Kết thúc học phần, sinh viên có thể vận dụng các\nnguyên lý và công cụ cơ bản để giải quyết các bài toán thị giác máy tính trong\nthực tế. Cụ thể, học phần bao gồm:</p>\n\n<p></p><ul><li>Kiến thức nền tảng (bao gồm các khái niệm, thuật ngữ, lý\nthuyết, mô hình và phương pháp) của xử lý ảnh và thị giác máy tính: biểu diễn ảnh\nsố, nâng cao chất lượng ảnh, lọc ảnh trong miền không gian, xử lý hình thái học,\nphân đoạn ảnh, phân loại ảnh và phát hiện vật thể. </li><li>Kiến thức nền tảng về máy học và học sâu liên quan thị\ngiác máy tính, bao gồm học có giám sát, AdaBoost, mạng nơ-ron nhân tạo và mạng\nnơ-ron tích chập (CNN).</li><li>Nhận diện và giải quyết (với Matlab, OpenCV) một\nsố bài toán quan trọng trong thị giác máy tính: nâng cao chất lượng ảnh, lọc ảnh\ntrong miền không gian, xử lý hình thái học, phân đoạn ảnh, phân loại ảnh và\nphát hiện vật thể.</li></ul><p></p>\n\n\n\n<p></p>",
+      "en": "<p></p><p>In this course, students will explore fundamental knowledge in\nthe field of digital image processing, computer vision, including image\nenhancement, segmentation, classification, and object detection. Students will\nalso learn fundamental knowledge of machine learning and deep learning related\nto computer vision. By the end of the course, students will be able to apply\nbasic principles and tools to solve practical computer vision problems. In\nparticular, the course includes:</p>\n\n<p></p><ul><li>Fundamental knowledge (including concepts, terminologies,\ntheories, models, and<i> </i>methods) of image processing and computer vision:\ndigital image representation, image enhancement, image filtering in spatial\ndomain, morphological processing, image segmentation, image classification, and\nobject detection.</li><li>Fundamental knowledge of machine learning and deep\nlearning related to computer vision, including supervised learning, AdaBoost,\nartificial neural networks, and convolutional neural networks.</li><li>Identifying and solving (with\nMatlab, OpenCV) several important problems in\ncomputer vision: image enhancement, image filtering in spatial domain, morphological\nprocessing, image segmentation, image classification, and object detection.</li></ul><p></p><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p></p>Giáo trình:<br><ul><li>Slide bài giảng</li></ul>Tài liệu tham khảo:<br><ul><li>R. C. Gonzalez and R.\nE. Woods. Digital Image Processing, 4th edition. Pearson Education, 2018&nbsp;</li><li>\n\nR. C. Gonzalez, R. E. Woods, Steven L. Eddins. \n\nDigital Image Processing using MATLAB, 3rd edition. Gatesmark Publishing, 2020</li><li>\n\nRichard Szeliski. \n\nComputer\nVision: Algorithms and Applications (Texts in Computer Science) Second\nEdition. Springer, 2022.</li><li>\n\nC. H. Chen.\n\nHandbook of Pattern Recognition and Computer Vision.&nbsp;World Scientific, 2016.<br></li></ul><p></p><p></p>\n\n<p><b></b><b></b></p><p></p>",
+      "en": "<p>\n\n</p><p></p>\n\n<p></p>\n\nTextbooks:<br><ul><li>Lecture notes</li></ul>\n\nReference Materials:<br><ul><li>R. C. Gonzalez and R.\nE. Woods. Digital Image Processing, 4th edition. Pearson Education, 2018 </li><li>\n\nR. C. Gonzalez, R. E. Woods, Steven L. Eddins. \n\nDigital Image Processing using MATLAB, 3rd edition. Gatesmark Publishing, 2020</li><li>\n\nRichard Szeliski. \n\nComputer\nVision: Algorithms and Applications (Texts in Computer Science) Second\nEdition. Springer, 2022.</li><li>\n\nC. H. Chen.\n\nHandbook of Pattern Recognition and Computer Vision. World Scientific, 2016.\n\n<br></li></ul><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p></p>\n\n<p>Sinh viên\nphải: </p><p></p><ul><li>Đọc tài liệu trước khi đến lớp</li><li>Tham dự đầy đủ và tham gia thảo luận trong các giờ giảng lý thuyết, thực hành</li><li>Mang theo laptop để thực hành Matlab/Python</li><li>\n\nThực hiện các bài tập về nhà và project. Sinh viên phải tự làm project và bài tập; việc trao đổi, thảo luận được khuyến khích nhưng việc chia sẻ dữ liệu, thuật toán, chương trình, kết quả, báo cáo,…. trong quá trình thực hiện là không thể\nchấp nhận. </li></ul><p></p>\n\n<p></p>\n\n<p>Điều kiện dự thi cuối kỳ:</p>\n\n<p></p><ul><li>Sinh viên\nhoàn thành và đạt trên trung bình ít nhất 80% bài tập được giao.</li><li>Không vắng\nmặt quá 30% giờ lý thuyết.</li></ul>\n\nYêu cầu về liêm chính học thuật và quy định sử dụng AI:<ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul><p></p>",
+      "en": "<p>\n\n</p><p><strong></strong>Students are required to:</p>\n\n<p></p><ul><li>Read the materials before coming to class.</li><li>Attend all lectures and practical sessions, and actively participate in discussions.</li><li>Bring a laptop for Matlab/Python practice.</li><li>Complete homework assignments and the project. Students must complete their own projects and assignments; discussion and exchange of ideas are encouraged, but sharing data, algorithms, code, results, reports, etc., during the process is not acceptable.</li></ul><p></p>\n\n\n\n\n\n\n<p></p><p></p><p></p><p></p><p></p>\n<p>Final exam eligibility:</p><ul><li>\nStudents must complete and achieve at least an average score on 80% of the assigned exercises.</li><li>Students must not be absent for more than 30% of the lecture hours.</li></ul>\n\n<p><strong></strong>Academic integrity requirements and AI usage policy:<strong></strong></p><p></p><ul><li>Students must comply with the university’s academic integrity regulations.</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as searching for references, exploring ideas, checking grammar, or suggesting ways to present content. Students must not submit work that is generated entirely or predominantly by AI.</li><li>If AI tools are used during the preparation of an assignment, students must clearly acknowledge the tools used and describe how they were used in the references section or in a note.</li><li>Any misuse of AI for the purpose of academic dishonesty will be considered a violation of academic integrity and will be handled according to the university’s regulations.</li></ul><p></p><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": "<p></p><p>In this course, students will explore fundamental knowledge in\nthe field of digital image processing, computer vision, including image\nenhancement, segmentation, classification, and object detection. Students will\nalso learn fundamental knowledge of machine learning and deep learning related\nto computer vision. By the end of the course, students will be able to apply\nbasic principles and tools to solve practical computer vision problems. In\nparticular, the course includes:</p>\n\n<p>- Fundamental knowledge (including concepts, terminologies,\ntheories, models, and<i> </i>methods) of image processing and computer vision:\ndigital image representation, image enhancement, image filtering in spatial\ndomain, morphological processing, image segmentation, image classification, and\nobject detection.</p>\n\n<p>- Fundamental knowledge of machine learning and deep\nlearning related to computer vision, including supervised learning, AdaBoost,\nartificial neural networks, and convolutional neural networks.</p>\n\n<p>- Identifying and solving (with\nMatlab, OpenCV) several important problems in\ncomputer vision: image enhancement, image filtering in spatial domain, morphological\nprocessing, image segmentation, image classification, and object detection.</p><p></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1397,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2021)",
+        "en": "Control Engineering and Automation (2021)"
+      }
+    },
+    {
+      "id": 1157,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2020)",
+        "en": "Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 1247,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2019)",
+        "en": "Control Engineering and Automation"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1891,
+      "ma": "003685",
+      "ten": "Phạm Việt Cường"
+    },
+    {
+      "id": 10488,
+      "ma": "004190",
+      "ten": "NGUYỄN TẤN LŨY"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.33,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1031,
+      "maBoMon": "TDH",
+      "tenBoMon": {
+        "vi": "Điều Khiển Tự Động"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Bộ môn Điều khiển Tự động, 109B3",
+      "dienThoai": "0934404353"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1891,
+        "maGiangVien": "003685",
+        "tenGiangVien": "Phạm Việt Cường",
+        "emailGiangVien": "pvcuong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2081 - Ngôn ngữ lập trình",
+        "en": "EE2081 - Programming Languages"
+      },
+      "tenmonhoc_only": {
+        "vi": "Ngôn ngữ lập trình",
+        "en": "Programming Languages"
+      },
+      "mamonhoc": "EE2081"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE2009 - Hệ thống Máy tính và Ngôn ngữ Lập trình",
+        "en": "EE2009 - Computer Systems and Programming Languages"
+      },
+      "tenmonhoc_only": {
+        "vi": "Hệ thống Máy tính và Ngôn ngữ Lập trình",
+        "en": "Computer Systems and Programming Languages"
+      },
+      "mamonhoc": "EE2009"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 83684,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 83685,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "83684",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Group project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn thực hiện theo nhóm, 30% điểm tổng kết",
+        "en": "Group project, 30% of final grade"
+      }
+    },
+    {
+      "id": 83686,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "83684",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ, 20% điểm tổng kết",
+        "en": "Midterm exam, 20% of final grade"
+      }
+    },
+    {
+      "id": 83687,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "83684",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ trắc nghiệm và tự luận, 50% điểm tổng kết",
+        "en": "Final exam, selected-response and constructed-response questions, 50% of final grade"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 104053,
+      "stt": 1,
+      "buoi": "Tuần 1-6",
+      "chuandaurachitiet": [
+        {
+          "id": 135944,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng, nêu vấn đề thảo luận",
+            "en": "Present the lecture, raise discussion topics"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, ghi chép, thảo luận, đặt câu hỏi",
+            "en": "Listen to the lecture, take notes, discuss, and ask questions"
+          },
+          "chuandaura": {
+            "id": 186104,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "(K, mức 3) Giải thích các khái niệm, thuật ngữ, thuật toán cơ bản trong xử lý ảnh và thị giác máy tính",
+              "en": "(K, level 3) Explain fundamental concepts, terminologies, and algorithms in image processing and computer vision"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221735,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83686,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 221736,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135946,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng, nêu vấn đề thảo luận",
+            "en": "Present the lecture, raise discussion topics"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, ghi chép, thảo luận, đặt câu hỏi",
+            "en": "Listen to the lecture, take notes, discuss, and ask questions"
+          },
+          "chuandaura": {
+            "id": 186108,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "(K, mức 4) So sánh các phương pháp xử lý ảnh/thị giác máy tính cơ bản",
+              "en": "(K, level 4) Compare basic image processing/computer vision methods"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221740,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83685,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 221742,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 83686,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 221741,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135945,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn thực hành, giao bài tập",
+            "en": "Practical instructions and assignment briefing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành",
+            "en": "Hands-on practice"
+          },
+          "chuandaura": {
+            "id": 186107,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng các phương pháp xử lý ảnh/thị giác máy tính cơ bản",
+              "en": "(K, level 4) Apply basic image processing/computer vision methods"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221737,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83685,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 221739,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83686,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 221738,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu\n1.1 Cơ bản về xử lý ảnh số và thị giác máy tính\n1.2 Giới thiệu phần mềm/ngôn ngữ lập trình/thư viện Matlab, Python và OpenCV\n\nChương 2: Biến đổi cường độ và lọc ảnh\n2.1 Biến đổi cường độ ảnh\n2.2 Cân bằng lược đồ Histogram\n2.3 Lọc ảnh trong miền không gian\n\nChương 3: Xử lý hình thái ảnh\n3.1 Dãn nở và xói mòn\n\nChương 4: Phân đoạn ảnh\n4.1 Phát hiện điểm, đường thẳng và cạnh\n4.2 Biến đổi Hough\n4.3 Phân ngưỡng",
+        "en": "Chapter 1: Introduction\n1.1 Fundamentals of digital image processing and computer vision\n1.2 Introduction to Matlab, Python and OpenCV\n\nChapter 2: Image intensity transformation and image filtering\n2.1 Image intensity transformation\n2.2 Histogram equalization\n2.3 Image filtering in spatial domain\n\nChapter 3: Morphological processing\n3.1 Dilation and Erosion\n\nChapter 4: Image segmentation\n4.1 Point, line, and edge detection\n4.2 Hough transform\n4.3 Thresholding"
+      }
+    },
+    {
+      "id": 104051,
+      "stt": 2,
+      "buoi": "Tuần 7-11",
+      "chuandaurachitiet": [
+        {
+          "id": 135940,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng, nêu vấn đề thảo luận",
+            "en": "Present the lecture, raise discussion topics"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, ghi chép, thảo luận, đặt câu hỏi",
+            "en": "Listen to the lecture, take notes, discuss, and ask questions"
+          },
+          "chuandaura": {
+            "id": 186105,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(K, mức 3) Mô tả nguyên lý, kiến trúc và cơ chế hoạt động của một số mô hình máy học và học sâu phổ biến",
+              "en": "(K, level 3) Describe principles, architectures, and operating mechanisms of several common ML/DL models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221727,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83686,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 221728,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135939,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng, nêu vấn đề thảo luận",
+            "en": "Present the lecture, raise discussion topics"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, ghi chép, thảo luận, đặt câu hỏi",
+            "en": "Listen to the lecture, take notes, discuss, and ask questions"
+          },
+          "chuandaura": {
+            "id": 186111,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 4) Đánh giá mô hình phân loại ảnh bằng các chỉ số phổ biến",
+              "en": "(K, level 4) Evaluate classification models using common metrics"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221725,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83685,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 221726,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135938,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn thực hành, giao bài tập",
+            "en": "Practical instructions and assignment briefing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành",
+            "en": "Hands-on practice"
+          },
+          "chuandaura": {
+            "id": 186110,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng các mô hình phân loại ảnh",
+              "en": "(K, level 4) Apply classification models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221723,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83685,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 221724,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Bài toán phân loại ảnh\n5.1 Mạng neural nhân tạo\n5.2 Mạng neural tích chập\n5.2 Mạng Alexnet",
+        "en": "Chapter 5: Image classification problem\n5.1 Artificial neural networks\n5.2 Convolutional neural networks\n5.3 Alexnet"
+      }
+    },
+    {
+      "id": 104052,
+      "stt": 3,
+      "buoi": "Tuần 12-15",
+      "chuandaurachitiet": [
+        {
+          "id": 135943,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng, nêu vấn đề thảo luận",
+            "en": "Present the lecture, raise discussion topics"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, ghi chép, thảo luận, đặt câu hỏi",
+            "en": "Listen to the lecture, take notes, discuss, and ask questions"
+          },
+          "chuandaura": {
+            "id": 186105,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(K, mức 3) Mô tả nguyên lý, kiến trúc và cơ chế hoạt động của một số mô hình máy học và học sâu phổ biến",
+              "en": "(K, level 3) Describe principles, architectures, and operating mechanisms of several common ML/DL models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221733,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83685,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 221734,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135942,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng, nêu vấn đề thảo luận",
+            "en": "Present the lecture, raise discussion topics"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, ghi chép, thảo luận, đặt câu hỏi",
+            "en": "Listen to the lecture, take notes, discuss, and ask questions"
+          },
+          "chuandaura": {
+            "id": 186114,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "(K, mức 4) Đánh giá mô hình phát hiện vật thể bằng các chỉ số phổ biến",
+              "en": "(K, level 4) Evaluate object detection models using common metrics"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221731,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83685,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 221732,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135941,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn thực hành, giao bài tập",
+            "en": "Practical instructions and assignment briefing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành",
+            "en": "Hands-on practice"
+          },
+          "chuandaura": {
+            "id": 186113,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng các mô hình phát hiện vật thể",
+              "en": "(K, level 4) Apply object detection models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221729,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83685,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 221730,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83687,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Bài toán phát hiện vật thể\n6.1 Thuật toán Viola - Jones\n6.2 Thuật toán YOLO v1",
+        "en": "Chapter 6: Object detection problem\n6.1 Viola - Jones algorithm\n6.2 YOLO v1"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 186104,
+      "ma": "L.O.1.1",
+      "ten_vi": "(K, mức 3) Giải thích các khái niệm, thuật ngữ, thuật toán cơ bản trong xử lý ảnh và thị giác máy tính",
+      "ten_en": "(K, level 3) Explain fundamental concepts, terminologies, and algorithms in image processing and computer vision",
+      "hddg": [
+        {
+          "id": 83686,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186105,
+      "ma": "L.O.1.2",
+      "ten_vi": "(K, mức 3) Mô tả nguyên lý, kiến trúc và cơ chế hoạt động của một số mô hình máy học và học sâu phổ biến",
+      "ten_en": "(K, level 3) Describe principles, architectures, and operating mechanisms of several common ML/DL models",
+      "hddg": [
+        {
+          "id": 83685,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 83686,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186107,
+      "ma": "L.O.2.1",
+      "ten_vi": "(K, mức 4) Áp dụng các phương pháp xử lý ảnh/thị giác máy tính cơ bản",
+      "ten_en": "(K, level 4) Apply basic image processing/computer vision methods",
+      "hddg": [
+        {
+          "id": 83685,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 83686,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186108,
+      "ma": "L.O.2.2",
+      "ten_vi": "(K, mức 4) So sánh các phương pháp xử lý ảnh/thị giác máy tính cơ bản",
+      "ten_en": "(K, level 4) Compare basic image processing/computer vision methods",
+      "hddg": [
+        {
+          "id": 83685,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 83686,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186110,
+      "ma": "L.O.3.1",
+      "ten_vi": "(K, mức 4) Áp dụng các mô hình phân loại ảnh",
+      "ten_en": "(K, level 4) Apply classification models",
+      "hddg": [
+        {
+          "id": 83685,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186111,
+      "ma": "L.O.3.2",
+      "ten_vi": "(K, mức 4) Đánh giá mô hình phân loại ảnh bằng các chỉ số phổ biến",
+      "ten_en": "(K, level 4) Evaluate classification models using common metrics",
+      "hddg": [
+        {
+          "id": 83685,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186113,
+      "ma": "L.O.4.1",
+      "ten_vi": "(K, mức 4) Áp dụng các mô hình phát hiện vật thể",
+      "ten_en": "(K, level 4) Apply object detection models",
+      "hddg": [
+        {
+          "id": 83685,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 186114,
+      "ma": "L.O.4.2",
+      "ten_vi": "(K, mức 4) Đánh giá mô hình phát hiện vật thể bằng các chỉ số phổ biến",
+      "ten_en": "(K, level 4) Evaluate object detection models using common metrics",
+      "hddg": [
+        {
+          "id": 83685,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 83687,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thị giác máy",
+  "tenmonhoc_eng": "Machine Vision",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

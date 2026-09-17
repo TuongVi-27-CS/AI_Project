@@ -1,0 +1,1521 @@
+{
+  "ma": "DCMH.ME3805.2.1",
+  "phienban": "1.1",
+  "capnhat": "27/01/2026 08:18",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME3805",
+  "ten": "ME3805 - Mô phỏng hệ thống robot ",
+  "ten_eng": "ME3805 - Simulation of the robot system",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n</p><p>Môn học \"Mô phỏng hệ thống robot\" nhằm trang bị cho sinh viên kiến thức và kỹ năng cần thiết để phát triển, mô phỏng và điều khiển các hệ thống robot sử dụng Robot Operating System (ROS). Thông qua khóa học, sinh viên sẽ nắm vững kiến trúc ROS, phát triển các gói ROS bằng C++, thiết kế và mô phỏng hệ thống robot trong Gazebo, tích hợp cảm biến và bộ truyền động, cũng như áp dụng hệ thống biến đổi TF và quản lý thời gian trong ROS. Môn học cũng giúp sinh viên phát triển kỹ năng làm việc nhóm, giải quyết vấn đề và thuyết trình kỹ thuật, chuẩn bị cho họ khả năng ứng dụng kiến thức vào các dự án thực tế trong lĩnh vực robot và cơ điện tử.</p><p></p>",
+      "en": "<p>\n\nThe course \"Simulation of the Robot System\" aims to equip students with the necessary knowledge and skills to develop, simulate, and control robot systems using the Robot Operating System (ROS). Throughout the course, students will master ROS architecture, develop ROS packages using C++, design and simulate robot systems in Gazebo, integrate sensors and actuators, as well as apply the TF transformation system and time management in ROS. The course also helps students develop teamwork skills, problem-solving abilities, and technical presentation skills, preparing them to apply their knowledge to real-world projects in the fields of robotics and mechatronics.\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nMôn học \"Mô phỏng hệ thống robot\" cung cấp một cái nhìn tổng quan về Robot Operating System (ROS) và ứng dụng của nó trong việc phát triển hệ thống robot. Khóa học bắt đầu với việc giới thiệu về kiến trúc ROS, bao gồm các khái niệm cơ bản như nodes, topics, services và actions. Tiếp theo, sinh viên sẽ học cách sử dụng các công cụ dòng lệnh ROS và quản lý workspace. Phần lớn khóa học tập trung vào việc phát triển các gói ROS bằng C++, thiết kế và mô phỏng robot trong Gazebo, sử dụng RViz cho trực quan hóa, và tích hợp cảm biến cùng bộ truyền động. Các chủ đề nâng cao như hệ thống biến đổi TF, quản lý thời gian và sử dụng bags cũng được đề cập. Khóa học kết thúc với một cái nhìn tổng quan về ROS2, so sánh nó với ROS1, và một dự án tổng hợp để sinh viên áp dụng kiến thức đã học.\n\n<br></p>",
+      "en": "<p>\n\nThe \"Simulation of the Robot System\" course provides an overview of the Robot Operating System (ROS) and its applications in developing robot systems. The course begins with an introduction to ROS architecture, covering basic concepts such as nodes, topics, services, and actions. Next, students will learn how to use ROS command-line tools and manage workspaces. A significant portion of the course focuses on developing ROS packages using C++, designing and simulating robots in Gazebo, using RViz for visualization, and integrating sensors and actuators. Advanced topics such as the TF transformation system, time management, and the use of bags are also covered. The course concludes with an overview of ROS2, comparing it to ROS1, and a comprehensive project for students to apply the knowledge they've gained.\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n<strong>Sách, giáo trình chính</strong>&nbsp;</p><p>[1] Joseph, L., &amp; Cacace, J. (2021). Mastering ROS for Robotics Programming: Best practices and troubleshooting solutions when working with ROS (3rd ed.). Packt Publishing.<br><strong></strong></p><p><strong>Sách tham khảo</strong>&nbsp;</p><p>[2] Joseph, L., &amp; Cacace, J. (2025). Mastering ROS 2 for Robotics Programming: Design, build, simulate, and prototype complex robots using the Robot Operating System 2 (4th ed.). Packt Publishing.</p><p><strong>Tài liệu trực tuyến</strong>&nbsp;</p><p>[3] ROS Wiki: <a target=\"_blank\" rel=\"nofollow\" href=\"http://wiki.ros.org/\">http://wiki.ros.org/</a>&nbsp;</p><p>[4] ROS 2 Documentation: <a target=\"_blank\" rel=\"nofollow\" href=\"https://docs.ros.org/en/galactic/\">https://docs.ros.org/en/galactic/</a>&nbsp;</p><p>[5] Gazebo Simulator: <a target=\"_blank\" rel=\"nofollow\" href=\"http://gazebosim.org/\">http://gazebosim.org/</a>&nbsp;</p><p>[7[ RViz (ROS visualization): <a target=\"_blank\" rel=\"nofollow\" href=\"http://wiki.ros.org/rviz\">http://wiki.ros.org/rviz</a>\n\n<br></p>",
+      "en": "<p>\n\n</p><p><strong>Main Textbooks</strong>&nbsp;</p><p>[1] Joseph, L., &amp; Cacace, J. (2021). Mastering ROS for Robotics Programming: Best practices and troubleshooting solutions when working with ROS (3rd ed.). Packt Publishing.</p>\n<p><strong>Reference Books</strong>&nbsp;</p><p>[2] Joseph, L., &amp; Cacace, J. (2025). Mastering ROS 2 for Robotics Programming: Design, build, simulate, and prototype complex robots using the Robot Operating System 2 (4th ed.). Packt Publishing.</p>\n<p><strong>Online Resources</strong>&nbsp;</p><p>[4] ROS Wiki: <a target=\"_blank\" rel=\"nofollow\" href=\"http://wiki.ros.org/\">http://wiki.ros.org/</a>&nbsp;</p><p>[5] ROS 2 Documentation: <a target=\"_blank\" rel=\"nofollow\" href=\"https://docs.ros.org/en/galactic/\">https://docs.ros.org/en/galactic/</a>&nbsp;</p><p>[6] Gazebo Simulator: <a target=\"_blank\" rel=\"nofollow\" href=\"http://gazebosim.org/\">http://gazebosim.org/</a>&nbsp;</p><p>[7] RViz (ROS visualization): <a target=\"_blank\" rel=\"nofollow\" href=\"http://wiki.ros.org/rviz\">http://wiki.ros.org/rviz</a></p>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Để học tốt học phần <em>Mô phỏng hệ thống robot</em>, sinh viên cần kết hợp giữa lý thuyết và thực hành. Sinh viên nên chuẩn bị bài trước mỗi buổi học, tích cực tham gia thảo luận, và tập trung rèn luyện kỹ năng thực hành với các công cụ như ROS, Gazebo và RViz. Việc hoàn thành đầy đủ các bài tập, tham gia học nhóm, cũng như chủ động trao đổi với giảng viên hoặc trợ giảng khi gặp khó khăn sẽ giúp nâng cao hiệu quả học tập. Sinh viên được khuyến khích duy trì tinh thần chủ động, sáng tạo và ham học hỏi trong suốt học phần.<br></p><p></p><p><strong></strong></p><b><p></p></b><p>Quy định về Liêm chính học thuật và sử dụng công cụ AI</p><p>- Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</p><p>- Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</p><p>- Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ cõng cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</p><p>- Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</p><p></p>",
+      "en": "<p>To succeed in the <em>Robot System Simulation</em> course, students should integrate theoretical knowledge with practical application. Students are expected to prepare before each class, actively participate in discussions, and focus on hands-on practice using tools such as ROS, Gazebo, and RViz. Completing assigned tasks, engaging in group study, and seeking support from instructors or teaching assistants when needed will enhance learning outcomes. Students are encouraged to maintain an active, creative, and inquisitive learning mindset throughout the course.\n\n<br></p><p></p><h3><strong></strong></h3><b><p></p></b><p>Academic Integrity and use of AI tools</p><p>- Students must comply with the university’s academic integrity regulations.</p><p>- The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that AI wholly or substantially generates.</p><p>- When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.</p><p>- Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</p><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 6485,
+      "ma": "NG_CDT_TH",
+      "ten": {
+        "vi": "Kỹ thuật Cơ điện tử (Chương trình Tài năng) - 2024",
+        "en": "Mechatronic Engineering (Talent Program) - 2024"
+      }
+    },
+    {
+      "id": 3790,
+      "ma": "NG_COD",
+      "ten": {
+        "vi": "Kỹ thuật Cơ điện tử - 2024",
+        "en": "Mechatronic Engineering - 2024"
+      }
+    },
+    {
+      "id": 3793,
+      "ma": "NG_CKI",
+      "ten": {
+        "vi": "Ngành Kỹ thuật Cơ khí - Chuyên ngành Cơ Điện Tử (PFIEV 2024)",
+        "en": "Major: Mechanical Engineering - Speciality: Mechatronic Engineering (PFIEV 2024)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 10988,
+      "ma": "004211",
+      "ten": "NGUYỄN DUY ÁNH"
+    },
+    {
+      "id": 10989,
+      "ma": "004212",
+      "ten": "PHÙNG THANH HUY"
+    },
+    {
+      "id": 10143,
+      "ma": "004150",
+      "ten": "PHẠM PHƯƠNG TÙNG"
+    },
+    {
+      "id": 915,
+      "ma": "002588",
+      "ten": "PHÙNG TRÍ CÔNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 40,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Tòa nhà B11",
+      "dienThoai": "0961675854"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 10988,
+        "maGiangVien": "004211",
+        "tenGiangVien": "NGUYỄN DUY ÁNH",
+        "emailGiangVien": "ndanhcdt@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 71012,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 71013,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "71012",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC",
+        "en": "AIC"
+      },
+      "noidung": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Hoạt động trên lớp"
+      }
+    },
+    {
+      "id": 71018,
+      "stt": 0,
+      "ma": "A.O.1.1",
+      "capdo": "2",
+      "parentid": "71013",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Acitvity in class"
+      },
+      "noidung": {
+        "vi": "Đánh giá sự tham gia thảo luận trên lớp",
+        "en": "Evaluation of Class Participation"
+      }
+    },
+    {
+      "id": 71014,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "71012",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "IHW",
+        "en": "IHW"
+      },
+      "noidung": {
+        "vi": "Bài tập cá nhân về nhà",
+        "en": "Individual homework"
+      }
+    },
+    {
+      "id": 71019,
+      "stt": 0,
+      "ma": "A.O.2.1",
+      "capdo": "2",
+      "parentid": "71014",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập cá nhân về nhà",
+        "en": "Individual homework"
+      },
+      "noidung": {
+        "vi": "Bài tập cá nhân về nhà",
+        "en": "Individual homework"
+      }
+    },
+    {
+      "id": 71015,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "71012",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW",
+        "en": "GHW"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group homework"
+      }
+    },
+    {
+      "id": 71020,
+      "stt": 0,
+      "ma": "A.O.3.1",
+      "capdo": "2",
+      "parentid": "71015",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group homework"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group homework"
+      }
+    },
+    {
+      "id": 71016,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "71012",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "GPJ",
+        "en": "GPJ"
+      },
+      "noidung": {
+        "vi": "Đồ án nhóm",
+        "en": "Group project "
+      }
+    },
+    {
+      "id": 71021,
+      "stt": 0,
+      "ma": "A.O.4.1",
+      "capdo": "2",
+      "parentid": "71016",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "GPJ #1",
+        "en": "GPJ #1"
+      },
+      "noidung": {
+        "vi": "Đánh giá dự án bài tập lớn (bao gồm báo cáo và trình bày)",
+        "en": "Evaluation of Major Project (Including Report and Presentation)."
+      }
+    },
+    {
+      "id": 71017,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "71012",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    },
+    {
+      "id": 71022,
+      "stt": 0,
+      "ma": "A.O.5.1",
+      "capdo": "2",
+      "parentid": "71017",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 84042,
+      "stt": 1,
+      "buoi": "1,2",
+      "chuandaurachitiet": [
+        {
+          "id": 106875,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài về tổng quan và cấu trúc ROS",
+            "en": "Lecture on Overview and Structure of ROS "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và tham gia thảo luận",
+            "en": "Attend Lectures and Participate in\nDiscussions "
+          },
+          "chuandaura": {
+            "id": 180315,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được kiến trúc ROS, vai trò của Master Node, Topics, Services và Actions trong giao tiếp giữa các node.",
+              "en": "Explain ROS architecture, the roles of Master Node, Topics, Services, and Actions in inter-node communication."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167149,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167157,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71019,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106880,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Minh họa lỗi phổ biến và công cụ debug.",
+            "en": "Demonstrate common errors and debugging tools."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xác định lỗi và sửa chữa trong mã nguồn.",
+            "en": "Identify errors and fix them in code."
+          },
+          "chuandaura": {
+            "id": 180324,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Xác định được lỗi thường gặp trong ROS (node failure, topic mismatch, TF errors) và đề xuất phương pháp debug hiệu quả.",
+              "en": "Identify common ROS errors (node failure, topic mismatch, TF errors) and propose effective debugging methods."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167158,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167156,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71019,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu về ROS và Kiến trúc ROS\n1.1.\tTổng Quan Về ROS\n•\tĐịnh nghĩa ROS: Hệ điều hành robot, các tính năng và ứng dụng.\n•\tLịch sử và sự phát triển của ROS.\n•\tƯu điểm và hạn chế của ROS trong phát triển robot.\n•\tCác ứng dụng phổ biến của ROS trong công nghiệp và nghiên cứu.\n1.2.\tCấu Trúc Cơ Bản Của Hệ Thống ROS\n•\tCác thành phần chính: Master, nodes, topics, messages.\n•\tCách thức hoạt động và tương tác giữa các thành phần.\n•\tGiới thiệu về ROS services, parameters và actions.\n•\tMô hình publish/subscribe trong ROS.\n1.3.\tCài Đặt ROS\n•\tCác bước cài đặt ROS trên hệ điều hành Ubuntu.\n•\tCấu hình môi trường làm việc cho ROS.\n•\tKiểm tra cài đặt và chạy các ví dụ cơ bản.\n•\tGiới thiệu về ROS workspace và cách tạo workspace.\n1.4.\tLàm Việc với ROS Command-line Tools\n•\tCác lệnh cơ bản trong ROS (roscore, rosrun, roslaunch).\n•\tSử dụng rqt_graph để hiển thị cấu trúc hệ thống.\n•\tTheo dõi và debug hệ thống ROS với rostopic và rosservice.\n1.5.\tGiới Thiệu về ROS Packages\n•\tCấu trúc của một ROS package.\n•\tTạo package mới và tổ chức code.\n•\tSử dụng catkin để build packages.\n1.6.\tThực Hành\n•\tCài đặt ROS trên máy tính cá nhân.\n•\tTạo workspace và package đầu tiên.\n•\tChạy các ví dụ mẫu và quan sát hoạt động của hệ thống ROS.\n",
+        "en": "Chapter 1: Introduction to ROS and ROS Architecture\n1.1. Overview of ROS\n•\tDefinition of ROS: An operating system for robots, its features, and applications.\n•\tHistory and Development of ROS.\n•\tAdvantages and Limitations of ROS in Robot Development.\n•\tCommon Applications of ROS in Industry and Research.\n1.2. Basic Structure of the ROS System\n•\tMain Components: Master, nodes, topics, messages.\n•\tHow the Components Work and Interact.\n•\tIntroduction to ROS Services, Parameters, and Actions.\n•\tThe Publish/Subscribe Model in ROS.\n1.3. Installing ROS\n•\tSteps to Install ROS on Ubuntu OS.\n•\tSetting Up the Working Environment for ROS.\n•\tVerifying the Installation and Running Basic Examples.\n•\tIntroduction to ROS Workspace and How to Create a Workspace.\n1.4. Working with ROS Command-line Tools\n•\tBasic Commands in ROS (roscore, rosrun, roslaunch).\n•\tUsing rqt_graph to Visualize the System Structure.\n•\tMonitoring and Debugging the ROS System with rostopic and rosservice.\n1.5. Introduction to ROS Packages\n•\tStructure of a ROS Package.\n•\tCreating a New Package and Organizing Code.\n•\tUsing catkin to Build Packages.\n1.6. Practical Exercises\n•\tInstalling ROS on a Personal Computer.\n•\tCreating Your First Workspace and Package.\n•\tRunning Sample Examples and Observing the ROS System in Action."
+      }
+    },
+    {
+      "id": 84035,
+      "stt": 2,
+      "buoi": "3,4",
+      "chuandaurachitiet": [
+        {
+          "id": 106878,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn tạo package và đưa ví dụ C++.",
+            "en": "Guide package creation and provide C++ examples"
+          },
+          "hoatdongsinhvien": {
+            "vi": "hực hành xây dựng package và lập trình node.",
+            "en": "Practice building packages and coding nodes."
+          },
+          "chuandaura": {
+            "id": 180316,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Xây dựng được các ROS package sử dụng ngôn ngữ C++ để điều khiển và giám sát robot theo yêu cầu kỹ thuật.",
+              "en": "Build ROS packages using C++ to control and monitor robots according to technical requirements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167150,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167159,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71019,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nChương 2: Làm việc với ROS Console và Workspace\n2.1. ROS Console:\n•\tGiới thiệu về terminal và command line interface trong ROS\n•\tCác lệnh cơ bản: roscore, rosrun, roslaunch\n•\tLàm việc với ROS topics: rostopic\n•\tSử dụng ROS services: rosservice\n•\tQuản lý parameters: rosparam\n2.2. ROS Workspace:\n•\tKhái niệm về catkin workspace\n•\tCấu trúc của một catkin workspace\n•\tTạo và cấu hình catkin workspace\n•\tQuản lý dependencies trong workspace\n2.3. Điều hướng và phân tích hệ thống ROS:\n•\tSử dụng rqt_graph để trực quan hóa hệ thống ROS\n•\tTheo dõi và debug hệ thống với rqt_console\n•\tPhân tích hiệu suất hệ thống với rqt_plot\n",
+        "en": "Review of Previous Lecture\n\nChapter 2: Working with ROS Console and Workspace\n2.1. ROS Console:\n•\tIntroduction to the Terminal and Command Line Interface in ROS.\n•\tBasic Commands: roscore, rosrun, roslaunch.\n•\tWorking with ROS Topics: rostopic.\n•\tUsing ROS Services: rosservice.\n•\tManaging Parameters: rosparam.\n2.2. ROS Workspace:\n•\tConcept of a Catkin Workspace.\n•\tStructure of a Catkin Workspace.\n•\tCreating and Configuring a Catkin Workspace.\n•\tManaging Dependencies in the Workspace.\n2.3. Navigating and Analyzing the ROS System:\n•\tUsing rqt_graph to Visualize the ROS System.\n•\tMonitoring and Debugging the System with rqt_console.\n•\tAnalyzing System Performance with rqt_plot."
+      }
+    },
+    {
+      "id": 84040,
+      "stt": 3,
+      "buoi": "5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 106884,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài về cơ chế và minh họa luồng dữ liệu.",
+            "en": "Lecture on mechanism and demonstrate data flow."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải thích khái niệm và thử nghiệm truyền dữ liệu đơn giản.",
+            "en": "Explain concepts and test simple data transmission."
+          },
+          "chuandaura": {
+            "id": 180321,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được cơ chế publish/subscribe và cấu trúc message types trong việc truyền nhận dữ liệu cảm biến.",
+              "en": "Explain the publish/subscribe mechanism and message type structures in sensor data transmission."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167160,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167161,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71019,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nChương 3: Tạo gói ROS và Lập trình với roscpp\n3.1. Cấu trúc của gói ROS:\n•\tCác thành phần cơ bản của một gói ROS\n•\tFile package.xml và CMakeLists.txt\n•\tTổ chức mã nguồn trong gói ROS\n3.2. Tạo và sử dụng launch files:\n•\tCú pháp và cấu trúc của launch files\n•\tTạo và chạy launch files\n•\tTruyền tham số thông qua launch files\n3.3. Lập trình với roscpp:\n•\tGiới thiệu về roscpp client library\n•\tViết node publishers và subscribers\n•\tTạo và sử dụng ROS services\n•\tLàm việc với ROS parameters\n",
+        "en": "Review of Previous Lecture\n\nChapter 3: Creating ROS Packages and Programming with roscpp\n3.1. Structure of a ROS Package:\n- Basic Components of a ROS Package.\n- The `package.xml` and `CMakeLists.txt` Files.\n- Organizing Source Code within a ROS Package.\n3.2. Creating and Using Launch Files:\n- Syntax and Structure of Launch Files.\n- Creating and Running Launch Files.\n- Passing Parameters through Launch Files.\n3.3. Programming with roscpp:\n- Introduction to the roscpp Client Library.\n- Writing Node Publishers and Subscribers.\n- Creating and Using ROS Services.\n- Working with ROS Parameters."
+      }
+    },
+    {
+      "id": 84038,
+      "stt": 4,
+      "buoi": "7,8",
+      "chuandaurachitiet": [
+        {
+          "id": 106876,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giải thích quy trình và minh họa tạo mô hình.",
+            "en": "Explain process and demo model creation."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Mô tả các bước và tạo mô hình đơn giản.",
+            "en": "Describe steps and create simple models."
+          },
+          "chuandaura": {
+            "id": 180318,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Mô tả được quy trình tạo mô hình URDF/Xacro và cấu hình môi trường mô phỏng trong Gazebo.",
+              "en": "Describe the process of creating URDF/Xacro models and configuring simulation environments in Gazebo."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167154,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167155,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71020,
+                "ma": "A.O.3.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nChương 4: Mô phỏng với ROS và Gazebo\n4.1. Giới thiệu về Gazebo simulator:\n•\tTổng quan về Gazebo và tích hợp với ROS\n•\tCài đặt và cấu hình Gazebo\n•\tGiao diện người dùng Gazebo\n•\t\n4.2. Tạo và sử dụng mô hình robot (URDF):\n•\tGiới thiệu về URDF (Unified Robot Description Format)\n•\tCú pháp và cấu trúc của file URDF\n•\tTạo mô hình robot đơn giản bằng URDF\n•\tChuyển đổi URDF sang SDF (Simulation Description Format)\n4.3. Xây dựng môi trường mô phỏng (SDF):\n•\tGiới thiệu về SDF (Simulation Description Format)\n•\tTạo môi trường mô phỏng đơn giản\n•\tThêm vật thể và chướng ngại vật vào môi trường\n4.4. Tích hợp ROS với Gazebo:\n•\tSử dụng roslaunch để khởi động Gazebo với mô hình robot\n•\tĐiều khiển robot trong môi trường mô phỏng\n•\tĐọc dữ liệu cảm biến từ môi trường mô phỏng",
+        "en": "Review of Previous Lecture\n\nChapter 4: Simulation with ROS and Gazebo\n4.1. Introduction to Gazebo Simulator:\n- Overview of Gazebo and Its Integration with ROS.\n- Installing and Configuring Gazebo.\n- Gazebo User Interface.\n4.2. Creating and Using a Robot Model (URDF):\n- Introduction to URDF (Unified Robot Description Format).\n- Syntax and Structure of a URDF File.\n- Creating a Simple Robot Model Using URDF.\n- Converting URDF to SDF (Simulation Description Format).\n4.3. Building a Simulation Environment (SDF):\n- Introduction to SDF (Simulation Description Format).\n- Creating a Simple Simulation Environment.\n- Adding Objects and Obstacles to the Environment.\n4.4. Integrating ROS with Gazebo:\n- Using `roslaunch` to Start Gazebo with a Robot Model.\n- Controlling the Robot in the Simulated Environment.\n- Reading Sensor Data from the Simulated Environment."
+      }
+    },
+    {
+      "id": 84036,
+      "stt": 5,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 106885,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Phân tích kết quả mô phỏng và gợi ý tối ưu hóa.",
+            "en": "Analyze simulation results and suggest optimizations."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Chạy mô phỏng và đánh giá hiệu suất.",
+            "en": "Run simulations and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 180319,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích được kết quả mô phỏng (quỹ đạo, lực tác động, va chạm) để đánh giá hiệu suất và tối ưu hóa thiết kế robot.",
+              "en": "Analyze simulation results (trajectory, forces, collisions) to evaluate performance and optimize robot design."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167162,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167163,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71020,
+                "ma": "A.O.3.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nChương 5: Trực quan hóa và Giao diện người dùng\n5.1. Sử dụng RViz cho trực quan hóa:\n•\tGiới thiệu về RViz và các tính năng chính\n•\tCấu hình RViz để hiển thị dữ liệu từ các sensors\n•\tTrực quan hóa mô hình robot và dữ liệu từ các topic\n5.2. Làm việc với các công cụ giao diện người dùng (rqt):\n•\tTổng quan về rqt và các plugin phổ biến\n•\tSử dụng rqt_graph để hiển thị cấu trúc hệ thống ROS\n•\tLàm việc với rqt_plot để vẽ đồ thị dữ liệu realtime\n•\tSử dụng rqt_console để debug hệ thống\n5.3. Tích hợp trực quan hóa vào dự án robot:\n•\tTạo custom plugin cho RViz\n•\tXây dựng giao diện người dùng tùy chỉnh với rqt\n•\tKết hợp RViz và rqt trong một ứng dụng ROS hoàn chỉnh\n",
+        "en": "Review of Previous Lecture\n\nChapter 5: Visualization and User Interface\n5.1. Using RViz for Visualization:\n- Introduction to RViz and Its Key Features.\n- Configuring RViz to Display Data from Sensors.\n- Visualizing Robot Models and Data from Topics.\n5.2. Working with User Interface Tools (rqt):\n- Overview of rqt and Popular Plugins.\n- Using rqt_graph to Display the Structure of a ROS System.\n- Working with rqt_plot to Plot Real-time Data.\n- Using rqt_console to Debug the System.\n5.3. Integrating Visualization into a Robot Project:\n- Creating Custom Plugins for RViz.\n- Building Custom User Interfaces with rqt.\n- Combining RViz and rqt in a Complete ROS Application."
+      }
+    },
+    {
+      "id": 84037,
+      "stt": 6,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 106881,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn tích hợp cảm biến và áp dụng TF.",
+            "en": "Guide sensor integration and TF application."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xử lý dữ liệu và đồng bộ khung tọa độ trong dự án.",
+            "en": "Process data and synchronize frames in projects."
+          },
+          "chuandaura": {
+            "id": 180322,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Xử lý được dữ liệu cảm biến và áp dụng hệ thống biến đổi TF (Transform) để đồng bộ hóa khung tọa độ trong robot đa khớp.",
+              "en": "Process sensor data and apply TF (Transform) system to synchronize coordinate frames in multi-joint robots."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167151,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167164,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71020,
+                "ma": "A.O.3.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nChương 6: Hệ thống biến đổi TF, Thời gian và Bags\n6.1. Hệ thống biến đổi TF trong ROS:\n•\tGiới thiệu về TF (Transform) và tầm quan trọng trong robotics\n•\tCấu trúc cây TF và các khung tọa độ\n•\tTạo và phát sóng các biến đổi TF\n•\tTruy vấn và sử dụng thông tin TF trong code\n6.2. Quản lý thời gian trong ROS:\n•\tKhái niệm về thời gian trong ROS: sim time vs. real time\n•\tSử dụng các hàm thời gian trong ROS\n•\tĐồng bộ hóa các node sử dụng thời gian\n6.3. Sử dụng bags để ghi và phát lại dữ liệu:\n•\tGiới thiệu về ROS bags và ứng dụng\n•\tGhi dữ liệu vào bags\n•\tPhát lại dữ liệu từ bags\n•\tPhân tích và xử lý dữ liệu từ bags\n",
+        "en": "Review of Previous Lecture\n\nChapter 6: TF System, Time Management, and Bags in ROS\n6.1. TF Transform System in ROS:\n- Introduction to TF (Transform) and Its Importance in Robotics.\n- Structure of the TF Tree and Coordinate Frames.\n- Creating and Broadcasting TF Transforms.\n- Querying and Using TF Information in Code.\n6.2. Time Management in ROS:\n- Concept of Time in ROS: Sim Time vs. Real Time.\n- Using Time Functions in ROS.\n- Synchronizing Nodes Using Time.\n6.3. Using Bags to Record and Replay Data:\n- Introduction to ROS Bags and Their Applications.\n- Recording Data into Bags.\n- Replaying Data from Bags.\n- Analyzing and Processing Data from Bags."
+      }
+    },
+    {
+      "id": 84034,
+      "stt": 7,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 106882,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài về cơ chế và minh họa luồng dữ liệu.",
+            "en": "Lecture on mechanism and demonstrate data flow."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải thích khái niệm và thử nghiệm truyền dữ liệu đơn giản.",
+            "en": "Explain concepts and test simple data transmission."
+          },
+          "chuandaura": {
+            "id": 180321,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được cơ chế publish/subscribe và cấu trúc message types trong việc truyền nhận dữ liệu cảm biến.",
+              "en": "Explain the publish/subscribe mechanism and message type structures in sensor data transmission."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167152,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167169,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71022,
+                "ma": "A.O.5.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106877,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn tích hợp cảm biến và áp dụng TF.",
+            "en": "Guide sensor integration and TF application."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xử lý dữ liệu và đồng bộ khung tọa độ trong dự án.",
+            "en": "Process data and synchronize frames in projects."
+          },
+          "chuandaura": {
+            "id": 180322,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Xử lý được dữ liệu cảm biến và áp dụng hệ thống biến đổi TF (Transform) để đồng bộ hóa khung tọa độ trong robot đa khớp.",
+              "en": "Process sensor data and apply TF (Transform) system to synchronize coordinate frames in multi-joint robots."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167165,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167166,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71022,
+                "ma": "A.O.5.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nChương 7: Tích hợp cảm biến và bộ truyền động \n7.1. Giao tiếp với các loại cảm biến phổ biến:\n•\tGiới thiệu về các loại cảm biến thường dùng trong robotics (camera, LiDAR, IMU)\n•\tCấu hình và kết nối cảm biến với ROS\n•\tĐọc và xử lý dữ liệu từ cảm biến trong ROS\n7.2. Điều khiển các bộ truyền động:\n•\tTổng quan về các loại bộ truyền động (động cơ servo, động cơ bước)\n•\tGiao tiếp với bộ điều khiển động cơ thông qua ROS\n•\tLập trình điều khiển chuyển động cơ bản\n7.3. Xử lý dữ liệu cảm biến và điều khiển bộ truyền động trong ROS:\n•\tTích hợp dữ liệu từ nhiều cảm biến\n•\tSử dụng dữ liệu cảm biến để điều khiển bộ truyền động\n•\tPhát triển các thuật toán điều khiển đơn giản\n7.4. Thực hành: Tạo node ROS để đọc dữ liệu cảm biến và điều khiển bộ truyền động\n",
+        "en": "Review of Previous Lecture\n\nChapter 7: Sensor and Actuator Integration\n7.1. Interfacing with Common Sensors:\n- Introduction to Common Sensors Used in Robotics (Camera, LiDAR, IMU).\n- Configuring and Connecting Sensors with ROS.\n- Reading and Processing Sensor Data in ROS.\n7.2. Controlling Actuators:\n- Overview of Actuators (Servo Motors, Stepper Motors).\n- Interfacing with Motor Controllers via ROS.\n- Programming Basic Motion Control.\n7.3. Processing Sensor Data and Controlling Actuators in ROS:\n- Integrating Data from Multiple Sensors.\n- Using Sensor Data to Control Actuators.\n- Developing Simple Control Algorithms.\n7.4. Practical Exercise: Creating a ROS Node to Read Sensor Data and Control Actuators."
+      }
+    },
+    {
+      "id": 84041,
+      "stt": 8,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 106879,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài về kiến trúc ROS và minh họa các thành phần.",
+            "en": "Lecture on ROS architecture and demonstrate components."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, thảo luận và giải thích theo nhóm.",
+            "en": "Listen, discuss, and explain in groups."
+          },
+          "chuandaura": {
+            "id": 180315,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được kiến trúc ROS, vai trò của Master Node, Topics, Services và Actions trong giao tiếp giữa các node.",
+              "en": "Explain ROS architecture, the roles of Master Node, Topics, Services, and Actions in inter-node communication."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167167,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71018,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Acitvity in class"
+                }
+              }
+            },
+            {
+              "id": 167168,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71022,
+                "ma": "A.O.5.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nChương 8: ROS2 - Giới thiệu và So sánh\n8.1. Giới thiệu về ROS2:\n•\tLý do phát triển ROS2\n•\tMục tiêu và tầm nhìn của ROS2\n•\tKiến trúc tổng quan của ROS2\n8.2. So sánh kiến trúc và tính năng giữa ROS1 và ROS2:\n•\tSự khác biệt trong mô hình truyền thông\n•\tCải tiến về bảo mật và độ tin cậy\n•\tThay đổi trong cách tổ chức và quản lý packages\n8.3. Các cải tiến chính trong ROS2:\n•\tHệ thống truyền thông DDS (Data Distribution Service)\n•\tHỗ trợ đa nền tảng (Linux, Windows, macOS)\n•\tCải thiện về bảo mật\n•\tHỗ trợ hệ thống thời gian thực\n8.4. Demo cơ bản với ROS2:\n•\tCài đặt ROS2\n•\tTạo và chạy node đơn giản trong ROS2\n•\tSử dụng các công cụ command-line của ROS2\n8.5. Xu hướng phát triển và áp dụng ROS2 trong công nghiệp",
+        "en": "Review of Previous Lecture\n\nChapter 8: ROS2 - Introduction and Comparison\n8.1. Introduction to ROS2:\n- Reasons for Developing ROS2.\n- Objectives and Vision of ROS2.\n- Overview of ROS2 Architecture.\n8.2. Comparison of Architecture and Features between ROS1 and ROS2:\n- Differences in Communication Models.\n- Improvements in Security and Reliability.\n- Changes in Package Organization and Management.\n8.3. Key Improvements in ROS2:\n- DDS (Data Distribution Service) Communication System.\n- Multi-platform Support (Linux, Windows, macOS).\n- Enhanced Security Features.\n- Support for Real-time Systems.\n8.4. Basic Demo with ROS2:\n- Installing ROS2.\n- Creating and Running a Simple Node in ROS2.\n- Using ROS2 Command-line Tools.\n8.5. Development Trends and Industrial Applications of ROS2."
+      }
+    },
+    {
+      "id": 84039,
+      "stt": 9,
+      "buoi": "13,14",
+      "chuandaurachitiet": [
+        {
+          "id": 106883,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá bài trình bày và đưa phản hồi.",
+            "en": "Evaluate presentations and provide feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày dự án và bảo vệ thiết kế theo nhóm.",
+            "en": "Present projects and defend designs in groups."
+          },
+          "chuandaura": {
+            "id": 180325,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Trình bày và bảo vệ được thiết kế hệ thống ROS (kiến trúc node, lựa chọn message types, chiến lược xử lý dữ liệu) trước nhóm và giảng viên.",
+              "en": "Present and defend ROS system design (node architecture, message type selection, data processing strategies) before the team and instructor."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167170,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71021,
+                "ma": "A.O.4.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            },
+            {
+              "id": 167153,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71022,
+                "ma": "A.O.5.1",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhắc lại nội dung chính của bài giảng trước\n\nBáo cáo bài tập lớn và Tổng kết khóa học\n9.1. Báo cáo bài tập lớn:\n•\tTrình bày dự án tổng hợp áp dụng kiến thức đã học\n•\tĐánh giá và phản hồi từ giảng viên và bạn học\n•\tThảo luận về các cải tiến và hướng phát triển tiếp theo\n9.2. Tổng kết khóa học:\n•\tÔn tập các kiến thức và kỹ năng chính đã học\n•\tThảo luận về xu hướng phát triển trong lĩnh vực ROS và robotics\n•\tHướng dẫn các nguồn tài liệu để tiếp tục học tập và nghiên cứu\n",
+        "en": "Review of Previous Lecture\n\nFinal Project Report and Course Summary\n9.1. Final Project Report:\n- Presentation of a Comprehensive Project Applying Learned Knowledge.\n- Evaluation and Feedback from the Instructor and Peers.\n- Discussion on Improvements and Future Development Directions.\n9.2. Course Summary:\n- Review of Key Knowledge and Skills Acquired.\n- Discussion on Development Trends in the Field of ROS and Robotics.\n- Guidance on Resources for Continued Learning and Research."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 180315,
+      "ma": "L.O.1.1",
+      "ten_vi": "Giải thích được kiến trúc ROS, vai trò của Master Node, Topics, Services và Actions trong giao tiếp giữa các node.",
+      "ten_en": "Explain ROS architecture, the roles of Master Node, Topics, Services, and Actions in inter-node communication.",
+      "hddg": [
+        {
+          "id": 71018,
+          "ma": "A.O.1.1",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Acitvity in class"
+        },
+        {
+          "id": 71019,
+          "ma": "A.O.2.1",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        },
+        {
+          "id": 71022,
+          "ma": "A.O.5.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 180316,
+      "ma": "L.O.1.2",
+      "ten_vi": "Xây dựng được các ROS package sử dụng ngôn ngữ C++ để điều khiển và giám sát robot theo yêu cầu kỹ thuật.",
+      "ten_en": "Build ROS packages using C++ to control and monitor robots according to technical requirements.",
+      "hddg": [
+        {
+          "id": 71018,
+          "ma": "A.O.1.1",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Acitvity in class"
+        },
+        {
+          "id": 71019,
+          "ma": "A.O.2.1",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        }
+      ]
+    },
+    {
+      "id": 180318,
+      "ma": "L.O.2.1",
+      "ten_vi": "Mô tả được quy trình tạo mô hình URDF/Xacro và cấu hình môi trường mô phỏng trong Gazebo.",
+      "ten_en": "Describe the process of creating URDF/Xacro models and configuring simulation environments in Gazebo.",
+      "hddg": [
+        {
+          "id": 71018,
+          "ma": "A.O.1.1",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Acitvity in class"
+        },
+        {
+          "id": 71020,
+          "ma": "A.O.3.1",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 180319,
+      "ma": "L.O.2.2",
+      "ten_vi": "Phân tích được kết quả mô phỏng (quỹ đạo, lực tác động, va chạm) để đánh giá hiệu suất và tối ưu hóa thiết kế robot.",
+      "ten_en": "Analyze simulation results (trajectory, forces, collisions) to evaluate performance and optimize robot design.",
+      "hddg": [
+        {
+          "id": 71018,
+          "ma": "A.O.1.1",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Acitvity in class"
+        },
+        {
+          "id": 71020,
+          "ma": "A.O.3.1",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 180321,
+      "ma": "L.O.3.1",
+      "ten_vi": "Giải thích được cơ chế publish/subscribe và cấu trúc message types trong việc truyền nhận dữ liệu cảm biến.",
+      "ten_en": "Explain the publish/subscribe mechanism and message type structures in sensor data transmission.",
+      "hddg": [
+        {
+          "id": 71018,
+          "ma": "A.O.1.1",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Acitvity in class"
+        },
+        {
+          "id": 71019,
+          "ma": "A.O.2.1",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        },
+        {
+          "id": 71022,
+          "ma": "A.O.5.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 180322,
+      "ma": "L.O.3.2",
+      "ten_vi": "Xử lý được dữ liệu cảm biến và áp dụng hệ thống biến đổi TF (Transform) để đồng bộ hóa khung tọa độ trong robot đa khớp.",
+      "ten_en": "Process sensor data and apply TF (Transform) system to synchronize coordinate frames in multi-joint robots.",
+      "hddg": [
+        {
+          "id": 71018,
+          "ma": "A.O.1.1",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Acitvity in class"
+        },
+        {
+          "id": 71020,
+          "ma": "A.O.3.1",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 71022,
+          "ma": "A.O.5.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 180324,
+      "ma": "L.O.4.1",
+      "ten_vi": "Xác định được lỗi thường gặp trong ROS (node failure, topic mismatch, TF errors) và đề xuất phương pháp debug hiệu quả.",
+      "ten_en": "Identify common ROS errors (node failure, topic mismatch, TF errors) and propose effective debugging methods.",
+      "hddg": [
+        {
+          "id": 71018,
+          "ma": "A.O.1.1",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Acitvity in class"
+        },
+        {
+          "id": 71019,
+          "ma": "A.O.2.1",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        }
+      ]
+    },
+    {
+      "id": 180325,
+      "ma": "L.O.4.2",
+      "ten_vi": "Trình bày và bảo vệ được thiết kế hệ thống ROS (kiến trúc node, lựa chọn message types, chiến lược xử lý dữ liệu) trước nhóm và giảng viên.",
+      "ten_en": "Present and defend ROS system design (node architecture, message type selection, data processing strategies) before the team and instructor.",
+      "hddg": [
+        {
+          "id": 71021,
+          "ma": "A.O.4.1",
+          "ten_vi": "GPJ #1",
+          "ten_en": "GPJ #1"
+        },
+        {
+          "id": 71022,
+          "ma": "A.O.5.1",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Mô phỏng hệ thống robot ",
+  "tenmonhoc_eng": "Simulation of the robot system",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

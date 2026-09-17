@@ -1,0 +1,1618 @@
+{
+  "ma": "DCMH.CO3135.3.1",
+  "phienban": "2.1",
+  "capnhat": "27/01/2026 09:21",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3135",
+  "ten": "CO3135 - Lập trình cho Trí tuệ nhân tạo và Khoa học dữ liệu",
+  "ten_eng": "CO3135 - Programming for Artificial Intelligence and Data Science (P4AI-DS)",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Môn học này nhằm giúp người học tích lũy kiến thức và kỹ năng về lập trình trong phân tích các dạng dữ liệu khác nhau thuộc lĩnh vực Trí tuệ nhân tạo và Khoa học dữ liệu. Cụ thể, môn học này hướng dẫn người học sử dụng thành thạo các cách biểu diễn, xử lý và hiển thị trực quan các dạng dữ liệu quan trọng thông qua các thư viện lập trình phổ biến như Numpy, Pytorch, Tensorflow, Pandas, Sklearn, Matplotlib và Seaborn. Thông qua môn học này, người học cũng nắm rõ quy trình phân tích dữ liệu và có hiểu biết cũng như lập trình được các bước để chuẩn bị dữ liệu đầu vào, xử lý và phân tích kết quả ở đầu ra của các mô hình phân tích. Ngoài các chủ đề đã được đề cập, người học cũng được hướng dẫn sử dụng và khai thác các mô hình đã được tiền huấn luyện trong học sâu để rút trích đặc trưng, cũng như phân tích dữ liệu với các kỹ thuật học máy khác.</p><p></p>",
+      "en": "<p></p><p><i>This course aims to help learners accumulate knowledge and skills in programming for analyzing various types of data in the fields of Artificial Intelligence and Data Science. Specifically, this course guides learners to proficiently use methods for representing, processing, and visually displaying important types of data through popular programming libraries such as Numpy, Pytorch, Tensorflow, Pandas, Sklearn, Matplotlib, and Seaborn. Through this course, learners will also understand the data analysis process and be able to program the steps to prepare input data, process, and analyze the output results of analytical models. In addition to the mentioned topics, learners will be guided on how to use and leverage pre-trained deep learning models to extract features, as well as analyze data using other machine learning techniques</i><i>.</i></p><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>Học máy, học sâu và phân tích dữ liệu nói chung đều cần đến một nhóm các kỹ năng đặc thù về lập trình; trong môn học này chúng được đặt tên là nhóm kỹ năng lập trình cho Trí tuệ nhân tạo và Khoa học dữ liệu. Hiểu biết và sử dụng về ngôn ngữ lập trình Python là chưa đủ, mới chỉ là mức cơ bản để hỗ trợ phát triển các module phân tích dữ liệu. Do vậy, môn học này ngoài tóm lược về lập trình với Python, nó còn trình bày hai dạng biểu diễn dữ liệu quan trọng khác đó là biểu diễn dạng ở dạng ma trận nhiều chiều (còn được gọi là tensor) và biểu diễn ở dạng bảng (Dataframe). Với mỗi dạng biểu diễn, môn học đi kèm với hướng dẫn cách thực hiện việc biểu diễn và xử lý với các thư viện lập trình cụ thể, như Numpy, Pytorch, Tensorflow và Pandas. Những chủ đề khác cũng được giảng dạy và hướng dẫn thực hiện trong môn học gồm: (a) hiển thị trực quan dữ liệu với Matplotlib và Seaborn; (b) Chuẩn bị dữ liệu ở đầu vào và phân tích kết quả đầu ra của các module phân tích; (c) Học từ dữ liệu và các ví dụ tổng hợp các kỹ năng thành một chương trình phân tích dữ liệu.</p><p></p>",
+      "en": "<p></p><p>Machine learning, deep learning, and data analysis generally require a set of specific programming skills; in this course, they are referred to as programming skills for Artificial Intelligence and Data Science. Knowledge and usage of the Python programming language alone are not sufficient; it is just the basic level to support the development of data analysis modules. Therefore, in addition to summarizing programming with Python, this course also introduces two other important data representation formats: multi-dimensional arrays (also known as tensors) and tables (Dataframes). For each representation format, the course includes guidance on how to implement and process with specific programming libraries, such as Numpy, Pytorch, Tensorflow, and Pandas. Other topics covered and instructed in the course include: (a) visualizing data with Matplotlib and Seaborn; (b) preparing input data and analyzing the output of analytical modules; (c) learning from data and comprehensive examples to consolidate skills into a complete data analysis program.</p><br><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] &nbsp; Mark Lutz (2013), “Learning Python - Powerful Object-Oriented Programming”, 5th Edition, O'Reilly Media<br><p>[2] &nbsp; Bill Lubanovic (2015), “Introducing Python - Modern Computing in Simple Packages”, 1st Edition, O'Reilly Media</p><p>[3] &nbsp; Jake VanderPlas (2017), “Python Data Science Handbook - Essential tools for working with data”, 1st Edition, O'Reilly Media. Online: <a target=\"_blank\" rel=\"nofollow\" href=\"https://jakevdp.github.io/PythonDataScienceHandbook/\">https://jakevdp.github.io/PythonDataScienceHandbook/</a> (<b>Recommended</b>) </p><p>[4] &nbsp; Aurélien Géron (2019), “Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems”, 2nd Edition, O'Reilly Media. </p><p>[5] &nbsp; Các nguồn hướng dẫn từ Internet (Online Resources and Guides).</p>﻿<br></p>",
+      "en": "<p>[1] &nbsp; Mark Lutz (2013), “Learning Python - Powerful Object-Oriented Programming”, 5th Edition, O'Reilly Media<br><p>[2] &nbsp; Bill Lubanovic (2015), “Introducing Python - Modern Computing in Simple Packages”, 1st Edition, O'Reilly Media</p><p>[3] &nbsp; Jake VanderPlas (2017), “Python Data Science Handbook - Essential tools for working with data”, 1st Edition, O'Reilly Media. Online: <a target=\"_blank\" rel=\"nofollow\" href=\"https://jakevdp.github.io/PythonDataScienceHandbook/\">https://jakevdp.github.io/PythonDataScienceHandbook/</a> (<b>Recommended</b>) </p><p>[4] &nbsp; Aurélien Géron (2019), “Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems”, 2nd Edition, O'Reilly Media. </p><p>[5] &nbsp; Online Resources and Guides.</p>﻿<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><p><p><ul><li>Tài liệu học tập bao gồm: đề cương môn học, slide bài giảng và bài tập lớn được lưu trữ trên máy chủ quản lý tài liệu học tập của khoa &nbsp;(trường). Sinh viên cần tải về, in ra và mang theo khi lên lớp.<br></li><li>Bên cạnh các tài liệu được cung cấp, sinh viên có thể tìm kiếm thêm tài liệu liên quan từ Internet, như hướng dẫn, các mô hình tiền huấn luyện cho văn bản và hình ảnh, chương trình mẫu và các tập dữ liệu.<br></li><li>Sinh viên cần tham gia đầy đủ các buổi học và tích cực trao đổi trên lớp để làm rõ các vấn đề.<br></li><li>Ngoài lớp học, sinh viên nên nghiên cứu kỹ tài liệu, lập trình nhiều hơn và hoàn thành bài tập lớn một cách đầy đủ.<br></li></ul></p></p><br></p>",
+      "en": "<p><p><ul><li><i>Study materials include: the course syllabus, lecture slides, and major assignments stored on the university’s learning management server. Students are required to download, print, and bring them to class.</i><br></li><li><i>In addition to the provided materials, students may search for additional relevant resources on the Internet, such as guides, pre-trained models for text and images, sample programs, and datasets.</i><br></li><li><i>Students must attend all classes and actively participate in class discussions to clarify issues.</i><br></li><li><i>Outside of class, students should thoroughly review the materials, practice programming more, and complete the major assignments comprehensively.</i><br></li></ul></p><br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>Sinh viên sẽ nhận điểm điểm tổng kết môn học bằng điểm BTL nếu điểm BTL nhỏ hơn hoặc bằng 3</p><br>",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1392,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho trương trình đào tạo toàn khóa",
+        "en": "Áp dụng cho trương trình đào tạo toàn khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1164,
+      "ma": "001995",
+      "ten": "LÊ THÀNH SÁCH"
+    },
+    {
+      "id": 13008,
+      "ma": "004305",
+      "ten": "DƯƠNG ĐỨC TÍN"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 152,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 70,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 965,
+      "maBoMon": "DTO",
+      "tenBoMon": {
+        "vi": "Khoa Học Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Bộ môn Khoa học Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 5282,
+        "maGiangVien": "003744",
+        "tenGiangVien": "LÊ HỒNG TRANG",
+        "emailGiangVien": "lhtrang@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "CO2003 - Cấu trúc Dữ liệu và Giải Thuật",
+        "en": "CO2003 - Data Structures and AlgoriThms"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cấu trúc Dữ liệu và Giải Thuật",
+        "en": "Data Structures and AlgoriThms"
+      },
+      "mamonhoc": "CO2003"
+    },
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "CO1027 - Kỹ thuật Lập trình",
+        "en": "CO1027 - Programming Fundamentals"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật Lập trình",
+        "en": "Programming Fundamentals"
+      },
+      "mamonhoc": "CO1027"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 71893,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 71894,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "71893",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      }
+    },
+    {
+      "id": 71895,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "71893",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 85724,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 109560,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182345,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Sử dụng thành thạo các kiểu dữ liệu, biến và biểu thức trong Python.",
+              "en": "Proficient use of data types, variables, and expressions in Python."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172622,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172621,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109559,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182346,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Sử dụng thành thạo các thành phần cơ bản của ngôn ngữ lập trình Python như cấu trúc điều khiển, nhập-xuất, biến và biểu thức.",
+              "en": "Proficient use of the basic components of the Python programming language, such as control structures, input-output, variables, and expressions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172620,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172619,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109558,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn.",
+            "en": ": Theoretical Instruction and Assignment/Project Guidance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182347,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Xây dựng các hàm, lớp, đối tượng và các thành phần lập trình nâng cao.",
+              "en": "Construct functions, classes, objects, and advanced programming components."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172618,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172617,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Lập trình với Python\n1.1. Giới thiệu về môn học\n1.2. Cơ bản về lập trình Python \n1.3. Lập trình hướng đối tượng và lập trình hàm với Python \n1.4. Bài toán tổng hợp\n",
+        "en": "Chapter 1: Programming with Python\n1.1. Introduction to the Course\n1.2. Basics of Python Programming\n1.3. Object-Oriented Programming and Functional Programming with Python\n1.4. Integrated Problems\n"
+      }
+    },
+    {
+      "id": 85726,
+      "stt": 2,
+      "buoi": "3-5",
+      "chuandaurachitiet": [
+        {
+          "id": 109573,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182349,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Sử dụng thành thạo các cấu trúc Tensor (trong Numpy, Pytorch, Tensorflow) và Series/DataFrame (trong Pandas).",
+              "en": "Proficient use of Tensor structures (in Numpy, Pytorch, Tensorflow) and Series/DataFrame (in Pandas)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172647,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172615,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109572,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182350,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hiện các phép toán indexing, slicing và broadcasting trên các tập dữ liệu đa chiều.",
+              "en": "Execute indexing, slicing, and broadcasting operations on multi-dimensional datasets."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172616,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172645,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109557,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182351,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Trực quan hóa và xử lý dữ liệu bằng các thư viện chuyên dụng để phục vụ phân tích.",
+              "en": "Visualize and process data using specialized libraries for analysis purposes."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172648,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172646,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Xử lý và trực quan dữ liệu nhiều chiều\n2.1. Giới thiệu\n2.2. Tổ chức dữ liệu của tensor\n2.3. Hiển thị trực quan với matplotlib\n2.4. Tensor trong các thư viện: Numpy, Pytorch và Tensorflow.\n2.5. Bài toán tổng hợp\n",
+        "en": "Chapter 2: Processing and Visualizing Multidimensional Data\n2.1. Introduction\n2.2. Organization of Tensor Data\n2.3. Visualization with Matplotlib\n2.4. Tensors in Libraries: Numpy, Pytorch, and Tensorflow\n2.5. Integrated Problems\n"
+      }
+    },
+    {
+      "id": 85725,
+      "stt": 3,
+      "buoi": "6-7",
+      "chuandaurachitiet": [
+        {
+          "id": 109562,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182349,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Sử dụng thành thạo các cấu trúc Tensor (trong Numpy, Pytorch, Tensorflow) và Series/DataFrame (trong Pandas).",
+              "en": "Proficient use of Tensor structures (in Numpy, Pytorch, Tensorflow) and Series/DataFrame (in Pandas)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172626,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172625,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109563,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182350,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hiện các phép toán indexing, slicing và broadcasting trên các tập dữ liệu đa chiều.",
+              "en": "Execute indexing, slicing, and broadcasting operations on multi-dimensional datasets."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172627,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172628,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109561,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182351,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Trực quan hóa và xử lý dữ liệu bằng các thư viện chuyên dụng để phục vụ phân tích.",
+              "en": "Visualize and process data using specialized libraries for analysis purposes."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172624,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172623,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Xử lý và trực quan dữ liệu dạng bảng\n3.1. Giới thiệu\n3.2. Sử dụng Series và DataFrame trong Pandas\n3.3. Hiển thị trực quan với Seaborn\n3.4. Bài toán tổng hợp\n",
+        "en": "Chapter 3: Processing and Visualizing Tabular Data\n3.1. Introduction\n3.2. Using Series and DataFrame in Pandas\n3.3. Visualization with Seaborn\n3.4. Integrated Problems\n"
+      }
+    },
+    {
+      "id": 85729,
+      "stt": 4,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 109571,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects.\n"
+          },
+          "chuandaura": {
+            "id": 182353,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thiết kế quy trình phân tích dữ liệu.",
+              "en": "Design a systematic data analysis process."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172644,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172643,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109569,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn \n",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182354,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Lập trình các bước tiền xử lý và chuẩn bị dữ liệu đầu vào cho các mô hình phân tích.",
+              "en": "Program preprocessing steps and prepare input data for analysis models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172640,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172639,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109570,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182355,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Đánh giá và giải thích các kết quả đầu ra thu được từ mô hình phân tích dữ liệu.",
+              "en": "Evaluate and interpret the output results obtained from data analysis models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172641,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172642,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Chuẩn bị dữ liệu và nhãn\n4.1. Tổ chức dữ liệu thô và nhãn\n4.2. Chuẩn bị dữ liệu và nhãn cho các mô hình phân tích\n4.4. Loading và Batching trong các thư viện về TTNT và KHDL\n4.5. Bài toán tổng hợp\n",
+        "en": "Chapter 4: Data and Label Preparation\n4.1. Organizing Raw Data and Labels\n4.2. Preparing Data and Labels for Analytical Models\n4.3. Loading and Batching in AI and DS Libraries\n4.4. Integrated Problems\n"
+      }
+    },
+    {
+      "id": 85727,
+      "stt": 5,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 109564,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182353,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thiết kế quy trình phân tích dữ liệu.",
+              "en": "Design a systematic data analysis process."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172630,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172629,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109565,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182354,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Lập trình các bước tiền xử lý và chuẩn bị dữ liệu đầu vào cho các mô hình phân tích.",
+              "en": "Program preprocessing steps and prepare input data for analysis models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172632,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172631,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109566,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182355,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Đánh giá và giải thích các kết quả đầu ra thu được từ mô hình phân tích dữ liệu.",
+              "en": "Evaluate and interpret the output results obtained from data analysis models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172634,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172633,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Phân tích kết quả của các mô hình trong phân tích dữ liệu \n5.1. Các hàm mất mát\n5.2. Các độ đo đánh giá\n5.3. Phân tích và so sánh kết quả\n5.4. Bài toán tổng hợp\n",
+        "en": "Chapter 5: Analyzing Model Results in Data Analysis\n5.1. Loss Functions\n5.2. Evaluation Metrics\n5.3. Analyzing and Comparing Results\n5.4. Integrated Problems\n"
+      }
+    },
+    {
+      "id": 85728,
+      "stt": 6,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 109568,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects."
+          },
+          "chuandaura": {
+            "id": 182357,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Tích hợp các mô hình tiền huấn luyện (pre-trained models) để thực hiện rút trích đặc trưng dữ liệu.",
+              "en": "Integrate pre-trained models to perform feature extraction."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172638,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172637,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109567,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết và hướng dẫn làm bài tập/bài tập lớn ",
+            "en": "Theoretical Instruction and Assignment/Project Guidance"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trên lớp: Nghe giảng và trao đổi.\nNgoài lớp: Đọc tài liệu, làm bài tập lập trình và bài tập lớn.\n",
+            "en": "In Class: Attend lectures and participate in discussions.\nOutside of Class: Read materials, complete programming assignments, and work on projects.\n"
+          },
+          "chuandaura": {
+            "id": 182358,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Vận dụng các kỹ thuật học máy và học sâu để giải quyết các bài toán phân tích dữ liệu cụ thể.",
+              "en": "Apply machine learning and deep learning techniques to solve specific data analysis problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 172635,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71894,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 172636,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71895,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Học máy\n6.1. Tổng quan về các kỹ thuật học máy\n6.2. Rút trích đặc trưng: các mô hình tiền huấn luyện cho văn bản và hình ảnh.\n6.3. Các thư viện học máy \n6.4. Học máy và phân tích một số dạng dữ liệu tiêu biểu \n6.5. Bài toán tổng hợp\n",
+        "en": "Chapter 6: Machine Learning\n6.1. Overview of Machine Learning Techniques\n6.2. Feature Extraction: Pre-trained Models for Text and Images\n6.3. Machine Learning Libraries\n6.4. Machine Learning and Analysis of Some Typical Data Types\n6.5. Integrated Problems\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 182345,
+      "ma": "L.O.1.1",
+      "ten_vi": "Sử dụng thành thạo các kiểu dữ liệu, biến và biểu thức trong Python.",
+      "ten_en": "Proficient use of data types, variables, and expressions in Python.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182346,
+      "ma": "L.O.1.2",
+      "ten_vi": "Sử dụng thành thạo các thành phần cơ bản của ngôn ngữ lập trình Python như cấu trúc điều khiển, nhập-xuất, biến và biểu thức.",
+      "ten_en": "Proficient use of the basic components of the Python programming language, such as control structures, input-output, variables, and expressions.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182347,
+      "ma": "L.O.1.3",
+      "ten_vi": "Xây dựng các hàm, lớp, đối tượng và các thành phần lập trình nâng cao.",
+      "ten_en": "Construct functions, classes, objects, and advanced programming components.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182349,
+      "ma": "L.O.2.1",
+      "ten_vi": "Sử dụng thành thạo các cấu trúc Tensor (trong Numpy, Pytorch, Tensorflow) và Series/DataFrame (trong Pandas).",
+      "ten_en": "Proficient use of Tensor structures (in Numpy, Pytorch, Tensorflow) and Series/DataFrame (in Pandas).",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182350,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thực hiện các phép toán indexing, slicing và broadcasting trên các tập dữ liệu đa chiều.",
+      "ten_en": "Execute indexing, slicing, and broadcasting operations on multi-dimensional datasets.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182351,
+      "ma": "L.O.2.3",
+      "ten_vi": "Trực quan hóa và xử lý dữ liệu bằng các thư viện chuyên dụng để phục vụ phân tích.",
+      "ten_en": "Visualize and process data using specialized libraries for analysis purposes.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182353,
+      "ma": "L.O.3.1",
+      "ten_vi": "Thiết kế quy trình phân tích dữ liệu.",
+      "ten_en": "Design a systematic data analysis process.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182354,
+      "ma": "L.O.3.2",
+      "ten_vi": "Lập trình các bước tiền xử lý và chuẩn bị dữ liệu đầu vào cho các mô hình phân tích.",
+      "ten_en": "Program preprocessing steps and prepare input data for analysis models.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182355,
+      "ma": "L.O.3.3",
+      "ten_vi": "Đánh giá và giải thích các kết quả đầu ra thu được từ mô hình phân tích dữ liệu.",
+      "ten_en": "Evaluate and interpret the output results obtained from data analysis models.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182357,
+      "ma": "L.O.4.1",
+      "ten_vi": "Tích hợp các mô hình tiền huấn luyện (pre-trained models) để thực hiện rút trích đặc trưng dữ liệu.",
+      "ten_en": "Integrate pre-trained models to perform feature extraction.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182358,
+      "ma": "L.O.4.2",
+      "ten_vi": "Vận dụng các kỹ thuật học máy và học sâu để giải quyết các bài toán phân tích dữ liệu cụ thể.",
+      "ten_en": "Apply machine learning and deep learning techniques to solve specific data analysis problems.",
+      "hddg": [
+        {
+          "id": 71894,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 71895,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Lập trình cho Trí tuệ nhân tạo và Khoa học dữ liệu",
+  "tenmonhoc_eng": "Programming for Artificial Intelligence and Data Science (P4AI-DS)",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 1
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2808 @@
+{
+  "ma": "DCMH.ME2147.1.1",
+  "phienban": "1.1",
+  "capnhat": "08/09/2024 19:07",
+  "khoa": {
+    "vi": "Khoa Quản Lý Công Nghiệp",
+    "en": "School of Industrial Management"
+  },
+  "mamonhoc": "ME2147",
+  "ten": "ME2147 - Thực hành mô hình hóa và mô phỏng",
+  "ten_eng": "ME2147 - Modelling & Simulation Project",
+  "hockyapdung": "HK231",
+  "sotcgoc": 2,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Ứng dụng phương pháp mô hình hóa và mô phỏng vào thực tế hệ thống công nghiệp (sản xuất và dịch vụ) với các sự kiện rời rạc. Sinh viên sẽ có kinh nghiệm phát triển các mô hình mô phỏng hệ thống rời rạc với các phần mềm mô phỏng chuyên dụng. Hơn thế nữa, sinh viên sẽ có kinh nghiệm sử dụng mô hình mô phỏng trong phân tích các hệ thống phức tạp.<br></p>",
+      "en": "<p>Apply methods required for modeling and simulating practice industrial systems with decrete-events. They will have experience developing simulation models in specific simulation sofware. Besides, they will get experience using simulation models to analyze complex decrete event systems.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Nội dung môn học bao gồm cách thức thực hiện mô hình hóa và mô phỏng hệ thống với các sự kiện rời rạc, tìm hiểu điểm mạnh và điểm yếu của kỹ thuật mô phỏng, phương pháp luận nghiên cứu mô phỏng, tính ngẫu nhiên trong mô hình, phân tích dữ liệu đầu vào, xử lý kết quả mô phỏng, thiết kế thực nghiệm mô phỏng, và sử dụng các phần mềm mô phỏng thông dụng. Các phương pháp và kỹ thuật mô hình hóa và mô phỏng được trình bày thông qua một phần mềm mô phỏng thông dụng.<br></p>",
+      "en": "<p>The topics include concepts of modeling and simulation, pros and cons of simulation for studying industrial systems, methodology for simulation study, random number generation, input analysis, output analysis, design of simulation experiments, common simulation software<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Tài liệu học tập có thể được tải xuống từ trang BKEL (<a target=\"_blank\" rel=\"nofollow\" href=\"http://e-learning.hcmut.edu.vn/)\">http://e-learning.hcmut.edu.vn/)</a>. Các slide bài giảng được cập nhật hàng tuần theo tiến độ học tập trên lớp. Bên cạnh đó, sinh viên có thể tự học, tìm hiểu sâu hơn thông qua các tài liệu sau:<br>Sách, Giáo trình chính:<br><br>[1] A.M. Law, D. Kelton, Simulation Modeling and Analysis, McGraw-Hill Education; 5th edition (January 22, 2014)<br>[2] W.D. Kelton, R.P. Sadowski, D.A. Sadowski, Simulation with Arena, 2nd edition, McGraw-Hill, 2010.<br>[3] Jerry Banks, Discrete event system simulation, Pearson Prentice Hall, 2005.<br><br></p>",
+      "en": "<p>Books, maintextbooks</p><p>[1] A.M. Law, D. Kelton, Simulation Modeling and Analysis, McGraw-Hill Education; 5th edition (January 22, 2014)<br>[2] W.D. Kelton, R.P. Sadowski, D.A. Sadowski, Simulation with Arena, 2nd edition, McGraw-Hill, 2010.<br>[3] Jerry Banks, Discrete event system simulation, Pearson Prentice Hall, 2005.<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học, cơ bản gồm hai cột điểm: điểm quá trình (50%) và điểm thi cuối kỳ (50%).<br>+ Bài tập: 20%<br>•  Bài tập trên lớp (cá nhân) 10%<br>•  Thuyết trình  : 5%<br>•  Hoạt động nhóm  : 5%<br>•  Bài tập về nhà  : 0%<br>+ Thí nghiệm: 0%<br>•  Thí nghiệm  : 0%<br>+ Bài tập lớn: 30%<br>•  Bài tập lớn  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  : 30%<br>+ Thi: 50%<br>•  Thi cuối kỳ  : 50%<br><br>Điều kiện dự thi:<br>-  Sinh viên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm danh chuyên cần). Ngoài ra, sinh viên phải hoàn thành tất cả bài tập về nhà đúng hạn cũng như thực hiện đầy đủ các phần thuyết trình của nhóm. Đây là những điều kiện cần để sinh viên đạt môn học này.<br><br>-  Sinh viên cần lưu ý thời hạn nộp bài tập. Nộp muộn sẽ không được chấp nhận nếu không có một lý do chính đáng đã được trình bày và phê duyệt của giảng viên trước ngày đến hạn. Bài tập nộp muộn cho phép sẽ bị trừ 2 điểm đối với mỗi ngày nộp trễ.<br><br></p>",
+      "en": "<p>Lecturer will be given in Bkel weekly. Student should read the lecture before class. Score will be examined though the final exam (50%), homework, project and presentation (50%)<br>Discussion/Homework  &nbsp;  : 20% of final grade<br>•  In class exercises &nbsp; &nbsp; &nbsp; :10%<br>•  Presentation &nbsp; &nbsp; &nbsp;  :5%<br>•  Group work  &nbsp; &nbsp; :5%<br>•  Homework  &nbsp; &nbsp; &nbsp;  :0%<br>Lab/Practices &nbsp; &nbsp; &nbsp;  : 30% of final grade<br>Midterm exam  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  : 0%<br>Final exam &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  : 50% of final grade<br>Examination requirments<br>Student must get 70% attendance for taking the test. Furthermore, Student should complete all of requriments to pass this course such as presentation, homework and so on. The homeworks must be submitted on time. Lately submission must be accepted by the lecturers and it will be penalized 10% per day<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1027,
+      "ma": "NG_LQC",
+      "ten": {
+        "vi": "7. Logistics và Quản lý chuỗi cung ứng",
+        "en": "Logistics and Supply Chain Management"
+      }
+    },
+    {
+      "id": 1028,
+      "ma": "CN_KTH",
+      "ten": {
+        "vi": "6. Kỹ thuật Hệ thống Công nghiệp",
+        "en": "Industrial and Systems Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 896,
+      "ma": "002559",
+      "ten": "Đỗ Ngọc Hiền"
+    },
+    {
+      "id": 1502,
+      "ma": "002199",
+      "ten": "Lê Ngọc Quỳnh Lam"
+    },
+    {
+      "id": 892,
+      "ma": "001523",
+      "ten": "Nguyễn Như Phong"
+    },
+    {
+      "id": 901,
+      "ma": "003312",
+      "ten": "Nguyễn Hữu Phúc"
+    },
+    {
+      "id": 902,
+      "ma": "003314",
+      "ten": "Đinh Bá Hùng Anh"
+    },
+    {
+      "id": 894,
+      "ma": "002340",
+      "ten": "Phan Thị Mai Hà"
+    },
+    {
+      "id": 895,
+      "ma": "002443",
+      "ten": "Nguyễn Vạng Phúc Nguyên"
+    },
+    {
+      "id": 899,
+      "ma": "003159",
+      "ten": "Đặng Phi Vân Hài"
+    },
+    {
+      "id": 900,
+      "ma": "003161",
+      "ten": "Hồ Thị Phương Dung"
+    },
+    {
+      "id": 903,
+      "ma": "003472",
+      "ten": "Võ Văn Thanh"
+    },
+    {
+      "id": 7079,
+      "ma": "003828",
+      "ten": "Trần Võ Thảo Hương"
+    },
+    {
+      "id": 897,
+      "ma": "002780",
+      "ten": "Nguyễn Trí Dũng"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 2,
+    "soTC_ETC": 4,
+    "lyThuyet": null,
+    "baiTapThucHanh": null,
+    "thiNghiem": 2.0,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": null,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 100,
+    "tongGio_HocTap_LamViec": 90,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 60,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 0,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 30,
+    "khac": "10"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": true,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 50,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 50,
+    "doAn": 0,
+    "kiemTra": 0,
+    "thi": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 944,
+      "maBoMon": "KTH",
+      "tenBoMon": {
+        "vi": "KT Hệ Thống Công Nghiệp"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Bộ môn Kỹ thuật Hệ thống công nghiệp , Khoa Cơ khí, P101 Nhà B11",
+      "dienThoai": "(84-028) 0838647256 ­ 5853"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 896,
+        "maGiangVien": "002559",
+        "tenGiangVien": "Đỗ Ngọc Hiền",
+        "emailGiangVien": "hienise97@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "tng2",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME2149 - Kỹ thuật mô hình hóa và mô phỏng",
+        "en": "ME2149 - Modelling & Simulation Engineering"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật mô hình hóa và mô phỏng",
+        "en": "Modelling & Simulation Engineering"
+      },
+      "mamonhoc": "ME2149"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 16975,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 16976,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "16975",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Exam"
+      },
+      "noidung": {
+        "vi": "Bài tập",
+        "en": "Exam"
+      }
+    },
+    {
+      "id": 16977,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "16975",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm",
+        "en": "Team exam"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm",
+        "en": "Team exam"
+      }
+    },
+    {
+      "id": 16978,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "16975",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Active in class"
+      },
+      "noidung": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Active in class"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 19575,
+      "stt": 1,
+      "buoi": "Tuần 1 - 2",
+      "chuandaurachitiet": [
+        {
+          "id": 27115,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Giảng \n- Hoạt động tại lớp ",
+            "en": "- Seft-introduction\n- Give lecture\n- Design in class activities"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm\nBáo cáo BT nhóm ",
+            "en": "-\tDo the group work\n-\tGroup work report\n"
+          },
+          "chuandaura": {
+            "id": 62310,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng các bước thực hiện mô phỏng",
+              "en": "Apply steps of the simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44550,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44549,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27116,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Giảng \n- Hoạt động tại lớp \n",
+            "en": "- Seft-introduction\n- Give lecture\n- Design in class activities"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thực hiện bài tập nhóm\n- Báo cáo bài tập nhóm",
+            "en": "- Do the group work\n- Group work report"
+          },
+          "chuandaura": {
+            "id": 62308,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Nắm bắt qui trình thực hiện mô phỏng",
+              "en": "Know how to implement a simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44551,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44552,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27117,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Giảng \n- Hoạt động tại lớp \n\n",
+            "en": "- Seft-introduction\n- Give lecture\n- Design in class activities\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Bài tập nhóm\n- Báo cáo BT nhóm \n",
+            "en": "- Do the group work\n- Group work report"
+          },
+          "chuandaura": {
+            "id": 62306,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nhận diện sự cần thiết phải mô phỏng",
+              "en": "Identify the importance of simulation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44553,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44554,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27118,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Giảng \n- Hoạt động tại lớp ",
+            "en": "- Seft-introduction\n- Give lecture\n- Design in class activities\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thực hiện bài tập nhóm\n- Báo cáo bài tập nhóm",
+            "en": "- Do the group work\n- Group work report"
+          },
+          "chuandaura": {
+            "id": 62307,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Hiểu hệ thống với sự kiện rời rạc và mô phỏng rời rạc",
+              "en": "Understand systems with discrete events and discrete simulation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44555,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44556,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27119,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Giảng \n- Hoạt động tại lớp ",
+            "en": "-\tSeft-introduction\n-\tGive lecture\n-\tDesign in class activities"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Bài tập nhóm\n- Báo cáo BT nhóm ",
+            "en": "-\tDo the group work\n-\tGroup work report\n"
+          },
+          "chuandaura": {
+            "id": 62313,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng phần mềm mô phỏng chuyên dụng",
+              "en": "Use professional simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44557,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44558,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27120,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Giảng \n- Hoạt động tại lớp ",
+            "en": "-\tSeft-introduction\n-\tGive lecture\n-\tDesign in class activities\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập nhóm\nBáo cáo BT nhóm \n",
+            "en": "-\tDo the group work\n-\tGroup work report\n"
+          },
+          "chuandaura": {
+            "id": 62316,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu các yếu tố ngẫu nhiên trong dữ liệu đầu vào",
+              "en": "Understand random factors in input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44559,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27121,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu \n- Giảng \n- Hoạt động tại lớp ",
+            "en": "-\tSeft-introduction\n-\tGive lecture\n-\tDesign in class activities\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Bài tập nhóm\n- Báo cáo BT nhóm \n",
+            "en": "-\tDo the group work\n-\tGroup work report\n"
+          },
+          "chuandaura": {
+            "id": 62319,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Mô tả kiến thức phân tích thống kê đầu ra",
+              "en": "Describe the knowledge of analyzing statistical results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44560,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu môn học\n- Thông tin giảng viên\n- Hình thức đánh giá\n- Kế hoạch giảng dạy\nGiới thiệu về phần mềm mô phỏng ARENA\n- Điểm mạnh và điểm yếu của mô phỏng \n- Lưu ý khi sử dụng phần mềm có sẵn",
+        "en": "Introduction\n- Lecturer Information\n- Course outline\n- Course evaluation method\nArena simulation software introdudction\n- Advantages and disadvantages of Arena\n- Note when using software"
+      }
+    },
+    {
+      "id": 19576,
+      "stt": 2,
+      "buoi": "Tuần 3 - 4",
+      "chuandaurachitiet": [
+        {
+          "id": 27122,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nĐiểm cần làm rõ\nBài tập nhóm\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bài tập nhóm",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62316,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu các yếu tố ngẫu nhiên trong dữ liệu đầu vào",
+              "en": "Understand random factors in input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44561,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44562,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27128,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nĐiểm cần làm rõ\nBài tập nhóm\n",
+            "en": "Give lectures\nGive the group work"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bài tập nhóm",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62322,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Thể hiện khả năng lập kế hoạch thực hiện mô phỏng hệ thống thực",
+              "en": "Demonstrate the ability to plan for simulating real system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44573,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44574,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27123,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nĐiểm cần làm rõ\nBài tập nhóm\n",
+            "en": "Give lectures\nGive the group work\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bài tập nhóm",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62324,
+            "ma": "L.O.6.3",
+            "ten": {
+              "vi": "Hiểu thế nào là thử nghiệm, kiểm tra, thẩm định và chứng nhận",
+              "en": "Understand the concepts of experiment, test, verify and validate"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44563,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44564,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27127,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Giảng\nĐiểm cần làm rõ\nCho bài tập nhóm\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bào tập nhóm ",
+            "en": "Group work report"
+          },
+          "chuandaura": {
+            "id": 62311,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Giải quyết các vấn đề trong nghiên cứu mô phỏng",
+              "en": "Solve problems in the simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44571,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44572,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27126,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Giảng\nĐiểm cần làm rõ\nCho bài tập nhóm\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bào tập nhóm ",
+            "en": "Group work report"
+          },
+          "chuandaura": {
+            "id": 62310,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng các bước thực hiện mô phỏng",
+              "en": "Apply steps of the simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44569,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44570,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27124,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Giảng\nĐiểm cần làm rõ\nCho bài tập nhóm\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bào tập nhóm ",
+            "en": "Group work report"
+          },
+          "chuandaura": {
+            "id": 62306,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nhận diện sự cần thiết phải mô phỏng",
+              "en": "Identify the importance of simulation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44565,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44566,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27125,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Giảng\nĐiểm cần làm rõ\nCho bài tập nhóm\n",
+            "en": "Give lectures\nGive the group work\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bào tập nhóm ",
+            "en": "Group work report"
+          },
+          "chuandaura": {
+            "id": 62308,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Nắm bắt qui trình thực hiện mô phỏng",
+              "en": "Know how to implement a simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44567,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44568,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mô hình hóa mô phỏng với ARENA\n-\tCác bước thực hiện nghiên cứu mô phỏng\n-\tCác vấn đề trong nghiên cứu mô phỏng\n-\tVấn đề kiểm tra mô hình (verification)\n-\tVấn đề kiểm chứng mô hình (validation)\n-\tTính tin cậy và sự chấp nhận mô hình\n-\tViết báo cáo nghiên cứu mô phỏng",
+        "en": "Simulation with Arena\n-\tSteps for conducting simulation\n-\tSimulation problems\n-\tModel Verification\n-\tModel Valudation\n-\tModel reliability\n-\tWriting the report "
+      }
+    },
+    {
+      "id": 19577,
+      "stt": 3,
+      "buoi": "Tuần 5 - 6 - 7",
+      "chuandaurachitiet": [
+        {
+          "id": 27134,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ ",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm ",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62313,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng phần mềm mô phỏng chuyên dụng",
+              "en": "Use professional simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44585,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44586,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27129,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ ",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm ",
+            "en": "Group work report\nDo in class exercise "
+          },
+          "chuandaura": {
+            "id": 62314,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng các chức năng cơ bản nhất",
+              "en": "Apply basic functions of simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44576,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44575,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27130,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ ",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm ",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62316,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu các yếu tố ngẫu nhiên trong dữ liệu đầu vào",
+              "en": "Understand random factors in input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44578,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44577,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27133,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ ",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm ",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62320,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Mô tả làm thế nào để xây dựng nghiên cứu mô phỏng",
+              "en": "Describe how to develop a simulation research"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44584,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44583,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27132,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bào tập nhóm ",
+            "en": "Group work report"
+          },
+          "chuandaura": {
+            "id": 62308,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Nắm bắt qui trình thực hiện mô phỏng",
+              "en": "Know how to implement a simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44581,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44582,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27131,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo bào tập nhóm ",
+            "en": "Group work report"
+          },
+          "chuandaura": {
+            "id": 62307,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Hiểu hệ thống với sự kiện rời rạc và mô phỏng rời rạc",
+              "en": "Understand systems with discrete events and discrete simulation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44579,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            },
+            {
+              "id": 44580,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thực hành sử dụng phần mềm mô phỏng ARENA\n-\tGiới thiệu phần mềm\n-\tCác chức năng của phần mềm\n-\tMô hình hóa với phần mềm\n-\tPhân tích kết quả\n-\tMô hình hóa với mô hình đơn giản\n",
+        "en": "Simulation with Arena- Practice\n-\tSoftware introduction\n-\tFunctions in arena software introduction\n-\tSimulate with arena introduction\n-\tResult analysis \n-\tSimulate the simple model with Arena"
+      }
+    },
+    {
+      "id": 19578,
+      "stt": 4,
+      "buoi": "Tuần 8 - 9",
+      "chuandaurachitiet": [
+        {
+          "id": 27139,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm ",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62316,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu các yếu tố ngẫu nhiên trong dữ liệu đầu vào",
+              "en": "Understand random factors in input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44595,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44596,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27138,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm ",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62317,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phân tích được dữ liệu đầu vào",
+              "en": "Analyze the input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44594,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44593,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27136,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoạt động trên lớp",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62313,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng phần mềm mô phỏng chuyên dụng",
+              "en": "Use professional simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44589,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44590,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27135,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoạt động trên lớp",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62314,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng các chức năng cơ bản nhất",
+              "en": "Apply basic functions of simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44587,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44588,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27137,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoạt động trên lớp",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62307,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Hiểu hệ thống với sự kiện rời rạc và mô phỏng rời rạc",
+              "en": "Understand systems with discrete events and discrete simulation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44591,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44592,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16977,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Team exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "DỮ LIỆU ĐẦU VÀO với công cụ Input analyzer trong ARENA\n-\tTính ngẫu nhiên trong mô phỏng\n-\tChiến lược thu thập dữ liệu đầu vào\n-\tPhân tích dữ liệu đầu vào\n-\tXác định phương thức đưa dữ liệu vào mô hình\n-\tXác định phân bố lý thuyết – kiểm định thống kê mô hình phân bố lý thuyết.\n",
+        "en": "Input data with input analyzer in ARENA\n-\tStochatics problem in simulation\n-\tData collection method\n-\tInput data method\n-\tData distribution determination\n"
+      }
+    },
+    {
+      "id": 19573,
+      "stt": 5,
+      "buoi": "Tuần 10 - 11",
+      "chuandaurachitiet": [
+        {
+          "id": 27108,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm\nBT trên lớp",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62319,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Mô tả kiến thức phân tích thống kê đầu ra",
+              "en": "Describe the knowledge of analyzing statistical results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44535,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44536,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27102,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm\nBT trên lớp",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62323,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Sử dụng quá trình triển khai hệ thống mô phỏng",
+              "en": "Apply the implementation process of the simulation system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44524,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44523,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27101,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHĐ tại lớp \nĐiểm cần làm rõ\n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo BT nhóm\nBT trên lớp",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62324,
+            "ma": "L.O.6.3",
+            "ten": {
+              "vi": "Hiểu thế nào là thử nghiệm, kiểm tra, thẩm định và chứng nhận",
+              "en": "Understand the concepts of experiment, test, verify and validate"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44522,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44521,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27107,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập",
+            "en": "Group work report\nDo in class exercise "
+          },
+          "chuandaura": {
+            "id": 62313,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng phần mềm mô phỏng chuyên dụng",
+              "en": "Use professional simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44533,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44534,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27106,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập",
+            "en": "Group work report\nDo in class exercise "
+          },
+          "chuandaura": {
+            "id": 62317,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phân tích được dữ liệu đầu vào",
+              "en": "Analyze the input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44531,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44532,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27105,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập",
+            "en": "Group work report\nDo in class exercise "
+          },
+          "chuandaura": {
+            "id": 62316,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu các yếu tố ngẫu nhiên trong dữ liệu đầu vào",
+              "en": "Understand random factors in input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44529,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44530,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27103,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập",
+            "en": "Group work report\nDo in class exercise "
+          },
+          "chuandaura": {
+            "id": 62311,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Giải quyết các vấn đề trong nghiên cứu mô phỏng",
+              "en": "Solve problems in the simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44525,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44526,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27104,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \n",
+            "en": "Give lectures\nGive the group work\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62314,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng các chức năng cơ bản nhất",
+              "en": "Apply basic functions of simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44527,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44528,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích kết quả mô phỏng với công cụ Output analyzer trong ARENA\n-\tTrạng thái quá độ (transient) và trạng thái ổn định (steady) của hệ thống.\n-\tPhân tích mô phỏng với điều kiện dừng (terminating simulation)\n-\tPhân tích mô phỏng trạng thái ổn định.\n-\tXác định số lần chạy mô phỏng (số lần lặp).\n",
+        "en": "Output analyzer with Output analyzer in ARENA\n-\t(Transient) and (Steady) condition of system\n-\tSimulation analysis given termination simulation \n-\tSteady condition analysis\n-\tDefine the loop in simulation"
+      }
+    },
+    {
+      "id": 19574,
+      "stt": 6,
+      "buoi": "Tuần 12 - 13 - 14 - 15",
+      "chuandaurachitiet": [
+        {
+          "id": 27112,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng Điểm cần làm rõ\nTóm lược môn học\n",
+            "en": "Give lectures\nCourse review\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "HĐ tại lớp \nBài tập tại lớp\nBáo cáo bài tập nhóm\n",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62319,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Mô tả kiến thức phân tích thống kê đầu ra",
+              "en": "Describe the knowledge of analyzing statistical results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44543,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44544,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27113,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng Điểm cần làm rõ\nTóm lược môn học\n",
+            "en": "Give lectures\nCourse review\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "HĐ tại lớp \nBài tập tại lớp\nBáo cáo bài tập nhóm",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62320,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Mô tả làm thế nào để xây dựng nghiên cứu mô phỏng",
+              "en": "Describe how to develop a simulation research"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44546,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44545,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27114,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng Điểm cần làm rõ\nTóm lược môn học\n",
+            "en": "Give lectures\nCourse review\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "HĐ tại lớp \nBài tập tại lớp\nBáo cáo bài tập nhóm\n",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62322,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Thể hiện khả năng lập kế hoạch thực hiện mô phỏng hệ thống thực",
+              "en": "Demonstrate the ability to plan for simulating real system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44548,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44547,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27109,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng Điểm cần làm rõ\nTóm lược môn học\n",
+            "en": "Give lectures\nCourse review\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "HĐ tại lớp \nBài tập tại lớp\nBáo cáo bài tập nhóm\n",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62324,
+            "ma": "L.O.6.3",
+            "ten": {
+              "vi": "Hiểu thế nào là thử nghiệm, kiểm tra, thẩm định và chứng nhận",
+              "en": "Understand the concepts of experiment, test, verify and validate"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44538,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44537,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27110,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \nCho bài tập nhóm",
+            "en": "Give lectures\nCourse review\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập nhóm tại lớp\nBáo cáo bài tập nhóm",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62314,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng các chức năng cơ bản nhất",
+              "en": "Apply basic functions of simulation software"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44539,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44540,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 27111,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng \nHoạt động tại lớp \nĐiểm cần làm rõ \nCho bài tập nhóm",
+            "en": "Give lectures\nCourse review\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập nhóm tại lớp\nBáo cáo bài tập nhóm",
+            "en": "Group work report\nDo in class exercise \n"
+          },
+          "chuandaura": {
+            "id": 62310,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng các bước thực hiện mô phỏng",
+              "en": "Apply steps of the simulation process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 44542,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16976,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 44541,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16978,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Hoạt động trên lớp",
+                  "en": "Active in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá phương án qua mô phỏng dự án thực tế với phần mềm mô phỏng ARENA\n-\tSo sánh 2 hệ thống\n-\tSo sánh nhiều hệ thống\n-\tXếp hạng và lựa chọn\n-\tTối ưu hóa bằng mô phỏng\n-\tTrình bày kết quả - thiết kế chi tiết \n-\tÔn tập\n",
+        "en": "Simulation the real problem with Arena\n-\tSystem comparision with Arena\n-\tChosen the appropriated system with arena\n-\tArena discussion \n-\tCoure review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 62306,
+      "ma": "L.O.1.1",
+      "ten_vi": "Nhận diện sự cần thiết phải mô phỏng",
+      "ten_en": "Identify the importance of simulation",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62307,
+      "ma": "L.O.1.2",
+      "ten_vi": "Hiểu hệ thống với sự kiện rời rạc và mô phỏng rời rạc",
+      "ten_en": "Understand systems with discrete events and discrete simulation",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62308,
+      "ma": "L.O.1.3",
+      "ten_vi": "Nắm bắt qui trình thực hiện mô phỏng",
+      "ten_en": "Know how to implement a simulation process",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62310,
+      "ma": "L.O.2.1",
+      "ten_vi": "Áp dụng các bước thực hiện mô phỏng",
+      "ten_en": "Apply steps of the simulation process",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62311,
+      "ma": "L.O.2.2",
+      "ten_vi": "Giải quyết các vấn đề trong nghiên cứu mô phỏng",
+      "ten_en": "Solve problems in the simulation process",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62313,
+      "ma": "L.O.3.1",
+      "ten_vi": "Sử dụng phần mềm mô phỏng chuyên dụng",
+      "ten_en": "Use professional simulation software",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62314,
+      "ma": "L.O.3.2",
+      "ten_vi": "Áp dụng các chức năng cơ bản nhất",
+      "ten_en": "Apply basic functions of simulation software",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62316,
+      "ma": "L.O.4.1",
+      "ten_vi": "Hiểu các yếu tố ngẫu nhiên trong dữ liệu đầu vào",
+      "ten_en": "Understand random factors in input data",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62317,
+      "ma": "L.O.4.2",
+      "ten_vi": "Phân tích được dữ liệu đầu vào",
+      "ten_en": "Analyze the input data",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62319,
+      "ma": "L.O.5.1",
+      "ten_vi": "Mô tả kiến thức phân tích thống kê đầu ra",
+      "ten_en": "Describe the knowledge of analyzing statistical results",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62320,
+      "ma": "L.O.5.2",
+      "ten_vi": "Mô tả làm thế nào để xây dựng nghiên cứu mô phỏng",
+      "ten_en": "Describe how to develop a simulation research",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62322,
+      "ma": "L.O.6.1",
+      "ten_vi": "Thể hiện khả năng lập kế hoạch thực hiện mô phỏng hệ thống thực",
+      "ten_en": "Demonstrate the ability to plan for simulating real system",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62323,
+      "ma": "L.O.6.2",
+      "ten_vi": "Sử dụng quá trình triển khai hệ thống mô phỏng",
+      "ten_en": "Apply the implementation process of the simulation system",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    },
+    {
+      "id": 62324,
+      "ma": "L.O.6.3",
+      "ten_vi": "Hiểu thế nào là thử nghiệm, kiểm tra, thẩm định và chứng nhận",
+      "ten_en": "Understand the concepts of experiment, test, verify and validate",
+      "hddg": [
+        {
+          "id": 16976,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 16977,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Team exam"
+        },
+        {
+          "id": 16978,
+          "ma": "A.O.3",
+          "ten_vi": "Hoạt động trên lớp",
+          "ten_en": "Active in class"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thực hành mô hình hóa và mô phỏng",
+  "tenmonhoc_eng": "Modelling & Simulation Project",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    }
+  ]
+}

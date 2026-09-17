@@ -1,0 +1,2324 @@
+{
+  "ma": "DCMH.CO3151.4.1",
+  "phienban": "4.1",
+  "capnhat": "21/04/2025 08:40",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3151",
+  "ten": "CO3151 - Quản trị mạng",
+  "ten_eng": "CO3151 - Network management",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học này dành cho sinh viên quan tâm đến công việc quản lý cơ sở hạ tầng mạng với hầu hết các loại hình mạng. Môn học sẽ đề cập đến:<br></p><p></p><p></p><ul><li>chi tiết về cách cách thức hoạt động trong mạng,</li><li>cách cung cấp các dịch vụ khác nhau trên mạng theo yêu cầu một tổ chức,</li><li>cách thức hoạt động của từng dịch vụ mạng, cũng như cách cấu hình chúng trong một môi trường điển hình,</li><li>cách kẻ tấn công xem tài sản số trong mạng,</li><li>cách kẻ tấn công và phần mềm độc hại thường tấn công các dịch vụ khác nhau trên mạng và cách bảo vệ các dịch vụ đó<i>.</i></li></ul><p></p>\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p><i>This </i><i>course</i><i>&nbsp;is meant for </i><i>students</i><i>&nbsp;</i><i>to be interested in</i><i>&nbsp;administering network infrastructure of</i><i>&nbsp;</i><i>almost any kind. </i><i>It will mention:</i><br></p><p></p><ul><li><i>the </i><i>“</i><i>nuts and bolts</i><i>”</i><i>&nbsp;of how things work in</i><i>&nbsp;a </i><i>network</i><i>,</i></li><li><i>how deliver the various services on </i><i>the</i><i>&nbsp;network that </i><i>an </i><i>organization needs,</i></li><li><i>how each of the </i><i>networking</i><i>&nbsp;services works, as well as how configure them in a typical environment</i><i>,</i></li><li><i>how attackers view </i><i>the</i><i>&nbsp;network assets,</i></li><li><i>how attackers and malware commonly attack various services</i><i>&nbsp;</i><i>on </i><i>the</i><i>&nbsp;network, and how to defend those services.</i></li></ul><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<div>\n\n<p>Mục tiêu của môn học này là:</p><p></p><ul><li><b><i>Cấu hình và hoạt động mạng cơ bản</i></b>, bao gồm cấu hình giao diện mạng trong Linux, thảo luận về cách định cấu hình các tham số giao diện mạng khác nhau, tất cả từ dòng lệnh, cũng như rất nhiều điều cơ bản về lớp IP và MAC.</li><li><b><i>Chẩn đoán mạng</i></b>, bao gồm chẩn đoán và giải quyết các sự cố mạng, thảo luận về chẩn đoán mạng cục bộ và từ xa bằng cách sử dụng các lệnh Linux gốc, cũng như các tiện ích bổ sung phổ biến và cách đánh giá mạng không dây.</li><li><b><i>Tiêu chuẩn bảo mật Linux với các ví dụ thực tế</i></b>, bao gồm bảo mật máy chủ Linux, thảo luận về các thách thức, cũng như các tiêu chuẩn bảo mật khác nhau, Trung tâm kiểm soát quan trọng của Trung tâm bảo mật Internet (CIS) và làm việc thông qua một vài khuyến nghị trong Điểm chuẩn CIS cho Linux. Phần Tường lửa Linux thảo luận về sự phát triển của tường lửa Linux và triển khai nó để bảo vệ các dịch vụ cụ thể trên Linux.</li><li><b><i>Dịch vụ DNS</i></b>, giải thích cách DNS hoạt động trong các trường hợp khác nhau và cách triển khai các dịch vụ DNS trên Linux, cả nội bộ và giao tiếp với Internet, thảo luận về các cuộc tấn công khác nhau chống lại DNS và cách bảo vệ máy chủ chống lại chúng.</li><li><b><i>Dịch vụ DHCP</i></b>, minh họa cách triển khai DHCP trên Linux cho các máy trạm truyền thống và thảo luận về những hệ thống dùng DHCP như điện thoại Voice over IP (VoIP).</li><li><b><i>Dịch vụ chứng chỉ</i></b>, bao gồm các chứng chỉ, thường được xem là \"bogeyman\" trong nhiều cơ sở hạ tầng mạng, hiểu cách chúng hoạt động và cách triển khai cơ quan cấp chứng chỉ miễn phí cho một tổ chức.</li><li><b><i>RADIUS Services</i></b>, giải thích cách sử dụng RADIUS trên Linux làm xác thực cho các thiết bị và dịch vụ mạng khác nhau.</li><li><b><i>Dịch vụ cân bằng tải</i></b>, giải thích rằng Linux tạo ra một bộ cân bằng tải tuyệt vời, cho phép các dịch vụ cân bằng tải \"miễn phí\" gắn liền với từng khối lượng công việc, thay vì các giải pháp cân bằng tải \"trên mỗi trung tâm dữ liệu\" truyền thống, đắt tiền và nguyên khối.</li><li>&nbsp;<b><i>Bắt gói và phân tích gói</i></b>, thảo luận về việc sử dụng Linux làm máy chủ bắt gói, làm thế nào để thực hiện điều này trong mạng, cũng như khám phá các phương pháp lọc khác nhau để có được thông tin để giải quyết vấn đề.</li><li><b><i>Giám sát mạng</i></b>, bao gồm việc sử dụng Linux để ghi lại lưu lượng truy cập tập trung bằng syslog, cũng như cảnh báo thời gian thực về các từ khóa được tìm thấy trong nhật ký, thảo luận về việc ghi nhật ký các mẫu lưu lượng mạng, sử dụng NetFlow và các giao thức liên quan.</li><li><b><i>Hệ thống ngăn chặn xâm nhập</i></b>, giải thích rằng các ứng dụng được sử dụng để cảnh báo và chặn các cuộc tấn công phổ biến, cũng như thêm siêu dữ liệu quan trọng vào thông tin lưu lượng.</li><li><b><i>Dịch vụ Honeypot</i></b>, bao gồm việc sử dụng honeypot làm \"máy chủ lừa dối\" để đánh lạc hướng và trì hoãn những kẻ tấn công, đồng thời cung cấp các cảnh báo có độ trung thực cao cho những người bảo vệ.</li></ul></div><p></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<p></p>",
+      "en": "<p></p><p></p><p>\n\n<p><i>The objectives of this course are to</i><i>&nbsp;present different topics</i><i>:</i></p><p></p><ul><li><b><i>Basic Network Configuration and Operations</i></b><i>, covers network interface configuration in Linux, </i><i>discuss</i><i>es</i><i>&nbsp;how to configure various network interface parameters, all from the command line, as well as lots of the basics of IP and MAC layer lore.</i></li><li><b><i>Network Diagnostics</i></b><i>, cover</i><i>s</i><i>&nbsp;diagnosing and resolving network problems, discuss</i><i>es</i><i>&nbsp;local and remote network diagnostics using native Linux commands, as well as common add-ons</i><i>,</i><i>&nbsp;</i><i>and how to </i><i>assess wireless networks.</i></li><li><b><i>Linux Security Standards with Real-Life Examples</i></b><i>, cover</i><i>s</i><i>&nbsp;securing</i><i>&nbsp;a</i><i>&nbsp;Linux host,</i><i>&nbsp;</i><i>discuss</i><i>es</i><i>&nbsp;the challenges, as well as various security standards</i><i>,</i><i>&nbsp;the Center for Internet Security (CIS) Critical Controls, and work through a few of the recommendations in a CIS Benchmark for Linux.</i><i>&nbsp;</i><i>The Linux Firewall</i><i>&nbsp;section </i><i>discus</i><i>ses</i><i>&nbsp;the evolution of the Linux firewall and implement it to protect specific services on Linux.</i></li><li><b><i>DNS Services</i></b><i>, explains how DNS works in different instances, and how to implement DNS services on Linux, both internally and internet-facing</i><i>,</i><i>&nbsp;discuss</i><i>es</i><i>&nbsp;various attacks against DNS, and how to protect server</i><i>s</i><i>&nbsp;against them.</i></li><li><b><i>DHCP Services</i></b><i>, illustrate</i><i>s</i><i>&nbsp;how to implement </i><i>DHCP</i><i>&nbsp;on Linux for traditional workstations, and discuss things such as Voice over IP (VoIP) phones.</i></li><li><b><i>Certificate Service</i></b><b><i>s</i></b><i>, covers certificates, which are often viewed as \"the bogeyman\" in many network infrastructures</i><i>,</i><i>&nbsp;demystify how they work, and how to implement a free certificate authority on Linux for </i><i>an</i><i>&nbsp;organization.</i></li><li><b><i>RADIUS Services</i></b><i>, explains how to use RADIUS on Linux as the authentication for various network devices and services.</i></li><li><b><i>Load Balancer Services</i></b><i>, explains that Linux makes a great load balancer, allowing \"for free\" load balancing services tied to each workload, rather than the traditional, expensive, and monolithic \"per data center\" load balancing solutions.</i></li><li><b><i>Packet Capture and Analysis</i></b><i>, discusses using Linux as a packet capture host</i><i>,</i><i>&nbsp;how to make this happen network-wise, as well as exploring various filtering methods to get the information to solve problems.</i></li><li><b><i>Network Monitoring</i></b><i>, covers using Linux to centrally log traffic using syslog, as well as real-time alerting on keywords found in logs</i><i>, discuss </i><i>logging network traffic flow patterns, using NetFlow and related protocols.</i></li><li><b><i>Intrusion Prevention Systems</i></b><i>, explains that applications are used to alert on and block common attacks, as well as adding important metadata to traffic information.</i></li><li><b><i>Honeypot Services</i></b><i>, covers using honeypots as \"deception hosts\" to distract and delay attackers, while providing high-fidelity alerts to the defenders.</i></li></ul></p><p></p><p><i></i></p><p></p><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p><b>Sách giáo\nkhoa bắt buộc</b>:</p>\n\n<p></p><ul><li>“<b><i>Linux for\nNetworking Professionals</i></b>”, Rob\nVandenBrink, Packt Publishing, 2021.</li><li><i>“<b>Computer Networking: A Top-Down Approach</b>”,\n</i>Jim\nKurose &amp; Keith Ross, 8th Global Edition, Pearson, 2021. Publisher website\nbook link <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\" title=\"Link: https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\">Kurose\n&amp; Ross</a><a target=\"_blank\" rel=\"nofollow\" href=\"https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\">,</a><a target=\"_blank\" rel=\"nofollow\" href=\"https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\">\nCom</a><a target=\"_blank\" rel=\"nofollow\" href=\"https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\">p</a><a target=\"_blank\" rel=\"nofollow\" href=\"https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\" title=\"Link: https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\">uter\nNetworkin</a><a target=\"_blank\" rel=\"nofollow\" href=\"https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\">g,</a><a target=\"_blank\" rel=\"nofollow\" href=\"https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html\">\n8th Edition</a></li></ul><p></p>\n\n\n\n<p><b>Các giáo\ntrình tham khảo khác</b>:</p>\n\n<p></p><ul><li>“<b><i>Computer Networks</i></b>”, Andrew S. Tanenbaum, Nick\nFeamster, David J. Wetherall, 6th Edition, Pearson, 2021. </li><li>“<b><i>The Illustrated Network: How TCP/IP Works in a Modern\nNetwork</i></b>”, Walter Goralski, Second Edition, Morgan Kaufman, 2020.</li><li>“<b><i>Computer Networks: A Systems Approach</i></b>”, Larry\nPeterson and Bruce S. Davie, The Morgan Kaufmann Series, 2020.</li><li>“<b><i>Foundations of Modern Networking: SDN, NFV, QoE, IoT,\nand Cloud</i></b>”, William Stallings, Addison-Wesley Professional, 2016.</li></ul><p></p><p></p>",
+      "en": "<p></p><p><i>Main\ncurriculum textbooks:</i></p>\n\n<p></p><ul><li>“<b><i>Linux for\nNetworking Professionals</i></b><i>”, Rob\nVandenBrink,</i><i> Packt Publishing</i><i>, 2021.</i></li><li><i>“<b>Computer Networking: A Top-down Approach</b>”,\nJim Kurose &amp; Keith Ross, 8th edition, Pearson, 2021.</i></li></ul><p></p>\n\n\n\n<p><i>Supplementary\nreference books:</i></p>\n\n<p></p><ul><li><i>“<b>Computer Networks</b>”, Andrew S.\nTanenbaum, Nick Feamster, David J. Wetherall, 6th Edition, Pearson, 2021. </i></li><li><i>“<b>The Illustrated Network: How TCP/IP Works\nin a Modern Network</b>”, Walter Goralski, Second Edition, Morgan Kaufman,\n2020.</i></li><li><i>“<b>Computer Networks: A Systems Approach</b>”,\nLarry Peterson and Bruce S. Davie, The Morgan Kaufmann Series, 2020.</i></li><li><i>“<b>Foundations of Modern Networking: SDN, NFV,\nQoE, IoT, and Cloud</b>”, William Stallings, Addison-Wesley Professional, 2016.</i></li></ul><p></p>\n\n\n\n\n\n\n\n\n\n\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p><b><i>Môn học sẽ được đánh giá qua 2 bài tập lớn, các bài thực\nhành trên phòng thí nghiệm và thi cuối kỳ, </i></b>theo tỷ lệ\nphần trăm như sau:</p>\n\n<p></p><ul><li>Điểm danh,\ncác hoạt động trong lớp và quizzes (0%)</li><li>Bài thực\nhành và bài tập về nhà (10%) </li><ul><li>Được thực\nhiện theo từng cá nhân</li></ul><li>Bài tập lớn\n(30%)</li><ul><li>Có thể được\nthực hiện theo nhóm (2 hoặc 3 sinh viên)</li></ul><li>Thi giữa kỳ\n(0%)</li><li>Thi cuối kỳ\n(60%)</li></ul><p></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n<p><b><i><u>Tổn</u></i></b><b><i>g<u> điểm dưới 5 ho</u>ặ<u>c\nđiểm cuối k</u>ỳ<u> (Thi)</u>,<u> tham </u>g<u>ia th</u>ự<u>c hành </u>(<u>Lab</u>)<u> ho</u>ặ<u>c bài tập\nlớn </u>(<u>BTL</u>)<u>\ndưới 3 sẽ dẫn đến kết quả Khôn</u>g<u> đ</u>ạ<u>t.</u></i></b></p>\n\n<p></p><ul><li>Việc tham\ngia các giờ thực hành trong các phòng thí nghiệm (Lab) là bắt buộc.</li><li>Sinh viên sẽ\nkhông nhận được điểm các bài tập lớn (BTL) nếu không hoàn thành các bài thực\nhành.</li><li>Chất lượng\ncác bài thực hành được đánh giá và chiếm 10% điểm số của môn học.&nbsp;</li><li>Hai bài tập\nlớn (BTL) là bắt buộc, mỗi bài chiếm 15% điểm số của môn học.</li></ul><p></p>\n\n\n\n\n\n<p><b>Báo cáo,\nthuyết trình và chạy demo cho BTL vào cuối học kỳ, nội dung BTL như sau</b>:</p>\n\n<p></p><ul><li>BT lớn số 1: sinh viên sẽ làm việc theo nhóm, xây dựng một\nứng dụng mạng.</li><li>BT lớn số 2: sinh viên sẽ làm việc theo nhóm, thiết kế một\nhệ thống mạng máy tính hoàn thiện.</li></ul><p></p><p></p>",
+      "en": "<p></p><p><i>The subject\nwill be evaluated through 2 major </i><i>assignments</i><i>, laboratory exercises and final exams, according to the\nfollowing percentages:</i></p>\n\n<p></p><ul><li><i>Roll call,\nclass activities, and quizzes (0%) </i></li><li><i>Exercises\nand homework (10%) </i></li><ul><li><i>Done individually</i></li></ul><li><i>Assignments</i><i>\n(30%) </i></li><ul><li><i>Can be done in groups (2 or 3 students) </i></li></ul><li><i>Midterm\nexams (0%) </i></li><li><i>Final exam\n(60%)</i></li></ul><p></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n<p><i>A total\nscore of less than <b>5</b> or a final score (Exam), participation in practice (Lab)\nor </i><i>assignments</i><i> (BTL) of\nless than <b>3</b> will result in a <b>Failed result</b>.</i></p>\n\n<p></p><ul><li><i>Participation\nin practice hours in labs is mandatory. </i></li><li><i>Students\nwill not receive major assignments (BTL) points if they do not complete the\npractice assignments. </i></li><li><i>The quality\nof the exercises is assessed and accounts for 10% of the subject's score.&nbsp;</i></li><li><i>Two\nmajor assignments (BTLs) are compulsory, each accounting for 15% of the\nsubject's marks.</i></li></ul><p></p>\n\n\n\n\n\n<p><i>Report,\npresentation and demo run for BTLs at the end of the semester, the content of\nBTLs is as follows: </i></p>\n\n<p></p><ul><li><i>Assignment</i><i>\n1: students will work in teams, \n\n<i>designing a complete computer network system.</i></i></li><li><i>Assignment</i><i>\n2: students will work in teams,&nbsp;<i>building a network management application.</i>\n\n</i></li></ul><p></p><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 4405,
+      "ma": "NG_KHM",
+      "ten": {
+        "vi": "Ngành: Khoa học Máy tính (2024)",
+        "en": "Major: Computer Science"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1221,
+      "ma": "002921",
+      "ten": "NGUYỄN LÊ DUY LAI"
+    },
+    {
+      "id": 1386,
+      "ma": "002415",
+      "ten": "NGUYỄN CAO ĐẠT"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon_TieuLuan": 0.33,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon_TieuLuan": 15,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 10,
+    "baiTapLon_TieuLuan": 30,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 963,
+      "maBoMon": "PMH",
+      "tenBoMon": {
+        "vi": "Hệ Thống và Mạng Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1221,
+        "maGiangVien": "002921",
+        "tenGiangVien": "NGUYỄN LÊ DUY LAI",
+        "emailGiangVien": "lai@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3e",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 47695,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 47696,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "47695",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+        "en": "Quiz & Exercise"
+      },
+      "noidung": {
+        "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+        "en": "Quiz & Exercise"
+      }
+    },
+    {
+      "id": 47697,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "47695",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Exam"
+      }
+    },
+    {
+      "id": 47698,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "47695",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thực hành",
+        "en": "Lab"
+      },
+      "noidung": {
+        "vi": "Thực hành",
+        "en": "Lab"
+      }
+    },
+    {
+      "id": 47699,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "47695",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 54857,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 71736,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN ",
+            "en": "(Teaching in class, practicing at the lab)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109184,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "thiết kế theo cấu trúc liên kết mạng cho các nhu cầu cụ thể. ",
+              "en": "design network topologies for specific needs."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113806,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113808,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113805,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113807,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71737,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN ",
+            "en": "(Teaching in class, practicing at the lab) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study)"
+          },
+          "chuandaura": {
+            "id": 109185,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "cấu hình các tham số mạng khác nhau để đáp ứng các thông số kỹ thuật thiết kế mạng.",
+              "en": "configure various network parameters to meet network design specifications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113809,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113811,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113810,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113812,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Cấu hình và hoạt động mạng Linux cơ bản\nYêu cầu kỹ thuật\nLàm việc với cài đặt mạng của bạn – hai bộ lệnh\nHiển thị thông tin IP giao diện\nHiển thị thông tin định tuyến\nĐịa chỉ IPv4 và mặt nạ mạng con\n Địa chỉ mục đích đặc biệt\n Địa chỉ riêng – RFC 1918\nGán địa chỉ IP cho giao diện\n Thêm tuyến đường\n Thêm tuyến đường bằng cách sử dụng các phương pháp cũ\n Vô hiệu hóa và kích hoạt giao diện\nĐặt MTU trên giao diện\nThông tin thêm về lệnh nmcli",
+        "en": "Chapter 1: Basic Linux Network Configuration and Operations\nTechnical requirements\nWorking with your network settings – two sets of commands\nDisplaying interface IP information\nDisplaying routing information \nIPv4 addresses and subnet masks\n\tSpecial-purpose addresses \n\tPrivate addresses – RFC 1918 \nAssigning an IP address to an interface\n\tAdding a route\n\tAdding a route using legacy approaches\n\tDisabling and enabling an interface\nSetting the MTU on an interface\nMore on the nmcli command"
+      }
+    },
+    {
+      "id": 54848,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 71723,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN ",
+            "en": "(Teaching in class, practicing at the lab)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109170,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "trình diễn chẩn đoán mạng cục bộ và từ xa bằng cách sử dụng các lệnh Linux gốc, cũng như các tiện ích bổ sung phổ biến.",
+              "en": "demonstrate local and remote network diagnostics using native Linux commands, as well as common add-ons."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113828,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113825,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113827,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113826,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71722,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n\n",
+            "en": "(Teaching in class, practicing at the lab) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study)"
+          },
+          "chuandaura": {
+            "id": 109171,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "thảo luận về việc ghi nhật ký các mẫu lưu lượng mạng, sử dụng NetFlow và các giao thức liên quan.",
+              "en": "discuss logging network traffic flow patterns, using NetFlow and related protocols."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113824,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113821,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113822,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113823,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Chẩn đoán mạng\nYêu cầu kỹ thuật\nCơ bản về mạng – mô hình OSI\nLớp 2 – liên quan đến Địa chỉ IP và MAC bằng ARP\n Giá trị OUI của địa chỉ MAC\nLớp 4 – cách thức hoạt động của cổng TCP và UDP\n Lớp 4 – TCP và bắt tay ba chiều\nĐánh giá cổng cục bộ – tôi đang kết nối với cái gì? Tôi đang lắng nghe cái gì?\nĐánh giá cổng từ xa bằng các công cụ gốc\nĐánh giá cổng từ xa và dịch vụ – nmap\n Các tập lệnh NMAP\n Có giới hạn nào đối với Nmap không?\nCác hoạt động chẩn đoán không dây",
+        "en": "Chapter 2: Network Diagnostics\nTechnical requirements\nNetwork basics – the OSI model\nLayer 2 – relating IP and MAC Addresses using ARP\n\tMAC address OUI values\nLayer 4 – how TCP and UDP ports work\n\tLayer 4 – TCP and the three-way handshake\nLocal port enumeration – what am I connected to? What am I listening for?\nRemote port enumeration using native tools\nRemote port and service enumeration – nmap \n\tNMAP scripts\n\tAre there limits to Nmap?\nWireless diagnostic operations"
+      }
+    },
+    {
+      "id": 54853,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 71731,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n\n",
+            "en": "(Teaching in class, practicing at the lab)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109176,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "thảo luận về những thách thức, cũng như các tiêu chuẩn bảo mật khác nhau, Trung tâm kiểm soát quan trọng của Trung tâm bảo mật Internet (CIS) và làm việc thông qua một vài khuyến nghị trong Điểm chuẩn CIS cho Linux. ",
+              "en": "discuss the challenges, as well as various security standards, the Center for Internet Security (CIS) Critical Controls, and work through a few of the recommendations in a CIS Benchmark for Linux. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113787,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113788,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113786,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113785,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71730,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n\n",
+            "en": "(Teaching in class, practicing at the lab) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study)"
+          },
+          "chuandaura": {
+            "id": 109177,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "thảo luận về sự phát triển của tường lửa Linux và giải thích cách triển khai nó để bảo vệ các dịch vụ cụ thể.",
+              "en": "discuss the evolution of the Linux firewall and explain how to implement it to protect specific services."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113782,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113783,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113781,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113784,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71732,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN\nTham gia các lớp lý thuyết, thực hành, và tự học \n",
+            "en": " (Teaching in class, practicing at the lab) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study)"
+          },
+          "chuandaura": {
+            "id": 109178,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "giải thích rằng các ứng dụng được sử dụng để cảnh báo và chặn các cuộc tấn công phổ biến, cũng như thêm siêu dữ liệu quan trọng vào thông tin lưu lượng truy cập.",
+              "en": "explain that applications are used to alert on and block common attacks, as well as adding important metadata to traffic information."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113790,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113789,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113792,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113791,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Tiêu chuẩn bảo mật với các ví dụ thực tế\nYêu cầu kỹ thuật\nTại sao tôi cần bảo mật máy chủ Linux của mình?\nNhững cân nhắc về bảo mật dành riêng cho đám mây\nCác tiêu chuẩn bảo mật thường gặp trong ngành\nCác biện pháp kiểm soát quan trọng của Trung tâm bảo mật Internet\n Bắt đầu với các biện pháp kiểm soát bảo mật quan trọng 1 và 2 của CIS\n OSQuery – các biện pháp kiểm soát quan trọng 1 và 2, thêm vào các biện pháp kiểm soát 10 và 17\nCác tiêu chuẩn của Trung tâm bảo mật Internet\n Áp dụng tiêu chuẩn CIS – bảo mật SSH trên Linux\nSELinux và AppArmor\nTường lửa Linux\n Các yêu cầu kỹ thuật\n Cấu hình iptables\no iptables từ cấp độ cao\no Bảng NAT\no Bảng mangle\no Trình tự các hoạt động trong iptables\n Cấu hình nftables\no Cấu hình cơ bản của nftables\no Sử dụng tệp include\no Xóa cấu hình tường lửa",
+        "en": "Chapter 3: Security Standards with Real-Life Examples\nTechnical requirements\nWhy do I need to secure my Linux hosts?\nCloud-specific security considerations\nCommonly encountered industry-specific security standards\nThe Center for Internet Security critical controls\n\tGetting a start on CIS critical security controls 1 and 2\n\tOSQuery – critical controls 1 and 2, adding in controls 10 and 17\nThe Center for Internet Security benchmarks\n\tApplying a CIS benchmark – securing SSH on Linux\nSELinux and AppArmor\nThe Linux Firewall\n\tTechnical requirements\n\tConfiguring iptables\no\tiptables from a high level\no\tThe NAT table\no\tThe mangle table\no\tOrder of operations in iptables\n\tConfiguring nftables\no\tnftables basic configuration\no\tUsing include files\no\tRemoving a Firewall Configuration\n"
+      }
+    },
+    {
+      "id": 54856,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 71735,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n",
+            "en": "(Teaching in class, practicing at the lab)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study)"
+          },
+          "chuandaura": {
+            "id": 109173,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "giải thích cách triển khai các dịch vụ mạng (DNS, DHCP, RADIUS, Certificate).",
+              "en": "explain how to implement network services (DNS, DHCP, RADIUS, Certificate)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113804,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113803,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113801,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113802,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Dịch vụ mạng Linux - Dịch vụ DNS trên Linux\nYêu cầu kỹ thuật\nDNS là gì?\nHai triển khai máy chủ DNS chính\n Máy chủ DNS \"nội bộ\" của một tổ chức (và tổng quan về DNS)\n Máy chủ DNS hướng ra Internet\nCác triển khai DNS phổ biến\n Cài đặt cơ bản: BIND để sử dụng nội bộ\n BIND: Thông số kỹ thuật triển khai hướng ra Internet\nKhắc phục sự cố và trinh sát DNS\nDoH\nDoT\n knot-dnsutils\n Triển khai DoT trong Nmap\n DNSSEC\n",
+        "en": "Chapter 4: Linux Network Services - DNS Services on Linux\nTechnical requirements\nWhat is DNS?\nTwo main DNS server implementations\n\tAn organization's \"internal\" DNS server (and a DNS overview)\n\tAn internet-facing DNS server\nCommon DNS implementations\n\tBasic installation: BIND for internal use\n\tBIND: Internet-facing implementation specifics\nDNS troubleshooting and reconnaissance\nDoH\nDoT\n\tknot-dnsutils\n\tImplementing DoT in Nmap\n\tDNSSEC\n"
+      }
+    },
+    {
+      "id": 54854,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 71733,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN\n\n",
+            "en": " (Teaching in class, practicing at the lab)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học",
+            "en": " (Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109173,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "giải thích cách triển khai các dịch vụ mạng (DNS, DHCP, RADIUS, Certificate).",
+              "en": "explain how to implement network services (DNS, DHCP, RADIUS, Certificate)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113796,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113795,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113793,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113794,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Dịch vụ DHCP\nDHCP hoạt động như thế nào?\n Hoạt động DHCP cơ bản\n Yêu cầu DHCP từ các mạng con khác\n (chuyển tiếp, chuyển tiếp hoặc trợ giúp)\n Tùy chọn DHCP\nBảo mật dịch vụ DHCP của bạn\n Máy chủ DHCP giả mạo\n Máy khách DHCP giả mạo\nCài đặt và cấu hình máy chủ DHCP\nCấu hình cơ bản\n Đặt chỗ tĩnh\n Ghi nhật ký DHCP đơn giản và khắc phục sự cố trong quá trình sử dụng hàng ngày\n",
+        "en": "Chapter 5: DHCP Services\nHow does DHCP work?\n\tBasic DHCP operation\n\tDHCP requests from other subnets\n\t(forwarders, relays, or helpers)\n\tDHCP options\nSecuring your DHCP services\n\tRogue DHCP server\n\tRogue DHCP client\nInstalling and configuring a DHCP server\nBasic configuration\n\tStatic reservations\n\tSimple DHCP logging and troubleshooting in everyday use\n"
+      }
+    },
+    {
+      "id": 54859,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 71739,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n",
+            "en": "(Teaching in class, practicing at the lab)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109173,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "giải thích cách triển khai các dịch vụ mạng (DNS, DHCP, RADIUS, Certificate).",
+              "en": "explain how to implement network services (DNS, DHCP, RADIUS, Certificate)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113818,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113820,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113817,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113819,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Dịch vụ chứng chỉ\nYêu cầu kỹ thuật\nChứng chỉ là gì?\nThu thập chứng chỉ\nSử dụng chứng chỉ – ví dụ về máy chủ web\nXây dựng Cơ quan cấp chứng chỉ riêng\n Xây dựng CA với OpenSSL\n Yêu cầu và ký CSR\nBảo mật cơ sở hạ tầng Cơ quan cấp chứng chỉ của bạn\n Lời khuyên đã được thử nghiệm và chứng thực từ lâu\n Lời khuyên hiện đại\n Rủi ro cụ thể của CA trong cơ sở hạ tầng hiện đại\nMinh bạch chứng chỉ\n Sử dụng Cơ quan cấp chứng chỉ để kiểm kê hoặc trinh sát\n Tự động hóa chứng chỉ và giao thức ACME\nBảng hướng dẫn OpenSSL",
+        "en": "Chapter 6: Certificate Services\nTechnical requirements\nWhat are certificates?\nAcquiring a certificate\nUsing a certificate – web server example\nBuilding a private\nCertificate Authority\n\tBuilding a CA with OpenSSL\n\tRequesting and signing a CSR\nSecuring your Certificate\nAuthority infrastructure\n\tLegacy tried-and-true advice \n\tModern advice\n\tCA-specific risks in modern infrastructures\nCertificate Transparency\n\tUsing Certificate Authority for inventory or reconnaissance\n\tCertificate automation and the ACME protocol\nOpenSSL cheat sheet"
+      }
+    },
+    {
+      "id": 54855,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 71734,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN\n",
+            "en": " (Teaching in class, practicing at the lab)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109173,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "giải thích cách triển khai các dịch vụ mạng (DNS, DHCP, RADIUS, Certificate).",
+              "en": "explain how to implement network services (DNS, DHCP, RADIUS, Certificate)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113798,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113800,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113797,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113799,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Dịch vụ RADIUS\nYêu cầu kỹ thuật\nCơ bản về RADIUS – RADIUS là gì và hoạt động như thế nào?\nTriển khai RADIUS với xác thực Linux cục bộ RADIUS với xác thực phụ trợ LDAP/LDAPS\n Xác thực NTLM (AD) – giới thiệu CHAP\nUnlang – các tình huống sử dụng RADIUS phi ngôn ngữ\n Xác thực VPN bằng ID người dùng và mật khẩu\n Quyền truy cập quản trị vào các thiết bị mạng\n Cấu hình RADIUS để xác thực EAP-TLS\n Xác thực mạng không dây bằng 802.1x/EAP-TLS\n Xác thực mạng có dây bằng 802.1x/EAP-TLS\nSử dụng Google Authenticator cho MFA với RADIUS",
+        "en": "Chapter 7: RADIUS Services\nTechnical requirements\nRADIUS basics – what is RADIUS and how does it work?\nImplementing RADIUS with local Linux authentication RADIUS with LDAP/LDAPS backend authentication\n\tNTLM authentication (AD) –introducing CHAP\nUnlang – the unlanguage RADIUS use-case scenarios\n\tVPN authentication using user ID and password\n\tAdministrative access to network devices\n\tRADIUS configuration for EAP-TLS authentication\n\tWireless network authentication using 802.1x/EAP-TLS\n\tWired network authentication using 802.1x/EAP-TLS\nUsing Google Authenticator for MFA with RADIUS"
+      }
+    },
+    {
+      "id": 54849,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 71725,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n\n",
+            "en": "(Teaching in class, practicing at the lab)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109173,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "giải thích cách triển khai các dịch vụ mạng (DNS, DHCP, RADIUS, Certificate).",
+              "en": "explain how to implement network services (DNS, DHCP, RADIUS, Certificate)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113834,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113835,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113836,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113833,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71724,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n",
+            "en": "(Teaching in class, practicing at the lab) \n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học",
+            "en": " (Take theory, practice classes and self-study)"
+          },
+          "chuandaura": {
+            "id": 109174,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "tích hợp các công cụ quản lý mạng khác nhau.",
+              "en": "integrate various network management tools."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113831,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113830,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113832,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113829,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8: Dịch vụ cân bằng tải\nYêu cầu kỹ thuật\nGiới thiệu về cân bằng tải\n Round Robin DNS (RRDNS)\n Inbound proxy – Cân bằng tải lớp 7\n Inbound NAT – Cân bằng tải lớp 4\n DSR cân bằng tải\nThuật toán cân bằng tải\nKiểm tra tình trạng máy chủ và dịch vụ\nCân nhắc thiết kế bộ cân bằng tải trung tâm dữ liệu\n Cân nhắc về mạng và quản lý trung tâm dữ liệu\nXây dựng bộ cân bằng tải HAProxy NAT/proxy\n Trước khi bạn bắt đầu cấu hình – NIC, địa chỉ và định tuyến\n Trước khi bạn bắt đầu cấu hình – điều chỉnh hiệu suất\n Cân bằng tải dịch vụ TCP – dịch vụ web\n Thiết lập kết nối cố định (dính)\n Ghi chú triển khai\n Giao diện HTTPS",
+        "en": "Chapter 8: Load Balancer Services\nTechnical requirements\nIntroduction to load balancing\n\tRound Robin DNS (RRDNS)\n\tInbound proxy – Layer 7 load balancing\n\tInbound NAT – Layer 4 load balancing\n\tDSR load balancing\nLoad balancing algorithms\nServer and service health checks\nData center load balancer design considerations\n\tData center network and management considerations\nBuilding a HAProxy NAT/proxy load balancer\n\tBefore you start configuring – NICs, addressing, and routing\n\tBefore you start configuring – performance tuning\n\tLoad balancing TCP services – web services\n\tSetting up persistent (sticky) connections\n\tImplementation note\n\tHTTPS frontending"
+      }
+    },
+    {
+      "id": 54852,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 71729,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n",
+            "en": "(Teaching in class, practicing at the lab)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109181,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "hiểu phương pháp khắc phục sự cố mạng.",
+              "en": "understand the network troubleshooting methodology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113778,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113779,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113777,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113780,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71728,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN\n",
+            "en": "(Teaching in class, practicing at the lab) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học",
+            "en": " (Take theory, practice classes and self-study)"
+          },
+          "chuandaura": {
+            "id": 109182,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "giải thích cách nắm bắt các gói tin theo mạng, cũng như khám phá các phương pháp lọc khác nhau để có được thông tin để giải quyết vấn đề.",
+              "en": "explain how to capture packets at network-wise, as well as exploring various filtering methods to get the information to solve problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113775,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113773,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113776,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113774,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9: Bắt và phân tích gói tin\nYêu cầu kỹ thuật\nGiới thiệu về bắt gói tin – những nơi phù hợp để tìm kiếm\n Bắt từ cả hai đầu\n Chuyển đổi cổng giám sát\n Máy chủ trung gian trực tuyến\n Truy cập mạng\n Các phương pháp bắt gói tin độc hại\nCân nhắc về hiệu suất khi bắt\nCông cụ bắt\n tcpdump\n Wireshark\n TShark\n Các công cụ PCAP khác\nLọc lưu lượng đã bắt\n Bộ lọc bắt Wireshark (bắt lưu lượng mạng gia đình của bạn)\n Bộ lọc bắt tcpdump – Điện thoại VoIP và DHCP\n Nhiều bộ lọc bắt hơn – LLDP và CDP\n Thu thập tệp từ một lần bắt gói tin\nKhắc phục sự cố ứng dụng – bắt cuộc gọi điện thoại VoIP\n Bộ lọc hiển thị Wireshark – tách dữ liệu cụ thể trong một lần bắt",
+        "en": "Chapter 9: Packet Capture and Analysis\nTechnical requirements\nIntroduction to packet capturing – the right places to look\n\tCapturing from either end\n\tSwitching the monitoring port\n\tIntermediate in-line host\n\tNetwork tap\n\tMalicious packet capture approaches\nPerformance considerations when capturing\nCapturing tools\n\ttcpdump\n\tWireshark\n\tTShark\n\tOther PCAP tools\nFiltering captured traffic\n\tWireshark capture filters (capturing your home network traffic)\n\ttcpdump capture filters – VoIP phones and DHCP\n\tMore capture filters – LLDP and CDP\n\tCollecting files from a packet capture\nTroubleshooting an application – capturing a VoIP telephone call\n\tWireshark display filters – separating specific data in a capture"
+      }
+    },
+    {
+      "id": 54858,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 71738,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n",
+            "en": "(Teaching in class, practicing at the lab)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109174,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "tích hợp các công cụ quản lý mạng khác nhau.",
+              "en": "integrate various network management tools."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113814,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113815,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113816,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113813,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10: Giám sát mạng\nYêu cầu kỹ thuật\nGhi nhật ký bằng Syslog\n Kích thước nhật ký, xoay vòng và cơ sở dữ liệu\n Phân tích nhật ký – tìm \"thứ đó\"\n Cảnh báo về các sự kiện cụ thể\n Ví dụ về máy chủ Syslog – Syslog\nDự án Dshield\n Quản lý thiết bị mạng bằng SNMP\n Ví dụ triển khai SNMP NMS – LibreNMS\n SNMPv3\nThu thập dữ liệu NetFlow trên Linux\n NetFlow và \"anh em họ\" của nó là SFLOW, J-Flow và IPFIX là gì?\n Các khái niệm triển khai thu thập luồng\n Cấu hình bộ định tuyến hoặc bộ chuyển mạch để thu thập luồng\n Một ví dụ về máy chủ NetFlow sử dụng NFDump và NFSen",
+        "en": "Chapter 10: Network Monitoring\nTechnical requirements\nLogging using Syslog\n\tLog size, rotation, and databases\n\tLog analysis – finding \"the thing\"\n\tAlerts on specific events\n\tSyslog server example – Syslog\nThe Dshield project\n\tNetwork device management using SNMP\n\tSNMP NMS deployment example – LibreNMS\n\tSNMPv3\nCollecting NetFlow data on Linux\n\tWhat is NetFlow and its \"cousins\" SFLOW, J-Flow, and IPFIX?\n\tFlow collection implementation concepts\n\tConfiguring a router or switch for flow collection\n\tAn example NetFlow server using NFDump and NFSen"
+      }
+    },
+    {
+      "id": 54850,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 71726,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n",
+            "en": "(Teaching in class, practicing at the lab)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109178,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "giải thích rằng các ứng dụng được sử dụng để cảnh báo và chặn các cuộc tấn công phổ biến, cũng như thêm siêu dữ liệu quan trọng vào thông tin lưu lượng truy cập.",
+              "en": "explain that applications are used to alert on and block common attacks, as well as adding important metadata to traffic information."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113839,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113840,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113838,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113837,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 11: Hệ thống phòng chống xâm nhập\nYêu cầu kỹ thuật\nIPS là gì?\nCác tùy chọn kiến ​​trúc – IPS phù hợp với vị trí nào trong trung tâm dữ liệu của bạn?\nCác kỹ thuật né tránh IPS\n Phát hiện WAF\n Phân mảnh và các phương pháp né tránh IPS khác\nCác giải pháp IPS cổ điển/dựa trên mạng – Snort và Suricata\nVí dụ về IPS Suricata\nXây dựng quy tắc IPS\nGiám sát lưu lượng thụ động\n Giám sát thụ động với P0F – ví dụ\nVí dụ về Zeek – thu thập siêu dữ liệu mạng",
+        "en": "Chapter 11: Intrusion Prevention Systems\nTechnical requirements\nWhat is an IPS?\nArchitecture options – where does an IPS fit in your data center?\nIPS evasion techniques\n\tDetecting a WAF\n\tFragmentation and other IPS evasion methods\nClassic/network-based IPS solutions – Snort and Suricata\nSuricata IPS example\nConstructing an IPS rule\nPassive traffic monitoring\n\tPassive monitoring with P0F – example\nZeek example – collecting network metadata"
+      }
+    },
+    {
+      "id": 54851,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 71727,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp, thực hành tại PTN \n",
+            "en": "(Teaching in class, practicing at the lab)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia các lớp lý thuyết, thực hành, và tự học ",
+            "en": "(Take theory, practice classes and self-study) "
+          },
+          "chuandaura": {
+            "id": 109179,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "chứng minh việc sử dụng honeypot làm \"vật chủ lừa dối\" để đánh lạc hướng và trì hoãn kẻ tấn công, đồng thời cung cấp cảnh báo có độ trung thực cao cho người bảo vệ.",
+              "en": "demonstrate using honeypots as \"deception hosts\" to distract and delay attackers, while providing high-fidelity alerts to the defenders."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 113841,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 47696,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+                  "en": "Quiz & Exercise"
+                }
+              }
+            },
+            {
+              "id": 113842,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 47697,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 113772,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 47698,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 113771,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 47699,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12: Dịch vụ Honeypot\nYêu cầu kỹ thuật\nTổng quan về Honeypot – honeypot là gì và tại sao tôi lại muốn có một honeypot?\nCác tình huống triển khai và kiến ​​trúc – tôi đặt honeypot ở đâu?\nRủi ro khi triển khai honeypot\nVí dụ về honeypot\n Honeypot cảnh báo cổng cơ bản – iptables, netcat và portspoof\n Các honeypot phổ biến khác\nHoneypot phân tán/cộng đồng – Dự án Honeypot Dshield của Internet Storm Center",
+        "en": "Chapter 12: Honeypot Services\nTechnical requirements\nHoneypot overview – what is a honeypot, and why do I want one?\nDeployment scenarios and architecture – where do I put a honeypot?\nRisks of deploying honeypots\nExample honeypots\n\tBasic port alerting honeypots – iptables, netcat, and portspoof\n\tOther common honeypots\nDistributed/community honeypot – the Internet Storm Center's Dshield Honeypot Project"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 109184,
+      "ma": "L.O.1.1",
+      "ten_vi": "thiết kế theo cấu trúc liên kết mạng cho các nhu cầu cụ thể. ",
+      "ten_en": "design network topologies for specific needs.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109185,
+      "ma": "L.O.1.2",
+      "ten_vi": "cấu hình các tham số mạng khác nhau để đáp ứng các thông số kỹ thuật thiết kế mạng.",
+      "ten_en": "configure various network parameters to meet network design specifications.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109176,
+      "ma": "L.O.2.1",
+      "ten_vi": "thảo luận về những thách thức, cũng như các tiêu chuẩn bảo mật khác nhau, Trung tâm kiểm soát quan trọng của Trung tâm bảo mật Internet (CIS) và làm việc thông qua một vài khuyến nghị trong Điểm chuẩn CIS cho Linux. ",
+      "ten_en": "discuss the challenges, as well as various security standards, the Center for Internet Security (CIS) Critical Controls, and work through a few of the recommendations in a CIS Benchmark for Linux. ",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109177,
+      "ma": "L.O.2.2",
+      "ten_vi": "thảo luận về sự phát triển của tường lửa Linux và giải thích cách triển khai nó để bảo vệ các dịch vụ cụ thể.",
+      "ten_en": "discuss the evolution of the Linux firewall and explain how to implement it to protect specific services.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109178,
+      "ma": "L.O.2.3",
+      "ten_vi": "giải thích rằng các ứng dụng được sử dụng để cảnh báo và chặn các cuộc tấn công phổ biến, cũng như thêm siêu dữ liệu quan trọng vào thông tin lưu lượng truy cập.",
+      "ten_en": "explain that applications are used to alert on and block common attacks, as well as adding important metadata to traffic information.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109179,
+      "ma": "L.O.2.4",
+      "ten_vi": "chứng minh việc sử dụng honeypot làm \"vật chủ lừa dối\" để đánh lạc hướng và trì hoãn kẻ tấn công, đồng thời cung cấp cảnh báo có độ trung thực cao cho người bảo vệ.",
+      "ten_en": "demonstrate using honeypots as \"deception hosts\" to distract and delay attackers, while providing high-fidelity alerts to the defenders.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109170,
+      "ma": "L.O.3.1",
+      "ten_vi": "trình diễn chẩn đoán mạng cục bộ và từ xa bằng cách sử dụng các lệnh Linux gốc, cũng như các tiện ích bổ sung phổ biến.",
+      "ten_en": "demonstrate local and remote network diagnostics using native Linux commands, as well as common add-ons.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109171,
+      "ma": "L.O.3.2",
+      "ten_vi": "thảo luận về việc ghi nhật ký các mẫu lưu lượng mạng, sử dụng NetFlow và các giao thức liên quan.",
+      "ten_en": "discuss logging network traffic flow patterns, using NetFlow and related protocols.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109181,
+      "ma": "L.O.4.1",
+      "ten_vi": "hiểu phương pháp khắc phục sự cố mạng.",
+      "ten_en": "understand the network troubleshooting methodology.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109182,
+      "ma": "L.O.4.2",
+      "ten_vi": "giải thích cách nắm bắt các gói tin theo mạng, cũng như khám phá các phương pháp lọc khác nhau để có được thông tin để giải quyết vấn đề.",
+      "ten_en": "explain how to capture packets at network-wise, as well as exploring various filtering methods to get the information to solve problems.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109173,
+      "ma": "L.O.5.1",
+      "ten_vi": "giải thích cách triển khai các dịch vụ mạng (DNS, DHCP, RADIUS, Certificate).",
+      "ten_en": "explain how to implement network services (DNS, DHCP, RADIUS, Certificate).",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 109174,
+      "ma": "L.O.5.2",
+      "ten_vi": "tích hợp các công cụ quản lý mạng khác nhau.",
+      "ten_en": "integrate various network management tools.",
+      "hddg": [
+        {
+          "id": 47696,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra, câu hỏi ngắn & Bài tập",
+          "ten_en": "Quiz & Exercise"
+        },
+        {
+          "id": 47697,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 47698,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 47699,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Quản trị mạng",
+  "tenmonhoc_eng": "Network management",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

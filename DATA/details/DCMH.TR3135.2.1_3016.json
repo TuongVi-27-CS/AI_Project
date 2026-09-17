@@ -1,0 +1,2310 @@
+{
+  "ma": "DCMH.TR3135.2.1",
+  "phienban": "2.1",
+  "capnhat": "19/06/2024 14:37",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Giao Thông",
+    "en": "Faculty of Transportation Engineering"
+  },
+  "mamonhoc": "TR3135",
+  "ten": "TR3135 - Phân tích kết cấu Máy bay",
+  "ten_eng": "TR3135 - Aircraft Structures Analysis",
+  "hockyapdung": "HK231",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Cung cấp cho sinh viên những kiến thức trọng tâm liên quan đến cấu trúc và vật liệu trong máy bay; cung cấp cho sinh viên các công cụ phân tích ứng suất để hình thành và giải quyết các vấn đề kỹ thuật trong cấu trúc máy bay. Sinh viên có thể thiết kế chi tiết của một cấu trúc cánh cụ thể.<br></p>",
+      "en": "<p>To provide students the key knowledge relevant to the structures and materials in aircraft; to provide students with tools of stress analysis to formulate and solve engineering problems in aircraft structures.&nbsp;Students can design in details of a specific wing structure.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Tải trọng tác dụng lên khung máy bay và các thành phần/vật liệu cấu trúc được sử dụng trong máy bay. Nguyên lý cơ bản của cơ học vật liệu, lý thuyết đàn hồi và hư hỏng. Nguyên lý của các phương pháp năng lượng trong cấu trúc kỹ thuật. Phân tích dầm đặc và thành mỏng (mở và đóng) trong uốn, cắt và xoắn và các tấm mỏng, khung 2-D chịu tải trọng. Bất ổn định&nbsp;cấu trúc trong kết cấu khung máy bay. Thiết kế một cánh đơn giản cho một chiếc máy bay cụ thể</p>",
+      "en": "<p>\n\n<b></b>The airframe loads and structural components/materials used in aircrafts. Basic principles of mechanics of materials, elasticity and failure theories. Principles of energy methods in engineering structures. Analysis solid and thin-walled beams (open and closed) in bending, shear and torsion and thin plates, 2-D frames under loading. Structural stability in airframe structures. Design a simple wing-box for a particular aircraft.<b></b><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br>[1] T.H.G. Megson, \"Aircraft Structures for Engineering Students\", Oxford : Butterworth - Heinemann, Seventh Edition, 2021.<br>[2] R.C. Hibbeler, \"Mechanics of Materials\", Pearson Prentice Hall, Tenth Edition, 2017.<br></p><p>Sách tham khảo:<br>[3]&nbsp;D.J. Peery, \"Aircraft Structures\",&nbsp;MCGraw-Hill, Second Edition, 1982.<br></p>",
+      "en": "<p>\n\n<b></b></p><p></p><p>Main textbooks:<br>\n\n[1] T.H.G. Megson, \"Aircraft Structures for Engineering Students\", Oxford : Butterworth - Heinemann, Seventh Edition, 2021.<br>[2] R.C. Hibbeler, \"Mechanics of Materials\", Pearson Prentice Hall, Tenth Edition, 2017.\n\n<br></p><p>Reference documents:<br>\n\n[3] D.J. Peery, \"Aircraft Structures\", MCGraw-Hill, Second Edition, 1982.\n\n<br></p><b><p></p></b><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Phương pháp học tập<br>- Học sinh cần đảm bảo \n\ntham gia lớp học đầy đủ&nbsp;<br>- Học sinh cần chăm chỉ làm các bài tập ở nhà<br>- Học sinh nên thúc đẩy làm việc nhóm và chia sẻ kinh nghiệm giữa những người tham gia nhóm<br><br>Yêu cầu khóa học:<br>- Học sinh phải hoàn thành tối thiểu 90% bài tập về nhà và 50% trong số này phải có điểm cao hơn 6,5<br>- Các bài tập lớn phải được nộp trước kỳ thi cuối kỳ.<br></p>",
+      "en": "<p>Learning Strategies<br>- Students should ensure a sufficient participating-time in class<br>- Students should do diligently the homework exercises<br>- Students should promote group working and share experiences among group participants<br><br>Course requirement:<br>- Students must complete a minimum of 90% of homework and 50% of these must have a score higher than 6.5<br>- Major assignments must be submitted before the final exam.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1145,
+      "ma": "CN_HKG",
+      "ten": {
+        "vi": "CTDT  Khoa Kỹ thuật Giao thông - Ngành Kỹ thuật Hàng không",
+        "en": "Bachelor Program - Aerospace Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 656,
+      "ma": "003073",
+      "ten": "Nguyễn Song Thanh Thảo"
+    },
+    {
+      "id": 657,
+      "ma": "003307",
+      "ten": "Lý Hùng Anh"
+    },
+    {
+      "id": 651,
+      "ma": "001931",
+      "ten": "Trần Tiến Anh"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 0.2,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 9,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 72,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 10,
+    "doAn": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 958,
+      "maBoMon": "HGK",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Hàng Không"
+      },
+      "maKhoa": "GT",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Giao Thông",
+        "en": "Faculty of Transportation Engineering"
+      },
+      "vanPhong": "104 C5",
+      "dienThoai": "08 38647256 - Ex. 5654"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 656,
+        "maGiangVien": "003073",
+        "tenGiangVien": "Nguyễn Song Thanh Thảo",
+        "emailGiangVien": "nguyensongthanhthao@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3a",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "TR2005 - Cơ học Vật rắn Biến dạng",
+        "en": "TR2005 - Mechanics of Deformable Solids"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ học Vật rắn Biến dạng",
+        "en": "Mechanics of Deformable Solids"
+      },
+      "mamonhoc": "TR2005"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 4711,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 4712,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "4711",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trong lớp",
+        "en": "Activities in class"
+      },
+      "noidung": {
+        "vi": "Bài tập và thảo luận tại lớp",
+        "en": "Exercises and discussions in class"
+      }
+    },
+    {
+      "id": 4713,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "4711",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group homework"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group homework"
+      }
+    },
+    {
+      "id": 4714,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "4711",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Group assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn về thiết kế cánh",
+        "en": "Group assignment on wing design"
+      }
+    },
+    {
+      "id": 4715,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "4711",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm test"
+      },
+      "noidung": {
+        "vi": "Bài kiểm tra bao gồm các câu hỏi theo CĐRMH",
+        "en": "The test consists of questions according to Learning Outcome"
+      }
+    },
+    {
+      "id": 4716,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "4711",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Bài thi bao gồm các câu hỏi theo CĐRMH",
+        "en": "The exam consists of questions according to Learning Outcome"
+      }
+    },
+    {
+      "id": 4717,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "4711",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập cá nhân về nhà",
+        "en": "Individual homework"
+      },
+      "noidung": {
+        "vi": "Sinh viên làm bài tập về nhà theo cá nhân",
+        "en": "Students do homework individually"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 4781,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 5838,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTự giới thiệu \n•\tGiới thiệu lướt qua đề cương môn học trong thời gian từ 10 phút – 15 phút.\n•\tHướng dẫn sinh viên download: Đề Cương Chi Tiết môn học và tài liệu môn học từ trang Web.\n\n•\tNhắc lại nội dung về đàn hồi tuyến tính, phân tích cấu trúc chịu kéo, uốn và xoắn.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tSelf-introduce\n•\tBrief introduction of the course outline in 10 minutes - 15 minutes.\n•\tGuide students to download: course syllabus and course materials from the Web.\n\n•\tRecall the content of linear elastic, structural analysis in tension, bending and torsion.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40474,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm lý thuyết về đàn hồi tuyến tính, các cơ sở phân tích cấu trúc chịu kéo, uốn, xoắn và bất ổn định, các tiêu chuẩn kiểm tra bền",
+              "en": "Understand the theory of linear elasticity, fundamentals of structural analysis for tension, bending, torsion and instability, failure criteria"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8516,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4717,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            },
+            {
+              "id": 8515,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu môn học: Phân tích kết cấu máy bay\n•\tĐề Cương Chi Tiết môn học.\n•\tGiáo trình và các công cụ hỗ trợ khác (trang Web).\n•\tHình thức kiểm tra và thi.\n•\tPhân bố thời lượng giảng dạy từng chương của môn học.\n•\tPhương thức thực hiện bài giảng cho mỗi buổi.\n•\tĐề nghị phương pháp học tại nhà cho sinh viên.\n•\tGiới thiệu phương thức niêm yết đáp án và bài giải đề kiểm tra và đề thi cuối kỳ.\n•\tCách thức liên hệ với Giảng Viên khi có thắc mắc.\n\nChương 1: Nhắc lại Tính đàn hồi và Cơ học vật liệu\n1.1. Đàn hồi cơ bản\n1.2. Tải dọc trục\n1.3. Xoắn\n1.4. Uốn dầm ",
+        "en": "Course Introduction: Aircraft structure analysis\n•\tCourse syllabus.\n•\tTextbooks and other supporting tools (Web page).\n•\tTests and examination.\n•\tTime distribution for each chapter of the course.\n•\tLecturing method.\n•\tSuggested learning method for students.\n•\tWhen and where students get solutions for mid-term test and final examination.\n•\tChanel for students to contact lecturer.\n\nChapter 1: Review of Elasticity and Mechanics of materials\n1.1. Basic elasticity\n1.2. Axial loading\n1.3. Torsion of solid sections \n1.4. Beam bending"
+      }
+    },
+    {
+      "id": 4767,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 5842,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tNhắc lại nội dung về bất ổn định của cấu trúc và các tiêu chuẩn kiểm tra bền\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tRecall the content of structural instability and failure criteria.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40474,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm lý thuyết về đàn hồi tuyến tính, các cơ sở phân tích cấu trúc chịu kéo, uốn, xoắn và bất ổn định, các tiêu chuẩn kiểm tra bền",
+              "en": "Understand the theory of linear elasticity, fundamentals of structural analysis for tension, bending, torsion and instability, failure criteria"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8475,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8474,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 4717,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Nhắc lại Tính đàn hồi và Cơ học vật liệu\n1.5. Bất ổn định của cấu trúc\n1.6. Lý thuyết phá hủy",
+        "en": "Chapter 1: Review of Elasticity and Mechanics of materials\n1.5. Instability of structure\n1.6. Failure theory"
+      }
+    },
+    {
+      "id": 4772,
+      "stt": 3,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 5851,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tNhắc lại nội dung về các phương pháp phân tích cấu trúc.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tRecall the content of structural analysis methods.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40475,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Nắm các phương pháp phân tích cấu trúc: công ảo, năng lượng và ma trận",
+              "en": "Understand structural analysis methods: virtual work, energy and matrix"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8494,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8495,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 4717,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Nhắc lại các phương pháp năng lượng\n2.1. Nguyên tắc công ảo\n2.2. Phương pháp năng lượng\n2.3. Phương pháp ma trận",
+        "en": "Chapter 2: Review of energy methods\n2.1. Principle of virtual work\n2.2. Energy method\n2.3. Matrix methods"
+      }
+    },
+    {
+      "id": 4773,
+      "stt": 4,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 5852,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung các loại vật liệu được sử dụng cho các thành phần của máy bay như phần thân, cánh, càng đáp... và các thành phần cấu trúc của máy bay và chức năng của các thành phần trong kết cấu cánh như xà trước, xà sau, vỏ trên, vỏ dưới, thanh gia cường lực và tấm ngăn\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp.",
+            "en": "•\tPresents the content of materials used for aircraft components such as fuselage, wings, landing gear... and structural components of the aircraft and the function of components in the wing structure such as front bar, rear bar, top skin, bottom skin, stringer and rib web\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40476,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Biết được tính chất các loại vật liệu và các bộ phận cấu trúc trên một chiếc máy bay",
+              "en": "Know the properties of materials and structural components on an aircraft"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8497,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8496,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Đặc tính của cấu trúc và vật liệu máy bay\n3.1. Vật liệu máy bay\n3.2. Các bộ phận kết cấu của máy bay",
+        "en": "Chapter 3: Characteristics of Aircraft Structures and Materials\n3.1. Aircraft materials\n3.2. Structural components of aircraft"
+      }
+    },
+    {
+      "id": 4775,
+      "stt": 5,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 5855,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về tính khả phi và các tải tác dụng lên máy bay trong các điều kiện bay khác nhau.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresents the contents of the airworthiness and the loads acting on the aircraft under different flight conditions.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40477,
+            "ma": "L.O.1.4",
+            "ten": {
+              "vi": "Biết được tải lực tác động lên máy bay trong các điều kiện bay khác nhau",
+              "en": "Know the load applied on the aircraft in different flight conditions"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8502,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8501,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Đặc tính của cấu trúc và vật liệu máy bay\n3.3. Tính khả phi\n3.4. Tải trọng khung máy bay",
+        "en": "Chapter 3: Characteristics of Aircraft Structures and Materials\n3.3. Airworthiness\n3.4. Airframe loads"
+      }
+    },
+    {
+      "id": 4770,
+      "stt": 6,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 5847,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Đưa bài tập nhóm về phân tích ứng xử uốn tấm mỏng",
+            "en": "Give group exercise on analysis of thin plate bending behavior"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên thực hiện bài tập nhóm về ứng xử uốn tấm mỏng",
+            "en": "Do group exercise on analysis of thin plate bending behavior"
+          },
+          "chuandaura": {
+            "id": 40493,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phân tích được ứng xử uốn tấm mỏng",
+              "en": "Analyze the thin plate bending behavior"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8486,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8487,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5846,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về ứng xử uốn tấm mỏng.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresent the content on thin plate bending behavior\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home\n"
+          },
+          "chuandaura": {
+            "id": 40478,
+            "ma": "L.O.1.5",
+            "ten": {
+              "vi": "Hiểu lý thuyết ứng xử tấm mỏng",
+              "en": "Understand the thin plate theory"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8485,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8484,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4715,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Lý thuyết tấm mỏng\n4.1. Uốn các tấm mỏng",
+        "en": "Chapter 4: Thin plate theory\n4.1. Bending of thin plates"
+      }
+    },
+    {
+      "id": 4776,
+      "stt": 7,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 5857,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Đưa bài tập nhóm về phân tích bất ổn định của tấm mỏng",
+            "en": "Give group exercise on instability analysis of thin plates"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập nhóm về phân tích bất ổn định của tấm mỏng",
+            "en": "Do group exercise on instability analysis of thin plates"
+          },
+          "chuandaura": {
+            "id": 40494,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phân tích được bất ổn định của tấm mỏng",
+              "en": "Analyze the thin plate instability "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8504,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 8505,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5856,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về bất ổn định tấm mỏng.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresent the content of thin plate instability.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40478,
+            "ma": "L.O.1.5",
+            "ten": {
+              "vi": "Hiểu lý thuyết ứng xử tấm mỏng",
+              "en": "Understand the thin plate theory"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8503,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Lý thuyết tấm mỏng\n4.2. Bất ổn định của tấm mỏng",
+        "en": "Chapter 4: Thin plate theory\n4.2. Instability of thin plates"
+      }
+    },
+    {
+      "id": 4777,
+      "stt": 8,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 5853,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về phân tích dầm thành mỏng tiết diện hở và đóng chịu uốn và cắt.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp.",
+            "en": "•\tPresent the content on analysis of open and closed section thin-walled beams subjected to bending and shearing.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40479,
+            "ma": "L.O.1.6",
+            "ten": {
+              "vi": "Biết được lý thuyết cơ bản để phân tích dầm thành mỏng tiết diện hở và kín chịu uốn, cắt, xoắn và tải kết hợp ",
+              "en": "Know the basic theory for analyzing open and closed section thin-walled beams subjected to bending, shear, torsion and combined loads"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8506,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8507,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4717,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            },
+            {
+              "id": 8508,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 4715,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Uốn, cắt và xoắn của dầm thành mỏng\n5.1. Uốn của các dầm thành mỏng hở và đóng\n5.2. Dầm chịu cắt",
+        "en": "Chapter 5: Bending, shear and torsion of thin-walled beams\n5.1. Bending of open and closed, thin-walled beams\n5.2. Shear of beams"
+      }
+    },
+    {
+      "id": 4778,
+      "stt": 9,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 5858,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về phân tích dầm thành mỏng tiết diện hở và đóng chịu xoắn.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresent the content on analysis of open and closed section thin-walled beams subjected to torsion.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40479,
+            "ma": "L.O.1.6",
+            "ten": {
+              "vi": "Biết được lý thuyết cơ bản để phân tích dầm thành mỏng tiết diện hở và kín chịu uốn, cắt, xoắn và tải kết hợp ",
+              "en": "Know the basic theory for analyzing open and closed section thin-walled beams subjected to bending, shear, torsion and combined loads"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8509,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8510,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4717,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Uốn, cắt và xoắn của dầm thành mỏng\n5.3. Dầm chịu xoắn",
+        "en": "Chapter 5: Bending, shear and torsion of thin-walled beams\n5.3. Torsion of beams"
+      }
+    },
+    {
+      "id": 4769,
+      "stt": 10,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 5845,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về phân tích dầm thành mỏng tiết diện hở và đóng kết hợp.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresent the contents of the combined open and closed section thin-walled beam analysis..\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40479,
+            "ma": "L.O.1.6",
+            "ten": {
+              "vi": "Biết được lý thuyết cơ bản để phân tích dầm thành mỏng tiết diện hở và kín chịu uốn, cắt, xoắn và tải kết hợp ",
+              "en": "Know the basic theory for analyzing open and closed section thin-walled beams subjected to bending, shear, torsion and combined loads"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8481,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8483,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 8482,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 4716,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5844,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về lý tưởng hóa cấu trúc",
+            "en": "•\tPresent on structural idealization"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40480,
+            "ma": "L.O.1.7",
+            "ten": {
+              "vi": "Biết cách lý tưởng hóa các cấu trúc phức tạp thành các mô hình cơ học đơn giản hơn có ứng xử gần giống như cấu trúc thực tế trong các điều kiện tải nhất định",
+              "en": "Know how to idealize complex structures into simpler mechanical models that behave almost like real structures under certain loading conditions"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8478,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8479,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4716,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 8480,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Uốn, cắt và xoắn của dầm thành mỏng\n5.4. Dầm tiết diện hở và đóng kết hợp \n5.5. Lý tưởng hóa cấu trúc",
+        "en": "Chapter 5: Bending, shear and torsion of thin-walled beams\n5.4. Combined open and closed section beams\n5.5. Structural idealization"
+      }
+    },
+    {
+      "id": 4774,
+      "stt": 11,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 5854,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về phân tích cấu trúc cánh máy bay.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresent the content of aircraft wing structure analysis.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40481,
+            "ma": "L.O.1.8",
+            "ten": {
+              "vi": "Biết được quá trình phân tích cấu trúc cánh máy bay",
+              "en": "Know the process of aircraft wing structure analysis"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8499,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8498,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            },
+            {
+              "id": 8500,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 4716,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Phân tích ứng suất của các bộ phận máy bay\n6.1. Cánh",
+        "en": "Chapter 6: Stress analysis of aircraft components\n6.1. Wing"
+      }
+    },
+    {
+      "id": 4771,
+      "stt": 12,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 5848,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xác định lực cắt và moment uốn dọc theo sải cánh",
+            "en": "Guide to determine shear force and bending moment along the wingspan"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện xác định lực cắt và moment uốn dọc theo sải cánh",
+            "en": "Determine shear force and bending moment along the wingspan"
+          },
+          "chuandaura": {
+            "id": 40485,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Xác định lực cắt và moment uốn dọc theo chiều dài sải cánh",
+              "en": "Determine shear force and bending moment along the wingspan"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8488,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8489,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4714,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5850,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn kiểm tra bền cho xà trước, xà sau và tấm ngăn",
+            "en": "Guide to apply criteria checking for front bar, rear bar and ribs web"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện kiểm tra bền cho xà trước, xà sau và tấm ngăn",
+            "en": "Apply criteria checking for front bar, rear bar and ribs web"
+          },
+          "chuandaura": {
+            "id": 40487,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Ứng dụng tiêu chuẩn kiểm tra bền cho xà trước, xà sau và tấm ngăn",
+              "en": "Apply criteria checking for front bar, rear bar and ribs web"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8492,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8493,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4714,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5849,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xác định dòng ứng suất trượt tại mọi vị trí mặt cắt dọc theo chiều dài sải cánh",
+            "en": "Guide to determine the shear flow at all cross sections along the length of the wingspan"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện xác định dòng ứng suất trượt tại mọi vị trí mặt cắt dọc theo chiều dài sải cánh",
+            "en": "Determine the shear flow at all cross sections along the length of the wingspan"
+          },
+          "chuandaura": {
+            "id": 40486,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xác định dòng ứng suất trượt tại mọi vị trí mặt cắt dọc theo chiều dài sải cánh",
+              "en": "Determine the shear flow at all cross sections along the length of the wingspan"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8491,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8490,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4714,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Phân tích ứng suất của các bộ phận máy bay\n6.2. Thiết kế sơ bộ cho cánh",
+        "en": "Chapter 6: Stress analysis of aircraft components\n6.2. Initial sizing of Wing"
+      }
+    },
+    {
+      "id": 4782,
+      "stt": 13,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 5839,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xác định được kích thước của vỏ",
+            "en": "Guide to calculate the size of the skin"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện xác định được kích thước của vỏ",
+            "en": "Calculate the size of the skin"
+          },
+          "chuandaura": {
+            "id": 40489,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tính toán và xác định được kích thước của vỏ trên và vỏ dưới cánh",
+              "en": "Calculate the size of the upper and lower skin"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8517,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8518,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4714,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5841,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xác định được kích thước của các thanh gia cường lực",
+            "en": "Guide to calculate the size of the stringers"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện xác định được kích thước của các thanh gia cường lực",
+            "en": "Calculate the size of the stringers"
+          },
+          "chuandaura": {
+            "id": 40490,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Tính toán và xác định được kích thước của các thanh gia cường lực",
+              "en": "Calculate the size of the stringers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8521,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8522,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4714,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5840,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xác định được kích thước của các thanh xà và tấm ngăn",
+            "en": "Guide to calculate the size of the bars and rib web"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện xác định được kích thước của các thanh xà và tấm ngăn",
+            "en": "Calculate the size of the bars and rib web"
+          },
+          "chuandaura": {
+            "id": 40491,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Tính toán và xác định được kích thước của xà trước, xà sau và tấm ngăn",
+              "en": "Calculate the size of the front bar, rear bar, and rib web"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8520,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8519,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4714,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Phân tích ứng suất của các bộ phận máy bay\n6.3. Thiết kế chi tiết cho cánh",
+        "en": "Chapter 6: Stress analysis of aircraft components\n6.3. Specific sizing of Wing"
+      }
+    },
+    {
+      "id": 4768,
+      "stt": 14,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 5843,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về phân tích cấu trúc thân máy bay.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresent the content of fuselage structural analysis.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40482,
+            "ma": "L.O.1.9",
+            "ten": {
+              "vi": "Biết được quá trình phân tích cấu trúc thân máy bay",
+              "en": "Know the process of aircraft fuselage structure analysis"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8476,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8477,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4713,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Phân tích ứng suất của các bộ phận máy bay\n6.4. Thân",
+        "en": "Chapter 6: Stress analysis of aircraft components\n6.4. Fuselage"
+      }
+    },
+    {
+      "id": 4779,
+      "stt": 15,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 5859,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày nội dung về phân tích cấu trúc bằng composite.\n•\tThảo luận về các nội dung được giảng dạy tại lớp.\n•\tĐưa ví dụ và bài tập tại lớp, về nhà.",
+            "en": "•\tPresent the content of structural analysis for composite components.\n•\tDiscuss what is being taught in class.\n•\tGive examples and exercises in class and at home."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tGhi nhận nội dung quan trọng cần thiết\n•\tTrả lời câu hỏi được giảng viên đặt ra\n•\tNêu các thắc mắc để giảng viên giải đáp\n•\tLàm bài tập tại lớp và ở nhà",
+            "en": "•\tNote important and needed contents\n•\tAnswer questions posed by the instructor\n•\tDemand questions for instructor \n•\tDo homework in class and at home"
+          },
+          "chuandaura": {
+            "id": 40483,
+            "ma": "L.O.1.10",
+            "ten": {
+              "vi": "Phân tích các bộ phận làm bằng vật liệu composite",
+              "en": "Analysis of components made of composite materials"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8511,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8512,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4717,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Phân tích ứng suất của các bộ phận máy bay\n6.5. Cấu trúc composite xếp lớp",
+        "en": "Chapter 6: Stress analysis of aircraft components\n6.5. Laminated composite structures"
+      }
+    },
+    {
+      "id": 4780,
+      "stt": 16,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 5860,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tCho các nhóm trình bày về bài tập lớn thiết kế cánh máy bay\n•\tÔn tập các kiến thức trọng tâm và giải đáp các thắc mắc của sinh viên",
+            "en": "•\tLet the groups present group assignment on aircraft wing design\n•\tReview key knowledge and answer students' questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tCác nhóm trình bày về bài tập lớn thiết kế cánh máy bay\n•\tÔn tập",
+            "en": "•\tGroups present group assignment on aircraft wing design\n•\tReview"
+          },
+          "chuandaura": {
+            "id": 40495,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Tính toán và thiết kế chi tiết cho cánh máy bay",
+              "en": "Calculate and design in detail for aircraft wing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8514,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4712,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "Activities in class"
+                }
+              }
+            },
+            {
+              "id": 8513,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4714,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn tập",
+        "en": "Review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 40474,
+      "ma": "L.O.1.1",
+      "ten_vi": "Nắm lý thuyết về đàn hồi tuyến tính, các cơ sở phân tích cấu trúc chịu kéo, uốn, xoắn và bất ổn định, các tiêu chuẩn kiểm tra bền",
+      "ten_en": "Understand the theory of linear elasticity, fundamentals of structural analysis for tension, bending, torsion and instability, failure criteria",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4717,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        }
+      ]
+    },
+    {
+      "id": 40483,
+      "ma": "L.O.1.10",
+      "ten_vi": "Phân tích các bộ phận làm bằng vật liệu composite",
+      "ten_en": "Analysis of components made of composite materials",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4717,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        }
+      ]
+    },
+    {
+      "id": 40475,
+      "ma": "L.O.1.2",
+      "ten_vi": "Nắm các phương pháp phân tích cấu trúc: công ảo, năng lượng và ma trận",
+      "ten_en": "Understand structural analysis methods: virtual work, energy and matrix",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4717,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        }
+      ]
+    },
+    {
+      "id": 40476,
+      "ma": "L.O.1.3",
+      "ten_vi": "Biết được tính chất các loại vật liệu và các bộ phận cấu trúc trên một chiếc máy bay",
+      "ten_en": "Know the properties of materials and structural components on an aircraft",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 40477,
+      "ma": "L.O.1.4",
+      "ten_vi": "Biết được tải lực tác động lên máy bay trong các điều kiện bay khác nhau",
+      "ten_en": "Know the load applied on the aircraft in different flight conditions",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 40478,
+      "ma": "L.O.1.5",
+      "ten_vi": "Hiểu lý thuyết ứng xử tấm mỏng",
+      "ten_en": "Understand the thin plate theory",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4715,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm test"
+        }
+      ]
+    },
+    {
+      "id": 40479,
+      "ma": "L.O.1.6",
+      "ten_vi": "Biết được lý thuyết cơ bản để phân tích dầm thành mỏng tiết diện hở và kín chịu uốn, cắt, xoắn và tải kết hợp ",
+      "ten_en": "Know the basic theory for analyzing open and closed section thin-walled beams subjected to bending, shear, torsion and combined loads",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 4715,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm test"
+        },
+        {
+          "id": 4716,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 4717,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        }
+      ]
+    },
+    {
+      "id": 40480,
+      "ma": "L.O.1.7",
+      "ten_vi": "Biết cách lý tưởng hóa các cấu trúc phức tạp thành các mô hình cơ học đơn giản hơn có ứng xử gần giống như cấu trúc thực tế trong các điều kiện tải nhất định",
+      "ten_en": "Know how to idealize complex structures into simpler mechanical models that behave almost like real structures under certain loading conditions",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 4716,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 40481,
+      "ma": "L.O.1.8",
+      "ten_vi": "Biết được quá trình phân tích cấu trúc cánh máy bay",
+      "ten_en": "Know the process of aircraft wing structure analysis",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        },
+        {
+          "id": 4716,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 40482,
+      "ma": "L.O.1.9",
+      "ten_vi": "Biết được quá trình phân tích cấu trúc thân máy bay",
+      "ten_en": "Know the process of aircraft fuselage structure analysis",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 40485,
+      "ma": "L.O.2.1",
+      "ten_vi": "Xác định lực cắt và moment uốn dọc theo chiều dài sải cánh",
+      "ten_en": "Determine shear force and bending moment along the wingspan",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4714,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignment"
+        }
+      ]
+    },
+    {
+      "id": 40486,
+      "ma": "L.O.2.2",
+      "ten_vi": "Xác định dòng ứng suất trượt tại mọi vị trí mặt cắt dọc theo chiều dài sải cánh",
+      "ten_en": "Determine the shear flow at all cross sections along the length of the wingspan",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4714,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignment"
+        }
+      ]
+    },
+    {
+      "id": 40487,
+      "ma": "L.O.2.3",
+      "ten_vi": "Ứng dụng tiêu chuẩn kiểm tra bền cho xà trước, xà sau và tấm ngăn",
+      "ten_en": "Apply criteria checking for front bar, rear bar and ribs web",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4714,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignment"
+        }
+      ]
+    },
+    {
+      "id": 40489,
+      "ma": "L.O.3.1",
+      "ten_vi": "Tính toán và xác định được kích thước của vỏ trên và vỏ dưới cánh",
+      "ten_en": "Calculate the size of the upper and lower skin",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4714,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignment"
+        }
+      ]
+    },
+    {
+      "id": 40490,
+      "ma": "L.O.3.2",
+      "ten_vi": "Tính toán và xác định được kích thước của các thanh gia cường lực",
+      "ten_en": "Calculate the size of the stringers",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4714,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignment"
+        }
+      ]
+    },
+    {
+      "id": 40491,
+      "ma": "L.O.3.3",
+      "ten_vi": "Tính toán và xác định được kích thước của xà trước, xà sau và tấm ngăn",
+      "ten_en": "Calculate the size of the front bar, rear bar, and rib web",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4714,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignment"
+        }
+      ]
+    },
+    {
+      "id": 40493,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phân tích được ứng xử uốn tấm mỏng",
+      "ten_en": "Analyze the thin plate bending behavior",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 40494,
+      "ma": "L.O.4.2",
+      "ten_vi": "Phân tích được bất ổn định của tấm mỏng",
+      "ten_en": "Analyze the thin plate instability ",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4713,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group homework"
+        }
+      ]
+    },
+    {
+      "id": 40495,
+      "ma": "L.O.4.3",
+      "ten_vi": "Tính toán và thiết kế chi tiết cho cánh máy bay",
+      "ten_en": "Calculate and design in detail for aircraft wing",
+      "hddg": [
+        {
+          "id": 4712,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "Activities in class"
+        },
+        {
+          "id": 4714,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignment"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phân tích kết cấu Máy bay",
+  "tenmonhoc_eng": "Aircraft Structures Analysis",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

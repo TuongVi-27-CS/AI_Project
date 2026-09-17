@@ -1,0 +1,1644 @@
+{
+  "ma": "DCMH.AS3061.14.1",
+  "phienban": "13.1",
+  "capnhat": "04/02/2026 09:13",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS3061",
+  "ten": "AS3061 - Dao động Cơ sở",
+  "ten_eng": "AS3061 - Fundamentals of Vibrations",
+  "hockyapdung": "HK262",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p>\n\n<p>\n\n\n\nHọc phần hướng đến việc trang bị cho sinh viên nền tảng kiến thức lý thuyết chuyên sâu kết hợp với kỹ năng thực hành cần thiết trong lĩnh vực dao động cơ học. Sau khi hoàn thành học phần, sinh viên có khả năng xây dựng mô hình toán học, thiết lập và giải các phương trình chuyển động, đồng thời phân tích và đánh giá đáp ứng dao động của các hệ cơ học một và nhiều bậc tự do. Đây là cơ sở quan trọng để sinh viên tiếp cận và ứng dụng hiệu quả các bài toán kỹ thuật trong thực tiễn.\n\n\n\n<br></p><p></p><p></p><div><p></p></div>",
+      "en": "<p>\n\n\n\n\n\nThis course aims to equip students with a solid theoretical foundation and strong practical skills in mechanical vibrations. Upon completion of the course, students will be able to develop mathematical models, formulate and solve equations of motion, and analyze and evaluate the vibration responses of single-degree-of-freedom and multi-degree-of-freedom mechanical systems. This knowledge serves as an essential foundation for various engineering applications.\n\n\n\n\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n\n\nHọc phần cung cấp cho sinh viên nền tảng kiến thức lý thuyết kết hợp với hiểu biết thực tiễn về dao động cơ học của các hệ một bậc và nhiều bậc tự do. Thông qua học phần, sinh viên được rèn luyện kỹ năng mô hình hóa toán học, thiết lập và giải các phương trình chuyển động nhằm phân tích đáp ứng dao động của cơ hệ. Nội dung bao quát các dạng dao động tự do và dao động cưỡng bức, xét cả trường hợp có giảm chấn và không có giảm chấn, qua đó giúp sinh viên có khả năng tiếp cận và giải quyết các bài toán kỹ thuật phức tạp trong thực tế.\n\n\n\n<br></p>",
+      "en": "<p>\n\n\n\nThis course provides students with a solid foundation of theoretical knowledge combined with practical insights into mechanical vibrations of single-degree-of-freedom and multi-degree-of-freedom systems. Through the course, students develop skills in mathematical modeling, as well as in formulating and solving equations of motion to analyze the dynamic response of mechanical systems. The course content covers free and forced vibrations, considering both damped and undamped cases, thereby equipping students with the ability to address and solve complex engineering problems in practice.\n\n\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Giáo trình:</p><p>\n\n[1] Nguyễn Văn Khang, Giáo trình Dao động kỹ thuật, \n\nNhà Xuất Bản Bách Khoa Hà Nội\n\n, 2023.\n\n</p><p>[2] Ngô Kiều Nhi, Trần Công Nghị, Dao động kỹ thuật, NXB Đại học quốc gia Tp. HCM, 2014.</p><p>Tài liệu tham khảo:</p><p><span style=\"text-decoration-line: initial;\">[1] \n\nSingiresu S.\n\nRao. Mechanical Vibrations (5th ed). Prentice Hall, \n\nUpper Saddle River N.J, 2018</span></p><p><br></p>",
+      "en": "<p>Textbook:</p><p>\n\n[1]&nbsp;Nguyen Van Khang, \n\nEngineering Vibrations\n\nTextbook, Hanoi University of Science and Technology Publishing House, 2023.<br></p><p>[2] Ngo Kieu Nhi, Tran Cong Nghi, Engineering Vibrations, \n\n<em>Ho Chi Minh City National University Publishing House</em>, 2014&nbsp;&nbsp;</p><p>Reference books:</p><p><span style=\"text-decoration-line: initial;\">[1] \n\nSingiresu S.\n\nRao. Mechanical Vibrations (5th ed). Prentice Hall, \n\nUpper Saddle River N.J, 2018</span></p><p><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n<p>Sinh viên chuẩn bị bài trước khi lên lớp thông qua việc nghiên cứu slide bài giảng, giáo trình và các tài liệu học tập liên quan. Trong giờ học, sinh viên tham gia đầy đủ các hoạt động học tập, theo dõi bài giảng và trao đổi, thảo luận theo hướng dẫn của giảng viên.</p>\n<p>Điều kiện tham dự kỳ thi cuối kỳ là sinh viên tham dự tối thiểu <strong>80% tổng số buổi học trên lớp</strong>. Sinh viên cần hoàn thành các bài kiểm tra trắc nghiệm trên hệ thống LMS và nộp các bài tập lớn đúng thời hạn theo kế hoạch học tập của học phần.</p>\n<p>Trong các buổi báo cáo bài tập lớn, sinh viên sử dụng công cụ trí tuệ nhân tạo (AI) một cách có trách nhiệm và phù hợp với quy định của nhà trường; AI chỉ được sử dụng với mục đích hỗ trợ tìm kiếm và tham khảo tài liệu, không thay thế cho sản phẩm học tập do sinh viên thực hiện.</p>\n\n<br></p>",
+      "en": "<p>\n\n</p><p></p>\n\n<div><div></div></div><div><div></div>\n\n<p>\n\n<p>Students are encouraged to prepare for each class by reviewing lecture slides, textbooks, and other relevant learning materials in advance. During class sessions, students participate in learning activities, follow the lectures, and engage in discussions as guided by the lecturer.</p>\n<p>Eligibility for the final examination requires students to attend at least <strong>80% of the total class sessions</strong>. Students are expected to complete online quizzes on the LMS and submit major assignments according to the course schedule.</p>\n<p>During major assignment presentations, students are expected to use artificial intelligence (AI) tools responsibly and in accordance with university regulations. AI may be used to support literature search and reference purposes, but must not replace student-generated academic work.</p>\n\n<br></p>\n\n<div></div></div><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 3605,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Chương trình đào tạo ngành Cơ Kỹ thuật",
+        "en": "Training program in Engineering Mechanics"
+      }
+    },
+    {
+      "id": 9665,
+      "ma": "NG_7520101",
+      "ten": {
+        "vi": "Chương trình đào tạo ngành Cơ kỹ thuật",
+        "en": "Bachelor Program in Engineering Mechanics"
+      }
+    },
+    {
+      "id": 2846,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Cơ Kỹ Thuật 2023",
+        "en": "Engineering Mechanics Program - 2023"
+      }
+    },
+    {
+      "id": 2885,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Cơ Kỹ Thuật 2021",
+        "en": "Engineering Mechanics - 2021"
+      }
+    },
+    {
+      "id": 1829,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Cơ Kỹ Thuật",
+        "en": "Engineering Mechanics Program"
+      }
+    },
+    {
+      "id": 2905,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Cơ Kỹ Thuật 2023 (Định hướng Nhật Bản)",
+        "en": "Engineering Mechanics Program - 2023"
+      }
+    },
+    {
+      "id": 3626,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Chương trình đào tạo Định hướng Nhật Bản ngành Cơ Kỹ thuật",
+        "en": "Training Japan-Oriented program in Engineering Mechanics"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1408,
+      "ma": "003139",
+      "ten": "NGUYỄN THÁI HIỀN"
+    },
+    {
+      "id": 1409,
+      "ma": "003263",
+      "ten": "NGUYỄN DUY KHƯƠNG"
+    },
+    {
+      "id": 1412,
+      "ma": "003434",
+      "ten": "TRẦN KIM BẰNG"
+    },
+    {
+      "id": 12688,
+      "ma": "004296",
+      "ten": "PHẠM TOÀN THẮNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": 0,
+    "baiTapLon": 0.2,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 153,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "baiTapLon": 9,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 72,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 15,
+    "thiNghiem": 0,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1079,
+      "maBoMon": "CKT",
+      "tenBoMon": {
+        "vi": "Cơ Kỹ Thuật"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "B4-106, 268 Lý Thường Kiệt, Phường Diên Hồng, Thành phố Hồ Chí Minh",
+      "dienThoai": "0909450208"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1408,
+        "maGiangVien": "003139",
+        "tenGiangVien": "NGUYỄN THÁI HIỀN",
+        "emailGiangVien": "thnguyen@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.8_0_0.2",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "MT1005 - Giải tích 2",
+        "en": "MT1005 - Calculus 2"
+      },
+      "tenmonhoc_only": {
+        "vi": "Giải tích 2",
+        "en": "Calculus 2"
+      },
+      "mamonhoc": "MT1005"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "MT1003 - Giải tích 1",
+        "en": "MT1003 - Calculus 1"
+      },
+      "tenmonhoc_only": {
+        "vi": "Giải tích 1",
+        "en": "Calculus 1"
+      },
+      "mamonhoc": "MT1003"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "AS1003 - Cơ lý thuyết",
+        "en": "AS1003 - Engineering Mechanics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ lý thuyết",
+        "en": "Engineering Mechanics"
+      },
+      "mamonhoc": "AS1003"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 74970,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 74971,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "74970",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Trắc nghiệm",
+        "en": "Multiple choice test"
+      },
+      "noidung": {
+        "vi": "Kiểm tra trắc nghiệm trên LMS",
+        "en": "The multiple choice test on the LMS."
+      }
+    },
+    {
+      "id": 74972,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "74970",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project "
+      },
+      "noidung": {
+        "vi": "Sinh viên làm tiểu luận ",
+        "en": "Student do project"
+      }
+    },
+    {
+      "id": 74973,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "74970",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Mid-term test"
+      },
+      "noidung": {
+        "vi": "Sinh viên làm kiểm tra giữa kỳ",
+        "en": "Student do Mid-term test"
+      }
+    },
+    {
+      "id": 74974,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "74970",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "sinh viên thi cuối kỳ",
+        "en": "Student do Final exam"
+      }
+    },
+    {
+      "id": 74975,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "74970",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thảo luận",
+        "en": "Discussion "
+      },
+      "noidung": {
+        "vi": "Sinh viên thảo luận, giải bài tập theo nhóm tại lớp",
+        "en": "Students discuss and solve exercises in groups in class."
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 90720,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Chương 0: Giới thiệu học phần\n- Thông tin giảng viên\n- Phương pháp dạy và học\n- Phương pháp đánh giá học phần\n- Giới thiệu tóm tắt các nội dung chính của học phần",
+        "en": "Chapter 1: Introduction to the course\n- Instructor information\n- Teaching and learning methods\n- Assessment methods for the course\n- Summary introduction to the main contents of the course"
+      }
+    },
+    {
+      "id": 90721,
+      "stt": 2,
+      "buoi": "1, 2",
+      "chuandaurachitiet": [
+        {
+          "id": 116375,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu nội dung chương 1:  Nhắc lại các khái niệm của bài toán dao động, các phương pháp phân tích động học cơ hệ; Quy trình phân tích bài toán dao động;  Các loại phần tử trong 1 bài toán dao động: khối lượng, lò xo, giảm chấn; Phân loại dao động.",
+            "en": "Chapter 1 Content Introduction: Reviewing the concepts of vibration problems, the methods for analyzing kinematic mechanical systems; Procedure for analyzing vibration problems; Types of elements in a vibration problem: mass, spring, damper; Classification of vibrations: free oscillation, forced oscillation...\n- "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 1 trước khi đến lớp; Xem các video giới thiệu nội dung chương 1.\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và  thảo luận nhóm theo yêu cầu của giảng viên",
+            "en": "Before coming to the classroom: Study the Chapter 1 lecture before attending class; Watch the videos introducing the content of Chapter 1.\nIn the classroom: Focus on following the lecture content and participate in group discussions as requested by the instructor."
+          },
+          "chuandaura": {
+            "id": 188576,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được các phần tử cơ bản (khối lượng, lò xo, cản) và quy trình phân tích một bài toán dao động",
+              "en": "Describe the basic elements (mass, spring, damper) and the analysis procedure for a vibration problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185744,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74971,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Trắc nghiệm",
+                  "en": "Multiple choice test"
+                }
+              }
+            },
+            {
+              "id": 185743,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Các khái niệm cơ bản của bài toán dao động\n- Các khái niệm\n- Mô tả động học các quá trình dao động\n- Quy trình phân tích bài toán dao động\n- Các phần tử của 1 hệ dao động \n- Phân loại dao động\n",
+        "en": "Chapter 1. Basic concepts of vibration problems\n- Concepts\n- Kinematic description of vibration  processes\n- Process of analyzing vibration problems\n- Elements of a vibration system\n- Classify vibration \n"
+      }
+    },
+    {
+      "id": 90724,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 116380,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu các loại phương trình vi phân chuyển động và các phương pháp thiết lập phương trình vi phân chuyển động của cơ hệ.",
+            "en": "Introducing different types of differential equations for dynamics and methods for setting up differential equations for the motion of a system."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu trước bài giảng chương 2; Xem các video giới thiệu nội dung chương 2.\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và  thảo luận nhóm theo yêu cầu của giảng viên\n",
+            "en": "Before going to the classroom: Study Chapter 2 lecture materials; Watch the introduction videos for Chapter 2 content.\nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor."
+          },
+          "chuandaura": {
+            "id": 188577,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Áp dụng được các phương pháp (lực, năng lượng Lagrange) để thiết lập phương trình vi phân chuyển động cho hệ một và nhiều bậc tự do",
+              "en": "Apply methods (e.g., Force method, Lagrange's equation) to establish the differential equations of motion for single- and multi-degree-of-freedom systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185756,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74971,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Trắc nghiệm",
+                  "en": "Multiple choice test"
+                }
+              }
+            },
+            {
+              "id": 185755,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            },
+            {
+              "id": 185754,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74973,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Dao động tự do của hệ một bậc tự do \n- Phương pháp thành lập phương trình dao động tuyến tính \n",
+        "en": "Chapter 2: Free Vibration of Single-Degree-of-Freedom Systems\n- Method for establishing linear vibration equations"
+      }
+    },
+    {
+      "id": 90722,
+      "stt": 4,
+      "buoi": "4, 5",
+      "chuandaurachitiet": [
+        {
+          "id": 116377,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên phương pháp xác định đáp ứng dao động của hệ 1 bậc tự do có và không có giảm chấn",
+            "en": "Guide students on how to determine the response of 1 dof system with and without damping."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 2; Xem các video giới thiệu nội dung chương 2.\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và  thảo luận nhóm theo yêu cầu của giảng viên\n",
+            "en": "Before going to the classroom: Study Chapter 2 lecture materials; Watch the introduction videos for Chapter 2 content.\nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor.\n"
+          },
+          "chuandaura": {
+            "id": 188579,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Giải thích được ý nghĩa của các đại lượng đặc trưng trong dao động tự do như tần số riêng, tỉ số giảm chấn, độ giảm loga.",
+              "en": "Explain the physical significance of characteristic quantities in free vibration, such as natural frequency, damping ratio, and logarithmic decrement"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185748,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74971,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Trắc nghiệm",
+                  "en": "Multiple choice test"
+                }
+              }
+            },
+            {
+              "id": 185749,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 74973,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 116376,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nội dung bài giảng về các đặc trưng của bài toán dao động tư do của cơ hệ 1 bậc tự do có và không có giảm chấn. ",
+            "en": "Present the content of the lecture on the characteristics of the free mechanical vibration problem of 1 dof system with and without damping."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 2; Xem các video giới thiệu nội dung chương 2.\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và  thảo luận nhóm theo yêu cầu của giảng viên\n",
+            "en": "Before going to the classroom: Study Chapter 2 lecture materials; Watch the introduction videos for Chapter 2 content.\nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor.\n"
+          },
+          "chuandaura": {
+            "id": 188580,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích được đáp ứng của dao động tự do không giảm chấn và có giảm chấn đối với hệ một và nhiều bậc tự do",
+              "en": "Analyze the response of undamped and damped free vibrations for single- and multi-degree-of-freedom systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185745,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74971,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Trắc nghiệm",
+                  "en": "Multiple choice test"
+                }
+              }
+            },
+            {
+              "id": 185747,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            },
+            {
+              "id": 185746,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74973,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Dao động tự do của hệ một bậc tự do (TT)\n- Dao động tự do của hệ không giảm chấn\n- Dao động tự do của hệ không giảm chấn\n\n",
+        "en": "Chapter 2. Free vibration of a single degree of freedom system (Cont.)\n- Free vibration of an undamped system\n- Free vibrations of a damped system"
+      }
+    },
+    {
+      "id": 90723,
+      "stt": 5,
+      "buoi": "6, 7, 8",
+      "chuandaurachitiet": [
+        {
+          "id": 116379,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn giải một số bài tập phân tích  dao động cưỡng bức của cơ hệ một bậc tự do có  và không có giảm chấn. \nYêu cầu sinh viên tìm  hiểu và thực hiện một số bài tập có chủ đề về  dao động cưỡng bức của cơ hệ một bậc tự do có  và không có giảm chấn.",
+            "en": "Guide to solving some exercises on forced harmonic vibration analysis of a single degree of freedom systems with and without damping.\n Students are required to study and solve some exercises on the topic of forced harmonic vibration of single-degree-of-freedom systems with and without damping"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện các bài tập theo hướng dẫn và  yêu cầu của giảng viên",
+            "en": "Do the exercises as directed and required by  the instructor"
+          },
+          "chuandaura": {
+            "id": 188574,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "So sánh được các hiện tượng đặc trưng như cộng hưởng và phách để đánh giá ảnh hưởng của chúng lên hệ dao động.",
+              "en": "Compare characteristic phenomena such as resonance and beats to evaluate their effects on the vibration system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185753,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            },
+            {
+              "id": 185752,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74973,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 116378,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nội dung bài giảng về dao động cưỡng bức của cơ hệ 1 bậc tự do có và không có giảm chấn",
+            "en": "Present the content of the lecture on forced vibrations of the first degree of freedom system with and without damping."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 3; Xem các video giới thiệu nội dung chương 3.\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và  thảo luận nhóm theo yêu cầu của giảng viên\n\n",
+            "en": "Before going to the classroom: Study Chapter 3 lecture materials; Watch the introduction videos for Chapter 3 content.\nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor.\n"
+          },
+          "chuandaura": {
+            "id": 188573,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tính toán được đáp ứng của hệ một và nhiều bậc tự do khi chịu các dạng kích thích cưỡng bức khác nhau (điều hòa, tuần hoàn, không tuần hoàn).",
+              "en": "Calculate the response of single- and multi-degree-of-freedom systems under various forms of forced excitation (harmonic, periodic, non-periodic)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185751,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74973,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            },
+            {
+              "id": 185750,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74971,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Trắc nghiệm",
+                  "en": "Multiple choice test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Dao động cưỡng bức của cơ hệ 1 bậc tự do\n- Giới thiệu\n- Dao động cưỡng bức của cơ hệ 1 bậc tư do không giảm chấn\n- Dao động cưỡng bức của cơ hệ 1 bậc tư do có giảm chấn",
+        "en": "Chapter 3: Forced vibrations of single-degree-of-freedom systems\n- Introduction\n- Undamped forced vibrations of a single-degree-of-freedom system\n- Damped forced vibrations of a single-degree-of-freedom system"
+      }
+    },
+    {
+      "id": 90725,
+      "stt": 6,
+      "buoi": "9, 10",
+      "chuandaurachitiet": [
+        {
+          "id": 116382,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên phương pháp xác định đáp ứng dao động của cơ hệ 2 bậc tư do.\n",
+            "en": "Guide students on the method to determine the vibration response of a 2-dof system."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 4; Xem các video giới thiệu nội dung chương 4.\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và  thảo luận nhóm theo yêu cầu của giảng viên\n",
+            "en": "Before going to the classroom: Study Chapter 4 lecture materials; Watch the introduction videos for Chapter 4 content.\nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor.\n"
+          },
+          "chuandaura": {
+            "id": 188580,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích được đáp ứng của dao động tự do không giảm chấn và có giảm chấn đối với hệ một và nhiều bậc tự do",
+              "en": "Analyze the response of undamped and damped free vibrations for single- and multi-degree-of-freedom systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185759,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74971,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Trắc nghiệm",
+                  "en": "Multiple choice test"
+                }
+              }
+            },
+            {
+              "id": 185760,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74974,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 116381,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên cách thiết lập hệ phương trình vi phân chuyển động của cơ hệ 2 bậc tư do.",
+            "en": "Guide students on how to set up the differential equations for the motion of a 2-dof system."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 4; Xem các video giới thiệu nội dung chương 4\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và  thảo luận nhóm theo yêu cầu của giảng viên\n",
+            "en": "Before going to the classroom: Study Chapter 4 lecture materials; Watch the introduction videos for Chapter 4 content.\nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor.\n"
+          },
+          "chuandaura": {
+            "id": 188577,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Áp dụng được các phương pháp (lực, năng lượng Lagrange) để thiết lập phương trình vi phân chuyển động cho hệ một và nhiều bậc tự do",
+              "en": "Apply methods (e.g., Force method, Lagrange's equation) to establish the differential equations of motion for single- and multi-degree-of-freedom systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185758,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            },
+            {
+              "id": 185757,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74974,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Dao động tự do của hệ 2 bậc tự do\n- Giới thiệu\n- Hệ phương trình vi phân chuyển động của hệ 2 bậc tự do\n- Dao động của hệ 2 bậc tư do không giảm chấn\n- Dao động của hệ 2 bậc tư do có giảm chấn",
+        "en": "Chapter 4. Free vibration of a 2-degree-of-freedom system\n- Introduction\n- System of differential equations for the motion of a 2-degree-of-freedom system\n- Non-damped vibration of a 2-degree-of-freedom system\n- Damped vibration of a 2-degree-of-freedom system"
+      }
+    },
+    {
+      "id": 90726,
+      "stt": 7,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 116383,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Phổ biến mục tiêu, yêu cầu, cách thức thực hiện và tiêu chí đánh giá của Bài tập lớn/Dự án.\nGợi ý các chủ đề và hướng dẫn sinh viên cách tiếp cận, phân tích một bài toán kỹ thuật thực tế",
+            "en": "Disseminate the objectives, requirements, implementation methods, and evaluation criteria of the Major Assignment/Project.\nSuggest topics and guide students on how to approach and analyze a real engineering problem."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe hướng dẫn, đặt câu hỏi làm rõ yêu cầu\nLựa chọn chủ đề và bắt đầu thực hiện dự án",
+            "en": "Listen to instructions, ask questions to clarify requirements\nChoose a topic and start working on the project"
+          },
+          "chuandaura": {
+            "id": 188582,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hoàn thành được bài tập lớn/dự án về phân tích dao động của một cơ hệ kỹ thuật cụ thể theo các tiêu chí đã cho.",
+              "en": "Complete a major assignment/project on the vibration analysis of a specific engineering system according to given criteria."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185762,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            },
+            {
+              "id": 185761,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74972,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hướng dẫn & Giao Bài tập lớn/Dự án \nGiới thiệu đề tài, yêu cầu và tiêu chí đánh giá.\nHướng dẫn sinh viên tìm hiểu, phân tích các bài toán thực tế.",
+        "en": "Instructions & Major Assignment/Project Submission\nIntroduce the topic, requirements, and evaluation criteria.\nInstruct students to research and analyze real-world problems."
+      }
+    },
+    {
+      "id": 90719,
+      "stt": 8,
+      "buoi": "12,13",
+      "chuandaurachitiet": [
+        {
+          "id": 116374,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên các phương pháp thiết lập phương trình vi phân chuyển động cho cơ hệ 2 bậc tự do",
+            "en": "Guide students on methods of setting up differential equations for the motion of a two-degree-of-freedom system."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 5; Xem các video giới thiệu nội dung chương 5. \nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và thảo luận nhóm theo yêu cầu của giảng viên\n",
+            "en": "Before going to class: Study the lesson in chapter 5; Watch the videos introducing the content of chapter 5.\nIn class: Follow the lecture content and participate in group discussions as requested by the instructor."
+          },
+          "chuandaura": {
+            "id": 188577,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Áp dụng được các phương pháp (lực, năng lượng Lagrange) để thiết lập phương trình vi phân chuyển động cho hệ một và nhiều bậc tự do",
+              "en": "Apply methods (e.g., Force method, Lagrange's equation) to establish the differential equations of motion for single- and multi-degree-of-freedom systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185742,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74974,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 185741,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 116373,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên phương pháp xác định đáp ứng dao động của hệ 2 bậc tự do có và không có giảm chấn",
+            "en": "Guide students on determining the response of vibrations in a two-degree-of-freedom system with and without damping."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 5; Xem các video giới thiệu nội dung chương 5.\nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và thảo luận nhóm theo yêu cầu của giảng viên\n",
+            "en": "Before going to the classroom: Study Chapter 5 lecture materials; Watch the introduction videos for Chapter 2 content. \nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor."
+          },
+          "chuandaura": {
+            "id": 188573,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tính toán được đáp ứng của hệ một và nhiều bậc tự do khi chịu các dạng kích thích cưỡng bức khác nhau (điều hòa, tuần hoàn, không tuần hoàn).",
+              "en": "Calculate the response of single- and multi-degree-of-freedom systems under various forms of forced excitation (harmonic, periodic, non-periodic)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185740,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74971,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Trắc nghiệm",
+                  "en": "Multiple choice test"
+                }
+              }
+            },
+            {
+              "id": 185739,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74974,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Dao động cưỡng bức của hệ 2 bậc tự do\n- Giới thiệu\n- Hệ phương trình vi phân chuyển động của hệ 2 bậc tự do\n- Dao động của hệ 2 bậc tư do không giảm chấn\n- Dao động của hệ 2 bậc tư do có giảm chấn",
+        "en": "Chapter 5. Forced vibration of a 2-degree-of-freedom system\n- Introduction\n- System of differential equations describing the motion of a 2-degree-of-freedom system\n- Undamped vibrations of a 2-degree-of-freedom system\n- Damped vibrations of a 2-degree-of-freedom system"
+      }
+    },
+    {
+      "id": 90718,
+      "stt": 9,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 116372,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các nội dung chính của chương 6, giới thiệu cách mô hình hóa hệ liên tục",
+            "en": "Present the main contents of chapter 6, introduce how to model continuous systems"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trước khi đến giảng đường: Nghiên cứu bài giảng chương 6; Xem các video giới thiệu nội dung chương 6. \nTrên giảng đường: Tập trung theo dõi các nội dung bài giảng và thảo luận nhóm theo yêu cầu của giảng viên.\n",
+            "en": "Before going to the classroom: Study Chapter 6 lecture materials; Watch the introduction videos for Chapter 6 content. \nIn the classroom: Follow the content of the lectures and participate in group discussions as required by the instructor."
+          },
+          "chuandaura": {
+            "id": 188577,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Áp dụng được các phương pháp (lực, năng lượng Lagrange) để thiết lập phương trình vi phân chuyển động cho hệ một và nhiều bậc tự do",
+              "en": "Apply methods (e.g., Force method, Lagrange's equation) to establish the differential equations of motion for single- and multi-degree-of-freedom systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185737,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            },
+            {
+              "id": 185738,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74972,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Dao động của cơ hệ có bậc tự do hữu hạn\n- Giới thiệu\n- Mô hình hóa hệ liên tục thành hệ có bậc tự do hữu hạn\n",
+        "en": "Chapter 6. Vibrations of a system with finite degrees of freedom\n- Introduction\n- Modeling of Continuous Systems as Multidegree \u0002of Freedom Systems\n"
+      }
+    },
+    {
+      "id": 90727,
+      "stt": 10,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 116384,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Tổng kết các nội dung cốt lõi của học phần. \nGiải đáp thắc mắc của sinh viên, định hướng các nội dung trọng tâm cần ôn tập cho kỳ thi cuối kỳ.\nThu nhận sản phẩm Bài tập lớn/Dự án",
+            "en": "Summarize the key concepts covered in the course.\nAnswer students' questions, orient the key content to review for the final exam.\nReceive products of major assignments/projects"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi tổng kết, đặt câu hỏi về các vấn đề còn vướng mắc\nHoàn thành và nộp Bài tập lớn/Dự án đúng hạn",
+            "en": "Attend review meetings and ask questions about any outstanding issues\nComplete and submit assignments/projects on time"
+          },
+          "chuandaura": {
+            "id": 188583,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Tham gia tích cực và có trách nhiệm vào các hoạt động thảo luận nhóm, trình bày và bảo vệ các giải pháp kỹ thuật đã lựa chọn",
+              "en": "Actively and responsibly participate in group discussions, present, and defend the selected engineering solutions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 185763,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74972,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project "
+                }
+              }
+            },
+            {
+              "id": 185764,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74975,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thảo luận",
+                  "en": "Discussion "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng kết & Ôn tập cuối kỳ \nHệ thống hóa toàn bộ kiến thức.\nGiải đáp thắc mắc và định hướng ôn tập. \nNộp Bài tập lớn/Dự án.",
+        "en": "Final Review & Recap\nSystematize all knowledge.\nAnswer questions and guide review.\nSubmit Major Assignment/Project."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 188576,
+      "ma": "L.O.1.1",
+      "ten_vi": "Mô tả được các phần tử cơ bản (khối lượng, lò xo, cản) và quy trình phân tích một bài toán dao động",
+      "ten_en": "Describe the basic elements (mass, spring, damper) and the analysis procedure for a vibration problem.",
+      "hddg": [
+        {
+          "id": 74971,
+          "ma": "A.O.1",
+          "ten_vi": "Trắc nghiệm",
+          "ten_en": "Multiple choice test"
+        },
+        {
+          "id": 74975,
+          "ma": "A.O.6",
+          "ten_vi": "Thảo luận",
+          "ten_en": "Discussion "
+        }
+      ]
+    },
+    {
+      "id": 188577,
+      "ma": "L.O.1.2",
+      "ten_vi": "Áp dụng được các phương pháp (lực, năng lượng Lagrange) để thiết lập phương trình vi phân chuyển động cho hệ một và nhiều bậc tự do",
+      "ten_en": "Apply methods (e.g., Force method, Lagrange's equation) to establish the differential equations of motion for single- and multi-degree-of-freedom systems.",
+      "hddg": [
+        {
+          "id": 74971,
+          "ma": "A.O.1",
+          "ten_vi": "Trắc nghiệm",
+          "ten_en": "Multiple choice test"
+        },
+        {
+          "id": 74972,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project "
+        },
+        {
+          "id": 74973,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        },
+        {
+          "id": 74974,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 74975,
+          "ma": "A.O.6",
+          "ten_vi": "Thảo luận",
+          "ten_en": "Discussion "
+        }
+      ]
+    },
+    {
+      "id": 188579,
+      "ma": "L.O.2.1",
+      "ten_vi": "Giải thích được ý nghĩa của các đại lượng đặc trưng trong dao động tự do như tần số riêng, tỉ số giảm chấn, độ giảm loga.",
+      "ten_en": "Explain the physical significance of characteristic quantities in free vibration, such as natural frequency, damping ratio, and logarithmic decrement",
+      "hddg": [
+        {
+          "id": 74971,
+          "ma": "A.O.1",
+          "ten_vi": "Trắc nghiệm",
+          "ten_en": "Multiple choice test"
+        },
+        {
+          "id": 74973,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        }
+      ]
+    },
+    {
+      "id": 188580,
+      "ma": "L.O.2.2",
+      "ten_vi": "Phân tích được đáp ứng của dao động tự do không giảm chấn và có giảm chấn đối với hệ một và nhiều bậc tự do",
+      "ten_en": "Analyze the response of undamped and damped free vibrations for single- and multi-degree-of-freedom systems.",
+      "hddg": [
+        {
+          "id": 74971,
+          "ma": "A.O.1",
+          "ten_vi": "Trắc nghiệm",
+          "ten_en": "Multiple choice test"
+        },
+        {
+          "id": 74973,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        },
+        {
+          "id": 74974,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 74975,
+          "ma": "A.O.6",
+          "ten_vi": "Thảo luận",
+          "ten_en": "Discussion "
+        }
+      ]
+    },
+    {
+      "id": 188573,
+      "ma": "L.O.3.1",
+      "ten_vi": "Tính toán được đáp ứng của hệ một và nhiều bậc tự do khi chịu các dạng kích thích cưỡng bức khác nhau (điều hòa, tuần hoàn, không tuần hoàn).",
+      "ten_en": "Calculate the response of single- and multi-degree-of-freedom systems under various forms of forced excitation (harmonic, periodic, non-periodic)",
+      "hddg": [
+        {
+          "id": 74971,
+          "ma": "A.O.1",
+          "ten_vi": "Trắc nghiệm",
+          "ten_en": "Multiple choice test"
+        },
+        {
+          "id": 74973,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        },
+        {
+          "id": 74974,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 188574,
+      "ma": "L.O.3.2",
+      "ten_vi": "So sánh được các hiện tượng đặc trưng như cộng hưởng và phách để đánh giá ảnh hưởng của chúng lên hệ dao động.",
+      "ten_en": "Compare characteristic phenomena such as resonance and beats to evaluate their effects on the vibration system.",
+      "hddg": [
+        {
+          "id": 74973,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        },
+        {
+          "id": 74975,
+          "ma": "A.O.6",
+          "ten_vi": "Thảo luận",
+          "ten_en": "Discussion "
+        }
+      ]
+    },
+    {
+      "id": 188582,
+      "ma": "L.O.4.1",
+      "ten_vi": "Hoàn thành được bài tập lớn/dự án về phân tích dao động của một cơ hệ kỹ thuật cụ thể theo các tiêu chí đã cho.",
+      "ten_en": "Complete a major assignment/project on the vibration analysis of a specific engineering system according to given criteria.",
+      "hddg": [
+        {
+          "id": 74972,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project "
+        },
+        {
+          "id": 74975,
+          "ma": "A.O.6",
+          "ten_vi": "Thảo luận",
+          "ten_en": "Discussion "
+        }
+      ]
+    },
+    {
+      "id": 188583,
+      "ma": "L.O.4.2",
+      "ten_vi": "Tham gia tích cực và có trách nhiệm vào các hoạt động thảo luận nhóm, trình bày và bảo vệ các giải pháp kỹ thuật đã lựa chọn",
+      "ten_en": "Actively and responsibly participate in group discussions, present, and defend the selected engineering solutions.",
+      "hddg": [
+        {
+          "id": 74972,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project "
+        },
+        {
+          "id": 74975,
+          "ma": "A.O.6",
+          "ten_vi": "Thảo luận",
+          "ten_en": "Discussion "
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Dao động Cơ sở",
+  "tenmonhoc_eng": "Fundamentals of Vibrations",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

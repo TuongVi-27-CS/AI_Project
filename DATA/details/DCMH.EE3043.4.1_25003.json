@@ -1,0 +1,1432 @@
+{
+  "ma": "DCMH.EE3043.4.1",
+  "phienban": "4.1",
+  "capnhat": "13/03/2025 04:00",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3043",
+  "ten": "EE3043 - Cấu trúc Máy tính",
+  "ten_eng": "EE3043 - Computer Architecture",
+  "hockyapdung": "HK251",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Môn học này được xây dựng dựa trên các nội dung đã được học ở các môn học trước bao gồm kỹ thuật số, kiến trúc máy tính, vi xử lý, lập trình cấp hệ thống, và thiết kế kỹ thuật. Môn học sẽ giúp sinh viên sẵn\nsàng cho các công việc trong\nngành công nghiệp kỹ thuật máy tính, cũng như một bàn đạp để sinh viên có thể tiếp cận những nội dung nâng cao ở các khóa học sau đại học. Môn học này cũng\ncó thể cung cấp một nền tảng cho các sinh viên quan tâm đến lập trình, trình\nbiên dịch, và hệ điều hành; và nó có thể cung cấp nội\ndung một cách hệ thống cho\ncác sinh viên quan tâm đến các công nghệ mới nổi và các mạch kỹ thuật số. Đến\ncuối khóa học này, sinh viên sẽ có thể:</p>\n\n<p>· &nbsp; &nbsp; &nbsp; <b>M</b><b>ô tả</b> các khái niệm\nkiến ​​trúc máy tính và các cơ chế liên quan đến việc thiết kế các bộ vi xử lý\nhiện đại, kỷ niệm, và các mạng lưới và giải thích cách các khái niệm và cơ chế\ntương tác.</p>\n\n<p>· &nbsp; &nbsp; &nbsp; <b>Áp dụng </b>những hiểu biết này để thiết kế cấu trúc máy tính mới nhằm cân bằng giữa\nyêu cầu của ứng dụng và quy ước kỹ thuật; cụ thể là đánh giá thời gian thực hiện của thiết kế theo chu kỳ với\nđánh giá về chu kỳ của thiết kế cũng như diện tích và năng lượng. </p>\n\n<p>· &nbsp; &nbsp; &nbsp; <b>Đ</b><b>ánh giá</b> sự lựa chọn giữa những thiết\nkế khác nhau và đưa ra lý do tại sao một thiết kế vượt trội với các\nphương pháp khác.</p>\n\n<p>· &nbsp; &nbsp; &nbsp; <b>C</b><b>hứng tỏ khả năng</b> thực\nhiện và kiểm tra các thiết kế phức tạp khác nhau ở cấp RTL. </p>\n\n<p>· &nbsp; &nbsp; &nbsp; <b>Tạo ra</b> thiết kế mới ở cấp RTL và các cách thử nghiệm\nhiệu quả liên quan. </p>\n\n<p>· &nbsp; &nbsp; &nbsp; <b>V</b><b>iết </b>báo cáo kỹ thuật\nngắn gọn nhưng toàn diện mô tả thiết kế thực hiện ở cấp RTL, giải thích\ncác cách thử nghiệm được sử dụng để xác minh tính năng, và thẩm định thiết kế để\nxác định cách tiếp cận tốt hơn.</p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><p>This course is meant to be a\ncapstone course in Electronics Engieering (computer engineering) that draws\ntogether concepts from across the major curriculum including digital logic\ndesign, computer organization, system-level software, computing, and\nengineering design. The course will prepare students for jobs in the computer\nengineering industry and can act as a springboard to more advanced material in\ngraduate-level courses. This course can also provide a foundation for students\ninterested in performance programming, compilers, and operating systems; and it\ncan provide system-level context for students interested in emerging\ntechnologies and digital circuits. By the end of this course, students should\nbe able to:</p>\n\n<p>· &nbsp; &nbsp; &nbsp;\n<b>describe</b>&nbsp;computer architecture concepts and mechanisms related to the\ndesign of modern processors, memories, and networks and explain how these\nconcepts and mechanisms interact.</p>\n\n<p>· &nbsp; &nbsp; &nbsp;\n<b>apply</b>&nbsp;this understanding to new computer architecture design\nproblems within the context of balancing application requirements against\ntechnology constraints; more specifically, quantitatively assess a design's\nexecution time in cycles and qualitatively assess a design's cycle time, area,\nand energy.</p>\n\n<p>· &nbsp; &nbsp; &nbsp;\n<b>evaluate</b>&nbsp;various design alternatives and make a compelling quantitative\nand/or qualitative argument for why one design is superior to the other\napproaches.</p>\n\n<p>· &nbsp; &nbsp; &nbsp;\n<b>demonstrate</b>&nbsp;the ability to implement and verify designs of varying\ncomplexity at the register-transfer level.</p>\n\n<p>· &nbsp; &nbsp; &nbsp;\n<b>create</b>&nbsp;new designs at the register-transfer level and the associated\neffective testing strategies.</p>\n\n<p>· &nbsp; &nbsp; &nbsp;\n<b>write</b>&nbsp;concise yet comprehensive technical reports that describe\ndesigns implemented at the register-transfer level, explain the testing\nstrategy used to verify functionality, and evaluate the designs to determine\nthe superior approach.</p>\n\n\n\n\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>Mục tiêu của môn học này là\nhiểu rõ tổ chức máy tính có cấu trúc, các mức trừu tượng của hệ máy tính (mức\nlogic số, mức vi kiến trúc, mức kiến trúc tập lệnh, mức hệ điều hành và mức hợp\nngữ) cũng như cách thức thiết kế mỗi mức. Môn học cũng cung cấp cho sinh viên\ncác kiến thức cơ bản về kiến trúc máy tính song song, hệ thống trên chip (SoC),\ncác khái niệm về hệ điều hành thời gian thực sử dụng trong các hệ thống nhúng.</p>\n\n<p>Nội dung gồm có 5 chương: các chương 1 và 2\ngiới thiệu và mô tả tổng quan hệ thống máy tính, các chương từ 3 đến 5 đề cập\nđến những mức trừu tượng của hệ máy tính (mức logic số, mức vi kiến trúc, mức kiến trúc tập lệnh, mức hệ điều hành\nvà mức hợp ngữ. Các khái niệm quan trọng của một máy tính như cấu trúc ngắt\n(bao gồm cả phần cứng lẫn phần mềm), kỹ thuật đường ống, kỹ thuật siêu phân luồng,\nkỹ thuật truy cập trực tiếp bộ nhớ, bộ nhớ ảo, bộ nhớ truy cập nhanh, xử lý\nsong song và đa xử lý được mô tả chi tiết. </p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><div><p>The objective of this course is an advanced understanding of structured\ncomputer organization, the abstraction levels of computer system (digital logic\nlevel, microarchitecture level, instruction set architecture level, operating\nsystem level and assembly language level), as well as how to design each of\nthese levels. This course also provides the students basic knowledges on the\nparallel computer architecture, the system on chip (SoC), the concepts of\nreal-time operating system used in embedded systems.</p>\n\n<p>The\ncontent consists of five chapters: chapters 1 – 2 are an introduction and an\noverview to computer system, chapters 3 – 5 cover the abstraction levels of\ncomputer system (digital logic level,\nmicroarchitecture level, instruction set architecture level, operating system\nlevel and assembly language level). The main concepts of a computer such as\ninterrupt structure (including both the hardware and the software), pipeline\ntechnique, super-scalar technique, direct memory access (DMA) technique,\nvirtual memory, cache memory, parallel processing, and multi-processing are\nrepresented in details. </p>\n\n</div>\n\n\n\n\n\n<br><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p>Sách:&nbsp;</p><p>[1] D. Paterson and J. Hennessey, <i>Computer\nOrganization and Design: The Hardware/Software Interface</i>, 5th\nEdition, 2015</p>\n\n<p>[2] J. L. Hennessy and D. A. Patterson\n\"Computer Architecture: A Quantitative Approach\" 5th edition, Morgan\nKaufmann, 2012</p>\n\n<p>[3] D. M. Harris and S. L. Harris\n\"Digital Design and Computer Architecture\" 2nd edition, Morgan\nKaufmann, 2012 </p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><p>Book:&nbsp;</p><p>[1] D. Paterson and J. Hennessey, <i>Computer\nOrganization and Design: The Hardware/Software Interface</i>, 5th\nEdition, 2015</p>\n\n<p>[2] J. L. Hennessy and D. A. Patterson\n\"Computer Architecture: A Quantitative Approach\" 5th edition, Morgan\nKaufmann, 2012</p>\n\n<p>[3] D. M. Harris and S. L. Harris\n\"Digital Design and Computer Architecture\" 2nd edition, Morgan\nKaufmann, 2012 </p>\n\n\n\n\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi\nlên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học</p>\n\n<ul>\n <li>Bài tập lớn: 40%</li>\n<li>Bài tập: 10%</li><li>Thi: 50%</li></ul><p><i></i></p>\n\n<p>Điều kiện\ndự thi: hoàn thành bài tập lớn.</p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><p><small></small>Course materials are posted on\nBKEL weekly. Students download, print and bring to class. The final grade of\nthe course is assessed throughout the learning process</p>\n\n<p></p><ul><li>Project: 40%</li><li>Labs: 10%</li><li>Exam: 50%</li></ul><p></p>\n\n<p>Eligibility: complete a project.</p>\n\n\n\n\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1467,
+      "ma": "NG_COD_TN",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa +1",
+        "en": "Áp dụng cho tất cả ngành của khóa +1"
+      }
+    },
+    {
+      "id": 1250,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (2019)",
+        "en": "Electronics - Telecommunications Engineering (2019)"
+      }
+    },
+    {
+      "id": 1390,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2018 old)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2018)"
+      }
+    },
+    {
+      "id": 1391,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2018)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2018)"
+      }
+    },
+    {
+      "id": 1389,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2018)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1249,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2019)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1395,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2021)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2021)"
+      }
+    },
+    {
+      "id": 1387,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2019)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2019)"
+      }
+    },
+    {
+      "id": 1396,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (2021)",
+        "en": "Electronics - Telecommunications Engineering (2021)"
+      }
+    },
+    {
+      "id": 1385,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (môn khoa Điện)",
+        "en": "K19 môn khoa Điện"
+      }
+    },
+    {
+      "id": 1394,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2021)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 514,
+      "ma": "003176",
+      "ten": "Trần Hoàng Linh"
+    },
+    {
+      "id": 513,
+      "ma": "003169",
+      "ten": "NGUYỄN LÝ THIÊN TRƯỜNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 1,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 45,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 10,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 40,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "201B3",
+      "dienThoai": "0838655353"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 514,
+        "maGiangVien": "003176",
+        "tenGiangVien": "Trần Hoàng Linh",
+        "emailGiangVien": "linhtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE1009 - Kỹ thuật số",
+        "en": "EE1009 - Digital Designs"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật số",
+        "en": "Digital Designs"
+      },
+      "mamonhoc": "EE1009"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE2039 - Vi xử lý",
+        "en": "EE2039 - Microprocessor"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vi xử lý",
+        "en": "Microprocessor"
+      },
+      "mamonhoc": "EE2039"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 36801,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 36802,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "36801",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài Tập Về Nhà ",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài Tập Về Nhà ",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 36803,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "36801",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài Tập Lớn",
+        "en": "Major Project"
+      },
+      "noidung": {
+        "vi": "Bài Tập Lớn",
+        "en": "Major Project"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 41502,
+      "stt": 1,
+      "buoi": "1-3",
+      "chuandaurachitiet": [
+        {
+          "id": 54451,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43453,
+            "ma": "L.O.1.5",
+            "ten": {
+              "vi": "Thiết kế một máy tính có tập lệnh đơn giản với một khối điều khiển và một khối “Data path” ",
+              "en": "Implement a simple instruction set computer with a control unit and a data path. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83559,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83558,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về môn học\n- Thông tin Thầy/Cô\n- Các vấn đề liên quan đến môn học\n- Cách thức dạy và học \nChương 1: Giới thiệu\n- Tổ chức máy tính có cấu trúc.\n- Các mốc lịch sử của kiến trúc máy tính.\n- Các loại máy tính.\n- Các họ máy tính điển hình.\n\nChương 2: Tổ chức hệ thống máy tính\n- Bộ xử lý.\n- Bộ nhớ chính.\n- Bộ nhớ truy cập nhanh.\n- Bộ nhớ thứ cấp.\n- Các thiết bị xuất, nhập.\n",
+        "en": "Introduction to the subject \n- Lecturer’s Information \n- Issues related to the subject \n- Teaching & Learning Methods \nChapter 1: Introduction \n- Computer organization. \n- The historical milestones of computer architecture. \n- Types of computers. \n- Typical computer families. \nChapter 2: Organizing computer systems \n- Processor. \n- Main memory. \n- Quick access memory. \n- Secondary memory. \n- Input and output devices.\n"
+      }
+    },
+    {
+      "id": 41504,
+      "stt": 2,
+      "buoi": "4-8",
+      "chuandaurachitiet": [
+        {
+          "id": 54454,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43449,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Chuyển từ đặc tính kỹ thuật của thiết kế sang mô tả kiểu RTL (Register Transfer Language)",
+              "en": "Translate a computer design specification into a register transfer language description. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83564,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83565,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54456,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43450,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Thiết kế khối “Data path” của máy tính từ mô tả RTL ",
+              "en": "Design the data path of a computer from its register transfer language description. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83568,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83569,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54457,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43451,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Thực hiện điều chỉnh hiệu suất và mở rộng chức năng của thiết kế “Data path” ",
+              "en": ". Perform performance tuning and extend functionality of a data path design. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83570,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83571,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54458,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43452,
+            "ma": "L.O.1.4",
+            "ten": {
+              "vi": "Thiết kế khối điều khiển của máy tính dựa trên mô tả RTL",
+              "en": "Design the control unit of a computer using either hardwiring or microprogramming based on its register transfer language description. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83572,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83573,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54455,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43453,
+            "ma": "L.O.1.5",
+            "ten": {
+              "vi": "Thiết kế một máy tính có tập lệnh đơn giản với một khối điều khiển và một khối “Data path” ",
+              "en": "Implement a simple instruction set computer with a control unit and a data path. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83566,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83567,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54459,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43454,
+            "ma": "L.O.1.6",
+            "ten": {
+              "vi": "Hiểu được các vấn đề khi thực hiện thiết kế máy tính có tập lệnh phức tạp hơn như chỉnh bộ nhớ và chuyển đổi Endian.",
+              "en": "Understand implementation issues of more advanced instruction set features such as memory alignment and Endian conventions. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83574,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83575,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54460,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43455,
+            "ma": "L.O.1.7",
+            "ten": {
+              "vi": "Sử dụng HDL (VHDL, Verilog, System Verilog) để mô tả thiết kế kiểu RTL.",
+              "en": "Use VHDL to describe the detailed register transfer design at the behavior level "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83576,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83577,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Cấu trúc máy tính cơ bản\n- Tổng quan về mức ISA.\n- Kiểu dữ liệu.\n- Khuôn dạng lệnh.\n- Định địa chỉ.\n- Các loại lệnh.\n- Luồng điều khiển\n- Thiết kế mức vi kiến trúc.\n- Cải thiện hiệu suất.\n",
+        "en": "Chapter 3: Basic Computer Organization \n- Overview of ISA. \n- Datatypes. \n- Instruction format. \n- Addressing mode \n- Datapath\n- Control Unit \n- Micro level architecture design. \n- Improve the performance.\n"
+      }
+    },
+    {
+      "id": 41503,
+      "stt": 3,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 54453,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43458,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thiết kế một bộ nhớ đệm cơ bản với kỹ thuật tổ chức cơ bản và điều chỉnh hiệu suất. ",
+              "en": "Design a basic cache memory with basic organizational techniques and performance tuning. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83562,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83563,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54452,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43457,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Thiết kế một bộ nhớ ảo cơ bản sử dụng các khái niệm về thuật toán một cấp và hai cấp địa chỉ. ",
+              "en": "Design a basic virtual memory management unit using the concept of one-level and two-level address translation algorithms. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83560,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            },
+            {
+              "id": 83561,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Bộ nhớ\n-\tBộ nhớ ảo.\n-\tBộ nhớ đệm (Cache)\n",
+        "en": "Chapter 4: Memory \n- Virtual Memory \n- Cache\n"
+      }
+    },
+    {
+      "id": 41505,
+      "stt": 4,
+      "buoi": "11-15",
+      "chuandaurachitiet": [
+        {
+          "id": 54462,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43460,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thiết kế một máy tính dùng kỹ thuật đường ống và giải quyết các trình tự thực hiện tập lệnh, giá trị thanh ghi được chuyển trước, dữ liệu lồng vào nhau, và các vấn đề ngắt chính xác ",
+              "en": "Design a pipelined computer and solve the instruction sequencing, register value forwarding, data interlocking, and precise interrupt problems. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83578,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            },
+            {
+              "id": 83579,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 54461,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên BKEL\n",
+            "en": "- Presenting lecture slides\n- Upload slides to BKEL\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture\n- Print out essential slides\n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 43461,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng thiết kế bộ nhớ cache để giải quyết vấn đề hiệu suất trong các khía cạnh khác của thiết kế máy tính, ví dụ: bộ nhớ ảo dịch địa chỉ (translation lookaside buffer) và trình tự thực hiện câu lệnh dùng kỹ thuật đường ống (branch target buffer). ",
+              "en": "Apply cache design to solve performance problems in other aspects of computer design, e.g., virtual memory address translation (translation lookaside buffer) and pipeline instruction sequencing (branch target buffer). "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 83581,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 36802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 83580,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 36803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài Tập Lớn",
+                  "en": "Major Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Giới thiệu về kỹ thuật đường ống và các kỹ thuật tiên tiến khác\n-\tKỹ thuật đường ống \n-\tKỹ thuật siêu phân luồng trong máy tính và trong chip nhúng hiện nay.\n-\tKỹ thuật DMA trong máy tính và trong chip nhúng hiện nay.\n",
+        "en": "Chapter 5: Introduction to pipeline architecture and other advanced techniques\n- Pipeline technique\n- Hyper-threading techniques in computers and in embedded chips\n- DMA technology in computers and in embedded chips.\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 43449,
+      "ma": "L.O.1.1",
+      "ten_vi": "Chuyển từ đặc tính kỹ thuật của thiết kế sang mô tả kiểu RTL (Register Transfer Language)",
+      "ten_en": "Translate a computer design specification into a register transfer language description. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43450,
+      "ma": "L.O.1.2",
+      "ten_vi": "Thiết kế khối “Data path” của máy tính từ mô tả RTL ",
+      "ten_en": "Design the data path of a computer from its register transfer language description. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43451,
+      "ma": "L.O.1.3",
+      "ten_vi": "Thực hiện điều chỉnh hiệu suất và mở rộng chức năng của thiết kế “Data path” ",
+      "ten_en": ". Perform performance tuning and extend functionality of a data path design. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43452,
+      "ma": "L.O.1.4",
+      "ten_vi": "Thiết kế khối điều khiển của máy tính dựa trên mô tả RTL",
+      "ten_en": "Design the control unit of a computer using either hardwiring or microprogramming based on its register transfer language description. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43453,
+      "ma": "L.O.1.5",
+      "ten_vi": "Thiết kế một máy tính có tập lệnh đơn giản với một khối điều khiển và một khối “Data path” ",
+      "ten_en": "Implement a simple instruction set computer with a control unit and a data path. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43454,
+      "ma": "L.O.1.6",
+      "ten_vi": "Hiểu được các vấn đề khi thực hiện thiết kế máy tính có tập lệnh phức tạp hơn như chỉnh bộ nhớ và chuyển đổi Endian.",
+      "ten_en": "Understand implementation issues of more advanced instruction set features such as memory alignment and Endian conventions. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43455,
+      "ma": "L.O.1.7",
+      "ten_vi": "Sử dụng HDL (VHDL, Verilog, System Verilog) để mô tả thiết kế kiểu RTL.",
+      "ten_en": "Use VHDL to describe the detailed register transfer design at the behavior level ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43457,
+      "ma": "L.O.2.1",
+      "ten_vi": "Thiết kế một bộ nhớ ảo cơ bản sử dụng các khái niệm về thuật toán một cấp và hai cấp địa chỉ. ",
+      "ten_en": "Design a basic virtual memory management unit using the concept of one-level and two-level address translation algorithms. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43458,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thiết kế một bộ nhớ đệm cơ bản với kỹ thuật tổ chức cơ bản và điều chỉnh hiệu suất. ",
+      "ten_en": "Design a basic cache memory with basic organizational techniques and performance tuning. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43460,
+      "ma": "L.O.3.1",
+      "ten_vi": "Thiết kế một máy tính dùng kỹ thuật đường ống và giải quyết các trình tự thực hiện tập lệnh, giá trị thanh ghi được chuyển trước, dữ liệu lồng vào nhau, và các vấn đề ngắt chính xác ",
+      "ten_en": "Design a pipelined computer and solve the instruction sequencing, register value forwarding, data interlocking, and precise interrupt problems. ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    },
+    {
+      "id": 43461,
+      "ma": "L.O.3.2",
+      "ten_vi": "Áp dụng thiết kế bộ nhớ cache để giải quyết vấn đề hiệu suất trong các khía cạnh khác của thiết kế máy tính, ví dụ: bộ nhớ ảo dịch địa chỉ (translation lookaside buffer) và trình tự thực hiện câu lệnh dùng kỹ thuật đường ống (branch target buffer). ",
+      "ten_en": "Apply cache design to solve performance problems in other aspects of computer design, e.g., virtual memory address translation (translation lookaside buffer) and pipeline instruction sequencing (branch target buffer). ",
+      "hddg": [
+        {
+          "id": 36802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 36803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài Tập Lớn",
+          "ten_en": "Major Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Cấu trúc Máy tính",
+  "tenmonhoc_eng": "Computer Architecture",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

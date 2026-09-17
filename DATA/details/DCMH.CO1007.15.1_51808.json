@@ -1,0 +1,2447 @@
+{
+  "ma": "DCMH.CO1007.15.1",
+  "phienban": "15.1",
+  "capnhat": "28/05/2026 11:05",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO1007",
+  "ten": "CO1007 - Cấu trúc Rời rạc cho Khoa học Máy tính",
+  "ten_eng": "CO1007 - Discrete Structures for Computing",
+  "hockyapdung": "HK252",
+  "sotcgoc": 4,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 2,
+      "ma": "TK",
+      "ten": {
+        "vi": "Toàn khoa"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p></p>\n\n<p>Mục tiêu cốt lõi của môn học <b>Cấu trúc rời rạc cho Khoa học Máy tính</b> là cung cấp nền tảng toán lý thuyết thiết yếu để hiểu, phân tích và thiết kế các hệ thống máy tính cũng như thuật toán. Cụ thể, môn học hướng đến các mục tiêu chính sau:</p><ul><li><p><b>Phát triển tư duy logic và suy luận:</b> Rèn luyện khả năng suy luận chặt chẽ thông qua logic mệnh đề và các phương pháp chứng minh toán học (rất quan trọng trong việc viết code không có lỗi và phát triển trí tuệ nhân tạo).</p></li><li><p><b>Mô hình hóa thông tin và hệ thống:</b> Cung cấp các công cụ toán học như lý thuyết đồ thị, cây, tập hợp và quan hệ để mô hình hóa các cấu trúc dữ liệu, mạng máy tính và cơ sở dữ liệu.</p></li><li><p><b>Phân tích thuật toán:</b> Xây dựng kiến thức về toán tổ hợp, đếm và xác suất rời rạc để đánh giá hiệu suất, tính toán độ phức tạp (Big O) và kiểm tra tính đúng đắn của các thuật toán.</p></li><li><p><b>Tạo tiền đề cho các lĩnh vực chuyên sâu:</b> Là bước đệm bắt buộc để nghiên cứu sâu hơn về mật mã học, khoa học dữ liệu, học máy (Machine Learning) và kỹ thuật phần mềm.</p></li></ul>\n\n<br><p></p>",
+      "en": "<p></p><p>\n\n</p><p>The core objective of <b>Discrete Structures for Computer Science</b> is to provide the essential theoretical mathematical foundation required to understand, analyze, and design computer systems and algorithms. Specifically, the course focuses on the following primary goals:</p><ul><li><p><b>Developing logical thinking and reasoning:</b> Cultivating the ability to reason rigorously through propositional logic and mathematical proof methods (which is crucial for writing error-free code and developing artificial intelligence).</p></li><li><p><b>Modeling information and systems:</b> Supplying mathematical tools like graph theory, trees, sets, and relations to accurately model data structures, computer networks, and databases.</p></li><li><p><b>Analyzing algorithms:</b> Building knowledge in combinatorics, counting, and discrete probability to evaluate performance, calculate time complexity (Big O), and verify algorithm correctness.</p></li><li><p><b>Laying the groundwork for advanced fields:</b> Serving as a fundamental stepping stone for deeper studies in cryptography, data science, machine learning, and software engineering.</p></li></ul>\n\n<p></p>\n\n\n\n<p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p></p><p></p>Các nội dung bao gồm:<br><ul><li>Logic: logic mệnh đề, logic vị từ, phép chứng minh, quy nạp toán học</li><li>Lý thuyết tập hợp: quan hệ, hàm, lượng số, các\nphép toán trên tập hợp…</li><li>Phép đếm: nguyên lý cộng, nhân, loại trừ, tổ hợp, chỉnh hợp</li><li>Xác suất rời rạc: xác suất biến ngẫu nhiên rời rạc,\nxác suất có điều kiện, kỳ vọng, mô hình nhị thức</li><li>Lý thuyết đồ thị: đồ thị có hướng, vô hướng, đồ\nthị đẳng cấu, chu trình Euler, chu trình Hamilton, đồ thị có trọng số, thuật\ntoán tìm đường đi ngắn nhất, các ứng dụng</li><li>Cây: tính chất cây, cây nhị phân, cây nhị phân tìm kiếm, cây phủ tối\nthiểu,</li></ul><p></p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p>The main contents include:</p><p></p><ul><li>Logic: propositional logic, predicate logic, proofs, mathematical induction</li><li>Set theory: relations, functions, cardinality, operations on sets…</li><li>Counting: principles of addition, multiplication, exclusion, combination, permutation</li><li>Discrete probability: probability of discrete random variables, conditional probability, expectation, binomial models</li><li>Graph theory: directed graphs, undirected graphs, isomorphic, Euler circuit, Hamilton circuit, weighted graphs, shortest path algorithms, applications</li></ul><p></p><p>Trees: properties of tree, binary tree, binary search tree, spanning tree,<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p></p><p><b>1. Giáo trình giảng dạy:</b></p><p></p><p>\n\n[1] Discrete Mathematics and Applications, 8th Edition, Kevin\nFerland, Chapman and Hall/CRC, 2017, ISBN 9781498730655.<br></p><p>[2] Slide bài giảng được Giảng viên cung cấp đầu các học kỳ</p><p><b><br></b></p><p><b>2. Sách tham khảo:</b></p><p>\n\n</p><p>[1] Discrete Mathematics: An Open Introduction, Oscar Levin, 2025</p><p>[2]&nbsp;Discrete Structures, Harriet Fell et&nbsp;al.,&nbsp;2016</p><p>[3]&nbsp;Giáo trình Toán rời rạc của Viện CNTT&amp;TT (SoICT)\n&nbsp;HUST,&nbsp;2022</p>\n\n<br><p></p><p></p><p>\n\n<b>3. Tài liệu đọc thêm</b>\n\n<br></p><p>[1] Graph Theory and Its Applications, Jonathan L. Gross, Jay Yellen &amp; Mark Anderson, Chapman and Hall/CRC, 3rd Edition, 2018.&nbsp;(Đồ&nbsp;thị và cây)</p><p>[2] Discrete Structures\nLecture Notes,&nbsp;\n\nVladlen Koltun,&nbsp;<a target=\"_blank\" rel=\"nofollow\" href=\"https://web.stanford.edu/class/cs103x/cs103x-notes.pdf\">https://web.stanford.edu/class/cs103x/cs103x-notes.pdf</a>&nbsp;(Tất cả các chương)<br></p><p>[3]&nbsp;Giáo trình toán rời rạc, Đỗ&nbsp;Văn Nhơn,&nbsp;2007&nbsp;(Tất cả các chương)</p><p>[4] Elementary Statistics: A Step By Step Approach, Allan Bluman, 2018 (Phép đếm &amp; Xác suất rời rạc)</p><p></p>",
+      "en": "<p>1. Textbook:<br><br>[1] Discrete Mathematics and Applications, 8th Edition, Kevin Ferland, Chapman and Hall/CRC, 2017, ISBN 9781498730655.<br><br>[2] Lecture slides are provided by the lecturer at the beginning of each semester.<br><br>2. Reference books:<br><br>[1] Discrete Mathematics: An Open Introduction, Oscar Levin, 2025<br><br>[2] Discrete Structures, Harriet Fell et al., 2016<br><br>[3] Discrete Mathematics textbook of the Institute of Information Technology and Communications (SoICT) HUST, 2022<br><br>3. Additional reading materials:<br><br>[1] Graph Theory and Its Applications, Jonathan L. Gross, Jay Yellen &amp; Mark Anderson, Chapman and Hall/CRC, 3rd Edition, 2018. (Graphs and trees)<br><br>[2] Discrete Structures Lecture Notes, Vladlen Koltun, <a target=\"_blank\" rel=\"nofollow\" href=\"https://web.stanford.edu/class/cs103x/cs103x-notes.pdf\">https://web.stanford.edu/class/cs103x/cs103x-notes.pdf</a> (All chapters)<br>[3] Discrete Mathematics Textbook, Do Van Nhon, 2007 (All chapters)<br>[4] Elementary Statistics: A Step By Step Approach, Allan Bluman, 2018 (Counting &amp; Discrete Probability)<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>Phương pháp&nbsp;học</p><p></p><ul><li>Tự đọc sách giáo khoa, bài giảng (slide), giải&nbsp;quyết các&nbsp;bài tập trong sách&nbsp;và các bài&nbsp;tập được giao thêm. Chủ động trong học tập và trao đổi trong các nhóm học tập.</li><li>Lưu ý quan sát các ứng\ndụng của cấu trúc&nbsp;rời&nbsp;rạc&nbsp;trong thế giới thực, có thể tham khảo tại&nbsp;<a target=\"_blank\" rel=\"nofollow\" href=\"https://www.mathily.org/dm-rw.htmlc\">https://www.mathily.org/dm-rw.html</a></li><li>Tham dự đầy đủ giờ giảng trên\nlớp (&gt; 80%)+ làm bài tập ( &gt; 80% bài tập đã nhận)</li></ul><p></p>\n\n\n\n\n\n\n\n\n\n<p>Liêm chính học thuật và sử dụng công cụ AI<u></u><u></u></p><p></p><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường</li></ul><p></p>\n\n<br><p></p>",
+      "en": "<p>\n\n<b></b></p><p><b></b></p>\n\n<p>Learning Methods<br></p><ul><li>Self-study using textbooks, lecture slides, solving exercises in the book, and additional assigned exercises. Be proactive in learning and participate in group discussions.</li><li>Research&nbsp;and&nbsp;study&nbsp;real-world applications of discrete structures, refer to <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.mathily.org/dm-rw.html\">https://www.mathily.org/dm-rw.html</a></li><li>Attend all lectures (&gt; 80%) and complete assignments (&gt; 80% of assigned assignments)</li></ul><p><strong>Academic Integrity and the Use of AI Tools</strong><b><u></u><u></u></b></p><ul><li>Students must comply with the university’s academic integrity regulations.<u></u><u></u></li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes, such as searching for materials, referencing ideas, checking grammar, or suggesting presentation methods. Students must not submit work that is entirely or largely generated by AI.<u></u><u></u></li><li>If AI is used during the completion of an assignment, students must clearly state the tool and how it was used in the references or notes section.<u></u><u></u></li><li>Any misuse of AI for cheating purposes will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</li></ul>\n\n<p></p><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 885,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Ngành Kỹ thuật Máy tính",
+        "en": "Computer Engineering"
+      }
+    },
+    {
+      "id": 1008,
+      "ma": "CN_KHM",
+      "ten": {
+        "vi": "Ngành Khoa học Máy tính",
+        "en": "Computer Science"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 5780,
+      "ma": "003778",
+      "ten": "Trần Tuấn Anh"
+    },
+    {
+      "id": 1833,
+      "ma": "003634",
+      "ten": "Nguyễn An Khương"
+    },
+    {
+      "id": 9780,
+      "ma": "004075",
+      "ten": "TRẦN HỒNG TÀI"
+    },
+    {
+      "id": 5282,
+      "ma": "003744",
+      "ten": "LÊ HỒNG TRANG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 4,
+    "soTC_ETC": 8,
+    "lyThuyet": 3,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 200,
+    "tongGioHocTapLamViec": 202,
+    "lyThuyet": 45,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 90,
+    "khac": 20
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 40,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 965,
+      "maBoMon": "DTO",
+      "tenBoMon": {
+        "vi": "Khoa Học Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 5780,
+        "maGiangVien": "003778",
+        "tenGiangVien": "Trần Tuấn Anh",
+        "emailGiangVien": "trtanh@hcmut.edu.vn"
+      },
+      {
+        "id": 5282,
+        "maGiangVien": "003744",
+        "tenGiangVien": "LÊ HỒNG TRANG",
+        "emailGiangVien": "lhtrang@hcmut.edu.vn"
+      },
+      {
+        "id": 1833,
+        "maGiangVien": "003634",
+        "tenGiangVien": "NGUYỄN AN KHƯƠNG",
+        "emailGiangVien": "nakhuong@hcmut.edu.vn"
+      },
+      {
+        "id": 9780,
+        "maGiangVien": "004075",
+        "tenGiangVien": "TRẦN HỒNG TÀI",
+        "emailGiangVien": "thtai@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "4_3_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO1011 - Kỹ thuật Lập trình",
+        "en": "CO1011 - Programming Fundamentals"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật Lập trình",
+        "en": "Programming Fundamentals"
+      },
+      "mamonhoc": "CO1011"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88602,
+      "stt": 1,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root Evaluation Activity"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root Evaluation Activity"
+      }
+    },
+    {
+      "id": 88603,
+      "stt": 1,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "88602",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Classroom exercises"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Classroom exercises"
+      }
+    },
+    {
+      "id": 88604,
+      "stt": 2,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88602",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kì",
+        "en": "Mid-term exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kì",
+        "en": "Mid-term exam"
+      }
+    },
+    {
+      "id": 88605,
+      "stt": 3,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "88602",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      }
+    },
+    {
+      "id": 88606,
+      "stt": 4,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "88602",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109417,
+      "stt": 1,
+      "buoi": "1-3",
+      "chuandaurachitiet": [
+        {
+          "id": 144244,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182197,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Vận dụng được các phép chứng minh toán học, và qui tắc suy luận",
+              "en": "Apply proving methods and rule of inferences"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234724,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234757,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234681,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234734,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144249,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182193,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả định nghĩa về logic mệnh đề và logic vị từ ",
+              "en": "Describe definition of propositional and predicate logic"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234685,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234686,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234735,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234679,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144240,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182196,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Biểu diễn logic của các bài toán trong ngành máy tính",
+              "en": " Logically describe problems arising in Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234725,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234687,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234736,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234743,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1.\tGiới thiệu\n1.1. Vai trò của môn học trong chương trình đào tạo và các ứng dụng thực tiễn\n1.2. Giới thiệu phương pháp học\n1.3. Các phần mềm\nYêu cầu tự học đ/v sinh viên: 1 giờ\n\nChương 2.\tLogic và Phép chứng minh\n2.1.\tLogic mệnh đề, logic vị từ\n2.2. Quy tắc suy luận\n2.3.\tCác phương pháp chứng minh\n2.4.\tỨng dụng (optional)\nYêu cầu tự học đ/v sinh viên: 6 giờ\nGiáo trình: Chương 1\n",
+        "en": "Chapter 1. Introduction\n1.1. The role of the course in the Computer Science program and some practical applications\n1.2. Introduction to learning methods\n1.3. Softwares\nSelf-study requirements for students:  1 hour\n\nChapter 2. Logic and Proofs\n2.1. Propositional logic, predicates, and quantifiers\n2.2. Rule of inferences\n2.3. Proofing methods\n2.4. Applications (optional)\nSelf-study requirements for students: 6 hours\nTextbook: Chapter 1"
+      }
+    },
+    {
+      "id": 109414,
+      "stt": 2,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 144234,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182198,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+              "en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234711,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234688,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234712,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234689,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144250,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182194,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Ghi nhớ được các khái niệm về tập hợp, ánh xạ, quan hệ, đồ thị, phép đếm, xác suất trong cấu trúc rời rạc ",
+              "en": "Memorize basic concepts of sets, functions, relations, graphs, counting, and probability in discrete structures"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234690,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234691,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234692,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234744,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Lý thuyết tập hợp\n3.1.\tTập hợp \n3.2. Các phép toán trên tập hợp\nYêu cầu tự học đ/v sinh viên: 6 giờ\nGiáo trình: Chương 2\n\nChương 4. Hàm số\n4.1. Ánh xạ và Hàm số\n4.2. Các tính chất của hàm số: đơn ánh, toàn ánh, song ánh, hàm hợp\n4.3. Các hàm số đặc biêt, dãy số, hàm đệ quy\nYêu cầu tự học đ/v sinh viên: 10 giờ\nGiáo trình: Chương 2 &3 &5\n",
+        "en": "Chapter 3. Set Theory\n3.1. Set\n3.2. Set operators\nSelf-study requirements for students: 6 hours\nTextbook: chapter 2 &3 &5\n\nChapter 4. Functions\n4.1. Mapping & function\n4.2.Properties of functions\n4.3. Special functions, sequences, recursive functions\nSelf-study requirements for students: 10 hours\nTextbook: chapter 2"
+      }
+    },
+    {
+      "id": 109413,
+      "stt": 3,
+      "buoi": "5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 144243,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182198,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+              "en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234745,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234693,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234694,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234695,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144235,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182194,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Ghi nhớ được các khái niệm về tập hợp, ánh xạ, quan hệ, đồ thị, phép đếm, xác suất trong cấu trúc rời rạc ",
+              "en": "Memorize basic concepts of sets, functions, relations, graphs, counting, and probability in discrete structures"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234716,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234747,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234697,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234698,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5.\tQuan hệ\n5.1.\tĐịnh nghĩa, cách biểu diễn, quan hệ hai ngôi\n5.2. Các tính chất của quan hệ, quan hệ tương đương\n5.3.\tLớp tương đương, quan hệ thứ tự một phần & toàn phần\nYêu cầu tự học đ/v sinh viên: 12 giờ\nGiáo trình: Chương 09\n",
+        "en": "Chapter 5. Relations\n5.1. Definition, representation, binary relations\n5.2. Properties of relations, equivalence relations\n5.3. Equivalence classes, partial and total order relations\nSelf-study requirement for students: 12 hours\nTextbook: Chapter 09"
+      }
+    },
+    {
+      "id": 109411,
+      "stt": 4,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 144241,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182194,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Ghi nhớ được các khái niệm về tập hợp, ánh xạ, quan hệ, đồ thị, phép đếm, xác suất trong cấu trúc rời rạc ",
+              "en": "Memorize basic concepts of sets, functions, relations, graphs, counting, and probability in discrete structures"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234696,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234746,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234715,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234680,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144232,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182198,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+              "en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234748,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234726,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234717,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234749,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144242,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182200,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thực hiện được các tính toán trên các bài toán cơ bản đã được mô hình hóa thành các cấu trúc rời rạc",
+              "en": "Operate/Compute on basic problems modeled as discrete structures."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234727,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234750,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234718,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234728,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Phép đếm\n6.1. Giới thiệu\n6.2. Phương pháp đếm\n6.3. Nguyên tắc chuồng bồ câu\n6.4. Hoán vị, tổ hợp\nYêu cầu tự học đ/v sinh viên: 8 giờ\nGiáo trình: Chương 06 & 08\n",
+        "en": "Chapter 6. Counting\n6.1. Introduction\n6.2. Counting method\n6.3. Pigeonhole principle\n6.4. Permutation, combination\nSelf-study requirement for students: 8 hours\nTextbook: Chapter 06 & 08"
+      }
+    },
+    {
+      "id": 109410,
+      "stt": 5,
+      "buoi": "8-9",
+      "chuandaurachitiet": [
+        {
+          "id": 144247,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182194,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Ghi nhớ được các khái niệm về tập hợp, ánh xạ, quan hệ, đồ thị, phép đếm, xác suất trong cấu trúc rời rạc ",
+              "en": "Memorize basic concepts of sets, functions, relations, graphs, counting, and probability in discrete structures"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234751,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234699,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234729,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234752,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144239,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182198,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+              "en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234719,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234737,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234700,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 234753,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144248,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182202,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Tính toán xác suất của các sự kiện, xác suất có điều kiện, kỳ vọng, áp dụng các mô hình nhi thức",
+              "en": "Compute probabilities of events, conditional ones, expectation, apply Binomial models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234730,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234701,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234731,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234702,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Xác suất rời rạc\n7.1. Giới thiệu,  biến ngẫu nhiên rời rạc\n7.2. Một số quy tắc cơ bản\n7.3. Xác suất có điều kiện\n7.4. Kỳ vọng, phương sai, độ lệch chuẩn\n7.5. Các mô hình xác suất cơ bản\nYêu cầu tự học đ/v sinh viên: 12 giờ\nGiáo trình: Chương 7\n\n",
+        "en": "Chapter 7. Discrete Probability\n7.1. Introduction, Discrete Random Variables\n7.2. Some Basic Rules\n7.3. Conditional Probability\n7.4. Expectation, Variance, Standard Deviation\n7.5. Basic Probability Models\nSelf-study requirement for students: 12 hours\nTextbook: Chapter 7"
+      }
+    },
+    {
+      "id": 109412,
+      "stt": 6,
+      "buoi": "10-11",
+      "chuandaurachitiet": [
+        {
+          "id": 144245,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182200,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thực hiện được các tính toán trên các bài toán cơ bản đã được mô hình hóa thành các cấu trúc rời rạc",
+              "en": "Operate/Compute on basic problems modeled as discrete structures."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234703,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234738,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234758,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234704,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144233,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182198,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+              "en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234739,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234759,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234754,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234720,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144238,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182194,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Ghi nhớ được các khái niệm về tập hợp, ánh xạ, quan hệ, đồ thị, phép đếm, xác suất trong cấu trúc rời rạc ",
+              "en": "Memorize basic concepts of sets, functions, relations, graphs, counting, and probability in discrete structures"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234755,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234740,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234676,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234721,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. Lý thuyết đồ thị\n8.1.\tKhái niệm cơ bản: đồ thị vô hướng, có hướng\n8.2.\tMột số dạng đồ thị đặc biệt: đồ thị phân đôi, đồ thị đầy đủ, đồ thị vòng, đồ thị phẳng, đồ thị đồng cấu, đồ thị con...\n8.3.\tBiểu diễn đồ thị, đồ thị đẳng cấu\nYêu cầu tự học đ/v sinh viên: 16 giờ\nGiáo trình: chương 10\n",
+        "en": "Chapter 8. Graph Theory\n8.1. Basic concepts: undirected and directed graphs\n8.2. Some special types of graphs: Bipartite graphs, complete graphs, Cycles, planar graphs, homomorphic, subgraphs...\n8.3. Graph representations, isomorphic graphs\nSelf-study requirements for students: 16 hours\nTextbook: chapter 10"
+      }
+    },
+    {
+      "id": 109416,
+      "stt": 7,
+      "buoi": "12-13",
+      "chuandaurachitiet": [
+        {
+          "id": 144246,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182198,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+              "en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234705,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234682,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234706,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234683,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144236,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182200,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thực hiện được các tính toán trên các bài toán cơ bản đã được mô hình hóa thành các cấu trúc rời rạc",
+              "en": "Operate/Compute on basic problems modeled as discrete structures."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234707,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234722,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234708,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234741,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9. Tính liên thông trong đồ thị\n9.1.\tĐường đi và chu trình, đồ thị liên thông, thành phần liên thông\n9.2.\tĐường đi/chu trình Hamilton/Euler\n9.3.\tCác giải thuật tìm đường đi ngắn nhất\n9.4. Một số bài toán trên đồ thị: tô màu, xếp lịch, TSP,  đường đi ngắn thứ K-th...\nYêu cầu tự học đ/v sinh viên: 30 giờ\nGiáo trình: chương 10\n",
+        "en": "Chapter 9. Graph Connectivity\n9.1. Paths and circuits, connected graphs, connected components\n9.2. Hamiltonian/Euler paths/cycles\n9.3. Shortest path problems\n9.4. Other problems on graphs: Coloring, scheduling, TSP, Kth shortest path\nSelf-study requirement for students: 30 hours\nTextbook: Chapter 10"
+      }
+    },
+    {
+      "id": 109415,
+      "stt": 8,
+      "buoi": "14-15",
+      "chuandaurachitiet": [
+        {
+          "id": 144251,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182198,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+              "en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234732,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234709,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234710,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234742,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144237,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182200,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thực hiện được các tính toán trên các bài toán cơ bản đã được mô hình hóa thành các cấu trúc rời rạc",
+              "en": "Operate/Compute on basic problems modeled as discrete structures."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234756,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234723,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234677,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234678,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144252,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giảng dạy phần lý thuyết, thảo luận và hướng dẫn cách giải quyết vấn đề được đặt ra",
+            "en": "The lecturer covers theoretical frameworks, moderates classroom debates, and mentors students in addressing assigned challenges."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên đọc và tìm hiểu trước nội dung bài giảng trước khi học, thảo luận và tư duy cách giải quyết vấn đề, nội dung bài giảng, làm bài tập theo hướng dẫn",
+            "en": "Students are expected to conduct pre-lecture research, engage in critical discussions, and apply problem-solving strategies to assigned exercises under guidance."
+          },
+          "chuandaura": {
+            "id": 182201,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thực hiện được giải thuật tối ưu cho các bài toán cơ bản trong lý thuyết đồ thị",
+              "en": "Implement optimal algorithms for basic problems in graph theory"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 234713,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88603,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Classroom exercises"
+                }
+              }
+            },
+            {
+              "id": 234714,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88604,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Mid-term exam"
+                }
+              }
+            },
+            {
+              "id": 234733,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88605,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 234684,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 88606,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10.\tCây\n10.1. Các khái niệm, tính chất\n10.2. Các phép duyệt cây\n10.3. Cây nhị phân, cây quyết định, cây nhị phân tìm kiếm, cây tiền tố, trung tố, hậu tố\n10.4. Cây phủ tối thiểu\nYêu cầu tự học đ/v sinh viên: 16 giờ\nGiáo trình: chương 11",
+        "en": "Chapter 6. Trees\n10.1. Concepts and properties\n10.2. Tree traversal operations\n10.3. Binary trees, decision trees, binary search trees, Infix- prefix- postfix\n10.4. Minimum spanning trees\nSelf-study requirements for students: 16 hours\nTextbook: chapter 11"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 182193,
+      "ma": "L.O.1.1",
+      "ten_vi": "Mô tả định nghĩa về logic mệnh đề và logic vị từ ",
+      "ten_en": "Describe definition of propositional and predicate logic",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 182194,
+      "ma": "L.O.1.2",
+      "ten_vi": "Ghi nhớ được các khái niệm về tập hợp, ánh xạ, quan hệ, đồ thị, phép đếm, xác suất trong cấu trúc rời rạc ",
+      "ten_en": "Memorize basic concepts of sets, functions, relations, graphs, counting, and probability in discrete structures",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 182196,
+      "ma": "L.O.2.1",
+      "ten_vi": "Biểu diễn logic của các bài toán trong ngành máy tính",
+      "ten_en": " Logically describe problems arising in Computing",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 182197,
+      "ma": "L.O.2.2",
+      "ten_vi": "Vận dụng được các phép chứng minh toán học, và qui tắc suy luận",
+      "ten_en": "Apply proving methods and rule of inferences",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 182198,
+      "ma": "L.O.2.3",
+      "ten_vi": "Mô hình hóa bài toán bằng cách sử dụng các cấu trúc tổ hợp - rời rạc (tập hợp, ánh xạ, quan hệ, đồ thị, xác suất ...)",
+      "ten_en": "Problem modeling by using discrete-combinatorial structures (sets, maps, relations, graphs, probabilities ...)",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 182200,
+      "ma": "L.O.3.1",
+      "ten_vi": "Thực hiện được các tính toán trên các bài toán cơ bản đã được mô hình hóa thành các cấu trúc rời rạc",
+      "ten_en": "Operate/Compute on basic problems modeled as discrete structures.",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 182201,
+      "ma": "L.O.3.2",
+      "ten_vi": "Thực hiện được giải thuật tối ưu cho các bài toán cơ bản trong lý thuyết đồ thị",
+      "ten_en": "Implement optimal algorithms for basic problems in graph theory",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 182202,
+      "ma": "L.O.3.3",
+      "ten_vi": "Tính toán xác suất của các sự kiện, xác suất có điều kiện, kỳ vọng, áp dụng các mô hình nhi thức",
+      "ten_en": "Compute probabilities of events, conditional ones, expectation, apply Binomial models",
+      "hddg": [
+        {
+          "id": 88603,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Classroom exercises"
+        },
+        {
+          "id": 88604,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 88605,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88606,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Cấu trúc Rời rạc cho Khoa học Máy tính",
+  "tenmonhoc_eng": "Discrete Structures for Computing",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 1
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1049 @@
+{
+  "ma": "DCMH.CO5133.1.1",
+  "phienban": "1.1",
+  "capnhat": "11/09/2026 15:45",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO5133",
+  "ten": "CO5133 - Tính toán song song",
+  "ten_eng": "CO5133 - Parallel Computing",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học trình bày các kiến trúc và công nghệ mới cho hệ thống tính toán song song và phân bố, cũng như những ứng dụng mới. Những hạ tầng tính toán lớn và hiện đại sẽ được giới thiệu. Tuy nhiên, mục tiêu chính của môn học là hướng đến những khía cạnh thuật toán của tính toán song song. Những bài toán tính toán cơ bản sẽ được giới thiệu kèm với những thuật toán song song liên quan. Để hiểu được ý nghĩa của tính toán song song trong thực tế, sinh viên sẽ được giới thiệu một số ứng dụng tính toán lớn. Hơn thế nữa, môn học cũng sẽ giới thiệu ứng dụng của tính toán song song trong những ứng dụng mới có thiên hướng về dữ liệu.<br></p>",
+      "en": "<p>This course covers the architecture and enabling technologies of parallel and distributed computing systems and their innovative applications. We will cover scalable multiprocessors, distributed clusters, and modern computing infrastructures. Specifically, the course mainly focuses on algorithmic aspects of parallel computing under the view point of application-oriented users. Parallel algorithms are studied in solving basic computing problems. Then, the knowledge will be presented in real-world applications. Moreover, the course also presents application of parallel computing emerging data-intensive applications.</p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Nội dung chính của môn học gồm các phần sau:</p><ul><li>Kiến trúc song song hiện đại</li><li>Thiết kế và xây dựng thuật toán song song</li><li>Thuật toán song song cho các bài toán cơ bản</li><li>Ứng dụng tính toán thực tế</li></ul>",
+      "en": "<p>Main topics of the course include, but not limited to:</p><ul><li>Modern parallel computing architectures and infrastructures</li><li>Designing and building parallel programs</li><li>Parallel algorithms for basic computing problems</li><li>Real-world computational and data-intensive applications</li></ul>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>Giáo trình:</b></p><p>[1] \"The Art of Multiprocessor Programming\",&nbsp;Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear,&nbsp;Second Edition,&nbsp;Morgan Kaufmann,&nbsp;2020.</p><p>[2] \"Shared-Memory Synchronization\",&nbsp;Michael L. Scott , Trevor Brown, Second Edition,&nbsp;Springer, 2025.</p><p>[3] \"Introduction to Parallel Computing﻿\",&nbsp;﻿Ananth Grama, Anshul Gupta, George Karypis, Vipin Kumar﻿, Second Edition,&nbsp;﻿Addison-Wesley﻿, 2023.</p><p>[4] \"Parallel Algorithms and Architectures\",&nbsp;﻿Michel Cosnard, Denis Trystram﻿, First Edition,&nbsp;﻿International Thomson Computer Press﻿, 1995.</p><p>[5] \"Parallel Computing: Theory and Practice\", Michael J. Quinn﻿, ﻿Subsequent Edition,&nbsp;﻿McGraw-Hill College﻿, 1993.</p><p>[6] \"Designing and Building Parallel Programs: Concepts and Tools for Parallel Software Engineering﻿\",&nbsp;﻿Ian Foster, First Edition, Pearson﻿,&nbsp;﻿2019.</p><p><b></b><b>TLTK:\n\n</b><br></p><p>[7] \"C++ Concurrency in Action\", Anthony Williams, Second Edition, Manning, 2019.&nbsp;</p><p>﻿[8] \"A Primer on Memory Consistency and Cache Coherence\", Vijay \nNagarajan, Daniel J. Sorin, Mark D. Hill, David A. Wood, Second \nEdition, Springer, 2020.</p><p>[9] Internet.</p><br><br><br>",
+      "en": "<p>\n</p><p><b>Textbooks:</b></p><p>[1] \"The Art of Multiprocessor Programming\", Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear, Second Edition, Morgan Kaufmann, 2020.</p><p>[2] \"Shared-Memory Synchronization\", Michael L. Scott , Trevor Brown, Second Edition, Springer, 2025.</p><p>[3] \"Introduction to Parallel Computing\", Ananth Grama, Anshul Gupta, George Karypis, Vipin Kumar, Second Edition, Addison-Wesley, 2023.</p><p>[4] \"Parallel Algorithms and Architectures\", Michel Cosnard, Denis Trystram, First Edition, International Thomson Computer Press, 1995.</p><p>[5] \"Parallel Computing: Theory and Practice\", Michael J. Quinn, Subsequent Edition, McGraw-Hill College, 1993.</p><p>[6] \"Designing and Building Parallel Programs: Concepts and Tools for Parallel Software Engineering\", Ian Foster, First Edition, Pearson, 2019.</p><p><b>Reference books:\n\n</b><br></p><p>[7] \"C++ Concurrency in Action\", Anthony Williams, Second Edition, Manning, 2019. </p><p>[8] \"A Primer on Memory Consistency and Cache Coherence\", Vijay \nNagarajan, Daniel J. Sorin, Mark D. Hill, David A. Wood, Second \nEdition, Springer, 2020.</p><p>[9] Internet.</p>\n\n<p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n</p><p>\n</p><p>\n</p><p>\n</p><p><b>Liêm chính học thuật và sử dụng công cụ AI:</b></p><p></p><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép \nvới mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ \npháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI\n tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử \ndụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử\n dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul><p></p>\n\n<p></p>\n\n<p></p>",
+      "en": "<p>\n</p><p>\n</p><p>\n</p><p>\n</p><p><strong>Academic Integrity and the Use of AI Tools:</strong></p><p></p><ul><li>Students must comply with the university’s academic integrity regulations.</li><li>The\n use of AI tools (e.g., ChatGPT, Copilot, etc.) is only permitted for \nsupportive purposes such as searching for materials, referencing ideas, \nchecking grammar, or suggesting presentation methods. Students must not \nsubmit work that is entirely or largely generated by AI.</li><li>If\n AI is used during the completion of an assignment, students must \nclearly state the tool and how it was used in the references or notes \nsection.</li><li>Any misuse of AI for cheating purposes \nwill be considered a violation of academic integrity and will be handled\n in accordance with the university’s regulations.</li></ul>\n\n<p></p>\n\n<p></p>\n\n<p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 10252,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ hướng Ứng dụng Ngành Khoa Học Máy Tính",
+        "en": "Coursework Master Program in Computer Science"
+      }
+    },
+    {
+      "id": 11057,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Khoa học máy tính",
+        "en": "Coursework Master Program in Computer Science"
+      }
+    },
+    {
+      "id": 10370,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Khoa học máy tính",
+        "en": "Coursework Master Program in Computer Science"
+      }
+    },
+    {
+      "id": 11059,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Khoa học máy tính",
+        "en": "Research-intensive Master Program in Computer Science\t"
+      }
+    },
+    {
+      "id": 11058,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Khoa học máy tính",
+        "en": "Research-oriented Master Program in Computer Science"
+      }
+    },
+    {
+      "id": 10672,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Khoa học máy tính",
+        "en": "Research-intensive Master Program in Computer Science"
+      }
+    },
+    {
+      "id": 10709,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ Dạy và học bằng tiếng Anh hướng ứng dụng ngành Khoa học máy tính",
+        "en": "English-taught Coursework Master Program in Computer Science"
+      }
+    },
+    {
+      "id": 10669,
+      "ma": "NG_8480101",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Khoa học máy tính",
+        "en": "Research-oriented Master Program in    \t Computer Science"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 4659,
+      "ma": "003726",
+      "ten": "DIỆP THANH ĐĂNG"
+    },
+    {
+      "id": 1230,
+      "ma": "001742",
+      "ten": "TRẦN VĂN HOÀI"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 40,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 963,
+      "maBoMon": "PMH",
+      "tenBoMon": {
+        "vi": "Hệ Thống và Mạng Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Nhóm chuyên môn Hệ thống và Mạng máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 4659,
+        "maGiangVien": "003726",
+        "tenGiangVien": "DIỆP THANH ĐĂNG",
+        "emailGiangVien": "dang@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 97588,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 97589,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "97588",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Group assignments"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Group assignments"
+      }
+    },
+    {
+      "id": 97590,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "97588",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 121818,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 162975,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283567,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Khái quát hóa vai trò của tính toán song song trong những bài toán kỹ thuật và khoa học.",
+              "en": "Generalize the roles of parallel computing in engineering and science computing problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268986,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97589,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignments"
+                }
+              }
+            },
+            {
+              "id": 268999,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97590,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu chung\n1. Nhu cầu của tính toán song song\n2. Ứng dụng của tính toán song song",
+        "en": "Chapter 1: Introduction\n1. The need for Parallel Computing\n2. Applications of Parallel Computing"
+      }
+    },
+    {
+      "id": 121817,
+      "stt": 2,
+      "buoi": "2-3",
+      "chuandaurachitiet": [
+        {
+          "id": 162974,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283568,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Mô hình hóa bài toán thành các bài toán con có thể song song hóa được.",
+              "en": "Model the problem as a set of parallelizable subproblems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268988,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97589,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignments"
+                }
+              }
+            },
+            {
+              "id": 268989,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97590,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Kiến trúc máy tính song song\n1. Phân loại kiến trúc dựa trên Flynn\n2. Mô hình máy tính song song: mô hình trừu tượng, mô hình vật lý\n3. Tính toán song song có tính khả mở",
+        "en": "Chapter 2: Parallel Computer Architectures\n1. Flynn's classification of computer architectures\n2. Parallel computer models: Abstract models and physical models\n3. Scalable Parallel Computing"
+      }
+    },
+    {
+      "id": 121819,
+      "stt": 3,
+      "buoi": "4-5",
+      "chuandaurachitiet": [
+        {
+          "id": 162976,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283569,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phát triển thuật toán song song.",
+              "en": "Develop parallel algorithms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268998,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97589,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignments"
+                }
+              }
+            },
+            {
+              "id": 268990,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97590,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Thiết kế và xây dựng chương trình song song\n1. Các bước khi thiết kế và xây dựng\n2. Phân rã dữ liệu và công việc\n3. Những khía cạnh trong giao tiếp\n4. Những mô hình thiết kế chương trình song song",
+        "en": "Chapter 3: Design and development of parallel programs\n1. Steps in design and development\n2. Data decomposition and task decomposition\n3. Communication aspects\n4. Design patterns for Parallel Computing"
+      }
+    },
+    {
+      "id": 121820,
+      "stt": 4,
+      "buoi": "6-8",
+      "chuandaurachitiet": [
+        {
+          "id": 162977,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283569,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phát triển thuật toán song song.",
+              "en": "Develop parallel algorithms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268995,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97589,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignments"
+                }
+              }
+            },
+            {
+              "id": 268996,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97590,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162972,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283570,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phản biện học thuật các hiện thực thuật toán song song khác nhau.",
+              "en": "Critically review different implementations of parallel algorithms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268997,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97589,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignments"
+                }
+              }
+            },
+            {
+              "id": 268992,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97590,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Thuật toán song song cho những bài toán tính toán cơ bản\n1. Thuật toán sắp xếp: Quicksort, bucket and sample sort\n2. Thuật toán đồ thị: Minimum spanning tree, shortest path problems, algorithms for sparse graphs\n3. Thuật toán ma trận: Dense matrix algorithms, sparse matrix algorithms\n4. Các thuật toán khác",
+        "en": "Chapter 4: Parallel algorithms for fundamental computational problems\n1. Sorting algorithms: Quicksort, Bucket and sample Sort\n2. Graph algorithms: Minimum spanning tree, shortest path problems, algorithms for sparse graphs...\n3. Matrix algorithms: Dense matrix algorithms and sparse matrix algorithms\n4. Other algorithms"
+      }
+    },
+    {
+      "id": 121821,
+      "stt": 5,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 162973,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecturr"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283568,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Mô hình hóa bài toán thành các bài toán con có thể song song hóa được.",
+              "en": "Model the problem as a set of parallelizable subproblems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268993,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97589,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignments"
+                }
+              }
+            },
+            {
+              "id": 268987,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97590,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 162978,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283569,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phát triển thuật toán song song.",
+              "en": "Develop parallel algorithms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268991,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97589,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group assignments"
+                }
+              }
+            },
+            {
+              "id": 268994,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97590,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Ứng dụng thực tế\n1. Giới thiệu ứng dụng thực tế\n2. Sinh viên tham gia giải quyết các thách thức tính toán",
+        "en": "Chapter 5: Practical applications\n1. Introduction to practical applications\n2. Student participation in solving computational challenges"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 283567,
+      "ma": "L.O.1.1",
+      "ten_vi": "Khái quát hóa vai trò của tính toán song song trong những bài toán kỹ thuật và khoa học.",
+      "ten_en": "Generalize the roles of parallel computing in engineering and science computing problems.",
+      "hddg": [
+        {
+          "id": 97589,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignments"
+        },
+        {
+          "id": 97590,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283568,
+      "ma": "L.O.2.1",
+      "ten_vi": "Mô hình hóa bài toán thành các bài toán con có thể song song hóa được.",
+      "ten_en": "Model the problem as a set of parallelizable subproblems.",
+      "hddg": [
+        {
+          "id": 97589,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignments"
+        },
+        {
+          "id": 97590,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283569,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phát triển thuật toán song song.",
+      "ten_en": "Develop parallel algorithms.",
+      "hddg": [
+        {
+          "id": 97589,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignments"
+        },
+        {
+          "id": 97590,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283570,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phản biện học thuật các hiện thực thuật toán song song khác nhau.",
+      "ten_en": "Critically review different implementations of parallel algorithms.",
+      "hddg": [
+        {
+          "id": 97589,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group assignments"
+        },
+        {
+          "id": 97590,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Tính toán song song",
+  "tenmonhoc_eng": "Parallel Computing",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

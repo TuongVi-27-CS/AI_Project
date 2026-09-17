@@ -1,0 +1,2193 @@
+{
+  "ma": "DCMH.EE3037.9.1",
+  "phienban": "9.1",
+  "capnhat": "27/01/2026 08:11",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3037",
+  "ten": "EE3037 - Điện tử Y sinh",
+  "ten_eng": "EE3037 - Biomedical Electronics",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n<p>Môn học trang bị cho sinh viên nền tảng về các tín hiệu điện sinh học và các phương pháp đo lường trong kỹ thuật y sinh. Sau khi hoàn thành môn học, sinh viên có khả năng:</p>\n<ul>\n<li>\n<p><strong>Mô tả</strong> sự hình thành và đặc tính của các tín hiệu điện sinh học cũng như các điện cực dùng để thu nhận tín hiệu.</p>\n</li>\n<li>\n<p><strong>Phân tích, so sánh và thiết kế</strong> các mạch đo cho các tín hiệu điện sinh học cơ bản như ECG, EEG, EMG và EOG.</p>\n</li>\n<li>\n<p><strong>Phân tích, mô tả và thiết kế</strong> các mạch đo các thông số liên quan đến hệ tuần hoàn như đo huyết áp, âm thanh tim, lưu lượng máu và các chỉ số tim mạch.</p>\n</li>\n<li>\n<p><strong>Áp dụng</strong> các phương pháp xác suất thống kê và các kỹ thuật học máy cơ bản để xử lý và phân tích tín hiệu y sinh.</p></li></ul>\n\n<br></p>",
+      "en": "<p>\n\n<p>The course equips students with foundational knowledge of bioelectrical signals and measurement techniques in biomedical engineering. Upon completion of the course, students will be able to:</p>\n<ul>\n<li>\n<p><strong>Describe</strong> the generation and characteristics of bioelectrical signals as well as electrodes used for signal acquisition.</p>\n</li>\n<li>\n<p><strong>Analyze, differentiate, and design</strong> measurement circuits for basic bioelectrical signals, including ECG, EEG, EMG, and EOG.</p>\n</li>\n<li>\n<p><strong>Analyze, describe, and design</strong> measurement circuits for physiological parameters related to the cardiovascular system, including blood pressure, heart sounds, blood flow, and cardiovascular indices.</p>\n</li>\n<li>\n<p><strong>Apply</strong> basic probability/statistics methods, as well as machine learning techniques, to process and analyze biomedical signals.</p></li></ul>\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>\n\nMôn học cung cấp kiến thức nền tảng về các tín hiệu và kỹ thuật đo lường trong kỹ thuật y sinh. Nội dung bao gồm nguồn gốc và đặc tính của các tín hiệu điện sinh học và giao diện điện cực; phân tích và thiết kế các mạch đo cho các tín hiệu điện sinh học cơ bản như ECG, EEG, EMG và EOG; đo lường các thông số tim mạch như huyết áp, âm thanh tim và lưu lượng máu; cùng các phương pháp xử lý dữ liệu sử dụng xác suất/thống kê và các kỹ thuật học máy cơ bản. Môn học kết hợp giữa lý thuyết và thực hành thiết kế nhằm phát triển kỹ năng giải quyết vấn đề trong lĩnh vực thiết bị đo lường y sinh.\n\n</p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><p>\n\nThis course provides fundamental knowledge of biomedical signals and measurement techniques. Topics include the origin and characteristics of bioelectrical signals and electrode interfaces; analysis and circuit design for basic biomedical signals such as ECG, EEG, EMG, and EOG; measurement of cardiovascular parameters, including blood pressure, heart sounds, and blood flow; and introductory data processing methods using probability/statistics and basic machine learning. The course integrates theoretical concepts with practical design experience to develop problem-solving skills in biomedical instrumentation.\n\n</p>\n\n\n\n\n\n<br><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p>Sách, Giáo trình chính:</p>\n\n<p>[1] John G. Webster, Medical Instrumentation:\nApplication and Design, 4th Edition, John Wiley, 2009.</p>\n\n<p><br></p>\n\n<p>Sách tham khảo:</p>\n\n<p>[2] Barbara Christe, Introduction to\nbiomedical instrumentation: The technology of patient care, Cambridge\nUniversity Press, 2009.</p>\n\n<p>[3] Willis J.Tompskins, Biomedical Digital\nSignal Processing, Prentice-Hall, 1993.</p>\n\n<p>[4] D. Jennings, A. Flint, B.C.H. firton and\nL.D.M. Nokes, Introduction to Medical Electronics Applications, Edward Arnold,\n1995.</p><p></p>",
+      "en": "<p></p><p>Book:&nbsp;</p>\n\n<p>[1] John G. Webster, Medical Instrumentation:\nApplication and Design, 4th Edition, John Wiley, 2009.</p>\n\n<p></p><br>Reference books:<p></p>\n\n<p>[2] Barbara Christe, Introduction to\nbiomedical instrumentation: The technology of patient care, Cambridge\nUniversity Press, 2009.</p>\n\n<p>[3] Willis J.Tompskins, Biomedical Digital\nSignal Processing, Prentice-Hall, 1993.</p>\n\n<p>[4] D. Jennings, A. Flint, B.C.H. firton and\nL.D.M. Nokes, Introduction to Medical Electronics Applications, Edward Arnold,\n1995.</p><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học</p><ul><li>&nbsp;Kiểm tra: 30% (Kiểm tra ngẫu nhiên tại lớp: 10% và bài tập nhóm về nhà: 20%)</li><li>&nbsp;BTL: 30% (Bài tập dự án và thuyết trình nhóm)</li><li>&nbsp;Thi: 40%</li></ul><p><i></i></p><p><br></p><br><p></p>",
+      "en": "<p></p><p>Documents are uploaded to BKEL weekly. Students download, print, and bring them to class. The final course score is assessed throughout the course.</p><p></p><ul><li>Test: 30%&nbsp; (Random exam in class: 10% and Do exercises in group: 20%)</li><li>Project: 30%&nbsp; (Do big project and present in class)</li><li>Final exam: 40%</li></ul><p></p><br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1390,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2018 old)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2018)"
+      }
+    },
+    {
+      "id": 1249,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2019)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 1389,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2018)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1467,
+      "ma": "NG_COD_TN",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa +1",
+        "en": "Áp dụng cho tất cả ngành của khóa +1"
+      }
+    },
+    {
+      "id": 1391,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2018)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2018)"
+      }
+    },
+    {
+      "id": 1250,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (2019)",
+        "en": "Electronics - Telecommunications Engineering (2019)"
+      }
+    },
+    {
+      "id": 1394,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2021)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1395,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2021)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2021)"
+      }
+    },
+    {
+      "id": 1387,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2019)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2019)"
+      }
+    },
+    {
+      "id": 1385,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (môn khoa Điện)",
+        "en": "K19 môn khoa Điện"
+      }
+    },
+    {
+      "id": 1396,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (2021)",
+        "en": "Electronics - Telecommunications Engineering (2021)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 513,
+      "ma": "003169",
+      "ten": "Nguyễn Lý Thiên Trường"
+    },
+    {
+      "id": 8785,
+      "ma": "003961",
+      "ten": "Nguyễn Trung Hiếu"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 60,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Bộ môn Điện tử - P. 203B3",
+      "dienThoai": "0971290093"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 8785,
+        "maGiangVien": "003961",
+        "tenGiangVien": "Nguyễn Trung Hiếu",
+        "emailGiangVien": "hieunt@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2035 - Mạch điện tử",
+        "en": "EE2035 - Electronic Circuits"
+      },
+      "tenmonhoc_only": {
+        "vi": "Mạch điện tử",
+        "en": "Electronic Circuits"
+      },
+      "mamonhoc": "EE2035"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE1007 - Vật lý Bán dẫn",
+        "en": "EE1007 - Semiconductor Physics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vật lý Bán dẫn",
+        "en": "Semiconductor Physics"
+      },
+      "mamonhoc": "EE1007"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 70801,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Nội dung",
+        "en": "Nội dung"
+      }
+    },
+    {
+      "id": 70802,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "70801",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tại lớp",
+        "en": "In class exercises"
+      },
+      "noidung": {
+        "vi": "Bài tập tại lớp (5 bài) - 2%/bài",
+        "en": "In class exercises (5 exams) - 2%/exams"
+      }
+    },
+    {
+      "id": 70803,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "70801",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Homework for groups"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà (5 bài): 4%/bài ",
+        "en": "Homework for groups (5 exercises): 4%/exercise"
+      }
+    },
+    {
+      "id": 70804,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "70801",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Big Project"
+      },
+      "noidung": {
+        "vi": "Big Project - 30%",
+        "en": "Big Project - 30%"
+      }
+    },
+    {
+      "id": 70805,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "70801",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì ",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì - 40% ",
+        "en": "Final Exam - 40%"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 83802,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 106613,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": null
+          },
+          "chuandaura": {
+            "id": 179967,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các kỹ thuật đo các tín hiệu điện sinh học cơ bản",
+              "en": "(K, level 4) Analyze techniques for measuring basic bioelectrical signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166625,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166623,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106604,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Review the lecture, print out essential slides, and summarize yourself ) (Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179971,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các kỹ thuật đo các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 4) Analyze techniques for measuring parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166638,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166615,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106605,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179964,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(K, mức 2) Mô tả sự hình thành và đặc tính của các điện cực điện thế sinh học",
+              "en": "(K, level 2) Describe the origin, characteristics of biopotential electrodes"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166624,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166617,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106606,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179974,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng xác xuất thống kê cơ bản để phân tích các tín hiệu y sinh",
+              "en": "(K, level 4) Apply basic statistical probabilities to analyze biomedical signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166642,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166626,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1 – Khái niệm và đặc điểm cơ bản của thiết bị y sinh\n1.1 Thuật ngữ y học và thiết bị y sinh\n1.2 Hệ thống thiết bị y sinh tổng quát\n1.3 Các chế độ hoạt động\n1.4 Hạn chế đo lường y sinh\n1.5 Phân loại dụng cụ y sinh \n1.6 Các đầu vào gây nhiễu và sửa đổi \n1.7 Kỹ thuật giảm nhiễu\n1.8 Thống kê sinh học\n1.9 Các đặc tính tĩnh và động tổng quát \n1.10 Quy định về các thiết bị y sinh và tiêu chuẩn thiết kế ",
+        "en": "Chapter 1 – Basic concepts and characteristics of biomedical devices\n1.1 Medical terminology and medical devices\n1.2 General medical equipment system\n1.3 Operating modes\n1.4 Limitations on medical measurement\n1.5 Classification of biomedical instruments\n1.6 Jamming and Modification Inputs\n1.7 Correction Techniques\n1.8 Biostatistics\n1.9 General static and dynamic properties\n1.10 Regulations on biomedical devices and design standards"
+      }
+    },
+    {
+      "id": 83808,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 106614,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179971,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các kỹ thuật đo các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 4) Analyze techniques for measuring parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166643,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166644,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106607,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179967,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các kỹ thuật đo các tín hiệu điện sinh học cơ bản",
+              "en": "(K, level 4) Analyze techniques for measuring basic bioelectrical signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166601,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166602,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2 – Các phương pháp đo dùng trong lĩnh vực y sinh\n2.1 Phương pháp đo độ dịch chuyển\n2.2 Phương pháp đo quang học\n2.3 Phương pháp đo nhiệt độ ",
+        "en": "Chapter 2 – Measurement Methods Used in Biomedical Engineering\n2.1 Displacement measurement methods\n2.2 Optical measurement methods\n2.3 Temperature measurement methods"
+      }
+    },
+    {
+      "id": 83804,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 106602,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179968,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế các mạch đo các tín hiệu điện sinh học cơ bản",
+              "en": "(K, level 5) Design circuits for measuring basic bioelectrical signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166645,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166646,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106617,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179972,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế các mạch đo các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 5) Design circuits for measuring parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166620,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166632,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3 – Mạch xử lý tín hiệu dùng OPAMP\n3.1 OPAMP không lý tưởng\n3.2 Mạch khuếch đại \n3.3 Mạch so sánh\n3.4 Mạch chỉnh lưu\n3.5 Mạch lọc tích cực",
+        "en": "Chapter 3 – Signal processing circuits using OPAMPs\n3.1 Non-ideal OPAMPs\n3.2 Amplifier circuits\n3.3 Comparator circuits\n3.4 Rectifier circuits\n3.5 Active filter circuits"
+      }
+    },
+    {
+      "id": 83807,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 106615,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179966,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích đặc trưng của các tín hiệu điện sinh học cơ bản",
+              "en": "(K, level 4) Analyze the characteristics of basic bioelectrical signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166647,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166616,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166627,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            },
+            {
+              "id": 166603,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106608,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179963,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "(K, mức 2) Mô tả sự hình thành và đặc tính của tín hiệu điện sinh học",
+              "en": "(K, level 2) Describe the origin, characteristics of bioelectric signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166633,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166648,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166628,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            },
+            {
+              "id": 166649,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4 - Nguồn gốc của các điện thế sinh học\n4.1 Hoạt động điện của các tế bào dễ bị kích thích\n4.2 Trường dẫn khối\n4.3 Tổ chức chức năng của hệ thần kinh ngoại biên\n4.4 Điện thần kinh đồ (ENG = Electroneurogram)\n4.5 Điện cơ đồ (EMG = Electromyogram )\n4.6 Điện tâm đồ (ECG = Electrocardiogram)\n4.7 Điện võng mạc đồ (ERM = Electroretinogram)\n4.8 Điện não đồ (EEG = Electroencephalogram)\n4.9 Từ não đồ (MEG = Magnetoencephalogram)",
+        "en": "Chapter 4 - Origin of bioelectric potentials\n4.1 Electrical activity of susceptible excitable cells\n4.2 Mass conduction field\n4.3 Functional organization of the peripheral nervous system\n4.4 Electroneurograph (ENG = Electroneurogram)\n4.5 Electromyogram (EMG = Electromyogram )\n4.6 Electrocardiogram (ECG = Electrocardiogram)\n4.7 Electroretinogram (ERM = Electroretinogram)\n4.8 Electroencephalogram (EEG = Electroencephalogram)\n4.9 Magnetic Encephalogram (MEG = Magnetoencephalogram)"
+      }
+    },
+    {
+      "id": 83809,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 106612,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179975,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng các kỹ thuật học máy cơ bản để xử lý tín hiệu y sinh",
+              "en": "(K, level 4) Apply basic machine learning techniques to biomedical signal processing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166619,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166636,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166656,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106618,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": null
+          },
+          "chuandaura": {
+            "id": 179964,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(K, mức 2) Mô tả sự hình thành và đặc tính của các điện cực điện thế sinh học",
+              "en": "(K, level 2) Describe the origin, characteristics of biopotential electrodes"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166629,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166604,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166618,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            },
+            {
+              "id": 166605,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106616,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179974,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng xác xuất thống kê cơ bản để phân tích các tín hiệu y sinh",
+              "en": "(K, level 4) Apply basic statistical probabilities to analyze biomedical signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166614,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166641,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166637,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5 - Các điện cực điện thế sinh học\n5.1 Giao tiếp điện cực - điện phân\n5.2 Sự phân cực hóa học\n5.3 Các điện cực có phân cực và không phân cực\n5.4 Hành vi điện cực và mô hình mạch\n5.5 Giao tiếp điện cực - da và thành phần giả do chuyển động \n5.6 Điện cực ghi nhận bề mặt cơ thể\n5.7 Điện cực bên trong\n5.8 Mảng điện cực\n5.9 Điện cực vi mô\n5.10 Các điện cực dành cho kích thích điện với mô",
+        "en": "Chapter 5 - Biopotential Electrodes\n5.1 Electrode-electrolyte interface\n5.2 Polarization chemical\n5.3 Polarized and non-polarized electrodes\n5.4 Electrode behavior and circuit model\n5.5 Electrode interface - skin and prosthetic component due to movement\n5.6 Electrodes for body surface recognition\n5.7 Internal electrode\n5.8 Electrode array\n5.9 Microelectrode\n5.10 Electrodes for electrical stimulation of tissues"
+      }
+    },
+    {
+      "id": 83803,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 106609,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179967,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các kỹ thuật đo các tín hiệu điện sinh học cơ bản",
+              "en": "(K, level 4) Analyze techniques for measuring basic bioelectrical signals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166650,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166606,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166630,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            },
+            {
+              "id": 166639,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6 - Mạch đo tín hiệu điện thế sinh học\n6.1 Những yêu cầu cơ bản\n6.2 Điện tâm đồ\n6.3 Các vấn đề thường xuyên gặp phải\n6.4 Bảo vệ quá độ\n6.5 Chế độ cách chung và các mạch khử nhiễu khác\n6.6 Mạch khuếch đại cho các tín hiệu điện thế sinh học khác\n6.7 Thí dụ về mạch tiền khuếch đại điện thế sinh học\n6.8 Các bộ xử lý tín hiệu sinh học khác\n6.9 Máy giám sát tim\n6.10 Đo lường sinh học từ xa",
+        "en": "Chapter 6 - Circuits for Measuring Biopotential Signals\n6.1 Basic Requirements\n6.2 Electrocardiogram\n6.3 Frequently encountered problems\n6.4 Transient protection\n6.5 Common mode and other noise cancellation circuits\n6.6 Amplifier circuit for other biopotential signals\n6.7 Example of a biopotential preamplifier circuit\n6.8 Other biosignal processors\n6.9 Heart monitor\n6.10 Remote biomeasurement"
+      }
+    },
+    {
+      "id": 83801,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 106610,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179972,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế các mạch đo các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 5) Design circuits for measuring parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166651,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166652,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166621,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            },
+            {
+              "id": 166634,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106611,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179971,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các kỹ thuật đo các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 4) Analyze techniques for measuring parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166607,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166640,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166608,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            },
+            {
+              "id": 166622,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106619,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179970,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích đặc trưng của các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 4) Analyze the characteristics of parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166609,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166635,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166653,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70804,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big Project"
+                }
+              }
+            },
+            {
+              "id": 166610,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7 - Huyết áp và âm thanh tim\n7.1 Đo trực tiếp\n7.2 Phân tích hài của dạng sóng huyết áp\n7.3 Tính chất động của hệ thống đo áp suất\n7.4 Đo đáp ứng hệ thống\n7.5 Ảnh hưởng của các thông số hệ thống với đáp ứng\n7.6 Yêu cầu về băng thông để đo huyết áp\n7.7 Biến dạng điển hình của dạng sóng áp suất\n7.8 Hệ thống đo áp suất tĩnh mạch\n7.9 Âm thanh tim\n7.10 Tân thanh đồ (Phonocardiography)\n7.11 Đặt ống thông tim\n7.12 Ảnh hưởng của điện thế và động năng đối với các phép đo áp suất\n7.13 Đo gián tiếp huyết áp",
+        "en": "Chapter 7 - Blood pressure and heart sounds\n7.1 Direct measurement\n7.2 Harmonic analysis of blood pressure waveform\n7.3 Dynamic properties of pressure measuring systems\n7.4 Measuring system response\n7.5 Effect of system parameters on response\n7.6 Bandwidth requirements for blood pressure measurement\n7.7 Typical distortion of the pressure waveform\n7.8 Venous pressure measurement system\n7.9 Heart sounds\n7.10 Phonocardiography\n7.11 Cardiac Catheterization\n7.12 Effect of potential and kinetic energy on pressure measurements\n7.13 Indirect measurement of blood pressure"
+      }
+    },
+    {
+      "id": 83805,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 106601,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179970,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích đặc trưng của các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 4) Analyze the characteristics of parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166631,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166611,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166654,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106603,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS",
+            "en": "Presenting lecture slides, uploading slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 179971,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các kỹ thuật đo các thông số liên quan đến hệ tuần hoàn",
+              "en": "(K, level 4) Analyze techniques for measuring parameters related to the circulatory system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 166655,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 70802,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercises"
+                }
+              }
+            },
+            {
+              "id": 166612,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 70803,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Homework for groups"
+                }
+              }
+            },
+            {
+              "id": 166613,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 70805,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8 - Đo lưu lượng và dung tích máu\n8.1 Phương pháp pha loãng chỉ thị dùng truyền liên tục\n8.2 Phương pháp pha loãng chỉ thị dùng tiêm nhanh\n8.3 Lưu lượng kế điện từ\n8.4 Lưu lượng kế siêu âm\n8.5 Cảm biến vận tốc đối lưu nhiệt\n8.6 Buồng đo thể tích (plethysmography)\n8.7 Đo thể tích dùng trở kháng điện\n8.8 Đo thể tích quang (Photoplethysmography)",
+        "en": "Chapter 8 - Measuring blood flow and volume\n8.1 Method of dilution of the indicator for continuous infusion\n8.2 Dilution method for rapid injection indicator\n8.3 Electromagnetic flowmeter\n8.4 Ultrasonic Flowmeter\n8.5 Heat convection velocity sensor\n8.6 Volumetric chamber (plethysmography)\n8.7 Volumetric measurement using electrical impedance\n8.8 Photoplethysmography"
+      }
+    },
+    {
+      "id": 83806,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Chương 9 - Ứng dụng kỹ thuật học máy cơ bản trong xử lý tín hiệu y sinh\n9.1 Giới thiệu về tầm quan trọng và ứng dụng của kỹ thuật học máy trong xử lý tín hiệu y sinh\n9.2 Kỹ thuật sử dụng ngưỡng để phát hiện đỉnh dùng trong xử lý tín hiệu ECG\n9.3 Áp dụng học máy để phát hiện bệnh",
+        "en": "Chapter 9 – Applications of basic machine learning techniques in biomedical signal processing\n9.1 Introduction to the importance and applications of machine learning in biomedical signal processing\n9.2 Thresholding techniques for peak detection in ECG signal processing\n9.3 Applying machine learning for disease detection"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 179963,
+      "ma": "L.O.1.1",
+      "ten_vi": "(K, mức 2) Mô tả sự hình thành và đặc tính của tín hiệu điện sinh học",
+      "ten_en": "(K, level 2) Describe the origin, characteristics of bioelectric signals",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        },
+        {
+          "id": 70805,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 179964,
+      "ma": "L.O.1.2",
+      "ten_vi": "(K, mức 2) Mô tả sự hình thành và đặc tính của các điện cực điện thế sinh học",
+      "ten_en": "(K, level 2) Describe the origin, characteristics of biopotential electrodes",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        },
+        {
+          "id": 70805,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 179966,
+      "ma": "L.O.2.1",
+      "ten_vi": "(K, mức 4) Phân tích đặc trưng của các tín hiệu điện sinh học cơ bản",
+      "ten_en": "(K, level 4) Analyze the characteristics of basic bioelectrical signals",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        },
+        {
+          "id": 70805,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 179967,
+      "ma": "L.O.2.2",
+      "ten_vi": "(K, mức 4) Phân tích các kỹ thuật đo các tín hiệu điện sinh học cơ bản",
+      "ten_en": "(K, level 4) Analyze techniques for measuring basic bioelectrical signals",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        },
+        {
+          "id": 70805,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 179968,
+      "ma": "L.O.2.3",
+      "ten_vi": "(K, mức 5) Thiết kế các mạch đo các tín hiệu điện sinh học cơ bản",
+      "ten_en": "(K, level 5) Design circuits for measuring basic bioelectrical signals",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        }
+      ]
+    },
+    {
+      "id": 179970,
+      "ma": "L.O.3.1",
+      "ten_vi": "(K, mức 4) Phân tích đặc trưng của các thông số liên quan đến hệ tuần hoàn",
+      "ten_en": "(K, level 4) Analyze the characteristics of parameters related to the circulatory system",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        },
+        {
+          "id": 70805,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 179971,
+      "ma": "L.O.3.2",
+      "ten_vi": "(K, mức 4) Phân tích các kỹ thuật đo các thông số liên quan đến hệ tuần hoàn",
+      "ten_en": "(K, level 4) Analyze techniques for measuring parameters related to the circulatory system",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        },
+        {
+          "id": 70805,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 179972,
+      "ma": "L.O.3.3",
+      "ten_vi": "(K, mức 5) Thiết kế các mạch đo các thông số liên quan đến hệ tuần hoàn",
+      "ten_en": "(K, level 5) Design circuits for measuring parameters related to the circulatory system",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        },
+        {
+          "id": 70805,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra cuối kì ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 179974,
+      "ma": "L.O.4.1",
+      "ten_vi": "(K, mức 4) Áp dụng xác xuất thống kê cơ bản để phân tích các tín hiệu y sinh",
+      "ten_en": "(K, level 4) Apply basic statistical probabilities to analyze biomedical signals",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        }
+      ]
+    },
+    {
+      "id": 179975,
+      "ma": "L.O.4.2",
+      "ten_vi": "(K, mức 4) Áp dụng các kỹ thuật học máy cơ bản để xử lý tín hiệu y sinh",
+      "ten_en": "(K, level 4) Apply basic machine learning techniques to biomedical signal processing",
+      "hddg": [
+        {
+          "id": 70802,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercises"
+        },
+        {
+          "id": 70803,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Homework for groups"
+        },
+        {
+          "id": 70804,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Điện tử Y sinh",
+  "tenmonhoc_eng": "Biomedical Electronics",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

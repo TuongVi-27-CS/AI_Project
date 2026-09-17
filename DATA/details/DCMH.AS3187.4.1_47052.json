@@ -1,0 +1,1691 @@
+{
+  "ma": "DCMH.AS3187.4.1",
+  "phienban": "4.1",
+  "capnhat": "09/03/2026 15:10",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS3187",
+  "ten": "AS3187 - Mô hình nhân quả",
+  "ten_eng": "AS3187 - Casual Modeling",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>• Hiểu được những khái niệm về phân tích nhân quả.<br>• Hiểu được vai trò, ứng dụng của phân tích nhân quả trong đời sống.<br>• Biết sử dụng nhiều phương pháp thống kê khác nhau (ghép cặp, hồi quy, phân tích độ nhạy, v.v) để ước lượng các hiệu ứng nhân quả, từ đó trả lời các câu hỏi nghiên cứu mà liên quan đến ảnh hưởng của một số nguyên nhân (ví dụ như việc ban hành một luật mới, sự thay đổi các điều kiện kinh tế hoặc các chính sách) lên một kết quả nào đó (chẳng hạn như thu nhập, kết quả bầu cử, thái độ chính trị).<br>• Biết sử dụng phần mềm thống kê R hoặc Python để thực hiện nhiều kỹ thuật phân tích nhân quả khác nhau với các bộ dữ liệu thật.<br>• Có khả năng phân tích suy luận các kết quả thống kê thu được từ việc phân tích nhân quả<br></p>",
+      "en": "<p>• Understand concepts of causal inference.<br>• Understand roles, applications of causal inference in real-world.<br>• Be able to use various statistical methods for causal inference (for instance, matching, regression, sensitivity analysis, etc.) to estimate causal effects, that allows us to answer research questions concerning the impact of some cause (e.g., issue of a law, changes in&nbsp;economic conditions, or policies) on a certain outcome (e.g., income, election results, political attitudes).<br>• Be able to use R or Python to implement various causal inference techniques with real data sets.<br>• Be able to interpret the statistical results obtained from causal inference analysis.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Chúng ta thường muốn biết mối quan hệ giữa nguyên nhân và kết quả. Cụ thể hơn, chúng ta quan tâm đến các mối quan hệ nhân quả giữa các biến, hơn là chỉ mỗi sự tương quan giữa chúng. Ví dụ, điều mà chúng ta quan tâm không phải là mối tương quan giữa thu nhập và trình độ học vấn của một người, mà là tác động của việc tăng thêm một năm học tập của người đó lên thu nhập kiếm được. Hầu hết các lĩnh vực đều có các câu hỏi về nhân quả có ý nghĩa mà có thể dẫn dắt đến việc ra quyết định. Ví dụ như, các nhà kinh tế muốn biết liệu các chương trình huấn luyện việc làm có làm gia tăng thành công lương của những người tham gia hay không. Các nhà dịch tễ học muốn biết liệu một phương thức điều trị cụ thể có thể cải thiện chất lượng cuộc sống hay không. Những người làm quảng cáo muốn biết liệu các chiến dịch marketing có hiệu quả trong việc thúc đẩy doanh số bán hàng hay không. Môn học này cung cấp một tập hợp cốt lõi những công cụ về phân tích nhân quả đối với việc xác định và ước lượng các hiệu ứng nhân quả. Môn học sẽ bắt đầu với việc giới thiệu về đồ thị nhân quả và các mô hình cấu trúc nhân quả. Tiếp theo chúng ta sẽ thảo&nbsp; luận về nhiều chủ đề khác nhau của phân tích nhân quả như hiệu chỉnh, lựa chọn chệch và các biến công cụ. Vào phần cuối của môn học, chúng ta sẽ nghiên cứu nhiều kỹ thuật khác nhau, chẳng hạn như ghép gặp, điểm xu hướng, phương pháp nghịch đảo trọng số xác suất, để ước lượng các hiệu ứng nhân quả. Sinh viên sẽ được học làm thế nào áp dụng các kỹ thuật trên với dữ liệu thực trên phần mềm R hoặc Python.<br></p>",
+      "en": "<p>We often seek to understand the relationship between cause and effect, with a specific focus on causal relations between variables rather than mere correlations. For instance, our interest lies not in the correlation between earnings and education but in determining the impact of increasing an individual's education by one year on their earnings. Virtually every domain presents significant causal research questions that play a pivotal role in informed decision-making. Labor economists, for example, aim to ascertain whether job training programs effectively raise participants' wages. Epidemiologists strive to evaluate whether a specific medical treatment&nbsp;enhances the quality of life. Meanwhile, advertisers seek to determine the effectiveness of marketing campaigns in boosting sales. This course equips students with a foundational set of tools for causal inference, enabling them to identify and estimate causal effects. The journey commences with an introduction to causal graphs and causal structure models. Subsequently, various topics in causal inference, including adjustment, selection bias, and instrumental variables, are explored. Towards the conclusion of the course, diverse techniques such as matching, propensity scores, and inverse probability weighting are studied to estimate causal effects. Students will learn to apply these techniques using real-world data, utilizing programming languages like R or Python.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] Pearl, Judea, Madelyn Glymour, and Nicholas P. Jewell. Causal inference in statistics: A primer. John Wiley &amp; Sons, 2016.<br>[2] M. Hernan and J. Robins. Causal Inference. Chapman &amp; Hall/CRC, 2019.<br>[3] S. Morgan and C. Winship. Counterfactuals and Causal Inference. Cambridge University Press, 2nd edition, 2015.<br></p>",
+      "en": "<p>\n\n[1] Pearl, Judea, Madelyn Glymour, and Nicholas P. Jewell. Causal inference in statistics: A primer. John Wiley &amp; Sons, 2016.<br>[2] M. Hernan and J. Robins. Causal Inference. Chapman &amp; Hall/CRC, 2019.<br>[3] S. Morgan and C. Winship. Counterfactuals and Causal Inference. Cambridge University Press, 2nd edition, 2015.\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên LMS định kỳ. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học. Nếu điểm thi cuối kỳ không quá 2 thì điểm tổng kết môn không vượt quá điểm thi cuối kỳ. Quy định về điểm trừ trắc nghiệm hay sử dụng tài liệu (nếu có) sẽ được nêu rõ trong đề thi.<br>Điều kiện dự thi: Theo quy định của trường.<br></p>",
+      "en": "<p>Learning materials are uploaded to BKEL periodically. The final course grade is evaluated continuously throughout the learning process. If the final exam score is 2 or below, the overall course grade will not exceed the final exam score. Regulations regarding multiple-choice score deductions or the use of reference materials (if applicable) will be clearly stated in the exam paper.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn AS3187 - Mô hình nhân quả"
+    },
+    {
+      "id": 1422,
+      "ma": "002288",
+      "ten": "NGUYỄN TIẾN DŨNG"
+    },
+    {
+      "id": 1429,
+      "ma": "003323",
+      "ten": "PHAN THỊ KHÁNH VÂN"
+    },
+    {
+      "id": 1426,
+      "ma": "003262",
+      "ten": "HOÀNG HẢI HÀ"
+    },
+    {
+      "id": 1427,
+      "ma": "003264",
+      "ten": "LÊ XUÂN ĐẠI"
+    },
+    {
+      "id": 1423,
+      "ma": "002571",
+      "ten": "ĐẶNG VĂN VINH"
+    },
+    {
+      "id": 12828,
+      "ma": "004299",
+      "ten": "TRƯƠNG VĂN TRÍ"
+    },
+    {
+      "id": 1662,
+      "ma": "003556",
+      "ten": "ĐẬU THẾ PHIỆT"
+    },
+    {
+      "id": 1431,
+      "ma": "003537",
+      "ten": "PHÙNG TRỌNG THỰC"
+    },
+    {
+      "id": 8845,
+      "ma": "003981",
+      "ten": "PHAN THỊ HƯỜNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.33,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 4,
+        "ma": "80",
+        "thoigian": 80,
+        "text": {
+          "vi": "80 phút",
+          "en": "80 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1080,
+      "maBoMon": "TUD",
+      "tenBoMon": {
+        "vi": "Toán ứng Dụng"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "104B4",
+      "dienThoai": "028 3865 2442"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 8845,
+        "maGiangVien": "003981",
+        "tenGiangVien": "PHAN THỊ HƯỜNG",
+        "emailGiangVien": "huongphan@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "AS3179 - Mô hình thống kê",
+        "en": "AS3179 - Statistical Modeling"
+      },
+      "tenmonhoc_only": {
+        "vi": "Mô hình thống kê",
+        "en": "Statistical Modeling"
+      },
+      "mamonhoc": "AS3179"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 78900,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 78901,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "78900",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Xây dựng kế hoạch, làm việc nhóm hiệu quả, đáp ứng các mục tiêu được yêu cầu.",
+        "en": "Design an effective plan, work in groups, and meet the required goals."
+      }
+    },
+    {
+      "id": 78902,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "78900",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá giữa kỳ",
+        "en": "Midterm exams"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa bằng hình thức trắc nghiệm kết hợp tự luận",
+        "en": "Midterm exams form: Multiple choice and Essay problems"
+      }
+    },
+    {
+      "id": 78903,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "78900",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá cuối kỳ",
+        "en": "Final exams"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ bằng hình thức trắc nghiệm kết hợp tự luận",
+        "en": "Final exams form: Multiple choice and Essay problems"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 97907,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 123715,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan\t",
+            "en": "Present the lecture and introduce related topics for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199479,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu được những khái niệm và vai trò phân tích nhân quả.",
+              "en": "Understand concepts and roles of causal inference."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199286,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78902,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Midterm exams"
+                }
+              }
+            },
+            {
+              "id": 199266,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123719,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan ",
+            "en": "Present the lesson and raise related issues for discussion\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm. \n",
+            "en": "Participate in discussions and group activities"
+          },
+          "chuandaura": {
+            "id": 199480,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199291,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78902,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Midterm exams"
+                }
+              }
+            },
+            {
+              "id": 199267,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123720,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan ",
+            "en": "Present the lesson and raise related issues for discussion "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm. ",
+            "en": "Participate in discussions and group activities"
+          },
+          "chuandaura": {
+            "id": 199481,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199268,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199269,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu môn học\n1. Tại sao nghiên cứu nhân quả\n2. Nghịch lý Simpson\n3. Ôn tập về xác suất thống kê\n4. Đồ thị\n5. Các mô hình cấu trúc nhân quả",
+        "en": "Chapter 1: Introduction to the course\n1. Why study causation\n2. Simpson's Paradox\n3. Review of Probability and Statistics\n4. Graphs\n5. Structural Causal Models"
+      }
+    },
+    {
+      "id": 97908,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 123721,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities.\n"
+          },
+          "chuandaura": {
+            "id": 199479,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu được những khái niệm và vai trò phân tích nhân quả.",
+              "en": "Understand concepts and roles of causal inference."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199270,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78902,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Midterm exams"
+                }
+              }
+            },
+            {
+              "id": 199271,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123722,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities.\n"
+          },
+          "chuandaura": {
+            "id": 199480,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199272,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78902,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Midterm exams"
+                }
+              }
+            },
+            {
+              "id": 199273,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123729,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199481,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199274,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199275,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Các mô hình đồ thị\n1. Liên kết giữa các mô hình và dữ liệu\n2. Xích, chĩa và các collider\n3. sự phân chia d",
+        "en": "Chapter 2: Graphical Models\n1. Connecting Models to Data\n2. Chain, Forks and Colliders\n3. d-separation"
+      }
+    },
+    {
+      "id": 97910,
+      "stt": 3,
+      "buoi": "3-4",
+      "chuandaurachitiet": [
+        {
+          "id": 123727,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199479,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu được những khái niệm và vai trò phân tích nhân quả.",
+              "en": "Understand concepts and roles of causal inference."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199296,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78902,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Midterm exams"
+                }
+              }
+            },
+            {
+              "id": 199302,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123725,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199480,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199276,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78902,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Midterm exams"
+                }
+              }
+            },
+            {
+              "id": 199287,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123733,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199481,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199277,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199303,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Sự hiệu chỉnh\n1. Sự can thiệp\n2. Công thức hiệu chỉnh\n3. Tiêu chuẩn cửa hậu\n4. Tiêu chuẩn cửa trước\n5. Ứng dụng",
+        "en": "Chapter 3: Adjustment\n1. Intervention\n2. The Adjustment Formula\n3. The Back-door Criterion\n4. The Front-door Criterion\n5. Applications"
+      }
+    },
+    {
+      "id": 97904,
+      "stt": 4,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 123723,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199480,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199280,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123714,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199481,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199284,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199297,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123724,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199482,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức mô hình hình nhân quả.",
+              "en": "Be able to self study and enhance new knowledge of casual inference."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199294,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199295,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Lựa chọn chệch\n1. Ví dụ\n2. Cấu trúc của lựa chọn chệch\n3. Phương pháp hiệu chỉnh",
+        "en": "Chapter 4: Selection Bias\n1. Example\n2. Structure of Selection bias\n3. Correction Method"
+      }
+    },
+    {
+      "id": 97906,
+      "stt": 5,
+      "buoi": "6-7",
+      "chuandaurachitiet": [
+        {
+          "id": 123734,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199480,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199281,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123716,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199481,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199278,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199282,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123728,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199482,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức mô hình hình nhân quả.",
+              "en": "Be able to self study and enhance new knowledge of casual inference."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199300,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199293,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Biến công cụ (IVs)\n1. Sự nhận diện các biến công cụ\n2. Các giả định\n3. Công cụ yếu\n4. Tiêu chuẩn phân tách cửa\n5. Ứng dụng",
+        "en": "Chapter 5: Instrumental variables (IVs)\n1. IVs Identification\n2. Assumptions\n3. Weak Instrument\n4. Split-door Criterion\n5. Applications"
+      }
+    },
+    {
+      "id": 97903,
+      "stt": 6,
+      "buoi": "8-9",
+      "chuandaurachitiet": [
+        {
+          "id": 123730,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199480,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199285,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123731,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199481,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199292,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199301,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123732,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199482,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức mô hình hình nhân quả.",
+              "en": "Be able to self study and enhance new knowledge of casual inference."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199279,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199298,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Ước lượng hiệu ứng nhân quả\n1. Những ước lượng theo các tiêu chuẩn cửa\nhậu và cửa trước\n2. Sự ghép cặp\n3. Điểm xu hướng\n4. Phương pháp nghịch đảo trọng số xác suất",
+        "en": "Chapter 6: Estimating Causal Effects\n1. Estimators in Back- and Front-Door Criteria\n2. Matching\n3. Propensity Scores\n4. Inverse Probability Weighting\n"
+      }
+    },
+    {
+      "id": 97905,
+      "stt": 7,
+      "buoi": "10-11",
+      "chuandaurachitiet": [
+        {
+          "id": 123717,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199480,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199283,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123718,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199481,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199288,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199289,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123726,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng - Nêu thảo luận các vấn đề liên quan.\n",
+            "en": "Present the lesson and raise related issues for discussion.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in discussions and group activities."
+          },
+          "chuandaura": {
+            "id": 199482,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức mô hình hình nhân quả.",
+              "en": "Be able to self study and enhance new knowledge of casual inference."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 199299,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 78901,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 199290,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 78903,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Phản thực tế\n1. Các ví dụ\n2. Định nghĩa và tính toán phản thực tế\n3. Ví dụ",
+        "en": "Chapter 7: Counterfactual\n1. Examples\n2. Defining and Computing Counterfactual\n3. Applications"
+      }
+    },
+    {
+      "id": 97909,
+      "stt": 8,
+      "buoi": "12-15",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 199479,
+      "ma": "L.O.1",
+      "ten_vi": "Hiểu được những khái niệm và vai trò phân tích nhân quả.",
+      "ten_en": "Understand concepts and roles of causal inference.",
+      "hddg": [
+        {
+          "id": 78902,
+          "ma": "A.O.3",
+          "ten_vi": "Đánh giá giữa kỳ",
+          "ten_en": "Midterm exams"
+        },
+        {
+          "id": 78903,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 199480,
+      "ma": "L.O.2",
+      "ten_vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức mô hình nhân quả cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+      "ten_en": "Be able to analyze, select, and apply knowledge of casual inference as well as programming skills to solve practical problems.",
+      "hddg": [
+        {
+          "id": 78902,
+          "ma": "A.O.3",
+          "ten_vi": "Đánh giá giữa kỳ",
+          "ten_en": "Midterm exams"
+        },
+        {
+          "id": 78903,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 199481,
+      "ma": "L.O.3",
+      "ten_vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+      "ten_en": "Be able to perform teamwork skills, management skills, and presentation skills.",
+      "hddg": [
+        {
+          "id": 78901,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 78903,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 199482,
+      "ma": "L.O.4",
+      "ten_vi": "Có khả năng tự cập nhật kiến thức mô hình hình nhân quả.",
+      "ten_en": "Be able to self study and enhance new knowledge of casual inference.",
+      "hddg": [
+        {
+          "id": 78901,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 78903,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Mô hình nhân quả",
+  "tenmonhoc_eng": "Casual Modeling",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": null
+}

@@ -1,0 +1,1673 @@
+{
+  "ma": "DCMH.ME3151.3.1",
+  "phienban": "3.1",
+  "capnhat": "14/03/2025 02:22",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME3151",
+  "ten": "ME3151 - Đồ án Thiết kế - Hướng thiết bị lạnh",
+  "ten_eng": "ME3151 - Design Project - Refrigeration Equipment Orientation",
+  "hockyapdung": "HK241",
+  "sotcgoc": 2,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 4,
+      "ma": "DA",
+      "ten": {
+        "vi": "Đồ Án",
+        "en": "Project"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học nhằm giúp sinh viên vận dụng các kiến thức đã học, hiểu được quy trình để tính toán thiết kế các thiết bị trao đổi nhiệt trong một hệ thống lạnh. Đồng thời, môn học bước đầu trang bị cho sinh viên nhận dạng các thông số kỹ thuật liên quan đến các yêu cầu, ràng buộc và các tiêu chuẩn cho trước để có giải pháp thiết kế phù hợp.<br></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>",
+      "en": "<p>The course aims to help students apply the learned knowledge, understand the process to design heat exchangers in a refrigeration system. In addition, the course also help students with a way to identify specifications related to given requirements and standards for a suitable design solution.<br></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Dựa vào các thông số ban đầu và yêu cầu của đồ án, sinh viên tiến hành phân tích, tính toán, thiết kế, lựa chọn các thành phần trong thiết bị bay hơi, thiết bị ngưng tụ, tháp giải nhiệt, … và hoàn thiện các bản vẽ thiết kế cho hệ thống.<br></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>",
+      "en": "<p>Based on the initial parameters and requirements of the project, students will analyze, calculate, design, choose appropriate components of an evaporator, a condenser, a cooling tower, … as well as complete the technical drawings.<br></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p>[1]  Hoàng Đình Tín, Cơ sở truyền nhiệt và thiết kế\nthiết bị trao đổi nhiệt – NXB Đại Học Quốc Gia Tp HCM, 2022</p>\n\n<p>[2] Lê Chí Hiệp, Huỳnh Phước Hiển – Máy lạnh có máy nén hơi – NXB Đại học\nQuốc Gia Tp HCM, 2023</p>\n\n<p>[3] \nTrần Thanh Kỳ – Máy Lạnh – NXB Đại Học Quốc Gia Tp HCM, 2017</p><p></p><p>[4] \nNguyễn Đức Lợi – Hướng dẫn thiết kế hệ thống lạnh – NXB Khoa học &amp; Kỹ\nthuật, 2011</p>\n\n<p>[5] \nHoàng Đình Tín, &nbsp;Bùi Hải, Bài tập\nNhiệt động lực học kỹ thuật &amp; truyền nhiệt, NXB Đại học Quốc gia Tp. HCM,\n2018</p>\n\n\n\n\n\n<br><p></p>\n\n\n\n\n\n<br><p></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>",
+      "en": "<p>\n\n</p><p>[1]  Hoàng Đình Tín, Cơ sở truyền nhiệt và thiết kế\nthiết bị trao đổi nhiệt – NXB Đại Học Quốc Gia Tp HCM, 2022</p>\n\n<p>[2] Lê Chí Hiệp, Huỳnh Phước Hiển – Máy lạnh có máy nén hơi – NXB Đại học\nQuốc Gia Tp HCM, 2023</p>\n\n<p>[3] \nTrần Thanh Kỳ – Máy Lạnh – NXB Đại Học Quốc Gia Tp HCM, 2017</p><p></p><p>[4] \nNguyễn Đức Lợi – Hướng dẫn thiết kế hệ thống lạnh – NXB Khoa học &amp; Kỹ\nthuật, 2011</p>\n\n<p>[5] \nHoàng Đình Tín, &nbsp;Bùi Hải, Bài tập\nNhiệt động lực học kỹ thuật &amp; truyền nhiệt, NXB Đại học Quốc gia Tp. HCM,\n2018</p>\n\n\n\n\n\n<p></p>\n\n<br><p></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Cách học:<br>-  Sinh viên được giao đề tài đồ án và các thông số thiết kế từ Giảng viên hướng dẫn. Các thiết bị được giao trong đồ án có thể là thiết bị bay hơi (làm lạnh nước hoặc không khí), thiết bị ngưng tụ (giải nhiệt bằng nước hoặc không khí), tháp giải nhiệt, …<br>-  Các yêu cầu về đồ án, các tài liệu tham khảo, điểm đánh giá, … được đưa lên website E-learning để sinh viên có thể chủ động hơn trong việc học tập; tạo diễn đàn trao đổi các vấn đề liên quan đến môn học.<br><br>Cách đánh giá: <br>-  Đánh giá kết quả đồ án dựa vào quá trình thực hiện và chấm thuyết minh đồ án từ Giảng viên hướng dẫn  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 50% tổng điểm<br>-  Đánh giá vấn đáp từ Giảng viên phản biện   &nbsp; : 50% tổng điểm  <br><br></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>",
+      "en": "<p><b>Learning\nStrategies:</b><br></p><p>\n\n</p><p>- &nbsp; &nbsp; &nbsp; \nStudents take project topics and design parameters\nfrom instructors. The equipment assigned in the project can be an evaporator\n(water or air cooling), a condenser (cooled by water or air), a cooling tower,\n...</p>\n\n<p>- &nbsp; &nbsp; &nbsp; \nRequirements for projects, references, assessment\nscores, ... are posted on the E-learning website where students can be more\nactive in learning; create a forum to exchange topics related to the subject.</p>\n\n<p>&nbsp;</p>\n\n<p><b>Assessment Scheme:</b></p>\n\n<p>- &nbsp; &nbsp; &nbsp; \nInstructor's score &nbsp; &nbsp; : 50%\nof final grade</p>\n\n<p>- &nbsp; &nbsp; &nbsp; \nReviewer's score &nbsp; &nbsp;  : 50%\nof final grade</p>\n\n\n\n\n\n<br><p></p><div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>"
+    },
+    "ghiChu": {
+      "vi": "<div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>",
+      "en": "<div id=\"eJOY__extension_root\" class=\"eJOY__extension_root_class\" style=\"all: unset;\"></div>"
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 3787,
+      "ma": "NG_NLG",
+      "ten": {
+        "vi": "Kỹ thuật Nhiệt - 2024",
+        "en": "Thermal Engineering - 2024"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 960,
+      "ma": "001737",
+      "ten": "Hà Anh Tùng"
+    },
+    {
+      "id": 4133,
+      "ma": "001594",
+      "ten": "Nguyễn Thế         Bảo    "
+    },
+    {
+      "id": 969,
+      "ma": "003346",
+      "ten": "Trần Văn Hưng"
+    },
+    {
+      "id": 961,
+      "ma": "002155",
+      "ten": "Hoàng Thị Nam Hương"
+    },
+    {
+      "id": 962,
+      "ma": "002428",
+      "ten": "Nguyễn Thị Minh Trinh"
+    },
+    {
+      "id": 963,
+      "ma": "002501",
+      "ten": "Võ Kiến Quốc"
+    },
+    {
+      "id": 965,
+      "ma": "002779",
+      "ten": "Nguyễn Văn Hạp"
+    },
+    {
+      "id": 966,
+      "ma": "002963",
+      "ten": "Phan Thành Nhân"
+    },
+    {
+      "id": 967,
+      "ma": "003155",
+      "ten": "Huỳnh Phước Hiển"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 2,
+    "soTC_ETC": 4,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 2,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 100,
+    "tongGio_HocTap_LamViec": 91,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 90,
+    "tuHoc": 0,
+    "khac": 10
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 4,
+        "ma": "VD",
+        "text": {
+          "vi": "Vấn đáp",
+          "en": "Questions and Answers"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "tong": 100,
+    "kiemTra": 0,
+    "thi": 50,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 50,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 937,
+      "maBoMon": "CNL",
+      "tenBoMon": {
+        "vi": "Công Nghệ Nhiệt Lạnh"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Bộ môn Công Nghệ Nhiệt Lạnh - Khoa Cơ Khí, Tòa nhà B5",
+      "dienThoai": "84-028 38647256 - Ext 5897"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 962,
+        "maGiangVien": "002428",
+        "tenGiangVien": "Nguyễn Thị Minh Trinh",
+        "emailGiangVien": "ngtmtrinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "da2",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME2159 - Kỹ thuật lạnh",
+        "en": "ME2159 - Refrigeration Engineering"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật lạnh",
+        "en": "Refrigeration Engineering"
+      },
+      "mamonhoc": "ME2159"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME2161 - Truyền nhiệt và thiết bị trao đổi nhiệt",
+        "en": "ME2161 - Heat Transfer and Heat Exchangers"
+      },
+      "tenmonhoc_only": {
+        "vi": "Truyền nhiệt và thiết bị trao đổi nhiệt",
+        "en": "Heat Transfer and Heat Exchangers"
+      },
+      "mamonhoc": "ME2161"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME3147 - Truyền nhiệt và Thiết bị Trao đổi nhiệt",
+        "en": "ME3147 - Heat Transfer and Heat Exchangers"
+      },
+      "tenmonhoc_only": {
+        "vi": "Truyền nhiệt và Thiết bị Trao đổi nhiệt",
+        "en": "Heat Transfer and Heat Exchangers"
+      },
+      "mamonhoc": "ME3147"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME3035 - Kỹ thuật lạnh",
+        "en": "ME3035 - Refrigeration Engineering"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật lạnh",
+        "en": "Refrigeration Engineering"
+      },
+      "mamonhoc": "ME3035"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 38256,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 38257,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#1: Đánh giá chuyên cần ",
+        "en": "AIC#1: Attendance"
+      },
+      "noidung": {
+        "vi": "AIC#1: Đánh giá chuyên cần ",
+        "en": "AIC#1: Attendance"
+      }
+    },
+    {
+      "id": 38258,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+        "en": "AIC#2: Assesment join in class activities"
+      },
+      "noidung": {
+        "vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+        "en": "AIC#2: Assesment join in class activities"
+      }
+    },
+    {
+      "id": 38259,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#3: Thảo luận nhóm",
+        "en": "AIC#3:  Group discussion"
+      },
+      "noidung": {
+        "vi": "AIC#3: Thảo luận nhóm",
+        "en": "AIC#3:  Group discussion"
+      }
+    },
+    {
+      "id": 38260,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+        "en": "GHW#1: Preliminary assesment project report"
+      },
+      "noidung": {
+        "vi": "GHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+        "en": "GHW#1: Preliminary assesment project report"
+      }
+    },
+    {
+      "id": 38261,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "IHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+        "en": "IHW#1: Preliminary assesment project report"
+      },
+      "noidung": {
+        "vi": "IHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+        "en": "IHW#1: Preliminary assesment project report"
+      }
+    },
+    {
+      "id": 38262,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#2: Đánh giá thuyết minh đồ án.",
+        "en": "GHW#2: Assesment project report"
+      },
+      "noidung": {
+        "vi": "GHW#2: Đánh giá thuyết minh đồ án.",
+        "en": "GHW#2: Assesment project report"
+      }
+    },
+    {
+      "id": 38263,
+      "stt": 0,
+      "ma": "A.O.7",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "IHW#2: Đánh giá thuyết minh đồ án",
+        "en": "IHW#2: Assesment project report"
+      },
+      "noidung": {
+        "vi": "IHW#2: Đánh giá thuyết minh đồ án",
+        "en": "IHW#2: Assesment project report"
+      }
+    },
+    {
+      "id": 38264,
+      "stt": 0,
+      "ma": "A.O.8",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "EXM#1: Đánh giá hoàn thiện đồ án từ giảng viên hướng dẫn (50% điểm)",
+        "en": "EXM#1: 50% score of the instructor"
+      },
+      "noidung": {
+        "vi": "EXM#1: Đánh giá hoàn thiện đồ án từ giảng viên hướng dẫn (50% điểm)",
+        "en": "EXM#1: 50% score of the instructor"
+      }
+    },
+    {
+      "id": 38265,
+      "stt": 0,
+      "ma": "A.O.9",
+      "capdo": "1",
+      "parentid": "38256",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "EXM#2: Đánh giá hoàn thiện đồ án từ giảng viên phản biện (50% điểm)  ",
+        "en": "EXM#2: 50% score of the reviewer"
+      },
+      "noidung": {
+        "vi": "EXM#2: Đánh giá hoàn thiện đồ án từ giảng viên phản biện (50% điểm) ",
+        "en": "EXM#2: 50% score of the reviewer"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 43396,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 57863,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-\tGiới thiệu về môn học\n-\tGiới thiệu về nguyên lý hoạt động của một số thiết bị trong hệ thống lạnh.\n-\tGiới thiệu các hướng đề tài cho sinh viên lựa chọn.\n",
+            "en": "-\tIntroducing to subject\n-\tIntroducing the operating principles of some equipments in the refrigeration system.\n-\tIntroducing topics.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTham gia các hoạt động giảng viên đưa ra. \n-\tThảo luận nhóm để hiểu thêm các vấn đề.\n-\tNhận đề tài.\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n-\tGet topic."
+          },
+          "chuandaura": {
+            "id": 88442,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Ứng dụng kỹ năng làm việc nhóm, cá nhân.",
+              "en": "Apply teamwork and individual skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90099,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90107,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38258,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+                  "en": "AIC#2: Assesment join in class activities"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu môn học:\n-\tTổng quan về môn học: tầm quan trọng của môn học, yêu cầu về chuẩn đầu ra, phương pháp đánh giá, thang điểm, vv…\n-\tGiới thiệu về vai trò làm việc cá nhân và  nhóm, kỹ năng giao tiếp và trình bày, vv…\n\nTổng quan về thiết bị trao đổi nhiệt.\n-\tCấu tạo của các thiết bị trao đổi nhiệt.\n-\tTrình tự tính toán thiết kế và tính toán kiểm tra thiết bị trao đổi nhiệt.\n\nGiới thiệu các hướng đề tài\n",
+        "en": "Course introduction:\n- Overview of the subject: the importance of the subject, learning outcomes, assessment methods, etc.\n- Introduction to teamwork and individual skills, communication and presentation skills, etc.\n\nOverview of thermal equipment.\n- Structure of heat exchangers\n- Steps of design calculation and checking heat exchangers.\n\nIntroduction of topics\n"
+      }
+    },
+    {
+      "id": 43405,
+      "stt": 2,
+      "buoi": "2, 3",
+      "chuandaurachitiet": [
+        {
+          "id": 57874,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tPhân công nhiệm vụ cho từng sinh viên hoặc nhóm sinh viên đề tài đồ án.\n-\tTổ chức hoạt động nhóm cho sinh viên củng cố các kiến thức liên quan đến việc tính toán thiết kế thiết bị trao đổi nhiệt.\n",
+            "en": "- Assign tasks to each student or group of students.\n- Organize group activity for students to consolidate the knowledge related to the calculation and design of \nheat exchangers.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTham gia các hoạt động giảng viên đưa ra \n-\tThảo luận nhóm\n",
+            "en": "-\tJoin the activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88430,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Tính toán phụ tải nhiệt của thiết bị.",
+              "en": "Calculate the heat load of the thermal equipment. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90092,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90086,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38259,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "AIC#3: Thảo luận nhóm",
+                  "en": "AIC#3:  Group discussion"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giao đề tài đồ án\n\nCủng cố kiến thức liên quan đến việc tính toán thiết kế các thiết bị trong hệ thống lạnh:\n-\tDàn lạnh\n-\tBình bay hơi\n-\tDàn nóng\n-\tBình ngưng\n-\tTháp giải nhiệt \n-\t…\n",
+        "en": "Assign topics to each student or group of students.\n\nConsolidate knowledge related to equipment design calculations in refrigeration systems:\n- Indoor\n- Evaporator\n- Outdoor\n- Condenser\n- Cooling tower\n- ...\n"
+      }
+    },
+    {
+      "id": 43398,
+      "stt": 3,
+      "buoi": "4, 5",
+      "chuandaurachitiet": [
+        {
+          "id": 57865,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tTrình bày các ví dụ minh họa ảnh hưởng của các thông số thiết kế đến năng suất và hiệu suất của thiết bị trao đổi nhiệt.",
+            "en": "Show examples of design parameters on the productivity and efficiency of heat exchangers."
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTrả lời các câu hỏi của giảng viên\n-\tThảo luận nhóm\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88431,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích lựa chọn phương án thiết kế.",
+              "en": "Analyze and choose the design method."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90106,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90104,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38258,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+                  "en": "AIC#2: Assesment join in class activities"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57873,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-\tTrình bày các ví dụ minh họa ảnh hưởng của các thông số thiết kế đến năng suất và hiệu suất của thiết bị trao đổi nhiệt.",
+            "en": "Show examples of design parameters on the productivity and efficiency of heat exchangers."
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTrả lời các câu hỏi của giảng viên\n-\tThảo luận nhóm\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88433,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Xác định các thông số tính toán, thiết kế.",
+              "en": "Determine the design calculation parameters."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90087,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38258,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+                  "en": "AIC#2: Assesment join in class activities"
+                }
+              }
+            },
+            {
+              "id": 90085,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38259,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "AIC#3: Thảo luận nhóm",
+                  "en": "AIC#3:  Group discussion"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tính toán phụ tải của các thành phần chính trong thiết bị nhiệt\n-\tLựa chọn các thông số thiết kế \n-\tTính toán phụ tải nhiệt\n",
+        "en": "Calculation of the load of the main components in the thermal equipment\n- Selection of design parameters\n- Calculation of heat load\n"
+      }
+    },
+    {
+      "id": 43397,
+      "stt": 4,
+      "buoi": "6, 7",
+      "chuandaurachitiet": [
+        {
+          "id": 57872,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tĐặt ra các câu hỏi để kiểm tra khả năng hiểu biết của sinh viên.",
+            "en": "Ask questions to test students' understanding"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTham gia các hoạt động giảng viên đưa ra\n-\tThảo luận nhóm\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88434,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán hệ số truyền nhiệt và diện tích trao đổi nhiệt.",
+              "en": "Calculate the heat transfer coefficient of thermal equipment and heat transfer area."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90097,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90103,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38261,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "IHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+                  "en": "IHW#1: Preliminary assesment project report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cân bằng nhiệt và tính toán trao đổi nhiệt trong các thành phần của thiết bị trao đổi nhiệt\n-\tTính toán các bề mặt trao đổi nhiệt.\n-\tTính toán hệ số tỏa nhiệt đối lưu của các dòng môi chất.\n-\tTính toán hệ số truyền nhiệt và diện tích truyền nhiệt.",
+        "en": "Heat exchanger calculation in components\n- Calculation of heat exchanger surfaces.\n- Calculation of convective heat dissipation coefficient.\n- Calculate heat transfer coefficient and heat transfer area.\n\n"
+      }
+    },
+    {
+      "id": 43399,
+      "stt": 5,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 57864,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tĐặt ra các câu hỏi để kiểm tra khả năng hiểu biết của sinh viên.",
+            "en": "- Ask questions to test students' understanding"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTham gia các hoạt động giảng viên đưa ra\n-\tThảo luận nhóm\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88439,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Vẽ sơ đồ nhiệt của thiết bị.",
+              "en": "Draw the heat diagram of thermal equipment."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90090,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90098,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38260,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "GHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+                  "en": "GHW#1: Preliminary assesment project report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hoàn thành phác thảo\n-\tSo sánh kích thước phác thảo và kích thước tính toán.\n-\tĐiều chỉnh các thông số.\n",
+        "en": "Preliminary completion\n- Compare preliminary size and calculated size.\n- Adjust parameters.\n"
+      }
+    },
+    {
+      "id": 43400,
+      "stt": 6,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 57866,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tKiểm tra tiến độ thực hiện của sinh viên",
+            "en": "Midterm review"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTham gia các hoạt động giảng viên đưa ra\n-\tThảo luận nhóm\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88443,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Ứng dụng kỹ năng giao tiếp, viết báo cáo và thuyết trình.",
+              "en": "Apply communication, write technical report and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90102,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38260,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "GHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+                  "en": "GHW#1: Preliminary assesment project report"
+                }
+              }
+            },
+            {
+              "id": 90091,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38261,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "IHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+                  "en": "IHW#1: Preliminary assesment project report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kiểm tra tiến độ thực hiện giữa kỳ",
+        "en": "Midterm review"
+      }
+    },
+    {
+      "id": 43401,
+      "stt": 7,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 57867,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tĐặt ra các câu hỏi để kiểm tra khả năng hiểu biết của sinh viên.",
+            "en": "Ask questions to test students' understanding"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTham gia các hoạt động giảng viên đưa ra\n-\tThảo luận nhóm\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88436,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tính toán tổn thất áp suất của các dòng môi chất trong thiết bị nhiệt.",
+              "en": "Calculate the pressure drop of the flows in the thermal equipment."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90089,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90093,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38263,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "IHW#2: Đánh giá thuyết minh đồ án",
+                  "en": "IHW#2: Assesment project report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tính toán tổn thất áp suất\n-\tTính toán khí động học.\n-\tTính toán tổn thất áp suất do ma sát.\n-\tTính toán tổn thất áp suất cục bộ,…\n",
+        "en": "Calculate the pressure loss\n- Calculate aerodynamics.\n- Calculation of pressure loss due to friction.\n- Calculation of local pressure loss,…\n"
+      }
+    },
+    {
+      "id": 43402,
+      "stt": 8,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 57868,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tĐặt ra các câu hỏi để kiểm tra khả năng hiểu biết của sinh viên.",
+            "en": "-\tAsk questions to test students' understanding"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTham gia các hoạt động giảng viên đưa ra\n-\tThảo luận nhóm\n",
+            "en": "-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88437,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Tính toán sức bền thiết bị nhiệt.",
+              "en": "Calculate the strength of the thermal equipment."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90094,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90095,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38262,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "GHW#2: Đánh giá thuyết minh đồ án.",
+                  "en": "GHW#2: Assesment project report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tính kiểm tra sức bền\n-\tTính sức bền các bề mặt chính\n-\tTính sức bền các bề mặt phụ\n",
+        "en": "Strength test\n- Calculate the strength of the main surfaces\n- Calculation of strength of auxiliary surfaces\n"
+      }
+    },
+    {
+      "id": 43403,
+      "stt": 9,
+      "buoi": "12, 13, 14",
+      "chuandaurachitiet": [
+        {
+          "id": 57871,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tHướng dẫn sinh viên hoàn thiện bản vẽ kỹ thuật và thuyết minh.\n-\tKiểm tra tiến độ thực hiện.\n",
+            "en": "-\tGuide students to complete technical drawings and report."
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tHoàn thiện bản vẽ và thuyết minh.\n-\tTham gia các hoạt động giảng viên đưa ra\n-\tThảo luận nhóm.\n",
+            "en": "-\tComplete technical drawings and report.\n-\tJoin activities given by the lecturer.\n-\tGroup discussion to understand more issues.\n"
+          },
+          "chuandaura": {
+            "id": 88440,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Vẽ bản vẽ thiết kế của thiết bị.",
+              "en": "Draw the fabrication drawings of thermal equipment."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90101,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38257,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "AIC#1: Đánh giá chuyên cần ",
+                  "en": "AIC#1: Attendance"
+                }
+              }
+            },
+            {
+              "id": 90108,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38262,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "GHW#2: Đánh giá thuyết minh đồ án.",
+                  "en": "GHW#2: Assesment project report"
+                }
+              }
+            },
+            {
+              "id": 90109,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38263,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "IHW#2: Đánh giá thuyết minh đồ án",
+                  "en": "IHW#2: Assesment project report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hoàn thiện đồ án\n-\tBản vẽ\n-\tThuyết minh\n",
+        "en": "Finalize the project\n- Drawing\n- Report\n"
+      }
+    },
+    {
+      "id": 43404,
+      "stt": 10,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 57869,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "-\tNghe sinh viên trình bày các kết quả thực hiện đồ án\n-\tKiểm tra bản vẽ kỹ thuật và kết quả tính toán\n-\tĐặt các câu hỏi để sinh viên trả lời \n",
+            "en": "-\tListen to students present project results.\n-\tCheck technical drawings and calculation results.\n-\tAsk questions for students to answer.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTrình bày các kết quả thực hiện đồ án\n-\tTrả lời các câu hỏi của giảng viên\n",
+            "en": "-\tPresentation of project results.\n-\tAnswer the lecturer's questions."
+          },
+          "chuandaura": {
+            "id": 88442,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Ứng dụng kỹ năng làm việc nhóm, cá nhân.",
+              "en": "Apply teamwork and individual skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90096,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38264,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "EXM#1: Đánh giá hoàn thiện đồ án từ giảng viên hướng dẫn (50% điểm)",
+                  "en": "EXM#1: 50% score of the instructor"
+                }
+              }
+            },
+            {
+              "id": 90105,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38265,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "EXM#2: Đánh giá hoàn thiện đồ án từ giảng viên phản biện (50% điểm)  ",
+                  "en": "EXM#2: 50% score of the reviewer"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57870,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-\tNghe sinh viên trình bày các kết quả thực hiện đồ án\n-\tKiểm tra bản vẽ kỹ thuật và kết quả tính toán\n-\tĐặt các câu hỏi để sinh viên trả lời \n",
+            "en": "-\tListen to students present project results.\n-\tCheck technical drawings and calculation results.\n-\tAsk questions for students to answer.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "-\tTrình bày các kết quả thực hiện đồ án\n-\tTrả lời các câu hỏi của giảng viên\n",
+            "en": "-\tPresentation of project results.\n-\tAnswer the lecturer's questions."
+          },
+          "chuandaura": {
+            "id": 88443,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Ứng dụng kỹ năng giao tiếp, viết báo cáo và thuyết trình.",
+              "en": "Apply communication, write technical report and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 90088,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38264,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "EXM#1: Đánh giá hoàn thiện đồ án từ giảng viên hướng dẫn (50% điểm)",
+                  "en": "EXM#1: 50% score of the instructor"
+                }
+              }
+            },
+            {
+              "id": 90100,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38265,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "EXM#2: Đánh giá hoàn thiện đồ án từ giảng viên phản biện (50% điểm)  ",
+                  "en": "EXM#2: 50% score of the reviewer"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bảo vệ đồ án\n(50% từ GV hướng dẫn và 50% từ GV phản biện)\n",
+        "en": "Exam Final\n(50% from the instructor and 50% from the reviewer)\n\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 88430,
+      "ma": "L.O.1.1",
+      "ten_vi": "Tính toán phụ tải nhiệt của thiết bị.",
+      "ten_en": "Calculate the heat load of the thermal equipment. ",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38259,
+          "ma": "A.O.3",
+          "ten_vi": "AIC#3: Thảo luận nhóm",
+          "ten_en": "AIC#3:  Group discussion"
+        }
+      ]
+    },
+    {
+      "id": 88431,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích lựa chọn phương án thiết kế.",
+      "ten_en": "Analyze and choose the design method.",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38258,
+          "ma": "A.O.2",
+          "ten_vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+          "ten_en": "AIC#2: Assesment join in class activities"
+        }
+      ]
+    },
+    {
+      "id": 88433,
+      "ma": "L.O.2.1",
+      "ten_vi": "Xác định các thông số tính toán, thiết kế.",
+      "ten_en": "Determine the design calculation parameters.",
+      "hddg": [
+        {
+          "id": 38258,
+          "ma": "A.O.2",
+          "ten_vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+          "ten_en": "AIC#2: Assesment join in class activities"
+        },
+        {
+          "id": 38259,
+          "ma": "A.O.3",
+          "ten_vi": "AIC#3: Thảo luận nhóm",
+          "ten_en": "AIC#3:  Group discussion"
+        }
+      ]
+    },
+    {
+      "id": 88434,
+      "ma": "L.O.2.2",
+      "ten_vi": "Tính toán hệ số truyền nhiệt và diện tích trao đổi nhiệt.",
+      "ten_en": "Calculate the heat transfer coefficient of thermal equipment and heat transfer area.",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38261,
+          "ma": "A.O.5",
+          "ten_vi": "IHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+          "ten_en": "IHW#1: Preliminary assesment project report"
+        }
+      ]
+    },
+    {
+      "id": 88436,
+      "ma": "L.O.3.1",
+      "ten_vi": "Tính toán tổn thất áp suất của các dòng môi chất trong thiết bị nhiệt.",
+      "ten_en": "Calculate the pressure drop of the flows in the thermal equipment.",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38263,
+          "ma": "A.O.7",
+          "ten_vi": "IHW#2: Đánh giá thuyết minh đồ án",
+          "ten_en": "IHW#2: Assesment project report"
+        }
+      ]
+    },
+    {
+      "id": 88437,
+      "ma": "L.O.3.2",
+      "ten_vi": "Tính toán sức bền thiết bị nhiệt.",
+      "ten_en": "Calculate the strength of the thermal equipment.",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38262,
+          "ma": "A.O.6",
+          "ten_vi": "GHW#2: Đánh giá thuyết minh đồ án.",
+          "ten_en": "GHW#2: Assesment project report"
+        }
+      ]
+    },
+    {
+      "id": 88439,
+      "ma": "L.O.4.1",
+      "ten_vi": "Vẽ sơ đồ nhiệt của thiết bị.",
+      "ten_en": "Draw the heat diagram of thermal equipment.",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38260,
+          "ma": "A.O.4",
+          "ten_vi": "GHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+          "ten_en": "GHW#1: Preliminary assesment project report"
+        }
+      ]
+    },
+    {
+      "id": 88440,
+      "ma": "L.O.4.2",
+      "ten_vi": "Vẽ bản vẽ thiết kế của thiết bị.",
+      "ten_en": "Draw the fabrication drawings of thermal equipment.",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38262,
+          "ma": "A.O.6",
+          "ten_vi": "GHW#2: Đánh giá thuyết minh đồ án.",
+          "ten_en": "GHW#2: Assesment project report"
+        },
+        {
+          "id": 38263,
+          "ma": "A.O.7",
+          "ten_vi": "IHW#2: Đánh giá thuyết minh đồ án",
+          "ten_en": "IHW#2: Assesment project report"
+        }
+      ]
+    },
+    {
+      "id": 88442,
+      "ma": "L.O.5.1",
+      "ten_vi": "Ứng dụng kỹ năng làm việc nhóm, cá nhân.",
+      "ten_en": "Apply teamwork and individual skills.",
+      "hddg": [
+        {
+          "id": 38257,
+          "ma": "A.O.1",
+          "ten_vi": "AIC#1: Đánh giá chuyên cần ",
+          "ten_en": "AIC#1: Attendance"
+        },
+        {
+          "id": 38258,
+          "ma": "A.O.2",
+          "ten_vi": "AIC#2: Đánh gia tham gia các hoạt động trong lớp",
+          "ten_en": "AIC#2: Assesment join in class activities"
+        },
+        {
+          "id": 38264,
+          "ma": "A.O.8",
+          "ten_vi": "EXM#1: Đánh giá hoàn thiện đồ án từ giảng viên hướng dẫn (50% điểm)",
+          "ten_en": "EXM#1: 50% score of the instructor"
+        },
+        {
+          "id": 38265,
+          "ma": "A.O.9",
+          "ten_vi": "EXM#2: Đánh giá hoàn thiện đồ án từ giảng viên phản biện (50% điểm)  ",
+          "ten_en": "EXM#2: 50% score of the reviewer"
+        }
+      ]
+    },
+    {
+      "id": 88443,
+      "ma": "L.O.5.2",
+      "ten_vi": "Ứng dụng kỹ năng giao tiếp, viết báo cáo và thuyết trình.",
+      "ten_en": "Apply communication, write technical report and presentation skills.",
+      "hddg": [
+        {
+          "id": 38260,
+          "ma": "A.O.4",
+          "ten_vi": "GHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+          "ten_en": "GHW#1: Preliminary assesment project report"
+        },
+        {
+          "id": 38261,
+          "ma": "A.O.5",
+          "ten_vi": "IHW#1: Đánh giá sơ bộ thuyết minh đồ án.",
+          "ten_en": "IHW#1: Preliminary assesment project report"
+        },
+        {
+          "id": 38264,
+          "ma": "A.O.8",
+          "ten_vi": "EXM#1: Đánh giá hoàn thiện đồ án từ giảng viên hướng dẫn (50% điểm)",
+          "ten_en": "EXM#1: 50% score of the instructor"
+        },
+        {
+          "id": 38265,
+          "ma": "A.O.9",
+          "ten_vi": "EXM#2: Đánh giá hoàn thiện đồ án từ giảng viên phản biện (50% điểm)  ",
+          "ten_en": "EXM#2: 50% score of the reviewer"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Đồ án Thiết kế - Hướng thiết bị lạnh",
+  "tenmonhoc_eng": "Design Project - Refrigeration Equipment Orientation",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1469 @@
+{
+  "ma": "DCMH.EE3415.1.1",
+  "phienban": "1.1",
+  "capnhat": "21/06/2024 13:08",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3415",
+  "ten": "EE3415 - Thông tin tương tự - số",
+  "ten_eng": "EE3415 - Analog and Digital Communications",
+  "hockyapdung": "HK221",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n\n</p><div>Mục tiêu chung của môn học là cung cấp kiến thức cơ sở về nguyên lý thông tin tương tự-số cho sinh viên chuyên ngành Điện tử- Viễn thông. Trong đó, mục tiêu đầu tiên là giúp sinh viên nắm vững về phân tích quá trình ngẫu nhiên và đặc tính của tín hiệu trong hệ thống thông tin. Mục tiêu thứ hai giúp sinh viên hiểu và có khả năng phân tích mã hóa nguồn và mã hóa kênh. Mục tiêu thứ ba là trình bày nguyên lý hoạt động và các đặc tính của các kỹ thuật cách điều chế/giải điều chế tín hiệu. Mục tiêu cuối cùng là trang bị cho sinh viên kiến thức về phân tích chỉ tiêu chất lượng của các khối chức năng cơ bản trong hệ thống thông tin tương tự-số.</div>\n\n\n<br><p></p>",
+      "en": "<p>\n</p>This course provides fundamental knowledge about analog-digital communication systems to students whose majors are in the electronics and communications. The first objective is to help students conducting the analysis of random process and the characteristics of signals in communication systems. The second objective is to enable students understanding and analyzing source coding algorithms and channel coding methods. The third objective is to present students with the principles and characteristics of modulation and demodulation techniques. The last objective is to provide students with knowledge on performance evaluation/analysis of essential elements in analog-digital communication systems.\n\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n\n</p><div>Nội dung môn học liên quan đến những kiến thức về nguyên lý thông tin tương tự và thông tin số. <br></div><div>Nội dung môn học bao gồm các chủ đề chính sau:</div><div>- Những khái niệm tổng quát tín hiệu và hệ thông tin <br></div><div>- Kỹ thuật chuyển đổi tín hiệu tương tự sang tín hiệu số</div><div>- Kỹ thuật điều chế tương tự và điều chế</div><div>- Phương pháp mã hóa kênh</div><div>- Các hiệu năng hệ thống thông tin tương tự-thông tin số: tỷ số tín hiệu trên nhiễu, tỷ lệ lỗi bit, băng thông, tốc độ bit<br>\n</div><br><p></p>",
+      "en": "<p>\n</p><div>\n\n\n<div>The contents of the course are related to most of the fundamental knowledge of analog and digital communications systems.</div><div>The major topics are as follows:</div><div>- Overall concepts of signals and communications systems</div><div>-&nbsp; Analog to digital conversion techniques</div><div>- Analog and digital modulation techniques</div><div>- Error control coding</div><div>- Performance metrics of analog and digital communication systems: signal to noise ratio, bit error rate, bandwidth, bit rate<br></div></div><br><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n\n</p><div>[1] Simon Haykin, “Digital Communication Systems”, JohnWIley &amp; Sons, Inc, 2014, ISBN 978-0-471-64735-5. <br></div><div>\n[2] Ha H. Nguyen, Ed Shwedy, “A First Course in Digital Communications’, Cambridge University Press, 2011, ISBN 978-1107652804.\n\n\n<br></div><div>[3] B. Sklar, F. Harris, “Digital Communications”, Prentice-Hall International Editions, 2020, ISBN: \n                                    ‎\n                                 0134588568\n\n<br></div><div>\n[4] John G. Proakis, “Digital Communications”, McGraw-Hill Co. –3rd edi., 1995, ISBN 0-07-113814-5.\n\n\n<br></div><div>[5] William Stallings, “Data and Computer Communications”, Prentice-Hall, Int. Edi, 1997 ISBN 0-13-571274-2.\n</div><div>[6] A. Bruce Carlson, Paul B. Crilly, “Communications Systems”, Mc Graw-Hill, 5th edi. 2010, ISBN 978-0-07-338040-7</div>\n\n\n<br><p></p>",
+      "en": "<p>\n</p><div>[1] Simon Haykin, “Digital Communication Systems”, JohnWIley &amp; Sons, Inc, 2014, ISBN 978-0-471-64735-5. <br></div><div>\n[2] Ha H. Nguyen, Ed Shwedy, “A First Course in Digital Communications’, Cambridge University Press, 2011, ISBN 978-1107652804.\n\n\n<br></div><div>\n[3] B. Sklar, F. Harris, “Digital Communications”, Prentice-Hall International Editions, 2020, ISBN: \n                                    ‎\n                                 0134588568\n\n\n\n.<br></div><div>\n[4] John G. Proakis, “Digital Communications”, McGraw-Hill Co. –3rd edi., 1995, ISBN 0-07-113814-5.\n\n\n<br></div><div>[5] William Stallings, “Data and Computer Communications”, Prentice-Hall, Int. Edi, 1997 ISBN 0-13-571274-2.\n</div><div>[6] A. Bruce Carlson, Paul B. Crilly, “Communications Systems”, Mc Graw-Hill, 5th edi. 2010, ISBN 978-0-07-338040-7</div>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n\n</p><div>- Sinh viên đọc các tài liệu tham khảo chính có trong thư viện đại học Bách Khoa. và các tài liệu tham khảo khác được giới thiệu trên server e-learning <br></div>- Sinh viên cần tham dự đầy đủ giờ giảng trên lớp<div>- Sinh viên tìm hiểu MATLAB để mô phỏng hệ thống thông tin<br></div>\n\n\n<br><p></p>",
+      "en": "<p>- Students should read text books in the university’s library and&nbsp; other references and teaching materials recommended in the e-learning server.\n</p><div>- Students are advised to attend all classes.</div><div>- Students should study MATLAB to simulate communications systems<br></div>\n\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1449,
+      "ma": "NG_0N41",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - CTTT - Điện - Điện Tử - Khóa 2021",
+        "en": "Electrical and Electronics Engineering - Year 2021"
+      }
+    },
+    {
+      "id": 1450,
+      "ma": "CN_VVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Viễn thông - Khóa 2021",
+        "en": "Telecommunication Engineering  - Year 2021"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 466,
+      "ma": "001925",
+      "ten": "Hà Hoàng Kha"
+    },
+    {
+      "id": 467,
+      "ma": "001949",
+      "ten": "Hồ Văn Khương"
+    },
+    {
+      "id": 462,
+      "ma": "001727",
+      "ten": "Đỗ Hồng Tuấn"
+    },
+    {
+      "id": 460,
+      "ma": "001192",
+      "ten": "Lê Tiến Thường"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 0.6,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 27,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "tong": 100,
+    "kiemTra": 0,
+    "thi": 50,
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 30,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1040,
+      "maBoMon": "KTT",
+      "tenBoMon": {
+        "vi": "Viễn Thông"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Khoa Điện – Điện tử / Bộ môn Viễn thông",
+      "dienThoai": "(84.8) 38647256 – 5707"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 466,
+        "maGiangVien": "001925",
+        "tenGiangVien": "Hà Hoàng Kha",
+        "emailGiangVien": "hhkha@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3b",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2405 - Xử lý Tín hiệu Tương tự",
+        "en": "EE2405 - Analog Signal Processing"
+      },
+      "tenmonhoc_only": {
+        "vi": "Xử lý Tín hiệu Tương tự",
+        "en": "Analog Signal Processing"
+      },
+      "mamonhoc": "EE2405"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 6402,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 6403,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "6402",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tại lớp",
+        "en": "Excercise"
+      },
+      "noidung": {
+        "vi": "Bài tập tại lớp",
+        "en": "Excercise"
+      }
+    },
+    {
+      "id": 6404,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "6402",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 6405,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "6402",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Tiểu luận",
+        "en": "Group project"
+      },
+      "noidung": {
+        "vi": "Tiểu luận",
+        "en": "Group project"
+      }
+    },
+    {
+      "id": 6406,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "6402",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 6410,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 8827,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu môn học, chuẩn đầu ra và trình bày bài giảng ",
+            "en": "Introduce the syllabus and learning outcomes, present the lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng và tài liệu tham khảo ",
+            "en": "Studying the lecture and reading references"
+          },
+          "chuandaura": {
+            "id": 44595,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được các thông số cơ bản của quá trình ngẫu nhiên trong thông tin",
+              "en": "Explain basic parameters of random processes in communications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14260,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6403,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "Excercise"
+                }
+              }
+            },
+            {
+              "id": 14246,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: TỔNG QUAN VỀ HỆ THỐNG THÔNG TIN \n\n- Các phần tử cơ bản của hệ thống thông tin tương tự, thông tin số\n- Hiệu năng của hệ thống thông tin\n- Kênh thông tin và những đặc trưng cơ bản\n- Mô hình toán học cho  kênh thông tin\n- Những nét khái quát về quá trình phát triển của hệ thống thông tin ",
+        "en": "Chapter 1 – OVERVIEW ON COMMUNICATIONS SYSTEMS\n\n- Typical communication systems\n- Performance metrics of communication systems\n- Channels and fundamental characteristics \n- Channel models \n- Historical background of communication development"
+      }
+    },
+    {
+      "id": 6413,
+      "stt": 2,
+      "buoi": "2,3",
+      "chuandaurachitiet": [
+        {
+          "id": 8828,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, làm bài tập",
+            "en": " Studying the lecture, reading textbooks, doing homework"
+          },
+          "chuandaura": {
+            "id": 44595,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được các thông số cơ bản của quá trình ngẫu nhiên trong thông tin",
+              "en": "Explain basic parameters of random processes in communications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14268,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14256,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 14245,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 8826,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, làm bài tập ",
+            "en": "Studying the lecture, reading textbooks, doing homework"
+          },
+          "chuandaura": {
+            "id": 44596,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Tính toán được các thông số cơ bản trong hệ thống thông tin",
+              "en": "Calculate the basic parameters in comunication systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14259,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14266,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 14267,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: XÁC SUẤT VÀ NHỮNG QUÁ TRÌNH NGẪU NHIÊN TRONG THÔNG TIN \n\n- Xác suất, biến ngẫu nhiên và những phân bố xác suất\n- Quá trình ngẫu nhiên, phổ mật độ công suất \n- Nhiễu trong hệ thống thông tin\n- Truyền tín hiệu qua hệ thống tuyến tính. ",
+        "en": "Chapter 2:  PROBABILITY AND STOCHASTIC PROCESSES\n\n- Probability, random variable, and distribution functions \n- Random process and power spectral density\n- Noise in communications\n- Signal transmission through linear systems"
+      }
+    },
+    {
+      "id": 6409,
+      "stt": 3,
+      "buoi": "4,5,6",
+      "chuandaurachitiet": [
+        {
+          "id": 8820,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, làm bài tập và tham gia thảo luận",
+            "en": "Studying the lecture, reading textbooks, doing homework, and joining the group discussion "
+          },
+          "chuandaura": {
+            "id": 44598,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Giải thích sơ đồ khối thực hiện các phương pháp điều chế tương tự",
+              "en": "Explain the block diagram of analog modulation techniques"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14269,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14252,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 14253,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 8819,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": " Học bài giảng, đọc tài liệu tham khảo, làm bài tập và tham gia thảo luận ",
+            "en": "Studying the lecture, reading textbooks, doing homework, and joining the group discussion "
+          },
+          "chuandaura": {
+            "id": 44599,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán được phổ,  băng thông,  tỷ số tín hiệu trên nhiễu của phương pháp điều chế tương tự",
+              "en": "Calculate the spectrum, bandwidth and SNR of analog modulation techniques"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14270,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14271,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 14254,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chuơng 3: ĐIÊU CHẾ VÀ GIẢI ĐIỀU CHẾ TƯƠNG TỰ\n\n- Tín hiệu và nhiễu\n- Kỹ thuật diều chế AM, PM, FM \n- Đổi tần, nhân tần\n- Máy thu cho các biến điệu sóng mang liên tục: AM, FM",
+        "en": "Chapter 3: ANALOG MODULATION AND DEMODULATION TECHNIQUES\n\n- Signals and noise\n-  Modulation and demodulation techniques: AM, PM, FM\n-  Mixers, frequency multipliers\n- AM, FM transceivers"
+      }
+    },
+    {
+      "id": 6412,
+      "stt": 4,
+      "buoi": "7,8",
+      "chuandaurachitiet": [
+        {
+          "id": 8818,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, làm bài tập",
+            "en": "Studying the lecture, reading textbooks, doing homework"
+          },
+          "chuandaura": {
+            "id": 44601,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được quá trình mã hóa nguồn tín hiệu tương tự, điều chế xung mã",
+              "en": "Explain the analog source coding and PCM"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14255,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14272,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 8825,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, làm bài tập",
+            "en": "Studying the lecture, reading textbooks, doing homework"
+          },
+          "chuandaura": {
+            "id": 44602,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": " Tính toán tần số lấy mẫu, SNR, tốc độ bit",
+              "en": "Calculate sampling rates, SNR, bit rates"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14247,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14249,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: MÃ HÓA NGUỒN \n \n- Mô hình toán học cho thông tin\n- Entropy và đo lường thông tin cho các biến ngẫu nhiên liên tục\n- Mã hóa nguồn rời rạc\n- Lượng tử hóa biên độ, PCM\n- Điều chế xung mã vi sai DPCM\n- Điều chế tín hiệu dải nền",
+        "en": " Chapter 4: SOURCE ENCODING\n\n- Introduction\n- Entropy \n- Source coding \n- Pulse Code Modulation\n- Differential Pulse Code Modulation \n- Baseband Modulation"
+      }
+    },
+    {
+      "id": 6408,
+      "stt": 5,
+      "buoi": "9,10,11,12",
+      "chuandaurachitiet": [
+        {
+          "id": 8823,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, làm bài tập và tham gia thảo luận ",
+            "en": "Studying the lecture, reading textbooks, doing homework, and joining the group discussion "
+          },
+          "chuandaura": {
+            "id": 44604,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Giải thích sơ đồ khối thực hiện các phương pháp điều chế số",
+              "en": "Explain the block diagram of digital modulation techniques"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14257,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14250,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 14251,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 8821,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, làm bài tập và tham gia thảo luận",
+            "en": "Studying the lecture, reading textbooks, doing homework, and joining the group discussion"
+          },
+          "chuandaura": {
+            "id": 44605,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Tính toán được phổ,  băng thông, xác suất lỗi bit của phương pháp điều chế số",
+              "en": "Calculate the spectrum, bandwidth and BER of digital modulation techniques"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14261,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6404,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 14262,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 14248,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chuơng 5: ĐIÊU CHẾ VÀ GIẢI ĐIỀU CHẾ SỐ\n\n- Tín hiệu và nhiễu\n- Kỹ thuật diều chế số (PSK, FSK, ASK,APK/QAM)\n- Tách tín hiệu trong nhiễu Gauss\n- Tách sóng Coherent\n- Tách sóng non-coherent\n- Sai nhầm trong các hệ thống nhị phân",
+        "en": "Chapter 5: DIGITAL MODULATION AND DEMODULATION\n\n- Signal and noise\n- Digital modulation techniques (PSK, FSK,  ASK, APK/QAM)\n- Signal detection with Gaussian noise\n- Coherent detection \n- Non-coherent detection\n- Bit error rate in digital modulations"
+      }
+    },
+    {
+      "id": 6411,
+      "stt": 6,
+      "buoi": "13,14,15",
+      "chuandaurachitiet": [
+        {
+          "id": 8824,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, làm bài tập và mô phỏng",
+            "en": "  Studying the lecture, doing homework and simulations"
+          },
+          "chuandaura": {
+            "id": 44607,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Giải thích được các khái niệm cơ bản trong mã hóa kênh",
+              "en": "Explain the basic concepts in channel coding"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14258,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 14263,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 8822,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng và cho câu hỏi ",
+            "en": "Presenting the lecture and giving questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": " Học bài giảng, làm bài tập và mô phỏng ",
+            "en": "Studying the lecture, doing homework and simulations"
+          },
+          "chuandaura": {
+            "id": 44608,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Phân tích khả năng phát hiện sai và sửa sai của các phương pháp mã hóa kênh",
+              "en": "Analyze the capacity of error detection and error correction of channel coding methods"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 14264,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 6405,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 14265,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 6406,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chuơng 6: MÃ HÓA  KÊNH \n\n- Vấn đề tách và sừa sai trong hệ thống thông tin\n- Mã hóa khối tuyến tính (linear block codes) \n- Mã vòng (cyclic codes)\n- Mã hóa chập (convolutional codes)\n- Thuật toán giải mã chập\n",
+        "en": "Chapter 6: CHANNEL ENCODING\n\n- Error control using  forward error correction\n- Linear block codes\n- Cyclic codes\n- Convolutional codes\n- Optimum decoding of convolution codes"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 44595,
+      "ma": "L.O.1.1",
+      "ten_vi": "Giải thích được các thông số cơ bản của quá trình ngẫu nhiên trong thông tin",
+      "ten_en": "Explain basic parameters of random processes in communications",
+      "hddg": [
+        {
+          "id": 6403,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "Excercise"
+        },
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44596,
+      "ma": "L.O.1.2",
+      "ten_vi": "Tính toán được các thông số cơ bản trong hệ thống thông tin",
+      "ten_en": "Calculate the basic parameters in comunication systems",
+      "hddg": [
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44598,
+      "ma": "L.O.2.1",
+      "ten_vi": "Giải thích sơ đồ khối thực hiện các phương pháp điều chế tương tự",
+      "ten_en": "Explain the block diagram of analog modulation techniques",
+      "hddg": [
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44599,
+      "ma": "L.O.2.2",
+      "ten_vi": "Tính toán được phổ,  băng thông,  tỷ số tín hiệu trên nhiễu của phương pháp điều chế tương tự",
+      "ten_en": "Calculate the spectrum, bandwidth and SNR of analog modulation techniques",
+      "hddg": [
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44601,
+      "ma": "L.O.3.1",
+      "ten_vi": "Giải thích được quá trình mã hóa nguồn tín hiệu tương tự, điều chế xung mã",
+      "ten_en": "Explain the analog source coding and PCM",
+      "hddg": [
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44602,
+      "ma": "L.O.3.2",
+      "ten_vi": " Tính toán tần số lấy mẫu, SNR, tốc độ bit",
+      "ten_en": "Calculate sampling rates, SNR, bit rates",
+      "hddg": [
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44604,
+      "ma": "L.O.4.1",
+      "ten_vi": "Giải thích sơ đồ khối thực hiện các phương pháp điều chế số",
+      "ten_en": "Explain the block diagram of digital modulation techniques",
+      "hddg": [
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44605,
+      "ma": "L.O.4.2",
+      "ten_vi": "Tính toán được phổ,  băng thông, xác suất lỗi bit của phương pháp điều chế số",
+      "ten_en": "Calculate the spectrum, bandwidth and BER of digital modulation techniques",
+      "hddg": [
+        {
+          "id": 6404,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44607,
+      "ma": "L.O.5.1",
+      "ten_vi": "Giải thích được các khái niệm cơ bản trong mã hóa kênh",
+      "ten_en": "Explain the basic concepts in channel coding",
+      "hddg": [
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 44608,
+      "ma": "L.O.5.2",
+      "ten_vi": "Phân tích khả năng phát hiện sai và sửa sai của các phương pháp mã hóa kênh",
+      "ten_en": "Analyze the capacity of error detection and error correction of channel coding methods",
+      "hddg": [
+        {
+          "id": 6405,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 6406,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thông tin tương tự - số",
+  "tenmonhoc_eng": "Analog and Digital Communications",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": null
+}

@@ -1,0 +1,1235 @@
+{
+  "ma": "DCMH.EE5361.1.1",
+  "phienban": "1.1",
+  "capnhat": "01/06/2026 15:54",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5361",
+  "ten": "EE5361 - Xử lý số tín hiệu",
+  "ten_eng": "EE5361 - Digital Signal Processing",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>-  Giải thích được chức năng các khối trong hệ thống xử lý số tín hiệu, phân loại được các loại hệ thống, tín hiệu.<br>-  Giải thích nguyên lý biến đổi tín hiệu ADC và DAC, tính toán được tần số lấy mẫu, số bit lượng tử ảnh hường đến méo lượng tử.<br>-  Giải thích quan hệ vào/ra của một hệ thống, đặc tính của một hệ thống, tính toán đáp ứng xung của hệ thống và tính toán đáp ứng của hệ thống.<br>-  Giải thích và tính toán tín hiệu và hệ thống trong miền biến đổi z và biến đổi Fourer.<br>-  Tính toán và thiết kế bộ lọc FIR và IIR theo yêu cầu của ứng dụng.<br><br></p>",
+      "en": "<p>-  Explain the building blocks in digital signal processing systems, distinguish the classes of signals and systems.<br>-  Explain the principles of ADC and DAC, compute the sampling frequency, quantization bits, and quantization noise. <br>-  Explain the input/output rules of the systems, the system properties, calculate the impulse response and the output.<br>-  Explain and calculate the z-transform and Fourier transform.<br>-  Calculate and design FIR and IIR filters for particular applications.<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học nhằm cung cấp những kiến thức tổng quát về xử lý số tín hiệu ở cấp độ cơ bản và ứng dụng cho việc giải tích xử lý tín hiệu. Những khái niệm về các hệ thống rời rạc bao gồm phương trình sai phân (vi phân), biến đổi Z, tích chập, ổn định, biến đổi Fourier rời rạc, biến đổi Fourier nhanh được giới thiệu như là những khái niệm căn bản về xử lý tín hiệu. Thiết kế mạch lọc có đáp ứng xung hữu hạn (FIR) và vô hạn (IIR) được giới thiệu như là phần ứng dụng của việc xử lý tín hiệu trong các hệ thống tuyến tính bất biến theo thời gian (LTI).<br></p>",
+      "en": "<p>The course is intended to present a comprehensive treatment of signals processing at an introductory level and Matlab implemented to Signal processing analysis.  The fundamentals of discrete-time linear systems included difference equations, z-transform, discrete convolution, stability, discrete-time Fourier transform, Fast Fourier transform are introduced as the basis concepts on Digital Signal Processing.  The designs of Finite Impulse Response Filters (FIR) and Infinite Impulse Response Filters (IIR) are presented as applications of LTI system signal processing.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1]  J. Proakis, D. Manolakis, “Digital Signal Processing”, \nPearson; 5th edition,, 2021, ISBN \n978-0137348244\n\n<br>[2]  S. J. Orfanidis, “Introduction to Signal Processing”, Prentice –Hall Publisher 1996, ISBN 0-13-209172-0.<br>[3]  Lê Tiến Thường, “Xử Lý Số Tín Hiệu và Wavelets”, Nhà Xuất Bản Đại Học Quốc Gia Tp.HCM.<br>[4]  Maurice Bellanger, “Digital Processing of Signal: Theory and Practice”, John Wiley &amp; Son Ltd 1989, ISBN 0471 921017.  <br>[5]  Athanasios Papoulis, “Signal Analysis”, McGraw-Hill, Inc., 1977, ISBN 0-07-066468-4.<br>[6]  &nbsp; E.C.Ifeachor, B.W.Jervis, “Digital Signal Processing - A Practical Approach”, Addition-Wesley Pulishers Ltd, 1993, ISBN 0-201-54413-X.<br><br></p>",
+      "en": "<p>&nbsp;[1]  J. Proakis, D. Manolakis, “Digital Signal Processing”, \nPearson; 5th edition,, 2021, ISBN \n978-0137348244\n\n\n\n<br>[2]  S. J. Orfanidis, “Introduction to Signal Processing”, Prentice –Hall Publisher 1996, ISBN 0-13-209172-0.<br>[3]  Lê Tiến Thường, “Xử Lý Số Tín Hiệu và Wavelets”, Nhà Xuất Bản Đại Học Quốc Gia Tp.HCM.<br>[4]  Maurice Bellanger, “Digital Processing of Signal: Theory and Practice”, John Wiley &amp; Son Ltd 1989, ISBN 0471 921017.  <br>[5]  Athanasios Papoulis, “Signal Analysis”, McGraw-Hill, Inc., 1977, ISBN 0-07-066468-4.<br>[6]  &nbsp; E.C.Ifeachor, B.W.Jervis, “Digital Signal Processing - A Practical Approach”, Addition-Wesley Pulishers Ltd, 1993, ISBN 0-201-54413-X.<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>•  Tài liệu tham khảo chính có trong thư viện đại học Bách Khoa. <br>•  Bài giảng, bài tập về nhà và bài tập mô phỏng được đưa lên server BK e-learning.<br>•  Sinh viên nên tham dự đầy đủ giờ giảng trên lớp.<br>•  Thí nghiệm được thực hiện tại phòng Thí nghiệm của Bộ môn.<br>•  Thời gian thi cuối kỳ và quy định điểm đạt/không đạt theo quy chế của phòng đào tạo. <br><br></p>",
+      "en": "<p>\n• Read the textbooks from the library.<br>•  Study the lecture, do homework and simulations provided in B BK e-learning.<br>• Students must fully participate all lecturer.<br>• Experiments are conducted at the lab of the Department<br><br>\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 10181,
+      "ma": "NG_8520216",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Kỹ thuật Điều khiển và Tự động hóa",
+        "en": "Coursework Master Program in Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 10291,
+      "ma": "NG_8520216",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Kỹ thuật Điều khiển và Tự động hóa",
+        "en": "Research-oriented Master Program in Control Engineering and Automation"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 466,
+      "ma": "001925",
+      "ten": "Hà Hoàng Kha"
+    },
+    {
+      "id": 486,
+      "ma": "003260",
+      "ten": "Đặng Nguyên Châu"
+    },
+    {
+      "id": 8101,
+      "ma": "003905",
+      "ten": "Võ Tuấn Kiệt"
+    },
+    {
+      "id": 472,
+      "ma": "002321",
+      "ten": "Nguyễn Chí Ngọc"
+    },
+    {
+      "id": 460,
+      "ma": "001192",
+      "ten": "Lê Tiến Thường"
+    },
+    {
+      "id": 473,
+      "ma": "002330",
+      "ten": "Nguyễn Thanh Tuấn"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1031,
+      "maBoMon": "TDH",
+      "tenBoMon": {
+        "vi": "Điều Khiển Tự Động"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Khoa Điện - Điện tử",
+      "dienThoai": "(028) 38647256 ext. 7746"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 466,
+        "maGiangVien": "001925",
+        "tenGiangVien": "Hà Hoàng Kha",
+        "emailGiangVien": "hhkha@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 90182,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 90183,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "90182",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      }
+    },
+    {
+      "id": 90184,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "90182",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "1-7",
+        "en": "1-7"
+      }
+    },
+    {
+      "id": 90185,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "90182",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập",
+        "en": "Homework"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 111619,
+      "stt": 1,
+      "buoi": "1-3",
+      "chuandaurachitiet": [
+        {
+          "id": 148467,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nội dung chương 1, 2",
+            "en": "Present chapter 1, 2"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng và đọc tài liệu tham khảo",
+            "en": "Studying lecture notes and reading textbooks"
+          },
+          "chuandaura": {
+            "id": 240968,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích và tính toán lấy mẫu và khôi phục tín hiệu trong quá trình biến đổi ADC/DAC",
+              "en": "Analyze and compute sampling and signal reconstruction in the ADC/DAC"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243168,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 243165,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90184,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148462,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nội dung chương 1, 2",
+            "en": "Present chapter 1,2"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng và đọc tài liệu tham khảo",
+            "en": "Studying lecture notes and reading textbooks"
+          },
+          "chuandaura": {
+            "id": 240969,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích và tính toán lượng lử, mã hóa trong quá trình biến đổi ADC ",
+              "en": "Analyze and compute quantization and coding theories in the ADC conversion process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243173,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 243176,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90184,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu tổng quan xử lý số tín hiệu\n\n1.1.\tGiới thiệu các thành hệ thống xử lý số tín hiệu\n1.2.\tƯu điểm của xử lý số tín hiệu\n1.3.\tGiới thiệu và phân loại tín hiệu\n1.4.\tCác ứng dụng xử lý số tín hiệu\n\nChương 2:  Lẫy mẫu và khôi phục tín hiệu\n2.1.\tĐịnh lý lấy mẫu\n2.2.\tPhổ tín hiệu rời rạc\n2.3.\tLượng tử và mã hóa\n2.4.\tKhôi phục tín hiệu tương tự\n2.5.\tKỹ thuật quá lẫy mẫu và định dạng nhiêu để giảm số bit lượng tử\n\nBài tập và mô phỏng\n",
+        "en": "Chapter 1: Introduction to digital signal processing\n\n1.1.\tDigital signal processing blocks\n1.2.\tAdvantages/disadvantages of digital signal processing\n1.3.\tAnalog and digital signals\n1.4.\tDigital signal processing applications\n\nChapter 2:  Sampling and reconstruction\n2.1.\tSampling theorem\n2.2.\tSpectra of sampled signals\n2.3.\tQuantization and encoding\n2.4.\tAnalog reconstructors\n2.5.\tOversampling and noise shaping\n\nHomework and simulation\n"
+      }
+    },
+    {
+      "id": 111623,
+      "stt": 2,
+      "buoi": "4-5",
+      "chuandaurachitiet": [
+        {
+          "id": 148463,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nội dung chương 3",
+            "en": "Present chapter 3"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, thảo luận nhóm",
+            "en": "Studying the lecture, reading references and group discussion"
+          },
+          "chuandaura": {
+            "id": 240970,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân tích các tính chất tuyến tính, bất biến, nhân quả, ổn định trong phân tích hệ thống",
+              "en": "Analyze the properties of linearity, time invariance, causality, and stability in system analysis."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243171,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90184,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 243169,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148465,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nội dung chương 3",
+            "en": "Present chapter 3"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, đọc tài liệu tham khảo, thảo luận nhóm",
+            "en": "Studying the lecture, reading references and group discussion"
+          },
+          "chuandaura": {
+            "id": 240971,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tính toán đáp ứng của hệ thống thời gian rời rạc",
+              "en": "Compute the response of discrete-time system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243178,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90184,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 243170,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3:  Hệ thống thời gian rời rạc\n\n3.1.\tQuan hệ vào/ra hệ thống\n3.2.\tTuyến tính và bất biến\n3.3.\tNhân quả và ổn định\n3.4.\tĐáp ứng xung \n3.5.\tPhương trình sai phân và chập\n\nBài tập và mô phỏng\n",
+        "en": "Chapter 3:  Discrete-time systems\n\n3.1.\tInput/output rules\n3.2.\tLinearity and time invariance\n3.3.\tCausality and stability\n3.4. Impulse response\n3.5.\tInput/output equations and convolution\n\nHomework and simulation\n"
+      }
+    },
+    {
+      "id": 111620,
+      "stt": 3,
+      "buoi": "6-7",
+      "chuandaurachitiet": [
+        {
+          "id": 148466,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giải thích ứng dụng biến đổi z và ứng dụng",
+            "en": "Explain z-tranform and its applications"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, làm bài tập , mô phỏng ",
+            "en": "Studying the lecture, doing homework, simulations  "
+          },
+          "chuandaura": {
+            "id": 240972,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích tín hiệu và hệ thống bằng biến đổi z",
+              "en": "Analyze signals and systems using the z-transform"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243179,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90183,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 243172,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90184,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 243180,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4:  Biến đổi z-và ứng dụng phân tích hệ thống tuyến tính\n\n4.1.\tBiến đổi z\n4.2.\tCác tính chất biến đổi z\n4.3.\tMiền hội tụ, nhân quả, ổn định\n4.4.\tBiến đổi z ngược\n4.5.\tPhân tích hệ thống trong miền biến đổi z, hàm truyền\n\nBài tập và mô phỏng\n",
+        "en": "Chapter 4:  z-transforms and its applications for linear system analysis\n\n4.1.\tz-transforms\n4.2.\tz transform properties\n4.3.\tRegion of convergence, causality and stability\n4.4.\tInverse z-transforms\n4.5.\tSystem analysis in z-domain and transfer functions\n\nHomework and simulation"
+      }
+    },
+    {
+      "id": 111621,
+      "stt": 4,
+      "buoi": "8-10",
+      "chuandaurachitiet": [
+        {
+          "id": 148468,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày biến đổi Fourier và ứng dụng trong xử lý tín hiệu",
+            "en": "Present Fourier transform and its applications in signal processing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, làm bài tập, mô phỏng",
+            "en": "Studying the lecture, doing homework, simulations"
+          },
+          "chuandaura": {
+            "id": 240974,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phân tích tần số tín hiệu sử dụng biến đổi Fourier.",
+              "en": "Analyze the frequency components of signals by the Fourier transform"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243163,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90183,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 243164,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90184,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 243167,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5:  Phân tích tín hiệu và hệ thống trong miền tần số\n\n5.1.\tĐộ phân giải tần số và cửa sổ\n5.2.\tBiến đổi Fourier thời gian rời rạc (DTFT) và tính chất\n5.3.\tBiến đổi Fourier rời rạc (DFT) và tính chất\n5.4.\tBiến đổi Fourier nhanh (FFT) và tính chất\n\nBài tập và mô phỏng\n",
+        "en": "Chapter 5:  Fourier transforms and system analysis in frequency domain\n\n5.1.\tFrequency resolution and windowing\n5.2.\tDTFT and its properties \n5.3.\tDFT and its properties\n5.4.\tFFT and its properties\n\nHomework and simulation"
+      }
+    },
+    {
+      "id": 111622,
+      "stt": 5,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 148469,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giải thích ứng dụng biến đổi z cho thực hiện bộ lọc.",
+            "en": "Explain how to apply z transform for filter design and analysis"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, làm bài tập , mô phỏng",
+            "en": "Studying the lecture, doing homework, simulations"
+          },
+          "chuandaura": {
+            "id": 240973,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Tính toán và thiết kế hệ thống bằng biến đổi z.",
+              "en": "Compute and design the digital systems by using the z-transform"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243174,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90183,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 243175,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90184,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 243166,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6:  Thực hiện bộ lọc số\n\n6.1.\tDạng trực tiếp\n6.2.\tDạng chính tăc\n6.3.\tDạng cascade\n6.4.\tDạng cascade sang chính tắc\n6.5.\tCài đặt phần cứng và các bộ đệm vòng\n6.6.\tẢnh hưởng lượng tử hóa trong thực hiện bộ lọc số\n\nBài tập và mô phỏng\n",
+        "en": "Chapter 6:  Digital filter realizations\n\n6.1.\tDirect form\n6.2.\tCanonical form\n6.3.\tCascade form\n6.4.\t Cascade to canonical\n6.5.\t Hardware realizations and circular buffers\n6.6.\t Quantization effects in digital filters\n\nHomework and simulation"
+      }
+    },
+    {
+      "id": 111624,
+      "stt": 6,
+      "buoi": "13-14",
+      "chuandaurachitiet": [
+        {
+          "id": 148464,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nội dung chương 7",
+            "en": "Present chapter 7"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học bài giảng, làm bài tập, mô phỏng ",
+            "en": "Studying the lecture, doing homework, simulations"
+          },
+          "chuandaura": {
+            "id": 240975,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phân tích và đánh giá đáp ứng tần số của hệ thống sử dụng biến đổi Fourier  ",
+              "en": "Analyze and evaluate the frequency response of systems using the Fourier transform"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 243177,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90183,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 243181,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90185,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7:  Thiết kế bộ lọc FIR và  IIR\n\n7.1.  Thiết kế bộ lọc FIR\n-  Phương pháp cửa sổ: Rectangular, Hamming, and Kaiser .\n-  Phương pháp lấy mẫu tần số\n- Các phương pháp khác\n7.2.\tThiết kết bộ lọc IIR\n-  Biển đổi Bilinear\n-  Các bộ lọc bậc cao.\n\nBài tập và mô phỏng\n",
+        "en": "Chapter 7:  FIR and  IIR digital filter design\n\n7.1.  FIR filter design\n-  Window methods\n-  Frequency sampling methods\n- Other FIR filter design methods\n7.2.\tIIR filter design\n-  Bilinear transformation\n-  High-order filters\n\nHomework and simulation"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 240968,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phân tích và tính toán lấy mẫu và khôi phục tín hiệu trong quá trình biến đổi ADC/DAC",
+      "ten_en": "Analyze and compute sampling and signal reconstruction in the ADC/DAC",
+      "hddg": [
+        {
+          "id": 90184,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 240969,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích và tính toán lượng lử, mã hóa trong quá trình biến đổi ADC ",
+      "ten_en": "Analyze and compute quantization and coding theories in the ADC conversion process",
+      "hddg": [
+        {
+          "id": 90184,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 240970,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phân tích các tính chất tuyến tính, bất biến, nhân quả, ổn định trong phân tích hệ thống",
+      "ten_en": "Analyze the properties of linearity, time invariance, causality, and stability in system analysis.",
+      "hddg": [
+        {
+          "id": 90184,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 240971,
+      "ma": "L.O.2.2",
+      "ten_vi": "Tính toán đáp ứng của hệ thống thời gian rời rạc",
+      "ten_en": "Compute the response of discrete-time system",
+      "hddg": [
+        {
+          "id": 90184,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 240972,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phân tích tín hiệu và hệ thống bằng biến đổi z",
+      "ten_en": "Analyze signals and systems using the z-transform",
+      "hddg": [
+        {
+          "id": 90183,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90184,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 240973,
+      "ma": "L.O.3.2",
+      "ten_vi": "Tính toán và thiết kế hệ thống bằng biến đổi z.",
+      "ten_en": "Compute and design the digital systems by using the z-transform",
+      "hddg": [
+        {
+          "id": 90183,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90184,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 240974,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phân tích tần số tín hiệu sử dụng biến đổi Fourier.",
+      "ten_en": "Analyze the frequency components of signals by the Fourier transform",
+      "hddg": [
+        {
+          "id": 90183,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90184,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 240975,
+      "ma": "L.O.4.2",
+      "ten_vi": "Phân tích và đánh giá đáp ứng tần số của hệ thống sử dụng biến đổi Fourier  ",
+      "ten_en": "Analyze and evaluate the frequency response of systems using the Fourier transform",
+      "hddg": [
+        {
+          "id": 90183,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 90185,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Homework"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Xử lý số tín hiệu",
+  "tenmonhoc_eng": "Digital Signal Processing",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2967 @@
+{
+  "ma": "DCMH.ME4211.3.1",
+  "phienban": "3.1",
+  "capnhat": "08/09/2024 16:33",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME4211",
+  "ten": "ME4211 - Hệ thống Thời gian thực",
+  "ten_eng": "ME4211 - Real-Time System",
+  "hockyapdung": "HK221",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Trang bị cho người học những kiến thức cơ bản và kỹ năng nâng cao trong quá trình thiết kế các hệ thống điều khiển mà ở đó yếu tố thời gian đóng vai trò bắt buộc, nắm vững và hiểu rõ khái niệm “song song” trong các trình thời gian thực, các chuẩn về lập trình đang được sử dụng trong các hệ thời gian thực hiện nay.<br></p>",
+      "en": "<p>Equip learners with basic knowledge and advanced skills in the process of designing control systems where the time factor plays a mandatory role, master and understand the concept of \"parallelism\" in real-time programmers, the programming standards are being used in real-time systems currently<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Nội dung môn học “hệ thống thời gian thực” là những kiến thức cơ bản và kỹ năng nâng cao về các yếu tố thời gian của các hệ điều khiển (thế nào là hệ thời gian thực, các ràng buộc về thời gian, phân loại hệ thời gian thực); các tính chất cơ bản của một “task” trong hệ thời gian thực; các phương pháp phân tích và sắp xếp trật tự các “task” để bảo đảm thỏa các ràng buộc về thời gian; đồng thời cung cấp các kiến thức mới nhất về thời gian thực trong hệ thống mạng công nghiệp hiện nay.<br></p>",
+      "en": "<p>The content of subject \"real-time systems\" is the basic knowledge and advanced skills about the time elements of control systems (what is the real-time system, time constraints, analysis of control systems and so on, classification of real-time system); the fundamental properties of a \"task\" in a real-time system; methods for analyzing and ordering “tasks” to ensure time constraints are met; as well as providing the latest knowledge about real-time in presently industrial network system.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br>[1]  Francis Cottet, Joelle Delacroix, Claude Kaiser and Zoubir Mammeri, Scheduling in RealTime Systems,<br>John Wiley &amp; Sons Publishing Company, Ltd., 2002<br>[2]  Francis Cottet, Emmanuel Grolleau and Dunod, Systèm temps réel de contrôlecommande: Conception et implémentation, Dunod, 2005<br>Sách tham khảo:<br>[3]  Mechatrolink Member Association, Protocol User Manual, Yaskawa, 2015<br>[4]  Alan Burns and Andy Wellings, Concurrency in Ada, Second Edition Cambridge University Press, 1998<br><br><br></p>",
+      "en": "<p>Main books and textbooks:<br>[1]  Francis Cottet, Joelle Delacroix, Claude Kaiser and Zoubir Mammeri, Scheduling in RealTime Systems,<br>John Wiley &amp; Sons Publishing Company, Ltd., 2002<br>[2]  Francis Cottet, Emmanuel Grolleau and Dunod, Systèm temps réel de contrôlecommande: Conception et implémentation, Dunod, 2005<br>Reference books:<br>[3]  Mechatrolink Member Association, Protocol User Manual, Yaskawa, 2015<br>[4]  Alan Burns and Andy Wellings, Concurrency in Ada, Second Edition Cambridge University Press, 1998<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học <br>+ Bài tập: <br>• Bài tập trên lớp (nhóm) : 20% <br>+ Quá trình: <br>• Bài tập lớn : 30% <br>+ Thi: <br>• Thi cuối kỳ : 50% <br>Điều kiện dự thi: <br> Sinh viên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm danh chuyên cần). Ngoài ra, sinh viên phải hoàn thành tất cả bài tập về nhà đúng hạn cũng như thực hiện đầy đủ các phần thuyết trình của nhóm. Đây là những điều kiện cần để sinh viên đạt môn học này. <br> Sinh viên cần lưu ý thời hạn nộp bài tập. Nộp muộn sẽ không được chấp nhận nếu không có một lý do chính đáng đã được trình bày và phê duyệt của giảng viên trước ngày đến hạn. Bài tập nộp muộn cho phép sẽ bị trừ đi 2 điểm đối với mỗi ngày nộp trễ. <br><br></p>",
+      "en": "<p>Documents are uploaded to BKEL weekly. Students download, print, and bring with them to class. The final course score is assessed throughout the course of study:<br>+ Group assignment  : 20%</p><p>+ Homework and assignments: 30%<br>+ Final examination  : 50%<br>+ Conditions for taking the final exam:<br>-  Students are required to attend class lectures at least 70% (count of attendance). In addition, students must complete all homework assignments on time as well as complete group presentations. These are the necessary conditions for students to pass this course.<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "nganh": [
+    {
+      "id": 1625,
+      "ma": "NG_CK1_VP",
+      "ten": {
+        "vi": "8. Kỹ thuật Cơ khí - CN Cơ điện tử (PFIEV) K2019",
+        "en": "8. Mechanical Engineering - Mechatronic Engineering (PFIEV 2019)"
+      }
+    },
+    {
+      "id": 1025,
+      "ma": "CN_CDT",
+      "ten": {
+        "vi": "2. Kỹ thuật Cơ điện tử 2019",
+        "en": "Mechatronic Engineering 2019"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1884,
+      "ma": "003681",
+      "ten": "Ngô Hà Quang Thịnh"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 0.2,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 9,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 72,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 30,
+    "doAn": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Tòa nhà B11",
+      "dienThoai": "(84-08) 38688611"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1884,
+        "maGiangVien": "003681",
+        "tenGiangVien": "Ngô Hà Quang Thịnh",
+        "emailGiangVien": "nhqthinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3a",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 16091,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 16092,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "16091",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Giải bài tập tại lớp ",
+        "en": "Giving exercise solution at class"
+      },
+      "noidung": {
+        "vi": "Giải bài tập tại lớp ",
+        "en": "Giving exercise solution at class"
+      }
+    },
+    {
+      "id": 16093,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "16091",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Home work"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Home work"
+      }
+    },
+    {
+      "id": 16094,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "16091",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Tiểu luận (PBL)",
+        "en": "Final project (PBL)"
+      },
+      "noidung": {
+        "vi": "Tiểu luận (PBL)",
+        "en": "Final project (PBL)"
+      }
+    },
+    {
+      "id": 16095,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "16091",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi gữa kỳ",
+        "en": "Midterm exam"
+      },
+      "noidung": {
+        "vi": "Thi gữa kỳ",
+        "en": "Midterm exam"
+      }
+    },
+    {
+      "id": 16096,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "16091",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 18320,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 24152,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở \n",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận \n",
+            "en": "- Listen, ask questions and discuss\n"
+          },
+          "chuandaura": {
+            "id": 59426,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Giới thiệu về bạn một cách tự tin và ngắn gọn.",
+              "en": "Introduce yourself confidently and shortly "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38822,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38823,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24151,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59427,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Nhận xét về các ứng dụng thời gian thực trong công nghiệp hiện nay.",
+              "en": "Comment on the applications of real-time in industry nowadays "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38821,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38820,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 0: Giới thiệu về môn học \n0.1 Thông tin Thầy/Cô \n0.2 Các vấn đề liên quan đến môn học\n0.3 Cách thức dạy và học",
+        "en": "Chapter 0: Introduction to subject\n0.1 Lecturer information\n0.2 Related problems to this course\n0.3 Methods of teaching and learning"
+      }
+    },
+    {
+      "id": 18318,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 24154,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở \n",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59400,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Trình bày các định nghĩa về thời gian thực.",
+              "en": "Present the definitions of real-time "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38827,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38826,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24153,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59402,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Nhóm các hệ thời gian thực theo kiến trúc khác nhau.",
+              "en": "Classify the real-time systems based on different architectures "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38824,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38825,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Tổng quan về hệ thời gian thực \n1.1 Các định nghĩa chung \n1.2 Đặc trưng cơ bản của hệ thời gian thực \n1.3 Phân loại",
+        "en": "Chapter 1: Overview of real time system\n1.1 General concepts\n1.2 Fundamental feature of real time system\n1.3 Classification"
+      }
+    },
+    {
+      "id": 18330,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 24173,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59401,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Nêu ra khái niệm về “task” trong hệ thời gian thực.",
+              "en": "Present the definitions of “task” in real-time systems "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38883,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38884,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24174,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59405,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Liệt kê các đặc tính chung của scheduling.",
+              "en": "List of general characteristics of scheduling "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38886,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38885,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24172,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59404,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân loại các giải thuật scheduling online dùng cho mục đích khác nhau.",
+              "en": "Categorize the scheduling online algorithms "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38882,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38881,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Tổng quan về hệ thời gian thực (tiếp theo) \n1.4 Khái niệm cơ bản về “task” thời gian thực \n1.5 Scheduling: định nghĩa, giải thuật, các đặc tính chung.",
+        "en": "Chapter 1: Overview of real time system (cont.)\n1.4 Basic definition of “a task” real time\n1.5 Scheduling: definition, algorithm, general specifications"
+      }
+    },
+    {
+      "id": 18325,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 24165,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59407,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Có khái niệm về rời rạc hóa tín hiệu và hệ thống.",
+              "en": "Define the discrete signal and systems "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38856,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38857,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38858,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24175,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59408,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Ứng dụng định lý lấy mẫu và tần số.",
+              "en": "Apply the principles of sampling and frequency "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38859,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38860,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38861,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Tín hiệu số trong hệ thời gian thực \n2.1 Lấy mẫu theo chu kỳ \n2.2 Lấy mẫu  trong miền tần số \n2.3 Thay đổi tốc độ lấy mẫu của tín hiệu rời rạc",
+        "en": "Chapter 2: Digital signal in real time system\n2.1 Periodical sampling\n2.2 Sampling in frequency domain\n2.3 Modifying the sampling speed of discrete signal"
+      }
+    },
+    {
+      "id": 18319,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 24156,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở \n",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59409,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Giới thiệu phương pháp biến đổi Z.",
+              "en": "Introduce the Z-transform "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38832,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38831,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38833,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24155,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59410,
+            "ma": "L.O.3.4",
+            "ten": {
+              "vi": "Hiểu biết về biến đổi Z ngược theo nhiều phương pháp khác nhau.",
+              "en": "Understand the inverse Z-transform "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38829,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38830,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38828,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Tín hiệu số trong hệ thời gian thực (tiếp theo) \n2.4 Định nghĩa biến đổi Z \n2.5 Các tính chất của biến đổi Z \n2.6 Giản đồ cực không",
+        "en": "Chapter 2: Digital signal in real time system (cont.)\n2.4 Definition of Z transformation\n2.5 The properties of Z transformation\n2.6 Diagram of pole-zero"
+      }
+    },
+    {
+      "id": 18331,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 24178,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59409,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Giới thiệu phương pháp biến đổi Z.",
+              "en": "Introduce the Z-transform "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38887,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38888,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38889,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24179,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59410,
+            "ma": "L.O.3.4",
+            "ten": {
+              "vi": "Hiểu biết về biến đổi Z ngược theo nhiều phương pháp khác nhau.",
+              "en": "Understand the inverse Z-transform "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38891,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38890,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38892,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Tín hiệu số trong hệ thời gian thực (tiếp theo)\n2.7 Biến đổi Z ngược \n2.8 Phương pháp phân tích thành chuỗi lũy thừa\n2.9 Phương pháp phân tích thành  phân thức sơ cấp\n2.10 Phân tích hệ thống dùng biến đổi Z",
+        "en": "Chapter 2: Digital signal in real time system (cont.)\n2.7 Inverse Z transformation\n2.8 Method for analyzing of power series\n2.9 Method for analyzing of elementary fraction\n2.10 System analysis using Z transformation"
+      }
+    },
+    {
+      "id": 18321,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 24157,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59412,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu rõ các thuật toán xử lý các “task” có và không có chu kỳ, hay kết hợp xử lý cả hai.",
+              "en": "Learn the periodic “task” algorithms and aperiodic “task” algorithms or hybrid sets "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38836,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38834,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38835,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24158,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59415,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Thiết kế các thuật toán nhằm tối ưu hóa hoạt động trong môi trường đa vi xử lý.",
+              "en": "Design the algorithms to optimize the operations in multiprocessor environment "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38838,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38839,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38837,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 16095,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi gữa kỳ",
+                  "en": "Midterm exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Schedulability \n3.1“Schedulability” của “task” độc lập\n3.2 Các giải thuật xử lý trực tiếp \n3.3 Thiết lập các “task” hỗn hợp",
+        "en": "Chapter 3:\nSchedulability\n3.1“Schedulability” of independent “task”\n3.2 Direct processing algorithms\n3.3 Establishing of mixed “task”"
+      }
+    },
+    {
+      "id": 18322,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 24159,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59413,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Hiểu rõ những đặc tính ràng buộc của “task” phụ thuộc.",
+              "en": "Understand the constraints of dependent “task” "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38841,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38840,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38842,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 16095,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi gữa kỳ",
+                  "en": "Midterm exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24160,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59414,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Có khả năng làm việc trong môi trường đa vi xử lý chia sẻ tài nguyên chung (thời gian, bộ nhớ",
+              "en": "Be able to work in multiprocessor with sharing resources (timing, memory) "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38844,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38845,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38843,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Schedulability (tiếp theo) \n3.4“Schedulability” của “task” phụ thuộc \n3.5 Mức độ ưu tiên giữa các “task”\n3.6 Chia sẻ tài nguyên giữa các “task”",
+        "en": "Chapter 3: Schedulability (cont.)\n3.4“Schedulability” of dependent “task”\n3.5 Priorities among “tasks”\n3.6 Sharing resources among “tasks”"
+      }
+    },
+    {
+      "id": 18323,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 24161,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59414,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Có khả năng làm việc trong môi trường đa vi xử lý chia sẻ tài nguyên chung (thời gian, bộ nhớ",
+              "en": "Be able to work in multiprocessor with sharing resources (timing, memory) "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38847,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38848,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38846,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24162,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59415,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Thiết kế các thuật toán nhằm tối ưu hóa hoạt động trong môi trường đa vi xử lý.",
+              "en": "Design the algorithms to optimize the operations in multiprocessor environment "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38851,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38850,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38849,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Schedulability (tiếp theo) 3.7“Schedulability” trong môi trường đa vi xử lý \n3.8 Quy luật earliest deadline first và least laxity first \n3.9 “Task” độc lập có cùng thời hạn",
+        "en": "Chapter 3: Schedulability (cont.)\n3.7“Schedulability” in the multi-processor environment\n3.8 Algorithm of Earliest deadline first (EDF) and Least laxity first (LLF)\n3.9 Independent “task” with the same deadline"
+      }
+    },
+    {
+      "id": 18326,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 24176,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59418,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Có khả năng phân biệt các chức năng khác nhau của từng lớp.",
+              "en": "Be able to know the different functions of each layer in OSI "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38863,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38864,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38862,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24177,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59422,
+            "ma": "L.O.5.6",
+            "ten": {
+              "vi": "Phân biệt các trường hợp giao tiếp đồng bộ, không đồng bộ và message.",
+              "en": "Compare the synchronous communication, asynchronous communication and message"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38865,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Truyền thông trong hệ thống mạng công nghiệp \n4.1 Kiến trúc hệ thống \n4.2 Các đặc trưng cơ bản của hệ thống",
+        "en": "Chapter 4: Communication in the network system\n4.1 System architecture\n4.2 Fundamental features of system\n"
+      }
+    },
+    {
+      "id": 18327,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 24166,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59417,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Giới thiệu quá trình phát triển, kiến trúc mạng, các thành phần trong mạng.",
+              "en": "Introduce the development, system architecture, components of network "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38866,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38868,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38867,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24167,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59418,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Có khả năng phân biệt các chức năng khác nhau của từng lớp.",
+              "en": "Be able to know the different functions of each layer in OSI "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38870,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38869,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38871,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Truyền thông trong hệ thống mạng công nghiệp (tiếp theo) \n4.3 Các đặc tính kỹ thuật của lớp vật lý \n4.4 Các đặc tính kỹ thuật của lớp liên kết dữ liệu \n4.5 Các đặc tính kỹ thuật của lớp ứng dụng",
+        "en": "Chapter 4: Communication in the network system (cont.)\n4.3 Technical specifications of physical layer\n4.4 Technical specifications of data association layer\n4.5 Technical specifications of application layer"
+      }
+    },
+    {
+      "id": 18332,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 24181,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59419,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Hiểu rõ nguyên lý hoạt động, các đặt tính và ứng dụng của động cơ AC Servo.",
+              "en": "Understand the principle of operation, specifications and applications of AC Servo Motor "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38896,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38898,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38897,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24180,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59420,
+            "ma": "L.O.5.4",
+            "ten": {
+              "vi": "Hiểu rõ nguyên lý hoạt động, cấu tạo và phạm vi sử dụng của biến tần.",
+              "en": "Understand the principle of operation, structure and scope of inverter "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38893,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38894,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38895,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phần tử điều khiển trong hệ thống mạng công nghiệp \n5.1 Động cơ AC Servo: nguyên lý hoạt động, đặc tính kỹ thuật \n5.2 Sơ đồ kết nối I/O: khái niệm, giao tiếp các kênh với thiết bị ngoại vi \n5.3 Biến tần: nguyên lý hoạt động, cấu tạo, phạm vi sử dụng",
+        "en": "Chapter 5: Control elements in industrial network system\n5.1 AC Servo motor: operating principle, technical specifications, \n5.2 Diagram of I/O connections: definition, channel communication with external peripherals\n5.3 Inverter: operating principle, structure, scope of use "
+      }
+    },
+    {
+      "id": 18324,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 24163,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59421,
+            "ma": "L.O.5.5",
+            "ten": {
+              "vi": "Phác họa giản đồ pha hoạt động của toàn bộ hệ thống.",
+              "en": "Demonstrate the operating phase of overall system "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38853,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38852,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24164,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59422,
+            "ma": "L.O.5.6",
+            "ten": {
+              "vi": "Phân biệt các trường hợp giao tiếp đồng bộ, không đồng bộ và message.",
+              "en": "Compare the synchronous communication, asynchronous communication and message"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38854,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38855,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phân tích hiệu suất trong hệ thống mạng công nghiệp \n5.4 Giao thức truyền thông \n5.5 Thời gian giao tiếp trong mỗi chu kỳ",
+        "en": "Chapter 5: Performance analysis in industrial network system\n5.4 Communication protocol\n5.5 Communication time in each cycle"
+      }
+    },
+    {
+      "id": 18328,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 24168,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59423,
+            "ma": "L.O.5.7",
+            "ten": {
+              "vi": "Nắm vững phương pháp tính toán thời gian thực theo cấu trúc dạng cây trong mạng Mechatrolink-III.",
+              "en": "Study the calculation method of real-time for tree topology in Mechatrolink-III network"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38873,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38872,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24169,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "-  Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59424,
+            "ma": "L.O.5.8",
+            "ten": {
+              "vi": "Nắm vững phương pháp tính toán thời gian thực theo cấu trúc dạng hàng trong mạng Mechatrolink-III.",
+              "en": "Study the calculation method of real-time for line topology in Mechatrolink-III network "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38874,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16093,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Home work"
+                }
+              }
+            },
+            {
+              "id": 38875,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phân tích hiệu suất trong hệ thống mạng công nghiệp (tiếp theo) \n5.6 Hệ thống cấu trúc dạng cây \n5.7 Hệ thống cấu trúc dạng hàng",
+        "en": "Chapter 5: Performance analysis in industrial network system (cont.)\n5.6 Tree-like structure system\n5.7 Peer structure system"
+      }
+    },
+    {
+      "id": 18329,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 24171,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở \n",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss"
+          },
+          "chuandaura": {
+            "id": 59428,
+            "ma": "L.O.6.3",
+            "ten": {
+              "vi": "Trình diễn kỹ thuật điều khiển chuyển động sử dụng mạng Mechatrolink-III.",
+              "en": "Show the motion control technique by using Mechatrolink-III industrial network"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38878,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38880,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16094,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận (PBL)",
+                  "en": "Final project (PBL)"
+                }
+              }
+            },
+            {
+              "id": 38879,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24170,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các bài tập tại lớp và câu hỏi mở ",
+            "en": "- Lecture presentation \n- Discuss on exercises and open-ended questions\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe, đặt câu hỏi và thảo luận ",
+            "en": "- Listen, ask questions and discuss\n"
+          },
+          "chuandaura": {
+            "id": 59429,
+            "ma": "L.O.6.4",
+            "ten": {
+              "vi": "Demo chương trình điều khiển mẫu bằng ngôn ngữ lập trình Visual Studio C++.",
+              "en": "Illustrate the sample control program by Visual Studio C++ "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38876,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16092,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Giải bài tập tại lớp ",
+                  "en": "Giving exercise solution at class"
+                }
+              }
+            },
+            {
+              "id": 38877,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16096,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Thực hành / Mô phỏng điều khiển chuyển động dùng mạng Mechatrolink-III",
+        "en": "Chapter 6: Experiment/Simulation of motion control using Mechatrolink-III network"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 59400,
+      "ma": "L.O.1.1",
+      "ten_vi": "Trình bày các định nghĩa về thời gian thực.",
+      "ten_en": "Present the definitions of real-time ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59401,
+      "ma": "L.O.1.2",
+      "ten_vi": "Nêu ra khái niệm về “task” trong hệ thời gian thực.",
+      "ten_en": "Present the definitions of “task” in real-time systems ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59402,
+      "ma": "L.O.1.3",
+      "ten_vi": "Nhóm các hệ thời gian thực theo kiến trúc khác nhau.",
+      "ten_en": "Classify the real-time systems based on different architectures ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59404,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phân loại các giải thuật scheduling online dùng cho mục đích khác nhau.",
+      "ten_en": "Categorize the scheduling online algorithms ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59405,
+      "ma": "L.O.2.2",
+      "ten_vi": "Liệt kê các đặc tính chung của scheduling.",
+      "ten_en": "List of general characteristics of scheduling ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59407,
+      "ma": "L.O.3.1",
+      "ten_vi": "Có khái niệm về rời rạc hóa tín hiệu và hệ thống.",
+      "ten_en": "Define the discrete signal and systems ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59408,
+      "ma": "L.O.3.2",
+      "ten_vi": "Ứng dụng định lý lấy mẫu và tần số.",
+      "ten_en": "Apply the principles of sampling and frequency ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59409,
+      "ma": "L.O.3.3",
+      "ten_vi": "Giới thiệu phương pháp biến đổi Z.",
+      "ten_en": "Introduce the Z-transform ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59410,
+      "ma": "L.O.3.4",
+      "ten_vi": "Hiểu biết về biến đổi Z ngược theo nhiều phương pháp khác nhau.",
+      "ten_en": "Understand the inverse Z-transform ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59412,
+      "ma": "L.O.4.1",
+      "ten_vi": "Hiểu rõ các thuật toán xử lý các “task” có và không có chu kỳ, hay kết hợp xử lý cả hai.",
+      "ten_en": "Learn the periodic “task” algorithms and aperiodic “task” algorithms or hybrid sets ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59413,
+      "ma": "L.O.4.2",
+      "ten_vi": "Hiểu rõ những đặc tính ràng buộc của “task” phụ thuộc.",
+      "ten_en": "Understand the constraints of dependent “task” ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16095,
+          "ma": "A.O.4",
+          "ten_vi": "Thi gữa kỳ",
+          "ten_en": "Midterm exam"
+        }
+      ]
+    },
+    {
+      "id": 59414,
+      "ma": "L.O.4.3",
+      "ten_vi": "Có khả năng làm việc trong môi trường đa vi xử lý chia sẻ tài nguyên chung (thời gian, bộ nhớ",
+      "ten_en": "Be able to work in multiprocessor with sharing resources (timing, memory) ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59415,
+      "ma": "L.O.4.4",
+      "ten_vi": "Thiết kế các thuật toán nhằm tối ưu hóa hoạt động trong môi trường đa vi xử lý.",
+      "ten_en": "Design the algorithms to optimize the operations in multiprocessor environment ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16095,
+          "ma": "A.O.4",
+          "ten_vi": "Thi gữa kỳ",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59417,
+      "ma": "L.O.5.1",
+      "ten_vi": "Giới thiệu quá trình phát triển, kiến trúc mạng, các thành phần trong mạng.",
+      "ten_en": "Introduce the development, system architecture, components of network ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59418,
+      "ma": "L.O.5.2",
+      "ten_vi": "Có khả năng phân biệt các chức năng khác nhau của từng lớp.",
+      "ten_en": "Be able to know the different functions of each layer in OSI ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59419,
+      "ma": "L.O.5.3",
+      "ten_vi": "Hiểu rõ nguyên lý hoạt động, các đặt tính và ứng dụng của động cơ AC Servo.",
+      "ten_en": "Understand the principle of operation, specifications and applications of AC Servo Motor ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59420,
+      "ma": "L.O.5.4",
+      "ten_vi": "Hiểu rõ nguyên lý hoạt động, cấu tạo và phạm vi sử dụng của biến tần.",
+      "ten_en": "Understand the principle of operation, structure and scope of inverter ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59421,
+      "ma": "L.O.5.5",
+      "ten_vi": "Phác họa giản đồ pha hoạt động của toàn bộ hệ thống.",
+      "ten_en": "Demonstrate the operating phase of overall system ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59422,
+      "ma": "L.O.5.6",
+      "ten_vi": "Phân biệt các trường hợp giao tiếp đồng bộ, không đồng bộ và message.",
+      "ten_en": "Compare the synchronous communication, asynchronous communication and message",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59423,
+      "ma": "L.O.5.7",
+      "ten_vi": "Nắm vững phương pháp tính toán thời gian thực theo cấu trúc dạng cây trong mạng Mechatrolink-III.",
+      "ten_en": "Study the calculation method of real-time for tree topology in Mechatrolink-III network",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59424,
+      "ma": "L.O.5.8",
+      "ten_vi": "Nắm vững phương pháp tính toán thời gian thực theo cấu trúc dạng hàng trong mạng Mechatrolink-III.",
+      "ten_en": "Study the calculation method of real-time for line topology in Mechatrolink-III network ",
+      "hddg": [
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59426,
+      "ma": "L.O.6.1",
+      "ten_vi": "Giới thiệu về bạn một cách tự tin và ngắn gọn.",
+      "ten_en": "Introduce yourself confidently and shortly ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59427,
+      "ma": "L.O.6.2",
+      "ten_vi": "Nhận xét về các ứng dụng thời gian thực trong công nghiệp hiện nay.",
+      "ten_en": "Comment on the applications of real-time in industry nowadays ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16093,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Home work"
+        }
+      ]
+    },
+    {
+      "id": 59428,
+      "ma": "L.O.6.3",
+      "ten_vi": "Trình diễn kỹ thuật điều khiển chuyển động sử dụng mạng Mechatrolink-III.",
+      "ten_en": "Show the motion control technique by using Mechatrolink-III industrial network",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16094,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận (PBL)",
+          "ten_en": "Final project (PBL)"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 59429,
+      "ma": "L.O.6.4",
+      "ten_vi": "Demo chương trình điều khiển mẫu bằng ngôn ngữ lập trình Visual Studio C++.",
+      "ten_en": "Illustrate the sample control program by Visual Studio C++ ",
+      "hddg": [
+        {
+          "id": 16092,
+          "ma": "A.O.1",
+          "ten_vi": "Giải bài tập tại lớp ",
+          "ten_en": "Giving exercise solution at class"
+        },
+        {
+          "id": 16096,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Hệ thống Thời gian thực",
+  "tenmonhoc_eng": "Real-Time System",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

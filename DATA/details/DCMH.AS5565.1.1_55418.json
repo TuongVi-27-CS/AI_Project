@@ -1,0 +1,1102 @@
+{
+  "ma": "DCMH.AS5565.1.1",
+  "phienban": "1.1",
+  "capnhat": "28/07/2026 11:14",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS5565",
+  "ten": "AS5565 - Phương trình vi phân và Lý thuyết ổn định",
+  "ten_eng": "AS5565 - Differential Equations and Stability Theory",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\nHọc phần cung cấp cho học viên những kiến thức nền tảng và nâng cao về hệ phương trình vi phân thường, hệ động lực và lý thuyết ổn định. Thông qua việc nghiên cứu các định lý tồn tại và duy nhất nghiệm, hệ phương trình vi phân tuyến tính, hệ động lực phi tuyến, phương pháp tuyến tính hóa, lý thuyết ổn định Lyapunov, quỹ đạo tuần hoàn và phân nhánh, học viên được trang bị các công cụ toán học cần thiết để phân tích định tính và định lượng các mô hình động lực xuất hiện trong khoa học, kỹ thuật, điều khiển và toán ứng dụng. Học phần đồng thời tạo nền tảng cho việc nghiên cứu các chuyên đề nâng cao về hệ động lực, điều khiển học và phương trình đạo hàm riêng.\n\n<br></p>",
+      "en": "<p>\n\nThis course provides graduate students with fundamental and advanced knowledge of ordinary differential systems, dynamical systems, and stability theory. Through the study of existence and uniqueness theorems, linear differential systems, nonlinear dynamical systems, linearization methods, Lyapunov stability theory, periodic orbits, and bifurcation phenomena, students are equipped with mathematical tools for qualitative and quantitative analysis of dynamical models arising in science, engineering, control theory, and applied mathematics. The course also serves as a foundation for further study in advanced topics of dynamical systems, control, and partial differential equations.\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nHọc phần cung cấp các kiến thức nâng cao về hệ phương trình vi phân thường, hệ động lực và lý thuyết ổn định. Nội dung bao gồm sự tồn tại và duy nhất nghiệm, hệ phương trình vi phân tuyến tính, hệ động lực phi tuyến, phương pháp tuyến tính hóa, lý thuyết ổn định Lyapunov, quỹ đạo tuần hoàn, định lý Poincaré–Bendixson, lý thuyết phân nhánh và giới thiệu hỗn loạn. Học phần là nền tảng cho các nghiên cứu trong điều khiển học, cơ học, toán ứng dụng và khoa học dữ liệu.\n\n<br></p>",
+      "en": "<p>\n\nThis course provides advanced topics in ordinary differential equations, dynamical systems, and stability theory. Topics include existence and uniqueness of solutions, linear differential systems, nonlinear dynamical systems, linearization methods, Lyapunov stability theory, periodic orbits, the Poincaré–Bendixson theorem, bifurcation theory, and an introduction to chaos. The course serves as a foundation for research in control theory, mechanics, applied mathematics, and data science.\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n1] Philippe G. LeFloch, <em>Lecture Notes on Differential Equations and Dynamical Systems</em>\n\n<br></p><p><em>\n\n[2] Gerald Teschl, <em>Ordinary Differential Equations and Dynamical Systems</em>, American Mathematical Society, 2012.\n\n<br></em></p><p><em>\n\n[3] Hassan K. Khalil, <em>Nonlinear Systems</em>, 3rd Edition, Prentice Hall, 2002.\n\n<br></em></p><p><em>\n\n[4] Steven H. Strogatz, <em>Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering</em>, 2nd Edition, CRC Press, 2018.\n\n<br></em></p><p><em>\n\n[5] Lê Văn Lộc, <em>Phương trình vi phân và Lý thuyết ổn định</em>, Giáo trình Cao học, Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh.\n\n<br></em></p>",
+      "en": "<p>\n\n<p>1] Philippe G. LeFloch, <em>Lecture Notes on Differential Equations and Dynamical Systems</em>\n\n<br></p><p><em>\n\n[2] Gerald Teschl, <em>Ordinary Differential Equations and Dynamical Systems</em>, American Mathematical Society, 2012.\n\n<br></em></p><p><em>\n\n[3] Hassan K. Khalil, <em>Nonlinear Systems</em>, 3rd Edition, Prentice Hall, 2002.\n\n<br></em></p><p><em>\n\n[4] Steven H. Strogatz, <em>Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering</em>, 2nd Edition, CRC Press, 2018.\n\n<br></em></p><p><em>\n\n[5] Lê Văn Lộc, <em>Phương trình vi phân và Lý thuyết ổn định</em>, Giáo trình Cao học, Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh.</em></p>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\nHọc viên cần chủ động đọc tài liệu trước khi lên lớp, tham gia thảo luận học thuật và tự nghiên cứu các chứng minh toán học quan trọng. Bên cạnh việc nắm vững các khái niệm và định lý cơ bản của phương trình vi phân và lý thuyết ổn định, học viên cần tăng cường luyện tập giải bài tập, phân tích các mô hình động lực và sử dụng các công cụ tính toán để minh họa kết quả lý thuyết. Học phần khuyến khích học tập theo định hướng nghiên cứu thông qua các chuyên đề, seminar và tiểu luận, nhằm phát triển khả năng đọc hiểu tài liệu khoa học, trình bày học thuật và vận dụng kiến thức vào các bài toán trong toán ứng dụng, điều khiển và khoa học kỹ thuật.\n\n<br></p>",
+      "en": "<p>\n\nStudents are expected to actively study the course materials before class, participate in academic discussions, and independently work through important mathematical proofs. In addition to mastering the fundamental concepts and theorems of differential equations and stability theory, students should regularly solve exercises, analyze dynamical models, and use computational tools to illustrate theoretical results. The course emphasizes research-oriented learning through seminars and project-based assignments, helping students develop skills in reading scientific literature, academic presentation, and applying mathematical methods to problems in applied mathematics, control theory, and engineering sciences.\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>\n\n<b>Nếu điểm thi bé hơn hoặc bằng 2 thì điểm tổng kết tính theo công thức&nbsp;</b></p><p><b>&nbsp;Điểm tổng kết = min{điểm thi; điểm trung bình môn học}</b>\n\n<br></p>",
+      "en": "<p>\n\n<b>If the exam score is less than or equal to 2, the final grade is calculated using the formula:&nbsp;</b></p><p><b>&nbsp;Final grade=min {exam score, course average}</b>\n\n<br></p>"
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1430,
+      "ma": "003435",
+      "ten": "NGUYỄN HỮU HIỆP"
+    },
+    {
+      "id": 1429,
+      "ma": "003323",
+      "ten": "PHAN THỊ KHÁNH VÂN"
+    },
+    {
+      "id": 12048,
+      "ma": "004275",
+      "ten": "ĐẶNG HẢI LONG"
+    },
+    {
+      "id": 1662,
+      "ma": "003556",
+      "ten": "ĐẬU THẾ PHIỆT"
+    },
+    {
+      "id": 1431,
+      "ma": "003537",
+      "ten": "PHÙNG TRỌNG THỰC"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 4,
+        "ma": "80",
+        "thoigian": 80,
+        "text": {
+          "vi": "80 phút",
+          "en": "80 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1080,
+      "maBoMon": "TUD",
+      "tenBoMon": {
+        "vi": "Toán ứng Dụng"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "P. 104B4 - 268 Lý Thường Kiệt, P. Diên Hồng, Tp. HCM",
+      "dienThoai": "7314"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1430,
+        "maGiangVien": "003435",
+        "tenGiangVien": "NGUYỄN HỮU HIỆP",
+        "emailGiangVien": "nguyenhuuhiep@hcmut.edu.vn"
+      },
+      {
+        "id": 1429,
+        "maGiangVien": "003323",
+        "tenGiangVien": "PHAN THỊ KHÁNH VÂN",
+        "emailGiangVien": "khanhvanphan@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 95470,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 95471,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "95470",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm examination"
+      },
+      "noidung": {
+        "vi": "Trắc nghiệm hoặc tự luận",
+        "en": "Multiple choice and/or written test"
+      }
+    },
+    {
+      "id": 95472,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "95470",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final examination"
+      },
+      "noidung": {
+        "vi": "Trắc nghiệm hoặc tự luận",
+        "en": "Multiple choice and/or written test."
+      }
+    },
+    {
+      "id": 95473,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "95470",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Final examination"
+      },
+      "noidung": {
+        "vi": "Thực hiện theo nhóm",
+        "en": "Group project"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 119485,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 159445,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các định lý tồn tại và duy nhất.\nPhân tích các điều kiện Lipschitz.\nMinh họa các phản ví dụ.\nHướng dẫn giải bài tập.",
+            "en": "Present existence and uniqueness theorems.\nExplain Lipschitz conditions.\nDiscuss counterexamples.\nGuide students through exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghiên cứu các định lý cơ bản.\nGiải bài tập chứng minh.\nThảo luận các ví dụ ứng dụng.",
+            "en": "Study fundamental theorems.\nSolve proof-based exercises.\nDiscuss application examples."
+          },
+          "chuandaura": {
+            "id": 256740,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Trình bày và phân tích được các khái niệm, định lý và phương pháp cơ bản trong lý thuyết phương trình vi phân và lý thuyết ổn định của các hệ động lực.",
+              "en": "Explain and analyze fundamental concepts, theorems, and methods in differential equations and stability theory of dynamical systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263762,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95471,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 1. SỰ TỒN TẠI, DUY NHẤT VÀ PHỤ THUỘC LIÊN TỤC CỦA NGHIỆM HỆ PHƯƠNG TRÌNH VI PHÂN\n1.1. Bài toán giá trị đầu\nHệ phương trình vi phân thường.\nBài toán giá trị đầu.\nCác ví dụ mô hình hóa.\n1.2. Các định lý tồn tại và duy nhất nghiệm\nĐịnh lý Picard–Lindelöf.\nĐiều kiện Lipschitz.\nĐịnh lý Peano.\n1.3. Phụ thuộc liên tục của nghiệm\nPhụ thuộc vào điều kiện đầu.\nPhụ thuộc vào tham số.\nÝ nghĩa trong mô hình động lực.",
+        "en": "CHAPTER 1. EXISTENCE, UNIQUENESS AND CONTINUOUS DEPENDENCE OF SOLUTIONS OF DIFFERENTIAL SYSTEMS\n1.1. Initial Value Problems\nOrdinary differential systems.\nInitial value problems.\nModeling examples.\n1.2. Existence and Uniqueness Theorems\nPicard–Lindelöf theorem.\nLipschitz conditions.\nPeano theorem.\n1.3. Continuous Dependence of Solutions\nDependence on initial conditions.\nDependence on parameters.\nApplications in dynamical models."
+      }
+    },
+    {
+      "id": 119482,
+      "stt": 2,
+      "buoi": "2-3",
+      "chuandaurachitiet": [
+        {
+          "id": 159439,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu hệ tuyến tính.\nHướng dẫn tính hàm mũ ma trận.\nPhân tích điều kiện ổn định.",
+            "en": "Introduce linear systems.\nDemonstrate matrix exponential techniques.\nExplain stability criteria."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải hệ tuyến tính.\nTính ma trận cơ bản.\nPhân tích phổ của ma trận.",
+            "en": "Solve linear systems.\nCompute fundamental matrices.\nAnalyze matrix spectra."
+          },
+          "chuandaura": {
+            "id": 256740,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Trình bày và phân tích được các khái niệm, định lý và phương pháp cơ bản trong lý thuyết phương trình vi phân và lý thuyết ổn định của các hệ động lực.",
+              "en": "Explain and analyze fundamental concepts, theorems, and methods in differential equations and stability theory of dynamical systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263764,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95471,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 2. HỆ PHƯƠNG TRÌNH VI PHÂN TUYẾN TÍNH\n2.1. Hệ tuyến tính và ma trận cơ bản\n2.2. Hàm mũ ma trận\n2.3. Công thức biến thiên hằng số\n2.4. Ổn định của hệ tuyến tính",
+        "en": "CHAPTER 2. LINEAR DIFFERENTIAL SYSTEMS\n2.1. Linear Systems and Fundamental Matrices\n2.2. Matrix Exponential\n2.3. Variation of Constants Formula\n2.4. Stability of Linear Systems"
+      }
+    },
+    {
+      "id": 119483,
+      "stt": 3,
+      "buoi": "4-5",
+      "chuandaurachitiet": [
+        {
+          "id": 159442,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xây dựng chân dung pha.\nGiới thiệu phương pháp tuyến tính hóa.\nPhân tích các ví dụ phi tuyến.",
+            "en": "Guide phase portrait construction.\nIntroduce linearization methods.\nAnalyze nonlinear examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Vẽ chân dung pha.\nXác định điểm cân bằng.\nThực hiện các bài tập tuyến tính hóa.",
+            "en": "Draw phase portraits.\nDetermine equilibria.\nSolve linearization exercises."
+          },
+          "chuandaura": {
+            "id": 256740,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Trình bày và phân tích được các khái niệm, định lý và phương pháp cơ bản trong lý thuyết phương trình vi phân và lý thuyết ổn định của các hệ động lực.",
+              "en": "Explain and analyze fundamental concepts, theorems, and methods in differential equations and stability theory of dynamical systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263766,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95471,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 263765,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95473,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 3. HỆ ĐỘNG LỰC PHI TUYẾN VÀ TUYẾN TÍNH HÓA\n3.1. Không gian pha\n3.2. Tuyến tính hóa\n3.3. Định lý Hartman–Grobman",
+        "en": "CHAPTER 3. NONLINEAR DYNAMICAL SYSTEMS AND LINEARIZATION\n3.1. Phase Space\n3.2. Linearization\n3.3. Hartman–Grobman Theorem"
+      }
+    },
+    {
+      "id": 119486,
+      "stt": 4,
+      "buoi": "6-7",
+      "chuandaurachitiet": [
+        {
+          "id": 159436,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các khái niệm ổn định.\nHướng dẫn xây dựng hàm Lyapunov.\nMinh họa nguyên lý LaSalle.",
+            "en": "Present stability concepts.\nDemonstrate Lyapunov function construction.\nExplain LaSalle’s principle."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xây dựng hàm Lyapunov cho các hệ đơn giản.\nPhân tích ổn định của hệ động lực.\nGiải bài tập ứng dụng.",
+            "en": "Construct Lyapunov functions.\nAnalyze stability properties.\nComplete application exercises."
+          },
+          "chuandaura": {
+            "id": 256795,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ toán học hiện đại để nghiên cứu sự tồn tại, duy nhất, ổn định và tính chất định tính của nghiệm các phương trình vi phân và hệ động lực.",
+              "en": "Apply advanced mathematical tools to investigate the existence, uniqueness, stability, and qualitative properties of solutions to differential equations and dynamical systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263767,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95472,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159440,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "hoatdongsinhvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "chuandaura": {
+            "id": 256785,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Xây dựng mô hình toán học bằng phương trình vi phân và phân tích tính ổn định của các hệ thống trong khoa học, kỹ thuật, kinh tế và các lĩnh vực liên ngành.",
+              "en": "Develop mathematical models using differential equations and analyze the stability of systems arising in science, engineering, economics, and interdisciplinary applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263768,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95473,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159437,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "hoatdongsinhvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "chuandaura": {
+            "id": 256721,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả liên quan đến lý thuyết ổn định và ứng dụng của phương trình vi phân thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Conduct independent investigations and present results related to stability theory and applications of differential equations through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263769,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95473,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 4. LÝ THUYẾT ỔN ĐỊNH LYAPUNOV\n4.1. Khái niệm ổn định\nỔn định Lyapunov.\nỔn định tiệm cận.\nỔn định mũ.\n4.2. Hàm Lyapunov\nĐịnh nghĩa.\nTiêu chuẩn Lyapunov.\n4.3. Nguyên lý bất biến LaSalle\nTập bất biến.\nĐịnh lý LaSalle.\nỨng dụng.",
+        "en": "CHAPTER 4. LYAPUNOV STABILITY THEORY\n4.1. Stability Concepts\nLyapunov Stability.\nAsymptotic Stability.\nExponential Stability.\n\n4.2. Lyapunov Functions\n\nDefinition.\nLyapunov Stability Criteria.\n4.3. LaSalle Invariance Principle\nInvariant Sets.\nLaSalle's Theorem.\nApplications."
+      }
+    },
+    {
+      "id": 119487,
+      "stt": 5,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 159443,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu quỹ đạo tuần hoàn.\nTrình bày định lý Poincaré–Bendixson.\nPhân tích các mô hình điển hình.",
+            "en": "Introduce periodic orbits.\nPresent the Poincaré–Bendixson theorem.\nAnalyze representative models."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích các hệ có chu trình giới hạn.\nThảo luận các ứng dụng thực tế.",
+            "en": "Analyze systems with limit cycles.\nDiscuss practical applications."
+          },
+          "chuandaura": {
+            "id": 256785,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Xây dựng mô hình toán học bằng phương trình vi phân và phân tích tính ổn định của các hệ thống trong khoa học, kỹ thuật, kinh tế và các lĩnh vực liên ngành.",
+              "en": "Develop mathematical models using differential equations and analyze the stability of systems arising in science, engineering, economics, and interdisciplinary applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263770,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95472,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159444,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "hoatdongsinhvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "chuandaura": {
+            "id": 256721,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả liên quan đến lý thuyết ổn định và ứng dụng của phương trình vi phân thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Conduct independent investigations and present results related to stability theory and applications of differential equations through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263771,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95473,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 5. QUỸ ĐẠO TUẦN HOÀN VÀ ĐỊNH LÝ POINCARÉ–BENDIXSON\n5.1. Quỹ đạo tuần hoàn\n5.2. Chu trình giới hạn\n5.3. Định lý Poincaré–Bendixson\n5.4. Các ví dụ ứng dụng",
+        "en": "CHAPTER 5. PERIODIC ORBITS AND THE POINCARÉ–BENDIXSON THEORY\n5.1. Periodic Orbits\n5.2. Limit Cycles\n5.3. Poincaré–Bendixson Theorem\n5.4. Applications"
+      }
+    },
+    {
+      "id": 119481,
+      "stt": 6,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 159438,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu các dạng phân nhánh cơ bản.\nMinh họa bằng các mô hình động lực.\nGiới thiệu khái niệm hỗn loạn.",
+            "en": "Introduce basic bifurcation types.\nDemonstrate dynamical models.\nIntroduce chaos concepts."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích các sơ đồ phân nhánh.\nThảo luận các hiện tượng hỗn loạn.",
+            "en": "Analyze bifurcation diagrams.\nDiscuss chaotic phenomena."
+          },
+          "chuandaura": {
+            "id": 256795,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ toán học hiện đại để nghiên cứu sự tồn tại, duy nhất, ổn định và tính chất định tính của nghiệm các phương trình vi phân và hệ động lực.",
+              "en": "Apply advanced mathematical tools to investigate the existence, uniqueness, stability, and qualitative properties of solutions to differential equations and dynamical systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263772,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95472,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159446,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "hoatdongsinhvien": {
+            "vi": ".",
+            "en": "."
+          },
+          "chuandaura": {
+            "id": 256721,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả liên quan đến lý thuyết ổn định và ứng dụng của phương trình vi phân thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Conduct independent investigations and present results related to stability theory and applications of differential equations through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263763,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95473,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 6. LÝ THUYẾT PHÂN NHÁNH VÀ GIỚI THIỆU HỖN LOẠN\n6.1. Phân nhánh yên-ngựa\n6.2. Phân nhánh chuyển vị\n6.3. Phân nhánh pitchfork\n6.4. Phân nhánh Hopf\n6.5. Giới thiệu hỗn loạn",
+        "en": "CHAPTER 6. BIFURCATION THEORY AND INTRODUCTION TO CHAOS\n6.1. Saddle-Node Bifurcation\n6.2. Transcritical Bifurcation\n6.3. Pitchfork Bifurcation\n6.4. Hopf Bifurcation\n6.5. Introduction to Chaos"
+      }
+    },
+    {
+      "id": 119484,
+      "stt": 7,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 159441,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn lựa chọn chuyên đề và tài liệu tham khảo.\nĐiều phối các phiên thảo luận học thuật.\nNhận xét, đánh giá và tổng kết học phần.",
+            "en": "Guide students in selecting seminar topics and references.\nFacilitate academic discussions.\nEvaluate presentations and summarize the course."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Chuẩn bị báo cáo chuyên đề theo nhóm hoặc cá nhân.\nTrình bày kết quả nghiên cứu và tham gia phản biện.\nTổng hợp kiến thức và đề xuất các hướng nghiên cứu tiếp theo",
+            "en": "Prepare individual or group seminar presentations.\nPresent findings and participate in peer discussions.\nConsolidate knowledge and explore future research directions."
+          },
+          "chuandaura": {
+            "id": 256721,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả liên quan đến lý thuyết ổn định và ứng dụng của phương trình vi phân thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Conduct independent investigations and present results related to stability theory and applications of differential equations through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263773,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95473,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Final examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "BÁO CÁO CHUYÊN ĐỀ VÀ TỔNG KẾT HỌC PHẦN\n7.1. Báo cáo chuyên đề\n7.2. Thảo luận học thuật\n7.3. Tổng kết học phần\n",
+        "en": "CHAPTER 7. SEMINAR PRESENTATIONS AND COURSE REVIEW\n7.1. Seminar Presentations\n7.2. Academic Discussion\n7.3. Course Review\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 256740,
+      "ma": "L.O.1",
+      "ten_vi": "Trình bày và phân tích được các khái niệm, định lý và phương pháp cơ bản trong lý thuyết phương trình vi phân và lý thuyết ổn định của các hệ động lực.",
+      "ten_en": "Explain and analyze fundamental concepts, theorems, and methods in differential equations and stability theory of dynamical systems.",
+      "hddg": [
+        {
+          "id": 95471,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        },
+        {
+          "id": 95473,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Final examination"
+        }
+      ]
+    },
+    {
+      "id": 256795,
+      "ma": "L.O.2",
+      "ten_vi": "Vận dụng các công cụ toán học hiện đại để nghiên cứu sự tồn tại, duy nhất, ổn định và tính chất định tính của nghiệm các phương trình vi phân và hệ động lực.",
+      "ten_en": "Apply advanced mathematical tools to investigate the existence, uniqueness, stability, and qualitative properties of solutions to differential equations and dynamical systems.",
+      "hddg": [
+        {
+          "id": 95472,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final examination"
+        }
+      ]
+    },
+    {
+      "id": 256785,
+      "ma": "L.O.3",
+      "ten_vi": "Xây dựng mô hình toán học bằng phương trình vi phân và phân tích tính ổn định của các hệ thống trong khoa học, kỹ thuật, kinh tế và các lĩnh vực liên ngành.",
+      "ten_en": "Develop mathematical models using differential equations and analyze the stability of systems arising in science, engineering, economics, and interdisciplinary applications.",
+      "hddg": [
+        {
+          "id": 95472,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final examination"
+        },
+        {
+          "id": 95473,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Final examination"
+        }
+      ]
+    },
+    {
+      "id": 256721,
+      "ma": "L.O.4",
+      "ten_vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả liên quan đến lý thuyết ổn định và ứng dụng của phương trình vi phân thông qua seminar hoặc dự án nghiên cứu.",
+      "ten_en": "Conduct independent investigations and present results related to stability theory and applications of differential equations through seminars or research projects.",
+      "hddg": [
+        {
+          "id": 95473,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Final examination"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phương trình vi phân và Lý thuyết ổn định",
+  "tenmonhoc_eng": "Differential Equations and Stability Theory",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": null
+}

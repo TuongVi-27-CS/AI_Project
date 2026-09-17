@@ -1,0 +1,3984 @@
+{
+  "ma": "DCMH.ME4139.2.1",
+  "phienban": "2.1",
+  "capnhat": "08/09/2024 16:20",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME4139",
+  "ten": "ME4139 - Vi điều khiển",
+  "ten_eng": "ME4139 - Micro-Controller",
+  "hockyapdung": "HK221",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học cung cấp cho sinh viên kiến thức cơ sở để thiết kế và ứng dụng mạch vi điều khiển trong điều khiển hoạt động của một số bộ chấp hành thông dụng. Ngoài ra, sinh viên còn được cung cấp các kiến thức về các kỹ thuật truyền thông thông dụng được tích hợp trên vi điều khiển.<br></p>",
+      "en": "<p>The course give instructions to students the fundamental knowledge to design and implement microcontrollers circuits to control the operation of some popular actuators. Besides, the students also be provided the knowledge of some popular communications techinique which are integrated in the microcontrollers.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Nội dung chính của môn học bao gồm:<br>•  Giới thiệu cấu trúc phần cứng vi điều khiển.<br>•  Các vấn đề cơ bản khi sử dụng vi điều khiển trong lĩnh vực điều khiển tự động, lĩnh vực robot.<br>•  Các module ngoại vi chuyên dùng của vi điều khiển: I/O, Interrupt, Timer/Counter, Output Compare, Input Capture, QEI, ADC, DAC, etc.<br>•  Các chuẩn truyền thông được sử dụng phổ biến như: RS232, RS485, I2C, SPI, CAN,… <br>•  Phân tích, thiết kế mạch vi điều khiển ứng dụng trong lĩnh vực cơ điện tử.<br><br></p>",
+      "en": "<p>The main content includes:<br>•  Introduction to microcontroller hardware structure. <br>•  The basically problems when using microcontrollers in automatic control field, robotics field.<br>•  The popular input/output and some functional modules of microcontrollers.<br>•  Some popular communication standards such as: RS232, RS485, I2C, SPI, CAN, etc.<br>•  The programming methods for microcontrollers using in automatic control and robotics fields.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br>[1]  Dogan Ibrahim, Microcontroller Based Digital Control System, John Wiley &amp; Sons, 2000.<br>References:<br>[2]  Creed Huddleston, Intelligent Sensor Design Using the Microchip dsPIC, Elsevier Inc., 2007<br><br>Tài liệu tham khảo:<br>[1] Võ Tường Quân, Bài giảng điện tử Vi Điều Khiển, Bộ môn Cơ Điện Tử, Khoa Cơ Khí, Trường Đại học Bách Khoa Thành phố Hồ Chí Minh, 2010.<br>[2] Phùng Trí Công, Bài giảng điện tử Vi Điều Khiển, Bộ môn Cơ Điện Tử, Khoa Cơ Khí, Trường Đại học Bách Khoa Thành phố Hồ Chí Minh, 2015.<br>[3] Lê Đức Hạnh, Bài giảng điện tử Vi Điều Khiển, Bộ môn Cơ Điện Tử, Khoa Cơ Khí, Trường Đại học Bách Khoa Thành phố Hồ Chí Minh, 2017.<br>[4] Datasheet của các loại vi điều khiển sử dụng (Có thể download từ Internet) <br><br></p>",
+      "en": "<p>Books, Main textbooks:<br>[1]  Dogan Ibrahim, Microcontroller Based Digital Control System, John Wiley &amp; Sons, 2000.<br>References:<br>[2]  Creed Huddleston, Intelligent Sensor Design Using the Microchip dsPIC, Elsevier Inc., 2007<br><br>Reference books:<br>[1] Võ Tường Quân, Bài giảng điện tử Vi Điều Khiển, Bộ môn Cơ Điện Tử, Khoa Cơ Khí, Trường Đại học Bách Khoa Thành phố Hồ Chí Minh, 2010.<br>[2] Phùng Trí Công, Bài giảng điện tử Vi Điều Khiển, Bộ môn Cơ Điện Tử, Khoa Cơ Khí, Trường Đại học Bách Khoa Thành phố Hồ Chí Minh, 2015.<br>[3] Lê Đức Hạnh, Bài giảng điện tử Vi Điều Khiển, Bộ môn Cơ Điện Tử, Khoa Cơ Khí, Trường Đại học Bách Khoa Thành phố Hồ Chí Minh, 2017.<br>[4] Datasheet của các loại vi điều khiển sử dụng (Có thể download từ Internet) <br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BKEL. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học<br>•  Bài tập: 30%<br>•  Kiểm tra: 0%<br>•  Bài tập lớn/Problem Based Learning - PBL: 30%<br>•  Thi: 40% <br>Lưu ý:.<br><br>Điều kiện dự thi:<br>•  Sinh viên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm danh chuyên cần). Ngoài ra, sinh viên phải hoàn thành tất cả bài tập trên lớp và 70% bài tập về nhà, bài tập PBL. Nếu sinh viên nào không tham gia buổi thuyết trình bài PBL của nhóm thì điểm thuyết trình của sinh viên đó sẽ bằng không.<br>•  Sinh viên cần lưu ý thời hạn nộp bài tập. Tất cả các bài tập về nhà đều phải được nộp thông qua hệ thống BKEL theo đúng thời gian quy định của giảng viên.<br>-  Trường hợp sinh viên không nộp bài: Nếu sinh viên nào không nộp bài đúng thời hạn thì sẽ bị không điểm cho bài tập đó. <br>-  Trường hợp nộp muộn: Sinh viên nộp muộn sẽ không được chấp nhận nếu không có một lý do chính đáng đã được trình bày và phê duyệt của giảng viên trước ngày đến hạn. Bài tập nộp muộn cho phép sẽ bị trừ đi 2 điểm đối với mỗi ngày nộp trễ.<br><br></p>",
+      "en": "<p>All the class lecture notes and materials are uploaded to the BKEL. The students should download and bring to class. The final score is evaluated during studying process.<br>•  Exercises: 30%<br>•  Midterm test: 0%<br>•  Problem Based Learning - PBL: 30%<br>•  Endterm test: 40% <br><br>Notes:<br>The criteria to attend the endterm test:<br>•  The students are required to attend class at least 70% (the attendance is deligence). Besides, students must complete all the class exercise and homework and PBL. If a student does not attend to report the PBL presentation of his/her team, this student’s PBL score will be zero.<br>•  The students should care about the submitting time for exercises. All the exercises must be submitted via the BKEL system with respect to the defined time of lecturers.<br>-  If the students do not submit the exercise, the score of this will be zero.<br>-  In case of late submission, except the suitable reasons and the other cases do not acceptable. The late submission exercise will be subtracted -2 point for each late day. <br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "nganh": [
+    {
+      "id": 1625,
+      "ma": "NG_CK1_VP",
+      "ten": {
+        "vi": "8. Kỹ thuật Cơ khí - CN Cơ điện tử (PFIEV) K2019",
+        "en": "8. Mechanical Engineering - Mechatronic Engineering (PFIEV 2019)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 973,
+      "ma": "002335",
+      "ten": "Võ Tường Quân"
+    },
+    {
+      "id": 917,
+      "ma": "003038",
+      "ten": "Nguyễn Duy Anh"
+    },
+    {
+      "id": 910,
+      "ma": "002094",
+      "ten": "Đoàn Thế Thảo"
+    },
+    {
+      "id": 915,
+      "ma": "002588",
+      "ten": "Phùng Trí Công"
+    },
+    {
+      "id": 916,
+      "ma": "002917",
+      "ten": "Lê Đức Hạnh"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 1.0,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 45,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 60,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 30,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 30,
+    "doAn": 0,
+    "kiemTra": 0,
+    "thi": 40,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Bộ môn Cơ điện tử, P.210B11",
+      "dienThoai": "02838647256 - 5870"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 973,
+        "maGiangVien": "002335",
+        "tenGiangVien": "Võ Tường Quân",
+        "emailGiangVien": "vtquan@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME2179 - Hệ truyền động điện",
+        "en": "ME2179 - Electric Drive System"
+      },
+      "tenmonhoc_only": {
+        "vi": "Hệ truyền động điện",
+        "en": "Electric Drive System"
+      },
+      "mamonhoc": "ME2179"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME2009 - Kỹ thuật Điều khiển Tự động",
+        "en": "ME2009 - Control System Technology"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật Điều khiển Tự động",
+        "en": "Control System Technology"
+      },
+      "mamonhoc": "ME2009"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME2005 - Trang bị Điện - Điện tử trong Máy công nghiệp",
+        "en": "ME2005 - Electrical and Electronic Equipment for Industrial Machinery"
+      },
+      "tenmonhoc_only": {
+        "vi": "Trang bị Điện - Điện tử trong Máy công nghiệp",
+        "en": "Electrical and Electronic Equipment for Industrial Machinery"
+      },
+      "mamonhoc": "ME2005"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 16022,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 16023,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIC#0",
+        "en": "Classroom Exercises AIC#0"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIC#0",
+        "en": "Classroom Exercises AIC#0"
+      }
+    },
+    {
+      "id": 16032,
+      "stt": 0,
+      "ma": "A.O.10",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà HW#2",
+        "en": "Homework HW#2"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà HW#2",
+        "en": "Homework HW#2"
+      }
+    },
+    {
+      "id": 16033,
+      "stt": 0,
+      "ma": "A.O.11",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà HW#3",
+        "en": "Homework HW#3"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà HW#3",
+        "en": "Homework HW#3"
+      }
+    },
+    {
+      "id": 16034,
+      "stt": 0,
+      "ma": "A.O.12",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà HW#4",
+        "en": "Homework HW#4"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà HW#4",
+        "en": "Homework HW#4"
+      }
+    },
+    {
+      "id": 16035,
+      "stt": 0,
+      "ma": "A.O.13",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà HW#5",
+        "en": "Homework HW#5"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà HW#5",
+        "en": "Homework HW#5"
+      }
+    },
+    {
+      "id": 16036,
+      "stt": 0,
+      "ma": "A.O.14",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà HW#6",
+        "en": "Homework HW#6"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà HW#6",
+        "en": "Homework HW#6"
+      }
+    },
+    {
+      "id": 16024,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIC#1",
+        "en": "Classroom Exercises AIC#1"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIC#1",
+        "en": "Classroom Exercises AIC#1"
+      }
+    },
+    {
+      "id": 16025,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIC#2",
+        "en": "Classroom Exercises AIC#2"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIC#2",
+        "en": "Classroom Exercises AIC#2"
+      }
+    },
+    {
+      "id": 16026,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIC#3",
+        "en": "Classroom Exercises AIC#3"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIC#3",
+        "en": "Classroom Exercises AIC#3"
+      }
+    },
+    {
+      "id": 16027,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+        "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+        "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+      }
+    },
+    {
+      "id": 16028,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+        "en": "Classroom Exercises AIC#11,12,13,14,15"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+        "en": "Classroom Exercises AIC#11,12,13,14,15"
+      }
+    },
+    {
+      "id": 16029,
+      "stt": 0,
+      "ma": "A.O.7",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp AIC#16",
+        "en": "Classroom Exercises AIC#16"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp AIC#16",
+        "en": "Classroom Exercises AIC#16"
+      }
+    },
+    {
+      "id": 16030,
+      "stt": 0,
+      "ma": "A.O.8",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà HW#0",
+        "en": "Homework HW#0"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà HW#0",
+        "en": "Homework HW#0"
+      }
+    },
+    {
+      "id": 16031,
+      "stt": 0,
+      "ma": "A.O.9",
+      "capdo": "1",
+      "parentid": "16022",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà HW#1",
+        "en": "Homework HW#1"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà HW#1",
+        "en": "Homework HW#1"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 18259,
+      "stt": 1,
+      "buoi": "0",
+      "chuandaurachitiet": [
+        {
+          "id": 24003,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu / Introduction\n- Trình bày cách đánh giá môn học. \n- Trình bày mẫu giới thiệu.\n- Tổng hợp danh sách lớp.\n- Giới thiệu lướt qua đề cương môn học.\n- Giải thích các hoạt động cá nhân & nhóm.\n- Thúc đầy hoạt động nhóm.\n",
+            "en": "- Introduction\n- Evaluations. \n- Templates.\n- Get the students list.\n- Introduction about the sylabus of the course.\n- Explain the team project (PBL) tasks\n- Team projects.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thực hành tự giới thiệu theo mẫu được cung cấp (AIC#0)",
+            "en": "- Practice the self introduction by using template (AIC#0)"
+          },
+          "chuandaura": {
+            "id": 59265,
+            "ma": "L.O.7.4",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm.",
+              "en": "To be capable to work in team."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38493,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16023,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#0",
+                  "en": "Classroom Exercises AIC#0"
+                }
+              }
+            },
+            {
+              "id": 38494,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16030,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#0",
+                  "en": "Homework HW#0"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24004,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-  Hoàn chỉnh rubrics để đánh giá hoạt động  nhóm\n- Cung cấp các tài liệu tham khảo\n- Cung cấp các mẫu rubrics để đánh giá sự cộng tác trong nhóm ",
+            "en": "-  Complete the rubrics to evaluate the team project.\n- Supply references documents.\n- Supply the rubrics templates to evaluate team works\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hình thành một nhóm gồm  3 hoặc 4 sinh viên để chuẩn bị nhận đề bài bài tập theo dạng PBL.\n- Thảo luận theo nhóm về những yêu cầu đối với một kỹ sư ngày nay.\n- Vấn đề sử dụng vi điều khiển trong công nghiệp và trong đời sống.\n- Thảo luận về cách đánh giá môn học\n",
+            "en": "- Make a team of 3 or 4 students to prepare for PBL.\n- Team dicsussion about the requirements of the engineers.\n- The application of microcontrollers in industries.\n- Discuss on the team evaluation.\n"
+          },
+          "chuandaura": {
+            "id": 59266,
+            "ma": "L.O.7.5",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm.",
+              "en": "To be capable to evaluate the teamwork operation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38495,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16023,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#0",
+                  "en": "Classroom Exercises AIC#0"
+                }
+              }
+            },
+            {
+              "id": 38496,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16030,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#0",
+                  "en": "Homework HW#0"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về môn học\n- Thông tin Thầy/Cô.\n- Các vấn đề liên quan đến môn học.\n- Các kiến thức cần có để học môn học.\n- Cách thức dạy và học .",
+        "en": "Introduction to the course\n- Lecturers’ information.\n- The relating problems to the course.\n- The necessary knowledge for this course.\n- Study methodology."
+      }
+    },
+    {
+      "id": 18262,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 24026,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận vấn đề liên quan đến nội dung chương sắp trình bày (concept forcus)\n- Trình bày các slide chương 1\n",
+            "en": "- Discuss the problems relating to the next lecture (concept focus).\n- Give the lecture of chapter 1\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n",
+            "en": "- Team works \n- Discussion\n"
+          },
+          "chuandaura": {
+            "id": 59232,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Hiểu và sử dụng được các phần mềm lập trình vi điều khiển thông dụng  CCS-C, và sử dụng được phần mềm mô phỏng Proteus.",
+              "en": "Understand the use the CCS-C software to program the microcontrollers and use the simulation software Proteus."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38539,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16024,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#1",
+                  "en": "Classroom Exercises AIC#1"
+                }
+              }
+            },
+            {
+              "id": 38540,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16031,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#1",
+                  "en": "Homework HW#1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24027,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thu thập ý kiến sinh viên (Muddiest point)\n- Giao nội dung bài tập PBL cho các nhóm sinh viên.\n",
+            "en": "- Get the students comments (Muddiest point)\n- Propose the PBL topics for teams.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \nBài tập về nhà #1",
+            "en": "- Team works \n- Discussion\nHomeworks.\nStudents (HW#1):\n- Find at least 10 systems/devices that use microcontroller and explain the type of microcontrollers.\n"
+          },
+          "chuandaura": {
+            "id": 59262,
+            "ma": "L.O.7.1",
+            "ten": {
+              "vi": "Đọc được các tài liệu chuyên ngành liên quan đến môn học",
+              "en": "Read the major documents relating to the subject."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38541,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16024,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#1",
+                  "en": "Classroom Exercises AIC#1"
+                }
+              }
+            },
+            {
+              "id": 38542,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16031,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#1",
+                  "en": "Homework HW#1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24028,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Thu thập ý kiến sinh viên (Muddiest point)\n- Giao nội dung bài tập PBL cho các nhóm sinh viên.\n",
+            "en": "- Get the students comments (Muddiest point)\n- Propose the PBL topics for teams.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \nBài tập về nhà #1",
+            "en": "- Team works \n- Discussion\nHomeworks.\nStudents (HW#1):\n- Find at least 10 systems/devices that use microcontroller and explain the type of microcontrollers.\n"
+          },
+          "chuandaura": {
+            "id": 59263,
+            "ma": "L.O.7.2",
+            "ten": {
+              "vi": "Có khả năng tự học",
+              "en": "Have the selfstudy capability."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38544,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16024,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#1",
+                  "en": "Classroom Exercises AIC#1"
+                }
+              }
+            },
+            {
+              "id": 38543,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16031,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#1",
+                  "en": "Homework HW#1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu tổng quan về vi điều khiển\n- Giới thiệu tổng quan về vi điều khiển.\n- Các loại vi điều khiển thông dụng hiện nay.\n- Phân biệt giữa vi điều khiển và vi xử lý.\n- Ưu nhược điểm của hệ thống điều khiển dùng vi điều khiển.\n- Các phương pháp lập trình cho vi điều khiển.",
+        "en": "General introduction on microcontrollers\n- Overview on microcontrollers.\n- Some popular microcontrollers.\n- Discriminate between microcontrollers and microprocessors.\n- Advantages and disadvantages of the systems using microcontrollers.\n- Programming methods for microcontrolers."
+      }
+    },
+    {
+      "id": 18263,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 24029,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại kiến thức chương 1\n- Thảo luận vấn đề liên quan đến nội dung chương sắp trình bày (concept forcus)\n",
+            "en": "- Review chapter 1\n- Discuss the problems relating to the next lecture (concept focus).\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n",
+            "en": "- Team works. \n- Discussion\n"
+          },
+          "chuandaura": {
+            "id": 59221,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Biết được cấu trúc phần cứng bên ngoài và các module chức năng thông dụng của vi điều khiển. Các module chức năng thông dụng gồm: I/O, Interrupt, Timer/Counter, Output Compare – Input Capture, QEI, ADC, Communication, etc.",
+              "en": "Know the peripheral structire and some popular functional modules of the microcontrollers. Some of the popular modules are: I/O, Interrupt, Timer/Counter, Output Compare – Input Capture, QEI, ADC, Communication, etc."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38545,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16025,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#2",
+                  "en": "Classroom Exercises AIC#2"
+                }
+              }
+            },
+            {
+              "id": 38546,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16032,
+                "ma": "A.O.10",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#2",
+                  "en": "Homework HW#2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24031,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại kiến thức chương 1\n- Thảo luận vấn đề liên quan đến nội dung chương sắp trình bày (concept forcus)",
+            "en": "- Review chapter 1\n- Discuss the problems relating to the next lecture (concept focus).\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Review chapter 1\n- Discuss the problems relating to the next lecture (concept focus).\n",
+            "en": "- Team works. \n- Discussion\n"
+          },
+          "chuandaura": {
+            "id": 59222,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Biết được cấu trúc phần cứng bên trong của vi điều khiển.",
+              "en": "Know the insider structure of the microcontrollers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38549,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16025,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#2",
+                  "en": "Classroom Exercises AIC#2"
+                }
+              }
+            },
+            {
+              "id": 38550,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16032,
+                "ma": "A.O.10",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#2",
+                  "en": "Homework HW#2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24032,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Đưa các đầu đề của bài tập nhóm cho lớp bốc thăm. \n- Trình bày các slide chương 2\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Hand the team project topics for each team.\n- Give the lecture of chapter 2.\n- Get the students comments (Muddiest point)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n- Bài tập về nhà #2",
+            "en": "Students (HW #2):\n- Describe the hardware structure of any microcontrollers.\n- Introduce the functional modules that integrated in microcontrollers.\n- Design the power supply circuits for microcontrollers.\n- Choose the suitable oscillators for microcontrollers.\n"
+          },
+          "chuandaura": {
+            "id": 59223,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Biết được cấu trúc bộ nhớ và quy định về địa chỉ của vi điều khiển.",
+              "en": "Know the memory structure and the addressing principles of the microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38551,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16025,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#2",
+                  "en": "Classroom Exercises AIC#2"
+                }
+              }
+            },
+            {
+              "id": 38552,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16032,
+                "ma": "A.O.10",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#2",
+                  "en": "Homework HW#2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24030,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Đưa các đầu đề của bài tập nhóm cho lớp bốc thăm. \n- Trình bày các slide chương 2\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Hand the team project topics for each team.\n- Give the lecture of chapter 2.\n- Get the students comments (Muddiest point)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập về nhà #2",
+            "en": "Students (HW #2):\n- Describe the hardware structure of any microcontrollers.\n- Introduce the functional modules that integrated in microcontrollers.\n- Design the power supply circuits for microcontrollers.\n- Choose the suitable oscillators for microcontrollers.\n"
+          },
+          "chuandaura": {
+            "id": 59224,
+            "ma": "L.O.1.4",
+            "ten": {
+              "vi": "Biết được nguyên tắc cấp xung hoạt động và nguyên tắc cấp nguồn hoạt động cho vi điều khiển.",
+              "en": "Know the principles of  the oscillator and the suitable power source for the microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38547,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16025,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#2",
+                  "en": "Classroom Exercises AIC#2"
+                }
+              }
+            },
+            {
+              "id": 38548,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16025,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#2",
+                  "en": "Classroom Exercises AIC#2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24033,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Đưa các đầu đề của bài tập nhóm cho lớp bốc thăm. \n- Trình bày các slide chương 2\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Hand the team project topics for each team.\n- Give the lecture of chapter 2.\n- Get the students comments (Muddiest point)\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập về nhà #2",
+            "en": "Students (HW #2):\n- Describe the hardware structure of any microcontrollers.\n- Introduce the functional modules that integrated in microcontrollers.\n- Design the power supply circuits for microcontrollers.\n- Choose the suitable oscillators for microcontrollers.\n"
+          },
+          "chuandaura": {
+            "id": 59225,
+            "ma": "L.O.1.5",
+            "ten": {
+              "vi": "Biết được phương pháp mở rộng bộ nhớ của vi điều khiển.",
+              "en": "Know how to expand the memory capacity of the microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38553,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16025,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#2",
+                  "en": "Classroom Exercises AIC#2"
+                }
+              }
+            },
+            {
+              "id": 38554,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16032,
+                "ma": "A.O.10",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#2",
+                  "en": "Homework HW#2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cấu trúc phần cứng của vi điều khiển\n- Cấu trúc phần cứng của vi điều khiển.\n- Nguyên tắt hoạt động của vi điều khiển.\n- Các mạch hỗ trợ khi sử dụng vi điều khiển.\n",
+        "en": "Hardware structure of microcontrollers\n- Hardware structure\n- Operation principles.\n- The supplies circuits using with microcontrolers.\n"
+      }
+    },
+    {
+      "id": 18258,
+      "stt": 3,
+      "buoi": "3-4",
+      "chuandaurachitiet": [
+        {
+          "id": 24002,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại kiến thức cũ của chương 2 trong 5 phút\n- Thảo luận vấn đề liên quan đến nội dung chương sắp trình bày (concept forcus)\n",
+            "en": "- Review old chapter in 2 or 5 minutes.\n- Discuss the problems relating to the next lecture (concept focus).\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n",
+            "en": "- Team works \n- Discussion.\n"
+          },
+          "chuandaura": {
+            "id": 59227,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Đấu nối các thiết bị số (digital) với ngõ vào của vi điều khiển.",
+              "en": "Connect the digital equipments with the input pins of the microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38491,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38492,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23995,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại kiến thức cũ của chương 2 trong 5 phút\n- Thảo luận vấn đề liên quan đến nội dung chương sắp trình bày (concept forcus)\n",
+            "en": "- Review old chapter in 2 or 5 minutes.\n- Discuss the problems relating to the next lecture (concept focus)."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n",
+            "en": "- Team works \n- Discussion.\n"
+          },
+          "chuandaura": {
+            "id": 59228,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Đấu nối các thiết bị số (digital) với ngõ ra của vi điều khiển.",
+              "en": "Connect the digital equipments with the output pins of the microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38477,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38478,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23999,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "HW#3\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng\n",
+            "en": "HW#3\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n"
+          },
+          "chuandaura": {
+            "id": 59229,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Đấu nối các thiết bị tương tự (analog) với ngõ vào của vi điều khiển.",
+              "en": "Connect the analog equipments with the input pins of the microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38485,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38486,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23993,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "HW #3)\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng\n",
+            "en": "HW#3\n- Integrate all the examples to make a final problem.\n- Program and simulate."
+          },
+          "chuandaura": {
+            "id": 59230,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Đấu nối các thiết bị tương tự (analog) với ngõ ra của vi điều khiển.",
+              "en": "Connect the analog equipments with the output pins of the microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38473,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38474,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24000,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #3)\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng\n",
+            "en": "HW#3\n- Integrate all the examples to make a final problem.\n- Program and simulate."
+          },
+          "chuandaura": {
+            "id": 59232,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Hiểu và sử dụng được các phần mềm lập trình vi điều khiển thông dụng  CCS-C, và sử dụng được phần mềm mô phỏng Proteus.",
+              "en": "Understand the use the CCS-C software to program the microcontrollers and use the simulation software Proteus."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38487,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38488,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23998,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n",
+            "en": "- Team works \n- Discussion.\n"
+          },
+          "chuandaura": {
+            "id": 59233,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Hiểu được sơ đồ mạch nút nhấn, led đơn cho sẵn và lập trình điều khiển hoạt động của mạch.",
+              "en": "Understand the button circuit, led circuit and program to operate these circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38484,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38483,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24001,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n",
+            "en": "- Team works \n- Discussion.\n"
+          },
+          "chuandaura": {
+            "id": 59234,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Hiểu được sơ đồ mạch  dãy 4 led 7 đoạn cho sẵn và lập trình điều khiển hoạt động của mạch.",
+              "en": "Understand the 7 segments Led circuit and program to operate this circuit."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38489,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38490,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23994,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận \n",
+            "en": "- Team works \n- Discussion.\n"
+          },
+          "chuandaura": {
+            "id": 59235,
+            "ma": "L.O.3.4",
+            "ten": {
+              "vi": "Hiểu được sơ đồ mạch bàn phím, LCD cho sẵn và lập trình điều khiển hoạt động của mạch.",
+              "en": "Understand the keyboard-LCD circuit and program to operate this circuit."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38476,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38475,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23996,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #3)\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng\n",
+            "en": "(HW #3)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n"
+          },
+          "chuandaura": {
+            "id": 59252,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Nhận biết và mô tả được phần cứng của một hệ thống có sử dụng vi điều khiển.",
+              "en": "Regconize and describe the hardware of the microcontroller based control system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38479,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38480,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23997,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày tiếp các slide chương 2.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 2 (continue).\n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #3)\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng\n",
+            "en": "(HW #3)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n"
+          },
+          "chuandaura": {
+            "id": 59253,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Hiểu nguyên lý hoạt động và lập được lưu đồ giải thuật điều khiển hoạt động của hệ thống.",
+              "en": "Understand the operation principles and design the control diagram to operate the system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38482,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16026,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#3",
+                  "en": "Classroom Exercises AIC#3"
+                }
+              }
+            },
+            {
+              "id": 38481,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16033,
+                "ma": "A.O.11",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#3",
+                  "en": "Homework HW#3"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Lập trình xuất nhập cơ bản trên vi điều khiển\n- Sử dụng chức năng xuất nhập I/O cơ bản.\n- Thiết kế mạch điều khiển một số đối tượng thông dụng (nút nhấn, bàn phím, LCD, led đơn, led 7 đoạn,…)\n- Lập trình điều khiển hoạt động các đối tượng trên các mạch.\n- Thực hành",
+        "en": "Fundamental I/O programming\n- Use the I/O functional module of microcontrollers.\n- Design the control circuits for some popular devices as push button, keypad, LCD, Led, 7 Segment-Led,…\n- Program the operation of the devices in the circuits.\n- Exercises."
+      }
+    },
+    {
+      "id": 18260,
+      "stt": 4,
+      "buoi": "5-6-7-8-9",
+      "chuandaurachitiet": [
+        {
+          "id": 24010,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại kiến thức cũ của chương 2 trong 5 phút\n- Thảo luận vấn đề liên quan đến nội dung chương sắp trình bày (concept forcus)\n",
+            "en": "- Review old chapter in 2 or 5 minutes.\n- Discuss the problems relating to the next lecture (concept focus).\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #4, AIC #5, AIC #6, AIC #7, AIC #8, AIC #9, AIC #10)\n- Team works \n- Discussion\n",
+            "en": "(AIC #4, AIC #5, AIC #6, AIC #7, AIC #8, AIC #9, AIC #10)\n- Team works \n- Discussion\n"
+          },
+          "chuandaura": {
+            "id": 59237,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình sử dụng ngắt (Interrupt).",
+              "en": "Design and program the interrupt circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38507,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16027,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+                  "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+                }
+              }
+            },
+            {
+              "id": 38508,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16034,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#4",
+                  "en": "Homework HW#4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24006,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 3.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 3 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #4, AIC #5, AIC #6, AIC #7, AIC #8, AIC #9, AIC #10)\n- Team works \n- Discussion",
+            "en": "(AIC #4, AIC #5, AIC #6, AIC #7, AIC #8, AIC #9, AIC #10)\n- Team works \n- Discussion"
+          },
+          "chuandaura": {
+            "id": 59238,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình sử dụng bộ định thời (Timer)/bộ đếm (Counter).",
+              "en": "Design and program the Timer/Counter circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38500,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16027,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+                  "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+                }
+              }
+            },
+            {
+              "id": 38499,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16034,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#4",
+                  "en": "Homework HW#4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24011,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 3.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 3 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #4, AIC #5, AIC #6, AIC #7, AIC #8, AIC #9, AIC #10)\n- Team works \n- Discussion",
+            "en": "(AIC #4, AIC #5, AIC #6, AIC #7, AIC #8, AIC #9, AIC #10)\n- Team works \n- Discussion"
+          },
+          "chuandaura": {
+            "id": 59239,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình sử dụng Output Compare",
+              "en": "Design and program the Output Compare circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38509,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16027,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+                  "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+                }
+              }
+            },
+            {
+              "id": 38510,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16034,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#4",
+                  "en": "Homework HW#4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24007,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 3.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 3 \n- Discussion.\n- Get the students comments (Muddiest point) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n",
+            "en": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n"
+          },
+          "chuandaura": {
+            "id": 59240,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình sử dụng Input Capture",
+              "en": "Design and program the Input Capture circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38502,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16027,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+                  "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+                }
+              }
+            },
+            {
+              "id": 38501,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16034,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#4",
+                  "en": "Homework HW#4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24009,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 3.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 3 \n- Discussion.\n- Get the students comments (Muddiest point) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n",
+            "en": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n"
+          },
+          "chuandaura": {
+            "id": 59241,
+            "ma": "L.O.4.5",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình sử dụng QEI",
+              "en": "Design and program the QEI circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38505,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16027,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+                  "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+                }
+              }
+            },
+            {
+              "id": 38506,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16034,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#4",
+                  "en": "Homework HW#4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24008,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 3.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 3 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate.",
+            "en": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate."
+          },
+          "chuandaura": {
+            "id": 59242,
+            "ma": "L.O.4.6",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình sử dụng ADC",
+              "en": "Design and program the ADC circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38503,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16027,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+                  "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+                }
+              }
+            },
+            {
+              "id": 38504,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16034,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#4",
+                  "en": "Homework HW#4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24005,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 3.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 3 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate.",
+            "en": "(HW #4)\n- Integrate all the examples to make a final problem.\n- Program and simulate."
+          },
+          "chuandaura": {
+            "id": 59243,
+            "ma": "L.O.4.7",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình sử dụng DAC",
+              "en": "Design and program the DAC circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38497,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16027,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+                  "en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+                }
+              }
+            },
+            {
+              "id": 38498,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16034,
+                "ma": "A.O.12",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#4",
+                  "en": "Homework HW#4"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Lập trình sử dụng các module chức năng của vi điều khiển\n- Module xử lý ngắt (Interrupt).\n- Module bộ định thời/bộ đếm (Timer/Counter).\n- Module Output Compare\n- Module Input Capture\n- Module QEI.\n- Module ADC, DAC",
+        "en": "Program the functional module of microcotrollers\n- Module Interrupt.\n- Module Timer/Counter.\n- Module Output Compare\n- Module Input Capture\n- Module QEI.\n- Module ADC, DAC"
+      }
+    },
+    {
+      "id": 18257,
+      "stt": 5,
+      "buoi": "10-11-12-13",
+      "chuandaurachitiet": [
+        {
+          "id": 23992,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại kiến thức cũ của chương 3 trong 5 phút\n- Thảo luận vấn đề liên quan đến nội dung chương sắp trình bày (concept forcus)\n",
+            "en": "- Review old chapter in 3 or 5 minutes.\n- Discuss the problems relating to the next lecture (concept focus).\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #11, AIC #12, AIC #13, AIC #14, AIC #15)\n- Làm việc nhóm \n- Thảo luận \n",
+            "en": "AIC #11, AIC #12, AIC #13, AIC #14, AIC #15)\n- Team works \n- Discussion\n"
+          },
+          "chuandaura": {
+            "id": 59245,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Hiểu chuẩn truyền RS232 và lập trình truyền/nhận dữ liệu dựa trên chuẩn RS232 dựa trên sơ đồ mạch cho sẵn.",
+              "en": "Understand the RS232 standard and program to transmit/receive data using a sample circuit."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38471,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16028,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+                  "en": "Classroom Exercises AIC#11,12,13,14,15"
+                }
+              }
+            },
+            {
+              "id": 38472,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16035,
+                "ma": "A.O.13",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#5",
+                  "en": "Homework HW#5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23989,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 4.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 4 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #11, AIC #12, AIC #13, AIC #14, AIC #15)\n- Làm việc nhóm \n- Thảo luận \n",
+            "en": "AIC #11, AIC #12, AIC #13, AIC #14, AIC #15)\n- Team works \n- Discussion\n"
+          },
+          "chuandaura": {
+            "id": 59246,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Hiểu chuẩn truyền RS485 và lập trình truyền/nhận dữ liệu dựa trên chuẩn RS485 dựa trên sơ đồ mạch cho sẵn.",
+              "en": "Understand the RS485 standard and program to transmit/receive data using a sample circuit."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38466,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16028,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+                  "en": "Classroom Exercises AIC#11,12,13,14,15"
+                }
+              }
+            },
+            {
+              "id": 38465,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16035,
+                "ma": "A.O.13",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#5",
+                  "en": "Homework HW#5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23987,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 4.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 4 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #11, AIC #12, AIC #13, AIC #14, AIC #15)\n- Làm việc nhóm \n- Thảo luận ",
+            "en": "(AIC #11, AIC #12, AIC #13, AIC #14, AIC #15)\n- Team works \n- Discussion\n"
+          },
+          "chuandaura": {
+            "id": 59247,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Hiểu chuẩn truyền I2C và lập trình truyền/nhận dữ liệu dựa trên chuẩn I2C dựa trên sơ đồ mạch cho sẵn.",
+              "en": "Understand the I2C standard and program to transmit/receive data using a sample circuit."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38462,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16028,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+                  "en": "Classroom Exercises AIC#11,12,13,14,15"
+                }
+              }
+            },
+            {
+              "id": 38461,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16035,
+                "ma": "A.O.13",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#5",
+                  "en": "Homework HW#5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23988,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 4.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 4 \n- Discussion.\n- Get the students comments (Muddiest point) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #5)\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng.\n",
+            "en": "HW #5)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n"
+          },
+          "chuandaura": {
+            "id": 59248,
+            "ma": "L.O.5.4",
+            "ten": {
+              "vi": "Hiểu chuẩn truyền SPI và lập trình truyền/nhận dữ liệu dựa trên chuẩn SPI dựa trên sơ đồ mạch cho sẵn.",
+              "en": "Understand the SPI standard and program to transmit/receive data using a sample circuit."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38463,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16028,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+                  "en": "Classroom Exercises AIC#11,12,13,14,15"
+                }
+              }
+            },
+            {
+              "id": 38464,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16035,
+                "ma": "A.O.13",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#5",
+                  "en": "Homework HW#5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23991,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 4.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 4 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #5)\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng.\n",
+            "en": "HW #5)\n- Integrate all the examples to make a final problem.\n- Program and simulate.\n"
+          },
+          "chuandaura": {
+            "id": 59249,
+            "ma": "L.O.5.5",
+            "ten": {
+              "vi": "Hiểu chuẩn truyền CAN và lập trình truyền/nhận dữ liệu dựa trên chuẩn CAN dựa trên sơ đồ mạch cho sẵn.",
+              "en": "Understand the CAN standard and program to transmit/receive data using a sample circuit."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38469,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16028,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+                  "en": "Classroom Exercises AIC#11,12,13,14,15"
+                }
+              }
+            },
+            {
+              "id": 38470,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16035,
+                "ma": "A.O.13",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#5",
+                  "en": "Homework HW#5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 23990,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các slide chương 4.\n- Thảo luận \n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Give the lecture of chapter 4 \n- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW #5)\n- Kết hợp các bài ví dụ trên lớp thành một bài tổng hợp.\n- Lập trình và mô phỏng.\n",
+            "en": "(HW #5)\n- Integrate all the examples to make a final problem.\n- Program and simulate\n"
+          },
+          "chuandaura": {
+            "id": 59250,
+            "ma": "L.O.5.6",
+            "ten": {
+              "vi": "Thiết kế mạch và lập trình mạch truyền nhận dữ liệu sử dụng chuẩn RS232/RS485/I2C/SPI/CAN.",
+              "en": "Design and program the application circuits using these RS232/RS485/I2C/SPI/CAN etc. standards."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38467,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16028,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+                  "en": "Classroom Exercises AIC#11,12,13,14,15"
+                }
+              }
+            },
+            {
+              "id": 38468,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16035,
+                "ma": "A.O.13",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#5",
+                  "en": "Homework HW#5"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Các chuẩn truyền nhận dữ liệu thông dụng\n- Chuẩn truyền RS232.\n- Chuẩn truyền RS485.\n- Chuẩn truyền I2C.\n- Chuẩn truyền  SPI.\n- Chuẩn truyền CAN.\n- Phương pháp kết hợp các loại chuẩn truyền trên.\n- Thực hành",
+        "en": "Some popular communication standards\n- RS232.\n- RS485.\n- I2C.\n- SPI.\n- CAN.\n- Integrated methods.\n- Lab"
+      }
+    },
+    {
+      "id": 18261,
+      "stt": 6,
+      "buoi": "14-15",
+      "chuandaurachitiet": [
+        {
+          "id": 24024,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Ôn lại kiến thức cũ của chương 1, 2, 3, 4 trong 15 phút\n- Thảo luận vấn đề liên quan đến nội dung trình bày của nhóm. Đưa ra quy định về thời gian và cách trình bày.\n",
+            "en": "- Review old chapter 1, 2, 3, 4, 5 at about 15 minutes.\n- Discuss the problems relating to the research topic of team. Let the teams know about the rules and presentation time.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #16):\n- Làm việc nhóm \n- Thảo luận và đặt câu hỏi với nhóm trình bày.\n- Đánh giá kết quả từng thành viên của nhóm trình bày\n",
+            "en": "(AIC #16)\n- Team works\n- Discuss and give question to the presentation team.\n- Evaluate the results for each member.\n"
+          },
+          "chuandaura": {
+            "id": 59252,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Nhận biết và mô tả được phần cứng của một hệ thống có sử dụng vi điều khiển.",
+              "en": "Regconize and describe the hardware of the microcontroller based control system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38536,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38535,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24017,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận vấn đề liên quan đến nội dung trình bày của nhóm. Đưa ra quy định về thời gian và cách trình bày",
+            "en": "- Discuss the problems relating to the research topic of team. Let the teams know about the rules and presentation time."
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #16):\n- Làm việc nhóm \n- Thảo luận và đặt câu hỏi với nhóm trình bày.\n- Đánh giá kết quả từng thành viên của nhóm trình bày\n",
+            "en": "(AIC #16)\n- Team works\n- Discuss and give question to the presentation team.\n- Evaluate the results for each member.\n"
+          },
+          "chuandaura": {
+            "id": 59253,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Hiểu nguyên lý hoạt động và lập được lưu đồ giải thuật điều khiển hoạt động của hệ thống.",
+              "en": "Understand the operation principles and design the control diagram to operate the system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38522,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38521,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24013,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận vấn đề liên quan đến nội dung trình bày của nhóm. Đưa ra quy định về thời gian và cách trình bày.",
+            "en": "- Discuss the problems relating to the research topic of team. Let the teams know about the rules and presentation time."
+          },
+          "hoatdongsinhvien": {
+            "vi": "(AIC #16):\n- Làm việc nhóm \n- Thảo luận và đặt câu hỏi với nhóm trình bày.\n- Đánh giá kết quả từng thành viên của nhóm trình bày\n\n",
+            "en": "(AIC #16)\n- Team works\n- Discuss and give question to the presentation team.\n- Evaluate the results for each member.\n"
+          },
+          "chuandaura": {
+            "id": 59254,
+            "ma": "L.O.6.3",
+            "ten": {
+              "vi": "Đánh giá phần mạch điều khiển hệ thống.",
+              "en": "Evaluate the control circuit of the system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38513,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38514,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24019,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW#6): \n- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp\n",
+            "en": "- Evaluate the results for each member"
+          },
+          "chuandaura": {
+            "id": 59256,
+            "ma": "L.O.6.5",
+            "ten": {
+              "vi": "Đưa các đề xuất cải tiến.",
+              "en": "Propose the innovation ideas."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38525,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38526,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24025,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "(HW#6): \n- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp",
+            "en": "- Evaluate the results for each member- Evaluate the results for each member."
+          },
+          "chuandaura": {
+            "id": 59255,
+            "ma": "L.O.6.4",
+            "ten": {
+              "vi": "Đánh giá phần chương trình điều khiển hệ thống.",
+              "en": "Evalauet the control program of the system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38537,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38538,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24021,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp.",
+            "en": "- Evaluate the results for each member- Evaluate the results for each member."
+          },
+          "chuandaura": {
+            "id": 59257,
+            "ma": "L.O.6.6",
+            "ten": {
+              "vi": "Thiết kế được mạch sử dụng vi điều khiển để điều khiển hoạt động của một hệ thống với các yêu cầu kỹ thuật cho trước.",
+              "en": "Design the microcontroller circuits to operate the control system to be suitable to the predefine technical requirements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38529,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38530,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24020,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp.",
+            "en": "- Evaluate the results for each member."
+          },
+          "chuandaura": {
+            "id": 59258,
+            "ma": "L.O.6.7",
+            "ten": {
+              "vi": "Lập được lưu đồ giải thuật điều khiển hệ thống.",
+              "en": "Set up the control algorithm of the systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38528,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38527,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24015,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp.",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "chuandaura": {
+            "id": 59259,
+            "ma": "L.O.6.8",
+            "ten": {
+              "vi": "Lập trình điều khiển hoạt động của hệ thống.",
+              "en": "Program to operate the control systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38518,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            },
+            {
+              "id": 38517,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24014,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp.",
+            "en": "- Evaluate the results for each member."
+          },
+          "chuandaura": {
+            "id": 59260,
+            "ma": "L.O.6.9",
+            "ten": {
+              "vi": "Đánh giá hoạt động của hệ thống để từ đó đưa ra phương án cải tiến về sơ đồ mạch, cải tiến phần chương trình,…",
+              "en": "Evaluate the operation of the system and propose the innovation methods about the control circuits, the control algorithm, etc"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38516,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38515,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24018,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp.",
+            "en": "- Evaluate the results for each member."
+          },
+          "chuandaura": {
+            "id": 59262,
+            "ma": "L.O.7.1",
+            "ten": {
+              "vi": "Đọc được các tài liệu chuyên ngành liên quan đến môn học",
+              "en": "Read the major documents relating to the subject."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38523,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38524,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24016,
+          "stt": 11,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiệu chỉnh lại nội dung bài báo cáo trên lớp theo yêu cầu của giáo viên và các đóng góp của các bạn sinh viên trong lớp.",
+            "en": "- Evaluate the results for each member."
+          },
+          "chuandaura": {
+            "id": 59263,
+            "ma": "L.O.7.2",
+            "ten": {
+              "vi": "Có khả năng tự học",
+              "en": "Have the selfstudy capability."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38519,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38520,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24022,
+          "stt": 12,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận và đặt câu hỏi với nhóm trình bày.\n- Đánh giá kết quả từng thành viên của nhóm trình bày\n",
+            "en": "- Team works\n- Discuss and give question to the presentation team.\n- Evaluate the results for each member\n"
+          },
+          "chuandaura": {
+            "id": 59264,
+            "ma": "L.O.7.3",
+            "ten": {
+              "vi": "Có khả năng tìm kiếm các nguồn tài liệu tham khảo từ Internet",
+              "en": "To be able to find the studying documents from the internet"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38531,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38532,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24012,
+          "stt": 13,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận và đặt câu hỏi với nhóm trình bày.\n- Đánh giá kết quả từng thành viên của nhóm trình bày",
+            "en": "- Team works\n- Discuss and give question to the presentation team.\n- Evaluate the results for each member\n"
+          },
+          "chuandaura": {
+            "id": 59265,
+            "ma": "L.O.7.4",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm.",
+              "en": "To be capable to work in team."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38512,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38511,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24023,
+          "stt": 14,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận lớp\n- Thu thập ý kiến sinh viên (Muddiest point)\n",
+            "en": "- Discussion.\n- Get the students comments (Muddiest point) \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm việc nhóm \n- Thảo luận và đặt câu hỏi với nhóm trình bày.\n- Đánh giá kết quả từng thành viên của nhóm trình bày",
+            "en": "- Team works\n- Discuss and give question to the presentation team.\n- Evaluate the results for each member.\n"
+          },
+          "chuandaura": {
+            "id": 59266,
+            "ma": "L.O.7.5",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm.",
+              "en": "To be capable to evaluate the teamwork operation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 38533,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16029,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp AIC#16",
+                  "en": "Classroom Exercises AIC#16"
+                }
+              }
+            },
+            {
+              "id": 38534,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16036,
+                "ma": "A.O.14",
+                "ten": {
+                  "vi": "Bài tập về nhà HW#6",
+                  "en": "Homework HW#6"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thiết kế bộ điều khiển sử dụng vi điều khiển cho một hệ thống bất kỳ\n(Báo cáo bài tập nhóm - PBL)\n- Nhận biết hệ thống cần điều khiển và các đối tượng cần điều khiển.\n- Chọn lựa các loại cảm biến phù hợp cho hệ thống.\n- Chọn lựa chủng loại vi điều khiển hợp lý.\n- Thiết kế mạch điều khiển hệ thống.\n- Lập lưu đồ giải thuật điều khiển hệ thống.\n- Lập trình điều khiển hệ thống bằng Mplab/CCS-C/HiTech C/MikroC/…\n- Mô phỏng hoạt động của hệ thống bằng Proteus.\n- Soạn thảo popwer point trình bày về hệ thống.\n- Phân chia công việc và trình bày kết quả thông qua power point.\n- Nhận xét kết quả đạt được\n- Thực hành\n",
+        "en": "Thiết kế bộ điều khiển sử dụng vi điều khiển cho một hệ thống bất kỳ\n(Báo cáo bài tập nhóm - PBL)\n- Nhận biết hệ thống cần điều khiển và các đối tượng cần điều khiển.\n- Chọn lựa các loại cảm biến phù hợp cho hệ thống.\n- Chọn lựa chủng loại vi điều khiển hợp lý.\n- Thiết kế mạch điều khiển hệ thống.\n- Lập lưu đồ giải thuật điều khiển hệ thống.\n- Lập trình điều khiển hệ thống bằng Mplab/CCS-C/HiTech C/MikroC/…\n- Mô phỏng hoạt động của hệ thống bằng Proteus.\n- Soạn thảo popwer point trình bày về hệ thống.\n- Phân chia công việc và trình bày kết quả thông qua power point.\n- Nhận xét kết quả đạt được\n- Thực hành\n\nDesign the controllers using microcontrollers for the automation systems\n(PBL Report)\n- Recognize the controlled system and controlled variables.\n- Choose the suitable sensors for the system.\n- Choose the suitable microcontrollers for the system.\n- Design the control circuits for the system.\n- Propose the control algorithms\n- Program by using Mplab/CCS-C/HiTech C/MikroC/…\n- Simulate the operation of the system by Proteus\n- Compose the power point for presentation.\n- Choose the task and presents\n- Evaluate the results\n- Lab"
+      }
+    },
+    {
+      "id": 18265,
+      "stt": 7,
+      "buoi": "PBL",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "NỘI DUNG LIÊN QUAN ĐẾN BÀI TẬP GIẢI QUYẾT VẤN ĐỀ/GIẢI QUYẾT TÌNH HUỐNG\n(PROBLEMS BASED LEARNING)\nThe proposed problesm relating to the PBL (Problems Based Learning)\nMột số nội dung gợi ý như sau:\n1.\tĐiều khiển: Xác định ngưỡng hoạt động của động cơ DC Servo cho 02 trường hợp động cơ mới và động cơ cũ. Thiết kế bộ điều khiển PID vị trí và PID vận tốc cho động cơ DC Servo trong trường hợp có tải.\n2.\tĐiều khiển: Thiết kế bộ điều khiển vị trí và vận tốc cho end-effector của tay máy 04 bậc tự do dẫn động bằng động cơ DC servo.\n3.\t Điều khiển: Thiết kế bộ điều khiển vị trí và vận tốc cho end-effector của tay máy 04 bậc tự do dẫn động bằng động cơ bước.\n4.\tĐiều khiển: Thiết kế bộ điều khiển vị trí và vận tốc cho end-effector của tay máy 04 bậc tự do dẫn động bằng động cơ AC servo.",
+        "en": "The proposed problems relating to the PBL (Problems Based Learning)\nSome problems\n1.\tControl problem: Find the operation ranges of DC servo motors for old and new motors. Design the PID \n2.\tControl problem: Design the position and velocity controllers for the end-effector of the 4-DOF manipulator operated by DC servo motors.\n3.\tControl problem: Design the position and velocity controllers for the end-effector of the 4-DOF manipulator operated by stepper motors.\n4.\tControl problem: Design the position and velocity controllers for the end-effector of the 4-DOF manipulator operated by AC servo motors."
+      }
+    },
+    {
+      "id": 18264,
+      "stt": 8,
+      "buoi": "PBL",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "5.\tĐiều khiển: Thiết kế bộ điều khiển vị trí và vận tốc cho end-effector của tay máy 04 bậc tự do dẫn động bằng động cơ RC servo.\n6.\tĐiều khiển và truyền nhận dữ liệu: Thiết kế hệ thống điều khiển phân cấp sử dụng các thiết bị sau: 01 PC (Master), 03 vi điều khiển (Slaves). Lưu ý: 02 vi điều khiển sẽ làm nhiệm vụ điều khiển ít nhất 02 động cơ (DC servo/Step motor/RC servo/BLDC/…) và 01 vi điều khiển đọc tín hiệu từ cảm biến.\n7.\tĐiều khiển và truyền nhận dữ liệu: Thiết kế hệ thống điều khiển phân cấp sử dụng các thiết bị sau: 04 vi điều khiển (1 Master – 3 Slaves). Lưu ý: 02 vi điều khiển sẽ làm nhiệm vụ điều khiển ít nhất 02 động cơ (DC servo/Step motor/RC servo/BLDC/…) và 01 vi điều khiển đọc tín hiệu từ cảm biến.\n8.\tĐiều khiển và truyền nhận dữ liệu: Thiết kế mạch truyền nhận dữ liệu cho 10 nodes sử dụng việc truyền nhận có dây.\n9.\tĐiều khiển và truyền nhận dữ liệu: Thiết kế mạch truyền nhận dữ liệu cho 10 nodes sử dụng việc truyền nhận không dây.",
+        "en": "5.\tControl problem: Design the position and velocity controllers for the end-effector of the 4-DOF manipulator operated by RC servo motors.\n6.\tControl and communication problems: Design the hierachical control system using the following devices: 01 PC (Master), 03 microcontrollers (Slaves). Notes: 02 microcontrollers will operate the motors (DC servo/Step motor/RC servo/BLDC/…) and 01 microcontroller processes the sensors signal.\n7.\tControl and communication problems: Design the hierachical control system using the following devices: 04 microcontroller (1 Master – 3 Slaves). Notes: 02 microcontrollers will operate the motors (DC servo/Step motor/RC servo/BLDC/…) and 01 microcontroller processes the sensors signal.\n8.\tControl and communication problems: Design the communication circuits for 10 nodes using wire based communication system.\n9.\tControl and communication problems: Design the communication circuits for 10 nodes using wireless communication system."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 59221,
+      "ma": "L.O.1.1",
+      "ten_vi": "Biết được cấu trúc phần cứng bên ngoài và các module chức năng thông dụng của vi điều khiển. Các module chức năng thông dụng gồm: I/O, Interrupt, Timer/Counter, Output Compare – Input Capture, QEI, ADC, Communication, etc.",
+      "ten_en": "Know the peripheral structire and some popular functional modules of the microcontrollers. Some of the popular modules are: I/O, Interrupt, Timer/Counter, Output Compare – Input Capture, QEI, ADC, Communication, etc.",
+      "hddg": [
+        {
+          "id": 16032,
+          "ma": "A.O.10",
+          "ten_vi": "Bài tập về nhà HW#2",
+          "ten_en": "Homework HW#2"
+        },
+        {
+          "id": 16025,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp AIC#2",
+          "ten_en": "Classroom Exercises AIC#2"
+        }
+      ]
+    },
+    {
+      "id": 59222,
+      "ma": "L.O.1.2",
+      "ten_vi": "Biết được cấu trúc phần cứng bên trong của vi điều khiển.",
+      "ten_en": "Know the insider structure of the microcontrollers",
+      "hddg": [
+        {
+          "id": 16032,
+          "ma": "A.O.10",
+          "ten_vi": "Bài tập về nhà HW#2",
+          "ten_en": "Homework HW#2"
+        },
+        {
+          "id": 16025,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp AIC#2",
+          "ten_en": "Classroom Exercises AIC#2"
+        }
+      ]
+    },
+    {
+      "id": 59223,
+      "ma": "L.O.1.3",
+      "ten_vi": "Biết được cấu trúc bộ nhớ và quy định về địa chỉ của vi điều khiển.",
+      "ten_en": "Know the memory structure and the addressing principles of the microcontrollers.",
+      "hddg": [
+        {
+          "id": 16032,
+          "ma": "A.O.10",
+          "ten_vi": "Bài tập về nhà HW#2",
+          "ten_en": "Homework HW#2"
+        },
+        {
+          "id": 16025,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp AIC#2",
+          "ten_en": "Classroom Exercises AIC#2"
+        }
+      ]
+    },
+    {
+      "id": 59224,
+      "ma": "L.O.1.4",
+      "ten_vi": "Biết được nguyên tắc cấp xung hoạt động và nguyên tắc cấp nguồn hoạt động cho vi điều khiển.",
+      "ten_en": "Know the principles of  the oscillator and the suitable power source for the microcontrollers.",
+      "hddg": [
+        {
+          "id": 16025,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp AIC#2",
+          "ten_en": "Classroom Exercises AIC#2"
+        }
+      ]
+    },
+    {
+      "id": 59225,
+      "ma": "L.O.1.5",
+      "ten_vi": "Biết được phương pháp mở rộng bộ nhớ của vi điều khiển.",
+      "ten_en": "Know how to expand the memory capacity of the microcontrollers.",
+      "hddg": [
+        {
+          "id": 16032,
+          "ma": "A.O.10",
+          "ten_vi": "Bài tập về nhà HW#2",
+          "ten_en": "Homework HW#2"
+        },
+        {
+          "id": 16025,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp AIC#2",
+          "ten_en": "Classroom Exercises AIC#2"
+        }
+      ]
+    },
+    {
+      "id": 59227,
+      "ma": "L.O.2.1",
+      "ten_vi": "Đấu nối các thiết bị số (digital) với ngõ vào của vi điều khiển.",
+      "ten_en": "Connect the digital equipments with the input pins of the microcontrollers.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 59228,
+      "ma": "L.O.2.2",
+      "ten_vi": "Đấu nối các thiết bị số (digital) với ngõ ra của vi điều khiển.",
+      "ten_en": "Connect the digital equipments with the output pins of the microcontrollers.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 59229,
+      "ma": "L.O.2.3",
+      "ten_vi": "Đấu nối các thiết bị tương tự (analog) với ngõ vào của vi điều khiển.",
+      "ten_en": "Connect the analog equipments with the input pins of the microcontrollers.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 59230,
+      "ma": "L.O.2.4",
+      "ten_vi": "Đấu nối các thiết bị tương tự (analog) với ngõ ra của vi điều khiển.",
+      "ten_en": "Connect the analog equipments with the output pins of the microcontrollers.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 59232,
+      "ma": "L.O.3.1",
+      "ten_vi": "Hiểu và sử dụng được các phần mềm lập trình vi điều khiển thông dụng  CCS-C, và sử dụng được phần mềm mô phỏng Proteus.",
+      "ten_en": "Understand the use the CCS-C software to program the microcontrollers and use the simulation software Proteus.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16024,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập trên lớp AIC#1",
+          "ten_en": "Classroom Exercises AIC#1"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        },
+        {
+          "id": 16031,
+          "ma": "A.O.9",
+          "ten_vi": "Bài tập về nhà HW#1",
+          "ten_en": "Homework HW#1"
+        }
+      ]
+    },
+    {
+      "id": 59233,
+      "ma": "L.O.3.2",
+      "ten_vi": "Hiểu được sơ đồ mạch nút nhấn, led đơn cho sẵn và lập trình điều khiển hoạt động của mạch.",
+      "ten_en": "Understand the button circuit, led circuit and program to operate these circuits.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 59234,
+      "ma": "L.O.3.3",
+      "ten_vi": "Hiểu được sơ đồ mạch  dãy 4 led 7 đoạn cho sẵn và lập trình điều khiển hoạt động của mạch.",
+      "ten_en": "Understand the 7 segments Led circuit and program to operate this circuit.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 59235,
+      "ma": "L.O.3.4",
+      "ten_vi": "Hiểu được sơ đồ mạch bàn phím, LCD cho sẵn và lập trình điều khiển hoạt động của mạch.",
+      "ten_en": "Understand the keyboard-LCD circuit and program to operate this circuit.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        }
+      ]
+    },
+    {
+      "id": 59237,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thiết kế mạch và lập trình sử dụng ngắt (Interrupt).",
+      "ten_en": "Design and program the interrupt circuits.",
+      "hddg": [
+        {
+          "id": 16034,
+          "ma": "A.O.12",
+          "ten_vi": "Bài tập về nhà HW#4",
+          "ten_en": "Homework HW#4"
+        },
+        {
+          "id": 16027,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+          "ten_en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+        }
+      ]
+    },
+    {
+      "id": 59238,
+      "ma": "L.O.4.2",
+      "ten_vi": "Thiết kế mạch và lập trình sử dụng bộ định thời (Timer)/bộ đếm (Counter).",
+      "ten_en": "Design and program the Timer/Counter circuits.",
+      "hddg": [
+        {
+          "id": 16034,
+          "ma": "A.O.12",
+          "ten_vi": "Bài tập về nhà HW#4",
+          "ten_en": "Homework HW#4"
+        },
+        {
+          "id": 16027,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+          "ten_en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+        }
+      ]
+    },
+    {
+      "id": 59239,
+      "ma": "L.O.4.3",
+      "ten_vi": "Thiết kế mạch và lập trình sử dụng Output Compare",
+      "ten_en": "Design and program the Output Compare circuits.",
+      "hddg": [
+        {
+          "id": 16034,
+          "ma": "A.O.12",
+          "ten_vi": "Bài tập về nhà HW#4",
+          "ten_en": "Homework HW#4"
+        },
+        {
+          "id": 16027,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+          "ten_en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+        }
+      ]
+    },
+    {
+      "id": 59240,
+      "ma": "L.O.4.4",
+      "ten_vi": "Thiết kế mạch và lập trình sử dụng Input Capture",
+      "ten_en": "Design and program the Input Capture circuits.",
+      "hddg": [
+        {
+          "id": 16034,
+          "ma": "A.O.12",
+          "ten_vi": "Bài tập về nhà HW#4",
+          "ten_en": "Homework HW#4"
+        },
+        {
+          "id": 16027,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+          "ten_en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+        }
+      ]
+    },
+    {
+      "id": 59241,
+      "ma": "L.O.4.5",
+      "ten_vi": "Thiết kế mạch và lập trình sử dụng QEI",
+      "ten_en": "Design and program the QEI circuits.",
+      "hddg": [
+        {
+          "id": 16034,
+          "ma": "A.O.12",
+          "ten_vi": "Bài tập về nhà HW#4",
+          "ten_en": "Homework HW#4"
+        },
+        {
+          "id": 16027,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+          "ten_en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+        }
+      ]
+    },
+    {
+      "id": 59242,
+      "ma": "L.O.4.6",
+      "ten_vi": "Thiết kế mạch và lập trình sử dụng ADC",
+      "ten_en": "Design and program the ADC circuits.",
+      "hddg": [
+        {
+          "id": 16034,
+          "ma": "A.O.12",
+          "ten_vi": "Bài tập về nhà HW#4",
+          "ten_en": "Homework HW#4"
+        },
+        {
+          "id": 16027,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+          "ten_en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+        }
+      ]
+    },
+    {
+      "id": 59243,
+      "ma": "L.O.4.7",
+      "ten_vi": "Thiết kế mạch và lập trình sử dụng DAC",
+      "ten_en": "Design and program the DAC circuits.",
+      "hddg": [
+        {
+          "id": 16034,
+          "ma": "A.O.12",
+          "ten_vi": "Bài tập về nhà HW#4",
+          "ten_en": "Homework HW#4"
+        },
+        {
+          "id": 16027,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp AIC#4,5,6,7,8,9,10",
+          "ten_en": "Classroom Exercises AIC#4,5,6,7,8,9,10"
+        }
+      ]
+    },
+    {
+      "id": 59245,
+      "ma": "L.O.5.1",
+      "ten_vi": "Hiểu chuẩn truyền RS232 và lập trình truyền/nhận dữ liệu dựa trên chuẩn RS232 dựa trên sơ đồ mạch cho sẵn.",
+      "ten_en": "Understand the RS232 standard and program to transmit/receive data using a sample circuit.",
+      "hddg": [
+        {
+          "id": 16035,
+          "ma": "A.O.13",
+          "ten_vi": "Bài tập về nhà HW#5",
+          "ten_en": "Homework HW#5"
+        },
+        {
+          "id": 16028,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+          "ten_en": "Classroom Exercises AIC#11,12,13,14,15"
+        }
+      ]
+    },
+    {
+      "id": 59246,
+      "ma": "L.O.5.2",
+      "ten_vi": "Hiểu chuẩn truyền RS485 và lập trình truyền/nhận dữ liệu dựa trên chuẩn RS485 dựa trên sơ đồ mạch cho sẵn.",
+      "ten_en": "Understand the RS485 standard and program to transmit/receive data using a sample circuit.",
+      "hddg": [
+        {
+          "id": 16035,
+          "ma": "A.O.13",
+          "ten_vi": "Bài tập về nhà HW#5",
+          "ten_en": "Homework HW#5"
+        },
+        {
+          "id": 16028,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+          "ten_en": "Classroom Exercises AIC#11,12,13,14,15"
+        }
+      ]
+    },
+    {
+      "id": 59247,
+      "ma": "L.O.5.3",
+      "ten_vi": "Hiểu chuẩn truyền I2C và lập trình truyền/nhận dữ liệu dựa trên chuẩn I2C dựa trên sơ đồ mạch cho sẵn.",
+      "ten_en": "Understand the I2C standard and program to transmit/receive data using a sample circuit.",
+      "hddg": [
+        {
+          "id": 16035,
+          "ma": "A.O.13",
+          "ten_vi": "Bài tập về nhà HW#5",
+          "ten_en": "Homework HW#5"
+        },
+        {
+          "id": 16028,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+          "ten_en": "Classroom Exercises AIC#11,12,13,14,15"
+        }
+      ]
+    },
+    {
+      "id": 59248,
+      "ma": "L.O.5.4",
+      "ten_vi": "Hiểu chuẩn truyền SPI và lập trình truyền/nhận dữ liệu dựa trên chuẩn SPI dựa trên sơ đồ mạch cho sẵn.",
+      "ten_en": "Understand the SPI standard and program to transmit/receive data using a sample circuit.",
+      "hddg": [
+        {
+          "id": 16035,
+          "ma": "A.O.13",
+          "ten_vi": "Bài tập về nhà HW#5",
+          "ten_en": "Homework HW#5"
+        },
+        {
+          "id": 16028,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+          "ten_en": "Classroom Exercises AIC#11,12,13,14,15"
+        }
+      ]
+    },
+    {
+      "id": 59249,
+      "ma": "L.O.5.5",
+      "ten_vi": "Hiểu chuẩn truyền CAN và lập trình truyền/nhận dữ liệu dựa trên chuẩn CAN dựa trên sơ đồ mạch cho sẵn.",
+      "ten_en": "Understand the CAN standard and program to transmit/receive data using a sample circuit.",
+      "hddg": [
+        {
+          "id": 16035,
+          "ma": "A.O.13",
+          "ten_vi": "Bài tập về nhà HW#5",
+          "ten_en": "Homework HW#5"
+        },
+        {
+          "id": 16028,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+          "ten_en": "Classroom Exercises AIC#11,12,13,14,15"
+        }
+      ]
+    },
+    {
+      "id": 59250,
+      "ma": "L.O.5.6",
+      "ten_vi": "Thiết kế mạch và lập trình mạch truyền nhận dữ liệu sử dụng chuẩn RS232/RS485/I2C/SPI/CAN.",
+      "ten_en": "Design and program the application circuits using these RS232/RS485/I2C/SPI/CAN etc. standards.",
+      "hddg": [
+        {
+          "id": 16035,
+          "ma": "A.O.13",
+          "ten_vi": "Bài tập về nhà HW#5",
+          "ten_en": "Homework HW#5"
+        },
+        {
+          "id": 16028,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp AIC#11,12,13,14,15",
+          "ten_en": "Classroom Exercises AIC#11,12,13,14,15"
+        }
+      ]
+    },
+    {
+      "id": 59252,
+      "ma": "L.O.6.1",
+      "ten_vi": "Nhận biết và mô tả được phần cứng của một hệ thống có sử dụng vi điều khiển.",
+      "ten_en": "Regconize and describe the hardware of the microcontroller based control system.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59253,
+      "ma": "L.O.6.2",
+      "ten_vi": "Hiểu nguyên lý hoạt động và lập được lưu đồ giải thuật điều khiển hoạt động của hệ thống.",
+      "ten_en": "Understand the operation principles and design the control diagram to operate the system.",
+      "hddg": [
+        {
+          "id": 16033,
+          "ma": "A.O.11",
+          "ten_vi": "Bài tập về nhà HW#3",
+          "ten_en": "Homework HW#3"
+        },
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16026,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp AIC#3",
+          "ten_en": "Classroom Exercises AIC#3"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59254,
+      "ma": "L.O.6.3",
+      "ten_vi": "Đánh giá phần mạch điều khiển hệ thống.",
+      "ten_en": "Evaluate the control circuit of the system.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59255,
+      "ma": "L.O.6.4",
+      "ten_vi": "Đánh giá phần chương trình điều khiển hệ thống.",
+      "ten_en": "Evalauet the control program of the system.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59256,
+      "ma": "L.O.6.5",
+      "ten_vi": "Đưa các đề xuất cải tiến.",
+      "ten_en": "Propose the innovation ideas.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59257,
+      "ma": "L.O.6.6",
+      "ten_vi": "Thiết kế được mạch sử dụng vi điều khiển để điều khiển hoạt động của một hệ thống với các yêu cầu kỹ thuật cho trước.",
+      "ten_en": "Design the microcontroller circuits to operate the control system to be suitable to the predefine technical requirements.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59258,
+      "ma": "L.O.6.7",
+      "ten_vi": "Lập được lưu đồ giải thuật điều khiển hệ thống.",
+      "ten_en": "Set up the control algorithm of the systems.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59259,
+      "ma": "L.O.6.8",
+      "ten_vi": "Lập trình điều khiển hoạt động của hệ thống.",
+      "ten_en": "Program to operate the control systems.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59260,
+      "ma": "L.O.6.9",
+      "ten_vi": "Đánh giá hoạt động của hệ thống để từ đó đưa ra phương án cải tiến về sơ đồ mạch, cải tiến phần chương trình,…",
+      "ten_en": "Evaluate the operation of the system and propose the innovation methods about the control circuits, the control algorithm, etc",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59262,
+      "ma": "L.O.7.1",
+      "ten_vi": "Đọc được các tài liệu chuyên ngành liên quan đến môn học",
+      "ten_en": "Read the major documents relating to the subject.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16024,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập trên lớp AIC#1",
+          "ten_en": "Classroom Exercises AIC#1"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        },
+        {
+          "id": 16031,
+          "ma": "A.O.9",
+          "ten_vi": "Bài tập về nhà HW#1",
+          "ten_en": "Homework HW#1"
+        }
+      ]
+    },
+    {
+      "id": 59263,
+      "ma": "L.O.7.2",
+      "ten_vi": "Có khả năng tự học",
+      "ten_en": "Have the selfstudy capability.",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16024,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập trên lớp AIC#1",
+          "ten_en": "Classroom Exercises AIC#1"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        },
+        {
+          "id": 16031,
+          "ma": "A.O.9",
+          "ten_vi": "Bài tập về nhà HW#1",
+          "ten_en": "Homework HW#1"
+        }
+      ]
+    },
+    {
+      "id": 59264,
+      "ma": "L.O.7.3",
+      "ten_vi": "Có khả năng tìm kiếm các nguồn tài liệu tham khảo từ Internet",
+      "ten_en": "To be able to find the studying documents from the internet",
+      "hddg": [
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        }
+      ]
+    },
+    {
+      "id": 59265,
+      "ma": "L.O.7.4",
+      "ten_vi": "Có khả năng làm việc nhóm.",
+      "ten_en": "To be capable to work in team.",
+      "hddg": [
+        {
+          "id": 16023,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp AIC#0",
+          "ten_en": "Classroom Exercises AIC#0"
+        },
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        },
+        {
+          "id": 16030,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập về nhà HW#0",
+          "ten_en": "Homework HW#0"
+        }
+      ]
+    },
+    {
+      "id": 59266,
+      "ma": "L.O.7.5",
+      "ten_vi": "Có khả năng đánh giá được hoạt động nhóm.",
+      "ten_en": "To be capable to evaluate the teamwork operation.",
+      "hddg": [
+        {
+          "id": 16023,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp AIC#0",
+          "ten_en": "Classroom Exercises AIC#0"
+        },
+        {
+          "id": 16036,
+          "ma": "A.O.14",
+          "ten_vi": "Bài tập về nhà HW#6",
+          "ten_en": "Homework HW#6"
+        },
+        {
+          "id": 16029,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp AIC#16",
+          "ten_en": "Classroom Exercises AIC#16"
+        },
+        {
+          "id": 16030,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập về nhà HW#0",
+          "ten_en": "Homework HW#0"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Vi điều khiển",
+  "tenmonhoc_eng": "Micro-Controller",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1538 @@
+{
+  "ma": "DCMH.GE5033.1.1",
+  "phienban": "1.1",
+  "capnhat": "30/06/2026 16:18",
+  "khoa": {
+    "vi": "Khoa Kỹ thuật Địa chất và Dầu khí",
+    "en": "Faculty of Geology and Petroleum Engineering"
+  },
+  "mamonhoc": "GE5033",
+  "ten": "GE5033 - Địa thống kê",
+  "ten_eng": "GE5033 - Geostatistics",
+  "hockyapdung": "HK251",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Học phần trang bị cho học viên kiến thức về các\nnguyên lý và phương pháp địa thống kê trong phân tích dữ liệu địa chất, địa kỹ\nthuật, địa chất môi trường và tài nguyên khoáng sản; đồng thời phát triển kỹ\nnăng xây dựng, đánh giá và ứng dụng các mô hình không gian phục vụ nội suy, mô\nphỏng và phân tích độ không chắc chắn trong các bài toán kỹ thuật địa chất. Bên\ncạnh đó, học phần giúp học viên sử dụng hiệu quả các công cụ phân tích dữ liệu\nhiện đại, tự nghiên cứu và lựa chọn phương pháp phù hợp để xây dựng quy trình\nphân tích dữ liệu không gian hoàn chỉnh, từ đó trình bày, đánh giá và bảo vệ\nkết quả nghiên cứu theo chuẩn khoa học và kỹ thuật.\n\n\n\n<br></p>",
+      "en": "<p>\n\n\n\n\n\n<p>This course provides students with knowledge of geostatistical principles and methods for the analysis of geological, geotechnical, environmental, and mineral resource data. It also develops skills in the construction, evaluation, and application of spatial models for interpolation, simulation, and uncertainty analysis in geological engineering problems. Furthermore, the course enables students to effectively utilize modern data analytics tools, conduct independent research, and select appropriate methods to develop comprehensive spatial data analysis workflows. Through these activities, students will be able to present, evaluate, and defend research outcomes in accordance with scientific and engineering standards.</p>\n\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p><p>Học\nphần cung cấp nền tảng lý thuyết và kỹ năng ứng dụng địa thống kê trong phân\ntích dữ liệu địa chất, địa kỹ thuật, địa chất môi trường và tài nguyên khoáng\nsản.</p>\n\n<p>Học\nviên được trang bị khả năng:</p>\n\n\n\n<p><ul><li>Phân\ntích dữ liệu không gian</li><li>Mô\nhình hóa variogram</li><li>Nội\nsuy Kriging</li><li>Mô\nphỏng địa thống kê</li><li>Đánh\ngiá độ không chắc chắn</li><li>Xây\ndựng workflow phân tích dữ liệu địa chất bằng các công cụ hiện đại</li></ul></p>\n\n\n\n\n\n\n\n\n\n<p>Thông\nqua bài tập lớn theo dữ liệu thực tế, học viên phát triển năng lực nghiên cứu\nđộc lập và ứng dụng địa thống kê trong việc giải quyết các bài toán kỹ thuật\nđịa chất.</p>\n\n\n\n\n\n<br></p>",
+      "en": "<p>\n\n\n\n\n\n<p>This course provides the theoretical foundation and practical skills required for the application of geostatistics in the analysis of geological, geotechnical, environmental, and mineral resource data.</p>\n<p>Students will develop the ability to:</p>\n<ul><li>Analyze spatial data;</li><li>Model spatial continuity using variograms;</li><li>Perform spatial interpolation using Kriging methods;</li><li>Conduct geostatistical simulations;</li><li>Evaluate and quantify uncertainty;</li><li>Develop spatial data analysis workflows using modern analytical tools.</li></ul>\n<p>Through a course project based on real-world datasets, students will develop independent research skills and apply geostatistical methods to solve practical problems in Geological Engineering.</p>\n\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><p><b>Giáo\ntrình:</b></p>\n\n<p>Pebesma, E., &amp; Bivand, R. (2025). Spatial Data Science: With\nApplications in R. Boca Raton, FL: CRC Press.</p>\n\n<p>Chilès,\nJ.P., &amp; Delfiner, P. (2012). Geostatistics: Modeling Spatial Uncertainty\n(2nd ed.). Hoboken, NJ: Wiley.</p>\n\n<p>Goovaerts, P. (1997). Geostatistics for Natural Resources\nEvaluation. New York: Oxford University Press.</p>\n\n<p><b>Tài\nliệu tham khảo:</b></p>\n\n<p>Isaaks,\nE.H., &amp; Srivastava, R.M. (1989). An Introduction to Applied Geostatistics.\nNew York: Oxford University Press.</p>\n\n<p>Webster,\nR., &amp; Oliver, M.A. (2007). Geostatistics for Environmental Scientists (2nd\ned.). Chichester: Wiley.</p>\n\n<p>Olea,\nR.A. (2009). A Practical Primer on Geostatistics. Reston, VA: U.S. Geological\nSurvey.</p>\n\n<p>Lovelace,\nR., Nowosad, J., &amp; Muenchow, J. (2019). Geocomputation with R. Boca Raton,\nFL: CRC Press.</p>\n\n<p>Wickham,\nH., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). R for Data Science (2nd\ned.). Sebastopol, CA: O’Reilly Media.</p>\n\n<p>Kanevski,\nM., Pozdnoukhov, A., &amp; Timonin, V. (2009). Machine Learning for Spatial\nEnvironmental Data: Theory, Applications and Software. Lausanne: EPFL Press.</p>\n\n\n\n\n\n<br></p>",
+      "en": "<p><p><b>Textbooks:</b></p>\n\n<p>Pebesma, E., &amp; Bivand, R. (2025). Spatial Data Science: With\nApplications in R. Boca Raton, FL: CRC Press.</p>\n\n<p>Chilès,\nJ.P., &amp; Delfiner, P. (2012). Geostatistics: Modeling Spatial Uncertainty\n(2nd ed.). Hoboken, NJ: Wiley.</p>\n\n<p>Goovaerts, P. (1997). Geostatistics for Natural Resources\nEvaluation. New York: Oxford University Press.</p>\n\n<p><b>References:</b></p>\n\n<p>Isaaks,\nE.H., &amp; Srivastava, R.M. (1989). An Introduction to Applied Geostatistics.\nNew York: Oxford University Press.</p>\n\n<p>Webster,\nR., &amp; Oliver, M.A. (2007). Geostatistics for Environmental Scientists (2nd\ned.). Chichester: Wiley.</p>\n\n<p>Olea,\nR.A. (2009). A Practical Primer on Geostatistics. Reston, VA: U.S. Geological\nSurvey.</p>\n\n<p>Lovelace,\nR., Nowosad, J., &amp; Muenchow, J. (2019). Geocomputation with R. Boca Raton,\nFL: CRC Press.</p>\n\n<p>Wickham,\nH., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). R for Data Science (2nd\ned.). Sebastopol, CA: O’Reilly Media.</p>\n\n<p>Kanevski,\nM., Pozdnoukhov, A., &amp; Timonin, V. (2009). Machine Learning for Spatial\nEnvironmental Data: Theory, Applications and Software. Lausanne: EPFL Press.</p>\n\n\n\n\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><p><ul><li>Trước buổi học: sinh viên đọc tài liệu ở nhà, làm bài quiz trước khi đến lớp.&nbsp;</li><li>Trong giờ học: sinh viên nghe giảng và tham gia các hoạt động trong lớp: làm bài tập, thảo luận nhóm, thuyết trình, đặt câu hỏi.&nbsp;</li><li>Sau giờ học: sinh viên xem lại bài và làm bài tập, đặt câu hỏi thảo luận vào buổi tiếp theo.</li></ul></p>\n<p>Sinh viên phải tuân thủ các quy định về liêm chính học thuật của nhà trường:</p>\n<p><ul><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày.&nbsp;</li><li>Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul></p>\n\n\n<p><br></p></p>",
+      "en": "<p><p><ul><li>Before class: read materials, take quizzes.&nbsp;</li><li>During class: listen to lectures, participate in group activities, discuss, and ask questions.&nbsp;</li><li>After class: review the lesson, do homework.</li></ul></p><p>Students must adhere to the university's academic integrity guidelines.</p><p><ul><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is only permitted for supporting purposes such as finding materials, brainstorming ideas, checking grammar, or suggesting presentation styles.&nbsp;</li><li>Students may not submit products that are entirely or largely AI-generated.</li><li>When using AI in assignments, students must clearly state the tool and how it was used in the references or notes section.</li><li>Any misuse of AI for cheating purposes will be considered a violation of academic integrity and will be dealt with according to university regulations.</li></ul></p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 201,
+      "ma": "NG_DC1",
+      "ten": {
+        "vi": "CTDT Khoa Khoa KỸ THUẬT ĐỊA CHẤT VÀ DẦU KHÍ - Ngành Kỹ thuật Địa chất"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1003,
+      "ma": "002272",
+      "ten": "KIỀU LÊ THỦY CHUNG"
+    },
+    {
+      "id": 987,
+      "ma": "001858",
+      "ten": "TẠ QUỐC DŨNG"
+    },
+    {
+      "id": 1814,
+      "ma": "003615",
+      "ten": "PHẠM SƠN TÙNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 70,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1068,
+      "maBoMon": "CNK",
+      "tenBoMon": {
+        "vi": "Khoanvà Khai Thác Dầu Khí"
+      },
+      "maKhoa": "DC",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ thuật Địa chất và Dầu khí",
+        "en": "Faculty of Geology and Petroleum Engineering"
+      },
+      "vanPhong": "Nhà B8",
+      "dienThoai": "0909462845"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1003,
+        "maGiangVien": "002272",
+        "tenGiangVien": "KIỀU LÊ THỦY CHUNG",
+        "emailGiangVien": "kltchung@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 94028,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá",
+        "en": "Assessment"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá",
+        "en": "Assessemnt"
+      }
+    },
+    {
+      "id": 94029,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "94028",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "A.O.2 - Bài tập nhóm",
+        "en": "A.O.2 - Group assignemnt"
+      },
+      "noidung": {
+        "vi": "Sinh viên làm bài tập nhóm (3-5sv) về tính toán và thiết kế móng nông ",
+        "en": "Students complete group exercises on calculation and design of shallow foundation"
+      }
+    },
+    {
+      "id": 94030,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "94028",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "A.O.1 - Bài tập cá nhân",
+        "en": "A.O.1 - Individual assignment"
+      },
+      "noidung": {
+        "vi": "Sinh viên làm bài tập trên lớp và bài Quiz trên MyBK ",
+        "en": "Students do class exercises and quizes on MyBK system"
+      }
+    },
+    {
+      "id": 94031,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "94028",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "A.O.3 - Thi cuối kỳ",
+        "en": "A.O.3 - Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 117441,
+      "stt": 1,
+      "buoi": "1/1",
+      "chuandaurachitiet": [
+        {
+          "id": 156463,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tGiới thiệu vai trò của dữ liệu trong Kỹ thuật Địa chất.\n•\tTrình bày các loại dữ liệu địa chất, địa kỹ thuật, môi trường và khoáng sản.\n•\tGiảng giải quy trình phân tích và mô hình hóa dữ liệu không gian hiện đại.\n•\tPhân tích các ví dụ thực tế về ứng dụng dữ liệu trong ra quyết định kỹ thuật.\n\n",
+            "en": "•\tIntroduce the role of data in Geological Engineering.\n•\tPresent different types of geological, geotechnical, environmental, and mineral resource data.\n•\tExplain modern spatial data analysis and modeling workflows.\n•\tAnalyze real-world examples of data-driven engineering decision-making.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tTham gia thảo luận về các bài toán kỹ thuật địa chất sử dụng dữ liệu không gian.\n•\tPhân tích các thành phần của workflow phân tích dữ liệu.\n•\tXây dựng sơ đồ workflow cho một bài toán thực tế.\n•\tĐọc tài liệu và nghiên cứu các case study được giao.",
+            "en": "•\tParticipate in discussions on geological engineering problems involving spatial data.\n•\tAnalyze the components of a spatial data analysis workflow.\n•\tDevelop a workflow diagram for a real-world problem.\n•\tRead assigned materials and study relevant case studies.\n"
+          },
+          "chuandaura": {
+            "id": 255930,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "L.O.1.1. Giải thích bản chất của biến ngẫu nhiên không gian và tính liên tục không gian.",
+              "en": "L.O.1.1. Explain the nature of spatial random variables and spatial continuity."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258110,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            },
+            {
+              "id": 258109,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156455,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": " ",
+            "en": " "
+          },
+          "hoatdongsinhvien": {
+            "vi": " ",
+            "en": " "
+          },
+          "chuandaura": {
+            "id": 255939,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "L.O.2.4. Xây dựng workflow hoàn chỉnh cho một bài toán thực tế.",
+              "en": "L.O.2.4. Develop a complete workflow for solving a real-world Geological Engineering problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258111,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258112,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            },
+            {
+              "id": 258117,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Quy trình phân tích và mô hình hoá dữ liệu không gian trong Kỹ thuật Địa chất\n1.1. Dữ liệu trong Kỹ thuật Địa chất\n1.2. Vai trò của phân tích dữ liệu trong ra quyết định kỹ thuật\n1.3. Quy trình phân tích dữ liệu không gian hiện đại\n",
+        "en": "Chapter 1. Spatial Data Analysis and Modeling Workflow in Geological Engineering\n1.1. Data in Geological Engineering\n1.2. The Role of Data Analysis in Engineering Decision-Making\n1.3. Modern Spatial Data Analysis Workflow\n"
+      }
+    },
+    {
+      "id": 117440,
+      "stt": 2,
+      "buoi": "2-3/2",
+      "chuandaurachitiet": [
+        {
+          "id": 156460,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tGiới thiệu các phương pháp kiểm soát chất lượng dữ liệu.\n•\tHướng dẫn thống kê mô tả và trực quan hóa dữ liệu.\n",
+            "en": "•\tIntroduce methods for data quality control.\n•\tProvide guidance on descriptive statistics and data visualization.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tThực hành phân tích dữ liệu bằng R hoặc Python.\n•\tThực hiện kiểm tra chất lượng dữ liệu.\n",
+            "en": "•\tPerform data analysis using R or Python.\n•\tConduct data quality assessments.\n"
+          },
+          "chuandaura": {
+            "id": 255931,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "L.O.1.2. Phân tích dữ liệu địa chất bằng các công cụ thống kê mô tả và thống kê không gian.",
+              "en": "L.O.1.2. Analyze geological data using descriptive statistical and spatial statistical techniques."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258125,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258098,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156456,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày các kỹ thuật phát hiện và xử lý ngoại lai.\n•\tHướng dẫn các phương pháp biến đổi dữ liệu và đánh giá tính phân bố.\n•\tMinh họa bằng dữ liệu địa chất thực tế.\n",
+            "en": "•\tPresent techniques for outlier detection and treatment.\n•\tExplain data transformation methods and distribution assessment.\n•\tDemonstrate concepts using real geological datasets.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tPhân tích đặc điểm thống kê của bộ dữ liệu.\n•\tThực hiện bài tập cá nhân.\n•\tThảo luận kết quả phân tích.\n",
+            "en": "•\tAnalyze statistical characteristics of datasets.\n•\tComplete individual assignments on Exploratory Data Analysis (EDA) and Quality Assurance/Quality Control.\n•\tDiscuss and interpret analytical results.\n"
+          },
+          "chuandaura": {
+            "id": 255933,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "L.O.3.1. Sử dụng thành thạo phần mềm R hoặc Python trong phân tích dữ liệu không gian.",
+              "en": "L.O.3.1. Demonstrate proficiency in using R or Python for spatial data analysis."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258096,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258115,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Khám phá và đánh giá chất lượng dữ liệu không gian\n2.1. Kiểm soát chất lượng dữ liệu\n2.2. Thống kê mô tả dữ liệu địa chất\n2.3. Nhận diện và xử lý ngoại lai\n2.4. Biến đổi dữ liệu\n2.5. Khám phá cấu trúc không gian sơ bộ\n",
+        "en": "Chapter 2. Exploration and Quality Assessment of Spatial Data\n2.1. Data Quality Control\n2.2. Descriptive Statistics for Geological Data\n2.3. Outlier Detection and Treatment\n2.4. Data Transformation\n2.5. Preliminary Exploration of Spatial Structures\n"
+      }
+    },
+    {
+      "id": 117438,
+      "stt": 3,
+      "buoi": "4-6/3",
+      "chuandaurachitiet": [
+        {
+          "id": 156461,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày cơ sở lý thuyết về tính liên tục không gian.",
+            "en": "•\tPresent the theoretical foundations of spatial continuity."
+          },
+          "hoatdongsinhvien": {
+            "vi": " ",
+            "en": " "
+          },
+          "chuandaura": {
+            "id": 255930,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "L.O.1.1. Giải thích bản chất của biến ngẫu nhiên không gian và tính liên tục không gian.",
+              "en": "L.O.1.1. Explain the nature of spatial random variables and spatial continuity."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258118,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 258122,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156454,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tGiới thiệu variogram thực nghiệm và variogram mô hình.\n•\tHướng dẫn xây dựng variogram bằng phần mềm.\n",
+            "en": "•\tIntroduce experimental and modeled variograms.\n•\tDemonstrate variogram construction using software tools.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tSo sánh các mô hình variogram khác nhau.\n•\tPhân tích ảnh hưởng của anisotropy đến kết quả mô hình hóa.\n",
+            "en": "•\tCompare different variogram models.\n•\tAnalyze the influence of anisotropy on spatial modeling results.\n"
+          },
+          "chuandaura": {
+            "id": 255932,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "L.O.1.3. Đánh giá cấu trúc không gian bằng variogram thực nghiệm và mô hình variogram.",
+              "en": "L.O.1.3. Evaluate spatial structures using experimental variograms and variogram models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258099,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            },
+            {
+              "id": 258114,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156452,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tGiải thích ý nghĩa của nugget, sill, range và anisotropy.\n•\tThảo luận các tiêu chí lựa chọn mô hình variogram.\n",
+            "en": "•\tExplain the significance of nugget, sill, range, and anisotropy.\n•\tDiscuss criteria for selecting appropriate variogram models.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tThực hiện bài tập cá nhân về variogram.\n•\tÁp dụng variogram vào bài tập lớn.\n",
+            "en": "•\tComplete individual assignments on variogram analysis.\n•\tApply variogram modeling to the course project.\n"
+          },
+          "chuandaura": {
+            "id": 255933,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "L.O.3.1. Sử dụng thành thạo phần mềm R hoặc Python trong phân tích dữ liệu không gian.",
+              "en": "L.O.3.1. Demonstrate proficiency in using R or Python for spatial data analysis."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258113,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258120,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Cấu trúc không gian và phân tích variogram\n3.1. Tính liên tục không gian\n3.2. Variogram thực nghiệm\n3.3. Mô hình variogram\n3.4. Dị hướng không gian\n3.5. Đánh giá và lựa chọn mô hình variogram\n",
+        "en": "Chapter 3. Spatial Structure and Variogram Analysis\n3.1. Spatial Continuity\n3.2. Experimental Variogram\n3.3. Variogram Modeling\n3.4. Spatial Anisotropy\n3.5. Evaluation and Selection of Variogram Models\n"
+      }
+    },
+    {
+      "id": 117439,
+      "stt": 4,
+      "buoi": "7-9/4",
+      "chuandaurachitiet": [
+        {
+          "id": 156458,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tGiới thiệu các phương pháp dự báo không gian.\n•\tTrình bày nguyên lý và quy trình xây dựng mô hình Kriging.\n",
+            "en": "Introduce spatial prediction methods.\n•\t‍Present the principles and procedures of Kriging modeling.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tThực hành nội suy bằng các phương pháp khác nhau.\n•\tXây dựng mô hình Kriging trên dữ liệu thực tế.\n",
+            "en": "•\t‍Perform spatial interpolation using different methods.\n•\t‍Develop Kriging models using real datasets.\n"
+          },
+          "chuandaura": {
+            "id": 255936,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "L.O.2.1. Lựa chọn phương pháp nội suy phù hợp cho từng loại dữ liệu.",
+              "en": "L.O.2.1. Select appropriate interpolation methods for different types of data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258103,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 258121,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156459,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tHướng dẫn đánh giá mô hình bằng cross-validation.\n•\tGiải thích các chỉ số đánh giá độ chính xác mô hình.\n•\tThảo luận về lựa chọn mô hình tối ưu.\n",
+            "en": "•\t‍Demonstrate model validation using cross-validation techniques.\n•\t‍Explain performance evaluation metrics.\n•\t‍Discuss approaches for selecting optimal models.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tThực hiện cross-validation.\n•\tSo sánh kết quả giữa các mô hình.\n•\tÁp dụng kết quả vào bài tập lớn.\n",
+            "en": "•\t‍Conduct cross-validation analyses.\n•\t‍Compare model performance.\n•\t‍Apply model evaluation results to the course project.\n"
+          },
+          "chuandaura": {
+            "id": 255937,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "L.O.2.2. Xây dựng mô hình Kriging và đánh giá kết quả bằng cross-validation.",
+              "en": "L.O.2.2. Develop Kriging models and evaluate their performance using cross-validation techniques."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258104,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258119,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Dự báo không gian và đánh giá mô hình\n4.1. Các phương pháp dự báo không gian\n4.2. Xây dựng mô hình Kriging\n4.3. Đánh giá mô hình\n4.4. Các chỉ số đánh giá\n4.5. Lựa chọn mô hình tối ưu\n",
+        "en": "Chapter 4. Spatial Prediction and Model Evaluation\n4.1. Spatial Prediction Methods\n4.2. Kriging Model Development\n4.3. Model Validation\n4.4. Performance Evaluation Metrics\n4.5. Selection of Optimal Models\n"
+      }
+    },
+    {
+      "id": 117436,
+      "stt": 5,
+      "buoi": "10-11/5",
+      "chuandaurachitiet": [
+        {
+          "id": 156465,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày bản chất của bất định trong dữ liệu địa chất.\n•\tGiới thiệu các phương pháp định lượng bất định.\n•\tHướng dẫn mô phỏng địa thống kê.\n•\tGiải thích các khái niệm P10, P50, P90.\n•\tPhân tích vai trò của bất định trong ra quyết định kỹ thuật.\n",
+            "en": "•\t‍Explain the nature of uncertainty in geological data.\n•\t‍Introduce methods for uncertainty quantification.\n•\t‍Demonstrate geostatistical simulation techniques.\n•\t‍Explain the concepts of P10, P50, and P90.\n•\t‍Discuss the role of uncertainty in engineering decision-making.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tThực hành mô phỏng địa thống kê.\n•\tĐánh giá bất định của mô hình.\n•\tPhân tích rủi ro từ các kết quả mô phỏng.\n•\tÁp dụng phân tích bất định vào bài tập lớn.\n•\tThảo luận các tình huống kỹ thuật thực tế.\n",
+            "en": "•\t‍Perform geostatistical simulations.\n•\t‍Evaluate model uncertainty.\n•\t‍Analyze risks associated with simulation outcomes.\n•\t‍Incorporate uncertainty analysis into the course project.\n•\t‍Discuss real-world engineering scenarios.\n"
+          },
+          "chuandaura": {
+            "id": 255938,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "L.O.2.3. Đánh giá độ không chắc chắn của mô hình bằng các phương pháp mô phỏng địa thống kê.",
+              "en": "L.O.2.3. Assess model uncertainty using geostatistical simulation methods."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258100,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            },
+            {
+              "id": 258105,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Bất định, mô phỏng và phân tích rủi ro\n5.1. Bản chất của bất định trong dữ liệu địa chất\n5.2. Định lượng bất định\n5.3. Mô phỏng địa thống kê\n5.4. Đánh giá rủi ro\n5.5. Vai trò của bất định trong kỹ thuật địa chất\n",
+        "en": "Chapter 5. Uncertainty, Simulation, and Risk Analysis\n5.1. Nature of Uncertainty in Geological Data\n5.2. Quantification of Uncertainty\n5.3. Geostatistical Simulation\n5.4. Risk Assessment\n5.5. The Role of Uncertainty in Geological Engineering"
+      }
+    },
+    {
+      "id": 117435,
+      "stt": 6,
+      "buoi": "12-13/6",
+      "chuandaurachitiet": [
+        {
+          "id": 156451,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tGiới thiệu các thách thức mới của dữ liệu địa chất.\n•\tTrình bày vai trò của địa thống kê trong hệ sinh thái phân tích dữ liệu hiện đại.\n",
+            "en": "•\t‍Introduce emerging challenges associated with geological data.\n•\t‍Present the role of geostatistics within modern data analytics ecosystems.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tĐọc và thảo luận các bài báo khoa học gần đây.\n•\tSo sánh ưu điểm và hạn chế của địa thống kê và AI.\n",
+            "en": "•\t‍Read and discuss recent scientific publications.\n•\t‍Compare the strengths and limitations of geostatistics and AI.\n"
+          },
+          "chuandaura": {
+            "id": 255939,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "L.O.2.4. Xây dựng workflow hoàn chỉnh cho một bài toán thực tế.",
+              "en": "L.O.2.4. Develop a complete workflow for solving a real-world Geological Engineering problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258124,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 258107,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156462,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tGiới thiệu các xu hướng tích hợp địa thống kê và AI.\n•\tPhân tích các nghiên cứu điển hình trong địa khoa.\n",
+            "en": "•\t‍Introduce current trends in integrating geostatistics and artificial intelligence.\n•\t‍Analyze representative case studies in geosciences.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tĐề xuất workflow tích hợp địa thống kê và AI cho một bài toán cụ thể.\n•\tNghiên cứu tài liệu khoa học mở rộng.\n",
+            "en": "•\t‍Propose an integrated geostatistics–AI workflow for a specific problem.\n•\t‍Conduct independent literature reviews.\n"
+          },
+          "chuandaura": {
+            "id": 255934,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "L.O.3.2. Tự nghiên cứu tài liệu khoa học để mở rộng phương pháp phân tích.",
+              "en": "L.O.3.2. Independently review scientific literature to explore and extend analytical methods."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258108,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258101,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Địa thống kê trong kỷ nguyên AI và dữ liệu lớn\n6.1. Những thách mới của dữ liệu Địa chất\n6.2. Vai trò của Địa thống kê trong phân tích dữ liệu hiện đại\n6.3. Tích hợp Địa thống kê và AI",
+        "en": "Chapter 6. Geostatistics in the Era of AI and Big Data\n6.1. Emerging Challenges of Geological Data\n6.2. The Role of Geostatistics in Modern Data Analytics\n6.3. Integration of Geostatistics and Artificial Intelligence\n"
+      }
+    },
+    {
+      "id": 117437,
+      "stt": 7,
+      "buoi": "14-15/7",
+      "chuandaurachitiet": [
+        {
+          "id": 156464,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "•\tTrình bày các ứng dụng địa thống kê trong địa kỹ thuật, khoáng sản, địa chất thủy văn và môi trường.",
+            "en": "•\tPresent applications of geostatistics in geotechnical engineering, mineral resources, hydrogeology, and environmental studies."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tThực hiện bài tập lớn theo nhóm.",
+            "en": "•\tConduct group-based course projects."
+          },
+          "chuandaura": {
+            "id": 255939,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "L.O.2.4. Xây dựng workflow hoàn chỉnh cho một bài toán thực tế.",
+              "en": "L.O.2.4. Develop a complete workflow for solving a real-world Geological Engineering problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258102,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258097,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156453,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "•\tHướng dẫn xây dựng workflow hoàn chỉnh cho một bài toán thực tế.",
+            "en": "•\tGuide students in developing a complete workflow for solving real-world problems."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tPhân tích dữ liệu thực tế và xây dựng mô hình hoàn chỉnh.",
+            "en": "•\tAnalyze real datasets and develop complete spatial models."
+          },
+          "chuandaura": {
+            "id": 255934,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "L.O.3.2. Tự nghiên cứu tài liệu khoa học để mở rộng phương pháp phân tích.",
+              "en": "L.O.3.2. Independently review scientific literature to explore and extend analytical methods."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258126,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94031,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "A.O.3 - Thi cuối kỳ",
+                  "en": "A.O.3 - Final exam"
+                }
+              }
+            },
+            {
+              "id": 258123,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 156457,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "•\tTổ chức seminar và phản biện học thuật.\n•\tĐánh giá và góp ý cho các dự án cuối kỳ.\n",
+            "en": "•\tOrganize seminars and academic discussions.\n•\tEvaluate and provide feedback on final projects.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "•\tTrình bày và bảo vệ kết quả nghiên cứu.\n•\tTham gia phản biện và thảo luận học thuật.\n",
+            "en": "•\tPresent and defend project outcomes.\n•\tParticipate in peer review and academic discussions."
+          },
+          "chuandaura": {
+            "id": 255935,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "L.O.3.3. Trình bày và bảo vệ kết quả nghiên cứu bằng báo cáo kỹ thuật.",
+              "en": "L.O.3.3. Present and defend research findings through technical reports and oral presentations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 258116,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94029,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "A.O.2 - Bài tập nhóm",
+                  "en": "A.O.2 - Group assignemnt"
+                }
+              }
+            },
+            {
+              "id": 258106,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94030,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "A.O.1 - Bài tập cá nhân",
+                  "en": "A.O.1 - Individual assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Ứng dụng địa thống kê trong Kỹ thuật Địa chất \n",
+        "en": "Chapter 7. Applications of Geostatistics in Geological Engineering\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 255930,
+      "ma": "L.O.1.1",
+      "ten_vi": "L.O.1.1. Giải thích bản chất của biến ngẫu nhiên không gian và tính liên tục không gian.",
+      "ten_en": "L.O.1.1. Explain the nature of spatial random variables and spatial continuity.",
+      "hddg": [
+        {
+          "id": 94030,
+          "ma": "A.O.2",
+          "ten_vi": "A.O.1 - Bài tập cá nhân",
+          "ten_en": "A.O.1 - Individual assignment"
+        },
+        {
+          "id": 94031,
+          "ma": "A.O.3",
+          "ten_vi": "A.O.3 - Thi cuối kỳ",
+          "ten_en": "A.O.3 - Final exam"
+        }
+      ]
+    },
+    {
+      "id": 255931,
+      "ma": "L.O.1.2",
+      "ten_vi": "L.O.1.2. Phân tích dữ liệu địa chất bằng các công cụ thống kê mô tả và thống kê không gian.",
+      "ten_en": "L.O.1.2. Analyze geological data using descriptive statistical and spatial statistical techniques.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94031,
+          "ma": "A.O.3",
+          "ten_vi": "A.O.3 - Thi cuối kỳ",
+          "ten_en": "A.O.3 - Final exam"
+        }
+      ]
+    },
+    {
+      "id": 255932,
+      "ma": "L.O.1.3",
+      "ten_vi": "L.O.1.3. Đánh giá cấu trúc không gian bằng variogram thực nghiệm và mô hình variogram.",
+      "ten_en": "L.O.1.3. Evaluate spatial structures using experimental variograms and variogram models.",
+      "hddg": [
+        {
+          "id": 94030,
+          "ma": "A.O.2",
+          "ten_vi": "A.O.1 - Bài tập cá nhân",
+          "ten_en": "A.O.1 - Individual assignment"
+        },
+        {
+          "id": 94031,
+          "ma": "A.O.3",
+          "ten_vi": "A.O.3 - Thi cuối kỳ",
+          "ten_en": "A.O.3 - Final exam"
+        }
+      ]
+    },
+    {
+      "id": 255936,
+      "ma": "L.O.2.1",
+      "ten_vi": "L.O.2.1. Lựa chọn phương pháp nội suy phù hợp cho từng loại dữ liệu.",
+      "ten_en": "L.O.2.1. Select appropriate interpolation methods for different types of data.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94030,
+          "ma": "A.O.2",
+          "ten_vi": "A.O.1 - Bài tập cá nhân",
+          "ten_en": "A.O.1 - Individual assignment"
+        }
+      ]
+    },
+    {
+      "id": 255937,
+      "ma": "L.O.2.2",
+      "ten_vi": "L.O.2.2. Xây dựng mô hình Kriging và đánh giá kết quả bằng cross-validation.",
+      "ten_en": "L.O.2.2. Develop Kriging models and evaluate their performance using cross-validation techniques.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94031,
+          "ma": "A.O.3",
+          "ten_vi": "A.O.3 - Thi cuối kỳ",
+          "ten_en": "A.O.3 - Final exam"
+        }
+      ]
+    },
+    {
+      "id": 255938,
+      "ma": "L.O.2.3",
+      "ten_vi": "L.O.2.3. Đánh giá độ không chắc chắn của mô hình bằng các phương pháp mô phỏng địa thống kê.",
+      "ten_en": "L.O.2.3. Assess model uncertainty using geostatistical simulation methods.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94031,
+          "ma": "A.O.3",
+          "ten_vi": "A.O.3 - Thi cuối kỳ",
+          "ten_en": "A.O.3 - Final exam"
+        }
+      ]
+    },
+    {
+      "id": 255939,
+      "ma": "L.O.2.4",
+      "ten_vi": "L.O.2.4. Xây dựng workflow hoàn chỉnh cho một bài toán thực tế.",
+      "ten_en": "L.O.2.4. Develop a complete workflow for solving a real-world Geological Engineering problem.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94030,
+          "ma": "A.O.2",
+          "ten_vi": "A.O.1 - Bài tập cá nhân",
+          "ten_en": "A.O.1 - Individual assignment"
+        },
+        {
+          "id": 94031,
+          "ma": "A.O.3",
+          "ten_vi": "A.O.3 - Thi cuối kỳ",
+          "ten_en": "A.O.3 - Final exam"
+        }
+      ]
+    },
+    {
+      "id": 255933,
+      "ma": "L.O.3.1",
+      "ten_vi": "L.O.3.1. Sử dụng thành thạo phần mềm R hoặc Python trong phân tích dữ liệu không gian.",
+      "ten_en": "L.O.3.1. Demonstrate proficiency in using R or Python for spatial data analysis.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94030,
+          "ma": "A.O.2",
+          "ten_vi": "A.O.1 - Bài tập cá nhân",
+          "ten_en": "A.O.1 - Individual assignment"
+        }
+      ]
+    },
+    {
+      "id": 255934,
+      "ma": "L.O.3.2",
+      "ten_vi": "L.O.3.2. Tự nghiên cứu tài liệu khoa học để mở rộng phương pháp phân tích.",
+      "ten_en": "L.O.3.2. Independently review scientific literature to explore and extend analytical methods.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94030,
+          "ma": "A.O.2",
+          "ten_vi": "A.O.1 - Bài tập cá nhân",
+          "ten_en": "A.O.1 - Individual assignment"
+        },
+        {
+          "id": 94031,
+          "ma": "A.O.3",
+          "ten_vi": "A.O.3 - Thi cuối kỳ",
+          "ten_en": "A.O.3 - Final exam"
+        }
+      ]
+    },
+    {
+      "id": 255935,
+      "ma": "L.O.3.3",
+      "ten_vi": "L.O.3.3. Trình bày và bảo vệ kết quả nghiên cứu bằng báo cáo kỹ thuật.",
+      "ten_en": "L.O.3.3. Present and defend research findings through technical reports and oral presentations.",
+      "hddg": [
+        {
+          "id": 94029,
+          "ma": "A.O.1",
+          "ten_vi": "A.O.2 - Bài tập nhóm",
+          "ten_en": "A.O.2 - Group assignemnt"
+        },
+        {
+          "id": 94030,
+          "ma": "A.O.2",
+          "ten_vi": "A.O.1 - Bài tập cá nhân",
+          "ten_en": "A.O.1 - Individual assignment"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Địa thống kê",
+  "tenmonhoc_eng": "Geostatistics",
+  "kkt_JSON": null,
+  "phuongthucgiangday_json": null
+}

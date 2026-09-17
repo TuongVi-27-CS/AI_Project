@@ -1,0 +1,1276 @@
+{
+  "ma": "DCMH.AS5563.1.1",
+  "phienban": "1.1",
+  "capnhat": "21/07/2026 14:32",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS5563",
+  "ten": "AS5563 - Phương pháp sai phân hữu hạn",
+  "ten_eng": "AS5563 - Finite Difference Method",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Học phần trang\nbị cho học viên năng lực xây dựng, phân tích và triển khai các\nphương pháp sai phân hữu hạn cho ODE và PDE. Sau khi hoàn thành học phần, học\nviên có thể chuyển một bài toán liên tục thành bài toán rời rạc, phân tích sai\nsố, tính ổn định và hội tụ của lược đồ, xây dựng thuật toán tính toán, lập\ntrình mô phỏng bằng MATLAB/Python, đồng thời đọc và trình bày được các tài liệu\nchuyên sâu về phương pháp sai phân hữu hạn trong toán ứng dụng, khoa học và kỹ\nthuật.</p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><p>The course\nequips students with the ability to formulate, analyze, and implement\nfinite difference methods for ODEs and PDEs. Upon completion, students can\ntransform continuous problems into discrete problems, analyze truncation error,\nstability, and convergence, design computational algorithms, implement\nsimulations in MATLAB/Python, and read and present advanced materials on finite\ndifference methods in applied mathematics, science, and engineering.</p>\n\n\n\n\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nHọc phần Phương pháp sai phân hữu hạn gồm 2 phần.<br>Phần thứ nhất tập trung vào việc xây dựng công thức sai phân từ khai triển Taylor, phân tích sai số cắt cụt, thiết lập lược đồ sai phân cho các bài toán biên của phương trình vi phân thường tuyến tính và phi tuyến, đặc biệt là phương trình vi phân bậc hai. Các kỹ thuật giải hệ đại số thu được, phương pháp Newton cho bài toán phi tuyến, cùng các khái niệm nhất quán (consistency), ổn định (stability) và hội tụ (convergence) được trình bày một cách hệ thống.<br>Phần thứ hai nghiên cứu phương pháp sai phân hữu hạn đối với các phương trình đạo hàm riêng thuộc ba lớp cơ bản: elliptic, parabolic và hyperbolic. Học viên được giới thiệu các lược đồ explicit, implicit và Crank-Nicolson; điều kiện ổn định Von Neumann; điều kiện CFL; nguyên lý cực đại rời rạc; định lý tương đương Lax; cũng như các kỹ thuật đánh giá sai số và tổ chức ma trận thưa.<br>Song song với nền tảng lý thuyết, học phần chú trọng cài đặt thuật toán bằng MATLAB hoặc Python để giải các bài toán mô hình trong truyền nhiệt, khuếch tán, dao động, sóng và cơ học môi trường liên tục, qua đó hình thành năng lực mô hình hóa toán học và tính toán khoa học.<br><br></p>",
+      "en": "<p>The course Finite Difference Methods consists of 2 parts. The first part focuses on difference formulas derived from Taylor expansions, truncation error analysis, discretization of linear and nonlinear second-order boundary value problems, matrix formulation, Newton-type iterations, consistency, stability, and convergence. The second part introduces finite difference schemes for elliptic, parabolic, and hyperbolic PDEs, including explicit, implicit, and Crank-Nicolson schemes, Von Neumann stability analysis, CFL conditions, the discrete maximum principle, the Lax equivalence theorem, and sparse matrix formulations. Students implement algorithms using MATLAB or Python and apply them to representative models in heat transfer, diffusion, wave propagation, and continuum mechanics.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1]  G. Allaire, Numerical Analysis and Optimization: An Introduction to Mathematical Modelling and Numerical Simulation, Oxford University Press, 2023.<br>[2]  R. L. Burden and J. D. Faires, Numerical Analysis, 10th ed., Cengage, 2023.<br>[3]  R. J. LeVeque, Finite Difference Methods for Ordinary and Partial Differential Equations, SIAM, 2007.<br>[4]  J. C. Strikwerda, Finite Difference Schemes and Partial Differential Equations, 2nd ed., SIAM, 2004.<br>[5]  G. D. Smith, Numerical Solution of Partial Differential Equations: Finite Difference Methods, 3rd ed., Oxford University Press, 1985.<br>[6]  K. W. Morton and D. F. Mayers, Numerical Solution of Partial Differential Equations, 2nd ed., Cambridge University Press, 2012.<br>[7]  J. W. Thomas, Numerical Partial Differential Equations: Finite Difference Methods, Springer, 1995.<br>[8]  U. M. Ascher, R. M. M. Mattheij, and R. D. Russell, Numerical Solution of Boundary Value Problems for Ordinary Differential Equations, SIAM, 1995.</p><p>Tài liệu [1] được dùng như nguồn tham khảo chính về cơ sở lý thuyết và phân tích hội tụ; tài liệu [2] được dùng cho thuật toán, ví dụ tính toán và bài tập thực hành. Các tài liệu [3]-[8] dùng để đọc mở rộng ở bậc sau đại học.<br><br></p>",
+      "en": "<p>[1]  G. Allaire, Numerical Analysis and Optimization: An Introduction to Mathematical Modelling and Numerical Simulation, Oxford University Press, 2023.<br>[2]  R. L. Burden and J. D. Faires, Numerical Analysis, 10th ed., Cengage, 2023.<br>[3]  R. J. LeVeque, Finite Difference Methods for Ordinary and Partial Differential Equations, SIAM, 2007.<br>[4]  J. C. Strikwerda, Finite Difference Schemes and Partial Differential Equations, 2nd ed., SIAM, 2004.<br>[5]  G. D. Smith, Numerical Solution of Partial Differential Equations: Finite Difference Methods, 3rd ed., Oxford University Press, 1985.<br>[6]  K. W. Morton and D. F. Mayers, Numerical Solution of Partial Differential Equations, 2nd ed., Cambridge University Press, 2012.<br>[7]  J. W. Thomas, Numerical Partial Differential Equations: Finite Difference Methods, Springer, 1995.<br>[8]  U. M. Ascher, R. M. M. Mattheij, and R. D. Russell, Numerical Solution of Boundary Value Problems for Ordinary Differential Equations, SIAM, 1995.<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên LMS hàng tuần. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học. Điều kiện dự thi: học viên phải nộp đủ và đúng hạn bài tập về nhà và bài tập lớn (chuyên đề) trên LMS, đồng thời tham gia trình bày/báo cáo theo nhóm.<br></p>",
+      "en": "<p>Course materials are uploaded to the LMS every week. The grade is evaluated throughout the learning duration. Condition for exam attendance: students must submit all homework and the class project (seminar) on the LMS on time and participate in group presentations.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>\n\nHọc phần Phương pháp sai phân hữu hạn trang bị cho học viên cao học nền tảng lý thuyết và kỹ thuật tính toán của phương pháp sai phân hữu hạn trong việc giải gần đúng các phương trình vi phân thường (Ordinary Differential Equations - ODEs) và phương trình đạo hàm riêng (Partial Differential Equations - PDEs).\n\n<br></p>",
+      "en": "<p>\n\nThe course Finite Difference Methods provides graduate students with theoretical foundations and computational techniques for finite difference approximations of ordinary and partial differential equations. \n\n<br></p>"
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1417,
+      "ma": "001634",
+      "ten": "NGUYỄN QUỐC LÂN"
+    },
+    {
+      "id": 1427,
+      "ma": "003264",
+      "ten": "LÊ XUÂN ĐẠI"
+    },
+    {
+      "id": 12048,
+      "ma": "004275",
+      "ten": "ĐẶNG HẢI LONG"
+    },
+    {
+      "id": 1429,
+      "ma": "003323",
+      "ten": "PHAN THỊ KHÁNH VÂN"
+    },
+    {
+      "id": 1426,
+      "ma": "003262",
+      "ten": "HOÀNG HẢI HÀ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1080,
+      "maBoMon": "TUD",
+      "tenBoMon": {
+        "vi": "Toán ứng Dụng"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "Đại học Bách Khoa - ĐHQG TP.HCM, 268 Lý Thường Kiệt",
+      "dienThoai": "028 38647256"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1417,
+        "maGiangVien": "001634",
+        "tenGiangVien": "NGUYỄN QUỐC LÂN",
+        "emailGiangVien": "nqlan@hcmut.edu.vn"
+      },
+      {
+        "id": 1427,
+        "maGiangVien": "003264",
+        "tenGiangVien": "LÊ XUÂN ĐẠI",
+        "emailGiangVien": "ytkadai@hcmut.edu.vn"
+      },
+      {
+        "id": 1422,
+        "maGiangVien": "002288",
+        "tenGiangVien": "NGUYỄN TIẾN DŨNG",
+        "emailGiangVien": "dungnt@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 94649,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 94650,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "94649",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Câu hỏi/Bài tập trên lớp",
+        "en": "Quiz/In-class exercise"
+      },
+      "noidung": {
+        "vi": "Câu hỏi và bài tập ngắn trên lớp",
+        "en": "Short in-class questions & exercises"
+      }
+    },
+    {
+      "id": 94651,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "94649",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập lý thuyết và mô phỏng",
+        "en": "Theoretical and simulation homework"
+      }
+    },
+    {
+      "id": 94652,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "94649",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn/Chuyên đề",
+        "en": "Class project/Seminar"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn theo nhóm và báo cáo chuyên đề",
+        "en": "Group major assignment & seminar report"
+      }
+    },
+    {
+      "id": 94653,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "94649",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm Exam"
+      },
+      "noidung": {
+        "vi": "Trắc nghiệm và tự luận",
+        "en": "Multi-choice Test and/or Essay questions"
+      }
+    },
+    {
+      "id": 94654,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "94649",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Trắc nghiệm và/hoặc tự luận.",
+        "en": "Multi-choice Test and/or Essay questions"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 118316,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 157570,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày công thức sai phân và phân tích sai số",
+            "en": "The instructor presents finite difference formula and errors"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thiết lập các công thức sai phân bậc 1, bậc 2.",
+            "en": "Form 1st, 2nd order formulas"
+          },
+          "chuandaura": {
+            "id": 256778,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và vận dụng các nguyên lý, cơ sở toán học và thuật toán của phương pháp sai phân hữu hạn trong việc giải gần đúng các phương trình vi phân và phương trình đạo hàm riêng.",
+              "en": "Analyze and apply the principles, mathematical foundations, and algorithms of finite difference methods for obtaining approximate solutions of differential equations and partial differential equations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260111,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94650,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Câu hỏi/Bài tập trên lớp",
+                  "en": "Quiz/In-class exercise"
+                }
+              }
+            },
+            {
+              "id": 260099,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94651,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu môn học. Khai triển Taylor; Xấp xỉ bằng sai phân; Sai số; Bậc xấp xỉ.",
+        "en": "Introduction. Taylor expansion; finite difference approximation; truncation error; order of accuracy."
+      }
+    },
+    {
+      "id": 118317,
+      "stt": 2,
+      "buoi": "2-3",
+      "chuandaurachitiet": [
+        {
+          "id": 157565,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận; làm bài tập",
+            "en": "Discuss, do exercises"
+          },
+          "chuandaura": {
+            "id": 256778,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và vận dụng các nguyên lý, cơ sở toán học và thuật toán của phương pháp sai phân hữu hạn trong việc giải gần đúng các phương trình vi phân và phương trình đạo hàm riêng.",
+              "en": "Analyze and apply the principles, mathematical foundations, and algorithms of finite difference methods for obtaining approximate solutions of differential equations and partial differential equations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260116,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94653,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm Exam"
+                }
+              }
+            },
+            {
+              "id": 260112,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp sai phân hữu hạn với bài toán biên tuyến tính của phương trình vi phân thường cấp 2 tuyến tính. Hội tụ: Định lý Gerschgorin.",
+        "en": "Finite difference method for boundary value problem of 2nd linear order ODE. Convergence by Gerschgorin Theorem."
+      }
+    },
+    {
+      "id": 118314,
+      "stt": 3,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 157568,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết\n",
+            "en": "Lecturing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận; làm bài tập\n",
+            "en": "Discuss, do exercises"
+          },
+          "chuandaura": {
+            "id": 256756,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Xây dựng và triển khai các lược đồ sai phân hữu hạn cho các bài toán giá trị ban đầu, bài toán biên và các mô hình toán học trong khoa học, kỹ thuật và công nghệ.",
+              "en": "Develop and implement finite difference schemes for initial value problems, boundary value problems, and mathematical models arising in science, engineering, and technology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260115,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94653,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm Exam"
+                }
+              }
+            },
+            {
+              "id": 260113,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp sai phân hữu hạn với bài toán biên của phương trình vi phân cấp 2 phi tuyến.",
+        "en": "Finite difference method for boundary value problem of 2nd order nonlinear ODE."
+      }
+    },
+    {
+      "id": 118309,
+      "stt": 4,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 157569,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết\n",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận; làm bài tập\n",
+            "en": "Discuss, do exercises"
+          },
+          "chuandaura": {
+            "id": 256719,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Đánh giá tính ổn định, hội tụ, độ chính xác và hiệu quả tính toán của các phương pháp sai phân hữu hạn; vận dụng vào các bài toán thực tiễn.",
+              "en": "Evaluate the stability, convergence, accuracy, and computational efficiency of finite difference methods and apply them to practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260100,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94653,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm Exam"
+                }
+              }
+            },
+            {
+              "id": 260107,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng kết Phương pháp sai phân hữu hạn với ODE",
+        "en": "Review for Finite difference method of ODE"
+      }
+    },
+    {
+      "id": 118315,
+      "stt": 5,
+      "buoi": "6-7",
+      "chuandaurachitiet": [
+        {
+          "id": 157571,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết\n",
+            "en": "Lecturing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận; làm bài tập\n",
+            "en": "Discuss, do exercises"
+          },
+          "chuandaura": {
+            "id": 256756,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Xây dựng và triển khai các lược đồ sai phân hữu hạn cho các bài toán giá trị ban đầu, bài toán biên và các mô hình toán học trong khoa học, kỹ thuật và công nghệ.",
+              "en": "Develop and implement finite difference schemes for initial value problems, boundary value problems, and mathematical models arising in science, engineering, and technology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260106,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94652,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Chuyên đề",
+                  "en": "Class project/Seminar"
+                }
+              }
+            },
+            {
+              "id": 260114,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp sai phân hữu hạn với PTĐHR, phương trình parabolic: Sơ đồ hiện, ẩn, Crank - Nicholson",
+        "en": "Finite difference method for PDE, parabolic equation: Explicit, Implicit, Crank - Nicholson Schemas"
+      }
+    },
+    {
+      "id": 118310,
+      "stt": 6,
+      "buoi": "8-9",
+      "chuandaurachitiet": [
+        {
+          "id": 157573,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết\n",
+            "en": "Lecturing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận; làm bài tập\n",
+            "en": "Discuss, do exercises\n"
+          },
+          "chuandaura": {
+            "id": 256719,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Đánh giá tính ổn định, hội tụ, độ chính xác và hiệu quả tính toán của các phương pháp sai phân hữu hạn; vận dụng vào các bài toán thực tiễn.",
+              "en": "Evaluate the stability, convergence, accuracy, and computational efficiency of finite difference methods and apply them to practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260110,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94650,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Câu hỏi/Bài tập trên lớp",
+                  "en": "Quiz/In-class exercise"
+                }
+              }
+            },
+            {
+              "id": 260101,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích ổn định. Điều kiện CFL.",
+        "en": "Stability analysis. CFL condition."
+      }
+    },
+    {
+      "id": 118312,
+      "stt": 7,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 157566,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết\n",
+            "en": "Lecturing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận; làm bài tập\n",
+            "en": "Discuss, do exercises\n"
+          },
+          "chuandaura": {
+            "id": 256745,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Sử dụng các công cụ tính toán hiện đại để mô phỏng, nghiên cứu và trình bày các kết quả liên quan đến phương pháp sai phân hữu hạn thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Utilize modern computational tools to simulate, investigate, and present results related to finite difference methods through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260105,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94651,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 260109,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp sai phân hữu hạn với PTĐHR, phương trình hyberbolic",
+        "en": "Finite difference method for PDE, hyperbolic equation"
+      }
+    },
+    {
+      "id": 118311,
+      "stt": 8,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 157572,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết\n",
+            "en": "Lecturing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận; làm bài tập\n",
+            "en": "Discuss, do exercises\n"
+          },
+          "chuandaura": {
+            "id": 256745,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Sử dụng các công cụ tính toán hiện đại để mô phỏng, nghiên cứu và trình bày các kết quả liên quan đến phương pháp sai phân hữu hạn thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Utilize modern computational tools to simulate, investigate, and present results related to finite difference methods through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260104,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94651,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 260108,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp sai phân hữu hạn với PTĐHR, phương trình elliptic\n",
+        "en": "Finite difference method for PDE, hyperbolic equation"
+      }
+    },
+    {
+      "id": 118313,
+      "stt": 9,
+      "buoi": "12-15",
+      "chuandaurachitiet": [
+        {
+          "id": 157567,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày Bài tập lớn",
+            "en": "Project presentation"
+          },
+          "chuandaura": {
+            "id": 256745,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Sử dụng các công cụ tính toán hiện đại để mô phỏng, nghiên cứu và trình bày các kết quả liên quan đến phương pháp sai phân hữu hạn thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Utilize modern computational tools to simulate, investigate, and present results related to finite difference methods through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 260102,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94652,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Chuyên đề",
+                  "en": "Class project/Seminar"
+                }
+              }
+            },
+            {
+              "id": 260103,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94654,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn tập. Trình bày Bài tập lớn.",
+        "en": "Final Review. Project presentation."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 256778,
+      "ma": "L.O.1",
+      "ten_vi": "Phân tích và vận dụng các nguyên lý, cơ sở toán học và thuật toán của phương pháp sai phân hữu hạn trong việc giải gần đúng các phương trình vi phân và phương trình đạo hàm riêng.",
+      "ten_en": "Analyze and apply the principles, mathematical foundations, and algorithms of finite difference methods for obtaining approximate solutions of differential equations and partial differential equations.",
+      "hddg": [
+        {
+          "id": 94650,
+          "ma": "A.O.1",
+          "ten_vi": "Câu hỏi/Bài tập trên lớp",
+          "ten_en": "Quiz/In-class exercise"
+        },
+        {
+          "id": 94651,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 94653,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm Exam"
+        },
+        {
+          "id": 94654,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 256756,
+      "ma": "L.O.2",
+      "ten_vi": "Xây dựng và triển khai các lược đồ sai phân hữu hạn cho các bài toán giá trị ban đầu, bài toán biên và các mô hình toán học trong khoa học, kỹ thuật và công nghệ.",
+      "ten_en": "Develop and implement finite difference schemes for initial value problems, boundary value problems, and mathematical models arising in science, engineering, and technology.",
+      "hddg": [
+        {
+          "id": 94652,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Chuyên đề",
+          "ten_en": "Class project/Seminar"
+        },
+        {
+          "id": 94653,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm Exam"
+        },
+        {
+          "id": 94654,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 256719,
+      "ma": "L.O.3",
+      "ten_vi": "Đánh giá tính ổn định, hội tụ, độ chính xác và hiệu quả tính toán của các phương pháp sai phân hữu hạn; vận dụng vào các bài toán thực tiễn.",
+      "ten_en": "Evaluate the stability, convergence, accuracy, and computational efficiency of finite difference methods and apply them to practical problems.",
+      "hddg": [
+        {
+          "id": 94650,
+          "ma": "A.O.1",
+          "ten_vi": "Câu hỏi/Bài tập trên lớp",
+          "ten_en": "Quiz/In-class exercise"
+        },
+        {
+          "id": 94653,
+          "ma": "A.O.4",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm Exam"
+        },
+        {
+          "id": 94654,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 256745,
+      "ma": "L.O.4",
+      "ten_vi": "Sử dụng các công cụ tính toán hiện đại để mô phỏng, nghiên cứu và trình bày các kết quả liên quan đến phương pháp sai phân hữu hạn thông qua seminar hoặc dự án nghiên cứu.",
+      "ten_en": "Utilize modern computational tools to simulate, investigate, and present results related to finite difference methods through seminars or research projects.",
+      "hddg": [
+        {
+          "id": 94651,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 94652,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Chuyên đề",
+          "ten_en": "Class project/Seminar"
+        },
+        {
+          "id": 94654,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phương pháp sai phân hữu hạn",
+  "tenmonhoc_eng": "Finite Difference Method",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 4,
+      "ma": "pphtqnc",
+      "ten": {
+        "vi": "Phương pháp học tập qua nghiên cứu",
+        "en": "Research-based learning "
+      }
+    },
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    }
+  ]
+}

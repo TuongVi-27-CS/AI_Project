@@ -1,0 +1,1521 @@
+{
+  "ma": "DCMH.CI5299.1.1",
+  "phienban": "1.1",
+  "capnhat": "08/06/2026 16:41",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Xây Dựng",
+    "en": "Faculty of Civil Engineering"
+  },
+  "mamonhoc": "CI5299",
+  "ten": "CI5299 - Ứng dụng GIS trong đánh giá đất và quy hoạch sử dụng đất",
+  "ten_eng": "CI5299 - Application of GIS in Land evaluation and land use planning",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\nHọc phần nhằm trang bị cho học viên năng lực phân tích, thiết kế và kiểm chứng các mô hình GIS phục vụ đánh giá thích nghi đất đai và xây dựng phương án quy hoạch sử dụng đất. Sau khi hoàn thành học phần, học viên có khả năng phát triển giải pháp phân tích đa tiêu chí, đánh giá hiệu năng mô hình, so sánh các kịch bản quy hoạch và đề xuất phương án tối ưu dựa trên bằng chứng định lượng.\n\n<br></p>",
+      "en": "<p>The course aims to equip students with the ability to analyze, design, and validate GIS-based models for land suitability assessment and land-use planning. Upon completion, students will be capable of developing multi-criteria analytical solutions, evaluating model performance, comparing planning scenarios, and proposing optimized alternatives based on quantitative evidence.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Học phần cung cấp nền tảng và phương pháp ứng dụng GIS trong đánh giá đất đai và quy hoạch sử dụng đất. Nội dung bao gồm: cơ sở khoa học về đánh giá đất; xây dựng và chuẩn hóa cơ sở dữ liệu không gian; phân tích đa tiêu chí (AHP, Weighted Linear Combination); mô hình đánh giá thích nghi; phân tích biến động sử dụng đất; mô hình dự báo (Markov, CA-Markov); tối ưu hóa phân bổ sử dụng đất; và kiểm định độ chính xác mô hình. Học phần kết thúc bằng một đồ án tổng hợp, trong đó học viên thiết kế và kiểm chứng một phương án quy hoạch sử dụng đất dựa trên công cụ GIS và phân tích không gian.<br></p>",
+      "en": "<p>The course provides theoretical foundations and methodological approaches for applying GIS in land evaluation and land-use planning. The contents include: scientific principles of land evaluation; spatial database construction and standardization; multi-criteria analysis (AHP, Weighted Linear Combination); land suitability modeling; land-use change analysis; forecasting models (Markov, CA-Markov); spatial optimization and land allocation; and model accuracy assessment. The course concludes with an integrative project in which students design and validate a land-use planning alternative using GIS and spatial analysis tools.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>I. GIÁO TRÌNH</b></p><p>1. Graciela Metternicht,  2018, Land Use and Spatial Planning, Enabling Sustainable Management of Land Resources, Springer  <br>2. Quốc Hội, 2017, Luật quy hoạch, NXB. Pháp Lý.</p><p><b>II. TÀI LIỆU THAM KHẢO</b><br>3. FAO,  2017, Land resource planning for sustainable land management,  FAO.<br>4. Deakin E., 2020, Transportation, land use, and environmental planning, Elsevier.<br>5. Arcidiacono A. and Ronchi S.,  2021, Ecosystem Services and Green Infrastructure, Springer.<br><br></p>",
+      "en": "<p><b>I. TEXTBOOKS</b></p><p>1. Graciela Metternicht, 2018, Land Use and Spatial Planning, Enabling Sustainable Management of Land Resources, Springer.<br>2. National Assembly, 2017, Law on Planning, Legal Publishing House.</p><p><b>II.&nbsp;REFERENCES</b><br>3. FAO, 2017, Land resource planning for sustainable land management.<br>4. Deakin E., 2020, Transportation, land use, and environmental planning, Elsevier.<br>5. Arcidiacono A. and Ronchi S., 2021, Ecosystem Services and Green Infrastructure, Springer.<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><b>I. Hướng dẫn cách học:</b> <br>\n\nHọc phần được thiết kế theo định hướng ứng dụng và nghiên cứu chuyên sâu, do đó học viên cần chủ động và tích cực trong quá trình học tập. Để đạt hiệu quả cao, học viên nên:<br>- Ôn tập kiến thức nền tảng về GIS, viễn thám cơ bản, phân tích raster/vector và các nguyên lý thống kê không gian trước khi vào các nội dung nâng cao.<br>- Chuẩn bị bài trước khi lên lớp, đọc tài liệu về phương pháp đánh giá đất, MCDA và mô hình dự báo để tham gia thảo luận chuyên sâu.<br>- Thực hành thường xuyên trên phần mềm GIS, xây dựng từng bước cơ sở dữ liệu và mô hình thay vì chờ đến cuối học phần.<br>- Tư duy theo hướng thiết kế mô hình, không chỉ thao tác kỹ thuật mà cần hiểu rõ giả định, điều kiện áp dụng và hạn chế của từng phương pháp.<br>- Làm việc theo nhóm trong đồ án cuối kỳ, phân công rõ ràng các phần: xây dựng dữ liệu, phân tích, kiểm định, viết báo cáo và trình bày bản đồ.<br>- Chú trọng phân tích và phản biện, so sánh các kịch bản quy hoạch và đánh giá độ tin cậy của kết quả trước khi đề xuất phương án tối ưu.<br>Học viên được khuyến khích khai thác dữ liệu thực tế tại địa phương hoặc khu vực nghiên cứu cụ thể để tăng tính ứng dụng và giá trị học thuật của đồ án.\n\n<br></p><p><b>II. Liêm chính học thuật và sử dụng công cụ AI:</b><br>- Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường. <br>- Việc sử dụng các công cụ AI (ví dụ: ChatGPT, Claude, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung (&gt; 50%). <br>- Khi có sử dụng AI trong quá trình làm bài/lập trình,…., người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú. <br>- Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật, hoặc các hành vi không tuân theo các điểm đã nêu ở trên: người học có điểm đánh giá cho phần bài làm tương ứng là 0 điểm.<br><br></p><p><br></p>",
+      "en": "<p><b>I. Instructions on how to study:</b><br>The course follows an application-oriented and research-based approach; therefore, active and self-directed learning is essential. To achieve optimal outcomes, students are advised to:<br>- Review foundational knowledge in GIS, basic remote sensing, raster/vector analysis, and spatial statistical principles prior to advanced topics.<br>- Prepare readings before class, particularly on land evaluation methods, multi-criteria decision analysis (MCDA), and land-use forecasting models to engage in in-depth discussions.<br>- Practice regularly using GIS software, progressively building spatial databases and analytical models rather than postponing work until the final project stage.<br>- Adopt a model-design mindset, focusing not only on technical procedures but also on assumptions, applicability conditions, and methodological limitations.<br>- Collaborate effectively in the final project, with clear task allocation for data preparation, modeling, validation, reporting, and cartographic presentation.<br>- Emphasize critical analysis and evaluation, compare planning scenarios, and assess model reliability before proposing optimized land-use alternatives.<br>Students are encouraged to use real-world datasets from specific localities or regions to enhance both practical relevance and academic rigor.<br></p><p><b>II. Academic Integrity and use of AI tools</b> <br>- Students must comply with the university’s academic integrity regulations. <br>- The use of AI tools (e.g., ChatGPT, Claude, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI. <br>- When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes. <br>- Any misuse of AI for academic dishonesty will be considered a violation of academic integrity, or actions that do not comply with the points stated above: the learner will have a score of 0 for the corresponding assignment.<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>\n\nHọc phần yêu cầu học viên đã có kiến thức nền tảng về Hệ thống thông tin địa lý (GIS), viễn thám cơ bản và phương pháp phân tích không gian. Học phần định hướng ứng dụng nâng cao, nhấn mạnh thiết kế mô hình, kiểm chứng và tối ưu hóa phương án đánh giá đất đai và quy hoạch sử dụng đất trong bối cảnh thực tiễn Việt Nam.\n\n<br></p>",
+      "en": "<p>\n\nStudents are expected to have prior knowledge of Geographic Information Systems (GIS), basic remote sensing, and spatial analysis methods. The course adopts an advanced application-oriented approach, emphasizing model design, validation, and optimization of land evaluation and land-use planning alternatives in the Vietnamese context.\n\n<br></p>"
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 6285,
+      "ma": "NG_XDD_TS",
+      "ten": {
+        "vi": "CTĐT Tiến sĩ ngành KTXD",
+        "en": "Doctoral Program of Civil Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 803,
+      "ma": "002801",
+      "ten": "NGUYỄN TRƯỜNG NGÂN"
+    },
+    {
+      "id": 800,
+      "ma": "002495",
+      "ten": "LƯƠNG BẢO BÌNH"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.33,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 42,
+        "ma": "BCTT",
+        "text": {
+          "vi": "Báo cáo thực tập",
+          "en": "Internship report"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 42,
+        "ma": "BCTT",
+        "text": {
+          "vi": "Báo cáo thực tập",
+          "en": "Internship report"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1054,
+      "maBoMon": "TDI",
+      "tenBoMon": {
+        "vi": "Địa - Tin Học"
+      },
+      "maKhoa": "XD",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Xây Dựng",
+        "en": "Faculty of Civil Engineering"
+      },
+      "vanPhong": "268 Lý Thường Kiệt, phường Diên Hồng, TPHCM",
+      "dienThoai": "0983277137"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 803,
+        "maGiangVien": "002801",
+        "tenGiangVien": "NGUYỄN TRƯỜNG NGÂN",
+        "emailGiangVien": "ntngan@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 91415,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 91416,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "91415",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập cá nhân",
+        "en": "Individual written assignments"
+      },
+      "noidung": {
+        "vi": "Xử lý lớp bản đồ đất, địa hình, thổ nhưỡng  Chuẩn hóa hệ tọa độ, phân loại thuộc tính  Phân tích chồng lớp cơ bản",
+        "en": "Process soil, terrain, and land-use layers  Standardize coordinate systems and attributes  Perform basic overlay analysis"
+      }
+    },
+    {
+      "id": 91417,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "91415",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+        "en": "Land Suitability Analysis using FAO Framework"
+      },
+      "noidung": {
+        "vi": "Xây dựng tiêu chí đánh giá; Chuẩn hóa và gán trọng số; Thành lập bản đồ thích nghi đất",
+        "en": "Define evaluation criteria; Apply weighting methods; Produce land suitability maps"
+      }
+    },
+    {
+      "id": 91418,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "91415",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+        "en": "Critical Review of Land Evaluation Models"
+      },
+      "noidung": {
+        "vi": "hân tích một mô hình đánh giá đất cụ thể  So sánh phương pháp và đề xuất cải tiến  Trình bày logic phân tích không gian",
+        "en": "Analyze a selected land evaluation model  Compare methodologies and propose improvements  Present spatial reasoning clearly"
+      }
+    },
+    {
+      "id": 91419,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "91415",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+        "en": "GIS-based Land Use Planning Project"
+      },
+      "noidung": {
+        "vi": "Tích hợp dữ liệu đa nguồn  Phân tích thích nghi đất  Xây dựng kịch bản quy hoạch  Đánh giá tác động và đề xuất phương án tối ưu  Trình bày bản đồ và báo cáo kỹ thuật",
+        "en": "Integrate multi-source datasets  Conduct land suitability analysis  Develop planning scenarios  Evaluate impacts and propose optimal solutions  Present maps and technical report"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 113588,
+      "stt": 1,
+      "buoi": "1; Chủ đề 1",
+      "chuandaurachitiet": [
+        {
+          "id": 151122,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày khung FAO và các khái niệm cơ bản.\n\n",
+            "en": "Introduce FAO framework and key concepts.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận về các vấn đề sử dụng đất tại địa phương.\n",
+            "en": "Discuss local land-use issues."
+          },
+          "chuandaura": {
+            "id": 243160,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích và tích hợp các mô hình GIS và phân tích đa tiêu chí nhằm đánh giá mức độ thích nghi đất đai và đề xuất phương án quy hoạch sử dụng đất tối ưu.",
+              "en": "Analyze and Integrate GIS-based and multi-criteria models to assess land suitability and propose optimized land-use planning alternatives."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248257,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248258,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91418,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+                  "en": "Critical Review of Land Evaluation Models"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng quan về đánh giá đất đai và vai trò của GIS trong quy hoạch sử dụng đất.\n",
+        "en": "Overview of land evaluation and the role of GIS in land-use planning."
+      }
+    },
+    {
+      "id": 113578,
+      "stt": 2,
+      "buoi": "2; Chủ đề 2",
+      "chuandaurachitiet": [
+        {
+          "id": 151116,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn cấu trúc dữ liệu và chuẩn hóa.\n\n",
+            "en": "Explain data structure and standardization.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành chuẩn hóa và kiểm tra dữ liệu.\n",
+            "en": "Practice data cleaning and standardization."
+          },
+          "chuandaura": {
+            "id": 243160,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích và tích hợp các mô hình GIS và phân tích đa tiêu chí nhằm đánh giá mức độ thích nghi đất đai và đề xuất phương án quy hoạch sử dụng đất tối ưu.",
+              "en": "Analyze and Integrate GIS-based and multi-criteria models to assess land suitability and propose optimized land-use planning alternatives."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248279,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248272,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91417,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+                  "en": "Land Suitability Analysis using FAO Framework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hệ thống dữ liệu đất đai: thổ nhưỡng, địa hình, khí hậu, hiện trạng sử dụng đất.\n",
+        "en": "Land datasets: soil, terrain, climate, current land use."
+      }
+    },
+    {
+      "id": 113579,
+      "stt": 3,
+      "buoi": "3; Chủ đề 3",
+      "chuandaurachitiet": [
+        {
+          "id": 151123,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giải thích phương pháp xác định tiêu chí.\n",
+            "en": "Explain methods for defining criteria.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xây dựng bộ tiêu chí cho một loại hình sử dụng đất.\n",
+            "en": "Develop criteria set for a selected land-use type."
+          },
+          "chuandaura": {
+            "id": 243161,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Luận giải và biện minh các mô hình đánh giá đất và quy hoạch sử dụng đất dựa trên kiểm định độ chính xác, phân tích độ nhạy và so sánh kịch bản, từ đó đề xuất cải tiến phương án.",
+              "en": "Explain and Justify of land evaluation and land-use planning models using accuracy assessment, sensitivity analysis, and scenario comparison, and propose methodological improvements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248280,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91417,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+                  "en": "Land Suitability Analysis using FAO Framework"
+                }
+              }
+            },
+            {
+              "id": 248259,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91418,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+                  "en": "Critical Review of Land Evaluation Models"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Xây dựng tiêu chí và chỉ tiêu đánh giá đất.",
+        "en": "Developing land evaluation criteria and indicators."
+      }
+    },
+    {
+      "id": 113589,
+      "stt": 4,
+      "buoi": "4; Chủ đề 4",
+      "chuandaurachitiet": [
+        {
+          "id": 151125,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày hệ thống phân cấp thích nghi đất đai.\n\n",
+            "en": "Present suitability classification system.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích mẫu bảng đánh giá đất.\n",
+            "en": "Analyze sample land evaluation tables."
+          },
+          "chuandaura": {
+            "id": 243161,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Luận giải và biện minh các mô hình đánh giá đất và quy hoạch sử dụng đất dựa trên kiểm định độ chính xác, phân tích độ nhạy và so sánh kịch bản, từ đó đề xuất cải tiến phương án.",
+              "en": "Explain and Justify of land evaluation and land-use planning models using accuracy assessment, sensitivity analysis, and scenario comparison, and propose methodological improvements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248260,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91417,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+                  "en": "Land Suitability Analysis using FAO Framework"
+                }
+              }
+            },
+            {
+              "id": 248261,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91418,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+                  "en": "Critical Review of Land Evaluation Models"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp phân hạng thích nghi đất (FAO).",
+        "en": "FAO land suitability classification."
+      }
+    },
+    {
+      "id": 113580,
+      "stt": 5,
+      "buoi": "5; Chủ đề 5",
+      "chuandaurachitiet": [
+        {
+          "id": 151127,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn quy trình AHP.\n\n",
+            "en": "Guide AHP workflow.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tính toán trọng số và kiểm tra độ nhất quán.\n",
+            "en": "Calculate weights and check consistency ratio."
+          },
+          "chuandaura": {
+            "id": 243161,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Luận giải và biện minh các mô hình đánh giá đất và quy hoạch sử dụng đất dựa trên kiểm định độ chính xác, phân tích độ nhạy và so sánh kịch bản, từ đó đề xuất cải tiến phương án.",
+              "en": "Explain and Justify of land evaluation and land-use planning models using accuracy assessment, sensitivity analysis, and scenario comparison, and propose methodological improvements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248262,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91417,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+                  "en": "Land Suitability Analysis using FAO Framework"
+                }
+              }
+            },
+            {
+              "id": 248263,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91418,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+                  "en": "Critical Review of Land Evaluation Models"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chuẩn hóa tiêu chí và gán trọng số (AHP).\n",
+        "en": "Criteria standardization and weighting (AHP)."
+      }
+    },
+    {
+      "id": 113582,
+      "stt": 6,
+      "buoi": "6; Chủ đề 6",
+      "chuandaurachitiet": [
+        {
+          "id": 151124,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Minh họa quy trình chồng lớp có trọng số.\n",
+            "en": "Demonstrate weighted overlay process.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành xây dựng bản đồ thích nghi đất.\n",
+            "en": "Create land suitability maps.\n"
+          },
+          "chuandaura": {
+            "id": 243161,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Luận giải và biện minh các mô hình đánh giá đất và quy hoạch sử dụng đất dựa trên kiểm định độ chính xác, phân tích độ nhạy và so sánh kịch bản, từ đó đề xuất cải tiến phương án.",
+              "en": "Explain and Justify of land evaluation and land-use planning models using accuracy assessment, sensitivity analysis, and scenario comparison, and propose methodological improvements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248264,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91417,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+                  "en": "Land Suitability Analysis using FAO Framework"
+                }
+              }
+            },
+            {
+              "id": 248281,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91418,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+                  "en": "Critical Review of Land Evaluation Models"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp Chồng lớp có trọng số trong GIS.\n",
+        "en": "Weighted Overlay method in GIS."
+      }
+    },
+    {
+      "id": 113590,
+      "stt": 7,
+      "buoi": "7; Chủ đề 7",
+      "chuandaurachitiet": [
+        {
+          "id": 151117,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giải thích vùng cấm, vùng hạn chế phát triển.\n\n",
+            "en": "Explain restricted and protected zones.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xây dựng bản đồ ràng buộc.\n",
+            "en": "Develop constraint maps."
+          },
+          "chuandaura": {
+            "id": 243162,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm soát và đánh giá các mô hình dự báo và phân bổ sử dụng đất bằng công cụ GIS và phần mềm phân tích không gian nhằm xác thực tính khả thi của phương án quy hoạch.",
+              "en": "Monitor and evaluate land-use allocation and forecasting models using GIS and spatial analysis tools to verify the feasibility of planning scenarios."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248265,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248273,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích ràng buộc (constraint analysis).",
+        "en": "Constraint analysis in land-use planning."
+      }
+    },
+    {
+      "id": 113583,
+      "stt": 8,
+      "buoi": "8; Chủ đề 8",
+      "chuandaurachitiet": [
+        {
+          "id": 151130,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "So sánh MCE và Weighted Overlay.\n\n",
+            "en": "Compare MCE and weighted overlay.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành tích hợp nhiều tiêu chí đánh giá.\n",
+            "en": "Integrate multiple evaluation criteria."
+          },
+          "chuandaura": {
+            "id": 243161,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Luận giải và biện minh các mô hình đánh giá đất và quy hoạch sử dụng đất dựa trên kiểm định độ chính xác, phân tích độ nhạy và so sánh kịch bản, từ đó đề xuất cải tiến phương án.",
+              "en": "Explain and Justify of land evaluation and land-use planning models using accuracy assessment, sensitivity analysis, and scenario comparison, and propose methodological improvements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248274,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248266,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích đa tiêu chí (MCE).",
+        "en": "Multi-Criteria Evaluation (MCE)."
+      }
+    },
+    {
+      "id": 113584,
+      "stt": 9,
+      "buoi": "9; Chủ đề 9",
+      "chuandaurachitiet": [
+        {
+          "id": 151118,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xây dựng các phương án phát triển.\n\n",
+            "en": "Guide scenario development.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thiết kế 2–3 phương án quy hoạch sử dụng đất.\n",
+            "en": "Design 2–3 land-use scenarios."
+          },
+          "chuandaura": {
+            "id": 243162,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm soát và đánh giá các mô hình dự báo và phân bổ sử dụng đất bằng công cụ GIS và phần mềm phân tích không gian nhằm xác thực tính khả thi của phương án quy hoạch.",
+              "en": "Monitor and evaluate land-use allocation and forecasting models using GIS and spatial analysis tools to verify the feasibility of planning scenarios."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248276,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248285,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Xây dựng phương án quy hoạch sử dụng đất.",
+        "en": "Developing land-use planning scenarios."
+      }
+    },
+    {
+      "id": 113585,
+      "stt": 10,
+      "buoi": "10; Chủ đề 10",
+      "chuandaurachitiet": [
+        {
+          "id": 151126,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu chỉ số đánh giá hiệu quả quy hoạch.\n\n",
+            "en": "Introduce spatial evaluation indicators.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "So sánh và đánh giá các phương án.\n",
+            "en": "Compare and evaluate scenarios."
+          },
+          "chuandaura": {
+            "id": 243162,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm soát và đánh giá các mô hình dự báo và phân bổ sử dụng đất bằng công cụ GIS và phần mềm phân tích không gian nhằm xác thực tính khả thi của phương án quy hoạch.",
+              "en": "Monitor and evaluate land-use allocation and forecasting models using GIS and spatial analysis tools to verify the feasibility of planning scenarios."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248284,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248283,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá tác động không gian của phương án quy hoạch.",
+        "en": "Spatial impact assessment of planning options."
+      }
+    },
+    {
+      "id": 113586,
+      "stt": 11,
+      "buoi": "11; Chủ đề 11",
+      "chuandaurachitiet": [
+        {
+          "id": 151119,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày nguyên lý tối ưu hóa.\n\n",
+            "en": "Explain optimization principles.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành phân bổ đất theo mục tiêu.\n",
+            "en": "Allocate land based on objectives."
+          },
+          "chuandaura": {
+            "id": 243162,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm soát và đánh giá các mô hình dự báo và phân bổ sử dụng đất bằng công cụ GIS và phần mềm phân tích không gian nhằm xác thực tính khả thi của phương án quy hoạch.",
+              "en": "Monitor and evaluate land-use allocation and forecasting models using GIS and spatial analysis tools to verify the feasibility of planning scenarios."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248267,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248275,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tối ưu hóa sử dụng đất bằng mô hình không gian.",
+        "en": "Spatial optimization for land allocation."
+      }
+    },
+    {
+      "id": 113587,
+      "stt": 12,
+      "buoi": "12; Chủ đề 12",
+      "chuandaurachitiet": [
+        {
+          "id": 151128,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Minh họa phân tích tích hợp đa nguồn dữ liệu.\n\n",
+            "en": "Demonstrate multi-source integration.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích tác động KTXH đến phương án quy hoạch.\n",
+            "en": "Analyze socio-economic impacts."
+          },
+          "chuandaura": {
+            "id": 243160,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích và tích hợp các mô hình GIS và phân tích đa tiêu chí nhằm đánh giá mức độ thích nghi đất đai và đề xuất phương án quy hoạch sử dụng đất tối ưu.",
+              "en": "Analyze and Integrate GIS-based and multi-criteria models to assess land suitability and propose optimized land-use planning alternatives."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248268,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248269,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tích hợp dữ liệu kinh tế – xã hội vào quy hoạch đất.",
+        "en": "Integrating socio-economic data into land-use planning."
+      }
+    },
+    {
+      "id": 113591,
+      "stt": 13,
+      "buoi": "13; Chủ đề 13",
+      "chuandaurachitiet": [
+        {
+          "id": 151120,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn kiểm định độ chính xác.\n\n",
+            "en": "Guide accuracy assessment.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện kiểm định và hiệu chỉnh mô hình.\n",
+            "en": "Perform validation and refinement."
+          },
+          "chuandaura": {
+            "id": 243161,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Luận giải và biện minh các mô hình đánh giá đất và quy hoạch sử dụng đất dựa trên kiểm định độ chính xác, phân tích độ nhạy và so sánh kịch bản, từ đó đề xuất cải tiến phương án.",
+              "en": "Explain and Justify of land evaluation and land-use planning models using accuracy assessment, sensitivity analysis, and scenario comparison, and propose methodological improvements."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248270,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91416,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual written assignments"
+                }
+              }
+            },
+            {
+              "id": 248271,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá độ tin cậy và kiểm định mô hình.",
+        "en": "Model validation and reliability assessment."
+      }
+    },
+    {
+      "id": 113592,
+      "stt": 14,
+      "buoi": "14; Chủ đề 14",
+      "chuandaurachitiet": [
+        {
+          "id": 151129,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn trình bày bản đồ chuyên đề.\n\n",
+            "en": "Guide thematic map design.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện sản phẩm đồ án.\n",
+            "en": "Finalize project outputs."
+          },
+          "chuandaura": {
+            "id": 243162,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm soát và đánh giá các mô hình dự báo và phân bổ sử dụng đất bằng công cụ GIS và phần mềm phân tích không gian nhằm xác thực tính khả thi của phương án quy hoạch.",
+              "en": "Monitor and evaluate land-use allocation and forecasting models using GIS and spatial analysis tools to verify the feasibility of planning scenarios."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248278,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91417,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+                  "en": "Land Suitability Analysis using FAO Framework"
+                }
+              }
+            },
+            {
+              "id": 248277,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Xây dựng bản đồ quy hoạch và báo cáo kỹ thuật.",
+        "en": "Preparation of planning maps and technical report."
+      }
+    },
+    {
+      "id": 113581,
+      "stt": 15,
+      "buoi": "15; Đồ án",
+      "chuandaurachitiet": [
+        {
+          "id": 151121,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Phản biện và tổng kết học phần.\n\n",
+            "en": "Provide feedback and course wrap-up.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày mô hình, bản đồ và đề xuất quy hoạch.\n",
+            "en": "Present model, maps, and planning proposals."
+          },
+          "chuandaura": {
+            "id": 243162,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm soát và đánh giá các mô hình dự báo và phân bổ sử dụng đất bằng công cụ GIS và phần mềm phân tích không gian nhằm xác thực tính khả thi của phương án quy hoạch.",
+              "en": "Monitor and evaluate land-use allocation and forecasting models using GIS and spatial analysis tools to verify the feasibility of planning scenarios."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 248282,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91419,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+                  "en": "GIS-based Land Use Planning Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trình bày và bảo vệ đồ án quy hoạch sử dụng đất.",
+        "en": "Final presentation and defense."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 243160,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phân tích và tích hợp các mô hình GIS và phân tích đa tiêu chí nhằm đánh giá mức độ thích nghi đất đai và đề xuất phương án quy hoạch sử dụng đất tối ưu.",
+      "ten_en": "Analyze and Integrate GIS-based and multi-criteria models to assess land suitability and propose optimized land-use planning alternatives.",
+      "hddg": [
+        {
+          "id": 91416,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual written assignments"
+        },
+        {
+          "id": 91417,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+          "ten_en": "Land Suitability Analysis using FAO Framework"
+        },
+        {
+          "id": 91418,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+          "ten_en": "Critical Review of Land Evaluation Models"
+        },
+        {
+          "id": 91419,
+          "ma": "A.O.4",
+          "ten_vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+          "ten_en": "GIS-based Land Use Planning Project"
+        }
+      ]
+    },
+    {
+      "id": 243161,
+      "ma": "L.O.2.1",
+      "ten_vi": "Luận giải và biện minh các mô hình đánh giá đất và quy hoạch sử dụng đất dựa trên kiểm định độ chính xác, phân tích độ nhạy và so sánh kịch bản, từ đó đề xuất cải tiến phương án.",
+      "ten_en": "Explain and Justify of land evaluation and land-use planning models using accuracy assessment, sensitivity analysis, and scenario comparison, and propose methodological improvements.",
+      "hddg": [
+        {
+          "id": 91416,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual written assignments"
+        },
+        {
+          "id": 91417,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+          "ten_en": "Land Suitability Analysis using FAO Framework"
+        },
+        {
+          "id": 91418,
+          "ma": "A.O.3",
+          "ten_vi": "Tiểu luận giữa kỳ: Phân tích mô hình đánh giá đất trong thực tiễn",
+          "ten_en": "Critical Review of Land Evaluation Models"
+        },
+        {
+          "id": 91419,
+          "ma": "A.O.4",
+          "ten_vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+          "ten_en": "GIS-based Land Use Planning Project"
+        }
+      ]
+    },
+    {
+      "id": 243162,
+      "ma": "L.O.3.1",
+      "ten_vi": "Kiểm soát và đánh giá các mô hình dự báo và phân bổ sử dụng đất bằng công cụ GIS và phần mềm phân tích không gian nhằm xác thực tính khả thi của phương án quy hoạch.",
+      "ten_en": "Monitor and evaluate land-use allocation and forecasting models using GIS and spatial analysis tools to verify the feasibility of planning scenarios.",
+      "hddg": [
+        {
+          "id": 91416,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual written assignments"
+        },
+        {
+          "id": 91417,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành trên máy tính: Đánh giá thích nghi đất đai",
+          "ten_en": "Land Suitability Analysis using FAO Framework"
+        },
+        {
+          "id": 91419,
+          "ma": "A.O.4",
+          "ten_vi": "Đồ án cuối kỳ: Xây dựng phương án QHSDĐ dựa trên GIS",
+          "ten_en": "GIS-based Land Use Planning Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Ứng dụng GIS trong đánh giá đất và quy hoạch sử dụng đất",
+  "tenmonhoc_eng": "Application of GIS in Land evaluation and land use planning",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    },
+    {
+      "id": 4,
+      "ma": "pphtqnc",
+      "ten": {
+        "vi": "Phương pháp học tập qua nghiên cứu",
+        "en": "Research-based learning "
+      }
+    }
+  ]
+}

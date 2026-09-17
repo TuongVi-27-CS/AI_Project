@@ -1,0 +1,1512 @@
+{
+  "ma": "DCMH.EE4351.1.1",
+  "phienban": "1.1",
+  "capnhat": "30/01/2026 09:12",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE4351",
+  "ten": "EE4351 - Hệ thống giám sát, điều khiển và quản lý hệ thống điện",
+  "ten_eng": "EE4351 - Supervisory Control, Monitoring, and Management of Power Systems",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Mục đích của môn học là cung cấp cho sinh viên các hiểu biết về công tác giám sát, điều khiển và quản lý hệ thống điện. Nội dung môn học tập trung tìm hiểu các lớp điều khiển trong hệ thống điện bao gồm sơ đồ nhất thứ, sơ đồ nhị thứ, bảo vệ rơ-le, hệ thống SCADA và các bài toán điều khiển hệ thống điện cơ bản như điều khiển tần số, điều khiển điện áp và điều độ kinh tế. Song song với nội dung học lý thuyết, sinh viên được thực hành với các nội dung tương ứng.<br></p><p>-  Mục tiêu của môn học nhằm giới thiệu cho sinh viên kiến thức tổng quát về các thành phần giám sát và điều khiển trong hệ thống điện.<br>-  Sinh viên có thể nhận biết các dạng sơ đồ nhất thứ, nhị thứ và điều khiển trong hệ thống điện.<br>-  Sinh viên có thể tính toán bảo vệ rơ-le, lựa chọn thiết bị điện, tính toán điều độ kinh tế.<br><br></p>",
+      "en": "<p>The goal of this course is to provide students with a deep understanding of the background of monitoring, control systems, and management in power systems. The course content focuses on control layers in power systems, including primary and secondary diagrams, relay protection, SCADA systems, and key operational problems such as frequency control, voltage control, and economic dispatch. In addition, labs provide in-depth hands-on experience in operating power systems.</p><p>-  The goal of this course is to provide students with principles of monitoring and control in power systems.<br>-  Students are expected to identify primary, secondary and control diagrams in power systems.<br>-  Students are expected to calculate relay protection, select high-voltage equipment, and calculate economic dispatch.<br><br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Sinh viên có khả năng hiểu biết về các kiến thức sau:<br>•  Các sơ đồ của trạm biến áp và nhà máy điện<br>•  Nguyên tắc bảo vệ rơ-le trong hệ thống điện<br>•  Hệ thống điều khiển và giám sát (SCADA)<br>•  Nguyên tắc điều khiển tần số và điều khiển điện áp<br>•  Tính toán điều độ kinh tế<br><br></p>",
+      "en": "<p>Students will be able to demonstrate understanding of the following concepts:<br>•  Diagrams in substations and power plants<br>•  Principle of relay protection<br>•  Supervisory control and Data acquisition system (SCADA)<br>•  Principle of frequency control and voltage control<br>•  Economic dispatch<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Huỳnh Nhơn, Hồ Đắc Lộc, Trạm và Nhà máy điện, Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh,&nbsp;2007.<br></p><p>P. S. R. Murty, Operation and Control in Power Systems, 2nd Edition, (Reprint), 2019 CRC<br></p><p>Trần Quang Khánh, Vận hành hệ thống điện, NXB KH&amp;KT, 2009.<br></p><p>\n\n&nbsp;Đặng Tuấn Khanh, Thiết kế bảo vệ mạng điện phân phối có ứng dụng phần mềm ETAP, NXB ĐHQG&nbsp;TP.HCM, 2017<br></p><p>\n\nNguyễn Hoàng Việt,\n\nBảo Vệ Rơle và Tự Động Hóa Trong Hệ Thống Điện,&nbsp; NXB ĐHQG TP.HCM, 2012<br></p>",
+      "en": "<p>\n\n<p>Huỳnh Nhơn, Hồ Đắc Lộc, Trạm và Nhà máy điện, Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh, 2007.<br></p><p>P. S. R. Murty, Operation and Control in Power Systems, 2nd Edition, (Reprint), 2019 CRC<br></p><p>Trần Quang Khánh, Vận hành hệ thống điện, NXB KH&amp;KT, 2009.<br></p><p>\n\n&nbsp;Đặng Tuấn Khanh, Thiết kế bảo vệ mạng điện phân phối có ứng dụng phần mềm ETAP, NXB ĐHQG TP.HCM, 2017<br></p><p>\n\nNguyễn Hoàng Việt,\n\nBảo Vệ Rơle và Tự Động Hóa Trong Hệ Thống Điện,  NXB ĐHQG TP.HCM, 2012</p>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Bài giảng được giảng viên đưa lên LMS hoặc được cung cấp trực tiếp trước buổi học; sinh viên cần mang theo bài giảng khi học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học như sau:<br>•  Điểm thực hành (30%)<br>•  Kiểm tra giữa kỳ (20%) <br>•  Điểm thi cuối kỳ (50%)<br><br></p>",
+      "en": "<p>Lecture notes are uploaded to LMS or provided directly by the instructor before class hours; students should bring their lecture notes to class. The overall grade is evaluated throughout the study process as follows:<br>•  Labs (30%)<br>•  Midterm exam (20%)<br>•  Final exam (50%) <br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 7485,
+      "ma": "NG_7520402",
+      "ten": {
+        "vi": "Kỹ thuật hạt nhân",
+        "en": "Nuclear Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn EE4351 - Hệ thống giám sát, điều khiển và quản lý hệ thống điện"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.33,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 153,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 10,
+    "thiNghiem": 20,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 75,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 10,
+    "thiNghiem": 30,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 10,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1032,
+      "maBoMon": "HTD",
+      "tenBoMon": {
+        "vi": "Hệ Thống Điện"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "105B1, Bộ môn Hệ thống điện",
+      "dienThoai": "5730"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 565,
+        "maGiangVien": "003168",
+        "tenGiangVien": "NGUYỄN PHÚC KHẢI",
+        "emailGiangVien": "phuckhai@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.33_0.67_0",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE3391 - Hệ thống điện",
+        "en": "EE3391 - Electrical Power Systems"
+      },
+      "tenmonhoc_only": {
+        "vi": "Hệ thống điện",
+        "en": "Electrical Power Systems"
+      },
+      "mamonhoc": "EE3391"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 73146,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 73147,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "73146",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Câu hỏi trắc nghiệm ",
+        "en": "Quiz"
+      },
+      "noidung": {
+        "vi": "Thực hiện các câu hỏi trắc nghiệm qua LMS",
+        "en": "Do quiz through LMS"
+      }
+    },
+    {
+      "id": 73148,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "73146",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập cá nhân về nhà",
+        "en": "Individual homework"
+      },
+      "noidung": {
+        "vi": "Thực hiện các bài tập và nộp qua LMS",
+        "en": "Do homework and submit through LMS"
+      }
+    },
+    {
+      "id": 73149,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "73146",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Test"
+      },
+      "noidung": {
+        "vi": "Thực hiện bài kiểm tra giữa kỳ tập trung",
+        "en": "Conduct the midterm exam in a centralized manner"
+      }
+    },
+    {
+      "id": 73150,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "73146",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá bài thực hành ",
+        "en": "Evaluation of labs"
+      },
+      "noidung": {
+        "vi": "Thực hiện bài thực hành tại lớp và báo cáo theo nhóm",
+        "en": "Do experiments at class and report in group"
+      }
+    },
+    {
+      "id": 73151,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "73146",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thực hiện bài kiểm tra cuối kỳ tập trung",
+        "en": "Conduct the final exam in a centralized manner"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 88064,
+      "stt": 2,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 112998,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng ",
+            "en": "Present course material"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to lectures"
+          },
+          "chuandaura": {
+            "id": 185249,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hiểu biết về các khái niệm về cấu trúc của nhà máy điện và trạm biến áp ",
+              "en": "Understanding definition about structures of substations and power plants"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179400,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 179417,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73149,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Khái niệm cơ bản về nhà máy điện, trạm biến áp \n1.1 Các dạng nhà máy điện\n1.2 Các dạng trạm biến áp\n1.3 Các chế độ làm việc trong hệ thống điện\n",
+        "en": "Chapter 1: Introduction to substations and power plants\n1.1 Types of power plants\n1.2 Types of subsations\n1.3 Working nodes in power systems\n"
+      }
+    },
+    {
+      "id": 88065,
+      "stt": 3,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 112997,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Present the course material"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to lectures"
+          },
+          "chuandaura": {
+            "id": 185250,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Hiểu về các sơ đồ, thiết bị trong nhà máy điện và trạm biến áp",
+              "en": "Understanding the popular equipments and diagrams used in substations and power plants"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179406,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 179423,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73149,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Các phần tử trong trạm và nhà máy điện\n2.1 Máy biến áp \n2.2 Máy phát điện\n2.3 Dây dẫn, thanh dẫn, cáp điện lực\n2.4 Khí cụ điện cao áp\n2.5 Vật liệu cách điện\nBài tập\n",
+        "en": "Chapter 2: Elements in substations and power plants\n2.1 Power transformer\n2.2 Generators\n2.3 Wires, busbars, cables\n2.4 High-voltage devices\n2.5 Isolators\nExercises\n"
+      }
+    },
+    {
+      "id": 88062,
+      "stt": 4,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 112988,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng, lab",
+            "en": "Lectures, lab"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, lab, bài tập về nhà ",
+            "en": "Lectures, lab, assignments"
+          },
+          "chuandaura": {
+            "id": 185250,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Hiểu về các sơ đồ, thiết bị trong nhà máy điện và trạm biến áp",
+              "en": "Understanding the popular equipments and diagrams used in substations and power plants"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179401,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 179407,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73149,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Các sơ đồ trong trạm và nhà máy điện\n3.1 Sơ đồ nhất thứ\n3.2 Thiết bị đo lường \n3.3 Sơ đồ mạch đo và điều khiển\n",
+        "en": "Chapter 3: Diagrams in substations and power plants\n3.1 Primary diagrams\n3.2 Measured devices\n3.3 Measurement and Control diagrams\n"
+      }
+    },
+    {
+      "id": 88066,
+      "stt": 5,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 112993,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Lectures, lab"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, lab, bài tập về nhà ",
+            "en": "Lectures, lab, assignments"
+          },
+          "chuandaura": {
+            "id": 185252,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Hiểu được các chức năng bảo vệ trong hệ thống điện",
+              "en": "Understanding protection functions in power systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179408,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            },
+            {
+              "id": 179409,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 73149,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Các chế độ làm việc của điểm trung tính\n4.1 Trung tính nối đất trực tiếp\n4.2 Trung tính nối đất gián tiếp\n4.3 Trung tính cách ly\n4.4 Tạo trung tính giả\n",
+        "en": "Chapter 4: Working modes of neutral point\n4.1 Solidly grounded neutral\n4.2 Impedance grounded neutral\n4.3 Isolated Neutral\n4.4 Corner Grounded Delta\n"
+      }
+    },
+    {
+      "id": 88063,
+      "stt": 6,
+      "buoi": "5,6",
+      "chuandaurachitiet": [
+        {
+          "id": 112994,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng, lab ",
+            "en": "Lectures, lab"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, lab, bài tập về nhà ",
+            "en": "Lectures, lab, assignments"
+          },
+          "chuandaura": {
+            "id": 185253,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thiết kế các sơ đồ, ngữ cảnh bảo vệ thiết bị trong nhà máy điện và trạm biến áp",
+              "en": "Design protection diagrams, senerios for protecting equipment in substation and power plants"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179410,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73149,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 179403,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73150,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá bài thực hành ",
+                  "en": "Evaluation of labs"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Các chức năng bảo vệ \n5.1 Nguyên tắc chỉnh định bảo vệ quá dòng điện\n5.2 Nguyên tắc bảo vệ sự cố chạm đất\n5.3 Nguyên tắc bảo vệ dòng điện có hướng\n5.4 Nguyên tắc bảo vệ khoảng cách\n5.5 Máy cắt tự đóng lại\n5.6 Nguyên tắc bảo vệ so lệch\nBài tập\n",
+        "en": "Chapter 5: Protection functions\n5.1Principles of overcurrent protection \n5.2 Principles of ground fault protection\n5.3 Principles of direction protection\n5.4 Principles of distance protection\n5.5 Recloser\n5.6 Principles of differential protection\nExercises\n"
+      }
+    },
+    {
+      "id": 88067,
+      "stt": 7,
+      "buoi": "7,8",
+      "chuandaurachitiet": [
+        {
+          "id": 112989,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng, lab ",
+            "en": "Lectures, lab"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, lab, bài tập về nhà ",
+            "en": "Lectures, lab, assignments"
+          },
+          "chuandaura": {
+            "id": 185253,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thiết kế các sơ đồ, ngữ cảnh bảo vệ thiết bị trong nhà máy điện và trạm biến áp",
+              "en": "Design protection diagrams, senerios for protecting equipment in substation and power plants"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179419,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73150,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá bài thực hành ",
+                  "en": "Evaluation of labs"
+                }
+              }
+            },
+            {
+              "id": 179411,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73151,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Sơ đồ bảo vệ các phần tử trong hệ thống điện\n6.1 Bảo vệ máy biến áp\n6.2 Bảo vệ máy phát điện\n6.3 Bảo vệ thanh góp\n6.4 Bảo vệ đường dây\nBài tập\n",
+        "en": "Chapter 6: Protection diagrams for components in power systems\n6.1 Transformer protection\n6.2 Generator protection \n6.3 Busway protection\n6.4 Line protection\nExercises\n"
+      }
+    },
+    {
+      "id": 88068,
+      "stt": 8,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 112992,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng ",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, Đọc thêm tài liệu ở nhà, bài tập về nhà ",
+            "en": "Lectures, references, lab, assignments"
+          },
+          "chuandaura": {
+            "id": 185258,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu các tài liệu về một hệ thống SCADA",
+              "en": "Understanding related documents about a SCADA system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179404,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 179412,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73151,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: SCADA\n7.1 Khái niệm SCADA\n7.2 Cấu trúc hệ thống điều khiển trung tâm\n7.3 Thiết bị đầu cuối\n7.4 Mạng truyền thông\n",
+        "en": "Chapter 7: SCADA\n7.1 Foundamentals of SCADA\n7.2 Structure of central control system\n7.3 Remote terminal unit\n7.4 Communication network\n"
+      }
+    },
+    {
+      "id": 88075,
+      "stt": 9,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 112995,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng ",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, bài tập về nhà ",
+            "en": "Lectures, assignments"
+          },
+          "chuandaura": {
+            "id": 185258,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Hiểu các tài liệu về một hệ thống SCADA",
+              "en": "Understanding related documents about a SCADA system"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179413,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 179420,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73151,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8: Các giao thức phổ biến\n8.1 Modbus\n8.2 IEC 60870-5-104\n8.3 IEC 61850\n8.4 Các giao thức không dây\n",
+        "en": "Chapter 8: Popular communication protocols\n 8.1 Modbus\n 8.2 IEC 60870-5-104\n8.3 IEC 61850\n8.4 Wireless protocols\n"
+      }
+    },
+    {
+      "id": 88072,
+      "stt": 10,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 112996,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng, lab ",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, đọc thêm tài liệu ",
+            "en": "Lectures, references"
+          },
+          "chuandaura": {
+            "id": 185259,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Sử dụng một phần mềm SCADA cho trạm biến áp và nhà máy điện",
+              "en": "Using SCADA software for substations and power plants."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179405,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73150,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá bài thực hành ",
+                  "en": "Evaluation of labs"
+                }
+              }
+            },
+            {
+              "id": 179402,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73151,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9: Phần mềm SCADA\n9.1 Giao diện người – máy (HMI)\n9.2 Khai báo biến\n9.3 Khai thác các chức năng phần mềm SCADA\n9.4 Lập trình các chức năng \n",
+        "en": "Chapter 9: SCADA software\n9.1 Human–Machine interface\n9.2 Variable declaration\n9.3 Utilizing the functions of SCADA software\n9.4 Programming functions\n"
+      }
+    },
+    {
+      "id": 88069,
+      "stt": 11,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 112990,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng ",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, bài tập về nhà ",
+            "en": "Lectures, assignments"
+          },
+          "chuandaura": {
+            "id": 185255,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Hiểu được các nguyên tắt vận hành cơ bản của hệ thống điện về điều khiển tần số và điều khiển điện áp",
+              "en": "Understand operational principles of power systems about frequency and voltage control"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179418,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            },
+            {
+              "id": 179414,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73151,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10: Điều khiển tần số\n10.1 Khái niệm điều khiển tần số\n10.2 Điều khiển tần số sơ cấp\n10.3 Điều khiển tần số thứ cấp\n",
+        "en": "Chapter 10: Frequency control\n10.1 Foundamentals of frequency control\n10.2 Primary frequency control\n10.3 Secondary frequency control\n"
+      }
+    },
+    {
+      "id": 88076,
+      "stt": 12,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 112999,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng ",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, bài tập về nhà ",
+            "en": "Lectures, assignments"
+          },
+          "chuandaura": {
+            "id": 185255,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Hiểu được các nguyên tắt vận hành cơ bản của hệ thống điện về điều khiển tần số và điều khiển điện áp",
+              "en": "Understand operational principles of power systems about frequency and voltage control"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179421,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            },
+            {
+              "id": 179415,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73151,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 11: Điều khiển điện áp\n11.1 Khái niệm điều khiển điện áp\n11.2 Điều khiển kích từ máy phát điện\n11.3 Điều khiển nấc máy biến áp\n11.4 Điều khiển tụ bù điện\n11.5 Các thiết bị bù điều khiển bằng điện tử công suất\n",
+        "en": "Chapter 11: Voltage control\n11.1 Foundamentals of voltage control\n11.2 Generator excitation control\n11.3 Transformer load tap changer\n11.4 Capacitors\n11.5 Capacitive devices by power electronics\n"
+      }
+    },
+    {
+      "id": 88077,
+      "stt": 13,
+      "buoi": "14,15",
+      "chuandaurachitiet": [
+        {
+          "id": 112991,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng ",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, bài tập về nhà ",
+            "en": "Lectures, assignments"
+          },
+          "chuandaura": {
+            "id": 185256,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Tính toán các bài toán điều độ kinh tế cơ bản trong hệ thống điện",
+              "en": "Calculating basic economic dispatch problems in power systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 179416,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 73148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân về nhà",
+                  "en": "Individual homework"
+                }
+              }
+            },
+            {
+              "id": 179422,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 73151,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12: Điều độ kinh tế\n12.1 Khái niệm điều độ kinh tế\n12.2 Đặc tuyến chi phí của tổ máy phát\n12.3 Hàm mục tiêu điều độ kinh tế\n12.4 Các điều kiện ràng buộc\n12.5 Phương pháp giải bài toán điều độ kinh tế\nBài tập\n",
+        "en": "Chapter 12: Economic dispatch\n12.1 Foundamental of economic dispatch problems\n12.2 Fuel cost functions of generating units\n12.3 Objective functions\n12.4 Operation constraints\n12.5 Methodology for economic dispatch\nExercises\n"
+      }
+    },
+    {
+      "id": 88073,
+      "stt": 14,
+      "buoi": "TH1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Bài thực hành số 1: Vận hành tổ máy phát điện",
+        "en": "Experiment 1: Operation a generator"
+      }
+    },
+    {
+      "id": 88074,
+      "stt": 15,
+      "buoi": "TH2",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Bài thực hành số 2: Chỉnh định rơ-le bảo vệ quá dòng",
+        "en": "Experiment 2: Setting overcurrent relay"
+      }
+    },
+    {
+      "id": 88070,
+      "stt": 16,
+      "buoi": "TH3",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Bài thực hành 3: Phối hợp các chức năng bảo vệ bằng phần mềm ETAP",
+        "en": "Experiment 3: Coordinating protection functions using ETAP software"
+      }
+    },
+    {
+      "id": 88071,
+      "stt": 17,
+      "buoi": "TH4",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Bài thực hành 4: Tìm hiểu phần mềm SCADA Survalent",
+        "en": "Experiment 4: Understanding Survalent SCADA Software"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 185249,
+      "ma": "L.O.1.1",
+      "ten_vi": "Hiểu biết về các khái niệm về cấu trúc của nhà máy điện và trạm biến áp ",
+      "ten_en": "Understanding definition about structures of substations and power plants",
+      "hddg": [
+        {
+          "id": 73147,
+          "ma": "A.O.1",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 73149,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Test"
+        }
+      ]
+    },
+    {
+      "id": 185250,
+      "ma": "L.O.1.2",
+      "ten_vi": "Hiểu về các sơ đồ, thiết bị trong nhà máy điện và trạm biến áp",
+      "ten_en": "Understanding the popular equipments and diagrams used in substations and power plants",
+      "hddg": [
+        {
+          "id": 73147,
+          "ma": "A.O.1",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 73149,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Test"
+        }
+      ]
+    },
+    {
+      "id": 185252,
+      "ma": "L.O.2.1",
+      "ten_vi": "Hiểu được các chức năng bảo vệ trong hệ thống điện",
+      "ten_en": "Understanding protection functions in power systems",
+      "hddg": [
+        {
+          "id": 73148,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        },
+        {
+          "id": 73149,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Test"
+        }
+      ]
+    },
+    {
+      "id": 185253,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thiết kế các sơ đồ, ngữ cảnh bảo vệ thiết bị trong nhà máy điện và trạm biến áp",
+      "ten_en": "Design protection diagrams, senerios for protecting equipment in substation and power plants",
+      "hddg": [
+        {
+          "id": 73149,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Test"
+        },
+        {
+          "id": 73150,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá bài thực hành ",
+          "ten_en": "Evaluation of labs"
+        },
+        {
+          "id": 73151,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 185255,
+      "ma": "L.O.3.1",
+      "ten_vi": "Hiểu được các nguyên tắt vận hành cơ bản của hệ thống điện về điều khiển tần số và điều khiển điện áp",
+      "ten_en": "Understand operational principles of power systems about frequency and voltage control",
+      "hddg": [
+        {
+          "id": 73148,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        },
+        {
+          "id": 73151,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 185256,
+      "ma": "L.O.3.2",
+      "ten_vi": "Tính toán các bài toán điều độ kinh tế cơ bản trong hệ thống điện",
+      "ten_en": "Calculating basic economic dispatch problems in power systems",
+      "hddg": [
+        {
+          "id": 73148,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân về nhà",
+          "ten_en": "Individual homework"
+        },
+        {
+          "id": 73151,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 185258,
+      "ma": "L.O.4.1",
+      "ten_vi": "Hiểu các tài liệu về một hệ thống SCADA",
+      "ten_en": "Understanding related documents about a SCADA system",
+      "hddg": [
+        {
+          "id": 73147,
+          "ma": "A.O.1",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 73151,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 185259,
+      "ma": "L.O.4.2",
+      "ten_vi": "Sử dụng một phần mềm SCADA cho trạm biến áp và nhà máy điện",
+      "ten_en": "Using SCADA software for substations and power plants.",
+      "hddg": [
+        {
+          "id": 73150,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá bài thực hành ",
+          "ten_en": "Evaluation of labs"
+        },
+        {
+          "id": 73151,
+          "ma": "A.O.5",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Hệ thống giám sát, điều khiển và quản lý hệ thống điện",
+  "tenmonhoc_eng": "Supervisory Control, Monitoring, and Management of Power Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    }
+  ]
+}

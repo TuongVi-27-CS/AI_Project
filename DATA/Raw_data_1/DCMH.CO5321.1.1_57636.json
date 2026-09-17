@@ -1,0 +1,2076 @@
+{
+  "ma": "DCMH.CO5321.1.1",
+  "phienban": "1.1",
+  "capnhat": "11/09/2026 16:08",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO5321",
+  "ten": "CO5321 - Tính toán lượng tử\r\n",
+  "ten_eng": "CO5321 - Quantum computing",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Tính Toán Lượng Tử là môn học bao quát từ cơ bản đến nâng cao, tập trung vào các nguyên lý tính toán lượng tử, kiến trúc và vận hành của hệ thống máy tính lượng tử hiện đại. Mục tiêu của môn học là giúp người học xây dựng nền tảng vững chắc và tiếp cận các khía cạnh chuyên sâu của lĩnh vực đang phát triển nhanh chóng này. Cụ thể, người học sẽ được trang bị:</p><ul><li>Kiến thức tổng quan về tính toán lượng tử so với tính toán cổ điển; cập nhật các công nghệ hiện đại dùng để xây dựng máy tính lượng tử.</li><li>Hiểu biết về lý thuyết thông tin lượng tử – nền tảng cho truyền và xử lý dữ liệu trong môi trường lượng tử.</li><li>Các nguyên lý cốt lõi trong tính toán lượng tử, cách thiết kế thuật toán lượng tử và ứng dụng theo các mô hình tính toán tương ứng.</li><li>Làm quen với các mô hình lập trình lượng tử phổ biến, các thuật toán tiêu biểu và tình huống ứng dụng thực tiễn trong các lĩnh vực như mật mã, tối ưu hóa, mô phỏng hoá lý thuyết phân tử.</li><li>Môn học còn đề cập các hướng nghiên cứu chuyên sâu về nhiễu lượng tử và cơ chế sửa lỗi, biên dịch và tối ưu hóa mạch lượng tử, cùng khả năng can thiệp và điều khiển ở cấp độ thấp trong hệ thống tính toán lượng tử.</li></ul><p><br></p>",
+      "en": "<p>Quantum Computing is a comprehensive course ranging from foundational to advanced topics, focusing on quantum computing principles, quantum computer architectures, and system-level designs. The course aims to equip learners with both theoretical foundations and practical insights into this rapidly evolving field. Specifically, students will gain the following:</p><ul><li>A comparative understanding of quantum versus classical computing, and an overview of state-of-the-art technologies used to build quantum computers.</li><li>Knowledge of quantum information theory as a foundation for quantum data processing and communication.</li><li>Core principles of quantum computing, including how to construct quantum algorithms and apply them using quantum computational models.</li><li>Familiarity with mainstream quantum programming frameworks, essential quantum algorithms, and real-world use cases across areas such as cryptography, optimization, and quantum simulation.</li><li>In-depth exploration of quantum noise and error correction, quantum circuit compilation and optimization, and low-level control and interfacing of quantum computing processes.</li></ul><p><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học cung cấp nền tảng cơ bản về Tính Toán Lượng Tử, bao gồm các khái niệm cốt lõi như bit lượng tử, hiện tượng rối hay vướng víu lượng tử, cũng như khái niệm cơ học lượng tử nền tảng ở góc nhìn của khoa học máy tính. Người học sẽ được làm quen với mạch lượng tử, các thuật toán cơ bản và các ứng dụng ban đầu trong lĩnh vực này. Bên cạnh đó, môn học còn giới thiệu lĩnh vực học máy lượng tử như một hướng nghiên cứu, hướng tiếp cận đầy tiềm năng, thông qua các nội dung như mã hóa dữ liệu lượng tử và mô hình tính toán lượng tử lai.</p><p>Ở cấp độ hệ thống, các kỹ thuật như biên dịch lượng tử, lập trình hệ thống và tối ưu hóa vận hành sẽ được đề cập nhằm giúp người học tiếp cận toàn diện chuỗi công nghệ lượng tử. Cuối cùng, môn học mở rộng với các chủ đề nâng cao và xu hướng phát triển tương lai của ngành tính toán lượng tử.<br><br></p>",
+      "en": "<p>This course provides a fundamental introduction to Quantum Computing, covering core concepts such as quantum bits, quantum entanglement, and essential quantum mechanics principles from a computer science perspective. Students will become familiar with quantum circuits, basic quantum algorithms, and initial applications in the field of quantum computing. In addition, the course introduces quantum machine learning as a promising direction, covering topics such as quantum data encoding and hybrid quantum-classical computational models.</p><p>At the system level, the course covers essential techniques such as quantum compilation, system-level programming, and operational optimization, providing learners with a comprehensive understanding of the quantum computing technology stack. Finally, the course extends to advanced topics and future trends in the field of quantum computing.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>Giáo trình:</b></p><p>[1]&nbsp;\"Quantum Computation and Quantum Information\",&nbsp;\nMichael A. Nielsen, Isaac L. Chuang, \n\n Cambridge University Press, 10th Anniversary Edition, 2010</p><p>[2] \"Quantum Computing for Everyone\",&nbsp;Chris Bernhardt, The MIT Press, Illustrated Edition,&nbsp;2019</p><p>[3]&nbsp;\"Machine Learning with Quantum Computers\", Maria Schuld, Francesco Petruccione,&nbsp;Second Edition, Springer, 2021</p><p>[4] \"Quantum Computer Systems: Research for Noisy Intermediate-Scale Quantum Computers\", Yongshan Ding, Frederic T. Chong,&nbsp;First Edition, Springer, 2020</p><p>[5] Lecture Notes on Quantum Computing, Minh T. Chung ,&nbsp;﻿Q-BEAST: Experimental Evaluation and Characterization of Quantum Computing Systems, in collaboration between Technical University of Munich (TUM), Ludwig-Maximilians-Universität München (LMU), and Leibniz-Rechenzentrum (LRZ):&nbsp;<a target=\"_blank\" rel=\"nofollow\" href=\"https://www.ce.cit.tum.de/en/caps/lehre/wintersemester-24-25/praktika/praktikum-experimental-evaluation-and-characterization-of-quantum-computing-systems/\" title=\"Link: https://www.ce.cit.tum.de/en/caps/lehre/wintersemester-24-25/praktika/praktikum-experimental-evaluation-and-characterization-of-quantum-computing-systems/\">https://www.ce.cit.tum.de/en/caps/lehre/wintersemester-24-25/praktika/praktikum-experimental-evaluat...</a></p><p>[6] Introduction to Quantum Computing,&nbsp;﻿MNM-Team, Chair of Communication Systems and Systems Programming, Ludwig-Maximilians-Universität München (LMU)﻿:&nbsp;<a href=\"https://www.nm.ifi.lmu.de/teaching/Vorlesungen/2024ss/quantum-computing.html\" title=\"Link: https://www.nm.ifi.lmu.de/teaching/Vorlesungen/2024ss/quantum-computing.html\">https://www.nm.ifi.lmu.de/teaching/Vorlesungen/2024ss/quantum-computing.html</a>﻿</p><p>﻿[7]&nbsp;\"The potential of multidimensional photonic computing﻿\",&nbsp;﻿Ivonne Bente et al.,&nbsp;﻿Nature Reviews Physics﻿ 7, 439–450, 2025</p><p><b>﻿TLTK:</b>\n\n﻿</p><p>[8]&nbsp;\"Quantum Supremacy: How the Quantum Computer Revolution Will Change Everything﻿\",&nbsp;﻿Michio Kaku﻿,&nbsp;﻿First Edition,&nbsp;﻿Vintage, 2023</p><p>﻿[9] Thuật toán lượng tử:&nbsp;<a target=\"_blank\" rel=\"nofollow\" href=\"https://vi.wikipedia.org/wiki/Thu%E1%BA%ADt_to%C3%A1n_l%C6%B0%E1%BB%A3ng_t%E1%BB%AD\" title=\"Link: https://vi.wikipedia.org/wiki/Thu%E1%BA%ADt_to%C3%A1n_l%C6%B0%E1%BB%A3ng_t%E1%BB%AD\">https://vi.wikipedia.org/wiki/Thu%E1%BA%ADt_to%C3%A1n_l%C6%B0%E1%BB%A3ng_t%E1%BB%AD</a></p><br><br>",
+      "en": "<p><b>Textbooks:</b></p><p>[1] \"Quantum Computation and Quantum Information\", \nMichael A. Nielsen, Isaac L. Chuang, \n\n Cambridge University Press, 10th Anniversary Edition, 2010</p><p>[2] \"Quantum Computing for Everyone\", Chris Bernhardt, The MIT Press, Illustrated Edition, 2019</p><p>[3] \"Machine Learning with Quantum Computers\", Maria Schuld, Francesco Petruccione, Second Edition, Springer, 2021</p><p>[4] \"Quantum Computer Systems: Research for Noisy Intermediate-Scale Quantum Computers\", Yongshan Ding, Frederic T. Chong, First Edition, Springer, 2020</p><p>[5] Lecture Notes on Quantum Computing, Minh T. Chung , Q-BEAST: Experimental Evaluation and Characterization of Quantum Computing Systems, in collaboration between Technical University of Munich (TUM), Ludwig-Maximilians-Universität München (LMU), and Leibniz-Rechenzentrum (LRZ):\n\n<a target=\"_blank\" rel=\"nofollow\" href=\"https://www.ce.cit.tum.de/en/caps/lehre/wintersemester-24-25/praktika/praktikum-experimental-evaluation-and-characterization-of-quantum-computing-systems/\">https://www.ce.cit.tum.de/en/caps/lehre/wintersemester-24-25/praktika/praktikum-experimental-evaluat...</a></p><p>[6]&nbsp;Introduction to Quantum Computing, MNM-Team, Chair of Communication Systems and Systems Programming, Ludwig-Maximilians-Universität München (LMU):\n\n<a target=\"_blank\" rel=\"nofollow\" href=\"https://www.nm.ifi.lmu.de/teaching/Vorlesungen/2024ss/quantum-computing.html\" title=\"Link: https://www.nm.ifi.lmu.de/teaching/Vorlesungen/2024ss/quantum-computing.html\">https://www.nm.ifi.lmu.de/teaching/Vorlesungen/2024ss/quantum-computing.html</a></p><p>[7]&nbsp;\n\"The potential of multidimensional photonic computing\", Ivonne Bente et al., Nature Reviews Physics 7, 439–450, 2025\n\n</p><p><b>Reference Books:</b></p><p>[8]&nbsp;\n\"Quantum Supremacy: How the Quantum Computer Revolution Will Change Everything\", Michio Kaku, First Edition, Vintage, 2023</p><p>﻿﻿[9]&nbsp;﻿Quantum Computing:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Quantum_computing\">https://en.wikipedia.org/wiki/Quantum_computing</a>﻿</p><br>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Liêm chính học thuật và sử dụng công cụ AI</p><ul><li>Người học phải tuãn thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tâi liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul>",
+      "en": "<div>Academic Integrity and the Use of AI Tools</div><div><ul><li>Students must comply with the university’s academic integrity regulations.</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is only permitted for supportive purposes such as searching for materials, referencing ideas, checking grammar, or suggesting presentation methods. Students must not submit work that is entirely or largely generated by AI.</li><li>If AI is used during the completion of an assignment, students must clearly state the tool and how it was used in the references or notes section.</li><li>Any misuse of AI for cheating purposes will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</li></ul></div>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 4659,
+      "ma": "003726",
+      "ten": "DIỆP THANH ĐĂNG"
+    },
+    {
+      "id": 1214,
+      "ma": "001748",
+      "ten": "THOẠI NAM"
+    },
+    {
+      "id": 1216,
+      "ma": "002178",
+      "ten": "PHẠM TRẦN VŨ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 70,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 961,
+      "maBoMon": "GTI",
+      "tenBoMon": {
+        "vi": "Giáo Vụ Khoa Tin Học"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Bộ môn Hệ thống và Mạng Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 4659,
+        "maGiangVien": "003726",
+        "tenGiangVien": "DIỆP THANH ĐĂNG",
+        "emailGiangVien": "dang@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 97601,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 97602,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "97601",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Group Assignments"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Group Assignments"
+      }
+    },
+    {
+      "id": 97603,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "97601",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 121844,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 163010,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283578,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hệ thống hóa các khái niệm về bit lượng tử, chồng chập lượng tử, vướng víu lượng tử",
+              "en": "Codify the basic concepts of qubit, quantum superposition, quantum entanglement"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269110,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269111,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163024,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283587,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Khái quát hóa các xu hướng hiện tại của Tính Toán Lượng Tử",
+              "en": "Generalize the current trends of Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269097,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269114,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu\n1. Tổng quan\n2. Giới thiệu bit lượng tử (qubit)\n3. Giới thiệu thông tin và tính toán lượng tử\n4. Vướng víu lượng tử\nĐọc thêm: Tài liệu [1], [2]",
+        "en": "Chapter 1: Introduction\n1. Global perspectives\n2. Introduction to qubits\n3. Introduction to quantum computation and information\n4. Quantum entanglement\nFurther reading: Refs. [1], [2]"
+      }
+    },
+    {
+      "id": 121845,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 163020,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283578,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hệ thống hóa các khái niệm về bit lượng tử, chồng chập lượng tử, vướng víu lượng tử",
+              "en": "Codify the basic concepts of qubit, quantum superposition, quantum entanglement"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269085,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269086,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163012,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283579,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Hệ thống hóa khái niệm cơ bản của cơ học lượng tử",
+              "en": "Codify the basic concepts of quantum mechanics"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269102,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269087,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Cơ học lượng tử\n1. Đại số tuyến tính\n2. Các tiên đề của cơ học lượng tử\n3. Các mô hình tính toán lượng tử so với cổ điển\n4. Độ phức tạp tính toán\nĐọc thêm: Tài liệu [1], [2]",
+        "en": "Chapter 2: Quantum Mechanics\n1. Linear Algebra\n2. Postulates of quantum mechanics\n3. Classical vs. quantum computation models\n4. Complexity\nFurther reading: Refs. [1], [2]"
+      }
+    },
+    {
+      "id": 121849,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 163028,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283578,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hệ thống hóa các khái niệm về bit lượng tử, chồng chập lượng tử, vướng víu lượng tử",
+              "en": "Codify the basic concepts of qubit, quantum superposition, quantum entanglement"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269088,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269065,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163031,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283580,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Hệ thống hóa khái niệm cơ bản của mạch lượng tử",
+              "en": "Codify the basic concepts of quantum circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269089,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269081,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163015,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283581,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Khái quát hóa các giải thuật phổ biến trong Tính Toán Lượng Tử",
+              "en": "Generalize popular algorithms in Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269107,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269090,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Mạch lượng tử\n1. Bit vs. Qubit\n2. Giới thiệu giải thuật lượng tử\n3. Các tác vụ đơn qubit\n4. Các tác vụ qubit điều khiển\n5. Các cổng lượng tử phổ quát\nĐọc thêm: Tài liệu [1], [2], [4]",
+        "en": "Chapter 3. Quantum Circuits\n1. Bits vs. Qubits\n2. Introduction to quantum algorithms\n3. Single qubit operations\n4. Controlled qubit operations\n5. Universal quantum gates\nFurther reading: Refs. [1], [2], [4]"
+      }
+    },
+    {
+      "id": 121847,
+      "stt": 4,
+      "buoi": "4, 5",
+      "chuandaurachitiet": [
+        {
+          "id": 163025,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283581,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Khái quát hóa các giải thuật phổ biến trong Tính Toán Lượng Tử",
+              "en": "Generalize popular algorithms in Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269113,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269094,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163026,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283582,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Khái quát hóa các ứng dụng phổ biến trong Tính Toán Lượng Tử",
+              "en": "Generalize popular applications in Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269095,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269099,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163027,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283584,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tích hợp giải thuật Tính Toán lượng tử cơ bản vào ứng dụng",
+              "en": "Integrate basic quantum computing algorithms into applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269075,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269082,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163032,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283586,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Phát triển ứng dụng Tính Toán Lượng tử cơ bản",
+              "en": "Develop basic Quantum Computing applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269103,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269066,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Giải thuật lượng tử và thiết kế ứng dụng\n1. Tóm tắt về mạch lượng tử và mô hình tính toán\n2. Giải thuật lượng tử dựa trên cổng\n3. Giải thuật lượng tử NISQ: VQE, QAOA\nĐọc thêm: Tài liệu [1], [4]",
+        "en": "Chapter 4. Quantum Algorithms and Application Designs\n1. Summary of quantum circuit and computation model\n2. Gate-based quantum algorithms\n3. NISQ quantum algorithms: VQE, QAOA\nFurther reading: Refs. [1], [4]"
+      }
+    },
+    {
+      "id": 121846,
+      "stt": 5,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 163021,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283581,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Khái quát hóa các giải thuật phổ biến trong Tính Toán Lượng Tử",
+              "en": "Generalize popular algorithms in Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269069,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269104,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163022,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283582,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Khái quát hóa các ứng dụng phổ biến trong Tính Toán Lượng Tử",
+              "en": "Generalize popular applications in Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269078,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269091,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163011,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283584,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tích hợp giải thuật Tính Toán lượng tử cơ bản vào ứng dụng",
+              "en": "Integrate basic quantum computing algorithms into applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269079,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269108,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163030,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283586,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Phát triển ứng dụng Tính Toán Lượng tử cơ bản",
+              "en": "Develop basic Quantum Computing applications"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269067,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269116,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Học máy lượng tử\n1. Mã hóa dữ liệu lượng tử\n2. Giải thuật lai\n3. Quy trình thực thi lai\nĐọc thêm: Tài liệu [3]",
+        "en": "Chapter 5. Quantum Machine Learning\n1. Quantum encoding\n2. Hybrid algorithm\n3. Hybrid execution workflow\nFurther reading: Ref. [3]"
+      }
+    },
+    {
+      "id": 121852,
+      "stt": 6,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 163013,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283578,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hệ thống hóa các khái niệm về bit lượng tử, chồng chập lượng tử, vướng víu lượng tử",
+              "en": "Codify the basic concepts of qubit, quantum superposition, quantum entanglement"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269109,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269115,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163016,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283583,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Khái quát hóa các hệ thống phổ biến trong Tính Toán Lượng Tử",
+              "en": "Generalize popular systems in Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269080,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269112,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163033,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283585,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thiết kế hệ thống Tính Toán Lượng tử cơ bản",
+              "en": "Design basic Quantum Computing systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269083,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269084,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Hệ thống máy tính lượng tử & Ngôn ngữ lập trình\n1. Hệ thống lượng tử có nhiễu\n2. Công nghệ qubit\n3. Ngôn ngữ lập trình lượng tử: cấp thấp, cấp cao\nĐọc thêm: Tài liệu [4]",
+        "en": "Chapter 6. Quantum Computer Systems & Programming Languages\n1. Noisy quantum systems\n2. Qubit technologies\n3. Quantum programming languages: low-level, high-level\nFurther reading: Ref. [4]"
+      }
+    },
+    {
+      "id": 121848,
+      "stt": 7,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 163034,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283580,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Hệ thống hóa khái niệm cơ bản của mạch lượng tử",
+              "en": "Codify the basic concepts of quantum circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269092,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269093,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163017,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283583,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Khái quát hóa các hệ thống phổ biến trong Tính Toán Lượng Tử",
+              "en": "Generalize popular systems in Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269076,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269068,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163029,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283585,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thiết kế hệ thống Tính Toán Lượng tử cơ bản",
+              "en": "Design basic Quantum Computing systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269098,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269071,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Tổng hợp và biên dịch mạch lượng tử\n1. Tổng hợp mạch lượng tử\n2. Tối ưu trình biên dịch lượng tử so với cổ điển\n3. Lập lịch cổng và song song hóa\n4. Ánh xạ và tái sử dụng qubit\nĐọc thêm: Tài liệu [4]",
+        "en": "Chapter 7. Circuit Synthesis and Compilation\n1. Synthesizing quantum circuits\n2. Classical vs. quantum compiler optimization\n3. Gate scheduling and parallelism\n4. Qubit mapping and reuse\nFurther reading: Ref. [4]"
+      }
+    },
+    {
+      "id": 121851,
+      "stt": 8,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 163035,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283587,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Khái quát hóa các xu hướng hiện tại của Tính Toán Lượng Tử",
+              "en": "Generalize the current trends of Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269101,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269072,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163023,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283588,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phản biện các xu hướng hiện tại của Tính Toán Lượng Tử",
+              "en": "Critique the current trends of Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269096,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269070,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. Các chủ đề nâng cao trong Tính Toán Lượng Tử\n1. Đặc trưng hóa nhiễu thực tế\n2. Các chiến lược giảm nhiễu\n3. Sửa lỗi lượng tử\n4. Mạng ten-xơ\n5. Quy trình lai HPCQC và các trường hợp ứng dụng\nĐọc thêm: Tài liệu [2], [5]",
+        "en": "Chapter 8. Advanced Topics in Quantum Computing\n1. Characterizing realistic noise\n2. Noise mitigation strategies\n3. Quantum error correction\n4. Tensor networks\n5. Hybrid HPCQC workflow and use-cases'\nFurther reading: Refs. [2], [5]"
+      }
+    },
+    {
+      "id": 121850,
+      "stt": 9,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 163018,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283587,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Khái quát hóa các xu hướng hiện tại của Tính Toán Lượng Tử",
+              "en": "Generalize the current trends of Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269073,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269077,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163019,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283588,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phản biện các xu hướng hiện tại của Tính Toán Lượng Tử",
+              "en": "Critique the current trends of Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269100,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269105,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 163014,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận",
+            "en": "Discuss"
+          },
+          "chuandaura": {
+            "id": 283589,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Hoạch định xu hướng của Tính Toán Lượng Tử",
+              "en": "Forecast the trends of Quantum Computing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 269074,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Assignments"
+                }
+              }
+            },
+            {
+              "id": 269106,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chapter 9: Tính toán trong tương lai & Ôn tập\n1. Tính toán trong tương lai, ví dụ: tính toán quang, tính toán lượng tử phân tán, tính toán thần kinh (neuromorphic), v.v.\n2. Ôn tập\nĐọc thêm: Tài liệu [6], [7]",
+        "en": "Chapter 9: Future Computing & Review\n1. Future computing, e.g. photonic computing, distributed quantum computing, neuromorphic computing, etc.\n2. Review\nFurther reading: Refs. [6], [7]"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 283578,
+      "ma": "L.O.1.1",
+      "ten_vi": "Hệ thống hóa các khái niệm về bit lượng tử, chồng chập lượng tử, vướng víu lượng tử",
+      "ten_en": "Codify the basic concepts of qubit, quantum superposition, quantum entanglement",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283579,
+      "ma": "L.O.1.2",
+      "ten_vi": "Hệ thống hóa khái niệm cơ bản của cơ học lượng tử",
+      "ten_en": "Codify the basic concepts of quantum mechanics",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283580,
+      "ma": "L.O.1.3",
+      "ten_vi": "Hệ thống hóa khái niệm cơ bản của mạch lượng tử",
+      "ten_en": "Codify the basic concepts of quantum circuits",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283581,
+      "ma": "L.O.2.1",
+      "ten_vi": "Khái quát hóa các giải thuật phổ biến trong Tính Toán Lượng Tử",
+      "ten_en": "Generalize popular algorithms in Quantum Computing",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283582,
+      "ma": "L.O.2.2",
+      "ten_vi": "Khái quát hóa các ứng dụng phổ biến trong Tính Toán Lượng Tử",
+      "ten_en": "Generalize popular applications in Quantum Computing",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283583,
+      "ma": "L.O.2.3",
+      "ten_vi": "Khái quát hóa các hệ thống phổ biến trong Tính Toán Lượng Tử",
+      "ten_en": "Generalize popular systems in Quantum Computing",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283584,
+      "ma": "L.O.3.1",
+      "ten_vi": "Tích hợp giải thuật Tính Toán lượng tử cơ bản vào ứng dụng",
+      "ten_en": "Integrate basic quantum computing algorithms into applications.",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283585,
+      "ma": "L.O.3.2",
+      "ten_vi": "Thiết kế hệ thống Tính Toán Lượng tử cơ bản",
+      "ten_en": "Design basic Quantum Computing systems",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283586,
+      "ma": "L.O.3.3",
+      "ten_vi": "Phát triển ứng dụng Tính Toán Lượng tử cơ bản",
+      "ten_en": "Develop basic Quantum Computing applications",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283587,
+      "ma": "L.O.4.1",
+      "ten_vi": "Khái quát hóa các xu hướng hiện tại của Tính Toán Lượng Tử",
+      "ten_en": "Generalize the current trends of Quantum Computing",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283588,
+      "ma": "L.O.4.2",
+      "ten_vi": "Phản biện các xu hướng hiện tại của Tính Toán Lượng Tử",
+      "ten_en": "Critique the current trends of Quantum Computing",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 283589,
+      "ma": "L.O.4.3",
+      "ten_vi": "Hoạch định xu hướng của Tính Toán Lượng Tử",
+      "ten_en": "Forecast the trends of Quantum Computing",
+      "hddg": [
+        {
+          "id": 97602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Assignments"
+        },
+        {
+          "id": 97603,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Tính toán lượng tử\r\n",
+  "tenmonhoc_eng": "Quantum computing",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

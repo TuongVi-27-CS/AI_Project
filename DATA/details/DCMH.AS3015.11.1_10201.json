@@ -1,0 +1,1487 @@
+{
+  "ma": "DCMH.AS3015.11.1",
+  "phienban": "11.1",
+  "capnhat": "26/08/2024 13:22",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS3015",
+  "ten": "AS3015 - Phương pháp Phần tử hữu hạn Cơ kỹ thuật",
+  "ten_eng": "AS3015 - Finite Element MeThod in Engineering Mechanics",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Sau khi hoàn thành môn Phương pháp\nphần tử hữu hạn Cơ kỹ thuật, sinh viên thu được:</p>\n\n<p>- &nbsp;  Các\nkiến thức cơ bản về các mô hình toán, phương trình chủ đạo, các loại phần tử\ntrong Phương pháp phần tử hữu hạn (PP PTHH) và cách sử dụng PP PTHH để tìm lời\ngiải xấp xỉ cho các phương trình vi phân. </p>\n\n-&nbsp; &nbsp;Những kỹ\nnăng cơ bản trong việc sử dụng PP PTHH để giải quyết các bài toán 1, 2 và 3\nchiều.\n\n\n\n<br><p></p>",
+      "en": "<p></p><p><i>Upon completion of this\ncourse, student will obtain:</i></p>\n\n<p><i>- &nbsp;  Fundamental knowledge in the Finite Element Method (FEM)\nincluding mathematical models, governing equations, element types in FEM and\nsolving methods to obtain an approximate solution of ordinary and partial\ndifferential equations.</i></p>\n\n<i>-&nbsp; &nbsp;Basic\nskills in using FEM to solve 1D, 2D and 3D problems.</i>\n\n\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>Môn học cung cấp các kiến thức cơ bản về Phương pháp\nPhần tử Hữu hạn (PP PTHH), những nội dung chính bao gồm:</p>\n\n<p>- &nbsp; &nbsp; Các\nphương pháp xấp xỉ để giải bài toán cơ học. Phương pháp phần tử hữu hạn và các\nkhái niệm.</p>\n\n<p>- &nbsp; &nbsp; PP PTHH\ncho phần tử thanh giàn, các bài toán hệ thanh.</p>\n\n<p>- &nbsp; &nbsp; PP PTHH\ncho phần tử thanh dầm, các bài toán khung phẳng.</p>\n\n<p>- &nbsp; &nbsp; PP PTHH\ncho phần tử phẳng: phần tử tứ giác, phần tử tam giác và các bài toán phẳng (ứng\nsuất phẳng, biến dạng phẳng, đối xứng trục).</p>\n\n<p>- &nbsp; &nbsp; PP PTHH\ncho phần tử tấm vỏ.</p>\n\n-&nbsp; &nbsp; &nbsp;PP PTHH cho phần tử khối 3 chiều.\n\n\n\n<br><p></p>",
+      "en": "<p></p><p><i>The subject provides students with fundamental\nknowledge of Finite Element Method (FEM). Basic contents are as follows:</i></p>\n\n<p><i>- &nbsp; &nbsp; Approximate\nmethods to solve mechanical problems. The Finite Element Method and concept.</i></p>\n\n<p><i>- &nbsp; &nbsp; FEM for\ntruss element. Truss system problems.</i></p>\n\n<p><i>- &nbsp; &nbsp; FEM for\nbeam element. 2D Frame problems.</i></p>\n\n<p><i>- &nbsp; &nbsp; FEM for\nplane element: quadrilateral element, triangular element and planar problems\n(plane stress, plane strain, axisymmetric).</i></p>\n\n<p><i>- &nbsp; &nbsp; FEM for\nplate and shell element.</i></p>\n\n<i>-&nbsp; &nbsp; &nbsp;FEM for 3D solid element.</i>\n\n\n\n<br><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p><b><i>1.1. &nbsp;\n</i></b><b><i>Giáo trình chính</i></b></p>\n\n<p>[1] O. C. Zienkiewicz, R.\nL. Taylor, The Finite Element Method – Volume 1, 2, 3 (Fifth edition),\nButterworth – Heinemann, 2000</p>\n\n<p><b><i>1.2. &nbsp;\n</i></b><b><i>Tài liệu tham khảo</i></b></p>\n\n<p>[1] Gilbert Strang, George J. Fix, An Analysis of\nthe Finite Element Method, Prentice-Hall,1973</p>\n\n<p>[2] J. Tinsley Oden et al., Finite Elements – An\nIntroduction,  Prentice Hall, 1981</p>\n\n<p><b><i>1.3. &nbsp;\n</i></b><b><i>Tài\nliệu khác</i></b></p>\n\n<p>[3] Robert Cook et al., Concepts and Applications\nof Finite Element Analysis, John Wiley &amp; Sons, 1989</p>\n\n[4]\nRobert Cook, Finite Element Modeling For Stress Analysis,  John Wiley &amp; Sons, 1995\n\n\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p><b><i>1.1. &nbsp;\n</i></b><b><i>Textbooks</i></b></p>\n\n<p>[1] O. C. Zienkiewicz, R.\nL. Taylor, The Finite Element Method – Volume 1, 2, 3 (Fifth edition),\nButterworth – Heinemann, 2000</p>\n\n<p><b><i>1.2. &nbsp;\n</i></b><b><i>References</i></b></p>\n\n<p>[1] Gilbert Strang, George J. Fix, An Analysis of\nthe Finite Element Method, Prentice-Hall,1973</p>\n\n<p>[2] J. Tinsley Oden et al., Finite Elements – An\nIntroduction,  Prentice Hall, 1981</p>\n\n<p><b><i>1.3. &nbsp;\n</i></b><b><i>Other materials</i></b></p>\n\n<p>[3] Robert Cook et al., Concepts and Applications\nof Finite Element Analysis, John Wiley &amp; Sons, 1989</p>\n\n[4]\nRobert Cook, Finite Element Modeling For Stress Analysis,  John Wiley &amp; Sons, 1995\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>Vì\nchương trình học cho một học kỳ khá dài, để đảm bảo cho kết quả học tập, sinh\nviên cần phải:  </p>\n\n<p>- &nbsp;  Có giáo trình.</p>\n\n<p>- &nbsp;  Dự đầy đủ giờ giảng trên lớp</p>\n\n<p>- &nbsp;  Hoàn thành các bài tập e-learning theo thời\nhạn, cách thức thực hiện và mức đạt quy định</p>\n\n<p>- &nbsp;  Tổ chức các hoạt động học tập nhóm để hoàn\nthành bài tập lớn hoặc bài thuyết trình.</p>\n\n-&nbsp; &nbsp;Thường xuyên ôn tập để tránh bị động\nlúc thi kiểm tra giữa kỳ và cuối kỳ.\n\n\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p>\n\nBecause the study program for a semester is quite long, in order to ensure academic results, students need to:  </p>\n\n<p>- Collect a lecture note and textbooks.</p>\n\n<p>- Attend all lectures in class.</p>\n\n<p>- Complete the e-learning exercises according to the deadline, method and level\nof achievement.</p>\n\n<p>- \n\nOrganize group learning activities to complete a assignment or essay\npresentation.</p>\n\n- \n\nRegularly review to avoid being passive during midterm and final exams.<p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 3605,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Chương trình đào tạo ngành Cơ Kỹ thuật K24 (đang soạn thảo)",
+        "en": "Training program in Engineering Mechanics K24"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1396,
+      "ma": "001673",
+      "ten": "Trương Tích Thiện"
+    },
+    {
+      "id": 8789,
+      "ma": "003966",
+      "ten": "Lồ Sìu Vẫy"
+    },
+    {
+      "id": 1403,
+      "ma": "002852",
+      "ten": "NGUYỄN THANH NHÃ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 0.2,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 9,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 72,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 10,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 20,
+    "doAn": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1079,
+      "maBoMon": "CKT",
+      "tenBoMon": {
+        "vi": "Cơ Kỹ Thuật"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "101B4",
+      "dienThoai": "02838636856 - Ext: 5314"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1396,
+        "maGiangVien": "001673",
+        "tenGiangVien": "Trương Tích Thiện",
+        "emailGiangVien": "tttruong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3a",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "AS1003 - Cơ lý thuyết",
+        "en": "AS1003 - Engineering Mechanics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ lý thuyết",
+        "en": "Engineering Mechanics"
+      },
+      "mamonhoc": "AS1003"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "MT1003 - Giải tích 1",
+        "en": "MT1003 - Calculus 1"
+      },
+      "tenmonhoc_only": {
+        "vi": "Giải tích 1",
+        "en": "Calculus 1"
+      },
+      "mamonhoc": "MT1003"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "MT1005 - Giải tích 2",
+        "en": "MT1005 - Calculus 2"
+      },
+      "tenmonhoc_only": {
+        "vi": "Giải tích 2",
+        "en": "Calculus 2"
+      },
+      "mamonhoc": "MT1005"
+    },
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "MT1007 - Đại số Tuyến tính",
+        "en": "MT1007 - Linear Algebra"
+      },
+      "tenmonhoc_only": {
+        "vi": "Đại số Tuyến tính",
+        "en": "Linear Algebra"
+      },
+      "mamonhoc": "MT1007"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "AS2011 - Lý Thuyết Đàn hồi",
+        "en": "AS2011 - Theory of Elasticity"
+      },
+      "tenmonhoc_only": {
+        "vi": "Lý Thuyết Đàn hồi",
+        "en": "Theory of Elasticity"
+      },
+      "mamonhoc": "AS2011"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 14601,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root evaluation activities"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Root evaluation activities"
+      }
+    },
+    {
+      "id": 14602,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "14601",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trắc nghiệm 1.",
+        "en": "Multiple-choice test 1."
+      },
+      "noidung": {
+        "vi": "Bài tập trắc nghiệm 1.",
+        "en": "Multiple-choice test 1."
+      }
+    },
+    {
+      "id": 14603,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "14601",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trắc nghiệm 2.",
+        "en": "Multiple-choice test 2."
+      },
+      "noidung": {
+        "vi": "Bài tập trắc nghiệm 2.",
+        "en": "Multiple-choice test 2."
+      }
+    },
+    {
+      "id": 14604,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "14601",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập thực hành 1",
+        "en": "Practice test 1"
+      },
+      "noidung": {
+        "vi": "Bài tập thực hành 1",
+        "en": "Practice test 1"
+      }
+    },
+    {
+      "id": 14605,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "14601",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập thực hành 2.",
+        "en": "Practice test 2."
+      },
+      "noidung": {
+        "vi": "Bài tập thực hành 2.",
+        "en": "Practice test 2."
+      }
+    },
+    {
+      "id": 14606,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "14601",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn.",
+        "en": "Assignment."
+      },
+      "noidung": {
+        "vi": "Bài tập lớn.",
+        "en": "Assignment."
+      }
+    },
+    {
+      "id": 14607,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "14601",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá giữa kỳ",
+        "en": "Mid-term exam"
+      },
+      "noidung": {
+        "vi": "Đánh giá giữa kỳ",
+        "en": "Mid-term exam"
+      }
+    },
+    {
+      "id": 14608,
+      "stt": 0,
+      "ma": "A.O.7",
+      "capdo": "1",
+      "parentid": "14601",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Đánh giá cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 16803,
+      "stt": 1,
+      "buoi": "1/1",
+      "chuandaurachitiet": [
+        {
+          "id": 21801,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, Thảo luận.",
+            "en": "Lectures, Discussions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, Thảo luận.",
+            "en": "Lecture preview, Discussion."
+          },
+          "chuandaura": {
+            "id": 57567,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Mô tả các khái niệm và cơ sở toán học của Phương pháp phần tử hữu hạn.",
+              "en": "Describe the concepts and mathematical foundations of the Finite Element Method."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34822,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14602,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trắc nghiệm 1.",
+                  "en": "Multiple-choice test 1."
+                }
+              }
+            },
+            {
+              "id": 34823,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trắc nghiệm 2.",
+                  "en": "Multiple-choice test 2."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu phương pháp Phần tử hữu hạn. \n1.1\tCác khái niệm cơ bản.\n1.2\tCơ sở toán học.\n1.3\tRời rạc hóa phần tử hữu hạn.",
+        "en": "Chapter 1: Introduction to the Finite Element method.\n1.1 Basic concepts.\n1.2 Mathematical foundations.\n1.3 finite element discretization."
+      }
+    },
+    {
+      "id": 16804,
+      "stt": 2,
+      "buoi": "2/2",
+      "chuandaurachitiet": [
+        {
+          "id": 21802,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, Thảo luận.",
+            "en": "Lectures, Discussions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, Thảo luận.",
+            "en": "Lecture preview, Discussion."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34824,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trắc nghiệm 2.",
+                  "en": "Multiple-choice test 2."
+                }
+              }
+            },
+            {
+              "id": 34807,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14604,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập thực hành 1",
+                  "en": "Practice test 1"
+                }
+              }
+            },
+            {
+              "id": 34808,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 14607,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Mid-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Phương pháp Phần tử hữu hạn cho phần tử 1 chiều.\n2.1 Bài toán giàn.",
+        "en": "Chapter 2: Finite Element Method for 1-D Element.\n2.1 Truss problem."
+      }
+    },
+    {
+      "id": 16805,
+      "stt": 3,
+      "buoi": "3/2",
+      "chuandaurachitiet": [
+        {
+          "id": 21810,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn bài tập tại lớp.",
+            "en": "Instructions for exercises in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập tại lớp.",
+            "en": "Do the exercise in class."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34813,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trắc nghiệm 2.",
+                  "en": "Multiple-choice test 2."
+                }
+              }
+            },
+            {
+              "id": 34811,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14607,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Mid-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Phương pháp Phần tử hữu hạn cho phần tử 1 chiều.\nSửa bài tập hệ thanh giàn.\n",
+        "en": "Chapter 2: Finite Element Method for 1-D Element.\nInstructions for solving the truss system exercises."
+      }
+    },
+    {
+      "id": 16812,
+      "stt": 4,
+      "buoi": "4/2",
+      "chuandaurachitiet": [
+        {
+          "id": 21812,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, Thảo luận.",
+            "en": "Lectures, Discussions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, Thảo luận.",
+            "en": "Lecture preview, Discussion."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34812,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trắc nghiệm 2.",
+                  "en": "Multiple-choice test 2."
+                }
+              }
+            },
+            {
+              "id": 34815,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14604,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập thực hành 1",
+                  "en": "Practice test 1"
+                }
+              }
+            },
+            {
+              "id": 34801,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 14607,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Mid-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Phương pháp Phần tử hữu hạn cho phần tử 1 chiều.\n2.2 Bài toán khung dầm.\n",
+        "en": "Chapter 2: Finite Element Method for 1-D Element.\n2.2 The Beam-Frame problem.\n"
+      }
+    },
+    {
+      "id": 16809,
+      "stt": 5,
+      "buoi": "5/2",
+      "chuandaurachitiet": [
+        {
+          "id": 21811,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn bài tập tại lớp.",
+            "en": "Instructions for exercises in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập tại lớp.",
+            "en": "Do the exercise in class."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34820,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14603,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trắc nghiệm 2.",
+                  "en": "Multiple-choice test 2."
+                }
+              }
+            },
+            {
+              "id": 34816,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14607,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Đánh giá giữa kỳ",
+                  "en": "Mid-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Phương pháp Phần tử hữu hạn cho phần tử 1 chiều.\nSửa bài tập khung dầm.\n",
+        "en": "Chapter 2: Finite Element Method for 1-D Element.\nInstructions for solving the beam-frame exercises.\n"
+      }
+    },
+    {
+      "id": 16810,
+      "stt": 6,
+      "buoi": "6/3",
+      "chuandaurachitiet": [
+        {
+          "id": 21803,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, Thảo luận.",
+            "en": "Lectures, Discussions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, Thảo luận.",
+            "en": "Lecture preview, Discussion."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34810,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14605,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập thực hành 2.",
+                  "en": "Practice test 2."
+                }
+              }
+            },
+            {
+              "id": 34802,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14608,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Phương pháp Phần tử hữu hạn cho phần tử 2 chiều.\n3.1 Phần tử tam giác.\n",
+        "en": "Chapter 3: Finite Element Method for 2D Element.\n3.1 Triangular element."
+      }
+    },
+    {
+      "id": 16806,
+      "stt": 7,
+      "buoi": "7/3",
+      "chuandaurachitiet": [
+        {
+          "id": 21807,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn bài tập tại lớp.",
+            "en": "Instructions for exercises in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập tại lớp.",
+            "en": "Do the exercise in class."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34821,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14604,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập thực hành 1",
+                  "en": "Practice test 1"
+                }
+              }
+            },
+            {
+              "id": 34803,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14608,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Phương pháp Phần tử hữu hạn cho phần tử 2 chiều.\nSửa bài tập phần tử tam giác.\n",
+        "en": "Chapter 3: Finite Element Method for 2D Element.\nInstructions for solving triangle element exercises.\n"
+      }
+    },
+    {
+      "id": 16811,
+      "stt": 8,
+      "buoi": "8/3",
+      "chuandaurachitiet": [
+        {
+          "id": 21808,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, Thảo luận.",
+            "en": "Lectures, Discussions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, Thảo luận.",
+            "en": "Lecture preview, Discussion."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34814,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14605,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập thực hành 2.",
+                  "en": "Practice test 2."
+                }
+              }
+            },
+            {
+              "id": 34817,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14608,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Phương pháp Phần tử hữu hạn cho phần tử 2 chiều.\n3.2 Phần tử tứ giác.",
+        "en": "Chapter 3: Finite Element Method for 2D Element.\n3.2 Quadrilateral element."
+      }
+    },
+    {
+      "id": 16807,
+      "stt": 9,
+      "buoi": "9/3",
+      "chuandaurachitiet": [
+        {
+          "id": 21804,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn bài tập tại lớp.",
+            "en": "Instructions for exercises in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập tại lớp.",
+            "en": "Do the exercise in class."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34818,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14604,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập thực hành 1",
+                  "en": "Practice test 1"
+                }
+              }
+            },
+            {
+              "id": 34809,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14608,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Phương pháp Phần tử hữu hạn cho phần tử 2 chiều.\nSửa bài tập phần tử tứ giác.\n",
+        "en": "Chapter 3: Finite Element Method for 2D Element.\nInstructions for solving quadrilateral element exercises."
+      }
+    },
+    {
+      "id": 16808,
+      "stt": 10,
+      "buoi": "10/4, 5",
+      "chuandaurachitiet": [
+        {
+          "id": 21805,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Cung cấp tài liệu.",
+            "en": "Provide documents."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học.",
+            "en": "Self-study."
+          },
+          "chuandaura": {
+            "id": 57568,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+              "en": "L02"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34804,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14605,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập thực hành 2.",
+                  "en": "Practice test 2."
+                }
+              }
+            },
+            {
+              "id": 34805,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 14606,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập lớn.",
+                  "en": "Assignment."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Phương pháp Phần tử hữu hạn cho phần tử tấm vỏ.\n4.1 Giới thiệu.\n4.2 Phần tử tấm.\n4.3 Phần tử vỏ.\nChương 5: Phương pháp Phần tử hữu hạn cho phần tử 3 chiều.\n5.1 Giới thiệu phần tử 3 chiều.\n5.2 Phần tử tứ diện.\n5.3 Phần tử lục diện.\n5.4 Phần tử bậc cao.\n5.5 Phần tử mặt cong.",
+        "en": "Chapter 4: Finite Element Method for Shell Plate Element.\n4.1 Introduction.\n4.2 Plate element.\n4.3 Shell element.\nChapter 5: Finite Element Method for 3D Element.\n5.1 Introduction to the 3-D element.\n5.2 Tetrahedral element.\n5.3 Hexagonal element.\n5.4 Higher order element.\n5.5 Curve surface element."
+      }
+    },
+    {
+      "id": 16801,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 21806,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn bài tập tại lớp.",
+            "en": "Instructions for exercises in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập tại lớp.",
+            "en": "Do the exercise in class."
+          },
+          "chuandaura": {
+            "id": 57566,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Sử dụng các ngôn ngữ lập trình (Matlab, ngôn ngữ Python, C, ...) để lập trình một chương trình PTHH đơn giản.",
+              "en": "LO3"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34806,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14606,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập lớn.",
+                  "en": "Assignment."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nội dung bài tập tự đánh giá/báo cáo tiểu luận/thực hành:\na) Bài trắc nghiệm e-learning tự đánh giá.\nYêu cầu: SV phải hoàn thành toàn bộ các bài tập trắc nghiệm trên e-learning theo quy định về thời gian và cách thức thực hiện.\nb1) Sử dụng Matlab hoặc chương trình tính toán khác để lập trình một chương trình tính toán phần tử hữu hạn đơn giản\nYêu cầu: Giải được bài toán hệ thanh, khung phẳng, bài toán phẳng sử dụng phần tử tam giác và bài toán phẳng sử dụng phần tử chữ nhật..\nb2) Soạn thảo và thuyết trình các chủ đề liên quan.\nYêu cầu: Làm việc nhóm hiệu quả trong việc tìm hiểu tài liệu, thảo luận soạn thảo chung, trình bày báo cáo khoa học theo chuẩn quy định, phát huy kỹ năng thuyết trình trước công chúng.",
+        "en": "Contents of self-assessment exercise/essay report/practice:\na) Self-assessment e-learning quiz.\nRequirements: Students must complete all multiple-choice exercises on e-learning according to the time and method regulations.\nb1) Use Matlab or another calculation program to program a simple finite element calculation program\nRequirements: Solve the truss system problem, planar frame, planar problem using triangular elements and planar problem using rectangular elements..\nb2) Compose and present of related topics.\nRequirements: Effective teamwork in researching documents, discussing and composing together, presenting scientific reports according to prescribed standards, promoting public speaking skills."
+      }
+    },
+    {
+      "id": 16802,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 21809,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn bài tập tại lớp.",
+            "en": "Instructions for exercises in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập tại lớp.",
+            "en": "Do the exercise in class."
+          },
+          "chuandaura": {
+            "id": 57566,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Sử dụng các ngôn ngữ lập trình (Matlab, ngôn ngữ Python, C, ...) để lập trình một chương trình PTHH đơn giản.",
+              "en": "LO3"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 34819,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 14606,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập lớn.",
+                  "en": "Assignment."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nội dung bài tập tự đánh giá/báo cáo tiểu luận/thực hành\na) Bài trắc nghiệm e-learning tự đánh giá.\nYêu cầu: SV phải hoàn thành toàn bộ các bài tập trắc nghiệm trên e-learning theo quy định về thời gian và cách thức thực hiện.\nb1) Sử dụng Matlab hoặc chương trình tính toán khác để lập trình một chương trình tính toán phần tử hữu hạn đơn giản\nYêu cầu: Giải được bài toán hệ thanh, khung phẳng, bài toán phẳng sử dụng phần tử tam giác và bài toán phẳng sử dụng phần tử chữ nhật..\nb2) Soạn thảo và thuyết trình các chủ đề liên quan.\nYêu cầu: Làm việc nhóm hiệu quả trong việc tìm hiểu tài liệu, thảo luận soạn thảo chung, trình bày báo cáo khoa học theo chuẩn quy định, phát huy kỹ năng thuyết trình trước công chúng.",
+        "en": "Contents of self-assessment exercise/essay report/practice:\na) Self-assessment e-learning quiz.\nRequirements: Students must complete all multiple-choice exercises on e-learning according to the time and method regulations.\nb1) Use Matlab or another calculation program to program a simple finite element calculation program\nRequirements: Solve the truss system problem, planar frame, planar problem using triangular elements and planar problem using rectangular elements..\nb2) Compose and present of related topics.\nRequirements: Effective teamwork in researching documents, discussing and composing together, presenting scientific reports according to prescribed standards, promoting public speaking skills."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 57567,
+      "ma": "L.O.1",
+      "ten_vi": "Mô tả các khái niệm và cơ sở toán học của Phương pháp phần tử hữu hạn.",
+      "ten_en": "Describe the concepts and mathematical foundations of the Finite Element Method.",
+      "hddg": [
+        {
+          "id": 14602,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trắc nghiệm 1.",
+          "ten_en": "Multiple-choice test 1."
+        },
+        {
+          "id": 14603,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập trắc nghiệm 2.",
+          "ten_en": "Multiple-choice test 2."
+        }
+      ]
+    },
+    {
+      "id": 57568,
+      "ma": "L.O.2",
+      "ten_vi": "Giải quyết được các bài toán thanh giàn và hệ thanh giàn, các bài toán thanh dầm và khung phẳng, các bài toán phẳng.",
+      "ten_en": "L02",
+      "hddg": [
+        {
+          "id": 14603,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập trắc nghiệm 2.",
+          "ten_en": "Multiple-choice test 2."
+        },
+        {
+          "id": 14604,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập thực hành 1",
+          "ten_en": "Practice test 1"
+        },
+        {
+          "id": 14605,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập thực hành 2.",
+          "ten_en": "Practice test 2."
+        },
+        {
+          "id": 14606,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập lớn.",
+          "ten_en": "Assignment."
+        },
+        {
+          "id": 14607,
+          "ma": "A.O.6",
+          "ten_vi": "Đánh giá giữa kỳ",
+          "ten_en": "Mid-term exam"
+        },
+        {
+          "id": 14608,
+          "ma": "A.O.7",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 57566,
+      "ma": "L.O.3",
+      "ten_vi": "Sử dụng các ngôn ngữ lập trình (Matlab, ngôn ngữ Python, C, ...) để lập trình một chương trình PTHH đơn giản.",
+      "ten_en": "LO3",
+      "hddg": [
+        {
+          "id": 14606,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập lớn.",
+          "ten_en": "Assignment."
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phương pháp Phần tử hữu hạn Cơ kỹ thuật",
+  "tenmonhoc_eng": "Finite Element MeThod in Engineering Mechanics",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

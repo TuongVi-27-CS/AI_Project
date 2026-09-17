@@ -1,0 +1,1358 @@
+{
+  "ma": "DCMH.CO3053.8.1",
+  "phienban": "8.1",
+  "capnhat": "28/05/2026 11:10",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3053",
+  "ten": "CO3053 - Hệ thống nhúng",
+  "ten_eng": "CO3053 - Embedded System",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Mục tiêu của môn học là cung cấp cho sinh viên:<br></p><ul><li>Tri thức về quy trình thiết kế phần mềm hệ thống nhúng</li><li>Các mô hình lập trình round robin, timing-driven, event-driven</li><li>Các phương pháp biểu diễn thiết kế như flowchart, máy trạng thái</li><li>Các kỹ thuật gỡ lỗi trong phát triển ứng dụng</li><li>Tri thức về hệ điều hành nhúng thời gian thực</li><li>Một ví dụ thực tiễn áp dụng các kiến thức về phát triển hệ thống nhúng trên automotive</li></ul><br><p></p>",
+      "en": "<p><i>﻿</i>The aims of this course are to provide students<br></p><ul><li>Knowledge of software development process for embedded systems</li><li>Programming models such as round robin, timing-driven, event-driven</li><li>Methods to present design such as flowchart, state diagram</li><li>Debugging rules</li><li>Knowledge of real-time embedded operating systems</li><li>A case-study of embedded system development in automotive</li></ul><br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học tiếp cận theo hướng từ dưới lên bằng cách giới thiệu các khái niệm cơ bản như ADC, PWM, ngắt, hệ điều hành, semarphore, cảm biến, điều khiển. Sau đó, sinh viên được giới thiệu các phương pháp tiếp cận để đưa ra thiết kế đáp ứng các yêu cầu, ràng buộc đầu vào; các phương pháp thể hiện thiết kế như flowchart, máy trạng thái. Cuối cùng, sinh viên vận dụng các kiến thức và kỹ năng học được qua lớp lý thuyết và thực hành để tự hoàn chỉnh một hệ thống tương tác với thế giới thực từ bước phân tích, thiết kế, hiện thực, đến kiểm tra.<br><br><br></p>",
+      "en": "<p>This course follows the bottom-up approach by providing basic knowledge such as ADC, PWM, interrupt, operating system, semaphore, sensor, actuators, etc. Then, students are introduced approaches to propose a design satisfying input requirements; design representation methods such as a flowchart, state machines, etc. Finally, students apply knowledge, and skills learned in class and labs to implement a system interact with real work from design, implement, to test correctness.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:</p>[1] ﻿Edward A. Lee, Sanjit A. Seshia﻿“Introduction to embedded systems – A Cyber0physical systems approach”, 2nd Edition, MIT Press, 2017.&nbsp;<a target=\"_blank\" rel=\"nofollow\" href=\"http://LeeSeshia.org\" title=\"Link: http://LeeSeshia.org\">http://LeeSeshia.org</a>.<div><br></div><div>﻿Sách tham khảo:<br><br>[2] ﻿Peter Marwedel, ﻿“Embedded System Design: Embedded Systems Foundations of Cyber-Physical Systems, and the Internet of Things” (3rd Edition), 2017, Springer.<br>[3] ﻿﻿Slide bài giảng \bđược cung cấp ﻿bởi﻿ Bosch&nbsp;Academy</div><div>[4] Các tài liệu tiếng Việt về lập trình nhúng ﻿﻿﻿<br></div>",
+      "en": "<p>Textbook:</p><p>﻿[1]. ﻿Edward A. Lee, Sanjit A. Seshia, ﻿“Introduction to embedded systems – A cyber physical systems approach”, 2nd Edition, MIT Press, 2017.&nbsp;<a target=\"_blank\" rel=\"nofollow\" href=\"http://LeeSeshia.org\" title=\"Link: http://LeeSeshia.org\">http://LeeSeshia.org</a>.</p><p>﻿References:</p>[2]. Peter Marwedel﻿, ﻿﻿“Embedded System Design: Embedded Systems Foundations of Cyber-Physical Systems, and the Internet of Things” (3rd Edition), 2017, Springer.<br>[3].&nbsp;﻿﻿Materials provided&nbsp;by&nbsp;Bosch Academy<div>[4]&nbsp;Vietnamese&nbsp;materials on embedded&nbsp;programming.<br><p></p>﻿<br><p></p></div>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Sinh viên tham gia các buổi học lý thuyết, làm bài tập tại lớp và tại nhà. Sinh viên cần thực hiện tất cả các bài thực hành. Ngoài ra, sinh viên được phân vào các nhóm thực hiện một bài tập lớn, thiết kế một ứng dụng theo các yêu cầu cụ thể.</p><p><strong>Quy định về liêm chính học thuật và sử dụng công cụ AI:</strong></p><p></p><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul><br><p></p>",
+      "en": "<p></p><div><div><div><div><div><div><div><p>Students attend lectures and complete exercises both in class and at home. They are required to complete all practical assignments. In addition, students are assigned to groups to carry out a mini project, designing an application based on specified requirements.﻿</p></div></div></div></div></div></div></div><p></p><p><strong>Regulations regarding Academic Integrity and use of AI tools</strong></p><ul><li>Students must comply with the university’s academic integrity regulations.</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.</li><li>When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.</li><li>Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</li></ul><br><p></p><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>(*)Sinh viên sẽ phải tự học và giảng viên sắp giờ linh hoạt hàng tuần phản hồi thắc mắc và hỗ trợ sinh viên làm BTL.<br></p>",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 379,
+      "ma": "NG_KTM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Ngành Kỹ thuật Máy tính"
+      }
+    },
+    {
+      "id": 1005,
+      "ma": "CN_HTH",
+      "ten": {
+        "vi": "Chuyên ngành: Hệ thống tính toán hiện đại",
+        "en": "     Speciality: Modern Computing Systems"
+      }
+    },
+    {
+      "id": 380,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Chuyên ngành Kỹ thuật Máy tính"
+      }
+    },
+    {
+      "id": 1006,
+      "ma": "CN_IVV",
+      "ten": {
+        "vi": "Chuyên ngành: Internet vạn vật và An ninh mạng",
+        "en": "Speciality: IoTs and Network Security"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1141,
+      "ma": "002603",
+      "ten": "Phạm Hoàng Anh"
+    },
+    {
+      "id": 5899,
+      "ma": "003777",
+      "ten": "Lê Trọng Nhân"
+    },
+    {
+      "id": 9778,
+      "ma": "004077",
+      "ten": "HUỲNH PHÚC NGHỊ"
+    },
+    {
+      "id": 10910,
+      "ma": "004202",
+      "ten": "NGUYỄN THIÊN ÂN"
+    },
+    {
+      "id": 11908,
+      "ma": "004269",
+      "ten": "NGUYỄN THÀNH LỘC"
+    },
+    {
+      "id": 11568,
+      "ma": "004258",
+      "ten": "PHẠM CÔNG THÁI"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.5,
+    "baiTapLon": 0.5,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.33,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 15,
+    "baiTapLon": 23,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 67,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 4,
+        "ma": "80",
+        "thoigian": 80,
+        "text": {
+          "vi": "80 phút",
+          "en": "80 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 25,
+    "baiTapLon": 25,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 967,
+      "maBoMon": "KTM",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1141,
+        "maGiangVien": "002603",
+        "tenGiangVien": "Phạm Hoàng Anh",
+        "emailGiangVien": "anhpham@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0.5_0.5",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO3009 - Vi xử lý - Vi điều khiển",
+        "en": "CO3009 - Microprocessors-Microcontrollers"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vi xử lý - Vi điều khiển",
+        "en": "Microprocessors-Microcontrollers"
+      },
+      "mamonhoc": "CO3009"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88678,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 88679,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "88678",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trong lớp",
+        "en": "In-class activities"
+      },
+      "noidung": {
+        "vi": "Hoạt động trong lớp",
+        "en": "In-class activities"
+      }
+    },
+    {
+      "id": 88680,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88678",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm",
+        "en": "Group Project"
+      },
+      "noidung": {
+        "vi": "Quá trình thực hiện và báo cáo",
+        "en": "Implementation and Presentation"
+      }
+    },
+    {
+      "id": 88681,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "88678",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109558,
+      "stt": 1,
+      "buoi": "1,2",
+      "chuandaurachitiet": [
+        {
+          "id": 144540,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi.\n",
+            "en": "Give lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận để trả lời câu hỏi.\n- Tự đọc thêm giáo trình [1] và tài liệu tham khảo [2] tại nhà.",
+            "en": "Listen the lecture and discuss to answer the questions.\n- - Further reading [1][2] at home."
+          },
+          "chuandaura": {
+            "id": 181856,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Đánh giá hệ thống dựa trên các tiêu chí của hệ thống nhúng",
+              "en": "Evaluate the system through common embedded-system criteria."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235515,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88679,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "In-class activities"
+                }
+              }
+            },
+            {
+              "id": 235514,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu\n- Hệ thống nhúng là gì?\n- Các khái niệm và thuật ngữ\n- Các tính chất đặc thù của hệ thống nhúng\n- Xu hướng công nghệ liên quan",
+        "en": "Introduction\n- What is embedded system?\n- Concepts and terminologies\n- Characteristics of embedded systems\n- Related technology trends"
+      }
+    },
+    {
+      "id": 109554,
+      "stt": 2,
+      "buoi": "3,4",
+      "chuandaurachitiet": [
+        {
+          "id": 144536,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận để trả lời câu hỏi.\n- Tự đọc thêm giáo trình [1] và tài liệu tham khảo [2][3] tại nhà.",
+            "en": "Listen the lecture and discuss to answer the questions.\n- Further reading [1][2][3] at home."
+          },
+          "chuandaura": {
+            "id": 181854,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả chức năng của từng bước trong quy trình",
+              "en": "Describe each step in the process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235507,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 235506,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88680,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Group Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144535,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận để trả lời câu hỏi. \n- Tự đọc thêm giáo trình [1] và tài liệu tham khảo [2][3] tại nhà.\n",
+            "en": "Listen the lecture and discuss to answer the questions.\n- Further reading [1][2][3] at home."
+          },
+          "chuandaura": {
+            "id": 181855,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Áp dụng đúng các bước trong quy trình",
+              "en": "Apply the correct steps in the process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235504,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88680,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 235505,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Quy trình phát trình phát triển hệ thống nhúng\n- Đặc tả yêu cầu\n- Thiết kế\n- Hiện thực\n- Kiểm tra\n- Đánh giá hiệu năng",
+        "en": "Embedded System Development Process\n- Requirement gathering and analysis\n- System design\n- System implementation\n- System testing\n- Performance evaluation"
+      }
+    },
+    {
+      "id": 109552,
+      "stt": 3,
+      "buoi": "4,5",
+      "chuandaurachitiet": [
+        {
+          "id": 144533,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận để trả lời câu hỏi.\n- Tự học thêm giáo trình [1] và tài liệu tham khảo [3][4] tại nhà.",
+            "en": "Listen the lecture and discuss to answer the questions.\n- Further reading [1][2][3] at home."
+          },
+          "chuandaura": {
+            "id": 181862,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng mô hình lập trình event-driven để hiện thực một chức của hệ thống nhúng",
+              "en": "Apply the event-driven programming model to implement an embedded software function."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235500,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88680,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 235498,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144532,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận để trả lời câu hỏi\nTự đọc thêm giáo trình [1] và tài liệu tham khảo [3][4] tại nhà.\n",
+            "en": "Listen the lecture and discuss to answer the questions.\nRead Texbook [1] and References [3][4] at home."
+          },
+          "chuandaura": {
+            "id": 181861,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Áp dụng mô hình lập trình round-robin để hiện thực chức năng của phần mềm nhúng",
+              "en": "Apply the round-robin programming model to implement an embedded software function."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235497,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88680,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 235499,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Các mô hình lập trình nhúng\n- Mô hình round-robin\n- Mô hình event-driven",
+        "en": "Embedded Programming Paradigms\n- Round-robin\n- Event-driven"
+      }
+    },
+    {
+      "id": 109553,
+      "stt": 4,
+      "buoi": "6,7",
+      "chuandaurachitiet": [
+        {
+          "id": 144534,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận để trả lời câu hỏi.\n- Tự đọc thêm giáo trình [1] và tài liệu tham khảo [2] tại nhà.\n",
+            "en": "Listen the lecture and questions.\n- Further reading [1][2] at home."
+          },
+          "chuandaura": {
+            "id": 181858,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Mô hình hoá hoạt động của hệ thống bằng máy trạng thái",
+              "en": "Model the system operation using a state machine."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235503,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88679,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "In-class activities"
+                }
+              }
+            },
+            {
+              "id": 235501,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88680,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 235502,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Máy trạng thái\n- Giới thiệu\n- Thiết kế máy trạng thái\n- Ứng dụng \n",
+        "en": "State Machine\n- Introduction\n- State machine design\n- Applications"
+      }
+    },
+    {
+      "id": 109556,
+      "stt": 5,
+      "buoi": "8,9",
+      "chuandaurachitiet": [
+        {
+          "id": 144537,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận trả lời câu hỏi.\n- Tự đọc thêm giáo trình [1] và tài liệu tham khảo [2][3][4] tại nhà.\n",
+            "en": "Listen the lecture and discuss to answer the questions.\n- Further reading [1][2][3][4] at home."
+          },
+          "chuandaura": {
+            "id": 181859,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Minh hoạ một giải thuật bằng lưu đồ",
+              "en": "Illustrate an algorithm by a flowchart"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235509,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88680,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 235508,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Lưu đồ giải thuật\n- Giới thiệu các thành phần cơ bản\n- Mô hình hoá hệ thống giải thuật bằng lưu đồ\n- Ứng dụng",
+        "en": "Flow-chart\n- Introduction\n- System representation by flow-chart\n- Applications"
+      }
+    },
+    {
+      "id": 109557,
+      "stt": 6,
+      "buoi": "10,11",
+      "chuandaurachitiet": [
+        {
+          "id": 144539,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận trả lời câu hỏi.\n- Tự đọc thêm tài liệu [3][4] và các học liệu mở.",
+            "en": "Listen the lecture and discuss to answer the questions.\n- Further reading [3][4[ and other open-books/articles."
+          },
+          "chuandaura": {
+            "id": 181865,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phân tích được ràng buộc thời gian cho từng ứng dụng cụ thể",
+              "en": "Analyse timing constraints corresponding to each application"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235513,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88679,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "In-class activities"
+                }
+              }
+            },
+            {
+              "id": 235512,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144538,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give the lecture and questions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận trả lời câu hỏi. \n- Tự đọc thêm tài liệu tham khảo [3][4] và các học liệu mở.",
+            "en": "Listen the lecture and discuss to answer the questions.\n- Further reading [3][4] and other open-books/articles."
+          },
+          "chuandaura": {
+            "id": 181864,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phân loại được các ràng buộc thời gian",
+              "en": "Classify the timing constraints"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235510,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88679,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "In-class activities"
+                }
+              }
+            },
+            {
+              "id": 235511,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88681,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hệ điều nhúng\n- Giới thiệu\n- Hệ điều hành thời gian thực\n- Ứng dụng",
+        "en": "Emdedded Operating Systems\n- Introduction\n- Real-time operation systems\n- Applications"
+      }
+    },
+    {
+      "id": 109555,
+      "stt": 7,
+      "buoi": "12,13,14,15",
+      "chuandaurachitiet": [
+        {
+          "id": 144531,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và đặt câu hỏi",
+            "en": "Give lectures and ask questions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và thảo luận trả lời câu hỏi.\n- Tự đọc thêm tài liệu [3][4] và các tài liệu học mở.",
+            "en": "Listen the lectures and discuss to answer the questions.\n- Further reading [3][4] and other open-books/articles."
+          },
+          "chuandaura": {
+            "id": 181854,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả chức năng của từng bước trong quy trình",
+              "en": "Describe each step in the process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235517,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88679,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp",
+                  "en": "In-class activities"
+                }
+              }
+            },
+            {
+              "id": 235516,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88680,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Group Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu một ví dụ thực tiễn minh hoạ việc áp dụng những kiến thức về phát triển hệ thống nhúng trong lĩnh vực xe hơi\n- Kiến trúc hệ thống trên xe hơi (AutoSAR)\n- Phát triển phần mềm nhúng điều khiển\n- Các chuẩn giao tiếp trên xe hơi",
+        "en": "A case-study of embedded system development in automotive\n- AutoSAR\n- Embedded Software Development in Automotive \n- Communication Protocols "
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 181854,
+      "ma": "L.O.1.1",
+      "ten_vi": "Mô tả chức năng của từng bước trong quy trình",
+      "ten_en": "Describe each step in the process",
+      "hddg": [
+        {
+          "id": 88679,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "In-class activities"
+        },
+        {
+          "id": 88680,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181855,
+      "ma": "L.O.1.2",
+      "ten_vi": "Áp dụng đúng các bước trong quy trình",
+      "ten_en": "Apply the correct steps in the process",
+      "hddg": [
+        {
+          "id": 88680,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181856,
+      "ma": "L.O.1.3",
+      "ten_vi": "Đánh giá hệ thống dựa trên các tiêu chí của hệ thống nhúng",
+      "ten_en": "Evaluate the system through common embedded-system criteria.",
+      "hddg": [
+        {
+          "id": 88679,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "In-class activities"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181858,
+      "ma": "L.O.2.1",
+      "ten_vi": "Mô hình hoá hoạt động của hệ thống bằng máy trạng thái",
+      "ten_en": "Model the system operation using a state machine.",
+      "hddg": [
+        {
+          "id": 88679,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "In-class activities"
+        },
+        {
+          "id": 88680,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181859,
+      "ma": "L.O.2.2",
+      "ten_vi": "Minh hoạ một giải thuật bằng lưu đồ",
+      "ten_en": "Illustrate an algorithm by a flowchart",
+      "hddg": [
+        {
+          "id": 88680,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181861,
+      "ma": "L.O.3.1",
+      "ten_vi": "Áp dụng mô hình lập trình round-robin để hiện thực chức năng của phần mềm nhúng",
+      "ten_en": "Apply the round-robin programming model to implement an embedded software function.",
+      "hddg": [
+        {
+          "id": 88680,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181862,
+      "ma": "L.O.3.2",
+      "ten_vi": "Áp dụng mô hình lập trình event-driven để hiện thực một chức của hệ thống nhúng",
+      "ten_en": "Apply the event-driven programming model to implement an embedded software function.",
+      "hddg": [
+        {
+          "id": 88680,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181864,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phân loại được các ràng buộc thời gian",
+      "ten_en": "Classify the timing constraints",
+      "hddg": [
+        {
+          "id": 88679,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "In-class activities"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 181865,
+      "ma": "L.O.4.2",
+      "ten_vi": "Phân tích được ràng buộc thời gian cho từng ứng dụng cụ thể",
+      "ten_en": "Analyse timing constraints corresponding to each application",
+      "hddg": [
+        {
+          "id": 88679,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp",
+          "ten_en": "In-class activities"
+        },
+        {
+          "id": 88681,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Hệ thống nhúng",
+  "tenmonhoc_eng": "Embedded System",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

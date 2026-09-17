@@ -1,0 +1,988 @@
+{
+  "ma": "DCMH.MA4173.2.1",
+  "phienban": "2.1",
+  "capnhat": "14/03/2025 09:47",
+  "khoa": {
+    "vi": "Khoa Công Nghệ Vật Liệu",
+    "en": "Faculty of Material Technology"
+  },
+  "mamonhoc": "MA4173",
+  "ten": "MA4173 - Thiết kế Quy trình Sản xuất/Nhà Máy",
+  "ten_eng": "MA4173 - Design of Manufacturing Process/Factory",
+  "hockyapdung": "HK251",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học cung cấp cho sinh viên:<br>- Về kiến thức: <br>Trang bị đầy đủ các kiến thức cơ sở về thiết kế nhà máy, có khả năng lựa chọn công nghệ, thiết bị, dây chuyền sản xuất, hiểu rõ quy trình thiết kế nhà máy sản xuất và biết phân tích tính kinh tế-kỹ thuật.<br>- Về kỹ năng:<br>Thực hành cơ bản về các kỹ năng: làm việc độc lập, giải quyết vấn đề, tư duy sáng tạo, ghi chép hiệu quả, học tập suốt đời.<br><br>- Về thái độ:<br>Rèn luyện các đức tính: trung thực, nghiêm túc và tinh thần tự giác.<br><br></p>",
+      "en": "<p>This course provides students: <br>-  Understand and be able to complete the following charts with regard to a specific product: assembly chart, route sheet, operations process chart, from-to chart, and activity relationship chart<br>-  Identify equipment requirements for a specific process and get knowledge on industrial layouts.<br>-  Design flexibility into a plant layout to accommodate requirements in product volume or product line <br>-  Integrate concepts and techniques learned through this course in order to design and efficient plant layout.<br> Skills: basical practice of some skills: <br>•  Work independently <br>•  Problem solving, <br>•  Creative thinking <br>•  Effective notes, <br>•  Lifelong learning.<br>- Attitude:<br>Cultivate the virtues: honesty, seriousness and self-conscious.<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học giới thiệu cho sinh viên những kiến thức cơ bản về vật lý chất rắn:<br>-  Quy trình thiết kế nhà máy<br>-  Hồ sơ thiết kế<br>-  Tối ưu hóa<br>-  Quy trình công nghệ<br>-  Hoạch định nguồn lực<br>-  Hiệu quả kinh tế<br><br></p>",
+      "en": "<p>This course introduce to students the fundamental knowledge of solid state physics:<br>-  Manufacturing plant design<br>-  Plant layout<br>-  Optimize<br>-  Process technology<br>-  Capacity planning<br>-  Economic efficiency  <br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "",
+      "en": "<p>[1] Plant Design and Operations, Ian Sutton, Gulf Professional Publishing 2017<br>[2] Tompkins, J.A., White, J.A., Bozer, Y.A., Tanchoco, J.M.A. (2010). Facilities Planning, (4e). New York: John Wiley &amp; Sons Inc.<br>[3] Plant design and economics for chemical engineers, Max S. Peters Klaus D. Timmerhaus, McGraw-Hill, Inc 1991<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BKel vào đầu khóa học với tất cả các nôi dung của các chương và đề cương chi tiết môn học. Sinh viên tải về, in ra và sử dụng khi lên lớp học. Sinh viên thực hiện đề tài được giao bởi giảng viên vào đầu kỳ. Điểm tổng kết môn học được đánh giá:<br><br></p><p>-Báo cáo tiến độ bài tập nhóm  30%<br>- Hình thức thi cuối kỳ: Báo cáo bài tập nhóm  70%<br><br>Điều kiện dự thi: <br>-Sinh viên báo cáo tiến độ định kỳ đầy đủ, đúng tiến độ<br><br></p>",
+      "en": "<p>Materials are uploaded to BKel at the beginning of the course with all the contents of the chapters and detailed course outlines. Students download, print and use in class. Students carry out the topic assigned by the lecturer at the beginning of the semester. The final score of the course is assessed:<br><br></p><p>Present group project’s progress  30%<br>Final exam format: Present group project &nbsp; 70%<br><br>Examination conditions:<br>- Students present project progress periodically, on schedule.<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "nganh": [
+    {
+      "id": 1666,
+      "ma": "CN_VVN_VP",
+      "ten": {
+        "vi": "VIÊT PHÁP - Kỹ thuật Cơ khí (Vật liệu và Năng lượng)",
+        "en": "PFIEV - Mechanical Engineering (Materials and Energy)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1377,
+      "ma": "002365",
+      "ten": "Lưu Tuấn Anh"
+    },
+    {
+      "id": 6921,
+      "ma": "003774",
+      "ten": "TRẦN ĐỨC CHÂU"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 3,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 135,
+    "tuHoc": 0,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 5,
+        "ma": "BVHD",
+        "text": {
+          "vi": "Bảo vệ hội đồng",
+          "en": "Project Defense"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 30,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 70,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 957,
+      "maBoMon": "CSV",
+      "tenBoMon": {
+        "vi": "Vật liệu Năng lượng và Ưng dụng"
+      },
+      "maKhoa": "VL",
+      "tenKhoa": {
+        "vi": "Khoa Công Nghệ Vật Liệu",
+        "en": "Faculty of Material Technology"
+      },
+      "vanPhong": "Bộ môn Vật liệu năng lượng & ứng dụng",
+      "dienThoai": "08 38647256"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1377,
+        "maGiangVien": "002365",
+        "tenGiangVien": "Lưu Tuấn Anh",
+        "emailGiangVien": "luutuananh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "pbl3",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 39863,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 39864,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "39863",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo tiến độ bài tập lớn",
+        "en": "Present group project's progress"
+      },
+      "noidung": {
+        "vi": "Báo cáo tiến độ bài tập lớn",
+        "en": "Present group project's progress"
+      }
+    },
+    {
+      "id": 39865,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "39863",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo tiến độ bài tập lớn (GK)",
+        "en": "Present group project's progress (Midterm)"
+      },
+      "noidung": {
+        "vi": "Báo cáo tiến độ bài tập lớn (GK)",
+        "en": "Present group project's progress (Midterm)"
+      }
+    },
+    {
+      "id": 39866,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "39863",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thuyết trình",
+        "en": "Presentation"
+      },
+      "noidung": {
+        "vi": "Thuyết trình",
+        "en": "Presentation"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 46126,
+      "stt": 1,
+      "buoi": "1-4",
+      "chuandaurachitiet": [
+        {
+          "id": 61150,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-Giao tài liệu tham khảo\n-Yêu cầu  nhóm sinh viên đọc tài liệu tham khảo và báo cáo về những kiến thức liên quan\n- Giao đề tài để nhóm sinh viên thực hiện trong kỳ\n",
+            "en": "- Providing references\n- Require students to read references and report on relevant knowledge\n- Assign topics for students to do during the semester\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Đọc tài liệu tham khảo\n- Báo cáo những nội dung đã được tiếp thu từ tài liệu tham khảo\n",
+            "en": "- Read references\n- Report about references\n"
+          },
+          "chuandaura": {
+            "id": 71169,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm hiệu quả phục vụ cho việc học tập suốt đời",
+              "en": "Be able to work effectively in a team which helps students to be lifelong learners"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96313,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39866,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 61149,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-Giao tài liệu tham khảo\n-Yêu cầu sinh viên đọc tài liệu tham khảo và báo cáo về những kiến thức liên quan\n- Giao đề tài để sinh viên thực hiện trong kỳ",
+            "en": "- Providing references\n- Require students to read references and report on relevant knowledge\n- Assign topics for students to do during the semester"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Đọc tài liệu tham khảo\n- Báo cáo những nội dung đã được tiếp thu từ tài liệu tham khảo",
+            "en": "- Read references\n- Report about references"
+          },
+          "chuandaura": {
+            "id": 71168,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng suy luận hiệu quả bằng tiếng Anh hoặc tiếng Pháp để thiết kế nhà máy hoặc quy trình sản xuất vật liệu",
+              "en": "Be able to inference effectively in English or French to design plant factory or materials production diagrams "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96312,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39866,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Những vấn đề chung \n1.1.\tNhiệm vụ và phân loại thiết kế. \n1.2.\tCác giai đoạn thiết kế\n1.3.\tYêu cầu và bố cục của bản vẽ thiết kế và thuyết minh kỹ thuật.\n1.4.\tVấn đề tiêu chuẩn kỹ thuật trong quá trình thiết kế.\n1.5.\tNăng suất và cấu trúc của nhà máy sản xuất.\n1.6.\tLập luận kinh tế kỹ thuật.",
+        "en": "Chapter 1: Common problems\n1.1. Tasks and design classifications.\n1.2. Design stages\n1.3. Requirements and layout of design drawings and technical explanations.\n1.4. Technical standards issues in the design process.\n1.5. Productivity and structure of the manufacturing plant.\n1.6. Economic and technical argument."
+      }
+    },
+    {
+      "id": 46131,
+      "stt": 2,
+      "buoi": "5-8",
+      "chuandaurachitiet": [
+        {
+          "id": 61157,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-  Thảo luận, làm rõ những nội dung cần thiết trong tài liệu tham khảo\n- Giao bài tập tính toán và lựa chọn máy móc thiết bị",
+            "en": "- Discuss and clarify the necessary contents in the reference document\n- Assign calculation exercises and selection of machinery and equipment"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Báo cáo về nội dung trong tài liệu tham khảo được giao ở tuần 1\n- Tính toán và lựa chọn máy móc thiết bị\n- Báo cáo định kỳ về đề tài được giao ở tuần 1",
+            "en": "- Report on the content of the assigned reference in week 1\n- Calculation and selection of machinery and equipment\n- Periodic report on the assigned topic in week 1"
+          },
+          "chuandaura": {
+            "id": 71167,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Có khả năng áp dụng kiến thức môn học để phân tích dữ liệu bằng phần mềm tính toán, mô phỏng để giải quyết vấn đề trong lĩnh vực vật liệu",
+              "en": "Be able to apply subject knowledge to analyze data using computational and simulation software to solve problems in the field of materials"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96323,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39864,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ bài tập lớn",
+                  "en": "Present group project's progress"
+                }
+              }
+            },
+            {
+              "id": 96322,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 39866,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Phân tích và thiết kế kỹ thuật ",
+        "en": "Chapter 2: Technical analysis and design"
+      }
+    },
+    {
+      "id": 46128,
+      "stt": 3,
+      "buoi": "9-12",
+      "chuandaurachitiet": [
+        {
+          "id": 61153,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận về các tiêu chuẩn, quy ước, bố trí thiết bị trong nhà máy",
+            "en": "- Discussing standards, conventions, equipment layout in the factory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Báo cáo tiến độ hoàn thành đề tài \n- Thiết kế và bố trí phân xưởng\n",
+            "en": "- Report on the progress of completing the project\n- Workshop design and layout\n"
+          },
+          "chuandaura": {
+            "id": 71169,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm hiệu quả phục vụ cho việc học tập suốt đời",
+              "en": "Be able to work effectively in a team which helps students to be lifelong learners"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96317,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39865,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo tiến độ bài tập lớn (GK)",
+                  "en": "Present group project's progress (Midterm)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 61152,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận về các tiêu chuẩn, quy ước, bố trí thiết bị trong nhà máy",
+            "en": "- Discussing standards, conventions, equipment layout in the factory"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Báo cáo tiến độ hoàn thành đề tài \n- Thiết kế và bố trí phân xưởng",
+            "en": "- Report on the progress of completing the project\n- Workshop design and layout"
+          },
+          "chuandaura": {
+            "id": 71168,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng suy luận hiệu quả bằng tiếng Anh hoặc tiếng Pháp để thiết kế nhà máy hoặc quy trình sản xuất vật liệu",
+              "en": "Be able to inference effectively in English or French to design plant factory or materials production diagrams "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96316,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 39865,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Báo cáo tiến độ bài tập lớn (GK)",
+                  "en": "Present group project's progress (Midterm)"
+                }
+              }
+            },
+            {
+              "id": 96315,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 39866,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Thiết kế phân xưởng, quy trình sản xuất. ",
+        "en": "Chapter 3: Design factory and production process "
+      }
+    },
+    {
+      "id": 46129,
+      "stt": 4,
+      "buoi": "13-16",
+      "chuandaurachitiet": [
+        {
+          "id": 61154,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-  Thảo luận về cấu trúc nhà máy, phòng kiểm nghiệm, nhà hành chính",
+            "en": "- Discuss the structure of factory, testing room, administrative house"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiểu rõ về cấu trúc nhà máy, phòng kiểm nghiệm, nhà hành chính\n- Báo cáo tiến độ hoàn thành đề tài ",
+            "en": "- Understand the structure of the factory, testing room, administrative house\n- Report on the progress of completing the project"
+          },
+          "chuandaura": {
+            "id": 71167,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Có khả năng áp dụng kiến thức môn học để phân tích dữ liệu bằng phần mềm tính toán, mô phỏng để giải quyết vấn đề trong lĩnh vực vật liệu",
+              "en": "Be able to apply subject knowledge to analyze data using computational and simulation software to solve problems in the field of materials"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96318,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39864,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ bài tập lớn",
+                  "en": "Present group project's progress"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Thiết kế mặt bằng nhà máy",
+        "en": "Chapter 4: Design factory plant"
+      }
+    },
+    {
+      "id": 46127,
+      "stt": 5,
+      "buoi": "17-20",
+      "chuandaurachitiet": [
+        {
+          "id": 61151,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thảo luận về năng suất nhà máy, nhân công, vùng nguyên liệu",
+            "en": "- Discussing factory productivity, labor, raw material area"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiểu rõ về năng suất nhà máy, nhân công, vùng nguyên liệu\n- Báo cáo tiến độ hoàn thành đề tài ",
+            "en": "- Understanding of factory productivity, labor, raw material area\n- Report on the progress of completing the project"
+          },
+          "chuandaura": {
+            "id": 71167,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Có khả năng áp dụng kiến thức môn học để phân tích dữ liệu bằng phần mềm tính toán, mô phỏng để giải quyết vấn đề trong lĩnh vực vật liệu",
+              "en": "Be able to apply subject knowledge to analyze data using computational and simulation software to solve problems in the field of materials"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96314,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39864,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ bài tập lớn",
+                  "en": "Present group project's progress"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Lập luận kinh tế kỹ thuật",
+        "en": "Chapter 5: Economic and technical aspects"
+      }
+    },
+    {
+      "id": 46130,
+      "stt": 6,
+      "buoi": "21",
+      "chuandaurachitiet": [
+        {
+          "id": 61156,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-\tĐưa ra các yêu cầu về quyền báo cáo\n-\tDặn dò những nội dung cần thiết trong báo cáo cuối kỳ\n",
+            "en": "- Listing requests for report papers.\n- Review on final report\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Nắm rõ nội dung báo cáo cuối kỳ\n- Trình bày báo cáo tiến độ đề tài\n",
+            "en": "- Understand the requirements of the final report\n- Presenting project progress reports\n"
+          },
+          "chuandaura": {
+            "id": 71169,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm hiệu quả phục vụ cho việc học tập suốt đời",
+              "en": "Be able to work effectively in a team which helps students to be lifelong learners"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96321,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39866,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thuyết trình",
+                  "en": "Presentation"
+                }
+              }
+            },
+            {
+              "id": 96320,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 39864,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ bài tập lớn",
+                  "en": "Present group project's progress"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 61155,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-\tĐưa ra các yêu cầu về quyền báo cáo\n-\tDặn dò những nội dung cần thiết trong báo cáo cuối kỳ",
+            "en": "- Listing requests for report papers.\n- Review on final report"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Nắm rõ nội dung báo cáo cuối kỳ\n- Trình bày báo cáo tiến độ đề tài\n",
+            "en": "- Understand the requirements of the final report\n- Presenting project progress reports"
+          },
+          "chuandaura": {
+            "id": 71168,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng suy luận hiệu quả bằng tiếng Anh hoặc tiếng Pháp để thiết kế nhà máy hoặc quy trình sản xuất vật liệu",
+              "en": "Be able to inference effectively in English or French to design plant factory or materials production diagrams "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 96319,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 39864,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiến độ bài tập lớn",
+                  "en": "Present group project's progress"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Báo cáo bài tập lớn",
+        "en": "Present group project "
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 71167,
+      "ma": "L.O.1",
+      "ten_vi": "Có khả năng áp dụng kiến thức môn học để phân tích dữ liệu bằng phần mềm tính toán, mô phỏng để giải quyết vấn đề trong lĩnh vực vật liệu",
+      "ten_en": "Be able to apply subject knowledge to analyze data using computational and simulation software to solve problems in the field of materials",
+      "hddg": [
+        {
+          "id": 39864,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiến độ bài tập lớn",
+          "ten_en": "Present group project's progress"
+        },
+        {
+          "id": 39866,
+          "ma": "A.O.3",
+          "ten_vi": "Thuyết trình",
+          "ten_en": "Presentation"
+        }
+      ]
+    },
+    {
+      "id": 71168,
+      "ma": "L.O.2",
+      "ten_vi": "Có khả năng suy luận hiệu quả bằng tiếng Anh hoặc tiếng Pháp để thiết kế nhà máy hoặc quy trình sản xuất vật liệu",
+      "ten_en": "Be able to inference effectively in English or French to design plant factory or materials production diagrams ",
+      "hddg": [
+        {
+          "id": 39864,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiến độ bài tập lớn",
+          "ten_en": "Present group project's progress"
+        },
+        {
+          "id": 39865,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo tiến độ bài tập lớn (GK)",
+          "ten_en": "Present group project's progress (Midterm)"
+        },
+        {
+          "id": 39866,
+          "ma": "A.O.3",
+          "ten_vi": "Thuyết trình",
+          "ten_en": "Presentation"
+        }
+      ]
+    },
+    {
+      "id": 71169,
+      "ma": "L.O.3",
+      "ten_vi": "Có khả năng làm việc nhóm hiệu quả phục vụ cho việc học tập suốt đời",
+      "ten_en": "Be able to work effectively in a team which helps students to be lifelong learners",
+      "hddg": [
+        {
+          "id": 39864,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiến độ bài tập lớn",
+          "ten_en": "Present group project's progress"
+        },
+        {
+          "id": 39865,
+          "ma": "A.O.2",
+          "ten_vi": "Báo cáo tiến độ bài tập lớn (GK)",
+          "ten_en": "Present group project's progress (Midterm)"
+        },
+        {
+          "id": 39866,
+          "ma": "A.O.3",
+          "ten_vi": "Thuyết trình",
+          "ten_en": "Presentation"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế Quy trình Sản xuất/Nhà Máy",
+  "tenmonhoc_eng": "Design of Manufacturing Process/Factory",
+  "kkt_JSON": null,
+  "phuongthucgiangday_json": null
+}

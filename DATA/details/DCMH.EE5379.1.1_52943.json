@@ -1,0 +1,1242 @@
+{
+  "ma": "DCMH.EE5379.1.1",
+  "phienban": "1.1",
+  "capnhat": "04/06/2026 15:09",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5379",
+  "ten": "EE5379 - Xử lý ảnh và video",
+  "ten_eng": "EE5379 - Video and Image Processing",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n<p>Sau khi hoàn thành học phần này, học viên có khả năng:</p>\n<ol>\n<li>\n<p>Hiểu và phân tích các nguyên lý cơ bản của hệ thống xử lý ảnh số, bao gồm thu nhận, biểu diễn và các bước xử lý ảnh cơ bản.</p>\n</li>\n<li>\n<p>Phân tích và áp dụng các kỹ thuật xử lý ảnh trong miền không gian và miền tần số nhằm cải thiện chất lượng ảnh.</p>\n</li>\n<li>\n<p>Áp dụng các phương pháp khôi phục ảnh, xử lý ảnh màu và các phép toán hình thái học trong các bài toán xử lý ảnh.</p>\n</li>\n<li>\n<p>Phân tích và áp dụng các phương pháp trích xuất đặc trưng và nhận dạng đối tượng trong ảnh.</p>\n</li>\n<li>\n<p>Thực hiện một dự án nghiên cứu nhỏ trong lĩnh vực xử lý ảnh số, bao gồm thiết kế giải pháp, triển khai thuật toán và trình bày kết quả.</p></li></ol>\n\n<br></p>",
+      "en": "<p>\n\n<p>After completing this course, students will be able to:</p>\n<ol>\n<li>\n<p>Understand and analyze the fundamental principles of digital image processing systems, including image acquisition, representation, and basic processing steps.</p>\n</li>\n<li>\n<p>Analyze and apply spatial-domain and frequency-domain techniques for image enhancement and processing.</p>\n</li>\n<li>\n<p>Apply image restoration, color image processing, and morphological operations to solve image processing problems.</p>\n</li>\n<li>\n<p>Analyze and apply feature extraction and object recognition techniques for image analysis tasks.</p>\n</li>\n<li>\n<p>Conduct a small research-oriented project in digital image processing, including solution design, algorithm implementation, and presentation of results.</p></li></ol>\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n<p>Học phần cung cấp các kiến thức nền tảng và các phương pháp cơ bản trong xử lý ảnh số. Nội dung môn học bao gồm các nguyên lý thu nhận và biểu diễn ảnh số, các kỹ thuật lấy mẫu và lượng tử hóa ảnh, các phép biến đổi và xử lý ảnh trong miền không gian và miền tần số, cũng như các phương pháp cải thiện và khôi phục chất lượng ảnh. Ngoài ra, môn học còn giới thiệu các kỹ thuật xử lý ảnh màu, xử lý hình thái học và các phương pháp cơ bản trong nhận dạng đối tượng.</p>\n<p>Thông qua học phần này, học viên có thể hiểu và phân tích các thuật toán xử lý ảnh số phổ biến, đồng thời vận dụng các kiến thức đã học để xây dựng và triển khai các giải pháp cho các bài toán xử lý ảnh trong thực tế. Học phần cũng yêu cầu học viên thực hiện một dự án nhóm nhằm nghiên cứu, triển khai và trình bày một bài toán cụ thể trong lĩnh vực xử lý ảnh số.</p>\n\n<br></p>",
+      "en": "<p>\n\n<p>This course introduces fundamental concepts and commonly used techniques in digital image processing. The course covers principles of image acquisition and representation, image sampling and quantization, spatial-domain and frequency-domain image processing techniques, as well as methods for image enhancement and restoration. In addition, the course introduces color image processing, morphological image processing, and basic techniques for object recognition.</p>\n<p>Through this course, students will be able to understand and analyze widely used image processing algorithms and apply these techniques to develop solutions for practical image processing problems. A group project is also required, in which students investigate, implement, and present a specific problem in digital image processing.</p>\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n[1] R. C. Gonzalez and R. E. Woods, Digital Image Processing, 3rd ed., Prentice-Hall, 2008.</p><p>[2] W. K. Pratt, Digital Image Processing, Wiley, 1991.&nbsp;</p><p>[3] Al. Bovik, Handbook of Image and Video Processing, Elsevier Academic Press, 2005 (ISBN: 0-12-119792-1).&nbsp;</p><p>[4] R. C. Gonzalez, R. E. Woods, S. L. Eddins, Digital Image Processing Using MATLAB, Prentice Hall, 2nd Ed.,\n2009, ISBN 9780982085400.\n\n\n<br></p>",
+      "en": "<p>\n\n<p>[1] R. C. Gonzalez and R. E. Woods, Digital Image Processing, 3rd ed., Prentice-Hall, 2008.</p><p>[2] W. K. Pratt, Digital Image Processing, Wiley, 1991. </p><p>[3] Al. Bovik, Handbook of Image and Video Processing, Elsevier Academic Press, 2005 (ISBN: 0-12-119792-1). </p><p>[4] R. C. Gonzalez, R. E. Woods, S. L. Eddins, Digital Image Processing Using MATLAB, Prentice Hall, 2nd Ed.,\n2009, ISBN 9780982085400.</p>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\nSinh viên nên tham dự đầy đủ giờ giảng trên lớp.&nbsp;</p><p>Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học và làm đề tài tiểu luận.&nbsp;</p><p>Bài tập về nhà: 20%</p><p>Bài tập lớn/Tiểu luận: 20%&nbsp;</p><p>Thi: 60%, 90 phút.&nbsp;</p><p>Điều kiện dự thi: có tham gia thực hiện và trình bày tiểu luận.&nbsp;</p><p>Thời gian thi cuối kỳ và quy định điểm đạt/không đạt theo quy chế của phòng đào tạo.\n\n<br></p>",
+      "en": "<p>Homeworks: 20%</p><p>\n\nProjects/ Group Projects: 20% (3-4 students)&nbsp;</p><p>Final exams: 60%, 90 minutes\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 9009,
+      "ma": "NG_KVT_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Kỹ Thuật Viễn Thông ",
+        "en": "Master Training Program in Telecommunications Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 8101,
+      "ma": "003905",
+      "ten": "VÕ TUẤN KIỆT"
+    },
+    {
+      "id": 466,
+      "ma": "001925",
+      "ten": "HÀ HOÀNG KHA"
+    },
+    {
+      "id": 473,
+      "ma": "002330",
+      "ten": "NGUYỄN THANH TUẤN"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1040,
+      "maBoMon": "KTT",
+      "tenBoMon": {
+        "vi": "Viễn Thông"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Khoa Điện - Điện tử",
+      "dienThoai": "(028) 38647256 ext. 7746"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 8101,
+        "maGiangVien": "003905",
+        "tenGiangVien": "VÕ TUẤN KIỆT",
+        "emailGiangVien": "kietvo@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 91035,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 91036,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "91035",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 91037,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "91035",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      }
+    },
+    {
+      "id": 91038,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "91035",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Thuyết trình đề tài",
+        "en": "Project Presentation"
+      },
+      "noidung": {
+        "vi": "Thuyết trình đề tài",
+        "en": "Project Presentation"
+      }
+    },
+    {
+      "id": 91039,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "91035",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Demo đề tài",
+        "en": "Project Demo"
+      },
+      "noidung": {
+        "vi": "Demo đề tài",
+        "en": "Project Demo"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 112885,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 150357,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày, trao đổi với sinh viên - Trình\nbày bài giảng - Trao đổi, thảo luận trên các ví dụ",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": " - Trao đổi, thảo luận về nội dung môn học,\ncách thức đánh giá và thực hiện tiểu luận - Lắng\nnghe và đặt câu hỏi",
+            "en": "- Take notes"
+          },
+          "chuandaura": {
+            "id": 241660,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích các nguyên lý và mô hình toán học của hệ thống xử lý ảnh số, bao gồm thu nhận ảnh, lấy mẫu, lượng tử hóa và biểu diễn ảnh.",
+              "en": "Analyze the fundamental principles and mathematical models of digital image processing systems, including image acquisition, sampling, quantization, and image representation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246826,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246828,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về xử lý ảnh số\n- Tổng quan về xử lý ảnh số\n- Các ứng dụng của xử lý ảnh\n- Mối quan hệ giữa xử lý ảnh, phân tích ảnh và thị giác máy tính",
+        "en": "Introduction to Digital Image Processing\nOverview of digital image processing, applications, and its relationship with image analysis and computer vision."
+      }
+    },
+    {
+      "id": 112883,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 150353,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày, trao đổi với sinh viên - Trình\nbày bài giảng - Trao đổi, thảo luận trên các ví dụ",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe và đặt câu hỏi \n- Trao đổi, thảo luận trên các bài tập ví dụ \n- Đọc tài liệu được giao và làm bài tập về nhà",
+            "en": "- Take notes\n- Do Homeworks"
+          },
+          "chuandaura": {
+            "id": 241661,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Đánh giá các phương pháp biến đổi cường độ ảnh và các đặc trưng thống kê để cải thiện chất lượng ảnh.",
+              "en": "Evaluate image intensity transformation methods and statistical characteristics for improving image quality."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246815,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246825,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cơ bản về ảnh số\n-Hệ thống thu nhận và biểu diễn ảnh\n-Lấy mẫu và lượng tử hóa ảnh\n-Các đặc tính cơ bản của ảnh số\n-Biến đổi cường độ ảnh\n-Histogram và các kỹ thuật xử lý histogram",
+        "en": "Digital Image Fundamentals\nImage acquisition systems, sampling and quantization, image characteristics, intensity transformations, and histogram processing."
+      }
+    },
+    {
+      "id": 112881,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 150358,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày, trao đổi với sinh viên - Trình\nbày bài giảng - Trao đổi, thảo luận trên các ví dụ",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe và đặt câu hỏi \n- Trao đổi, thảo luận trên các bài tập ví dụ \n- Đọc tài liệu được giao và làm bài tập về nhà",
+            "en": "- Take notes\n- Do Homeworks"
+          },
+          "chuandaura": {
+            "id": 241662,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân tích và thiết kế các thuật toán lọc ảnh trong miền không gian nhằm cải thiện hoặc trích xuất thông tin từ ảnh số.",
+              "en": "Analyze and design spatial-domain image filtering algorithms for image enhancement and information extraction."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246827,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246829,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Lọc ảnh trong miền không gian\n-Nguyên lý lọc ảnh trong miền không gian\n-Bộ lọc làm mịn ảnh\n-Bộ lọc làm sắc nét ảnh\n-Kết hợp các phương pháp cải thiện ảnh",
+        "en": "Spatial Domain Image Filtering\nFundamentals of spatial filtering, smoothing filters, sharpening filters, and combined enhancement techniques."
+      }
+    },
+    {
+      "id": 112889,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 150354,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày, trao đổi với sinh viên - Trình\nbày bài giảng - Trao đổi, thảo luận trên các ví dụ",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe và đặt câu hỏi \n- Trao đổi, thảo luận trên các bài tập ví dụ\n - Đọc tài liệu được giao và làm bài tập về nhà",
+            "en": "- Take notes\n- Do Homeworks"
+          },
+          "chuandaura": {
+            "id": 241663,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Đánh giá và triển khai các phương pháp xử lý ảnh trong miền tần số dựa trên biến đổi Fourier để giải quyết các bài toán lọc và tăng cường ảnh.",
+              "en": "Evaluate and implement frequency-domain image processing techniques based on Fourier transforms for filtering and image enhancement tasks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246816,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246830,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Lọc ảnh trong miền tần số\n-Phép biến đổi Fourier trong xử lý ảnh\n-Biến đổi Fourier rời rạc (DFT)\n-Các tính chất của DFT\n-Lọc ảnh trong miền tần số",
+        "en": "Frequency Domain Image Processing\nFourier transform in image processing, discrete Fourier transform, frequency-domain filtering"
+      }
+    },
+    {
+      "id": 112887,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 150359,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày, trao đổi với sinh viên - Trình\nbày bài giảng - Trao đổi, thảo luận trên các ví dụ",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe và đặt câu hỏi - Trao đổi, thảo\nluận trên các bài tập ví dụ Về nhà: - Đọc tài liệu\nđược giao và làm bài tập về nhà",
+            "en": "- Take notes \n- Do homeworks"
+          },
+          "chuandaura": {
+            "id": 241664,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích và áp dụng các mô hình suy giảm ảnh và các thuật toán khôi phục ảnh nhằm tái tạo thông tin từ ảnh bị nhiễu hoặc méo dạng.",
+              "en": "Analyze degradation models and apply image restoration algorithms to recover information from noisy or distorted images."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246817,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246818,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khôi phục ảnh\n- Các mô hình nhiễu, đặc tính của nhiễu trong miền không gian và miền tần số\n- Khôi phục ảnh dùng các bộ lọc trong miền không gian\n- Khôi phục ảnh dùng các bộ lọc trong miền tần số\n- Méo dạng ảnh và khôi phục ảnh bị méo dạng",
+        "en": "Image Restoration and Reconstruction\n- A Model of the Image Degradation/Restoration Process\n- Noise Models\n- Restoration in the Presence of Noise Only—Spatial Filtering\n- Periodic Noise Reduction Using Frequency Domain Filtering\n- Estimating the Degradation Function\n- Image Reconstruction from Projections"
+      }
+    },
+    {
+      "id": 112888,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 150356,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng - Trao đổi, thảo luận\ntrên các ví dụ",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe và đặt câu hỏi \n- Trao đổi, thảo luận trên các bài tập ví dụ \n- Đọc tài liệu được giao và làm bài tập về nhà",
+            "en": "- Take Notes\n- Do Homeworks"
+          },
+          "chuandaura": {
+            "id": 241665,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thiết kế các phương pháp xử lý ảnh màu và xử lý hình thái học để phân đoạn và trích xuất đặc trưng từ ảnh số.",
+              "en": "Design color image processing and morphological techniques for image segmentation and feature extraction."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246819,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246820,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Xử lý ảnh màu\n- Cơ bản về ảnh màu\n- Các mô hình màu\n- Các phép biến đổi và xử lý ảnh màu\n- Phân đoạn ảnh dựa trên màu sắc",
+        "en": "Color Image Processing\n- Color Fundamentals\n- Color Models\n- Basics of Full-Color Image Processing\n- Color Transformations\n- Color Image Smoothing and Sharpening\n- Using Color in Image Segmentation"
+      }
+    },
+    {
+      "id": 112884,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 150360,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": " - Trình bày bài giảng \n- Trao đổi, thảo luận trên các ví dụ",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe và đặt câu hỏi \n- Trao đổi, thảo luận trên các bài tập ví dụ\n- Đọc tài liệu được giao và làm bài tập về nhà",
+            "en": "- Take Notes\n- Do Homeworks"
+          },
+          "chuandaura": {
+            "id": 241665,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thiết kế các phương pháp xử lý ảnh màu và xử lý hình thái học để phân đoạn và trích xuất đặc trưng từ ảnh số.",
+              "en": "Design color image processing and morphological techniques for image segmentation and feature extraction."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246821,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246822,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Xử lý hình thái học ảnh\n- Các khái niệm cơ bản\n- Các giải thuật biến đổi hình thái học cơ bản\n- Xử lý hình thái học trên ảnh nhị phân và ảnh mức xám",
+        "en": "Morphological Image Processing\n- Preliminaries\n- Basic morphological operators\n- Binary and Gray-scale Morphology"
+      }
+    },
+    {
+      "id": 112882,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 150361,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng \n- Trao đổi, thảo luận trên các ví dụ\n",
+            "en": "- Present slides"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lắng nghe và đặt câu hỏi \n- Trao đổi, thảo luận trên các bài tập ví dụ \n- Đọc tài liệu được giao và làm bài tập về nhà",
+            "en": "- Take notes \n- Do Homeworks"
+          },
+          "chuandaura": {
+            "id": 241666,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phân tích và lựa chọn các đặc trưng và thuật toán phân loại để xây dựng hệ thống nhận dạng đối tượng trong ảnh.",
+              "en": "Analyze and select appropriate feature descriptors and classification algorithms for object recognition systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246823,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91036,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 246824,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91037,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhận dạng đối tượng\n-Các khái niệm cơ bản trong nhận dạng đối tượng\n-Đặc trưng biểu diễn đối tượng\n-Các thuật toán phân loại cơ bản",
+        "en": "Object Recognition\nObject features and basic classification algorithms for object recognition."
+      }
+    },
+    {
+      "id": 112886,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 150355,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Xem trước báo cáo của các nhóm, các khó khăn gặp phải \n- Đánh giá công việc của nhóm dựa trên kết quả thực hiện, nội dung báo cáo và cách thức trình bày báo cáo trước lớp",
+            "en": "- Final project evaluation/grading"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Gửi báo cáo tiểu luận cho giáo viên phụ trách trễ nhất là 2 ngày trước buổi học.\n - Chuẩn bị slide thuyết trình để báo cáo tiểu luận. Phân chia phần trình bày cho các thành viên trong nhóm. \n- Chuẩn bị phần demo kết quả thực hiện được.",
+            "en": "- Present/Demo final projects"
+          },
+          "chuandaura": {
+            "id": 241667,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phát triển và trình bày một dự án xử lý ảnh số ở mức nghiên cứu, bao gồm thiết kế giải pháp, triển khai thuật toán và đánh giá kết quả.",
+              "en": "Develop and present a research-oriented digital image processing project, including solution design, algorithm implementation, and performance evaluation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 246832,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 91038,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thuyết trình đề tài",
+                  "en": "Project Presentation"
+                }
+              }
+            },
+            {
+              "id": 246831,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 91039,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Demo đề tài",
+                  "en": "Project Demo"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Báo cáo tiểu luận\n",
+        "en": "Final Project Presentations"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 241660,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phân tích các nguyên lý và mô hình toán học của hệ thống xử lý ảnh số, bao gồm thu nhận ảnh, lấy mẫu, lượng tử hóa và biểu diễn ảnh.",
+      "ten_en": "Analyze the fundamental principles and mathematical models of digital image processing systems, including image acquisition, sampling, quantization, and image representation.",
+      "hddg": [
+        {
+          "id": 91036,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 91037,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 241661,
+      "ma": "L.O.1.2",
+      "ten_vi": "Đánh giá các phương pháp biến đổi cường độ ảnh và các đặc trưng thống kê để cải thiện chất lượng ảnh.",
+      "ten_en": "Evaluate image intensity transformation methods and statistical characteristics for improving image quality.",
+      "hddg": [
+        {
+          "id": 91036,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 91037,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 241662,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phân tích và thiết kế các thuật toán lọc ảnh trong miền không gian nhằm cải thiện hoặc trích xuất thông tin từ ảnh số.",
+      "ten_en": "Analyze and design spatial-domain image filtering algorithms for image enhancement and information extraction.",
+      "hddg": [
+        {
+          "id": 91036,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 91037,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 241663,
+      "ma": "L.O.2.2",
+      "ten_vi": "Đánh giá và triển khai các phương pháp xử lý ảnh trong miền tần số dựa trên biến đổi Fourier để giải quyết các bài toán lọc và tăng cường ảnh.",
+      "ten_en": "Evaluate and implement frequency-domain image processing techniques based on Fourier transforms for filtering and image enhancement tasks.",
+      "hddg": [
+        {
+          "id": 91036,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 91037,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 241664,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phân tích và áp dụng các mô hình suy giảm ảnh và các thuật toán khôi phục ảnh nhằm tái tạo thông tin từ ảnh bị nhiễu hoặc méo dạng.",
+      "ten_en": "Analyze degradation models and apply image restoration algorithms to recover information from noisy or distorted images.",
+      "hddg": [
+        {
+          "id": 91036,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 91037,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 241665,
+      "ma": "L.O.3.2",
+      "ten_vi": "Thiết kế các phương pháp xử lý ảnh màu và xử lý hình thái học để phân đoạn và trích xuất đặc trưng từ ảnh số.",
+      "ten_en": "Design color image processing and morphological techniques for image segmentation and feature extraction.",
+      "hddg": [
+        {
+          "id": 91036,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 91037,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 241666,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phân tích và lựa chọn các đặc trưng và thuật toán phân loại để xây dựng hệ thống nhận dạng đối tượng trong ảnh.",
+      "ten_en": "Analyze and select appropriate feature descriptors and classification algorithms for object recognition systems.",
+      "hddg": [
+        {
+          "id": 91036,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 91037,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 241667,
+      "ma": "L.O.4.2",
+      "ten_vi": "Phát triển và trình bày một dự án xử lý ảnh số ở mức nghiên cứu, bao gồm thiết kế giải pháp, triển khai thuật toán và đánh giá kết quả.",
+      "ten_en": "Develop and present a research-oriented digital image processing project, including solution design, algorithm implementation, and performance evaluation.",
+      "hddg": [
+        {
+          "id": 91038,
+          "ma": "A.O.3",
+          "ten_vi": "Thuyết trình đề tài",
+          "ten_en": "Project Presentation"
+        },
+        {
+          "id": 91039,
+          "ma": "A.O.4",
+          "ten_vi": "Demo đề tài",
+          "ten_en": "Project Demo"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Xử lý ảnh và video",
+  "tenmonhoc_eng": "Video and Image Processing",
+  "kkt_JSON": null,
+  "phuongthucgiangday_json": null
+}

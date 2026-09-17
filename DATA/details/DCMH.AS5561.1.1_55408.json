@@ -1,0 +1,1980 @@
+{
+  "ma": "DCMH.AS5561.1.1",
+  "phienban": "1.1",
+  "capnhat": "28/07/2026 09:55",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS5561",
+  "ten": "AS5561 - Giải tích đa trị",
+  "ten_eng": "AS5561 - Analysis of Multi-valued Functions",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\nMôn học cung cấp cho học viên các kiến thức nền tảng và chuyên sâu về giải tích đa trị, bao gồm lý thuyết giới hạn và tính liên tục của ánh xạ đa trị, quá trình lồi đóng, sự tồn tại và ổn định của điểm cân bằng, nón tiếp xúc và các khái niệm đạo hàm suy rộng của ánh xạ đa trị. Thông qua môn học, học viên được trang bị các công cụ toán học hiện đại phục vụ nghiên cứu trong giải tích biến phân, tối ưu hóa, lý thuyết cân bằng, điều khiển và các lĩnh vực liên quan của toán ứng dụng.\n\n<br></p>",
+      "en": "<p>\n\nThis course provides students with fundamental and advanced knowledge of set-valued analysis, including limits and continuity of set-valued mappings, closed convex processes, existence and stability of equilibria, tangent cones, and generalized derivatives of set-valued maps. The course equips students with modern mathematical tools for research in variational analysis, optimization, equilibrium theory, control systems, and related areas of applied mathematics.\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nMôn học trình bày một cách hệ thống các khái niệm, phương pháp và kết quả cơ bản của giải tích đa trị trên các không gian tô pô và không gian định chuẩn. Nội dung bao gồm giới hạn và tính liên tục của ánh xạ đa trị, quá trình lồi đóng, điểm cân bằng, nón tiếp xúc, đạo hàm suy rộng và các công cụ giải tích biến phân hiện đại. Các kiến thức này được sử dụng để nghiên cứu các bài toán tối ưu, cân bằng và điều khiển, đồng thời tạo nền tảng cho học viên tiếp cận các hướng nghiên cứu chuyên sâu trong giải tích biến phân và tối ưu hóa.\n\n<br></p>",
+      "en": "<p>\n\nThis course presents a systematic study of fundamental concepts, methods, and results in set-valued analysis on topological and normed spaces. Topics include limits and continuity of set-valued mappings, closed convex processes, equilibrium problems, tangent cones, generalized derivatives, and modern tools of variational analysis. These concepts are applied to optimization, equilibrium, and control problems and provide a foundation for advanced research in variational analysis and optimization.\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] <b>Huỳnh Thị Hồng Diễm,</b> Giải tích đa trị, NXB ĐHQG-HCM, 2020</p><p>[2] \n\n<strong>Clason, C., &amp; Valkonen, T,&nbsp;</strong><em>Introduction to Nonsmooth Analysis and Optimization</em>. Springer, 2020.</p><p>[3]&nbsp;\n\n<strong>Gaudioso, M., Giallombardo, G., Karmitsa, N., Mäkelä, M. M., &amp; Taheri, S. (Eds.),&nbsp;</strong><em>Numerical Nonsmooth Optimization</em>. Springer Nature, 2020.</p>",
+      "en": "<p>\n\n</p><p>[1] <b>Huỳnh Thị Hồng Diễm,</b> Giải tích đa trị, NXB ĐHQG-HCM, 2020</p><p>[2] \n\n<strong>Clason, C., &amp; Valkonen, T, </strong><em>Introduction to Nonsmooth Analysis and Optimization</em>. Springer, 2020.</p><p>[3] \n\n<strong>Gaudioso, M., Giallombardo, G., Karmitsa, N., Mäkelä, M. M., &amp; Taheri, S. (Eds.), </strong><em>Numerical Nonsmooth Optimization</em>. Springer Nature, 2020.</p>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "",
+      "en": ""
+    },
+    "ghiChu": {
+      "vi": "<p>\n\nHọc viên cần đọc giáo trình, tài liệu tham khảo và hoàn thành đầy đủ các bài tập được giao. Khuyến khích học viên chủ động tìm hiểu các tài liệu nghiên cứu liên quan, tham gia thảo luận và trình bày các vấn đề chuyên môn trong quá trình học tập.\n\n<br></p>",
+      "en": "<p>\n\nStudents are required to study the textbook and reference materials and complete all assigned exercises. They are encouraged to actively explore relevant research literature, participate in academic discussions, and present mathematical topics throughout the course.\n\n<br></p>"
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 10057,
+      "ma": "NG_8460112",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Toán Ứng dụng",
+        "en": "Coursework Master Program in Applied Mathematics"
+      }
+    },
+    {
+      "id": 10079,
+      "ma": "NG_8460112",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Toán Ứng dụng",
+        "en": "Research-intensive Master Program in Applied Mathematics"
+      }
+    },
+    {
+      "id": 10078,
+      "ma": "NG_8460112",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Toán Ứng dụng",
+        "en": "Research-oriented Master Program in Applied Mathematics"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 4696,
+      "ma": "003730",
+      "ten": "HUỲNH THỊ HỒNG DIỄM"
+    },
+    {
+      "id": 12048,
+      "ma": "004275",
+      "ten": "ĐẶNG HẢI LONG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.83,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1080,
+      "maBoMon": "TUD",
+      "tenBoMon": {
+        "vi": "Toán ứng Dụng"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "P. 104B4 - 268 Lý Thường Kiệt, P. Diên Hồng, Tp. HCM",
+      "dienThoai": "7314"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 4696,
+        "maGiangVien": "003730",
+        "tenGiangVien": "HUỲNH THỊ HỒNG DIỄM",
+        "emailGiangVien": "hthdiem@hcmut.edu.vn"
+      },
+      {
+        "id": 12048,
+        "maGiangVien": "004275",
+        "tenGiangVien": "ĐẶNG HẢI LONG",
+        "emailGiangVien": "danghailong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 95433,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 95434,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "95433",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thuyết trình trên lớp",
+        "en": "Thuyết trình trên lớp"
+      },
+      "noidung": {
+        "vi": "Class Presentation",
+        "en": "Thuyết trình trên lớp"
+      }
+    },
+    {
+      "id": 95435,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "95433",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn ",
+        "en": "Bài tập lớn "
+      },
+      "noidung": {
+        "vi": "Project",
+        "en": "Project"
+      }
+    },
+    {
+      "id": 95436,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "95433",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ ",
+        "en": "Thi cuối kỳ "
+      },
+      "noidung": {
+        "vi": "Final examination ",
+        "en": "Final examination "
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 119427,
+      "stt": 1,
+      "buoi": "1/1",
+      "chuandaurachitiet": [
+        {
+          "id": 159353,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày khái niệm ánh xạ đa trị và các ví dụ trong tối ưu hóa.",
+            "en": "Present concepts of set-valued mappings and examples in optimization."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia thảo luận, trả lời câu hỏi và phân tích các ví dụ minh họa.",
+            "en": "Participate in discussions and analyze illustrative examples."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263635,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159359,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu học phần, động cơ nghiên cứu.Giới thiệu đề cương học phần",
+            "en": "Introduce the course syllabus"
+          },
+          "hoatdongsinhvien": {
+            "vi": "câu hỏi và phân tích các ví dụ minh họa.",
+            "en": "Participate in discussions and analyze illustrative examples."
+          },
+          "chuandaura": {
+            "id": 256797,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và vận dụng các khái niệm, tính chất và kết quả cơ bản của giải tích đa trị, bao gồm ánh xạ đa trị, tính liên tục, tính đóng, tính lồi và các khái niệm hội tụ của tập hợp.",
+              "en": "Analyze and apply fundamental concepts, properties, and results of set-valued analysis, including set-valued mappings, continuity, closedness, convexity, and set convergence concepts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263613,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            },
+            {
+              "id": 263642,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Giới thiệu về giải tích đa trị\n1.1. Khái niệm ánh xạ đa trị\n1.2. Miền xác định, miền giá trị, đồ thị",
+        "en": "Chapter 1. Introduction to Set-Valued Analysis\n1.1 Set-valued mappings\n1.2 Domain, range and graph"
+      }
+    },
+    {
+      "id": 119420,
+      "stt": 2,
+      "buoi": "2/1",
+      "chuandaurachitiet": [
+        {
+          "id": 159333,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày tính chất và ví dụ minh họa.",
+            "en": "Present  properties and examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập và thảo luận nhóm.",
+            "en": "Solve exercises and participate in group discussions."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263604,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159352,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày định nghĩa",
+            "en": "Present definitions"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập và thảo luận nhóm.",
+            "en": "Solve exercises and participate in group discussions."
+          },
+          "chuandaura": {
+            "id": 256797,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và vận dụng các khái niệm, tính chất và kết quả cơ bản của giải tích đa trị, bao gồm ánh xạ đa trị, tính liên tục, tính đóng, tính lồi và các khái niệm hội tụ của tập hợp.",
+              "en": "Analyze and apply fundamental concepts, properties, and results of set-valued analysis, including set-valued mappings, continuity, closedness, convexity, and set convergence concepts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263603,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            },
+            {
+              "id": 263623,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Giới thiệu về giải tích đa trị \n1.3. Tính đóng của ánh xạ đa trị.  \n1.4. Tính compact địa phương.",
+        "en": "Chapter 1. Introduction to Set-Valued Analysis\n1.3. Closed multifunctions\n1.4. Local compactness properties."
+      }
+    },
+    {
+      "id": 119430,
+      "stt": 3,
+      "buoi": "3/2",
+      "chuandaurachitiet": [
+        {
+          "id": 159339,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chứng minh các kết quả cơ bản",
+            "en": "Prove fundamental results."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghiên cứu ví dụ và giải bài tập áp dụng.",
+            "en": "Study examples and solve application problems."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263626,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159350,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng giải các khái niệm liên tục.",
+            "en": "Explain continuity concepts."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghiên cứu ví dụ và giải bài tập áp dụng.",
+            "en": "Study examples and solve application problems."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263628,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            },
+            {
+              "id": 263608,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Tính liên tục của ánh xạ đa trị. \n2.1. Nửa liên tục trên.  \n2.2. Nửa liên tục dưới \n2.3. Liên tục Hausdorff",
+        "en": "Chapter 2. Continuity of Set-Valued Mappings\n2.1. Upper semicontinuity\n2.2. Lower semicontinuity\n2.3. Hausdorff continuity"
+      }
+    },
+    {
+      "id": 119432,
+      "stt": 4,
+      "buoi": "4/3",
+      "chuandaurachitiet": [
+        {
+          "id": 159334,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết về tính lồi.",
+            "en": "Present theory on convexity."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải bài tập và trình bày lời giải trên lớp.",
+            "en": "Solve exercises and present solutions."
+          },
+          "chuandaura": {
+            "id": 256797,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và vận dụng các khái niệm, tính chất và kết quả cơ bản của giải tích đa trị, bao gồm ánh xạ đa trị, tính liên tục, tính đóng, tính lồi và các khái niệm hội tụ của tập hợp.",
+              "en": "Analyze and apply fundamental concepts, properties, and results of set-valued analysis, including set-valued mappings, continuity, closedness, convexity, and set convergence concepts."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263621,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            },
+            {
+              "id": 263616,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159348,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bàycác định lý cơ bản về tính lồi. ",
+            "en": "Present fundamental theorems on convexity."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải bài tập và trình bày lời giải trên lớp.",
+            "en": "Solve exercises and present solutions."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263632,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Tính lồi trong giải tích đa trị \n3.1. Tập lồi và bao lồi \n3.2. Ánh xạ đa trị lồi ",
+        "en": "Chapter 3. Convexity in Set-Valued Analysis\n3.1. Convex sets and convex hulls\n3.2. Convex set-valued mappings"
+      }
+    },
+    {
+      "id": 119426,
+      "stt": 5,
+      "buoi": "5/4",
+      "chuandaurachitiet": [
+        {
+          "id": 159344,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu các  ứng dụng trong tối ưu hóa.",
+            "en": "Introduce  applications in optimization."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận các ví dụ hội tụ của tập hợp.",
+            "en": "Discuss examples of set convergence."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263629,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159337,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu các khái niệm hội tụ  trong tối ưu hóa.",
+            "en": "Introduce convergence concepts in optimization."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận các ví dụ hội tụ của tập hợp.",
+            "en": "Discuss examples of set convergence."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263618,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            },
+            {
+              "id": 263625,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Hội tụ của tập hợp\n4.1. Giới hạn Painlevé–Kuratowski\n4.2. Hội tụ Hausdorff",
+        "en": " Chapter 4. Set Convergence\n4.1.  Painlevé–Kuratowski limits\n4.2. Hausdorff convergence"
+      }
+    },
+    {
+      "id": 119419,
+      "stt": 6,
+      "buoi": "6/5",
+      "chuandaurachitiet": [
+        {
+          "id": 159340,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình  ứng dụng. ",
+            "en": "Present  applications."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích chứng minh và ví dụ.",
+            "en": "Analyze proofs and examples."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263634,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159357,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày định lý.",
+            "en": "Present theorems."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích chứng minh và ví dụ.",
+            "en": "Analyze proofs and examples."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263637,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            },
+            {
+              "id": 263609,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Định lý chọn và điểm bất động\n5.1. Michael Selection Theorem\n5.2. Kakutani Fixed Point Theorem",
+        "en": "Chapter 5. Selection and Fixed Point Theorems\n5.1. Michael Selection Theorem\n5.2. Kakutani Fixed Point Theorem"
+      }
+    },
+    {
+      "id": 119422,
+      "stt": 7,
+      "buoi": "7/6",
+      "chuandaurachitiet": [
+        {
+          "id": 159341,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Minh họa hình học.",
+            "en": "Geometric interpretations."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải bài tập và thảo luận nhóm.",
+            "en": "Solve exercises and participate in discussions."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263602,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159360,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết.",
+            "en": "Present theory."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải bài tập và thảo luận nhóm.",
+            "en": "Solve exercises and participate in discussions."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263638,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            },
+            {
+              "id": 263619,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Nón tiếp xúc và nón pháp tuyến\n6.1. Bouligand tangent cone\n6.2. Clarke tangent cone\n6.3. Normal cones",
+        "en": "Chapter 6. Tangent and Normal Cones\n6.1. Bouligand tangent cone\n6.2. Clarke tangent cone\n6.3. Normal cones"
+      }
+    },
+    {
+      "id": 119423,
+      "stt": 8,
+      "buoi": "8/7",
+      "chuandaurachitiet": [
+        {
+          "id": 159332,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày  phương pháp tính toán.",
+            "en": "Present computational techniques."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành tính dưới vi phân.",
+            "en": "Practice subdifferential calculations."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263639,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159347,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày khái niệm.",
+            "en": "Present concepts."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành tính dưới vi phân.",
+            "en": "Practice subdifferential calculations."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263605,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            },
+            {
+              "id": 263620,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Đạo hàm suy rộng và dưới vi phân \n7.1. Clarke subdifferential\n7.2. Mordukhovich subdifferential",
+        "en": "Chapter 7. Generalized Derivatives and Subdifferentials Subdifferentials\n7.1. Clarke subdifferential\n7.2. Mordukhovich subdifferential"
+      }
+    },
+    {
+      "id": 119433,
+      "stt": 9,
+      "buoi": "9/8",
+      "chuandaurachitiet": [
+        {
+          "id": 159338,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày mô hình.",
+            "en": "Present models."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các bài toán tối ưu mẫu.",
+            "en": "Solve sample optimization problems."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263614,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            },
+            {
+              "id": 263610,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159349,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày  điều kiện tối ưu. ",
+            "en": "Present  optimality conditions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các bài toán tối ưu mẫu.",
+            "en": "Solve sample optimization problems."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263624,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. Bài toán tối ưu với ánh xạ đa trị ",
+        "en": "Chapter 8. Optimization Problems Involving Set-Valued Maps"
+      }
+    },
+    {
+      "id": 119424,
+      "stt": 10,
+      "buoi": "10/9",
+      "chuandaurachitiet": [
+        {
+          "id": 159358,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết.",
+            "en": "Present theory."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và giải bài tập.",
+            "en": "Discussion and exercises."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263627,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            },
+            {
+              "id": 263631,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159354,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảngứng dụng. ",
+            "en": "Present  applications."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và giải bài tập.",
+            "en": "Discussion and exercises."
+          },
+          "chuandaura": {
+            "id": 256766,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả nghiên cứu hiện đại liên quan đến giải tích đa trị và các ứng dụng trong tối ưu hóa và khoa học dữ liệu thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Conduct independent investigations and present contemporary research results related to set-valued analysis and its applications in optimization and data science through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263630,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9. Bất đẳng thức biến phân ",
+        "en": "Chapter 9. Variational Inequalities"
+      }
+    },
+    {
+      "id": 119429,
+      "stt": 11,
+      "buoi": "11/10",
+      "chuandaurachitiet": [
+        {
+          "id": 159356,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lý thuyết bài toán cân bằng ",
+            "en": "Teaching the Theory of Equilibrium Problems"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các ví dụ ứng dụng.",
+            "en": "Solve application examples."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263611,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159351,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xây dựng mô hình cân bằng.",
+            "en": "Explain equilibrium models."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các ví dụ ứng dụng.",
+            "en": "Solve application examples."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263622,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            },
+            {
+              "id": 263617,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10. Bài toán cân bằng",
+        "en": "Chapter 10. Equilibrium Problems"
+      }
+    },
+    {
+      "id": 119428,
+      "stt": 12,
+      "buoi": "12/11",
+      "chuandaurachitiet": [
+        {
+          "id": 159346,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết.",
+            "en": "Present examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập áp dụng.",
+            "en": "Solve applications."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263615,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159355,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng ứng dụng.",
+            "en": "Present applications."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận và giải bài tập.",
+            "en": "Discussion and exercises."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263636,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12. Ánh xạ nghiệm và tính liên tục nghiệm ",
+        "en": "Chapter 12. Solution Mappings and Continuity of Solutions"
+      }
+    },
+    {
+      "id": 119431,
+      "stt": 13,
+      "buoi": "13/12",
+      "chuandaurachitiet": [
+        {
+          "id": 159342,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng  ví dụ.",
+            "en": "Present examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập áp dụng.",
+            "en": "Solve applications."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263633,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159335,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết.",
+            "en": "Present theory."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập áp dụng.",
+            "en": "Solve applications."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263606,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12. Ánh xạ nghiệm và tính liên tục nghiệm ",
+        "en": "Chapter 12. Solution Mappings and Continuity of Solutions"
+      }
+    },
+    {
+      "id": 119425,
+      "stt": 14,
+      "buoi": "14/13",
+      "chuandaurachitiet": [
+        {
+          "id": 159345,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các khái niệm hội tụ hiện đại 13.2 .",
+            "en": "Present modern convergence concepts 13.2"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Đọc tài liệu nghiên cứu và thảo luận.",
+            "en": "Read research papers and discuss."
+          },
+          "chuandaura": {
+            "id": 256709,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+              "en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263640,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159343,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày các khái niệm hội tụ hiện đại 13.1 ",
+            "en": "Present modern convergence concepts 13.1"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Đọc tài liệu nghiên cứu và thảo luận.",
+            "en": "Read research papers and discuss."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263607,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95436,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ ",
+                  "en": "Thi cuối kỳ "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 13. Hội tụ biến phân và xấp xỉ\n13.1. Epi-convergence\n13.2. Graphical convergence",
+        "en": "Chapter 13. Variational Convergence and Approximation\n13.1. Epi-convergence\n13.2. Graphical convergence"
+      }
+    },
+    {
+      "id": 119421,
+      "stt": 15,
+      "buoi": "15/14",
+      "chuandaurachitiet": [
+        {
+          "id": 159336,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Tổ chức seminar, hướng dẫn phản biện học thuật.",
+            "en": "Organize seminar and guide academic discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thuyết trình nhóm, phản biện và thảo luận.",
+            "en": "Group presentation, peer review and discussion."
+          },
+          "chuandaura": {
+            "id": 256766,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả nghiên cứu hiện đại liên quan đến giải tích đa trị và các ứng dụng trong tối ưu hóa và khoa học dữ liệu thông qua seminar hoặc dự án nghiên cứu.",
+              "en": "Conduct independent investigations and present contemporary research results related to set-valued analysis and its applications in optimization and data science through seminars or research projects."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263641,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95434,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thuyết trình trên lớp",
+                  "en": "Thuyết trình trên lớp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 159361,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Ứng dụng trong tối ưu hóa, cân bằng, khoa học dữ liệu và học máy.",
+            "en": "Applications in optimization, equilibrium, data science and machine learning."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thuyết trình nhóm, phản biện và thảo luận.",
+            "en": "Group presentation, peer review and discussion."
+          },
+          "chuandaura": {
+            "id": 256774,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+              "en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 263612,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95435,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Bài tập lớn "
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 14. Seminar nghiên cứu và ứng dụng hiện đại ",
+        "en": "Chapter 14. Research Seminar and Modern Applications"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 256797,
+      "ma": "L.O.1",
+      "ten_vi": "Phân tích và vận dụng các khái niệm, tính chất và kết quả cơ bản của giải tích đa trị, bao gồm ánh xạ đa trị, tính liên tục, tính đóng, tính lồi và các khái niệm hội tụ của tập hợp.",
+      "ten_en": "Analyze and apply fundamental concepts, properties, and results of set-valued analysis, including set-valued mappings, continuity, closedness, convexity, and set convergence concepts.",
+      "hddg": [
+        {
+          "id": 95434,
+          "ma": "A.O.1",
+          "ten_vi": "Thuyết trình trên lớp",
+          "ten_en": "Thuyết trình trên lớp"
+        },
+        {
+          "id": 95435,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Bài tập lớn "
+        }
+      ]
+    },
+    {
+      "id": 256709,
+      "ma": "L.O.2",
+      "ten_vi": "Vận dụng các công cụ của giải tích đa trị để nghiên cứu các bài toán tối ưu hóa, bất đẳng thức biến phân, bài toán cân bằng và các mô hình toán học đa trị.",
+      "ten_en": "Apply tools of set-valued analysis to investigate optimization problems, variational inequalities, equilibrium problems, and set-valued mathematical models.",
+      "hddg": [
+        {
+          "id": 95434,
+          "ma": "A.O.1",
+          "ten_vi": "Thuyết trình trên lớp",
+          "ten_en": "Thuyết trình trên lớp"
+        },
+        {
+          "id": 95435,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Bài tập lớn "
+        },
+        {
+          "id": 95436,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ ",
+          "ten_en": "Thi cuối kỳ "
+        }
+      ]
+    },
+    {
+      "id": 256774,
+      "ma": "L.O.3",
+      "ten_vi": "Phân tích tính ổn định, tính liên tục nghiệm và cấu trúc tập nghiệm của các bài toán tối ưu hóa và cân bằng dưới tác động của nhiễu hoặc tham số.",
+      "ten_en": "Analyze stability, solution continuity, and solution set structures of optimization and equilibrium problems under perturbations or parameter variations.",
+      "hddg": [
+        {
+          "id": 95434,
+          "ma": "A.O.1",
+          "ten_vi": "Thuyết trình trên lớp",
+          "ten_en": "Thuyết trình trên lớp"
+        },
+        {
+          "id": 95435,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Bài tập lớn "
+        },
+        {
+          "id": 95436,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ ",
+          "ten_en": "Thi cuối kỳ "
+        }
+      ]
+    },
+    {
+      "id": 256766,
+      "ma": "L.O.4",
+      "ten_vi": "Thực hiện nghiên cứu độc lập, trình bày và thảo luận các kết quả nghiên cứu hiện đại liên quan đến giải tích đa trị và các ứng dụng trong tối ưu hóa và khoa học dữ liệu thông qua seminar hoặc dự án nghiên cứu.",
+      "ten_en": "Conduct independent investigations and present contemporary research results related to set-valued analysis and its applications in optimization and data science through seminars or research projects.",
+      "hddg": [
+        {
+          "id": 95434,
+          "ma": "A.O.1",
+          "ten_vi": "Thuyết trình trên lớp",
+          "ten_en": "Thuyết trình trên lớp"
+        },
+        {
+          "id": 95435,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Bài tập lớn "
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Giải tích đa trị",
+  "tenmonhoc_eng": "Analysis of Multi-valued Functions",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": null
+}

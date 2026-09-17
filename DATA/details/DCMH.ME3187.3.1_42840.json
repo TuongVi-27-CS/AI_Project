@@ -1,0 +1,1702 @@
+{
+  "ma": "DCMH.ME3187.3.1",
+  "phienban": "2.1",
+  "capnhat": "27/01/2026 08:23",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME3187",
+  "ten": "ME3187 - Robot di động",
+  "ten_eng": "ME3187 - Mobile Robot",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học trang bị cho sinh viên những các kiến thức và kỹ thuật cơ bản được sử dụng trong lĩnh vực robot di động, tập trung vào phân tích, mô hình hóa và điều khiển robot di động dạng di chuyển bằng bánh. Các vấn đề về xây dựng hệ thống tự hành cũng được thảo luận như phân tích lựa chọn cảm biến, thu thập thông tin, các phương pháp định vị, hoạch định hoạt động cho robot.<br></p>",
+      "en": "<p>The course aims to provide students with fundamental knowledge and techniques for mobile robotics, focusing on the analysis, modeling and control of wheeled mobile robots. Topics for the development of autonomous systems are also discussed, such as sensor selection and analysis, information collection, localization methods, and robot operation planning.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Nội dung môn học bao gồm các kiến thức liên quan đến robot di động, tập trung vào robot di động bằng bánh và xe tự hành, như:<br></p><ul><li>Tổng quan về robot di động, phân loại và các cơ chế di chuyển của robot di động.</li><li>Phân tích động học học cho robot di động dạng có bánh.</li><li>Mô hình hóa và điều khiển robot di động.</li><li>Các cảm biến phổ biến được sử dụng trong robot di động và các chiến lược trích xuất thông tin từ các cảm biến.</li><li>Định vị và lập bản đồ cho robot di động.</li><li>Lập kế hoạch và điều hướng robot di động.</li></ul><p></p>",
+      "en": "<p>The main content includes knowledge about mobile robots, focusing on wheeled mobile robots toward autonomous systems, such as:<br>•  Introduction to mobile robots, types, and locomotion of mobile robots.<br>•  Kinematics of wheeled mobile robots.<br>•  Modeling and control paradigms for mobile robots.<br>•  Common sensors used in mobile robots and strategies for extracting information from the sensors.<br>•  Localization and mapping for mobile robots.<br>•  Planning and navigation of mobile robots.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Tài liệu học tập có thể được tải xuống từ hệ thống e-learning. Các slide bài giảng được cập nhật hàng tuần theo tiến độ học tập trên lớp. Bên cạnh đó, sinh viên có thể tự học, tìm hiểu sâu hơn thông qua các tài liệu sau:<br>Giáo trình:<br>[1]  Luc Jaulin, Mobile Robotics, 2nd edition, Wiley, 2019.<br>[2] Spyros G. Tzafestas, Introduction to mobile robot Control, Elsevier, 2014.<br>[3]  Gregor Klancar et. al, Wheeled Mobile Robotics From Fundamentals Towards Autonomous Systems, Butterworth-Heinemann, 2017.</p><p>Tài liệu tham khảo:<br>\n\n[1] Illah Reza Nourbakhsh and Roland Siegwart, Introduction to Autonomous Mobile Robots, 2nd edition, MIT Press, 2011.\n\n<br>[2]  Sebastian Thrun, Wolfram Burgard, and Dieter Fox, Probabilistic Robotics, MIT Press, 2005.<br>\n\n[3] Bruno Siciliano, Oussama Khatib (eds.), Springer Handbook of Robotics, Springer, 2016.\n\n<br>[4]  Xiang Gao, Tao Zhang, Introduction to visual SLAM: from Theory to Practice, Springer, 2021.<br>[5]  Francisco Martin Rico, A Concise Introduction to Robot Programming with ROS2, CRC Press, 2022. <br><br></p>",
+      "en": "<p>Study materials can be downloaded from the e-learning system. Lecture slides are updated weekly according to class progress. In addition, students can self-study and learn more through the following documents:<br>Textbooks:<br>\n\n[1]  Luc Jaulin, Mobile Robotics, 2nd edition, Wiley, 2019.<br>[2] Spyros G. Tzafestas, Introduction to mobile robot Control, Elsevier, 2014.<br>[3]  Gregor Klancar et. al, Wheeled Mobile Robotics From Fundamentals Towards Autonomous Systems, Butterworth-Heinemann, 2017.</p><p>References:<br>\n\n[1] Illah Reza Nourbakhsh and Roland Siegwart, Introduction to Autonomous Mobile Robots, 2nd edition, MIT Press, 2011.\n\n<br>[2]  Sebastian Thrun, Wolfram Burgard, and Dieter Fox, Probabilistic Robotics, MIT Press, 2005.<br>\n\n[3] Bruno Siciliano, Oussama Khatib (eds.), Springer Handbook of Robotics, Springer, 2016.\n\n<br>[4]  Xiang Gao, Tao Zhang, Introduction to visual SLAM: from Theory to Practice, Springer, 2021.<br>[5]  Francisco Martin Rico, A Concise Introduction to Robot Programming with ROS2, CRC Press, 2022.\n\n<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên LMS hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học bao gồm bài tập (40%), bài tập lớn/tiểu luận (30%) và thi (30%).<br>+ Bài tập:<br>Bài tập trên lớp (cá nhân): 40%<br>+ Quá trình:<br>Bài tập lớn: 30%<br>+ Thi:<br>Thi cuối kỳ: 30%. Thi cuối kỳ có thể ở dạng Trắc nghiệm, tự luận hoặc kết hợp cả hai.&nbsp;</p><p>Điều kiện dự thi:<br>Sinh viên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm danh chuyên cần). Ngoài ra, sinh viên phải hoàn thành tất cả bài tập trên lớp và 70% bài tập về nhà. Nếu sinh viên nào không tham gia buổi thuyết trình của nhóm thì điểm thuyết trình của sinh viên đó sẽ bằng không.<br><br>Sinh viên cần lưu ý thời hạn nộp bài tập. Nộp muộn sẽ không được chấp nhận nếu không có một lý do chính đáng đã được trình bày và phê duyệt của giảng viên trước ngày đến hạn. Bài tập nộp muộn cho phép sẽ bị trừ đi 2 điểm đối với mỗi ngày nộp trễ.<br></p><p>Quy định về Liêm chính học thuật và sử dụng công cụ AI<br>- Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.<br>- Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.<br>- Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.<br>- Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.<br></p>",
+      "en": "<p>\n\nLearning materials are uploaded to LMS weekly. Students download, print, and bring those materials to class. The final course score is assessed throughout the study including exercises (40%), major assignment/essay (30%), and the final exam (30%).<br>+ Exercises:<br>Class assignments (individual): 40%<br>+ Process:<br>Major assignment: 30%<br>+ Exam:<br>Final exam: 30%. The final exam can be in the form of: Multiple choices, Writing, or Combination of both.&nbsp;<br></p><p>Requirement for taking the final exam:<br>-  Students must attend class lectures at least 70% of the course time<br>-  Students must complete all homework on time and group presentations if any. Students should note the deadline for submitting assignments. Late submissions will not be accepted without a valid reason approved by the instructor. Any late submission of assignments will result in a deduction of 2 points for each day of late submission.<br><br></p><p>\n\nAcademic Integrity and use of AI tools<br>- Students must comply with the university’s academic integrity regulations.<br>- The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.<br>- When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.<br>- Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.<br>\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1392,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho trương trình đào tạo toàn khóa",
+        "en": "Áp dụng cho trương trình đào tạo toàn khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 10989,
+      "ma": "004212",
+      "ten": "PHÙNG THANH HUY"
+    },
+    {
+      "id": 915,
+      "ma": "002588",
+      "ten": "PHÙNG TRÍ CÔNG"
+    },
+    {
+      "id": 10988,
+      "ma": "004211",
+      "ten": "NGUYỄN DUY ÁNH"
+    },
+    {
+      "id": 916,
+      "ma": "002917",
+      "ten": "LÊ ĐỨC HẠNH"
+    },
+    {
+      "id": 912,
+      "ma": "002342",
+      "ten": "TRẦN VIỆT HỒNG"
+    },
+    {
+      "id": 13688,
+      "ma": "004344",
+      "ten": "NGUYỄN ĐẠI ĐỒNG"
+    },
+    {
+      "id": 973,
+      "ma": "002335",
+      "ten": "VÕ TƯỜNG QUÂN"
+    },
+    {
+      "id": 907,
+      "ma": "001612",
+      "ten": "NGUYỄN TẤN TIẾN"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 151,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 4,
+        "ma": "80",
+        "thoigian": 80,
+        "text": {
+          "vi": "80 phút",
+          "en": "80 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 40,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Phòng 210 - Tòa nhà B11",
+      "dienThoai": "(84-28) 3886811"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 10989,
+        "maGiangVien": "004212",
+        "tenGiangVien": "PHÙNG THANH HUY",
+        "emailGiangVien": "huypt@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME3011 - Động lực học và Điều khiển",
+        "en": "ME3011 - Dynamic Systems and Control"
+      },
+      "tenmonhoc_only": {
+        "vi": "Động lực học và Điều khiển",
+        "en": "Dynamic Systems and Control"
+      },
+      "mamonhoc": "ME3011"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 71156,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 71157,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "71156",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "AIC"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "AIC"
+      }
+    },
+    {
+      "id": 71161,
+      "stt": 0,
+      "ma": "A.O.1.1",
+      "capdo": "2",
+      "parentid": "71157",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#1",
+        "en": "AIC#1"
+      },
+      "noidung": {
+        "vi": "AIC#1",
+        "en": "AIC#1"
+      }
+    },
+    {
+      "id": 71162,
+      "stt": 0,
+      "ma": "A.O.1.2",
+      "capdo": "2",
+      "parentid": "71157",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#2",
+        "en": "AIC#2"
+      },
+      "noidung": {
+        "vi": "AIC#2",
+        "en": "AIC#2"
+      }
+    },
+    {
+      "id": 71163,
+      "stt": 0,
+      "ma": "A.O.1.3",
+      "capdo": "2",
+      "parentid": "71157",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#3",
+        "en": "AIC#3"
+      },
+      "noidung": {
+        "vi": "AIC#3",
+        "en": "AIC#3"
+      }
+    },
+    {
+      "id": 71164,
+      "stt": 0,
+      "ma": "A.O.1.4",
+      "capdo": "2",
+      "parentid": "71157",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#4",
+        "en": "AIC#4"
+      },
+      "noidung": {
+        "vi": "AIC#4",
+        "en": "AIC#4"
+      }
+    },
+    {
+      "id": 71165,
+      "stt": 0,
+      "ma": "A.O.1.5",
+      "capdo": "2",
+      "parentid": "71157",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#5",
+        "en": "AIC#5"
+      },
+      "noidung": {
+        "vi": "AIC#5",
+        "en": "AIC#5"
+      }
+    },
+    {
+      "id": 71166,
+      "stt": 0,
+      "ma": "A.O.1.6",
+      "capdo": "2",
+      "parentid": "71157",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "AIC#6",
+        "en": "AIC#6"
+      },
+      "noidung": {
+        "vi": "AIC#6",
+        "en": "AIC#6"
+      }
+    },
+    {
+      "id": 71158,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "71156",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group Homework"
+      }
+    },
+    {
+      "id": 71167,
+      "stt": 0,
+      "ma": "A.O.2.1",
+      "capdo": "2",
+      "parentid": "71158",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#1",
+        "en": "GHW#1"
+      },
+      "noidung": {
+        "vi": "GHW#1",
+        "en": "GHW#1"
+      }
+    },
+    {
+      "id": 71168,
+      "stt": 0,
+      "ma": "A.O.2.2",
+      "capdo": "2",
+      "parentid": "71158",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#2",
+        "en": "GHW#2"
+      },
+      "noidung": {
+        "vi": "GHW#2",
+        "en": "GHW#2"
+      }
+    },
+    {
+      "id": 71169,
+      "stt": 0,
+      "ma": "A.O.2.3",
+      "capdo": "2",
+      "parentid": "71158",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#3",
+        "en": "GHW#3"
+      },
+      "noidung": {
+        "vi": "GHW#3",
+        "en": "GHW#3"
+      }
+    },
+    {
+      "id": 71170,
+      "stt": 0,
+      "ma": "A.O.2.4",
+      "capdo": "2",
+      "parentid": "71158",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#4",
+        "en": "GHW#4"
+      },
+      "noidung": {
+        "vi": "GHW#4",
+        "en": "GHW#4"
+      }
+    },
+    {
+      "id": 71171,
+      "stt": 0,
+      "ma": "A.O.2.5",
+      "capdo": "2",
+      "parentid": "71158",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#5",
+        "en": "GHW#5"
+      },
+      "noidung": {
+        "vi": "GHW#5",
+        "en": "GHW#5"
+      }
+    },
+    {
+      "id": 71172,
+      "stt": 0,
+      "ma": "A.O.2.6",
+      "capdo": "2",
+      "parentid": "71158",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "GHW#6",
+        "en": "GHW#6"
+      },
+      "noidung": {
+        "vi": "GHW#6",
+        "en": "GHW#6"
+      }
+    },
+    {
+      "id": 71159,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "71156",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      }
+    },
+    {
+      "id": 71160,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "71156",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi",
+        "en": "Exam"
+      },
+      "noidung": {
+        "vi": "Thi",
+        "en": "Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 84210,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 107096,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu môn học.\n- Thống nhất quy tắc làm việc.\n- Phân nhóm.\n- Thuyết giảng: Tổng quan về robot di động.",
+            "en": "- Introduction to the course.\n- Agree on rules.\n- Organize teams.\n- Lecture: Introduction to mobile robots."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chia nhóm.\n- Làm việc nhóm.\n- Ghi chép - thảo luận. ",
+            "en": "- Divide to teams.\n- Work in teams. \n- Take notes and discuss. "
+          },
+          "chuandaura": {
+            "id": 180523,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả và giải thích các khái niệm cơ bản, phân loại và ứng dụng của robot di động",
+              "en": "Describe and explain fundamental concepts, classifications, and applications of mobile robots."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167564,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71161,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "AIC#1",
+                  "en": "AIC#1"
+                }
+              }
+            },
+            {
+              "id": 167543,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71167,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "GHW#1",
+                  "en": "GHW#1"
+                }
+              }
+            },
+            {
+              "id": 167567,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 107098,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. ",
+            "en": "- Give lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Ghi chú.\n- Thảo luận nhóm.\n",
+            "en": "- Take notes.\n- Discuss. "
+          },
+          "chuandaura": {
+            "id": 180524,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích các cơ chế di chuyển của robot di động và các đặc tính cơ bản liên quan",
+              "en": "Explain locomotion mechanisms of mobile robots and their basic characteristics"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167552,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71161,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "AIC#1",
+                  "en": "AIC#1"
+                }
+              }
+            },
+            {
+              "id": 167565,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71167,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "GHW#1",
+                  "en": "GHW#1"
+                }
+              }
+            },
+            {
+              "id": 167570,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Giới thiệu học phần, mục tiêu, chuẩn đầu ra\n- Đề xuất chia nhóm. \n- Tổng quan về robot di động:\n    + Khái niệm robot di động và hệ thống robot di động\n    + Phân loại robot di động theo cơ chế di chuyển\n    + Ứng dụng robot di động trong công nghiệp và dịch vụ\n    + Tổng quan kiến trúc hệ thống robot di động\n- Tham chiếu: Chương 1 [1], Chương 1 [3].",
+        "en": "- Course introduction, objectives, learning outcomes, and assessment methods\n- Prepare groups for teamwork. \n- Introduction to mobile robots.\n   + Definition and scope of mobile robotics\n   + Classification of mobile robots based on locomotion mechanisms\n   + Applications of mobile robots in industry, logistics, service, and research\n   + Overview of mobile robot system architecture (mechanical, sensing, control, software)\n- References: [1] Chapter 1 and [3] Chapter 1. "
+      }
+    },
+    {
+      "id": 84207,
+      "stt": 2,
+      "buoi": "2-3",
+      "chuandaurachitiet": [
+        {
+          "id": 107091,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Mô tả các mô hình mô phỏng động học của robot di chuyển bằng bánh trên Matlab/ Simulink. ",
+            "en": "- Give lectures.\n- Demonstrate the robot kinematic models by using MATLAB/ Simulink. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Ghi chú.\n- Hoạt động nhóm. \n- Thực hiện mô phỏng và làm bài tập. ",
+            "en": "- Take notes.\n- Discuss. \n- Do exercises and simulation. "
+          },
+          "chuandaura": {
+            "id": 180526,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Giải thích cấu trúc, nguyên lý hoạt động và phân tích chuyển động của robot di chuyển bằng bánh",
+              "en": "Explain the structure, operating principles and analyze the kinematic motion of wheeled mobile robots using basic mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167551,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71162,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "AIC#2",
+                  "en": "AIC#2"
+                }
+              }
+            },
+            {
+              "id": 167558,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71168,
+                "ma": "A.O.2.2",
+                "ten": {
+                  "vi": "GHW#2",
+                  "en": "GHW#2"
+                }
+              }
+            },
+            {
+              "id": 167561,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Xác nhận đề tài cho từng nhóm.\n- Động học của robot di chuyển bằng bánh:\n   + Cấu trúc cơ khí robot di động bằng bánh\n   + Các cơ chế bánh xe và đánh lái. \n   + Hệ tọa độ robot và môi trường\n   + Động học thuận và động học nghịch\n   + Ràng buộc không holonomic\n   + Ảnh hưởng thiết kế cơ khí đến chuyển động\n   + Giới thiệu về động lực học cho robot di chuyển bằng bánh. \n- Buổi ThL1: Tổng quan về mobile robot và phân tích chuyển động. Xây dựng mô hình mô phỏng động học trên Matlab/Simulink.\n- Tham chiếu: [1] Chương 2, [3] Chương 2, 3.",
+        "en": "- Determine group projects.\n- Motion analysis for wheeled mobile robot: \n   + Mechanical structure of wheeled mobile robots\n   + Wheel configurations and steering mechanisms\n   + Robot and world coordinate frames\n   + Forward and inverse kinematics of wheeled mobile robots\n   + Non-holonomic motion constraints\n   + Influence of mechanical design on robot mobility\n   + Introduction to wheeled mobile robot dynamics\n- ThL1: Overview and motion analysis for mobile robots. Implement kinematic model by using Matlab/Simulink. \n- References: [1] Chapter 2. [3] Chapters 2, 3."
+      }
+    },
+    {
+      "id": 84211,
+      "stt": 3,
+      "buoi": "4-5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 107095,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n",
+            "en": "- Give lectures. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Ghi chú.\n- Thảo luận. \n- Làm bài tập. ",
+            "en": "- Take notes.\n- Discuss.\n- Do exercises. "
+          },
+          "chuandaura": {
+            "id": 180529,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích nguyên lý hoạt động và đặc tính của các loại cảm biến phổ biến dùng trong robot di động",
+              "en": "Analyze sensing principles and characteristics of common sensors used in mobile robots"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167566,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71163,
+                "ma": "A.O.1.3",
+                "ten": {
+                  "vi": "AIC#3",
+                  "en": "AIC#3"
+                }
+              }
+            },
+            {
+              "id": 167568,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71169,
+                "ma": "A.O.2.3",
+                "ten": {
+                  "vi": "GHW#3",
+                  "en": "GHW#3"
+                }
+              }
+            },
+            {
+              "id": 167546,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 167557,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71159,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 107094,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. ",
+            "en": "- Give lecture. "
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Ghi chú.\n- Thảo luận. \n- Làm bài tập. ",
+            "en": "- Take notes.\n- Discuss.\n- Do exercises. "
+          },
+          "chuandaura": {
+            "id": 180530,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Vận dụng các kỹ thuật xử lý tín hiệu và trích xuất thông tin cơ bản để diễn giải dữ liệu cảm biến",
+              "en": "Apply basic signal processing and information extraction techniques to interpret sensor data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167569,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71163,
+                "ma": "A.O.1.3",
+                "ten": {
+                  "vi": "AIC#3",
+                  "en": "AIC#3"
+                }
+              }
+            },
+            {
+              "id": 167544,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71169,
+                "ma": "A.O.2.3",
+                "ten": {
+                  "vi": "GHW#3",
+                  "en": "GHW#3"
+                }
+              }
+            },
+            {
+              "id": 167547,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Nhắc nhở tiến độ bài tập lớn.\n- Cảm biến và nhận diện môi trường:\n   + Vai trò cảm biến trong robot di động\n   + Các loại cảm biến phổ biến cho robot di động\n   + Sai số, nhiễu và drift của cảm biến\n   + Tiền xử lý và trích xuất thông tin từ cảm biến\n   + Liên hệ cảm biến với bài toán định vị\n- Buổi ThL2: Cảm biến, nhận diện môi trường và xử lý tín hiệu.\n- Tham chiếu: [1] Chương 3, [3] Chương 4. ",
+        "en": "- Check group project progress. \n- Sensor and Perception:\n   + Role of sensors in mobile robotic systems\n   + Popular sensors and uses. \n   + Sensor characteristics, noise, drift, and uncertainty\n   + Signal preprocessing and basic filtering techniques\n   + Information extraction from sensor data\n   + Relationship between sensing, localization, and mapping\n- ThL2: Data/ Signal processing and filtering. \n- References: [1] Chapter 3, [3] Chapter 4. "
+      }
+    },
+    {
+      "id": 84212,
+      "stt": 4,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 107093,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Thực hiện xây dựng và mô phỏng các bộ điều khiển bằng Matlab/Simulink.",
+            "en": "- Give lecture.\n- Explain and demonstrate the controllers using Matlab/ Simulink."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Ghi chú.\n- Thảo luận.\n- Thực hiện bài tập và mô phỏng. ",
+            "en": "- Take notes.\n- Discuss.\n- Do exercises and simulation. "
+          },
+          "chuandaura": {
+            "id": 180527,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Mô tả một số bộ điều khiển chuyển động cho robot di chuyển bằng bánh",
+              "en": "Describe some motion control methods for wheeled robots"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167554,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71164,
+                "ma": "A.O.1.4",
+                "ten": {
+                  "vi": "AIC#4",
+                  "en": "AIC#4"
+                }
+              }
+            },
+            {
+              "id": 167563,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71170,
+                "ma": "A.O.2.4",
+                "ten": {
+                  "vi": "GHW#4",
+                  "en": "GHW#4"
+                }
+              }
+            },
+            {
+              "id": 167562,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 167550,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71159,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Kiểm tra tiến độ bài tập lớn. \n- Điều khiển robot.\n   + Bài toán điều khiển robot di động\n   + Điều khiển tốc độ và chuyển động bánh xe\n   + Điều khiển robot trong mặt phẳng\n   + Điều khiển bám quỹ đạo\n   + Một số bộ điều khiển cho robot di động\n   + Ảnh hưởng tham số điều khiển\n- Buổi ThL3: Xây dựng và mô phỏng bộ điều khiển. \n- Tham chiếu: [2] Chương 2, 3, [3] Chương 5. ",
+        "en": "- Check the progress of the group project. \n- Control of mobile robot:\n   + Overview of control problems in mobile robotics\n   + Wheel speed and motion control\n   + Control of robot motion in the planar workspace\n   + Trajectory tracking control\n   + Introduction to some controllers for wheeled mobile robots\n   + Effect of controller parameters on robot performance\nThL3: Design and simulation of mobile robot controllers using Matlab/Simulink.\nReferences: [2] Chapters 2, 3, [3] Chapter 5. "
+      }
+    },
+    {
+      "id": 84208,
+      "stt": 5,
+      "buoi": "9-10-11",
+      "chuandaurachitiet": [
+        {
+          "id": 107092,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng. \n- Mô tả các thuật toán bằng máy tính (Matlab/ Simulink, ROS).",
+            "en": "- Give lecture.\n- Describe the methods using computer software (Matlab/ Simulink, ROS)."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Ghi chú.\n- Thảo luận. \n- Làm bài tập, thực hiện mô phỏng. ",
+            "en": "- Take notes.\n- Discuss.\n- Do exercises and simulation. "
+          },
+          "chuandaura": {
+            "id": 180532,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Giải thích và phân tích các phương pháp định vị và lập bản đồ phổ biến cho robot di động, bao gồm nguyên lý của SLAM",
+              "en": "Explain and analyze common localization and mapping methods for mobile robots, including the principles of SLAM"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167559,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71165,
+                "ma": "A.O.1.5",
+                "ten": {
+                  "vi": "AIC#5",
+                  "en": "AIC#5"
+                }
+              }
+            },
+            {
+              "id": 167545,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71171,
+                "ma": "A.O.2.5",
+                "ten": {
+                  "vi": "GHW#5",
+                  "en": "GHW#5"
+                }
+              }
+            },
+            {
+              "id": 167555,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 167549,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71159,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Nhắc nhở tiến độ BTL.\n- Định vị, lập bản đồ cho robot và SLAM.\n   + Bài toán định vị robot di động\n   + Odometry và dead reckoning\n   + Sensor-based localization\n   + Giới thiệu SLAM\n   + EKF-SLAM và Particle Filter SLAM (mức nguyên lý)\n   + Biểu diễn bản đồ môi trường\n- Buổi ThL4: Mô phỏng định vị và SLAM (Matlab or ROS)\n- Tham chiếu: [1] Chương 4, 5, [3] Chương 6. ",
+        "en": "- Check the progress of the group project. \n- Localization, mapping, and SLAM:\n   + Mobile robot localization problem\n   + Odometry and dead reckoning\n   + Sensor-based localization\n   + Introduction to SLAM\n   + EKF-SLAM and Particle Filter SLAM (conceptual level)\n   + Map representations for mobile robots\n- ThL4: Localization and SLAM simulation using Matlab/Simulink or ROS.\n- References: [1] Chapter 4, 5, [3] Chapter 6. "
+      }
+    },
+    {
+      "id": 84209,
+      "stt": 6,
+      "buoi": "12-13-14",
+      "chuandaurachitiet": [
+        {
+          "id": 107097,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Thuyết giảng.\n- Mô tả các phương pháp bằng phần mềm mô phỏng (Matlab/Simulink, ROS,...)",
+            "en": "- Give lecture.\n- Describe the methods by computer software (Matlab/ Simulink/ROS,...)"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Ghi chú.\n- Thảo luận. \n- Làm bài tập và mô phỏng. ",
+            "en": "- Take notes.\n- Discuss.\n- Do exercises and simulation."
+          },
+          "chuandaura": {
+            "id": 180533,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Giải thích và phân tích các chiến lược điều khiển chuyển động, điều hướng và hoạch định tác vụ cơ bản cho robot di động",
+              "en": "Explain and analyze basic motion control, navigation, and task planning strategies for mobile robots"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 167553,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 71166,
+                "ma": "A.O.1.6",
+                "ten": {
+                  "vi": "AIC#6",
+                  "en": "AIC#6"
+                }
+              }
+            },
+            {
+              "id": 167560,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 71172,
+                "ma": "A.O.2.6",
+                "ten": {
+                  "vi": "GHW#6",
+                  "en": "GHW#6"
+                }
+              }
+            },
+            {
+              "id": 167556,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 71160,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            },
+            {
+              "id": 167548,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 71159,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "- Kiểm tra tiến độ BTL.\n- Hoạch định tác vụ cho robot di động: \n   + Tổng quan bài toán hoạch định\n   + Biểu diễn môi trường (grid, graph)\n   + Thuật toán tìm đường: Dijkstra, A*\n   + Hoạch định toàn cục và cục bộ\n   + Tránh vật cản\n   + Điều hướng robot di động tự hành\n- Buổi ThL5, ThL6: Hoạch định các tác vụ cho robot di động.\n- Tham chiếu: [3] Chương 7, [1] Chương 6. ",
+        "en": "- Check the progress of group projects. \n- Task planning for mobile robots.\n   + Overview of motion planning problems in mobile robotics\n   + Environment representation (Grid maps/ Graph-based maps)\n   + Path planning algorithms (Dijkstra/ A*)\n   + Global and local planning\n   + Obstacle avoidance\n   + Autonomous navigation of mobile robots\n- ThL5, ThL6: Motion planning and navigation simulation using Matlab/Simulink or ROS.\n- References: [3] Chapter 7, [1] Chapter 6.  "
+      }
+    },
+    {
+      "id": 84206,
+      "stt": 7,
+      "buoi": "15",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Tổng kết, báo cáo BTL.",
+        "en": "Present group project.\nCourse concluding. "
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 180523,
+      "ma": "L.O.1.1",
+      "ten_vi": "Mô tả và giải thích các khái niệm cơ bản, phân loại và ứng dụng của robot di động",
+      "ten_en": "Describe and explain fundamental concepts, classifications, and applications of mobile robots.",
+      "hddg": [
+        {
+          "id": 71161,
+          "ma": "A.O.1.1",
+          "ten_vi": "AIC#1",
+          "ten_en": "AIC#1"
+        },
+        {
+          "id": 71167,
+          "ma": "A.O.2.1",
+          "ten_vi": "GHW#1",
+          "ten_en": "GHW#1"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 180524,
+      "ma": "L.O.1.2",
+      "ten_vi": "Giải thích các cơ chế di chuyển của robot di động và các đặc tính cơ bản liên quan",
+      "ten_en": "Explain locomotion mechanisms of mobile robots and their basic characteristics",
+      "hddg": [
+        {
+          "id": 71161,
+          "ma": "A.O.1.1",
+          "ten_vi": "AIC#1",
+          "ten_en": "AIC#1"
+        },
+        {
+          "id": 71167,
+          "ma": "A.O.2.1",
+          "ten_vi": "GHW#1",
+          "ten_en": "GHW#1"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 180526,
+      "ma": "L.O.2.1",
+      "ten_vi": "Giải thích cấu trúc, nguyên lý hoạt động và phân tích chuyển động của robot di chuyển bằng bánh",
+      "ten_en": "Explain the structure, operating principles and analyze the kinematic motion of wheeled mobile robots using basic mathematical models.",
+      "hddg": [
+        {
+          "id": 71162,
+          "ma": "A.O.1.2",
+          "ten_vi": "AIC#2",
+          "ten_en": "AIC#2"
+        },
+        {
+          "id": 71168,
+          "ma": "A.O.2.2",
+          "ten_vi": "GHW#2",
+          "ten_en": "GHW#2"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 180527,
+      "ma": "L.O.2.2",
+      "ten_vi": "Mô tả một số bộ điều khiển chuyển động cho robot di chuyển bằng bánh",
+      "ten_en": "Describe some motion control methods for wheeled robots",
+      "hddg": [
+        {
+          "id": 71164,
+          "ma": "A.O.1.4",
+          "ten_vi": "AIC#4",
+          "ten_en": "AIC#4"
+        },
+        {
+          "id": 71170,
+          "ma": "A.O.2.4",
+          "ten_vi": "GHW#4",
+          "ten_en": "GHW#4"
+        },
+        {
+          "id": 71159,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 180529,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phân tích nguyên lý hoạt động và đặc tính của các loại cảm biến phổ biến dùng trong robot di động",
+      "ten_en": "Analyze sensing principles and characteristics of common sensors used in mobile robots",
+      "hddg": [
+        {
+          "id": 71163,
+          "ma": "A.O.1.3",
+          "ten_vi": "AIC#3",
+          "ten_en": "AIC#3"
+        },
+        {
+          "id": 71169,
+          "ma": "A.O.2.3",
+          "ten_vi": "GHW#3",
+          "ten_en": "GHW#3"
+        },
+        {
+          "id": 71159,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 180530,
+      "ma": "L.O.3.2",
+      "ten_vi": "Vận dụng các kỹ thuật xử lý tín hiệu và trích xuất thông tin cơ bản để diễn giải dữ liệu cảm biến",
+      "ten_en": "Apply basic signal processing and information extraction techniques to interpret sensor data",
+      "hddg": [
+        {
+          "id": 71163,
+          "ma": "A.O.1.3",
+          "ten_vi": "AIC#3",
+          "ten_en": "AIC#3"
+        },
+        {
+          "id": 71169,
+          "ma": "A.O.2.3",
+          "ten_vi": "GHW#3",
+          "ten_en": "GHW#3"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 180532,
+      "ma": "L.O.4.1",
+      "ten_vi": "Giải thích và phân tích các phương pháp định vị và lập bản đồ phổ biến cho robot di động, bao gồm nguyên lý của SLAM",
+      "ten_en": "Explain and analyze common localization and mapping methods for mobile robots, including the principles of SLAM",
+      "hddg": [
+        {
+          "id": 71165,
+          "ma": "A.O.1.5",
+          "ten_vi": "AIC#5",
+          "ten_en": "AIC#5"
+        },
+        {
+          "id": 71171,
+          "ma": "A.O.2.5",
+          "ten_vi": "GHW#5",
+          "ten_en": "GHW#5"
+        },
+        {
+          "id": 71159,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 180533,
+      "ma": "L.O.4.2",
+      "ten_vi": "Giải thích và phân tích các chiến lược điều khiển chuyển động, điều hướng và hoạch định tác vụ cơ bản cho robot di động",
+      "ten_en": "Explain and analyze basic motion control, navigation, and task planning strategies for mobile robots",
+      "hddg": [
+        {
+          "id": 71166,
+          "ma": "A.O.1.6",
+          "ten_vi": "AIC#6",
+          "ten_en": "AIC#6"
+        },
+        {
+          "id": 71172,
+          "ma": "A.O.2.6",
+          "ten_vi": "GHW#6",
+          "ten_en": "GHW#6"
+        },
+        {
+          "id": 71159,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 71160,
+          "ma": "A.O.4",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Robot di động",
+  "tenmonhoc_eng": "Mobile Robot",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

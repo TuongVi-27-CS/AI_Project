@@ -1,0 +1,1177 @@
+{
+  "ma": "DCMH.CH5645.2.1",
+  "phienban": "2.1",
+  "capnhat": "10/03/2026 16:23",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Hóa Học",
+    "en": "Faculty of Chemical Engineering"
+  },
+  "mamonhoc": "CH5645",
+  "ten": "CH5645 - Tính toán mềm trong công nghệ hóa học",
+  "ten_eng": "CH5645 - Soft computing in Chemical Engineering",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n<p>Sau khi hoàn thành khóa học, người học có khả năng:</p><ol><li><p>Hiểu được sự khác biệt giữa mô hình hóa cơ bản (First principles) và mô hình hóa dựa trên dữ liệu (Data-driven).</p></li><li><p>Áp dụng Mạng Nơ-ron Nhân tạo (ANN) để mô phỏng các quá trình hóa học phức tạp.</p></li><li><p>Sử dụng Logic Mờ (Fuzzy Logic) trong điều khiển quá trình.</p></li><li><p>Ứng dụng Giải thuật Di truyền (Genetic Algorithms) để tối ưu hóa vận hành nhà máy.</p></li></ol>\n\n<br></p>",
+      "en": "<p>\n\n<p>Upon completion of this course, learners will be able to:</p><ol><li><p>Understand the distinction between First-principles modeling and Data-driven modeling.</p></li><li><p>Apply <b>Artificial Neural Networks (ANN)</b> to simulate complex chemical processes.</p></li><li><p>Utilize <b>Fuzzy Logic</b> for process control and decision-making under uncertainty.</p></li><li><p>Apply <b>Genetic Algorithms (GA)</b> for optimizing plant operations and process parameters.</p></li></ol>\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n<p>Môn học này giới thiệu các phương pháp tính toán thông minh hiện đại nhằm giải quyết các bài toán phức tạp, phi tuyến tính và chứa đựng sự không chắc chắn trong Kỹ thuật Hóa học mà các mô hình toán học truyền thống (Hard Computing) khó xử lý hiệu quả.</p><p>Nội dung trọng tâm tập trung vào ba trụ cột chính của Tính toán mềm:</p><ol><li><p><b>Mạng Nơ-ron Nhân tạo (Artificial Neural Networks - ANN):</b> Ứng dụng trong việc mô hình hóa các quá trình \"hộp đen\" (black-box), dự đoán tính chất vật lý và xây dựng cảm biến mềm (soft sensors).</p></li><li><p><b>Logic Mờ (Fuzzy Logic):</b> Ứng dụng trong việc xử lý dữ liệu không chính xác và thiết kế các bộ điều khiển thông minh phỏng theo tư duy con người.</p></li><li><p><b>Tính toán Tiến hóa (Evolutionary Computation):</b> Với trọng tâm là <b>Giải thuật Di truyền (Genetic Algorithms - GA)</b>, ứng dụng để tìm kiếm các thông số vận hành tối ưu cho các thiết bị như bình phản ứng, tháp chưng cất và mạng trao đổi nhiệt.</p></li></ol><p>Thông qua sự kết hợp giữa lý thuyết và thực hành trên các công cụ tính toán (MATLAB/Python), sinh viên sẽ được trang bị kỹ năng phân tích dữ liệu, xây dựng mô hình và tối ưu hóa quy trình công nghệ, đáp ứng yêu cầu của nền công nghiệp 4.0.</p>\n\n<br></p>",
+      "en": "<p>\n\n<p>This course introduces modern computational intelligence methods designed to address complex, non-linear, and uncertain problems in Chemical Engineering that are difficult to handle using traditional mathematical models (Hard Computing).</p><p>The core content focuses on the three main pillars of Soft Computing:</p><ol><li><p><b>Artificial Neural Networks (ANN):</b> Applied for black-box process modeling, physical property prediction, and soft sensor development.</p></li><li><p><b>Fuzzy Logic:</b> Utilized for handling imprecise data and designing intelligent controllers that mimic human decision-making.</p></li><li><p><b>Evolutionary Computation:</b> Focusing on <b>Genetic Algorithms (GA)</b>, applied to optimize operating parameters for equipment such as reactors, distillation columns, and heat exchanger networks.</p></li></ol><p>Through a combination of theory and hands-on practice with computational tools (MATLAB/Python), students will acquire skills in data analysis, model building, and process optimization, preparing them for the demands of Industry 4.0.</p>\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n<ol><li><p><i>L. Puigjaner and G. Heyen</i>, \"Computer Aided Process and Product Engineering,\" Wiley-VCH 2006.</p></li><li><p><i>S. N. Sivanandam, S. N. Deepa</i>, \"Principles of Soft Computing,\" Wiley, 2018.</p></li><li><p><i>K. F. Dobos</i>, \"Engineering Applications of Soft Computing,\" Springer, 2017.</p></li><li><p>Các bài báo khoa học từ tạp chí <i>Computers &amp; Chemical Engineering</i> (Elsevier).</p></li></ol>\n\n<br></p>",
+      "en": "<p>\n\n<li><p><i>&nbsp;</i>1. L. Puigjaner and G. Heyen, \"Computer Aided Process and Product Engineering,\" Wiley-VCH.</p></li><li><p>2. S. N. Sivanandam, S. N. Deepa, \"Principles of Soft Computing,\" Wiley.</p></li><li><p>3. K. F. Dobos, \"Engineering Applications of Soft Computing,\" Springer.</p></li><li><p>4. Scientific articles from the journal Computers &amp; Chemical Engineering (Elsevier).</p></li>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>SV có thể trao đổi trực tiếp với bạn bè và giảng viên trên diễn đàn của môn học. Điểm tổng kết môn học được đánh giá qua các hình thức sau:<br>- Bài tập: sinh viên làm các bài tập trong quá trình học, thảo luận<br>- Thi cuối kỳ: 50%, tự luận<br>- Đồ án: 30%<br></p>",
+      "en": "<p>Students can directly communicate with friends and lecturers on the subject forum. The final score of the subject is assessed through the following forms:<br>- Exercises: students do exercises during the course.<br>- Final exam: 50%<br>- Project: 30%<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 389,
+      "ma": "003106",
+      "ten": "NGUYỄN TUẤN ANH"
+    },
+    {
+      "id": 10116,
+      "ma": "004152",
+      "ten": "ĐẶNG VĂN HÂN"
+    },
+    {
+      "id": 1866,
+      "ma": "001963",
+      "ten": "NGUYỄN THÀNH DUY QUANG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.33,
+    "thiNghiem": 0,
+    "baiTapLon": 0.67,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 10,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 65,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1004,
+      "maBoMon": "HVC",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Hóa Vô Cơ"
+      },
+      "maKhoa": "HC",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Hóa Học",
+        "en": "Faculty of Chemical Engineering"
+      },
+      "vanPhong": "112B2",
+      "dienThoai": "0907731426"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 389,
+        "maGiangVien": "003106",
+        "tenGiangVien": "NGUYỄN TUẤN ANH",
+        "emailGiangVien": "anh.nguyen@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.33_0_0.67/1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 79188,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 79189,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "79188",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập, thảo luận trên lớp",
+        "en": "Exercises, discussing in class"
+      }
+    },
+    {
+      "id": 79190,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "79188",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Group Project"
+      },
+      "noidung": {
+        "vi": "Làm và báo cáo bài tập lớn theo nhóm",
+        "en": "Conduct and present group project"
+      }
+    },
+    {
+      "id": 79191,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "79188",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Làm bài thi tự luận cuối kì",
+        "en": "Take final exam in paper"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 98521,
+      "stt": 1,
+      "buoi": "Chương 1",
+      "chuandaurachitiet": [
+        {
+          "id": 125017,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, cho ví dụ, bài tập",
+            "en": "Lecture, give examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises."
+          },
+          "chuandaura": {
+            "id": 192318,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân biệt được tính toán cứng và tính toán mềm. Giải thích được nguyên lý làm việc của một số phương pháp tính toán mềm",
+              "en": "Distinguished between hard and soft computing. Explain working principles of some soft computing methods"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201761,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201762,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79191,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng quan về Tính toán mềm và Ứng dụng trong CNHH\n\n1.1. Giới thiệu về Tính toán mềm (Soft Computing) vs. Tính toán cứng (Hard Computing).\n1.2. Tại sao cần Tính toán mềm trong Công nghệ Hóa học? \n1.3. Các công cụ phần mềm hỗ trợ (MATLAB Toolbox, Python Libraries: TensorFlow, PyFuzzy).",
+        "en": "Overview of Soft Computing and Applications in Chemical Engineering\n\n1.1. Introduction to Soft Computing vs. Hard Computing.\n1.2. Why Soft Computing in Chemical Engineering? (Complexity, non-linearity, noisy data).\n1.3. Software tools support (MATLAB Toolbox, Python Libraries: Scikit-learn, TensorFlow, PyFuzzy)."
+      }
+    },
+    {
+      "id": 98520,
+      "stt": 2,
+      "buoi": "Chương 2",
+      "chuandaurachitiet": [
+        {
+          "id": 125021,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192318,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân biệt được tính toán cứng và tính toán mềm. Giải thích được nguyên lý làm việc của một số phương pháp tính toán mềm",
+              "en": "Distinguished between hard and soft computing. Explain working principles of some soft computing methods"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201776,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201771,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79191,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125022,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập\n\n",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192277,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Áp dụng được tính toán mềm giải quyết một vấn đề cụ thể trong CNHH",
+              "en": "Apply soft computing to solve chemical engineering problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201779,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79191,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 201766,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 79190,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 201775,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125025,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192376,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Sử dụng thành thạo các công cụ tính toán hiện đại (Matlab/Python) để hiện thực hóa các thuật toán và viết báo cáo kỹ thuật phân tích kết quả",
+              "en": "Proficently use computational tools (Matlab/Python) to implement algorithms and write technical report analyzing results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201763,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201764,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79190,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Mạng neuron nhân tạo\n2.1. Mạng neuron tự nhiên (não)\n2.2. Mạng neuron nhân tạo\n2.3. Kiến trúc và cấu trúc mạng\n2.4. Huấn luyện mạng và sự lan truyền ngược",
+        "en": "Artifical neural networks\n2.1. Biological neural networks (brain)\n2.2. Artifical neural networks\n2.3. Organization and structure\n2.4. Training and backpropagation)"
+      }
+    },
+    {
+      "id": 98518,
+      "stt": 3,
+      "buoi": "Chương 3",
+      "chuandaurachitiet": [
+        {
+          "id": 125023,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192318,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân biệt được tính toán cứng và tính toán mềm. Giải thích được nguyên lý làm việc của một số phương pháp tính toán mềm",
+              "en": "Distinguished between hard and soft computing. Explain working principles of some soft computing methods"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201772,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201765,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79191,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125018,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192277,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Áp dụng được tính toán mềm giải quyết một vấn đề cụ thể trong CNHH",
+              "en": "Apply soft computing to solve chemical engineering problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201780,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201770,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79191,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 201768,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 79190,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125019,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192376,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Sử dụng thành thạo các công cụ tính toán hiện đại (Matlab/Python) để hiện thực hóa các thuật toán và viết báo cáo kỹ thuật phân tích kết quả",
+              "en": "Proficently use computational tools (Matlab/Python) to implement algorithms and write technical report analyzing results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201767,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201773,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79190,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giải thuật di truyền\n3.1. Nguyên lý cơ bản\n3.2. Mã hóa – Giải mã – Hàm mục tiêu\n3.3. Sinh sản – Lai – Đột biến – Chọn lọc\n3.4. Ví dụ áp dụng",
+        "en": "Genetic algorithms\n3.1. Basic Concepts\n3.2. Encoding- Decoding - Fitness Function\n3.3. Reproduction - Cross Over - Mutation Operator – Selection\n3.4. Examples)"
+      }
+    },
+    {
+      "id": 98519,
+      "stt": 4,
+      "buoi": "Chương 4",
+      "chuandaurachitiet": [
+        {
+          "id": 125026,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192318,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân biệt được tính toán cứng và tính toán mềm. Giải thích được nguyên lý làm việc của một số phương pháp tính toán mềm",
+              "en": "Distinguished between hard and soft computing. Explain working principles of some soft computing methods"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201777,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201778,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79191,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125024,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192277,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Áp dụng được tính toán mềm giải quyết một vấn đề cụ thể trong CNHH",
+              "en": "Apply soft computing to solve chemical engineering problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201781,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79190,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 201782,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79191,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 201769,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125020,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng, cho ví dụ, bài tập",
+            "en": "Lectures, gives examples, exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Lắng nghe, thảo luận, làm bài tập",
+            "en": "Listen, discuss and do exercises"
+          },
+          "chuandaura": {
+            "id": 192376,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Sử dụng thành thạo các công cụ tính toán hiện đại (Matlab/Python) để hiện thực hóa các thuật toán và viết báo cáo kỹ thuật phân tích kết quả",
+              "en": "Proficently use computational tools (Matlab/Python) to implement algorithms and write technical report analyzing results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 201774,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 79189,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 201783,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 79190,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hệ mờ\n4.1. Logic mờ - Tập mờ - Quan hệ mờ - Số học mờ -\nĐộ đo mờ\n4.2. Điều khiển mờ và ra quyết định mờ",
+        "en": "Fuzzy System\n4.1. Fuzzy Logic - Fuzzy Sets - Fuzzy Relations -\nFuzzy Arithmetic - Fuzzy Measures\n4.2. Fuzzy Control and Fuzzy Decision Making."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 192318,
+      "ma": "L.O.1",
+      "ten_vi": "Phân biệt được tính toán cứng và tính toán mềm. Giải thích được nguyên lý làm việc của một số phương pháp tính toán mềm",
+      "ten_en": "Distinguished between hard and soft computing. Explain working principles of some soft computing methods",
+      "hddg": [
+        {
+          "id": 79189,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 79191,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 192277,
+      "ma": "L.O.2",
+      "ten_vi": "Áp dụng được tính toán mềm giải quyết một vấn đề cụ thể trong CNHH",
+      "ten_en": "Apply soft computing to solve chemical engineering problems",
+      "hddg": [
+        {
+          "id": 79189,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 79190,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 79191,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 192376,
+      "ma": "L.O.3",
+      "ten_vi": "Sử dụng thành thạo các công cụ tính toán hiện đại (Matlab/Python) để hiện thực hóa các thuật toán và viết báo cáo kỹ thuật phân tích kết quả",
+      "ten_en": "Proficently use computational tools (Matlab/Python) to implement algorithms and write technical report analyzing results",
+      "hddg": [
+        {
+          "id": 79189,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 79190,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Tính toán mềm trong công nghệ hóa học",
+  "tenmonhoc_eng": "Soft computing in Chemical Engineering",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

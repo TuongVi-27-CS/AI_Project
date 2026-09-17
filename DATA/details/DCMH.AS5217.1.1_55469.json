@@ -1,0 +1,994 @@
+{
+  "ma": "DCMH.AS5217.1.1",
+  "phienban": "1.1",
+  "capnhat": "29/07/2026 15:07",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS5217",
+  "ten": "AS5217 - Vật lý phân tử tính toán",
+  "ten_eng": "AS5217 - Computational Molecular Physics",
+  "hockyapdung": "HK251",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\nGiới thiệu tổng quan về Vật lý phân tử tính toán\nGiới thiệu cho học viên một phương pháp hiện đại giải phương trình Schrodinger\nTính toán các đặc trưng vật lý cho hệ nguyên tử trong điện trường\nTính toán các đặc trưng vật lý cho hệ nguyên tử trong từ trường.<br></p>",
+      "en": "<p>\n\n•         Introduction to modern computational molecular physics</p><p>•         Resolving of Schrodinger equation&nbsp;</p><p>•         Calculation of characteristic quantities for systems of atoms in electric field&nbsp;</p><p>•          Calculation of characteristic quantities for systems of atoms in magnetic field\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nGiới thiệu hai phương pháp chính giải phương trình Schrodinger cho hệ nguyên tử là lý thuyết nhiễu\nloạn và phương pháp biến phân. Sau đó làm quen với học viên một cơ sở quan trọng làm nền tảng cho\ncác tính toán đại số. Đưa ra phương pháp đại số tính toán các đặc trưng hệ nguyên tử và các kỹ thuật\ntính toán tương ứng.\n\n<br></p>",
+      "en": "<p>\n\nIntroduction to methods for resolving of Schrodinger equation for molecular systems is given. Specific\ncomputational methods for molecular systems are also introduced including related softwares.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n[1]  Đặng Quang Khang, Cơ học lượng tử, NXB Khoa học và Kỹ thuật, 1996.&nbsp;</p><p>[2]  S. Flugge, Practical Quantum Mechanics, Springer, 1999.&nbsp;</p><p>[3] A. G. Makhanek and V. C. Korol’kov, Analytical Methods in the Quantum Perturbation Theory \n(Minsk: Nauka i Tekcnika), 1982.&nbsp;</p><p>[4] I. D. Feranchuk, L. I. Komarov, I. V. Nichipor, A. P. Ulyanenkov, Operator Method in the problem\nof Quantum Anharmonic Oscillator, Ann. Phys. 238,  1995, 370-440.&nbsp;</p><p>[5] I.D. Feranchuk, A. Ivanov, Operator Method for nonperturbative description of quantum systems,\nIn Etude on Theor. Phys. Ed. Feranchuk I. et al, World Scientific, Singapore,  2004, 171-188.&nbsp;</p><p>[6] Le Van Hoang, Algerbraic Method with the Use of Many-Particle Coulomb Green Function for\nAtomic Calculations, in book ‘Etudes on Theoretical Physics’, ed. Feranchuk I.D. et al, Singapore:\nWorld Scientific, 231, 2004.&nbsp;</p><p>[7] B. H. Bransden, C. J. Joachain, Physics of Atoms and Molecules, Pearson Education, 2004.\n\n<br></p>",
+      "en": "<p>\n\n<p>[1]  Đặng Quang Khang, Cơ học lượng tử, NXB Khoa học và Kỹ thuật, 1996. </p><p>[2]  S. Flugge, Practical Quantum Mechanics, Springer, 1999. </p><p>[3] A. G. Makhanek and V. C. Korol’kov, Analytical Methods in the Quantum Perturbation Theory \n(Minsk: Nauka i Tekcnika), 1982. </p><p>[4] I. D. Feranchuk, L. I. Komarov, I. V. Nichipor, A. P. Ulyanenkov, Operator Method in the problem\nof Quantum Anharmonic Oscillator, Ann. Phys. 238,  1995, 370-440. </p><p>[5] I.D. Feranchuk, A. Ivanov, Operator Method for nonperturbative description of quantum systems,\nIn Etude on Theor. Phys. Ed. Feranchuk I. et al, World Scientific, Singapore,  2004, 171-188. </p><p>[6] Le Van Hoang, Algerbraic Method with the Use of Many-Particle Coulomb Green Function for\nAtomic Calculations, in book ‘Etudes on Theoretical Physics’, ed. Feranchuk I.D. et al, Singapore:\nWorld Scientific, 231, 2004. </p><p>[7] B. H. Bransden, C. J. Joachain, Physics of Atoms and Molecules, Pearson Education, 2004.</p>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\nTham gia lớp học và làm bài tập đầy đủ. Hoàn thành tiểu luận, và thi cuối kỳ. Đánh giá môn học dựa trên điểm Tiểu\nluận, và Thi cuối kỳ.<br></p><p><ul><li>\n\nNgười học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.&nbsp;</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham\nkhảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra\ntoàn bộ hoặc phần lớn nội dung.&nbsp;</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham\nkhảo hoặc ghi chú.&nbsp;</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà\ntrường.\n\n</li></ul></p>",
+      "en": "<p>\n\nAttend the lectures, do the homework and exercises. Fulfill class projects, and final examination.\n\n<br></p><p><ul><li>\n\nLearners must comply with the university's academic integrity regulations.&nbsp;</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted solely for supportive purposes, such as conducting\nliterature searches, brainstorming ideas, checking grammar, or seeking formatting suggestions. Learners are\nstrictly prohibited from submitting work that is entirely or substantially generated by AI.&nbsp;</li><li>When AI tools are utilized during the assignment process, learners must clearly state the specific tools used and\nhow they were applied in the reference or notes section.&nbsp;</li><li>Any misuse of AI for cheating or plagiarism will be treated as a violation of academic integrity and handled in\naccordance with the university's regulations.\n\n</li></ul></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 10056,
+      "ma": "NG_8460107",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Khoa học Tính toán",
+        "en": "Coursework Master Program in Computational Science"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn AS5217 - Vật lý phân tử tính toán"
+    },
+    {
+      "id": -2,
+      "ma": "",
+      "ten": "Áp dụng cho toàn Khoa Khoa Khoa Học Ứng Dụng"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 1,
+    "thiNghiem": 0,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.83,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 30,
+    "thiNghiem": 0,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 75,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 41,
+        "ma": "BCTNg",
+        "text": {
+          "vi": "Báo cáo thí nghiệm",
+          "en": "Experimental report"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1077,
+      "maBoMon": "TNC",
+      "tenBoMon": {
+        "vi": "Phòng TN Cơ ứng Dụng"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "103B4, Trường Đại học Bách Khoa - ĐHQG TPHCM",
+      "dienThoai": "090000000"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1462,
+        "maGiangVien": "002677",
+        "tenGiangVien": "VÕ VĂN HOÀNG",
+        "emailGiangVien": "vvhoang@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_1_0_0_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 95653,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 95654,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "95653",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group Project"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm về nhà",
+        "en": "Group Project"
+      }
+    },
+    {
+      "id": 95655,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "95653",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thực hành, thí nghiệm",
+        "en": "Classroom Practice"
+      },
+      "noidung": {
+        "vi": "Thực hành, thí nghiệm",
+        "en": "Classroom Practice"
+      }
+    },
+    {
+      "id": 95656,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "95653",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 119715,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 159718,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng; đặt câu hỏi và nhiệm vụ; hướng dẫn",
+            "en": "deliver a lecture; ask questions and assign tasks; instruction"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành; hoàn thành nhiệm vụ được giao",
+            "en": "Assessment is based on classroom practice and task completion"
+          },
+          "chuandaura": {
+            "id": 262536,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích được các nguyên lý vật lý phân tử và các mô hình tính toán mô tả cấu trúc, tính chất và động học của hệ phân tử.",
+              "en": "Analyze the principles of molecular physics and computational models describing the structure, properties, and dynamics of molecular systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 264259,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95654,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 264260,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95656,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp gần\nđúng giải phương trình\nSchrodinger\n1.1. Nguyên lý biến phân\n1.2. Phương pháp lý thuyết\nnhiễu loạn dừng\n1.3. Khảo sát sự hội tụ của chuỗi\nbổ chính bậc cao\n1.4. Điều kiện áp dụng lý thuyết\nnhiễu loạn",
+        "en": "Approximate Methods for Solving the Schrödinger Equation\n1.1 Variational principle\n1.2 Stationary perturbation theory\n1.3 Convergence analysis of high-order correction series\n1.4 Conditions for applying perturbation theory"
+      }
+    },
+    {
+      "id": 119719,
+      "stt": 2,
+      "buoi": "2-6",
+      "chuandaurachitiet": [
+        {
+          "id": 159722,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng; đặt câu hỏi và nhiệm vụ; hướng dẫn",
+            "en": "deliver a lecture; ask questions and assign tasks; instruction"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành; hoàn thành nhiệm vụ được giao",
+            "en": "Assessment is based on classroom practice and task completion"
+          },
+          "chuandaura": {
+            "id": 262536,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích được các nguyên lý vật lý phân tử và các mô hình tính toán mô tả cấu trúc, tính chất và động học của hệ phân tử.",
+              "en": "Analyze the principles of molecular physics and computational models describing the structure, properties, and dynamics of molecular systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 264263,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95654,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 264255,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95656,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp toán\ntử cho dao động tử phi điều\nhòa\n2.1. Biểu diễn đại số cho phương\ntrình Schrodinger\n2.2. Bộ hàm cơ sở và phương\npháp đại số tính yếu tố ma trận\n2.3. Nghiệm gần đúng bậc zero\n2.4. Sơ đồ vòng lặp tính nghiệm\nchính xác bằng số\n2.5. Vai trò của tham số tự do\nvới tốc độ hội tụ",
+        "en": "Operator Method for Anharmonic Oscillators\n2.1 Algebraic representation of the Schrödinger equation\n2.2 Basis functions and algebraic method for calculating matrix elements\n2.3 Zero-order approximate solution\n2.4 Numerical iterative scheme for exact solution\n2.5 Role of free parameters in convergence speed"
+      }
+    },
+    {
+      "id": 119716,
+      "stt": 3,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 159719,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng; đặt câu hỏi và nhiệm vụ; hướng dẫn",
+            "en": "deliver a lecture; ask questions and assign tasks; instruction"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành; hoàn thành nhiệm vụ được giao",
+            "en": "Assessment is based on classroom practice and task completion"
+          },
+          "chuandaura": {
+            "id": 262537,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Đánh giá và lựa chọn được các phương pháp mô hình hóa và mô phỏng phù hợp để giải quyết các bài toán vật lý phân tử.",
+              "en": "Evaluate and select appropriate computational methods for molecular physics simulations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 264256,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95654,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 264257,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95656,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp đại số\ncho nguyên tử hydro\n3.1. Phép biến đổi Kuustanheimo-Stiefel\n3.2. Mối liên hệ giữa nguyên tử hydro và dao động tử điều hòa\n3.3. Đối xứng động lực SO(4,2)\n3.4. Bộ hàm cơ sở dưới dạng đại số\n3.5. Tính các yếu tố ma trận",
+        "en": "Algebraic Methods for the Hydrogen Atom\n3.1 Kustaanheimo-Stiefel transformation\n3.2 Relationship between the hydrogen atom and the harmonic oscillator\n3.3 Dynamical symmetry SO(4,2)\n3.4 Basis functions in algebraic form\n3.5 Calculation of matrix elements"
+      }
+    },
+    {
+      "id": 119718,
+      "stt": 4,
+      "buoi": "9-11",
+      "chuandaurachitiet": [
+        {
+          "id": 159723,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng; đặt câu hỏi và nhiệm vụ; hướng dẫn",
+            "en": "deliver a lecture; ask questions and assign tasks; instruction"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành; hoàn thành nhiệm vụ được giao",
+            "en": "Assessment is based on classroom practice and task completion"
+          },
+          "chuandaura": {
+            "id": 262537,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Đánh giá và lựa chọn được các phương pháp mô hình hóa và mô phỏng phù hợp để giải quyết các bài toán vật lý phân tử.",
+              "en": "Evaluate and select appropriate computational methods for molecular physics simulations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 264258,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95655,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thực hành, thí nghiệm",
+                  "en": "Classroom Practice"
+                }
+              }
+            },
+            {
+              "id": 264266,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95656,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nguyên tử hydro trong từ trường\n4.1. Phương trình Schrodinger\n4.2. Nghiệm gần đúng bậc zero bằng phương pháp toán tử\n4.3. Lời giải giải tích có tính đến yếu tố tiệm cận\n4.4. Lời giải chính xác bằng số qua sơ đồ vòng lặp\n4.5. So sánh với phương pháp biến phân và lý thuyết nhiễu loạn",
+        "en": "Hydrogen Atom in a Magnetic Field\n4.1 Schrödinger equation\n4.2 Zero-order approximate solution using the operator method\n4.3 Analytical solution taking asymptotic behavior into account\n4.4 Exact numerical solution via iterative scheme\n4.5 Comparison with variational and perturbation methods"
+      }
+    },
+    {
+      "id": 119717,
+      "stt": 5,
+      "buoi": "12-14",
+      "chuandaurachitiet": [
+        {
+          "id": 159721,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng; đặt câu hỏi và nhiệm vụ; hướng dẫn",
+            "en": "deliver a lecture; ask questions and assign tasks; instruction"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành; hoàn thành nhiệm vụ được giao",
+            "en": "Assessment is based on classroom practice and task completion"
+          },
+          "chuandaura": {
+            "id": 262538,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Triển khai và đánh giá được các mô phỏng vật lý phân tử bằng các công cụ tính toán hiện đại.",
+              "en": "Implement and evaluate computational molecular physics simulations using modern computational tools."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 264261,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95654,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 264264,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95656,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nguyên tử hydro trong điện trường\n5.1. Phương trình Schrodinger\n5.2. Tốc độ i-on hóa trong ion hóa xuyên hầm lượng tử\n5.3. Gần đúng bậc zero của phương pháp toán tử\n5.4. Biểu thức giải tích cho tốc độ ion hóa",
+        "en": "Hydrogen Atom in an Electric Field\n5.1 Schrödinger equation\n5.2 Ionization rate in quantum tunneling ionization\n5.3 Zero-order approximation of the operator method\n5.4 Analytical expression for the ionization rate"
+      }
+    },
+    {
+      "id": 119720,
+      "stt": 6,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 159720,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng; đặt câu hỏi và nhiệm vụ; hướng dẫn",
+            "en": "deliver a lecture; ask questions and assign tasks; instruction"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành; hoàn thành nhiệm vụ được giao",
+            "en": "Assessment is based on classroom practice and task completion"
+          },
+          "chuandaura": {
+            "id": 262539,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Đánh giá và truyền đạt được kết quả mô phỏng vật lý phân tử phục vụ nghiên cứu khoa học và phát triển vật liệu, hóa học hoặc sinh học phân tử.",
+              "en": "Evaluate and communicate computational molecular physics results for research in materials science, chemistry, and molecular biology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 264262,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 95654,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà",
+                  "en": "Group Project"
+                }
+              }
+            },
+            {
+              "id": 264265,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 95656,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": " Phương pháp đại số sử dụng hàm Green\n6.1. Biểu diễn đại số cho hàm Green của bài toán Coulomb\n6.2.  Hàm Green cho hai hạt\n6.3. Phương pháp lý thuyết nhiễu loạn sử dụng hàm Green\n6.4. Ứng dụng cho nguyên tử heli\n6.5. Ứng dụng cho ion phân tử hydro",
+        "en": "Algebraic Method Using Green's Functions\n6.1 Algebraic representation of the Green's function for the Coulomb problem\n6.2 Green's function for two particles\n6.3 Perturbation theory method using Green's functions\n6.4 Application to the helium atom\n6.5 Application to the hydrogen molecular ion"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 262536,
+      "ma": "L.O.1",
+      "ten_vi": "Phân tích được các nguyên lý vật lý phân tử và các mô hình tính toán mô tả cấu trúc, tính chất và động học của hệ phân tử.",
+      "ten_en": "Analyze the principles of molecular physics and computational models describing the structure, properties, and dynamics of molecular systems.",
+      "hddg": [
+        {
+          "id": 95654,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 95656,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 262537,
+      "ma": "L.O.2",
+      "ten_vi": "Đánh giá và lựa chọn được các phương pháp mô hình hóa và mô phỏng phù hợp để giải quyết các bài toán vật lý phân tử.",
+      "ten_en": "Evaluate and select appropriate computational methods for molecular physics simulations.",
+      "hddg": [
+        {
+          "id": 95654,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 95655,
+          "ma": "A.O.2",
+          "ten_vi": "Thực hành, thí nghiệm",
+          "ten_en": "Classroom Practice"
+        },
+        {
+          "id": 95656,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 262538,
+      "ma": "L.O.3",
+      "ten_vi": "Triển khai và đánh giá được các mô phỏng vật lý phân tử bằng các công cụ tính toán hiện đại.",
+      "ten_en": "Implement and evaluate computational molecular physics simulations using modern computational tools.",
+      "hddg": [
+        {
+          "id": 95654,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 95656,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 262539,
+      "ma": "L.O.4",
+      "ten_vi": "Đánh giá và truyền đạt được kết quả mô phỏng vật lý phân tử phục vụ nghiên cứu khoa học và phát triển vật liệu, hóa học hoặc sinh học phân tử.",
+      "ten_en": "Evaluate and communicate computational molecular physics results for research in materials science, chemistry, and molecular biology.",
+      "hddg": [
+        {
+          "id": 95654,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập nhóm về nhà",
+          "ten_en": "Group Project"
+        },
+        {
+          "id": 95656,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Vật lý phân tử tính toán",
+  "tenmonhoc_eng": "Computational Molecular Physics",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

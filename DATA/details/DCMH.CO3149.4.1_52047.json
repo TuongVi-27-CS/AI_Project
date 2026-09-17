@@ -1,0 +1,1830 @@
+{
+  "ma": "DCMH.CO3149.4.1",
+  "phienban": "4.1",
+  "capnhat": "28/05/2026 13:43",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3149",
+  "ten": "CO3149 - Tổng hợp luận lý vi mạch",
+  "ten_eng": "CO3149 - Logic Synthesis",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n<b></b>Mục tiêu của khóa học này là cung cấp cho sinh viên kiến ​​thức chi tiết về các phương pháp khác nhau để biểu diễn logic, thao tác và tối ưu hóa, cho cả logic tổ hợp và logic tuần tự. Sinh viên sẽ có thể thực hiện thiết kế các hệ thống kỹ thuật số từ góc độ lý thuyết và thực hành vững chắc và có hiểu biết về một các công cụ có thể được áp dụng cho nhiều loại CAD cho các vấn đề VLSI.<b></b>\n\n<br></p>",
+      "en": "<p>\n\n<b>\n\n<b></b></b>The goal of this course is to provide the student with a detailed knowledge of different methods for logic representation, manipulation, and optimization, for both combinational and sequential logic. The student should be able to design digital systems from a sound theoretical and practical perspective and understand tools that can be applied to various CAD for VLSI problems.<b><b></b>\n\n</b>\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n<b></b>Giới thiệu về thiết kế vi mạch; biến đổi từ các đặc tả ngôn ngữ HDL; mạch tổ hợp 2 mức: tổng hợp mạch 2 mức, khả năng kiểm tra của mạch 2 mức; mạch tổ hợp nhiều mức: tổng hợp mạch nhiều mức, thời gian trễ của mạch nhiều mức, khả năng kiểm tra của mạch nhiều mức; các hướng phát triển hiện tại và tương lai của tổng hợp luận lý.<b></b>\n\n<br></p>",
+      "en": "<p>Introduction to IC design; transformation from HDL language specifications; 2-level combination circuit: synthesis of 2-level circuits, testing capabilities of 2-level circuits; multi-level combination circuit: synthesis of multi-level circuits, delay time of multi-level circuits, testing ability of multi-level circuits; Current and future development directions of logical synthesis.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n<b></b></p><p><b>Sách, Giáo trình chính:</b></p><p><b>[1] Srinivas Devadas, Abhijit Ghosh and Kurt Keutzer, Logic Synthesis, McGraw Hill, 2014</b></p><b><br><p>Sách tham khảo:</p><p>[2] <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&amp;field-author=Robert+K.+Brayton&amp;text=Robert+K.+Brayton&amp;sort=relevancerank&amp;search-alias=books\">Robert K. Brayton</a>, <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.amazon.com/s/ref=dp_byline_sr_book_2?ie=UTF8&amp;field-author=Gary+D.+Hachtel&amp;text=Gary+D.+Hachtel&amp;sort=relevancerank&amp;search-alias=books\">Gary D. Hachtel</a>, <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.amazon.com/s/ref=dp_byline_sr_book_3?ie=UTF8&amp;field-author=C.+McMullen&amp;text=C.+McMullen&amp;sort=relevancerank&amp;search-alias=books\">C. McMullen</a>, Logic Minimization Algorithms for VLSI Synthesis, Pearson Education, Inc., 2011</p><p>[3] Gary D. D. Hachtel, Fabio Somenzi, Logic Synthesis and Verification Algorithms, IEEE, 2006 </p>[4] &nbsp;G. DeMicheli, Synthesis and Optimization of Digital Circuits, McGraw-Hill, 2008</b>\n\n<br><p></p>",
+      "en": "<p>không có</p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n<b></b></p><b></b>Tài liệu (slide bài giảng) được đưa lên BKeL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học.<br><ul><li>Sinh viên làm thêm các bài tập và đọc thêm trong sách “Logic Synthesis”</li><li>Sinh viên nên đi học đầy đủ và làm bài tập trong quá trình học sẽ giúp tiết kiệm thời gian trong quá trình ôn thi cuối kỳ.</li><li>Đối với phần thực hành, sinh viên tham gia đầy đủ các buổi thí nghiệm và nộp lại báo cáo thí nghiệm ngay cuối giờ thí nghiệm.</li></ul><b><br></b>Chi tiết cách đánh giá môn học:<br><ol><li>Bài tập lớn (30%): Sinh viên thực hiện bài tập lớn theo nhóm 2-3 SV, đánh giá phần demo và báo cáo vào cuối môn học</li><li>Thí nghiệm (20%)</li><li>Thi cuối kỳ (50%)</li></ol>Liêm chính học thuật và sử dụng công cụ AI<br><br><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul><br>\n\n<br><p></p>",
+      "en": "<p>Documents are uploaded to the system weekly.<br>Students should read the slides and reference materials in advance.<br>Students should attend all classes.<br>Major assignment: 30%<br>Midterm: 20%<br>Final: 50%</p><p>Academic Integrity and Use of AI Tools<br><br><ul><li>Students must comply with the university’s academic integrity regulations.</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.</li><li>When AI tools are used in assignments, students must clearly specify the tool(s) and describe how they were used, either in the references or in a footnote.</li><li>Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</li></ul></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 4425,
+      "ma": "NG_KTM",
+      "ten": {
+        "vi": "Ngành: Kỹ thuật Máy tính (2024)",
+        "en": "Major: Computer Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1146,
+      "ma": "002765",
+      "ten": "PHẠM QUỐC CƯỜNG"
+    },
+    {
+      "id": 1139,
+      "ma": "001897",
+      "ten": "TRẦN NGỌC THỊNH"
+    },
+    {
+      "id": 9778,
+      "ma": "004077",
+      "ten": "HUỲNH PHÚC NGHỊ"
+    },
+    {
+      "id": 10910,
+      "ma": "004202",
+      "ten": "NGUYỄN THIÊN ÂN"
+    },
+    {
+      "id": 11908,
+      "ma": "004269",
+      "ten": "NGUYỄN THÀNH LỘC"
+    },
+    {
+      "id": 11568,
+      "ma": "004258",
+      "ten": "PHẠM CÔNG THÁI"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 967,
+      "maBoMon": "KTM",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1146,
+        "maGiangVien": "002765",
+        "tenGiangVien": "PHẠM QUỐC CƯỜNG",
+        "emailGiangVien": "cuongpham@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0.67_0.33",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO1025 - Thiết kế Luận lý Với HDL",
+        "en": "CO1025 - Logic Design wiTh HDL"
+      },
+      "tenmonhoc_only": {
+        "vi": "Thiết kế Luận lý Với HDL",
+        "en": "Logic Design wiTh HDL"
+      },
+      "mamonhoc": "CO1025"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO1023 - Hệ thống số",
+        "en": "CO1023 - Digital Systems"
+      },
+      "tenmonhoc_only": {
+        "vi": "Hệ thống số",
+        "en": "Digital Systems"
+      },
+      "mamonhoc": "CO1023"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88840,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Chưa có"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 88841,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "88840",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Chưa có"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 88842,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88840",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Chưa có"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 88843,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "88840",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Chưa có"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 88844,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "88840",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Chưa có"
+      },
+      "noidung": {
+        "vi": "Báo cáo thí nghiệm",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 88845,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "88840",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo BTL",
+        "en": "Chưa có"
+      },
+      "noidung": {
+        "vi": "Báo cáo BTL",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 88846,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "88840",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Kết quả demo",
+        "en": "Chưa có"
+      },
+      "noidung": {
+        "vi": "Kết quả demo",
+        "en": "Chưa có"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109874,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 145242,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Nghe giảng và giao bài tập",
+            "en": "Provide the lecture and exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Follow the lecture and exercises"
+          },
+          "chuandaura": {
+            "id": 181941,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thực hiện được bài thí nghiệm và bài tập lớn theo nhóm, có phân công và phối hợp công việc.",
+              "en": "Carry out labs and projects in groups with task allocation and collaboration"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237035,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145241,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Provide the lecture and exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Follow the lecture and exercises"
+          },
+          "chuandaura": {
+            "id": 181929,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Trình bày và giải thích được nguyên lý tổng hợp mạch tổ hợp 2 mức và nhiều mức.",
+              "en": "Explain principles of 2-level and multi-level logic synthesis"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237033,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237034,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88842,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu\n1.1\tMạch tích hợp số\n1.2\tPhương pháp luận thiết kế vi mạch\n1.3\tSơ đồ Layout ở mức transistor\n1.4\tĐầu vào mức cổng\n1.5\tCông dụng ban đầu của tối ưu luận lý\n1.6\tNhững ưu điểm nổi bật của thiết kế dựa trên tổng hợp\n1.7\tPhương pháp luận thiết kế dựa trên tổng hợp luận lý \n1.8\tKiểm chứng \n1.9\tKiểm tra sản xuất \n1.10\tTổng hợp cho việc kiểm tra",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109875,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 145244,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Provide the lecture and exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Follow the lecture and exercises"
+          },
+          "chuandaura": {
+            "id": 181929,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Trình bày và giải thích được nguyên lý tổng hợp mạch tổ hợp 2 mức và nhiều mức.",
+              "en": "Explain principles of 2-level and multi-level logic synthesis"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237037,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237038,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145243,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 181933,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng được các thuật toán tối ưu mạch tổ hợp 2 mức và nhiều mức cho bài toán cụ thể.",
+              "en": "Apply optimization algorithms for 2-level and multi-level circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237036,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Biến đổi đặc tả từ các ngôn ngữ HDL\n2.1\tGiới thiệu \n2.2\tCác vấn đề khi tổng hợp từ HDL\n2.3\tMột số ví dụ tổng hợp từ HDL \n2.4\tSự phụ thuộc vào loại đặc tả ngõ vào",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109877,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 145246,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Provide the lecture and exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Follow the lecture and exercises"
+          },
+          "chuandaura": {
+            "id": 181929,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Trình bày và giải thích được nguyên lý tổng hợp mạch tổ hợp 2 mức và nhiều mức.",
+              "en": "Explain principles of 2-level and multi-level logic synthesis"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237041,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237042,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch tổ hợp 2 mức\n3.1\tGiới thiệu\n3.2\tCác thuật ngữ \n3.3\tDãy luận lý khả lập trình \n3.4\tTính Primality và Irredundancy \n3.5\tTác vụ Boole đối với các hàm luận lý \n3.6\tTác vụ đối với Cube và Cover\n3.7\tĐộ phức tạp của mạch 2 mức",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109879,
+      "stt": 4,
+      "buoi": "4-5",
+      "chuandaurachitiet": [
+        {
+          "id": 145248,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Chưa có "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 181933,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Áp dụng được các thuật toán tối ưu mạch tổ hợp 2 mức và nhiều mức cho bài toán cụ thể.",
+              "en": "Apply optimization algorithms for 2-level and multi-level circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237046,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237045,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng hợp mạch tổ hợp 2 mức\n4.1\tTối giản hóa Boole 2 mức \n4.2\tPhương pháp Quine-McCluskey \n4.3\tLuật suy diễn 2 mức (Two-Level Tautology)\n4.4\tBù (complementation)\n4.5\tPhương pháp tối giản chính xác (Exact Minimization)\n4.6\tPhương pháp tổi giản heuristic (Heuristic Minimization)",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109880,
+      "stt": 5,
+      "buoi": "6-7",
+      "chuandaurachitiet": [
+        {
+          "id": 145249,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Provide the lecture and exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Follow the lecture and exercises"
+          },
+          "chuandaura": {
+            "id": 181934,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hiện được các phương pháp phân tích và kiểm tra lỗi cho mạch số.",
+              "en": "Apply fault analysis and testing methods for digital circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237047,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237048,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khả năng kiểm tra của mạch 2 mức\n5.1\tGiới thiệu\n5.2\tMô hình lỗi\n5.3\tLỗi kẹt đơn (Single Stuck-At Fault)\n5.4\tLỗi kẹt bội (Multiple Stuck-At Fault)\n5.5\tThuật ngữ phân tích định thời \n5.6\tKiểm tra Robust và Non-Robust\n5.7\tHazard-Free Robust Path Delay Faults\n5.8\tGeneral Robust Path Delay Faults\n5.9\tHazard-Free Robust Gate Delay Faults\n5.10\tHazard-Free Robust Stuck-Open Faults",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109881,
+      "stt": 6,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 145250,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Provide the lecture and exercises"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Follow the lecture and exercises"
+          },
+          "chuandaura": {
+            "id": 181930,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích được các phương pháp biểu diễn logic trong tổng hợp mạch.",
+              "en": "Analyze logic representations in synthesis"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237050,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237049,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch tổ hợp nhiều mức\n6.1\tMạng Boole\n6.2\tCác lớp mạch đặc biệt\n6.3\tCây quyết định nhị phân BDD\n6.4\tCây quyết định nhị phân thứ tự OBDD",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109883,
+      "stt": 7,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 145252,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Chưa có "
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 181935,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Áp dụng được các kỹ thuật tối ưu dựa trên don’t-care, decomposition và technology mapping.",
+              "en": "Apply optimization techniques based on don’t-care, decomposition and technology mapping"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237053,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237054,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng hợp mạch nhiều mức\n7.1\tBiến đổi luận lý\n7.2\tPhép chia và các bộ chia thông thường \n7.3\tPhép chia đại số\n7.4\tHình chữ nhật và phép bao hình chữ nhật (Rectangle Covering)\n7.5\tPhép chia Boole\n7.6\tTối ưu trên cơ sở Don’t-Care\n7.7\tÁnh xạ công nghệ\n7.8\tÁnh xạ công nghệ theo giải thuật bao phủ cây (Tree Covering)\n7.9\tFPGA\n7.10\tPhương pháp tổng hợp FPGA",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109884,
+      "stt": 8,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 145253,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 181931,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Phân tích được ảnh hưởng của thời gian trễ và ánh xạ công nghệ trong mạch nhiều mức.",
+              "en": "Analyze the impact of delay and technology mapping in multi-level circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237055,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237056,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thời gian trễ của mạch nhiều mức\n8.1\tThời gian trễ của các thành phần và của mạch \n8.2\tPhân tích và kiểm chứng định thời \n8.3\tTính thời gian trễ ở chế độ Floating\n8.4\tTối ưu không phụ thuộc công nghệ\n8.5\tGiải thuật Speedup\n8.6\tÁnh xạ công nghệ theo thời gian trễ",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109882,
+      "stt": 9,
+      "buoi": "13-15",
+      "chuandaurachitiet": [
+        {
+          "id": 145251,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và giao bài tập",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng và làm bài tập",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 181934,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hiện được các phương pháp phân tích và kiểm tra lỗi cho mạch số.",
+              "en": "Apply fault analysis and testing methods for digital circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237051,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88841,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237052,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88843,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khả năng kiểm tra mạch nhiều mức\n9.1\tGiới thiệu\n9.2\tLỗi kẹt đơn\n9.3\tDạng biểu diễn bình thường tương đương ENF\n9.4\tKhả năng rút gọn của ENF\n9.5\tBiến đổi giữ nguyên khả năng rút gọn của ENF\n9.6\tLỗi kẹt bội \n9.7\tHazard-Free Robust Path Delay Faults\n9.8\tGeneral Robust Path Delay Faults\n9.9\tHazard-Free Robust Gate Delay Faults\n9.10\tHazard-Free Robust Stuck-Open Faults\n9.11\tBộ xử lý Viterbi",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109876,
+      "stt": 10,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 145245,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và làm thực nghiệm trên máy tính",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Chưa có",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 181937,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng được công cụ để tối ưu mạch tổ hợp 2 mức.",
+              "en": "Use tools for 2-level logic optimization"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237040,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88844,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237039,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88846,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kết quả demo",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bài thực hành số 1\n1.1 Cài đặt các công cụ hỗ trợ\n1.2 Sử dụng tools để tối ưu mạch 2 mức\n",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109872,
+      "stt": 11,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 145237,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và làm thực nghiệm trên máy tính",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Chưa có",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 181938,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Sử dụng được công cụ để tối ưu mạch tổ hợp nhiều mức.",
+              "en": "Use tools for multi-level logic optimization"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237026,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88844,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237025,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88846,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kết quả demo",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bài thực hành số 2\nSử dụng tools để tối ưu mạch nhiều mức\nGiao bài tập lớn vào tuần 3\n",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109878,
+      "stt": 12,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 145247,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng và làm thực nghiệm trên máy tính",
+            "en": "Lectures and computer-based experiments."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng và bài tập",
+            "en": "Follow the lecture and exercises"
+          },
+          "chuandaura": {
+            "id": 181939,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": " Sử dụng được công cụ để tổng hợp và tối ưu mạch tuần tự.",
+              "en": "Use tools for sequential logic synthesis and optimization"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237044,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88844,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thí nghiệm",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237043,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88846,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kết quả demo",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bài thực hành số 3\nSử dụng tools để tối ưu mạch tuần tự\n",
+        "en": "Chưa có"
+      }
+    },
+    {
+      "id": 109873,
+      "stt": 13,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 145238,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá",
+            "en": "Evaluate"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo",
+            "en": "Report"
+          },
+          "chuandaura": {
+            "id": 181942,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Viết báo cáo kỹ thuật và trình bày kết quả tổng hợp, tối ưu mạch một cách rõ ràng, logic.",
+              "en": "Write technical reports and present synthesis/optimization results clearly and logically"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237028,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88845,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Báo cáo BTL",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237027,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88846,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kết quả demo",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145240,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá",
+            "en": "Evaluate"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo",
+            "en": "Report"
+          },
+          "chuandaura": {
+            "id": 181943,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Tự đánh giá, cải tiến kết quả thiết kế và chịu trách nhiệm về sản phẩm học tập của mình.",
+              "en": "Self-evaluate, improve design results and take responsibility for learning products"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237032,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88845,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Báo cáo BTL",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237031,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88846,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kết quả demo",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145239,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá",
+            "en": "Evaluate"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Báo cáo",
+            "en": "Report"
+          },
+          "chuandaura": {
+            "id": 181941,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thực hiện được bài thí nghiệm và bài tập lớn theo nhóm, có phân công và phối hợp công việc.",
+              "en": "Carry out labs and projects in groups with task allocation and collaboration"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237030,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88845,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Báo cáo BTL",
+                  "en": "Chưa có"
+                }
+              }
+            },
+            {
+              "id": 237029,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88846,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Kết quả demo",
+                  "en": "Chưa có"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chấm điểm bài tập lớn\n10.1. Chấm điểm demo\n10.2. Chấm điểm báo cáo\n",
+        "en": "Chưa có"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 181929,
+      "ma": "L.O.1.1",
+      "ten_vi": "Trình bày và giải thích được nguyên lý tổng hợp mạch tổ hợp 2 mức và nhiều mức.",
+      "ten_en": "Explain principles of 2-level and multi-level logic synthesis",
+      "hddg": [
+        {
+          "id": 88841,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88842,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88843,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181930,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích được các phương pháp biểu diễn logic trong tổng hợp mạch.",
+      "ten_en": "Analyze logic representations in synthesis",
+      "hddg": [
+        {
+          "id": 88841,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88843,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181931,
+      "ma": "L.O.1.3",
+      "ten_vi": "Phân tích được ảnh hưởng của thời gian trễ và ánh xạ công nghệ trong mạch nhiều mức.",
+      "ten_en": "Analyze the impact of delay and technology mapping in multi-level circuits",
+      "hddg": [
+        {
+          "id": 88841,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88843,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181933,
+      "ma": "L.O.2.1",
+      "ten_vi": "Áp dụng được các thuật toán tối ưu mạch tổ hợp 2 mức và nhiều mức cho bài toán cụ thể.",
+      "ten_en": "Apply optimization algorithms for 2-level and multi-level circuits",
+      "hddg": [
+        {
+          "id": 88841,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88843,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181934,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thực hiện được các phương pháp phân tích và kiểm tra lỗi cho mạch số.",
+      "ten_en": "Apply fault analysis and testing methods for digital circuits",
+      "hddg": [
+        {
+          "id": 88841,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88843,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181935,
+      "ma": "L.O.2.3",
+      "ten_vi": "Áp dụng được các kỹ thuật tối ưu dựa trên don’t-care, decomposition và technology mapping.",
+      "ten_en": "Apply optimization techniques based on don’t-care, decomposition and technology mapping",
+      "hddg": [
+        {
+          "id": 88841,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88843,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181937,
+      "ma": "L.O.3.1",
+      "ten_vi": "Sử dụng được công cụ để tối ưu mạch tổ hợp 2 mức.",
+      "ten_en": "Use tools for 2-level logic optimization",
+      "hddg": [
+        {
+          "id": 88844,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88846,
+          "ma": "A.O.6",
+          "ten_vi": "Kết quả demo",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181938,
+      "ma": "L.O.3.2",
+      "ten_vi": "Sử dụng được công cụ để tối ưu mạch tổ hợp nhiều mức.",
+      "ten_en": "Use tools for multi-level logic optimization",
+      "hddg": [
+        {
+          "id": 88844,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88846,
+          "ma": "A.O.6",
+          "ten_vi": "Kết quả demo",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181939,
+      "ma": "L.O.3.3",
+      "ten_vi": " Sử dụng được công cụ để tổng hợp và tối ưu mạch tuần tự.",
+      "ten_en": "Use tools for sequential logic synthesis and optimization",
+      "hddg": [
+        {
+          "id": 88844,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thí nghiệm",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88846,
+          "ma": "A.O.6",
+          "ten_vi": "Kết quả demo",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181941,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thực hiện được bài thí nghiệm và bài tập lớn theo nhóm, có phân công và phối hợp công việc.",
+      "ten_en": "Carry out labs and projects in groups with task allocation and collaboration",
+      "hddg": [
+        {
+          "id": 88841,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88845,
+          "ma": "A.O.5",
+          "ten_vi": "Báo cáo BTL",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88846,
+          "ma": "A.O.6",
+          "ten_vi": "Kết quả demo",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181942,
+      "ma": "L.O.4.2",
+      "ten_vi": "Viết báo cáo kỹ thuật và trình bày kết quả tổng hợp, tối ưu mạch một cách rõ ràng, logic.",
+      "ten_en": "Write technical reports and present synthesis/optimization results clearly and logically",
+      "hddg": [
+        {
+          "id": 88845,
+          "ma": "A.O.5",
+          "ten_vi": "Báo cáo BTL",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88846,
+          "ma": "A.O.6",
+          "ten_vi": "Kết quả demo",
+          "ten_en": "Chưa có"
+        }
+      ]
+    },
+    {
+      "id": 181943,
+      "ma": "L.O.4.3",
+      "ten_vi": "Tự đánh giá, cải tiến kết quả thiết kế và chịu trách nhiệm về sản phẩm học tập của mình.",
+      "ten_en": "Self-evaluate, improve design results and take responsibility for learning products",
+      "hddg": [
+        {
+          "id": 88845,
+          "ma": "A.O.5",
+          "ten_vi": "Báo cáo BTL",
+          "ten_en": "Chưa có"
+        },
+        {
+          "id": 88846,
+          "ma": "A.O.6",
+          "ten_vi": "Kết quả demo",
+          "ten_en": "Chưa có"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Tổng hợp luận lý vi mạch",
+  "tenmonhoc_eng": "Logic Synthesis",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

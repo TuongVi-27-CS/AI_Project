@@ -1,0 +1,1157 @@
+{
+  "ma": "DCMH.EE5305.1.1",
+  "phienban": "1.1",
+  "capnhat": "01/06/2026 14:58",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5305",
+  "ten": "EE5305 - Lập trình hệ thống nhúng nâng cao",
+  "ten_eng": "EE5305 - Advanced Embedded System Programming",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n</p><p>Môn học cung cấp các kiến thức và kỹ thuật lập trình chuyên sâu cho hệ thống nhúng hiện đại, tập trung vào phát triển phần mềm hiệu quả, đáng tin cậy và tối ưu tài nguyên cho các nền tảng phần cứng hạn chế. Nội dung môn học bao gồm các phương pháp lập trình ở mức thấp và trung gian cho vi điều khiển và vi xử lý nhúng, quản lý bộ nhớ, xử lý ngắt, giao tiếp thiết bị ngoại vi, và tối ưu hóa hiệu năng của chương trình.</p>\n<p>Môn học cũng trình bày các kỹ thuật lập trình hệ thống thời gian thực, lập trình đa nhiệm với hệ điều hành thời gian thực (RTOS), cơ chế đồng bộ và giao tiếp giữa các tiến trình, cũng như các phương pháp phát triển và kiểm thử phần mềm nhúng. Ngoài ra, học viên được giới thiệu các phương pháp thiết kế phần mềm nhúng theo mô hình kiến trúc hiện đại, kỹ thuật debug và phân tích hiệu năng, cùng các công cụ phát triển phần mềm nhúng tiên tiến.</p><p></p>",
+      "en": "<p>This course provides in-depth programming knowledge and techniques for modern embedded systems, focusing on developing efficient, reliable, and resource-optimized software for limited hardware platforms. Course content includes low- and intermediate-level programming methods for embedded microcontrollers and microprocessors, memory management, interrupt handling, peripheral interfaces, and program performance optimization.<br><br>The course also presents real-time system programming techniques, multitasking programming with real-time operating systems (RTOS), synchronization and inter-process communication mechanisms, as well as embedded software development and testing methods. Furthermore, students are introduced to embedded software design methods based on modern architectural models, debugging and performance analysis techniques, and advanced embedded software development tools.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học bao gồm 5 chương. Chương 1 trình bày kỹ thuật lập trình điều khiển ngoại vi cho hệ thống nhúng. Chương 2 mô tả máy trạng thái và quản lý tác vụ cho hệ thống nhúng. Chương 3 hướng dẫn lập trình đa nhiệm và kỹ thuật đồng bộ trong hệ thống nhúng thời gian thực. Chương 4 giới thiệu hệ điều hành nhúng RTOS và Embedded Linux. Chương 5 trình bày phát triển ứng dụng hoàn chỉnh cho hệ thống nhúng.<br></p>",
+      "en": "<p>The course comprises five chapters. Chapter 1 presents peripheral control programming techniques for embedded systems. Chapter 2 describes state machines and task management for embedded systems. Chapter 3 guides multitasking programming and synchronization techniques in real-time embedded systems. Chapter 4 introduces embedded operating systems (RTOS) and Embedded Linux. Chapter 5 presents the development of complete applications for embedded systems.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>Giáo trình:</b></p><p>[1] Igor Viarheichyk, Embedded Programming with Modern C++ Cookbook, Packt Publishing, 2020.</p><p><b>Tài liệu tham khảo:</b></p><p>[2] Brian Amos, Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCU, and SEGER debug tools, Packt Publishing, 2020.<br>[3 John Madieu, Linux Device Driver Development, Second Edition, Packt Publishing, 2022.<br></p>",
+      "en": "<p><b>Textbook:</b><br>[1] Igor Viarheichyk, Embedded Programming with Modern C++ Cookbook, Packt Publishing, 2020.<br></p><p><b>Reference books:</b></p><p>[2] Brian Amos, Hands-On RTOS with Microcontrollers: Building real-time embedded systems using<br>FreeRTOS, STM32 MCU, and SEGER debug tools, Packt Publishing, 2020.<br>[3] John Madieu, Linux Device Driver Development, Second Edition, Packt Publishing, 2022.\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên LMS hàng tuần. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học.<br>Điều kiện dự thi: HV được yêu cầu phải nộp đủ và đúng hạn bài tập lớn và bài tập về nhà trên LMS.<br></p>",
+      "en": "<p>Course materials are uploaded to LMS every week. The grade is evaluated for all learning duration:<br>Condition for exam attendance: Students submit all assignments and class project report on LMS.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>Liêm chính học thuật và sử dụng công cụ AI<br>• Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.<br>• Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chi được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.<br>• Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.<br>• Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật.<br></p>",
+      "en": "<p>Academic Integrity and use of Al tools<br>• Students must comply with the university's academic integrity regulations.<br>• The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by Al.<br>• When Al tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.<br>• Any misuse of Al for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university's regulations.<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 499,
+      "ma": "001900",
+      "ten": "TRƯƠNG QUANG VINH"
+    },
+    {
+      "id": 513,
+      "ma": "003169",
+      "ten": "NGUYỄN LÝ THIÊN TRƯỜNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 70,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Khoa Điện - Điện tử",
+      "dienThoai": "0913608088"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 499,
+        "maGiangVien": "001900",
+        "tenGiangVien": "TRƯƠNG QUANG VINH",
+        "emailGiangVien": "tqvinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 89875,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 89876,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "89875",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tại lớp",
+        "en": "Class assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập tại lớp",
+        "en": "Class assignment"
+      }
+    },
+    {
+      "id": 89877,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "89875",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Class project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Class project"
+      }
+    },
+    {
+      "id": 89878,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "89875",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 111177,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 147758,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên hướng dẫn kỹ thuật lập trình driver cho hệ thống nhúng.",
+            "en": "The instructor will guide students through the techniques of programming drivers for embedded systems."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thực hành kỹ thuật lập trình driver cho hệ thống nhúng.",
+            "en": "Students practice programming driver techniques for embedded systems."
+          },
+          "chuandaura": {
+            "id": 240305,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Áp dụng kỹ thuật lập trình driver cho hệ thống nhúng",
+              "en": "Apply driver programming for embedded systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241663,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89876,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "Class assignment"
+                }
+              }
+            },
+            {
+              "id": 241664,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89877,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147756,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên hướng dẫn lập trình điều khiển ngoại vi cho hệ thống nhúng.",
+            "en": "The instructor guides students in programming peripheral control for embedded systems."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thảo luận và thực hành lập trình điều khiển ngoại vi cho hệ thống nhúng.",
+            "en": "Students discuss and practice programming peripheral controls for embedded systems."
+          },
+          "chuandaura": {
+            "id": 240306,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Lập trình điều khiển ngoại vi cho hệ thống nhúng",
+              "en": "Program peripheral control for embedded systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241668,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89877,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 241656,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89878,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "1. Lập trình điều khiển ngoại vi hệ thống nhúng\n1.1. Kỹ thuật lập trình nhúng \n1.2. Lập trình theo module \n1.3. Lập trình điều khiển ngoại vi",
+        "en": "1. Programming Peripheral Control in Embedded Systems\n1.1. Embedded Programming Techniques\n1.2. Modular Programming\n1.3. Peripheral Control Programming"
+      }
+    },
+    {
+      "id": 111180,
+      "stt": 2,
+      "buoi": "3-4",
+      "chuandaurachitiet": [
+        {
+          "id": 147759,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giải thích về máy trạng thái cho hệ thống nhúng và hướng dẫn kỹ thuật lập trình máy trạng thái.",
+            "en": "The instructor explained state machines for embedded systems and provided guidance on state machine programming techniques."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thảo luận và thực hành thiết kế và lập trình máy trạng thái cho hệ thống nhúng.",
+            "en": "Students discuss and practice designing and programming state machines for embedded systems."
+          },
+          "chuandaura": {
+            "id": 240307,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Thiết kế và lập trình máy trạng thái cho hệ thống nhúng",
+              "en": "Design and program state machines for embedded systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241655,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89876,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "Class assignment"
+                }
+              }
+            },
+            {
+              "id": 241659,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89878,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147757,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên hướng dẫn kỹ thuật lập trình quản lý tác vụ cho hệ thống nhúng.",
+            "en": "The instructor will guide students through the programming techniques for task management in embedded systems."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thực hành lập trình quản lý tác vụ cho hệ thống nhúng.",
+            "en": "Students practice programming task management for embedded systems."
+          },
+          "chuandaura": {
+            "id": 240308,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Lập trình quản lý tác vụ",
+              "en": "Program task management"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241662,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89876,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "Class assignment"
+                }
+              }
+            },
+            {
+              "id": 241660,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89878,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2. Máy trạng thái và quản lý tác vụ cho hệ thống nhúng\n2.1. Máy trạng thái cho hệ thống nhúng\n2.2. Quản lý tác vụ cho hệ thống nhúng",
+        "en": "2. State Machines and Task Management for Embedded Systems\n2.1. State Machines for Embedded Systems\n2.2. Task Management for Embedded Systems"
+      }
+    },
+    {
+      "id": 111178,
+      "stt": 3,
+      "buoi": "5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 147760,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên hướng dẫn kỹ thuật lập trình đa nhiệm.",
+            "en": "The instructor will guide students through multitasking programming techniques."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thực hành lập trình đa nhiệm.",
+            "en": "Students practice multitasking programming."
+          },
+          "chuandaura": {
+            "id": 240309,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Áp dụng lập trình đa nhiệm",
+              "en": "Apply multitasking programming"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241669,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89876,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "Class assignment"
+                }
+              }
+            },
+            {
+              "id": 241657,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89878,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147755,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên hướng dẫn về kỹ thuật đồng bộ trong hệ thống nhúng thời gian thực.",
+            "en": "The instructor will guide students through synchronization techniques in real-time embedded systems."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thảo luận và thực hành lập trình đồng bộ trong hệ thống nhúng thời gian thực.",
+            "en": "Students discuss and practice synchronous programming in real-time embedded systems."
+          },
+          "chuandaura": {
+            "id": 240310,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng đồng bộ trong hệ thống nhúng thời gian thực",
+              "en": "Apply synchronization in real-time embedded systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241666,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89876,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "Class assignment"
+                }
+              }
+            },
+            {
+              "id": 241670,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89878,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "3. Lập trình đa nhiệm và kỹ thuật đồng bộ trong hệ thống nhúng thời gian thực\n3.1. Lập trình đa nhiệm\n3.2. Kỹ thuật đồng bộ trong hệ thống nhúng thời gian thực",
+        "en": "3. Multitasking and Synchronization Techniques in Real-Time Embedded Systems\n3.1. Multitasking Programming\n3.2. Synchronization Techniques in Real-Time Embedded Systems"
+      }
+    },
+    {
+      "id": 111176,
+      "stt": 4,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 147761,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên giới thiệu và hướng dẫn hệ điều hành RTOS và Linux nhúng.",
+            "en": "The instructor introduced and guided students through RTOS and embedded Linux operating systems."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thảo luận và thực hành sử dụng hệ điều hành RTOS và Linux nhúng.",
+            "en": "Students discuss and practice using RTOS and embedded Linux operating systems."
+          },
+          "chuandaura": {
+            "id": 240311,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Sử dụng hệ điều hành nhúng RTOS và Linux nhúng",
+              "en": "Use RTOS and embedded Linux operating systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241661,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89877,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 241665,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89878,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4. Hệ điều hành cho hệ thống nhúng\n4.1. RTOS\n4.2. Embedded Linux",
+        "en": "4. Operating Systems for Embedded Systems\n4.1. RTOS\n4.2. Embedded Linux"
+      }
+    },
+    {
+      "id": 111179,
+      "stt": 5,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 147754,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên hướng dẫn cài đặt hệ điều hành nhúng và phát triển ứng dụng.",
+            "en": "The instructor will guide students through installing the embedded operating system and developing applications."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Học viên thảo luận và thực hành cài đặt hệ điều hành nhúng và phát triển ứng dụng.",
+            "en": "Students discuss and practice installing embedded operating systems and developing applications."
+          },
+          "chuandaura": {
+            "id": 240312,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Ứng dụng hệ điều hành nhúng để phát triển ứng dụng",
+              "en": "Apply embedded operating systems for application development."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241658,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89876,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "Class assignment"
+                }
+              }
+            },
+            {
+              "id": 241667,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89877,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "5. Phát triển ứng dụng hoàn chỉnh cho hệ thống nhúng\n5.1. Cài đặt hệ điều hành cho hệ thống nhúng\n5.2. Phát triển ứng dụng trên nền hệ điều hành nhúng\n5.3. Kiểm thử và đánh giá ứng dụng nhúng",
+        "en": "5. Developing a complete application for an embedded system\n5.1. Installing an operating system for the embedded system\n5.2. Developing an application on the embedded operating system\n5.3. Testing and evaluating embedded applications"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 240305,
+      "ma": "L.O.1.1",
+      "ten_vi": "Áp dụng kỹ thuật lập trình driver cho hệ thống nhúng",
+      "ten_en": "Apply driver programming for embedded systems",
+      "hddg": [
+        {
+          "id": 89876,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "Class assignment"
+        },
+        {
+          "id": 89877,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        }
+      ]
+    },
+    {
+      "id": 240306,
+      "ma": "L.O.1.2",
+      "ten_vi": "Lập trình điều khiển ngoại vi cho hệ thống nhúng",
+      "ten_en": "Program peripheral control for embedded systems",
+      "hddg": [
+        {
+          "id": 89877,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 89878,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240307,
+      "ma": "L.O.2.1",
+      "ten_vi": "Thiết kế và lập trình máy trạng thái cho hệ thống nhúng",
+      "ten_en": "Design and program state machines for embedded systems",
+      "hddg": [
+        {
+          "id": 89876,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "Class assignment"
+        },
+        {
+          "id": 89878,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240308,
+      "ma": "L.O.2.2",
+      "ten_vi": "Lập trình quản lý tác vụ",
+      "ten_en": "Program task management",
+      "hddg": [
+        {
+          "id": 89876,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "Class assignment"
+        },
+        {
+          "id": 89878,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240309,
+      "ma": "L.O.3.1",
+      "ten_vi": "Áp dụng lập trình đa nhiệm",
+      "ten_en": "Apply multitasking programming",
+      "hddg": [
+        {
+          "id": 89876,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "Class assignment"
+        },
+        {
+          "id": 89878,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240310,
+      "ma": "L.O.3.2",
+      "ten_vi": "Áp dụng đồng bộ trong hệ thống nhúng thời gian thực",
+      "ten_en": "Apply synchronization in real-time embedded systems",
+      "hddg": [
+        {
+          "id": 89876,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "Class assignment"
+        },
+        {
+          "id": 89878,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240311,
+      "ma": "L.O.4.1",
+      "ten_vi": "Sử dụng hệ điều hành nhúng RTOS và Linux nhúng",
+      "ten_en": "Use RTOS and embedded Linux operating systems.",
+      "hddg": [
+        {
+          "id": 89877,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 89878,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240312,
+      "ma": "L.O.4.2",
+      "ten_vi": "Ứng dụng hệ điều hành nhúng để phát triển ứng dụng",
+      "ten_en": "Apply embedded operating systems for application development.",
+      "hddg": [
+        {
+          "id": 89876,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "Class assignment"
+        },
+        {
+          "id": 89877,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Lập trình hệ thống nhúng nâng cao",
+  "tenmonhoc_eng": "Advanced Embedded System Programming",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "ma": "DCMH.AS5055.1.1",
+  "phienban": "1.1",
+  "capnhat": "31/07/2025 08:38",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS5055",
+  "ten": "AS5055 - Phân tích ứng xử cơ học vật liệu tiên tiến (PBL)",
+  "ten_eng": "AS5055 - Mechanical Behavior Analysis of Advanced Materials (PBL)",
+  "hockyapdung": "HK251",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Sau khi hoàn thành môn học này, sinh viên có khả năng:<br>- Nắm được các kiến thức chung về tính chất cơ học của vật liệu.<br>- Mô hình hóa và phân tích ứng xử cơ học của vật rắn biến dạng<br>- Mô hình hóa ứng xử phi tuyến của vật liệu<br>- Mô hình hóa và phân tích ứng xử cơ học vật liệu composite. <br>- Mô hình hóa và phân tích ứng xử cơ học vật liệu FGM.<br>- Mô hình hóa và phân tích ứng xử cơ học cấu trúc vật liệu Auxetic.  <br><br></p>",
+      "en": "<p>After completing this course, students will be able to:<br>- Understand general knowledge about the mechanical properties of materials.<br>- Model and analyze the mechanical behavior of deformable solids<br>- Model the nonlinear behavior of materials<br>- Model and analyze the mechanical behavior of composite materials.<br>- Model and analyze the mechanical behavior of FGM materials.<br>- Model and analyze the mechanical behavior of Auxetic material structures.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học phân tích ứng xử cơ học vật liệu tiên tiến tập trung vào việc nghiên cứu các đặc tính và ứng xử của các loại vật liệu mới như vật liệu polymer-composite và các loại vật liệu tiên tiến khác. Nội dung môn học bao gồm: phân tích nội lực, ứng suất, biến dạng và đồ thị ứng suất-biến dạng của vật liệu, cũng như ứng dụng các kiến thức vào các tình huống thực tế trong thiết kế, sản xuất.​<br></p>",
+      "en": "<p>\n\nThis course focuses on studying the properties and behavior of new materials such as polymer-composite materials, and other advanced materials. The course content includes analysis of internal forces, stresses, strains and stress-strain curves of materials, as well as application of knowledge to practical situations in design and production.\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Tài liệu học tập</p><p>[1] Giáo trình Cơ học vật liệu nâng cao (ebook) – Nguyễn Trung Kiên. 2020. <br></p><p>Tài liệu tham khảo</p><p>[1]&nbsp;Lý thuyết đàn hồi và Lý thuyết dẻo – Lê Quang Minh. 2021, NXB Bách Khoa Hà Nội.</p><p>[2]&nbsp;Mechanical behavior of materials – Norman E. Dowling. Fourth edition, 2013. Pearson Education Limited.</p>",
+      "en": "<p>Textbook:</p><p>[1] Advanced Mechanics of Materials Textbook (ebook) – Nguyen Trung Kien. 2020.<br></p><p>Reference books:</p><p>[1]&nbsp;Elasticity theory and Plasticity theory – Le Quang Minh. 2021, Bach Khoa Publishing House, Hanoi.</p><p>[2]&nbsp;Mechanical behavior of materials – Norman E. Dowling. Fourth edition, 2013. Pearson Education Limited.</p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Để đảm bảo đạt kết quả học tập tốt, sinh viên cần phải:  <br>-  Có giáo trình.<br>-  Dự đầy đủ giờ giảng trên lớp và ở công ty. <br>-  Hoàn thành các bài tập đúng thời hạn và mức đạt quy định<br>-  Tổ chức các hoạt động học tập nhóm để hoàn thành bài tập lớn.<br></p>",
+      "en": "<p>To ensure good study results, students need to:<br>- Have a textbook.<br>- Attend all lectures in class and at the company.<br>- Complete assignments on time and to the required level.<br>- Organize group study activities to complete major assignments.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 5185,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "Chương trình đào tạo kỹ sư ngành Cơ Kỹ thuật K25",
+        "en": "Engineer training program in Engineering Mechanics K25"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1408,
+      "ma": "003139",
+      "ten": "NGUYỄN THÁI HIỀN"
+    },
+    {
+      "id": 1403,
+      "ma": "002852",
+      "ten": "NGUYỄN THANH NHÃ"
+    },
+    {
+      "id": 1409,
+      "ma": "003263",
+      "ten": "NGUYỄN DUY KHƯƠNG"
+    },
+    {
+      "id": 12688,
+      "ma": "004296",
+      "ten": "PHẠM TOÀN THẮNG"
+    },
+    {
+      "id": 1396,
+      "ma": "001673",
+      "ten": "TRƯƠNG TÍCH THIỆN"
+    },
+    {
+      "id": 1401,
+      "ma": "002612",
+      "ten": "NGUYỄN TƯỜNG LONG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 1,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 2,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 135,
+    "lyThuyet": 15,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 90,
+    "tuHoc": 30,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": 5,
+        "ma": "BVHD",
+        "text": {
+          "vi": "Bảo vệ hội đồng",
+          "en": "Project Defense"
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 50,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 0,
+    "lyThuyetKhac": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1079,
+      "maBoMon": "CKT",
+      "tenBoMon": {
+        "vi": "Cơ Kỹ Thuật"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "Phòng 106B4, 268 Lý  Thường Kiệt, phường 14, quận 10, Tp. HCM",
+      "dienThoai": "0909.450208"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1408,
+        "maGiangVien": "003139",
+        "tenGiangVien": "NGUYỄN THÁI HIỀN",
+        "emailGiangVien": "thnguyen@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "pbl1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 62202,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 62203,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "62202",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo trước hội đồng",
+        "en": "Report to the board"
+      },
+      "noidung": {
+        "vi": "Sinh viên báo cáo nội dung và kết quả thực hiện tại doanh nghiệp",
+        "en": "Students report on the content and results of implementation at the enterprise."
+      }
+    },
+    {
+      "id": 62204,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "62202",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Thảo luận tại lớp",
+        "en": "Discuss in class"
+      },
+      "noidung": {
+        "vi": "Thảo luận tại lớp",
+        "en": "Discuss in class"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 72006,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 89609,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, thảo luận\n",
+            "en": "Lecture, Discussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, thảo luận",
+            "en": "Preview Lecture, Discussion"
+          },
+          "chuandaura": {
+            "id": 102579,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Giải thích lý thuyết, khái niệm, nguyên lý và phương trình chủ đạo của cơ học vật rắn biến dạng",
+              "en": "Explain the theory, concepts, principles and governing equations of solid mechanics"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136618,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 62203,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo trước hội đồng",
+                  "en": "Report to the board"
+                }
+              }
+            },
+            {
+              "id": 136620,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 62204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discuss in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1.  Ứng xử đàn hồi vật liệu đẳng hướng ngang và trực hướng\n\n",
+        "en": "Chapter 1. Elastic behavior of transversely isotropic and orthotropic materials"
+      }
+    },
+    {
+      "id": 72003,
+      "stt": 2,
+      "buoi": "2,3",
+      "chuandaurachitiet": [
+        {
+          "id": 89607,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, thảo luận",
+            "en": "Lecture, discussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, thảo luận",
+            "en": "Preview Lecture, Discussion"
+          },
+          "chuandaura": {
+            "id": 102625,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Phân tích ứng xử cơ học đối với vật liệu đẳng hướng, vật liệu trực hướng, vật liệu FGM, vật liệu composite",
+              "en": "Analyze mechanical behavior for isotropic materials, orthotropic materials, FGM materials, and composite materials"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136612,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 62203,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo trước hội đồng",
+                  "en": "Report to the board"
+                }
+              }
+            },
+            {
+              "id": 136616,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 62204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discuss in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Phương pháp đồng nhất hóa vật liệu hỗn hợp\n2.1. Vật liệu hỗn hợp\n2.2. Mô hình giải tích đánh giá các đặc tính đàn hồi vật liệu hỗn hợp\n2.3. Phương pháp đồng nhất hóa vật liệu hỗn hợp",
+        "en": "Chapter 2. Homogenization method of mixed materials\n2.1. Composite materials\n2.2. Analytical model for evaluating elastic properties of composite materials\n2.3. Homogenization method of composite materials"
+      }
+    },
+    {
+      "id": 72004,
+      "stt": 3,
+      "buoi": "4,5",
+      "chuandaurachitiet": [
+        {
+          "id": 89801,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, thảo luận",
+            "en": "Lecture, Discussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, thảo luận",
+            "en": "Preview Lecture, Discussion"
+          },
+          "chuandaura": {
+            "id": 102625,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Phân tích ứng xử cơ học đối với vật liệu đẳng hướng, vật liệu trực hướng, vật liệu FGM, vật liệu composite",
+              "en": "Analyze mechanical behavior for isotropic materials, orthotropic materials, FGM materials, and composite materials"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136613,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 62203,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo trước hội đồng",
+                  "en": "Report to the board"
+                }
+              }
+            },
+            {
+              "id": 136617,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 62204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discuss in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Phân tích ứng xử cơ học cho vật liệu Composite, FGM\n3.1. Phân tích ứng xử đàn hồi tuyến tính kết cấu vật liệu Composite, FGM\n3.2. Phân tích ứng xử bất ổn định kết cấu vật liệu Composite, FGM\n3.3. Phân tích ứng xử mỏi kết cấu vật liệu Composite, FGM",
+        "en": "Chapter 3. Mechanical Behavior Analysis for FGM and Composite Materials\n3.1. Analysis of Linear Elastic Behavior of FGM and Composite Materials  \n3.2. Analysis of Structural Instability Behavior of FGM and Composite Materials  \n3.3. Analysis of Fatigue Behavior of FGM and Composite Materials"
+      }
+    },
+    {
+      "id": 72005,
+      "stt": 4,
+      "buoi": "6, 7",
+      "chuandaurachitiet": [
+        {
+          "id": 89608,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng, thảo luận\n\n",
+            "en": "Lecture, Discussion\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem trước bài giảng, thảo luận",
+            "en": "Preview Lecture, Discussion"
+          },
+          "chuandaura": {
+            "id": 102615,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Phân tích ứng suất trong các cấu trúc đơn giản được sử dụng trong công nghiệp",
+              "en": "Analyse the stresses in simple structures as used in the industry"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136614,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 62203,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo trước hội đồng",
+                  "en": "Report to the board"
+                }
+              }
+            },
+            {
+              "id": 136619,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 62204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discuss in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Cấu trúc vật liệu Auxetic\n4.1. Định nghĩa và tính chất của vật liệu auxetic\n4.2. Mô hình và lý thuyết\n4.3. Ứng dụng của vật liệu auxetic\n4.4. Phân tích và thử nghiệm",
+        "en": "Chapter 4. Auxetic material structure\n4.1. Definition and properties of auxetic materials  \n4.2. Models and theories  \n4.3. Applications of auxetic materials  \n4.4. Analysis and testing"
+      }
+    },
+    {
+      "id": 72007,
+      "stt": 5,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 89610,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Nghe sinh viên báo cáo nội dung và kết quả thực hiện tại doanh nghiệp",
+            "en": "Listen to students report on the content and results of implementation at the enterprise"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên báo cáo nội dung và kết quả thực hiện tại doanh nghiệp",
+            "en": "Students report on the content and results of implementation at the enterprise."
+          },
+          "chuandaura": {
+            "id": 102586,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Sử dụng kỹ năng hiểu biết giữa các cá nhân, làm việc nhóm và giao tiếp khi thực hiện công việc nhóm",
+              "en": "Use interpersonal understanding, teamwork and communication skills working on group assignments"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 136615,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 62203,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo trước hội đồng",
+                  "en": "Report to the board"
+                }
+              }
+            },
+            {
+              "id": 136801,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 62204,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thảo luận tại lớp",
+                  "en": "Discuss in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Sinh viên báo cáo nội dung và kết quả thực hiện tại doanh nghiệp",
+        "en": "Students report on the content and results of implementation at the enterprise."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 102579,
+      "ma": "L.O.1",
+      "ten_vi": "Giải thích lý thuyết, khái niệm, nguyên lý và phương trình chủ đạo của cơ học vật rắn biến dạng",
+      "ten_en": "Explain the theory, concepts, principles and governing equations of solid mechanics",
+      "hddg": [
+        {
+          "id": 62203,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo trước hội đồng",
+          "ten_en": "Report to the board"
+        },
+        {
+          "id": 62204,
+          "ma": "A.O.2",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discuss in class"
+        }
+      ]
+    },
+    {
+      "id": 102625,
+      "ma": "L.O.2",
+      "ten_vi": "Phân tích ứng xử cơ học đối với vật liệu đẳng hướng, vật liệu trực hướng, vật liệu FGM, vật liệu composite",
+      "ten_en": "Analyze mechanical behavior for isotropic materials, orthotropic materials, FGM materials, and composite materials",
+      "hddg": [
+        {
+          "id": 62203,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo trước hội đồng",
+          "ten_en": "Report to the board"
+        },
+        {
+          "id": 62204,
+          "ma": "A.O.2",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discuss in class"
+        }
+      ]
+    },
+    {
+      "id": 102615,
+      "ma": "L.O.3",
+      "ten_vi": "Phân tích ứng suất trong các cấu trúc đơn giản được sử dụng trong công nghiệp",
+      "ten_en": "Analyse the stresses in simple structures as used in the industry",
+      "hddg": [
+        {
+          "id": 62203,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo trước hội đồng",
+          "ten_en": "Report to the board"
+        },
+        {
+          "id": 62204,
+          "ma": "A.O.2",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discuss in class"
+        }
+      ]
+    },
+    {
+      "id": 102586,
+      "ma": "L.O.4",
+      "ten_vi": "Sử dụng kỹ năng hiểu biết giữa các cá nhân, làm việc nhóm và giao tiếp khi thực hiện công việc nhóm",
+      "ten_en": "Use interpersonal understanding, teamwork and communication skills working on group assignments",
+      "hddg": [
+        {
+          "id": 62203,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo trước hội đồng",
+          "ten_en": "Report to the board"
+        },
+        {
+          "id": 62204,
+          "ma": "A.O.2",
+          "ten_vi": "Thảo luận tại lớp",
+          "ten_en": "Discuss in class"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phân tích ứng xử cơ học vật liệu tiên tiến (PBL)",
+  "tenmonhoc_eng": "Mechanical Behavior Analysis of Advanced Materials (PBL)",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

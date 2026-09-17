@@ -1,0 +1,1866 @@
+{
+  "ma": "DCMH.EE5339.1.1",
+  "phienban": "1.1",
+  "capnhat": "01/06/2026 15:16",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5339",
+  "ten": "EE5339 - SCADA: Phân tích và thiết kế",
+  "ten_eng": "EE5339 - SCADA: Design and Analysis",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\nMôn học trang bị cho học viên kiến thức và kỹ năng phân tích, thiết kế và lập trình một hệ SCADA theo hướng đối tượng bằng C#, bao gồm cấu trúc lõi, luồng dữ liệu/điều khiển và cơ chế tích hợp các thành phần chức năng. Học viên được rèn luyện thiết kế và triển khai giao diện HMI phục vụ giám sát và thao tác điều khiển; xây dựng kết nối SCADA với PLC Siemens S7 qua giao thức S7; kết nối với hệ thiết bị điều khiển điện và đo đếm điện năng qua Modbus TCP/IP; kết nối với OPC UA Server. Môn học nhấn mạnh khả năng tích hợp đa giao thức trong một kiến trúc thống nhất, hướng đến triển khai các giải pháp SCADA hiện đại cho hệ thống điều khiển và tự động hóa công nghiệp.\n\n<br></p>",
+      "en": "<p>\n\nThis course equips students with knowledge and skills to analyze, design, and implement an object-oriented SCADA system in C#; including the core structure, data/control flow, and integration of key functional components. Students practice designing and developing HMI/graphic elements for monitoring and operator control actions; implementing SCADA connectivity to Siemens S7 PLCs using the S7 protocol; connecting to power control and energy metering devices via Modbus TCP/IP; and interfacing with an OPC UA Server. The course emphasizes multi-protocol integration under a unified architecture, targeting modern SCADA solutions for industrial control and automation systems.\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>•  Phân tích và thiết kế hệ SCADA theo hướng đối tượng, triển khai bằng C# trên Visual Studio.<br>•  Cấu trúc lõi SCADA và luồng dữ liệu/luồng điều khiển.<br>•  Thiết kế và lập trình giao diện HMI cho giám sát và điều khiển.<br>•  Kết nối SCADA với PLC Siemens S7 qua giao thức S7.<br>•  Kết nối SCADA với hệ thiết bị điều khiển điện và đo đếm điện năng qua Modbus TCP/IP.<br>•  Kết nối SCADA với OPC UA Server.<br>•  Tích hợp đa giao thức trong một kiến trúc thống nhất.<br>•  Thực hành trên laptop cá nhân, kết nối trực tiếp với PLC và các server tương ứng để xây dựng giải pháp SCADA hoàn chỉnh.<br></p>",
+      "en": "<p>•  Analyze and design an object-oriented SCADA system, implemented in C# using Visual Studio.<br>•  SCADA core structure and data/control flow.<br>•  HMI design and development for monitoring and control.<br>•  SCADA connectivity to Siemens S7 PLCs via the S7 protocol.<br>•  Connectivity to power control and energy metering devices via Modbus TCP/IP.<br>•  Connectivity to an OPC UA Server.<br>•  Multi-protocol integration under a unified architecture.<br>•  Hands-on work on personal laptops, connecting directly to PLCs and relevant servers to develop an integrated SCADA solution.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] Microsoft Learn – C# language documentation: <a href=\"https://learn.microsoft.com/en-us/dotnet/csharp/\" title=\"Link: https://learn.microsoft.com/en-us/dotnet/csharp/\">https://learn.microsoft.com/en-us/dotnet/csharp/</a><br>[2] Visual Studio – Downloads: <a href=\"https://visualstudio.microsoft.com/downloads/\">https://visualstudio.microsoft.com/downloads/</a><br>[3] Trương Đình Châu. Giáo trình hệ thống điều khiển và SCADA. NXB ĐHQG TP.HCM, 2026. (tài liệu tham khảo, dùng cho bậc đại học; không phải giáo trình chính của học phần này).<br>[4] Trương Đình Châu. Tài nguyên thực hành đi kèm giáo trình “Hệ thống điều khiển và SCADA” (dự án TIA Portal và phần mềm mô phỏng đo đếm điện năng), GitHub repository: <a href=\"https://github.com/chau-truong/scada-resources\">https://github.com/chau-truong/scada-resources</a><br>[5] Trương Đình Châu. Tài nguyên thực hành cho học phần sau đại học “SCADA: Phân tích và Thiết kế” (dự án C#, dự án TIA Portal và các phần mềm mô phỏng). GitHub repository: <a href=\"https://github.com/chau-truong/inside-scada-resources\">https://github.com/chau-truong/inside-scada-resources</a><br>[6] Siemens AG, TIA Portal V20 – Technical slides (Release version 1.4), Technical documentation, Siemens, 2024:<br><a href=\"https://cache.industry.siemens.com/dl/files/848/109963848/att_1305640/v4/TIA_Portal_V20_technical_slides_EN.pdf\">https://cache.industry.siemens.com/dl/files/848/109963848/att_1305640/v4/TIA_Portal_V20_technical_sl...</a><br>[7] Siemens AG, SIMATIC – Programming with STEP 7, Function Manual, Division Digital Factory, Nürnberg, Germany, 2017:<br><a href=\"https://cache.industry.siemens.com/dl/files/825/109751825/att_933142/v1/STEP_7_-_Programming_with_STEP_7.pdf\">https://cache.industry.siemens.com/dl/files/825/109751825/att_933142/v1/STEP_7_-_Programming_with_ST...</a><br>[8] Siemens Industry Support Portal (trung tâm hỗ trợ kỹ thuật và tải phần mềm chính thức): <a href=\"https://support.industry.siemens.com\" title=\"Link: https://support.industry.siemens.com\">https://support.industry.siemens.com</a><br>[9] Trương Đình Châu, PLC ảo – Giải pháp lập trình và kiểm tra hệ thống sớm, Tự động hóa ngày nay:<br><a href=\"https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html\">https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html</a><br>[10] OPC Foundation, OPC Unified Architecture (OPC UA) – Unified Architecture Overview:<br><a href=\"https://opcfoundation.org/about/opc-technologies/opc-ua\">https://opcfoundation.org/about/opc-technologies/opc-ua</a><br>[11] Modbus Organization, Modbus Application Protocol Specification V1.1b3, 2012:<br><a href=\"https://www.modbus.org/file/secure/modbusprotocolspecification.pdf\">https://www.modbus.org/file/secure/modbusprotocolspecification.pdf</a>﻿<br></p>",
+      "en": "<p>[1] Microsoft Learn – C# language documentation: <a href=\"https://learn.microsoft.com/en-us/dotnet/csharp/\">https://learn.microsoft.com/en-us/dotnet/csharp/</a><br>[2] Visual Studio – Downloads: <a href=\"https://visualstudio.microsoft.com/downloads/\">https://visualstudio.microsoft.com/downloads/</a><br>[3] Truong Dinh Chau. Control Systems and SCADA Textbook. Vietnam National University HCMC Press, 2026. (reference material for undergraduate level; not the main textbook for this course).<br>[4] Truong Dinh Chau. Practice resources accompanying the “Control Systems and SCADA” textbook (TIA Portal projects and energy metering simulator), GitHub repository: <a href=\"https://github.com/chau-truong/scada-resources\">https://github.com/chau-truong/scada-resources</a><br>[5] Truong Dinh Chau. Practice resources for the postgraduate course “SCADA: Analysis and Design” (C# projects, TIA Portal projects, and simulators). GitHub repository: <a href=\"https://github.com/chau-truong/inside-scada-resources\">https://github.com/chau-truong/inside-scada-resources</a><br>[6] Siemens AG, TIA Portal V20 – Technical slides (Release version 1.4), Technical documentation, 2024:<br><a href=\"https://cache.industry.siemens.com/dl/files/848/109963848/att_1305640/v4/TIA_Portal_V20_technical_slides_EN.pdf\">https://cache.industry.siemens.com/dl/files/848/109963848/att_1305640/v4/TIA_Portal_V20_technical_sl...</a><br>[7] Siemens AG, SIMATIC – Programming with STEP 7, Function Manual, Division Digital Factory, Nürnberg, Germany, 2017:<br><a href=\"https://cache.industry.siemens.com/dl/files/825/109751825/att_933142/v1/STEP_7_-_Programming_with_STEP_7.pdf\">https://cache.industry.siemens.com/dl/files/825/109751825/att_933142/v1/STEP_7_-_Programming_with_ST...</a><br>[8] Siemens Industry Support Portal (official technical support and software downloads): <a href=\"https://support.industry.siemens.com\">https://support.industry.siemens.com</a><br>[9] Truong Dinh Chau, Virtual PLC – An approach for early development and system validation, Automation Today magazine:<br><a href=\"https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html\">https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html</a><br>[10] OPC Foundation, OPC Unified Architecture (OPC UA) – Unified Architecture Overview:<br><a href=\"https://opcfoundation.org/about/opc-technologies/opc-ua\">https://opcfoundation.org/about/opc-technologies/opc-ua</a><br>[11] Modbus Organization, Modbus Application Protocol Specification V1.1b3, 2012:<br><a href=\"https://www.modbus.org/file/secure/modbusprotocolspecification.pdf\">https://www.modbus.org/file/secure/modbusprotocolspecification.pdf</a><br>﻿<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>•  Tham dự đầy đủ các buổi học và chủ động trao đổi với giảng viên để làm rõ yêu cầu kỹ thuật, tiêu chí đánh giá và phạm vi của từng chủ đề.<br>•  Chuẩn bị trước mỗi buổi học: đọc tài liệu về C#/.NET, kiến trúc SCADA và các giao thức S7, Modbus TCP/IP, OPC UA; ghi lại câu hỏi/điểm chưa rõ để thảo luận trên lớp.<br>•  Thực hành ngay sau mỗi buổi học trên laptop cá nhân: triển khai cấu trúc lõi SCADA theo hướng đối tượng (C#), xây dựng mô hình đối tượng, luồng dữ liệu/điều khiển và kiểm thử từng chức năng theo từng bước.<br>•  Thiết kế và lập trình HMI theo hướng “gắn với mô hình lõi”: thống nhất quy ước tag, trạng thái, cảnh báo; kiểm thử thao tác điều khiển và tính nhất quán dữ liệu.<br>•  Thực hành kết nối và tích hợp theo từng giai đoạn: (1) S7, (2) Modbus TCP/IP cho điều khiển điện/đo đếm điện năng, (3) OPC UA; sau đó tích hợp đa giao thức trong một kiến trúc thống nhất.<br>•  Tổ chức bài tập lớn theo nhóm (nếu có): phân công vai trò rõ ràng (core/OOP, HMI, communication, test &amp; documentation), họp ngắn định kỳ, ghi nhận quyết định thiết kế và kết quả kiểm thử.<br>•  Hoàn thành bài tập đúng hạn; ưu tiên chất lượng kỹ thuật: code rõ ràng, có cấu trúc, có log/diagnostic và kịch bản kiểm thử để chứng minh chức năng.<br>•  Chuẩn bị cho đánh giá cuối kỳ bằng cách hệ thống hóa: kiến trúc SCADA, mô hình hướng đối tượng, nguyên lý kết nối/địa chỉ hóa của S7–Modbus–OPC UA, và cách tích hợp đa giao thức.<br></p>",
+      "en": "<p>•  Attend all sessions and actively communicate with the instructor to clarify technical requirements, grading criteria, and the scope of each topic.<br>•  Prepare before each class by reviewing materials on C#/.NET, SCADA architecture, and the S7, Modbus TCP/IP, and OPC UA protocols; note questions for in-class discussion.<br>•  Practice immediately after each session on your own laptop: implement the object-oriented SCADA core (C#), build the object model, data/control flow, and verify each function step by step.<br>•  Develop the HMI with a “core-first binding” approach: maintain consistent tag/state/alarm conventions and validate operator actions and data consistency.<br>•  Implement connectivity and integration in phases: (1) S7, (2) Modbus TCP/IP for power control and energy metering, (3) OPC UA; then integrate multiple protocols under a unified architecture.<br>•  For group projects (if applicable): assign clear roles (core/OOP, HMI, communication, test &amp; documentation), run short regular meetings, and keep design decisions and test results documented.<br>•  Complete assignments on time and prioritize technical quality: structured code, clear diagnostics/logging, and test scenarios to demonstrate correctness.<br>•  Prepare for the final assessment by consolidating: SCADA architecture, object-oriented modeling, S7–Modbus–OPC UA addressing/communication principles, and multi-protocol integration strategies.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 10289,
+      "ma": "NG_8520216",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Kỹ thuật Điều khiển và Tự động hóa",
+        "en": "Research-intensive Master Program in Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 10256,
+      "ma": "NG_8520114",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ hướng Ứng dụng Ngành Kỹ Thuật Cơ Điện Tử",
+        "en": "Coursework Master Program in Mechatronics Engineering"
+      }
+    },
+    {
+      "id": 10291,
+      "ma": "NG_8520216",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Kỹ thuật Điều khiển và Tự động hóa",
+        "en": "Research-oriented Master Program in Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 10470,
+      "ma": "NG_8520114",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Kỹ thuật Cơ Điện Tử",
+        "en": "Research-intensive Master Program in Mechatronics Engineering"
+      }
+    },
+    {
+      "id": 10570,
+      "ma": "NG_8520114",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ hướng Nghiên cứu Ngành Kỹ Thuật Cơ Điện Tử",
+        "en": "Research-oriented Master Program in Mechatronics Engineering"
+      }
+    },
+    {
+      "id": 10181,
+      "ma": "NG_8520216",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng ứng dụng ngành Kỹ thuật Điều khiển và Tự động hóa",
+        "en": "Coursework Master Program in Control Engineering and Automation"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 541,
+      "ma": "002655",
+      "ten": "TRƯƠNG ĐÌNH CHÂU"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 30,
+    "thiNghiem": 0,
+    "baiTapLon": 50,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 20,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1031,
+      "maBoMon": "TDH",
+      "tenBoMon": {
+        "vi": "Điều Khiển Tự Động"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Dept of Automation and Control, 109B3",
+      "dienThoai": "+84-91-543-74-40"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 541,
+        "maGiangVien": "002655",
+        "tenGiangVien": "TRƯƠNG ĐÌNH CHÂU",
+        "emailGiangVien": "chau.truong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 90016,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 90017,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "90016",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá quá trình học tập",
+        "en": "Formative learning assessment"
+      },
+      "noidung": {
+        "vi": "Bao gồm thảo luận chuyên đề, câu hỏi nhanh, bài thực hành ngắn trên laptop và kiểm tra mức độ nắm vững kiến trúc SCADA, mô hình hướng đối tượng và nguyên lý kết nối theo từng buổi học. Giảng viên đánh giá dựa trên mức độ tham gia, khả năng phân tích, và chất lượng kết quả thực hành tại lớp.",
+        "en": "Includes topic discussions, quick checks, short hands-on exercises on students’ laptops, and session-based understanding assessments on SCADA architecture, object-oriented modeling, and connectivity principles. Evaluation is based on participation, analytical reasoning, and in-class implementation quality."
+      }
+    },
+    {
+      "id": 90018,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "90016",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập cá nhân",
+        "en": "Individual assignment"
+      },
+      "noidung": {
+        "vi": "Học viên thực hiện các bài tập lập trình C# theo hướng đối tượng để xây dựng từng phần của cấu trúc lõi SCADA (mô hình đối tượng, luồng dữ liệu/điều khiển, alarm/log), và các bài tập kết nối cơ bản (S7/Modbus/OPC UA theo yêu cầu từng chủ đề). Kết quả nộp gồm mã nguồn và báo cáo ngắn (hoặc demo trực tiếp theo yêu cầu). Tiêu chí chấm: đúng chức năng, kiến trúc rõ ràng, khả năng kiểm thử và xử lý lỗi.",
+        "en": "Students complete individual C# object-oriented programming assignments to implement SCADA core components (object model, data/control flow, alarms/logging) and basic connectivity tasks (S7/Modbus/OPC UA depending on the topic). Submissions include source code and a short report (or a live demo if required). Grading focuses on functional correctness, clear architecture, testability, and troubleshooting."
+      }
+    },
+    {
+      "id": 90019,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "90016",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn theo nhóm",
+        "en": "Group project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn theo nhóm triển khai theo 3 mốc tăng dần: (1) Hoàn thiện hệ SCADA gồm Core (C#, hướng đối tượng) + kết nối S7 + UI/HMI; (2) Mở rộng Core + S7 + Modbus TCP/IP + UI để tích hợp thiết bị điều khiển điện và đo đếm điện năng; (3) Hoàn thiện Core + S7 + Modbus TCP/IP + OPC UA + chức năng SCADA nâng cao (Alarms, Trends) + UI. Nhóm nộp mã nguồn/cấu hình và báo cáo kỹ thuật mô tả kiến trúc, luồng dữ liệu/điều khiển, mapping tag và kết quả kiểm thử; trình bày/demo theo lịch.",
+        "en": "The group project is delivered in three incremental stages: (1) Complete a SCADA system with an object-oriented Core (C#) + S7 connectivity + UI/HMI; (2) Extend to Core + S7 + Modbus TCP/IP + UI to integrate power control and energy metering devices; (3) Finalize Core + S7 + Modbus TCP/IP + OPC UA + advanced SCADA functions (Alarms, Trends) + UI. Teams submit source code/configurations and a technical report describing architecture, data/control flow, tag mapping, and test results; and present/demo as scheduled."
+      }
+    },
+    {
+      "id": 90020,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "90016",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ dạng trắc nghiệm, thời lượng 60 phút. Nội dung đánh giá kiến thức tổng hợp về kiến trúc SCADA, mô hình hướng đối tượng (C#) cho cấu trúc lõi, thiết kế HMI/UI, nguyên lý kết nối và địa chỉ hóa S7–Modbus TCP/IP–OPC UA, và tích hợp đa giao thức trong hệ SCADA. Bài làm trả lời trực tiếp trên đề/phiếu theo quy định.",
+        "en": "Final exam in multiple-choice format, 60 minutes. The exam assesses integrated knowledge of SCADA architecture, object-oriented (C#) core modeling, HMI/UI design, connectivity and addressing principles for S7–Modbus TCP/IP–OPC UA, and multi-protocol integration in a SCADA system. Answers are marked directly on the test paper/answer sheet as required."
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 111427,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 148122,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu vai trò SCADA trong hệ điều khiển công nghiệp; phân biệt luồng dữ liệu và luồng điều khiển.\n• Trình bày kiến trúc SCADA mức tổng quan: thành phần phần cứng/phần mềm, mô hình client/server và phân tán.\n• Giải thích các khái niệm nền: tag, alarm/event, historian/trend (mức khái niệm), tính thời gian thực, tính mở–mở rộng, dự phòng.\n• Minh họa bằng sơ đồ/ ví dụ nền tảng PLC và hệ SCADA phổ biến; hỏi–đáp nhanh để chốt thuật ngữ.",
+            "en": "• Introduce the role of SCADA in industrial control systems; distinguish data flow and control flow.\n• Present high-level SCADA architecture: hardware/software components, client/server and distributed models.\n• Explain key concepts: tags, alarms/events, historian/trends (concept level), real-time behavior, openness/scalability, and redundancy.\n• Illustrate with diagrams and common PLC/SCADA platforms; run quick Q&A to consolidate terminology."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Tham gia thảo luận và trả lời câu hỏi nhanh theo các nhóm nội dung (chức năng, cấu trúc, đặc tính kỹ thuật).\n• Vẽ lại sơ đồ kiến trúc SCADA và luồng dữ liệu/điều khiển theo ví dụ trên lớp (1 trang).\n• Liệt kê: 5 chức năng SCADA, 5 đặc tính kỹ thuật, và 3 ví dụ nền tảng PLC/SCADA thường gặp.\n• Chuẩn bị cho buổi sau: đọc ghi chú về Tag–Object–Device abstraction (mức khái niệm).",
+            "en": "• Participate in discussions and quick checks on functions, architecture, and key technical characteristics.\n• Redraw the SCADA architecture diagram and data/control flow from the in-class example (one page).\n• List: five SCADA functions, five technical characteristics, and three common PLC/SCADA platforms.\n• Prepare for the next session by reviewing Tag–Object–Device abstraction concepts."
+          },
+          "chuandaura": {
+            "id": 240635,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Khái niệm và kiến trúc lõi SCADA",
+              "en": "SCADA concepts and core architecture"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242437,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242438,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nền tảng nguyên lý và kiến trúc SCADA:\n• Vai trò SCADA trong hệ điều khiển công nghiệp; luồng dữ liệu và luồng điều khiển\n• Chức năng chính của hệ SCADA\n• Cấu trúc hệ SCADA (phần cứng/phần mềm, mô hình client/server)\n• Các đặc tính kỹ thuật trong SCADA (tag, thời gian thực, tính mở–mở rộng, dự phòng)\n• Các nền tảng PLC và SCADA thường gặp\n• Ví dụ một số hệ thống SCADA",
+        "en": "SCADA fundamentals and architecture:\n• Role of SCADA in industrial control systems; data flow and control flow\n• Main functions of SCADA systems\n• SCADA architecture (hardware/software, client/server model)\n• Key technical characteristics (tags, real-time behavior, openness/scalability, redundancy)\n• Common PLC and SCADA platforms\n• Examples of SCADA systems"
+      }
+    },
+    {
+      "id": 111419,
+      "stt": 2,
+      "buoi": "3-4",
+      "chuandaurachitiet": [
+        {
+          "id": 148123,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu cấu trúc mô hình Tag trong SCADA: value, data type, quality, timestamp và metadata (unit/scale/min–max, description).\n• Trình bày quy ước đặt tên và định danh tag (tag path/namespace) để quản lý theo hệ thống.\n• Demo thiết kế class Tag trong C# và các thao tác cơ bản: tạo tag, cập nhật giá trị, cập nhật timestamp/quality, chuẩn hóa kiểu dữ liệu.\n• Hướng dẫn cách kiểm thử nhanh và ghi log tối thiểu để xác nhận mô hình dữ liệu hoạt động đúng.",
+            "en": "• Introduce the SCADA Tag model: value, data type, quality, timestamp, and metadata (unit/scale/min–max, description).\n• Explain naming conventions and tag identification (tag path/namespace) for system-level management.\n• Demonstrate designing the Tag class in C# and basic operations: tag creation, value update, timestamp/quality update, and data type normalization.\n• Guide quick testing and minimal logging to validate the data model."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thiết kế và cài đặt class Tag trong C#: data type, quality, timestamp, metadata; hỗ trợ set/get và kiểm tra hợp lệ dữ liệu cơ bản.\n• Xây dựng quy ước đặt tên/tag path và tạo danh sách tag mẫu (theo 1 object ví dụ: Motor).\n• Viết đoạn test: cập nhật giá trị theo chu kỳ, thay đổi quality, ghi nhận timestamp; in log kết quả để kiểm chứng.\n• Chuẩn bị nộp/ demo theo yêu cầu: project nhỏ thể hiện Tag model và kết quả chạy.",
+            "en": "• Design and implement the Tag class in C#: data type, quality, timestamp, metadata; provide basic setters/getters and simple validation.\n• Define naming conventions/tag paths and create a sample tag set (for an example object such as a Motor).\n• Write tests: cyclic value updates, quality changes, timestamp updates; print logs to verify behavior.\n• Submit/demo a small project showing the Tag model and runtime results."
+          },
+          "chuandaura": {
+            "id": 240636,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Thiết kế và lập trình mô hình dữ liệu lõi",
+              "en": "Design and implement the core data model"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242449,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242480,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242457,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148112,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày khái niệm device nội bộ (simulation/memory) và vai trò trong cấu trúc lõi SCADA; minh họa “device independence”.\n• Giải thích cơ chế liên kết mềm Tag–Device (soft link) và vòng đời dữ liệu: read/update/write.\n• Hướng dẫn thiết kế abstraction/interface cho device; demo tách tín hiệu điều khiển và phản hồi (command/feedback).\n• Demo luồng dữ liệu/điều khiển đơn giản và cách ghi log/chẩn đoán để kiểm thử.",
+            "en": "• Present the concept and role of internal devices (simulation/memory) in the SCADA core; illustrate device independence.\n• Explain Tag–Device soft linking and the data lifecycle: read/update/write.\n• Guide device abstraction/interface design; demonstrate separating command and feedback signals.\n• Demonstrate a basic data/control flow and how to use logging/diagnostics for verification."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Cài đặt lớp device nội bộ (simulation/memory) theo interface/abstraction; hỗ trợ đọc/ghi dữ liệu và trạng thái kết nối giả lập.\n• Thiết lập liên kết Tag–Device (soft link) cho một object mẫu (ví dụ Motor); cấu hình mapping command/feedback.\n• Thực hiện kịch bản test: đọc giá trị từ device → cập nhật Tag; ghi lệnh điều khiển từ Tag → device; kiểm tra phản hồi.\n• Bổ sung log cơ bản (cập nhật giá trị, thời điểm, nguồn dữ liệu) để chứng minh luồng dữ liệu/điều khiển hoạt động đúng.\n",
+            "en": "• Implement an internal device (simulation/memory) using an interface/abstraction; support basic read/write and simulated connection state.\n• Configure Tag–Device soft links for a sample object (e.g., Motor) and map command/feedback signals.\n• Run test scenarios: read from device → update Tag; write control command from Tag → device; verify feedback.\n• Add basic logs (value update, timestamp, data source) to demonstrate correct data/control flow."
+          },
+          "chuandaura": {
+            "id": 240637,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Thiết kế lớp thiết bị nội bộ và luồng dữ liệu/điều khiển",
+              "en": "Design internal device layer and data/control flow"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242481,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242458,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242455,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cấu trúc lõi SCADA theo hướng đối tượng:\n• Mô hình Tag: kiểu dữ liệu, quality, timestamp; bổ sung metadata (đơn vị đo/scale/min–max) và quy ước đặt tên.\n• Root–Object–Tag: mô hình đối tượng (Motor, …), namespace/grouping, truy xuất theo đường dẫn (path).\n• Device nội bộ (simulation/memory): liên kết mềm Tag–Device; cơ chế đọc/ghi; tách lệnh điều khiển và phản hồi (command/feedback).\n• Nguyên tắc OOP: abstraction/interface, tách lớp theo chức năng, plugin/driver pattern; theo dõi thay đổi (change tracking) và ghi log cơ bản.",
+        "en": "Object-oriented SCADA core structure:\n• Tag model: data type, quality, timestamp; plus metadata (unit/scale/min–max) and naming conventions.\n• Root–Object–Tag: object model (Motor, …), namespace/grouping, and path-based access.\n• Internal device (simulation/memory): Tag–Device soft link; read/write mechanism; separate command and feedback signals.\n• OOP principles: abstraction/interfaces, separation of concerns, plugin/driver pattern; change tracking and basic logging."
+      }
+    },
+    {
+      "id": 111420,
+      "stt": 3,
+      "buoi": "5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 148117,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu các nhóm phần tử HMI: hiển thị (label/value), nhập liệu/điều khiển (button/switch/slider), trạng thái (symbol set/progress) và animation cơ bản.\n• Trình bày nguyên tắc thiết kế màn hình giám sát–điều khiển: phân vùng thông tin, mức ưu tiên, tính nhất quán và khả năng quan sát.\n• Demo tạo một màn hình HMI tối thiểu: bố cục, nhóm đối tượng hiển thị/điều khiển và quy ước đặt tên.",
+            "en": "• Introduce HMI element categories: visualization (labels/values), data entry/control (buttons/switches/sliders), status indication (symbol sets/progress), and basic animations.\n• Explain monitoring/control screen design principles: information grouping, prioritization, consistency, and visibility.\n• Demonstrate building a minimal HMI screen: layout, visualization/control groups, and naming conventions."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Tạo màn hình HMI cơ bản trên laptop: tối thiểu 1 ví dụ cho mỗi nhóm phần tử (hiển thị, điều khiển, trạng thái/animation).\n• Thiết kế bố cục theo ngữ cảnh vận hành (overview + màn hình chi tiết cho một object ví dụ Motor).\n• Kiểm tra tính trực quan: trạng thái đổi màu/biểu tượng theo điều kiện; thao tác điều khiển có phản hồi rõ ràng.",
+            "en": "• Build a basic HMI screen on your laptop: at least one example for each element category (visualization, control, status/animation).\n• Design the layout for an operational context (overview + a detail screen for a sample object such as a Motor).\n• Validate usability: state changes reflected by colors/symbols; control actions provide clear feedback."
+          },
+          "chuandaura": {
+            "id": 240639,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phần tử đồ họa và thiết kế màn hình HMI",
+              "en": "HMI elements and screen design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242476,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242477,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242467,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148113,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Giải thích cơ chế binding UI ↔ Tag/Object và ý nghĩa quality/timestamp trong hiển thị.\n• Hướng dẫn quy ước trạng thái hiển thị: Normal/Warning/Alarm/Bad quality; quy ước thao tác điều khiển (enable/confirm/feedback).\n• Demo binding: hiển thị giá trị tag, ghi lệnh điều khiển (command) và hiển thị phản hồi (feedback/status).",
+            "en": "• Explain UI ↔ Tag/Object binding and the role of quality/timestamp in visualization.\n• Provide display state conventions: Normal/Warning/Alarm/Bad quality; and control action conventions (enable/confirm/feedback).\n• Demonstrate binding: visualize tag values, write control commands, and display feedback/status."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện binding UI ↔ Tag/Object cho một object mẫu (ví dụ Motor): start/stop, setpoint, status/feedback.\n• Áp dụng quy ước hiển thị theo quality và trạng thái (mất dữ liệu/Bad quality hiển thị khác).\n• Test kịch bản: thao tác điều khiển → cập nhật command → nhận feedback → cập nhật trạng thái hiển thị; ghi nhận lỗi và chỉnh sửa.",
+            "en": "• Bind the UI to Tags/Objects for a sample object (e.g., Motor): start/stop, setpoint, and status/feedback.\n• Apply display conventions based on quality and state (e.g., loss of data/Bad quality shown differently).\n• Test scenarios: user action → command update → feedback received → UI state updated; record issues and fix them."
+          },
+          "chuandaura": {
+            "id": 240640,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Liên kết HMI với mô hình đối tượng và dịch vụ lõi",
+              "en": "Bind HMI to the core object model and services"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242459,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242439,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242479,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phần tử đồ họa SCADA và ràng buộc dữ liệu:\n• Bộ phần tử giao diện: hiển thị, nhập liệu/điều khiển, trạng thái và animation.\n• Binding UI ↔ Tag/Object; quy ước trạng thái và thao tác điều khiển.\n• Thiết kế màn hình giám sát/điều khiển theo ngữ cảnh vận hành.",
+        "en": "SCADA graphic elements and data binding:\n• UI elements: visualization, data entry/control, status indication, and basic animations.\n• Binding UI ↔ Tags/Objects; conventions for states and control actions.\n• Design monitoring/control screens based on operational context."
+      }
+    },
+    {
+      "id": 111421,
+      "stt": 4,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 148124,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày khái niệm faceplate và lợi ích tái sử dụng giao diện theo đối tượng/thiết bị.\n• Hướng dẫn template hóa: cấu trúc faceplate, tham số vào/ra (parameters), quy ước đặt tên và style.\n• Demo xây dựng một faceplate mẫu (ví dụ Motor): bố cục, nhóm hiển thị/điều khiển, trạng thái cơ bản.",
+            "en": "• Explain the faceplate concept and the benefits of reusable HMI components across objects/devices.\n• Guide templating: faceplate structure, input/output parameters, naming conventions, and styling.\n• Demonstrate building a sample faceplate (e.g., Motor): layout, visualization/control groups, and basic states."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thiết kế và tạo một faceplate mẫu cho một object (ví dụ Motor) theo template thống nhất.\n• Chuẩn hóa bố cục và style; đảm bảo faceplate hiển thị rõ trạng thái và thao tác điều khiển.\n• Tạo tối thiểu 2 instance faceplate cho 2 object khác nhau để kiểm tra khả năng tái sử dụng.",
+            "en": "• Design and create a template-based faceplate for an object (e.g., Motor) using a unified layout/style.\n• Ensure the faceplate clearly visualizes states and supports control actions.\n• Create at least two faceplate instances for different objects to verify reusability."
+          },
+          "chuandaura": {
+            "id": 240639,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phần tử đồ họa và thiết kế màn hình HMI",
+              "en": "HMI elements and screen design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242468,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242469,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242450,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148111,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Hướng dẫn cách ánh xạ Tag/Object vào tham số faceplate (parameter mapping) và cơ chế binding trong faceplate.\n• Trình bày quy ước mapping: tag path/namespace, command/feedback, và xử lý quality/timestamp trong faceplate.\n• Demo: nạp tham số khi mở faceplate, binding dữ liệu, và kiểm thử thao tác điều khiển có phản hồi.",
+            "en": "• Explain how to map Tags/Objects to faceplate parameters and how binding works inside a faceplate.\n• Provide mapping conventions: tag paths/namespaces, command/feedback, and handling quality/timestamp in the faceplate.\n• Demonstrate: parameter injection when opening a faceplate, data binding, and validating control actions with feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện mapping Tag/Object cho faceplate: hiển thị giá trị, trạng thái; thao tác điều khiển (command) và phản hồi (feedback).\n• Kiểm tra đúng/sai của mapping bằng kịch bản test: mở faceplate cho object A/B, dữ liệu hiển thị đúng theo object tương ứng.\n• Hoàn thiện “thư viện faceplate”: đặt tên, phân loại, và mô tả ngắn cách dùng/điều kiện áp dụng.",
+            "en": "• Map Tags/Objects to the faceplate: value/status visualization; control commands and feedback signals.\n• Validate mapping via test scenarios: open the faceplate for object A/B and confirm correct object-specific data binding.\n• Finalize a small faceplate library: naming, categorization, and short usage notes/conditions."
+          },
+          "chuandaura": {
+            "id": 240640,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Liên kết HMI với mô hình đối tượng và dịch vụ lõi",
+              "en": "Bind HMI to the core object model and services"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242440,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242456,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242451,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Faceplate và tái sử dụng giao diện:\n• Khái niệm faceplate, template hóa và tham số hóa.\n• Ánh xạ Tag/Object cho faceplate; tái sử dụng theo loại thiết bị/đối tượng.\n• Tổ chức thư viện faceplate và chuẩn hóa giao diện vận hành.",
+        "en": "Faceplates and reusable HMI design:\n• Faceplate concepts, templating, and parameterization.\n• Mapping Tags/Objects to faceplates; reuse across device/object types.\n• Organizing a faceplate library and standardizing operator interfaces."
+      }
+    },
+    {
+      "id": 111422,
+      "stt": 5,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 148118,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu nguyên lý kết nối S7 và khái niệm địa chỉ hóa/ánh xạ tag theo cấu trúc PLC.\n• Hướng dẫn quy ước đặt tên và mapping tag cho một đối tượng mẫu (ví dụ Motor): command/feedback, status, setpoint.\n• Demo đọc/ghi dữ liệu S7 (read/write) và kiểm tra kết quả trên PLC/PLCSim; lưu ý các lỗi thường gặp và cách kiểm tra.",
+            "en": "• Introduce S7 connectivity principles and PLC addressing/tag mapping concepts.\n• Provide naming and mapping conventions for a sample object (e.g., Motor): command/feedback, status, setpoint.\n• Demonstrate S7 read/write operations and verification on PLC/PLCSim; highlight common issues and troubleshooting checks."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thiết lập kết nối tới PLC/PLCSim và tạo danh sách tag S7 theo quy ước đặt tên.\n• Thực hiện đọc/ghi tối thiểu: 1 biến trạng thái, 1 setpoint, 1 lệnh điều khiển; xác nhận đúng trên PLC.\n• Ghi nhận kết quả test và lỗi gặp phải (nếu có); hoàn thiện mapping tag cho phần Bài tập lớn 1.",
+            "en": "•\tSet up connection to PLC/PLCSim and create an S7 tag list using the defined naming conventions.\n•\tPerform basic read/write: one status, one setpoint, and one control command; verify on the PLC side.\n•\tRecord test results and issues (if any); finalize tag mapping for Major Project 1."
+          },
+          "chuandaura": {
+            "id": 240641,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kết nối SCADA với PLC Siemens S7 (giao thức S7)",
+              "en": "SCADA connectivity to Siemens S7 (S7 protocol)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242442,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242443,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242444,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90019,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 242448,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148114,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Hướng dẫn thiết kế lớp device/driver S7 theo abstraction/interface để tách phần giao thức khỏi lõi ứng dụng.\n• Demo mô hình hóa tín hiệu S7 thành Tag/Object và tích hợp vào luồng dữ liệu/điều khiển trong core (update cycle, read/write).\n• Minh họa cách kết nối dữ liệu S7 với giao diện HMI và kiểm thử command/feedback theo kịch bản vận hành.",
+            "en": "• Guide the design of an S7 device/driver using abstraction/interfaces to separate protocol handling from the core.\n• Demonstrate modeling S7 signals into Tags/Objects and integrating them into core data/control flow (update cycle, read/write).\n• Show how to bind S7 data to the HMI and validate command/feedback through operational scenarios."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Cài đặt lớp S7Device/S7Driver theo abstraction; triển khai các hàm read/write tối thiểu và trạng thái kết nối.\n• Ánh xạ tag S7 vào Tag/Object trong core; chạy chu kỳ cập nhật và kiểm tra đồng bộ dữ liệu.\n• Liên kết với HMI: hiển thị trạng thái và điều khiển lệnh; test kịch bản start/stop và phản hồi.\n• Đóng gói phiên bản “SCADA tối thiểu” làm nền cho Bài tập lớn 1 (core + S7 + HMI).",
+            "en": "• Implement an S7Device/S7Driver using abstraction; provide minimal read/write methods and connection state handling.\n• Map S7 tags into core Tags/Objects; run an update cycle and verify data consistency.\n• Bind to the HMI: visualize status and execute control commands; test start/stop scenarios and feedback.\n• Package a “minimal SCADA” baseline for Major Project 1 (core + S7 + HMI)."
+          },
+          "chuandaura": {
+            "id": 240642,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Mô hình hóa thiết bị/tín hiệu S7 và tích hợp vào cấu trúc lõi",
+              "en": "Model S7 devices/signals and integrate into the core"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242445,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242470,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242452,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90019,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 242446,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kết nối PLC Siemens S7 và trừu tượng thiết bị:\n• Nguyên lý kết nối S7; địa chỉ hóa và ánh xạ tag.\n• Thiết kế lớp device/driver S7 theo abstraction; đọc/ghi dữ liệu.\n• Tích hợp dữ liệu S7 vào mô hình đối tượng và giao diện.\n• Bài tập lớn 1: Hoàn thiện hệ SCADA tối thiểu với kết nối S7 và giao diện vận hành.",
+        "en": "Siemens S7 connectivity and device abstraction:\n• S7 connectivity principles; addressing and tag mapping.\n• Design an S7 device/driver using abstraction; data read/write.\n• Integrate S7 data into the object model and the UI/HMI.\n• Major project 1: Build a minimal SCADA system with S7 connectivity and an operator HMI."
+      }
+    },
+    {
+      "id": 111426,
+      "stt": 6,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 148115,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu Modbus TCP/IP: mô hình client/server, register map và các function code thường dùng (đọc/ghi).\n• Hướng dẫn ánh xạ thanh ghi–tag cho đo đếm điện năng và điều khiển điện; quy đổi dữ liệu (scale, signed/unsigned, float/int) và chuẩn hóa đơn vị.\n• Demo đọc/ghi qua Modbus TCP/IP và kiểm tra kết quả theo kịch bản vận hành (giám sát thông số và điều khiển ON/OFF).",
+            "en": "• Introduce Modbus TCP/IP: client/server model, register maps, and commonly used function codes (read/write).\n• Guide register-to-tag mapping for energy metering and power control; handle data conversion (scaling, signed/unsigned, float/int) and unit normalization.\n• Demonstrate Modbus TCP read/write and validate results using operational scenarios (monitor measurements and control ON/OFF)."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thiết lập kết nối Modbus TCP/IP tới thiết bị/Server; cấu hình register map và tạo danh sách tag theo quy ước.\n• Thực hiện đọc tối thiểu các thông số đo (ví dụ V, I, P, kWh) và ghi tối thiểu 1 lệnh điều khiển (ví dụ đóng/cắt).\n• Áp dụng quy đổi/chuẩn hóa dữ liệu; đối chiếu giá trị đọc được với nguồn/thiết bị và ghi nhận kết quả test.",
+            "en": "• Connect to a Modbus TCP/IP device/server; configure the register map and create tags using the defined conventions.\n• Read key measurements (e.g., V, I, P, kWh) and write at least one control command (e.g., ON/OFF).\n• Apply conversion/normalization and verify readings against the source/device; record test results."
+          },
+          "chuandaura": {
+            "id": 240643,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Kết nối Modbus TCP/IP cho điều khiển điện và đo đếm điện năng",
+              "en": "Modbus TCP/IP connectivity for power control and energy metering"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242471,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242460,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242472,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90019,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 242473,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kết nối Modbus TCP/IP cho điều khiển điện và đo đếm điện năng:\n• Cấu trúc register map, function code, quy đổi và chuẩn hóa dữ liệu đo.\n• Thiết kế device/driver Modbus theo abstraction; tổ chức polling/chu kỳ cập nhật.\n• Tích hợp dữ liệu đo đếm và điều khiển vào mô hình đối tượng và giao diện.\n• Bài tập lớn 2: Mở rộng hệ thống, tích hợp thêm kênh Modbus TCP/IP.",
+        "en": "Modbus TCP/IP connectivity for power control and energy metering:\n• Register map structure, function codes, and measurement data conversion/normalization.\n• Design a Modbus device/driver using abstraction; implement polling/update cycles.\n• Integrate metering/control data into the object model and the UI/HMI.\n• Major project 2: Extend the system by adding a Modbus TCP/IP channel."
+      }
+    },
+    {
+      "id": 111423,
+      "stt": 7,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 148116,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu mô hình OPC UA: node, NodeId, address space và ý nghĩa browse.\n• Hướng dẫn subscription: chu kỳ publish, monitored item, update; phân biệt read/write và subscription ở mức khái niệm sử dụng.\n• Demo kết nối OPC UA Server, browse node, tạo subscription và thực hiện read/write một số node; chỉ ra các điểm cần kiểm tra khi kết nối.",
+            "en": "• Introduce OPC UA concepts: nodes, NodeId, address space, and the purpose of browsing.\n• Explain subscriptions: publish interval, monitored items, updates; distinguish read/write vs subscription usage.\n• Demonstrate connecting to an OPC UA Server, browsing nodes, creating subscriptions, and performing read/write; highlight key verification checks."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Kết nối tới OPC UA Server từ laptop; thực hiện browse để tìm node theo cấu trúc/đường dẫn.\n• Tạo subscription cho một nhóm node; theo dõi giá trị thay đổi và ghi nhận update theo thời gian.\n• Thực hiện read/write tối thiểu trên một số node (nếu server cho phép); đối chiếu kết quả và ghi log test.",
+            "en": "• Connect to an OPC UA Server from your laptop; browse the address space to locate nodes by structure/path.\n• Create subscriptions for a set of nodes; observe value changes and record updates over time.\n• Perform basic read/write on selected nodes (if supported); verify results and log test outputs."
+          },
+          "chuandaura": {
+            "id": 240644,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Kết nối SCADA với OPC UA Server",
+              "en": "SCADA connectivity to an OPC UA Server"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242461,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242453,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242463,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148119,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Hướng dẫn thiết kế OPCUADevice/OPCUADriver theo abstraction/interface thống nhất với core.\n• Demo cách ánh xạ node OPC UA ↔ Tag trong core; cập nhật quality/timestamp và cơ chế change tracking.\n• Minh họa binding dữ liệu OPC UA lên HMI và kiểm thử thao tác điều khiển/giám sát theo kịch bản.",
+            "en": "• Guide the design of an OPCUADevice/OPCUADriver using abstraction/interfaces consistent with the core.\n• Demonstrate mapping OPC UA nodes to core Tags; updating quality/timestamp and applying change tracking.\n• Show binding OPC UA data to the HMI and validating monitoring/control actions through scenarios."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Cài đặt OPCUADevice/OPCUADriver theo abstraction; tích hợp vào kiến trúc chung (cùng kiểu với S7/Modbus).\n• Ánh xạ một nhóm node OPC UA vào Tag/Object; kiểm tra cập nhật theo subscription và hiển thị lên HMI.\n• Thực hiện kịch bản test: dữ liệu thay đổi → Tag cập nhật → UI cập nhật; ghi nhận log và xử lý lỗi cấu hình/mapping.",
+            "en": "• Implement an OPCUADevice/OPCUADriver using abstraction and integrate it into the common architecture (consistent with S7/Modbus).\n• Map a set of OPC UA nodes to Tags/Objects; validate subscription-based updates and HMI visualization.\n• Run test scenarios: data changes → Tag updates → UI updates; log results and resolve configuration/mapping issues."
+          },
+          "chuandaura": {
+            "id": 240645,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Chuẩn hóa lớp thiết bị và tích hợp đa giao thức",
+              "en": "Standardize device abstraction and integrate multiple protocols"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242478,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242441,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242447,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Kết nối OPC UA Server và mô hình dữ liệu:\n• Mô hình node/address space; browse, subscription, read/write.\n• Thiết kế device/driver OPC UA theo abstraction; tích hợp vào kiến trúc chung.\n• Liên kết dữ liệu OPC UA vào Tag/Object và giao diện giám sát/điều khiển.",
+        "en": "OPC UA Server connectivity and data model:\n• Node/address space model; browse, subscriptions, and read/write.\n• Design an OPC UA device/driver using abstraction; integrate into the common architecture.\n• Bind OPC UA data to Tags/Objects and monitoring/control HMI."
+      }
+    },
+    {
+      "id": 111425,
+      "stt": 8,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 148120,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày mục tiêu chuẩn hóa lớp device: tách giao thức khỏi lõi ứng dụng và thống nhất cách truy cập dữ liệu.\n• Hướng dẫn thiết kế device interface và dịch vụ chung: Connect/Disconnect, Read/Write, Status/Health, cấu trúc cấu hình.\n• Demo cách “cắm” S7/Modbus/OPC UA vào cùng abstraction và cách tổ chức cấu hình để khởi tạo nhiều device type.\n• Nêu nguyên tắc mở rộng: thêm driver mới theo interface, không thay đổi Tag/Object/core và không phá vỡ HMI binding.",
+            "en": "• Explain why device standardization is needed: separating protocol handling from the application core and unifying data access.\n• Guide the design of device interfaces and common services: Connect/Disconnect, Read/Write, Status/Health, and configuration structure.\n• Demonstrate plugging S7/Modbus/OPC UA into the same abstraction and organizing configurations to instantiate multiple device types.\n• Present extension principles: add new drivers via the interface without changing Tag/Object/core and without breaking HMI bindings."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Chuẩn hóa/hoàn thiện device interface và dịch vụ chung; cập nhật các driver S7/Modbus/OPC UA để tuân theo cùng interface.\n• Xây dựng mô hình cấu hình device (ví dụ JSON/structure): loại giao thức, endpoint, mapping, chu kỳ cập nhật; khởi tạo từ cấu hình.\n• Tích hợp đồng thời nhiều device type trong một ứng dụng; kiểm thử read/write và trạng thái kết nối theo kịch bản.\n• Thử nghiệm mở rộng: thêm một device “mẫu” (mock) theo interface để chứng minh không cần thay đổi lõi.",
+            "en": "• Standardize/finalize the device interface and common services; update S7/Modbus/OPC UA drivers to comply with the same interface.\n• Build a device configuration model (e.g., JSON/structure): protocol type, endpoint, mapping, update cycle; instantiate devices from configuration.\n• Run multiple device types in one application; test read/write operations and connection status through scenarios.\n• Validate extensibility by adding a mock device via the interface without modifying the core."
+          },
+          "chuandaura": {
+            "id": 240645,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Chuẩn hóa lớp thiết bị và tích hợp đa giao thức",
+              "en": "Standardize device abstraction and integrate multiple protocols"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242464,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242465,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242474,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chuẩn hóa lớp thiết bị và tích hợp đa giao thức:\n• Chuẩn hóa device interface và dịch vụ chung (kết nối, đọc/ghi, trạng thái).\n• Tổ chức nhiều loại device (S7/Modbus/OPC UA) dưới cùng mô hình cấu hình.\n• Nguyên tắc mở rộng thêm giao thức/thiết bị mà không thay đổi lõi ứng dụng.",
+        "en": "Device standardization and multi-protocol integration:\n• Standardize device interfaces and common services (connect, read/write, status).\n• Organize multiple device types (S7/Modbus/OPC UA) under a unified configuration model.\n• Principles for adding new protocols/devices without changing the application core."
+      }
+    },
+    {
+      "id": 111424,
+      "stt": 9,
+      "buoi": "14-15",
+      "chuandaurachitiet": [
+        {
+          "id": 148121,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày mô hình trend trong SCADA: dữ liệu theo thời gian, chu kỳ lấy mẫu, cấu trúc lưu trữ/đệm (ring buffer) và nguyên tắc hiển thị.\n• Giới thiệu alarm: digital/analog alarm, điều kiện kích hoạt, trạng thái cơ bản (active/clear, ack nếu áp dụng), và nguyên tắc ghi nhận.\n• Demo thiết kế lớp Trend/Alarm gắn với Tag/Object: API thêm điểm dữ liệu, phát hiện điều kiện alarm, và xuất dữ liệu cho UI.\n• Hướng dẫn tích hợp vào hệ thống hiện có (đa giao thức): lấy dữ liệu từ Tag, xử lý tại core, hiển thị trend/alarm trên UI.",
+            "en": "• Present the SCADA trend model: time-series data, sampling interval, buffering/storage structure (ring buffer), and visualization principles.\n• Introduce alarms: digital/analog alarms, trigger conditions, basic states (active/clear, ack if applied), and logging principles.\n• Demonstrate designing Trend/Alarm classes bound to Tags/Objects: APIs to append samples, evaluate alarm conditions, and expose data to the UI.\n• Guide integration into the existing multi-protocol system: consume Tag updates, process in the core, and visualize trends/alarms on the HMI."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Cài đặt mô hình trend cho một số tag: cấu trúc ring buffer, thêm mẫu theo chu kỳ, và xuất dữ liệu hiển thị (tối thiểu 1 trend).\n• Cài đặt mô hình alarm: digital (ngưỡng/điều kiện boolean) và analog (ngưỡng cao/thấp); cập nhật trạng thái theo giá trị tag.\n• Liên kết trend/alarm vào Tag/Object và UI: hiển thị trend, hiển thị trạng thái alarm; kiểm thử bằng kịch bản thay đổi dữ liệu.\n• Hoàn thiện tích hợp vào hệ thống đa giao thức làm nền cho Bài tập lớn 3; nộp/demo theo yêu cầu.",
+            "en": "• Implement a trend model for selected tags: a ring buffer structure, periodic sampling, and data export for visualization (at least one trend).\n• Implement an alarm model: digital alarms (boolean condition/threshold) and analog alarms (high/low limits); update states based on tag values.\n• Bind trends/alarms to Tags/Objects and the UI: display trends and alarm states; validate using data-change scenarios.\n• Integrate into the multi-protocol system as a baseline for Major Project 3; submit/demo as required."
+          },
+          "chuandaura": {
+            "id": 240638,
+            "ma": "L.O.1.4",
+            "ten": {
+              "vi": "Tích hợp trend và alarm vào cấu trúc lõi",
+              "en": "Integrate trends and alarms into the core structure"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242454,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90017,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Formative learning assessment"
+                }
+              }
+            },
+            {
+              "id": 242462,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90018,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignment"
+                }
+              }
+            },
+            {
+              "id": 242475,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90019,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 242466,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90020,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trend và alarm tích hợp vào cấu trúc lõi:\n• Trend: mô hình dữ liệu chuỗi thời gian; lưu trữ/đệm (ví dụ ring buffer) và hiển thị.\n• Alarm: phân loại digital/analog; điều kiện kích hoạt và trạng thái cơ bản.\n• Tích hợp trend/alarm vào Tag/Object và giao diện.\n• Bài tập lớn 3: Hoàn thiện hệ thống với tích hợp đa giao thức và chức năng trend/alarm.",
+        "en": "Trends and alarms integrated into the core structure:\n• Trends: time-series data model; buffering/storage (e.g., ring buffer) and visualization.\n• Alarms: digital/analog types; trigger conditions and basic states.\n• Integrate trends/alarms into Tags/Objects and the HMI.\n• Major project 3: Finalize the system with multi-protocol integration and trend/alarm features."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 240635,
+      "ma": "L.O.1.1",
+      "ten_vi": "Khái niệm và kiến trúc lõi SCADA",
+      "ten_en": "SCADA concepts and core architecture",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240636,
+      "ma": "L.O.1.2",
+      "ten_vi": "Thiết kế và lập trình mô hình dữ liệu lõi",
+      "ten_en": "Design and implement the core data model",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240637,
+      "ma": "L.O.1.3",
+      "ten_vi": "Thiết kế lớp thiết bị nội bộ và luồng dữ liệu/điều khiển",
+      "ten_en": "Design internal device layer and data/control flow",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240638,
+      "ma": "L.O.1.4",
+      "ten_vi": "Tích hợp trend và alarm vào cấu trúc lõi",
+      "ten_en": "Integrate trends and alarms into the core structure",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90019,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240639,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phần tử đồ họa và thiết kế màn hình HMI",
+      "ten_en": "HMI elements and screen design",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240640,
+      "ma": "L.O.2.2",
+      "ten_vi": "Liên kết HMI với mô hình đối tượng và dịch vụ lõi",
+      "ten_en": "Bind HMI to the core object model and services",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240641,
+      "ma": "L.O.3.1",
+      "ten_vi": "Kết nối SCADA với PLC Siemens S7 (giao thức S7)",
+      "ten_en": "SCADA connectivity to Siemens S7 (S7 protocol)",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90019,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240642,
+      "ma": "L.O.3.2",
+      "ten_vi": "Mô hình hóa thiết bị/tín hiệu S7 và tích hợp vào cấu trúc lõi",
+      "ten_en": "Model S7 devices/signals and integrate into the core",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90019,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240643,
+      "ma": "L.O.4.1",
+      "ten_vi": "Kết nối Modbus TCP/IP cho điều khiển điện và đo đếm điện năng",
+      "ten_en": "Modbus TCP/IP connectivity for power control and energy metering",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90019,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240644,
+      "ma": "L.O.4.2",
+      "ten_vi": "Kết nối SCADA với OPC UA Server",
+      "ten_en": "SCADA connectivity to an OPC UA Server",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240645,
+      "ma": "L.O.4.3",
+      "ten_vi": "Chuẩn hóa lớp thiết bị và tích hợp đa giao thức",
+      "ten_en": "Standardize device abstraction and integrate multiple protocols",
+      "hddg": [
+        {
+          "id": 90017,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Formative learning assessment"
+        },
+        {
+          "id": 90018,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignment"
+        },
+        {
+          "id": 90020,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "SCADA: Phân tích và thiết kế",
+  "tenmonhoc_eng": "SCADA: Design and Analysis",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

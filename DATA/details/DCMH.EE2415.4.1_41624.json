@@ -1,0 +1,1901 @@
+{
+  "ma": "DCMH.EE2415.4.1",
+  "phienban": "4.1",
+  "capnhat": "30/12/2025 08:30",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE2415",
+  "ten": "EE2415 - Hệ thống Máy tính và Ngôn ngữ Lập trình",
+  "ten_eng": "EE2415 - Computer Systems and Programming",
+  "hockyapdung": "HK252",
+  "sotcgoc": 4,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n</p><p>Môn học nhằm trang bị cho sinh viên nền tảng kiến thức và kỹ năng lập trình với ngôn ngữ C theo hướng có cấu trúc, từ mức cơ bản đến nâng cao. Sau khi hoàn thành môn học, sinh viên có thể:</p>\n<ol>\n<li>\n<p><strong>Vận dụng kiến thức cơ bản của ngôn ngữ C</strong> để lựa chọn kiểu dữ liệu, toán tử, phạm vi biến phù hợp; xây dựng sơ đồ giải thuật; và viết chương trình đơn giản sử dụng cấu trúc điều khiển và thao tác nhập/xuất.</p>\n</li>\n<li>\n<p><strong>Phát triển chương trình C có cấu trúc dựa trên hàm</strong>, bao gồm thiết kế và triển khai hàm, hiểu cơ chế hoạt động của ngăn xếp khi gọi hàm, và áp dụng đệ quy để giải quyết bài toán.</p>\n</li>\n<li>\n<p><strong>Áp dụng các cấu trúc lập trình nâng cao</strong>, như con trỏ, mảng, chuỗi và kiểu dữ liệu người dùng tự định nghĩa, để xây dựng các chương trình hiệu quả hơn.</p>\n</li>\n<li>\n<p><strong>Sử dụng bộ nhớ động trong việc quản lý và xử lý dữ liệu</strong>, bao gồm cấp phát động, thiết kế danh sách liên kết và thao tác tệp để tổ chức, lưu trữ và khai thác dữ liệu.</p>\n</li>\n<li>\n<p><strong>Phân tích mối quan hệ giữa ngôn ngữ C, hợp ngữ và kiến trúc hệ thống máy tính</strong>, bao gồm ánh xạ cấu trúc dữ liệu và điều khiển của C xuống hợp ngữ, triển khai các cơ chế thực thi của chương trình ở mức thấp, và hiểu cách các khái niệm kiến trúc hệ thống hỗ trợ việc thực thi chương trình.</p></li></ol><p></p>",
+      "en": "<p>&nbsp;This course aims to equip students with fundamental, structured programming skills in C. Upon successful completion, students will be able to:</p><ol>\n<li>\n<p><strong>Apply basic knowledge of the C language</strong> by selecting appropriate data types, operators, and variable scope; constructing algorithm flowcharts; and writing simple programs using control structures and input/output operations.</p>\n</li>\n<li>\n<p><strong>Develop structured C programs using functions</strong>, including designing and implementing functions, explaining the stack mechanism in function calls, and applying recursion to solve computational problems.</p>\n</li>\n<li>\n<p><strong>Apply advanced programming constructs</strong>, such as pointers, arrays, strings, and user-defined data types, to build efficient C programs.</p>\n</li>\n<li>\n<p><strong>Utilize dynamic memory to manage and process data</strong>, including dynamic allocation, designing linked lists, and performing file input/output to organize and exploit program data.</p>\n</li>\n<li>\n<p><strong>Analyze the relationships among C, assembly language, and computer system architecture, including mapping C constructs to assembly language</strong>, implementing execution mechanisms at the assembly level, and understanding how system architecture concepts support program execution.</p></li></ol>\n\n\n\n\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nMôn học cung cấp kiến thức nền tảng và phương pháp lập trình có cấu trúc bằng ngôn ngữ C. Nội dung bao gồm: lựa chọn kiểu dữ liệu, xây dựng lưu đồ giải thuật, sử dụng cấu trúc điều khiển và thao tác nhập/xuất; thiết kế và triển khai chương trình sử dụng hàm, cơ chế ngăn xếp và đệ quy; áp dụng các cấu trúc nâng cao như con trỏ, mảng, chuỗi và kiểu dữ liệu tự định nghĩa; sử dụng bộ nhớ động, xây dựng danh sách liên kết và xử lý tệp; đồng thời phân tích mối quan hệ giữa ngôn ngữ C, hợp ngữ và kiến trúc hệ thống máy tính nhằm hiểu rõ cơ chế thực thi chương trình.\n\n\n\n\n\n\n\n<br></p>",
+      "en": "<p>\n\nThis course provides foundational knowledge and structured programming techniques in C. Topics include data type selection, algorithm flowchart construction, control structures, and input/output operations; designing and implementing functions, stack mechanisms, and recursion; applying advanced constructs such as pointers, arrays, strings, and user-defined data types; using dynamic memory, building linked lists, and handling file operations; and analyzing the relationship between C, assembly, and computer system architecture to understand the underlying principles of program execution.\n\n\n\n\n\n\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:</p><p>[1] Brian W. Kernighan &amp; Dennis M. Ritchie, <b><i>The C Programming Language </i></b>(2nd Edition).</p><p>[2] K. N. King, <b><i>C</i></b><b><i> Programming: A Modern Approach</i></b><i><b></b></i><b><i></i></b> (2nd Edition).</p><p>[3] David A. Patterson &amp; John L. Hennessy, <b><i>Computer Organization and Design: The RISC-V Edition</i></b>.</p><p>Sách tham khảo:</p><p>[4] Yale N. Patt và Sanjay J. Patel, <b><i>Introduction to computing systems</i></b> (3rd edition), Mc Graw Hill, 2020.</p><p>[5] M. Morris Mano và Charles R. Kime, <b><i>Logic and Computer Design Fundamentals</i></b> (5th Edition), Prentice Hall,&nbsp;2015.<br></p>",
+      "en": "<p>\n\n</p><p>Text books:</p><p>[1] Brian W. Kernighan &amp; Dennis M. Ritchie, <b><i>The C Programming Language </i></b>(2nd Edition).</p><p>[2] K. N. King, <b><i>C</i></b><b><i> Programming: A Modern Approach</i></b><i><b></b></i><b><i></i></b> (2nd Edition).</p><p>[3] David A. Patterson &amp; John L. Hennessy, <b><i>Computer Organization and Design: The RISC-V Edition</i></b>.</p><p>References:</p><p>[4] Yale N. Patt và Sanjay J. Patel, <b><i>Introduction to computing systems</i></b> (3rd edition), Mc Graw Hill, 2020.</p><p>[5] M. Morris Mano và Charles R. Kime, <b><i>Logic and Computer Design Fundamentals</i></b> (5th Edition), Prentice Hall, 2015.</p>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Sinh viên cần chuẩn bị tài liệu gồm bài giảng (slides Power Point), yêu cầu bài tập, đề bài tập mới được đưa lên LMS&nbsp;hàng tuần. Sinh viên tải về và mang theo khi lên lớp học.</p><p>Sinh viên cần xem các video clip trên LMS hay Youtube trình bày bài giảng trước và sau khi học để làm chắc kiến thức.</p><p>Sinh viên cần làm các quiz trên LMS cho từng phần học trên lớp.<br></p>",
+      "en": "<p>Students need to prepare materials for lectures, including PowerPoint slides, in-class exercises, and homework posted&nbsp;to the LMS each week. Students need to download and bring it to class.</p><p>Students need to watch video clips on LMS or YouTube presenting the lecture before and after the lecture to solidify the&nbsp;lesson.</p><p>Students need to complete all quizzes on the LMS for each lesson part.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1249,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2019)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1247,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2019)",
+        "en": "Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 1449,
+      "ma": "NG_0N41",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - CTTT - Điện - Điện Tử - Khóa 2021",
+        "en": "Electrical and Electronics Engineering - Year 2021"
+      }
+    },
+    {
+      "id": 1399,
+      "ma": "NG_KDI",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ Thuật Điện (2021)",
+        "en": "Electrical Engineering (2021)"
+      }
+    },
+    {
+      "id": 1105,
+      "ma": "NG_KTD",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ Thuật Điện (2020)",
+        "en": "Electrical Engineering"
+      }
+    },
+    {
+      "id": 1397,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2021)",
+        "en": "Control Engineering and Automation (2021)"
+      }
+    },
+    {
+      "id": 1394,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2021)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1187,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2020)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1245,
+      "ma": "NG_KDI",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ Thuật Điện (2019)",
+        "en": "Electrical Engineering"
+      }
+    },
+    {
+      "id": 1157,
+      "ma": "NG_DTH",
+      "ten": {
+        "vi": "CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điều khiển và Tự động hóa (2020)",
+        "en": "Control Engineering and Automation"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 514,
+      "ma": "003176",
+      "ten": "TRẦN HOÀNG LINH"
+    },
+    {
+      "id": 8785,
+      "ma": "003961",
+      "ten": "NGUYỄN TRUNG HIẾU"
+    },
+    {
+      "id": 505,
+      "ma": "002493",
+      "ten": "BÙI QUỐC BẢO"
+    },
+    {
+      "id": 10023,
+      "ma": "004118",
+      "ten": "NGUYỄN TUẤN HÙNG"
+    },
+    {
+      "id": 9765,
+      "ma": "004078",
+      "ten": "NGUYỄN PHAN HẢI PHÚ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 4,
+    "soTC_ETC": 8,
+    "lyThuyet": 3,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.83,
+    "baiTapLon": 0.17,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 200,
+    "tongGioHocTapLamViec": 182.5,
+    "lyThuyet": 45,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 25,
+    "baiTapLon": 8,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 102,
+    "khac": 20
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 25,
+    "baiTapLon": 5,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1034,
+      "maBoMon": "PMT",
+      "tenBoMon": {
+        "vi": "Phòng Máy Tính"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "203B3 - Bộ môn Điện tử",
+      "dienThoai": "0945303030"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 514,
+        "maGiangVien": "003176",
+        "tenGiangVien": "TRẦN HOÀNG LINH",
+        "emailGiangVien": "linhtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "4_3_0_0.83_0.17",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE1029 - Cơ sở Kỹ thuật Điện - Máy tính",
+        "en": "EE1029 - Introduction to Electrical and Computer Engineering"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ sở Kỹ thuật Điện - Máy tính",
+        "en": "Introduction to Electrical and Computer Engineering"
+      },
+      "mamonhoc": "EE1029"
+    },
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE1039 - Cơ sở Kỹ thuật Điện - Điện tử",
+        "en": "EE1039 - Introduction to Electrical and Electronics Engineering"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ sở Kỹ thuật Điện - Điện tử",
+        "en": "Introduction to Electrical and Electronics Engineering"
+      },
+      "mamonhoc": "EE1039"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE2417 - Cơ sở Máy tính",
+        "en": "EE2417 - Introduction to Computing"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ sở Máy tính",
+        "en": "Introduction to Computing"
+      },
+      "mamonhoc": "EE2417"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 68149,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 68150,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "68149",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tự kiểm tra tại nhà",
+        "en": "Self-assessment homework"
+      },
+      "noidung": {
+        "vi": "Bài tập tự kiểm tra tại nhà",
+        "en": "Self-assessment homework"
+      }
+    },
+    {
+      "id": 68151,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "68149",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm examination"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm examination"
+      }
+    },
+    {
+      "id": 68152,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "68149",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 79822,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 100714,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173658,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Phân tích cách các khái niệm hệ thống máy tính (tập lệnh, kiến trúc Von Neumann và Harvard, bộ nhớ, CPU) hỗ trợ việc thực thi chương trình",
+              "en": "Analyze how computer system concepts (instruction set, Von Neumann and Harvard architecture, memory, CPU) enable program execution"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155542,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155545,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 1 – Tổng quan về máy tính & lập trình C\n- Cấu trúc hệ thống máy tính (CPU, bộ nhớ, bus, IO)\n- Giới thiệu ngôn ngữ C và vai trò trong kỹ thuật\n- Cấu trúc chương trình C, biên dịch, liên kết, thực thi\n- Chạy chương trình đầu tiên (Hello World).\n- Mapping C ↔ Assembly (ở mức ý tưởng).",
+        "en": "Week 1 – Overview of Computers & C Programming\n- Computer system architecture (CPU, memory, bus, I/O)\n- Introduction to the C language and its role in engineering\n- Structure of a C program, compilation, linking, execution\n- Running the first program (Hello World)\n- Mapping C ↔ Assembly (at the conceptual level)"
+      }
+    },
+    {
+      "id": 79814,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 100707,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173643,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Vận dụng cấu trúc điều khiển và thao tác nhập/xuất để xây dựng chương trình đơn giản",
+              "en": "Apply control structures and input/output operations to develop simple programs"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155531,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 155522,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100716,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173641,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Lựa chọn các kiểu dữ liệu, toán tử, phạm vi của biến cho từng tình huống cụ thể",
+              "en": "Select appropriate data types, operators, scopes for specific situations"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155536,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155532,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 2 – Kiểu dữ liệu, toán tử, phạm vi biến, biểu thức \n- Kiểu dữ liệu cơ bản: số nguyên, số thực, ký tự. \n- Toán tử số học, logic, quan hệ. \n- Phạm vi biến: global, local, block. \n- Quy tắc ép kiểu dữ liệu. \n- Nhập/xuất cơ bản.\n- Bài tập áp dụng.",
+        "en": "Week 2 – Data Types, Operators, Variable Scope, Expressions \n- Basic data types: integers, floating-point numbers, and characters.\n- Arithmetic, logical, and relational operators.\n- Variable scope: global, local, block.\n- Type casting rules.\n- Basic I/O operations.\n- Practice exercises."
+      }
+    },
+    {
+      "id": 79815,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 100709,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173642,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Xây dựng lưu đồ giải thuật cho các bài toán cụ thể",
+              "en": "Design algorithmic flowcharts to solve specific problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155549,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155520,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 155550,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 3 – Thuật toán và lưu đồ\n- Khái niệm thuật toán.\n- Biểu diễn lưu đồ.\n- Bài tập thiết kế lưu đồ.",
+        "en": "Week 3 – Algorithms & Flowcharts\n- Algorithm concept.\n- Flowchart representation.\n- Flowchart exercises."
+      }
+    },
+    {
+      "id": 79816,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 100721,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173643,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Vận dụng cấu trúc điều khiển và thao tác nhập/xuất để xây dựng chương trình đơn giản",
+              "en": "Apply control structures and input/output operations to develop simple programs"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155528,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155529,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 155521,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": " Tuần 4 – Cấu trúc điều khiển và vòng lặp\n- Cấu trúc if-else, switch-case.\n- Cấu trúc while, do-while, for.\n- Bài tập.",
+        "en": "Week 4 – Control Structures and Loops\n- if-else and switch-case.\n- while, do-while, for.\n- Practice exercises."
+      }
+    },
+    {
+      "id": 79820,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 100720,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173645,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Viết và triển khai hàm trong C theo nguyên tắc lập trình có cấu trúc",
+              "en": "Write and implement functions in C following structured programming principles"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155546,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 155523,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100710,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173646,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Giải thích cơ chế hoạt động của ngăn xếp trong quản lý hàm",
+              "en": "Explain the runtime stack mechanism in function management"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155533,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155537,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 5 - Hàm, lập trình có cấu trúc, ngăn xếp (stack) trong gọi hàm \n- Khái niệm hàm, phân tách chương trình \n- Tham số, giá trị trả về \n- Quy ước đặt tên, thiết kế hàm tốt\n- Giới thiệu stack\n- Giải thích cơ chế phạm vi của biến.\n- Giải thích cơ chế trả về và tham số.",
+        "en": "Week 5 – Functions, Structured Programming, Stack in Function Calls\n- Concept of functions, program decomposition\n- Parameters, return values\n- Naming conventions, good function design\n- Introduction to the stack.\n- Explanation of the variable scope mechanism.\n- Explanation of the return and parameter mechanisms."
+      }
+    },
+    {
+      "id": 79818,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 100715,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173647,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Thiết kế và triển khai chương trình sử dụng đệ quy để giải quyết bài toán",
+              "en": "Design and implement recursive solutions to computational problems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155538,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68151,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Midterm examination"
+                }
+              }
+            },
+            {
+              "id": 155524,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 6 – Đệ quy\n- Khái niệm đệ quy.\n- Ngăn xếp (stack) trong đệ quy.\n- Bài tập.\n",
+        "en": "Week 6 – Recursion\n- Concept of recursion.\n- The stack in recursion.\n- Exercises."
+      }
+    },
+    {
+      "id": 79813,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 100713,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173649,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Vận dụng con trỏ trong quá trình lập trình",
+              "en": "Manipulate pointers in program development"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155543,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155541,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 7 – Con trỏ\n- Khái niệm con trỏ và địa chỉ.\n- Toán tử & và *.\n- Biểu diễn dữ liệu của con trỏ.\n- Truyền tham chiếu và truyền tham số.",
+        "en": "Week 7 – Pointers\n- Concept of pointers and addresses.\n- The & and * operators.\n- Data representation of pointers.\n- Call by reference vs. call by value."
+      }
+    },
+    {
+      "id": 79821,
+      "stt": 8,
+      "buoi": "8+9",
+      "chuandaurachitiet": [
+        {
+          "id": 100717,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173650,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Vận dụng mảng, chuỗi trong quá trình lập trình",
+              "en": "Manipulate arrays and strings in program development"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155551,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155530,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 8+9 – Mảng và Chuỗi\n- Mảng 1 chiều và 2 chiều.\n- Strings và thao tác chuỗi.\n- Bài tập duyệt mảng và chuỗi.",
+        "en": "Week 8+9 – Arrays and Strings\n- One-dimensional and two-dimensional arrays.\n- Strings and string operations.\n- Exercises on iterating through arrays and strings."
+      }
+    },
+    {
+      "id": 79817,
+      "stt": 9,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 100711,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173651,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Vận dụng các kiểu dữ liệu người dùng tự định nghĩa trong quá trình lập trình",
+              "en": "Manipulate user-defined data types in program development"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155552,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155525,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 10 – Kiểu dữ liệu tự định nghĩa\n- struct, union, enum.\n- Quản lý dữ liệu phức tạp.\n- Ứng dụng trong mô hình dữ liệu.",
+        "en": "Week 10– User-defined Data Types\n- struct, union, enum.\n- Managing complex data.\n- Applications in data modeling."
+      }
+    },
+    {
+      "id": 79812,
+      "stt": 10,
+      "buoi": "11+12",
+      "chuandaurachitiet": [
+        {
+          "id": 100719,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173653,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Áp dụng cấp phát bộ nhớ động trong quản lý dữ liệu",
+              "en": "Apply dynamic memory allocation techniques in data management"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155553,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155535,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100712,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173654,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Thiết kế và triển khai danh sách liên kết để lưu trữ và xử lý thông tin",
+              "en": "Design and implement linked lists for data storage and processing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155534,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155544,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 11+12 – Cấp phát bộ nhớ động và Danh sách liên kết\n- malloc, calloc, realloc, free.\n- Chỉ ra vùng nhớ heap vs stack.\n- Rò rỉ bộ nhớ và phương pháp khắc phục.\n- Node, con trỏ liên kết. \n- Chèn, xóa, duyệt danh sách. \n- So sánh với mảng.",
+        "en": "Week 11+12 – Dynamic Memory Allocation and Linked Lists\n- malloc, calloc, realloc, free.\n- Identifying heap vs. stack memory regions.\n- Memory leaks and mitigation methods.\n- Nodes, pointer links.\n- Insertion, deletion, list traversal.\n- Comparison with arrays."
+      }
+    },
+    {
+      "id": 79819,
+      "stt": 12,
+      "buoi": "13+14",
+      "chuandaurachitiet": [
+        {
+          "id": 100706,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173656,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Giải thích cách ánh xạ các cấu trúc dữ liệu và điều khiển trong C xuống hợp ngữ",
+              "en": "Explain how data structures and control constructs in C are mapped into assembly code"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155526,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155527,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100718,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173658,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Phân tích cách các khái niệm hệ thống máy tính (tập lệnh, kiến trúc Von Neumann và Harvard, bộ nhớ, CPU) hỗ trợ việc thực thi chương trình",
+              "en": "Analyze how computer system concepts (instruction set, Von Neumann and Harvard architecture, memory, CPU) enable program execution"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155547,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 155548,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 13+14: Ánh xạ ngôn ngữ C xuống hợp ngữ RISC-V và Tập lệnh của CPU RISV-V\n- Khái niệm dịch mã: C → Assembly → Machine Code \n- Vai trò của trình biên dịch và liên kết (linker) \n- Kiến trúc CPU RISC-V\n- Biểu diễn biến, kiểu dữ liệu, căn chỉnh dữ liệu trong CPU RISC-V \n- Tập lệnh CPU RISC-V",
+        "en": "Weeks 13–14: Mapping C Language to RISC-V Assembly and the RISC-V CPU instruction set\n- Concept of translation: C → Assembly → Machine Code\n- Role of the compiler and linker\n- RISC-V CPU architecture\n- Representation of variables, data types, and data alignment in the RISC-V CPU\n- RISC-V CPU instruction set"
+      }
+    },
+    {
+      "id": 79823,
+      "stt": 13,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 100708,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, tải slide lên LMS  \n",
+            "en": "Presenting lecture slides, uploading slides to LMS \n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, in ra các slide thiết yếu, tự tóm tắt  \n",
+            "en": "Review the lecture, print out essential slides, and summarize yourself"
+          },
+          "chuandaura": {
+            "id": 173657,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Triển khai các cơ chế thực thi chương trình (cấu trúc dữ liệu, chương trình con, ngăn xếp, TRAP) ở mức hợp ngữ",
+              "en": "Implement program execution mechanisms (data structures, subroutines, stack, TRAPs) at the assembly level"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 155539,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 68150,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 155540,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 68152,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tuần 15 – Gọi hàm, ngăn xếp (stack) và quản lý bộ nhớ trong RISC-V \n- Stack frame trong hàm: con trỏ stack (sp), frame pointer (fp), Push/Pop dữ liệu \n- Truyền tham số và giá trị trả về hàm: thanh ghi argument (a0–a7), thanh ghi trả về (a0) \n- Triển khai chương trình con (subroutine): lệnh jal và ret, ưu/khôi phục thanh ghi \n- Liên hệ với đệ quy và mảng: stack frame nhiều lớp, bảng dữ liệu trong Stack/Heap",
+        "en": "Week 15 – Function Calls, Stack, and Memory Management in RISC-V\n- Stack frame in functions: stack pointer (sp), frame pointer (fp), pushing/popping data\n- Passing parameters and returning values: argument registers (a0–a7), return register (a0)\n- Implementing subroutines: jal and ret instructions, saving/restoring registers\n- Relation to recursion and arrays: multi-layer stack frames, data tables in Stack/Heap"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 173641,
+      "ma": "L.O.1.1",
+      "ten_vi": "Lựa chọn các kiểu dữ liệu, toán tử, phạm vi của biến cho từng tình huống cụ thể",
+      "ten_en": "Select appropriate data types, operators, scopes for specific situations",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68151,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        }
+      ]
+    },
+    {
+      "id": 173642,
+      "ma": "L.O.1.2",
+      "ten_vi": "Xây dựng lưu đồ giải thuật cho các bài toán cụ thể",
+      "ten_en": "Design algorithmic flowcharts to solve specific problems",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68151,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173643,
+      "ma": "L.O.1.3",
+      "ten_vi": "Vận dụng cấu trúc điều khiển và thao tác nhập/xuất để xây dựng chương trình đơn giản",
+      "ten_en": "Apply control structures and input/output operations to develop simple programs",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68151,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173645,
+      "ma": "L.O.2.1",
+      "ten_vi": "Viết và triển khai hàm trong C theo nguyên tắc lập trình có cấu trúc",
+      "ten_en": "Write and implement functions in C following structured programming principles",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68151,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        }
+      ]
+    },
+    {
+      "id": 173646,
+      "ma": "L.O.2.2",
+      "ten_vi": "Giải thích cơ chế hoạt động của ngăn xếp trong quản lý hàm",
+      "ten_en": "Explain the runtime stack mechanism in function management",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68151,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        }
+      ]
+    },
+    {
+      "id": 173647,
+      "ma": "L.O.2.3",
+      "ten_vi": "Thiết kế và triển khai chương trình sử dụng đệ quy để giải quyết bài toán",
+      "ten_en": "Design and implement recursive solutions to computational problems",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68151,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        }
+      ]
+    },
+    {
+      "id": 173649,
+      "ma": "L.O.3.1",
+      "ten_vi": "Vận dụng con trỏ trong quá trình lập trình",
+      "ten_en": "Manipulate pointers in program development",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173650,
+      "ma": "L.O.3.2",
+      "ten_vi": "Vận dụng mảng, chuỗi trong quá trình lập trình",
+      "ten_en": "Manipulate arrays and strings in program development",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173651,
+      "ma": "L.O.3.3",
+      "ten_vi": "Vận dụng các kiểu dữ liệu người dùng tự định nghĩa trong quá trình lập trình",
+      "ten_en": "Manipulate user-defined data types in program development",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173653,
+      "ma": "L.O.4.1",
+      "ten_vi": "Áp dụng cấp phát bộ nhớ động trong quản lý dữ liệu",
+      "ten_en": "Apply dynamic memory allocation techniques in data management",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173654,
+      "ma": "L.O.4.2",
+      "ten_vi": "Thiết kế và triển khai danh sách liên kết để lưu trữ và xử lý thông tin",
+      "ten_en": "Design and implement linked lists for data storage and processing",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173656,
+      "ma": "L.O.5.1",
+      "ten_vi": "Giải thích cách ánh xạ các cấu trúc dữ liệu và điều khiển trong C xuống hợp ngữ",
+      "ten_en": "Explain how data structures and control constructs in C are mapped into assembly code",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173657,
+      "ma": "L.O.5.2",
+      "ten_vi": "Triển khai các cơ chế thực thi chương trình (cấu trúc dữ liệu, chương trình con, ngăn xếp, TRAP) ở mức hợp ngữ",
+      "ten_en": "Implement program execution mechanisms (data structures, subroutines, stack, TRAPs) at the assembly level",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 173658,
+      "ma": "L.O.5.3",
+      "ten_vi": "Phân tích cách các khái niệm hệ thống máy tính (tập lệnh, kiến trúc Von Neumann và Harvard, bộ nhớ, CPU) hỗ trợ việc thực thi chương trình",
+      "ten_en": "Analyze how computer system concepts (instruction set, Von Neumann and Harvard architecture, memory, CPU) enable program execution",
+      "hddg": [
+        {
+          "id": 68150,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 68151,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Midterm examination"
+        },
+        {
+          "id": 68152,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Hệ thống Máy tính và Ngôn ngữ Lập trình",
+  "tenmonhoc_eng": "Computer Systems and Programming",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    },
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 4,
+      "ma": "pphtqnc",
+      "ten": {
+        "vi": "Phương pháp học tập qua nghiên cứu",
+        "en": "Research-based learning "
+      }
+    }
+  ]
+}

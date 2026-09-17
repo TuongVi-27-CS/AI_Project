@@ -1,0 +1,2183 @@
+{
+  "ma": "DCMH.CO3029.5.1",
+  "phienban": "5.1",
+  "capnhat": "28/05/2026 13:41",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3029",
+  "ten": "CO3029 - Khai phá Dữ liệu",
+  "ten_eng": "CO3029 - Data Mining",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<b></b>Sau khi học đạt môn học này, sinh viên có thể: <br>•  Minh họa, mô phỏng được các bước trong quá trình khám phá tri thức<br>• Minh họa, phân biệt, so sánh được các khái niệm cơ bản, công nghệ, tác vụ và ứng dụng của khai phá dữ liệu.<br>• Phân tích, xác định được các vấn đề về dữ liệu trong giai đoạn tiền xử lý cho các tác vụ khai phá dữ liệu.<br>• Đề xuất ứng dụng các giải thuật và công cụ khai phá dữ liệu để phát triển ứng dụng khai phá dữ liệu.<br>",
+      "en": "<p>Upon successful completion of this course, students will be able to:<br>• Illustrate and simulate the steps in the knowledge discovery process.<br>• Illustrate, distinguish, and compare fundamental concepts, technologies, tasks, and applications of data mining.<br>• Analyze and identify data-related issues in the preprocessing stage of data mining tasks.<br>• Propose applications of data mining algorithms and tools to develop data mining applications.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học này nhằm giới thiệu quá trình khám phá tri thức, các khái niệm, công nghệ, và ứng dụng của khai phá dữ liệu. Ngoài ra, môn học này cũng trình bày các vấn đề tiền xử lý dữ liệu, các tác vụ khai phá dữ liệu, các giải thuật và công cụ khai phá dữ liệu mà có thể được dùng hỗ trợ nhà phân tích dữ liệu và nhà phát triển ứng dụng khai phá dữ liệu. Các chủ đề cụ thể của môn học bao gồm: tổng quan về khai phá dữ liệu, các vấn đề về dữ liệu được khai phá, các vấn đề tiền xử lý dữ liệu, hồi qui dữ liệu, phân loại dữ liệu, gom cụm dữ liệu, khai phá luật kết hợp, phát triển ứng dụng khai phá dữ liệu, và các đề tài nghiên cứu nâng cao trong khai phá dữ liệu.<br></p>",
+      "en": "<p>This course aims to introduce the knowledge discovery process as well as concepts, technologies, and applications of data mining. It is also to discuss data preprocessing issues, data mining tasks, algorithms and tools that can be used to support data analysts and data mining application developers. In particular, its major topics are an overall view about data mining, issues related to data which are going to be mined, data preprocessing issues, data regression, data classification, data clustering, association rules mining, data mining application development, and other research topics of interest in the data mining area.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br>[1] &nbsp; Jiawei Han, Jian Pei, Hanghang Tong “Data Mining: Concepts and Techniques”, Forth Edition, Morgan Kaufmann Publishers, 2022.<br>[2]  Trần Minh Quang, \"Khai Phá Dữ Liệu và Kỹ Thuật Phân Lớp\", NXB Đại Học Quốc Gia TP. HCM, 2020. <br><br>Sách tham khảo:<br>[3] &nbsp; David Hand, Heikki Mannila, Padhraic Smyth, “Principles of Data Mining”, MIT Press, 2001.<br>[4] &nbsp; David L. Olson, Dursun Delen, “Advanced Data Mining Techniques”, Springer-Verlag, 2008.<br>[5] &nbsp; Graham J. Williams, Simeon J. Simoff, “Data Mining: Theory, Methodology, Techniques, and Applications”, Springer-Verlag, 2006.<br>[6] &nbsp; ZhaoHui Tang, Jamie MacLennan, “Data Mining with SQL Server 2005”, Wiley Publishing, 2005.<br>[7] &nbsp; Oracle, “Data Mining Concepts”, B28129-01, 2008.<br>[8] &nbsp; Oracle, “Data Mining Application Developer’s Guide”, B28131-01, 2008. <br>[9] &nbsp; Ian H.Witten, Frank Eibe, Mark A. Hall, “Data mining: practical machine learning tools and techniques”, Third Edition, Elsevier Inc, 2011. <br>[10]  Florent Messeglia, Pascal Poncelet &amp; Maguelonne Teisseire, “Successes and new directions in data mining”, IGI Global, 2008.<br>[11]  Oded Maimon, Lior Rokach, “Data Mining and Knowledge Discovery Handbook”, Second Edition, Springer Science + Business Media, LLC 2005, 2010.<br><br></p>",
+      "en": "<p>Text books<br>[1] &nbsp; Jiawei Han, Jian Pei, Hanghang Tong “Data Mining: Concepts and Techniques”, Forth Edition, Morgan Kaufmann Publishers, 2022.<br>[2]  Trần Minh Quang, \"Khai Phá Dữ Liệu và Kỹ Thuật Phân Lớp\", NXB Đại Học Quốc Gia TP. HCM, 2020. <br><br>Reference books<br>[3] &nbsp; David Hand, Heikki Mannila, Padhraic Smyth, “Principles of Data Mining”, MIT Press, 2001.<br>[4] &nbsp; David L. Olson, Dursun Delen, “Advanced Data Mining Techniques”, Springer-Verlag, 2008.<br>[5] &nbsp; Graham J. Williams, Simeon J. Simoff, “Data Mining: Theory, Methodology, Techniques, and Applications”, Springer-Verlag, 2006.<br>[6] &nbsp; ZhaoHui Tang, Jamie MacLennan, “Data Mining with SQL Server 2005”, Wiley Publishing, 2005.<br>[7] &nbsp; Oracle, “Data Mining Concepts”, B28129-01, 2008.<br>[8] &nbsp; Oracle, “Data Mining Application Developer’s Guide”, B28131-01, 2008. <br>[9] &nbsp; Ian H.Witten, Frank Eibe, Mark A. Hall, “Data mining: practical machine learning tools and techniques”, Third Edition, Elsevier Inc, 2011. <br>[10]  Florent Messeglia, Pascal Poncelet &amp; Maguelonne Teisseire, “Successes and new directions in data mining”, IGI Global, 2008.<br>[11]  Oded Maimon, Lior Rokach, “Data Mining and Knowledge Discovery Handbook”, Second Edition, Springer Science + Business Media, LLC 2005, 2010.<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Để đáp ứng mục tiêu của môn học, sinh viên cần thực hiện tốt các đòi hỏi sau đây:<br>a.  Có mặt tại lớp phải hơn 75% từ tuần 1 đến tuần 8 và 100% từ tuần 9 đến tuần 15.<br>b.  Sau mỗi chương, sinh viên làm các bài tập của chương. <br>Liêm chính học thuật và sử dụng công cụ AI<br>o Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.<br>o Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.<br>o Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.<br>o Mọi hành vi lạm dụng AI nhằm gian lận<br></p>",
+      "en": "<p>To meet the course objectives, students need to fulfill the following requirements:<br> a. Attendance must be more than 75% from week 1 to week 8 and 100% from week 9 to week 15.<br> b. After each chapter, students do the exercises of the chapter.<br></p><p>Academic Integrity and use of AI tools<br>o Students must comply with the university’s academic integrity regulations.<br>o The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.<br>o When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.<br>o Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1018,
+      "ma": "CN_TNT",
+      "ten": {
+        "vi": "Chuyên ngành: Trí tuệ nhân tạo ứng dụng",
+        "en": "Speciality: Applied Artificial Intelligence"
+      }
+    },
+    {
+      "id": 377,
+      "ma": "NG_KHM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Ngành Khoa học Máy tính"
+      }
+    },
+    {
+      "id": 378,
+      "ma": "CN_KHM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Chuyên ngành Khoa học Máy tính"
+      }
+    },
+    {
+      "id": 1242,
+      "ma": "CN_CND",
+      "ten": {
+        "vi": "Chuyên ngành: Công nghệ Dữ liệu Bảo mật và Trí tuệ Kinh doanh",
+        "en": "Data, Security Engineering an Business Intelligence Data Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1193,
+      "ma": "001964",
+      "ten": "Trần Minh Quang"
+    },
+    {
+      "id": 5282,
+      "ma": "003744",
+      "ten": "Lê Hồng Trang"
+    },
+    {
+      "id": 1202,
+      "ma": "002919",
+      "ten": "Võ Thị Ngọc Châu"
+    },
+    {
+      "id": 13828,
+      "ma": "004352",
+      "ten": "VŨ NGỌC TÚ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 41,
+        "ma": "BCTNg",
+        "text": {
+          "vi": "Báo cáo thí nghiệm",
+          "en": "Experimental report"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 964,
+      "maBoMon": "CDL",
+      "tenBoMon": {
+        "vi": "Hệ Thống Thông Tin"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "5847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1193,
+        "maGiangVien": "001964",
+        "tenGiangVien": "Trần Minh Quang",
+        "emailGiangVien": "quangtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88763,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 88764,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "88763",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kì",
+        "en": "Midterm exam"
+      },
+      "noidung": {
+        "vi": "Tính 20% số điểm. Có thể được thay thế bằng bài trình bày trên lớp.",
+        "en": "Account for 20% of the score. Can be conducted by in class presentations."
+      }
+    },
+    {
+      "id": 88765,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88763",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Tính 50% số điểm. Bài kiểm tra gồm các câu hỏi trắc nghiệm và trả lời ngắn.",
+        "en": "Account for 50% of the score. The test consists of multi-choice questions and short writing questions."
+      }
+    },
+    {
+      "id": 88766,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "88763",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn/Tiểu luận",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Tính 30% số điểm. Sinh viên thực hiện tiểu luận (mini project) theo nhóm từ 2 - 3 sinh viên theo chủ đề được cho trước ở tuần 1 hoặc tuần 2 (sinh viên có thể đề xuất chủ đề). Các nhóm báo cáo kết quả đồ án vào hai tuần cuối của học kỳ.  ",
+        "en": "Account for 30% of the score. Students will work in group (2 - 3 students) for mini project. A topic will be assigned (student can propose a suitable topic) in the 1st or 2nd week. Students will present the mini project at the two last weeks."
+      }
+    },
+    {
+      "id": 88767,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "88763",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Test/Quiz"
+      },
+      "noidung": {
+        "vi": "Các bài tập củng cố kiến thức tại lớp. Sinh viên thực hiện tốt sẽ được cộng điểm.",
+        "en": "In-class quiz. Students can get bonus for good answers/solutions"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109747,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 144934,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": " Giảng lý thuyết\n",
+            "en": "Teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo cá nhân",
+            "en": "make questions individually"
+          },
+          "chuandaura": {
+            "id": 182449,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Minh họa các khái niệm cơ bản và vai trò của bước trong quá trình khám phá tri thức.",
+              "en": "Illustrate the fundamental concepts and the roles of each step in the knowledge discovery process."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236351,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236350,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144938,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo cá nhân",
+            "en": "make question individually"
+          },
+          "chuandaura": {
+            "id": 182454,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Minh họa quy trình khai phá dữ liệu chuẩn và các thành phần của tác vụ và giải thuật khai phá dữ liệu cơ bản.",
+              "en": "Illustrate the standard data mining process and the components of basic data mining tasks and algorithms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236358,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236359,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144937,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết",
+            "en": "Teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo cá nhân",
+            "en": "make questions individually"
+          },
+          "chuandaura": {
+            "id": 182453,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": " Phân biệt các tác vụ khai phá dữ liệu phổ biến gồm hồi quy, phân loại, gom cụm,khai phá tập mẫu thường xuyên, luật kết hợp. Liệt kê ứng dụng của các tác vụ trong ít nhất 1 lĩnh vực.",
+              "en": "Distinguish common data mining tasks, including regression, classification, clustering, frequent pattern mining, and association rule mining, and identify their applications in at least one domain."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236356,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236357,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88767,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Test/Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144933,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo cá nhân\n",
+            "en": "make questions individually\n"
+          },
+          "chuandaura": {
+            "id": 182451,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": " Mô phỏng quá trình khám phá tri thức cho ít nhất 1 bài toán cụ thể.",
+              "en": "Simulate the knowledge discovery process for at least one specific problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236349,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236348,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144936,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo cá nhân\n",
+            "en": "make questions individually\n"
+          },
+          "chuandaura": {
+            "id": 182450,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": " Nêu ví dụ thực tế về quá trình khám phá tri thức",
+              "en": "Describe real-world examples of the knowledge discovery process."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236354,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236355,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144935,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo cá nhân\n",
+            "en": "make questions individually\n"
+          },
+          "chuandaura": {
+            "id": 182455,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "So sánh hệ thống khai phá dữ liệu với các dạng hệ thống khác như hệ cơ sở dữ liệu diễn dịch, hệ thống truy hồi thông tin, hệ thống học máy.",
+              "en": " Compare data mining systems with other types of systems, such as deductive database systems, information retrieval systems, and machine learning systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236353,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236352,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Tổng quan về khai phá dữ liệu\n1.\tQuá trình khám phá tri thức\n2.\tCác khái niệm\n3.\tÝ nghĩa và vai trò của khai phá dữ liệu\n4.\tỨng dụng của khai phá dữ liệu\n5.\tTóm tắt\nYêu cầu tự học đ/v sinh viên (6giờ)\nTài liệu tham khảo: [1] (Chap 1), [2] (Chap 1)",
+        "en": "Chapter 1: Overview of Data Mining\n1. Knowledge discovery process\n2. Concepts\n3. Meaning and role of data mining\n4. Applications of Data Mining\n5. Summary\nSelf-study requirements for students (6 hours)\nReferences: [1] (Chap 1), [2] (Chap 1)"
+      }
+    },
+    {
+      "id": 109751,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 144947,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182458,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Phân tích một số vấn đề của tập dữ liệu và đề xuất giải pháp như nhận diện nhiễu và phần tử ngoại biên trong tập dữ liệu cho trước.",
+              "en": "Analyze given dataset problems such as data noise and outlier detection issues and propose appropriate solutions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236378,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236376,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236377,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144949,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": " Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm",
+            "en": "Individual/group questions/exercises"
+          },
+          "chuandaura": {
+            "id": 182457,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": " Phân tích các mô tả thống kê của tập dữ liệu cho trước.",
+              "en": "Analyze statistical descriptions of a given dataset."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236381,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236382,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144948,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182459,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": " Thực hiện được các biến đổi dữ liệu trên tập dữ liệu cho trước, thu giảm dữ liệu trên tập dữ liệu cho trước",
+              "en": "Perform data transformation and data reduction techniques on a given dataset."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236380,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236379,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Các vấn đề tiền xử lý dữ liệu\n   3.1. Tổng quan về giai đoạn tiền xử lý dữ liệu\n   3.2. Tóm tắt mô tả về dữ liệu\n   3.3. Làm sạch dữ liệu\n   3.4. Tích hợp dữ liệu\n   3.5. Biến đổi dữ liệu\n   3.6. Thu giảm dữ liệu\n   3.7. Rời rạc hóa dữ liệu\n   3.8. Tạo cây phân cấp ý niệm\n   3.9. Biểu diễn dữ liệu\n   3.10. Tóm tắt\nYêu cầu tự học đ/v sinh viên (6 giờ)\nTài liệu tham khảo: [1] (Chap 2), [2] (Chap 1)",
+        "en": "Chapter 2: Data preprocessing issues\n    3.1. Overview of the data preprocessing stage\n    3.2. Descriptive summary of data\n    3.3. Data cleaning\n    3.4. Data integration\n    3.5. Data Transformation\n    3.6. Data collection\n    3.7. Discrete data\n    3.8. Create a hierarchy of ideas\n    3.9. Data representation\n    3.10. Summary\nSelf-study requirements for students (6 hours)\nReferences: [1] (Chap 2), [2] (Chap 1)"
+      }
+    },
+    {
+      "id": 109745,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 144930,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182453,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": " Phân biệt các tác vụ khai phá dữ liệu phổ biến gồm hồi quy, phân loại, gom cụm,khai phá tập mẫu thường xuyên, luật kết hợp. Liệt kê ứng dụng của các tác vụ trong ít nhất 1 lĩnh vực.",
+              "en": "Distinguish common data mining tasks, including regression, classification, clustering, frequent pattern mining, and association rule mining, and identify their applications in at least one domain."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236343,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236342,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144929,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182461,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Sử dụng một trong các hướng tiếp cận bao gồm các mô hình hồi quy dữ liệu/mô hình phân loại dữ liệu/mô hình gom cụm dữ liệu/tập mẫu thường xuyên và luật kết hợp tương ứng để áp dụng trong bài toán khai phá dữ liệu.",
+              "en": "Utilize data mining algorithms and tools to develop data mining applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236341,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88767,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Test/Quiz"
+                }
+              }
+            },
+            {
+              "id": 236340,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Hồi qui dữ liệu\n3.1. Tổng quan về hồi qui\n3.2. Hồi qui tuyến tính\n3.3. Hồi qui phi tuyến\n3.4. Ứng dụng\n3.5. Các vấn đề với hồi qui\n3.6. Tóm tắt\nYêu cầu tự học đ/v sinh viên (6 giờ)\nTài liệu tham khảo: [3] (Chap 11), [2] (Chap 2)",
+        "en": "Chapter 3: Data Regression\n3.1. Overview of regression\n3.2. Linear regression\n3.3. Nonlinear regression\n3.4. Application\n3.5. Problems with regression\n3.6. Summary\nSelf-study requirements for students (6 hours)\nReferences: [3] (Chap 11), [2] (Chap 2)"
+      }
+    },
+    {
+      "id": 109746,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 144932,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182461,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Sử dụng một trong các hướng tiếp cận bao gồm các mô hình hồi quy dữ liệu/mô hình phân loại dữ liệu/mô hình gom cụm dữ liệu/tập mẫu thường xuyên và luật kết hợp tương ứng để áp dụng trong bài toán khai phá dữ liệu.",
+              "en": "Utilize data mining algorithms and tools to develop data mining applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236347,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 236346,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88767,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Test/Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144931,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182453,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": " Phân biệt các tác vụ khai phá dữ liệu phổ biến gồm hồi quy, phân loại, gom cụm,khai phá tập mẫu thường xuyên, luật kết hợp. Liệt kê ứng dụng của các tác vụ trong ít nhất 1 lĩnh vực.",
+              "en": "Distinguish common data mining tasks, including regression, classification, clustering, frequent pattern mining, and association rule mining, and identify their applications in at least one domain."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236344,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236345,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Phân loại dữ liệu\n  4.1. Tổng quan về phân loại dữ liệu\n  4.2. Phân loại dữ liệu với cây quyết định\n  4.3. Phân loại dữ liệu với mạng Bayesian\n  4.4. Phân loại dữ liệu với mạng Neural\n  4.5. Các phương pháp phân loại dữ liệu khác\n  4.6. Tóm tắt\nYêu cầu tự học đ/v sinh viên (12 giờ)\nTài liệu tham khảo: [1] (Chap 6), [2] (Chap 3)",
+        "en": "Chapter 4: Data Classification\n   4.1. Overview of data classification\n   4.2. Data classification with decision trees\n   4.3. Data classification with Bayesian network\n   4.4. Data classification with neural networks\n   4.5. Other data classification methods\n   4.6. Summary\nSelf-study requirements for students (12 hours)\nReferences: [1] (Chap 6), [2] (Chap 3)"
+      }
+    },
+    {
+      "id": 109744,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 144928,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182461,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Sử dụng một trong các hướng tiếp cận bao gồm các mô hình hồi quy dữ liệu/mô hình phân loại dữ liệu/mô hình gom cụm dữ liệu/tập mẫu thường xuyên và luật kết hợp tương ứng để áp dụng trong bài toán khai phá dữ liệu.",
+              "en": "Utilize data mining algorithms and tools to develop data mining applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236336,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 236337,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88767,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Test/Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144927,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182453,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": " Phân biệt các tác vụ khai phá dữ liệu phổ biến gồm hồi quy, phân loại, gom cụm,khai phá tập mẫu thường xuyên, luật kết hợp. Liệt kê ứng dụng của các tác vụ trong ít nhất 1 lĩnh vực.",
+              "en": "Distinguish common data mining tasks, including regression, classification, clustering, frequent pattern mining, and association rule mining, and identify their applications in at least one domain."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236339,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236338,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5:  Gom cụm dữ liệu\n   5.1. Tổng quan về gom cụm dữ liệu\n   5.2. Gom cụm dữ liệu bằng phân hoạch\n   5.3. Gom cụm dữ liệu bằng phân cấp\n   5.4. Gom cụm dữ liệu dựa trên mật độ\n   5.5. Gom cụm dữ liệu dựa trên mô hình\n   5.6. Các phương pháp gom cụm dữ liệu khác\n   5.7. Tóm tắt\nYêu cầu tự học đ/v sinh viên (12 giờ)   \nTài liệu tham khảo: [1] (Chap 8), [2] (Chap 4)\n",
+        "en": "Chapter 5: Clustering data\n    5.1. Clustering overview\n    5.2. Cluster data by partitioning\n    5.3. Hierarchical clustering of data\n    5.4. Clustering data based on density\n    5.5. Model-based clustering\n    5.6. Other Clustering Methods\n    5.7. Summary\nSelf-study requirements for students (12 hours)\nReferences: [1] (Chap 8), [2] (Chap 4)"
+      }
+    },
+    {
+      "id": 109748,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 144940,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182461,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Sử dụng một trong các hướng tiếp cận bao gồm các mô hình hồi quy dữ liệu/mô hình phân loại dữ liệu/mô hình gom cụm dữ liệu/tập mẫu thường xuyên và luật kết hợp tương ứng để áp dụng trong bài toán khai phá dữ liệu.",
+              "en": "Utilize data mining algorithms and tools to develop data mining applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236362,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 236363,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88767,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Test/Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144939,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182453,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": " Phân biệt các tác vụ khai phá dữ liệu phổ biến gồm hồi quy, phân loại, gom cụm,khai phá tập mẫu thường xuyên, luật kết hợp. Liệt kê ứng dụng của các tác vụ trong ít nhất 1 lĩnh vực.",
+              "en": "Distinguish common data mining tasks, including regression, classification, clustering, frequent pattern mining, and association rule mining, and identify their applications in at least one domain."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236361,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236360,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Khai phá luật kết hợp\n    6.1. Tổng quan về khai phá luật kết hợp\n    6.2. Biểu diễn luật kết hợp\n    6.3. Khám phá các mẫu thường xuyên\n    6.4. Khám phá các luật kết hợp từ các mẫu thường xuyên\n    6.5. Khám phá các luật kết hợp dựa trên ràng buộc\n    6.6. Phân tích tương quan\n    6.7. Tóm tắt\nYêu cầu tự học đ/v sinh viên (12 giờ)\nTài liệu tham khảo: [1] (Chap 4), [3] (Chap 13)\n",
+        "en": "Chapter 6: Exploring association rules\n     6.1. An overview of association rule mining\n     6.2. Representation of association rule\n     6.3. Discover regular patterns\n     6.4. Discover association rules from regular patterns\n     6.5. Exploring constraint-based association rules\n     6.6. Correlation analysis\n     6.7. Summary\nSelf-study requirements for students (12 hours)\nReferences: [1] (Chap 4), [3] (Chap 13)"
+      }
+    },
+    {
+      "id": 109749,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 144942,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn Làm bài tập",
+            "en": "homework guide"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập",
+            "en": "Do homework"
+          },
+          "chuandaura": {
+            "id": 182455,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "So sánh hệ thống khai phá dữ liệu với các dạng hệ thống khác như hệ cơ sở dữ liệu diễn dịch, hệ thống truy hồi thông tin, hệ thống học máy.",
+              "en": " Compare data mining systems with other types of systems, such as deductive database systems, information retrieval systems, and machine learning systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236366,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88767,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Test/Quiz"
+                }
+              }
+            },
+            {
+              "id": 236367,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144943,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182453,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": " Phân biệt các tác vụ khai phá dữ liệu phổ biến gồm hồi quy, phân loại, gom cụm,khai phá tập mẫu thường xuyên, luật kết hợp. Liệt kê ứng dụng của các tác vụ trong ít nhất 1 lĩnh vực.",
+              "en": "Distinguish common data mining tasks, including regression, classification, clustering, frequent pattern mining, and association rule mining, and identify their applications in at least one domain."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236368,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236369,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144941,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182454,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Minh họa quy trình khai phá dữ liệu chuẩn và các thành phần của tác vụ và giải thuật khai phá dữ liệu cơ bản.",
+              "en": "Illustrate the standard data mining process and the components of basic data mining tasks and algorithms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236365,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88764,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236364,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8: Các đề tài nghiên cứu trong khai phá dữ liệu\n8.1. Hướng dữ liệu\n8.2. Hướng kỹ thuật\n8.3. Hướng ứng dụng\n8.4. Tóm tắt\nYêu cầu tự học đ/v sinh viên (6 giờ)\nTài liệu tham khảo: [1] (Chap 12), [2] (Chap 7)",
+        "en": "Chapter 8: Research topics in data mining\n8.1. Data Direction\n8.2. Technical direction\n8.3. Application direction\n8.4. Summary\nSelf-study requirements for students (6 hours)\nReferences: [1] (Chap 12), [2] (Chap 7)"
+      }
+    },
+    {
+      "id": 109752,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 144950,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182463,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": " Minh họa được sử dụng kết quả khai phá dữ liệu trong một chương trình ứng dụng cụ thể.",
+              "en": "Demonstrate the use of data mining results within a specific application program."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236383,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236384,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144952,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182461,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Sử dụng một trong các hướng tiếp cận bao gồm các mô hình hồi quy dữ liệu/mô hình phân loại dữ liệu/mô hình gom cụm dữ liệu/tập mẫu thường xuyên và luật kết hợp tương ứng để áp dụng trong bài toán khai phá dữ liệu.",
+              "en": "Utilize data mining algorithms and tools to develop data mining applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236387,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236388,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144951,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lý thuyết\n",
+            "en": "teaching"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi/bài tập trên lớp theo cá nhân/nhóm\n",
+            "en": "Individual/group questions/exercises\n"
+          },
+          "chuandaura": {
+            "id": 182462,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Sử dụng được thư viện khai phá dữ liệu trong ứng dụng khai phá dữ liệu.",
+              "en": "Select and justify an appropriate approach—regression, classification, clustering, frequent pattern mining, or association rule mining—for a given data mining problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236385,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236386,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Phát triển ứng dụng khai phá dữ liệu\n7.1. Tổng quan về vấn đề phát triển ứng dụng khai phá dữ liệu\n7.2. Qui trình phát triển ứng dụng khai phá dữ liệu\n7.3. Các chuẩn dành cho khai phá dữ liệu\n7.4. Các công cụ hỗ trợ phát triển ứng dụng khai phá dữ liệu\n7.5. Tóm tắt\nYêu cầu tự học đ/v sinh viên (6 giờ)\n",
+        "en": "Chapter 7: Developing a Data Mining Application\n7.1. Overview of the problem of data mining application development\n7.2. Data mining application development process\n7.3. Standards for data mining\n7.4. Tools to support data mining application development\n7.5. Summary\nSelf-study requirements for students (6 hours)"
+      }
+    },
+    {
+      "id": 109750,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 144944,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chưa có",
+            "en": "none"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập lớn theo nhóm - Báo cáo nhóm trên lớp\n",
+            "en": " Assignment - Report in class\n"
+          },
+          "chuandaura": {
+            "id": 182462,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Sử dụng được thư viện khai phá dữ liệu trong ứng dụng khai phá dữ liệu.",
+              "en": "Select and justify an appropriate approach—regression, classification, clustering, frequent pattern mining, or association rule mining—for a given data mining problem."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236370,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236371,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144946,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Chưa có\n",
+            "en": "none"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập lớn theo nhóm - Báo cáo nhóm trên lớp\n",
+            "en": " Assignment - Report in class\n"
+          },
+          "chuandaura": {
+            "id": 182463,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": " Minh họa được sử dụng kết quả khai phá dữ liệu trong một chương trình ứng dụng cụ thể.",
+              "en": "Demonstrate the use of data mining results within a specific application program."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236374,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236375,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144945,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Chưa có",
+            "en": "none"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Bài tập lớn theo nhóm - Báo cáo nhóm trên lớp",
+            "en": "Assignment - Report in class"
+          },
+          "chuandaura": {
+            "id": 182461,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Sử dụng một trong các hướng tiếp cận bao gồm các mô hình hồi quy dữ liệu/mô hình phân loại dữ liệu/mô hình gom cụm dữ liệu/tập mẫu thường xuyên và luật kết hợp tương ứng để áp dụng trong bài toán khai phá dữ liệu.",
+              "en": "Utilize data mining algorithms and tools to develop data mining applications."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236373,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88765,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 236372,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88766,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/Tiểu luận",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Báo cáo nhóm của sinh viên về các đề tài bài tập lớn của môn học\n\nYêu cầu tự học đ/v sinh viên (24 giờ)\n",
+        "en": "Student group reports on major subject matter topics\n\nRequest for self-study for students (24 hours)"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 182449,
+      "ma": "L.O.1.1",
+      "ten_vi": "Minh họa các khái niệm cơ bản và vai trò của bước trong quá trình khám phá tri thức.",
+      "ten_en": "Illustrate the fundamental concepts and the roles of each step in the knowledge discovery process.",
+      "hddg": [
+        {
+          "id": 88764,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182450,
+      "ma": "L.O.1.2",
+      "ten_vi": " Nêu ví dụ thực tế về quá trình khám phá tri thức",
+      "ten_en": "Describe real-world examples of the knowledge discovery process.",
+      "hddg": [
+        {
+          "id": 88764,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182451,
+      "ma": "L.O.1.3",
+      "ten_vi": " Mô phỏng quá trình khám phá tri thức cho ít nhất 1 bài toán cụ thể.",
+      "ten_en": "Simulate the knowledge discovery process for at least one specific problem.",
+      "hddg": [
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88766,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 182453,
+      "ma": "L.O.2.1",
+      "ten_vi": " Phân biệt các tác vụ khai phá dữ liệu phổ biến gồm hồi quy, phân loại, gom cụm,khai phá tập mẫu thường xuyên, luật kết hợp. Liệt kê ứng dụng của các tác vụ trong ít nhất 1 lĩnh vực.",
+      "ten_en": "Distinguish common data mining tasks, including regression, classification, clustering, frequent pattern mining, and association rule mining, and identify their applications in at least one domain.",
+      "hddg": [
+        {
+          "id": 88764,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88767,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập",
+          "ten_en": "Test/Quiz"
+        }
+      ]
+    },
+    {
+      "id": 182454,
+      "ma": "L.O.2.2",
+      "ten_vi": "Minh họa quy trình khai phá dữ liệu chuẩn và các thành phần của tác vụ và giải thuật khai phá dữ liệu cơ bản.",
+      "ten_en": "Illustrate the standard data mining process and the components of basic data mining tasks and algorithms.",
+      "hddg": [
+        {
+          "id": 88764,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182455,
+      "ma": "L.O.2.3",
+      "ten_vi": "So sánh hệ thống khai phá dữ liệu với các dạng hệ thống khác như hệ cơ sở dữ liệu diễn dịch, hệ thống truy hồi thông tin, hệ thống học máy.",
+      "ten_en": " Compare data mining systems with other types of systems, such as deductive database systems, information retrieval systems, and machine learning systems.",
+      "hddg": [
+        {
+          "id": 88764,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88767,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập",
+          "ten_en": "Test/Quiz"
+        }
+      ]
+    },
+    {
+      "id": 182457,
+      "ma": "L.O.3.1",
+      "ten_vi": " Phân tích các mô tả thống kê của tập dữ liệu cho trước.",
+      "ten_en": "Analyze statistical descriptions of a given dataset.",
+      "hddg": [
+        {
+          "id": 88764,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182458,
+      "ma": "L.O.3.2",
+      "ten_vi": "Phân tích một số vấn đề của tập dữ liệu và đề xuất giải pháp như nhận diện nhiễu và phần tử ngoại biên trong tập dữ liệu cho trước.",
+      "ten_en": "Analyze given dataset problems such as data noise and outlier detection issues and propose appropriate solutions.",
+      "hddg": [
+        {
+          "id": 88764,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88766,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 182459,
+      "ma": "L.O.3.3",
+      "ten_vi": " Thực hiện được các biến đổi dữ liệu trên tập dữ liệu cho trước, thu giảm dữ liệu trên tập dữ liệu cho trước",
+      "ten_en": "Perform data transformation and data reduction techniques on a given dataset.",
+      "hddg": [
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88766,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 182461,
+      "ma": "L.O.4.1",
+      "ten_vi": "Sử dụng một trong các hướng tiếp cận bao gồm các mô hình hồi quy dữ liệu/mô hình phân loại dữ liệu/mô hình gom cụm dữ liệu/tập mẫu thường xuyên và luật kết hợp tương ứng để áp dụng trong bài toán khai phá dữ liệu.",
+      "ten_en": "Utilize data mining algorithms and tools to develop data mining applications.",
+      "hddg": [
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88766,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88767,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập",
+          "ten_en": "Test/Quiz"
+        }
+      ]
+    },
+    {
+      "id": 182462,
+      "ma": "L.O.4.2",
+      "ten_vi": "Sử dụng được thư viện khai phá dữ liệu trong ứng dụng khai phá dữ liệu.",
+      "ten_en": "Select and justify an appropriate approach—regression, classification, clustering, frequent pattern mining, or association rule mining—for a given data mining problem.",
+      "hddg": [
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88766,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 182463,
+      "ma": "L.O.4.3",
+      "ten_vi": " Minh họa được sử dụng kết quả khai phá dữ liệu trong một chương trình ứng dụng cụ thể.",
+      "ten_en": "Demonstrate the use of data mining results within a specific application program.",
+      "hddg": [
+        {
+          "id": 88765,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": "Final exam"
+        },
+        {
+          "id": 88766,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/Tiểu luận",
+          "ten_en": "Assignment"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Khai phá Dữ liệu",
+  "tenmonhoc_eng": "Data Mining",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1987 @@
+{
+  "ma": "DCMH.EE3003.9.1",
+  "phienban": "9.1",
+  "capnhat": "30/03/2026 16:05",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3003",
+  "ten": "EE3003 - Thiết kế Hệ thống Nhúng",
+  "ten_eng": "EE3003 - Embedded System Design",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p></p><p></p>\n\nMôn học Thiết kế hệ thống nhúng nhằm trang bị cho sinh viên kiến thức về kiến trúc phần cứng và phần mềm của hệ thống nhúng, bao gồm vi điều khiển, ngoại vi và phần mềm nhúng. Sinh viên có khả năng thiết kế và lập trình các ứng dụng nhúng sử dụng ngôn ngữ C/C++ và các công cụ phát triển chuyên dụng. Môn học giúp người học tích hợp phần cứng – phần mềm và giao tiếp với các thiết bị ngoại vi như cảm biến, module truyền thông. Đồng thời, sinh viên có thể phân tích và tối ưu hiệu năng hệ thống về thời gian đáp ứng và tài nguyên hệ thống. Người học cũng phát triển kỹ năng làm việc nhóm và triển khai dự án kỹ thuật. Cuối cùng, sinh viên có khả năng tự học và thích ứng với các công nghệ mới trong lĩnh vực hệ thống nhúng và IoT.<br><p></p>",
+      "en": "<p></p><p></p><p></p><ul>The Embedded Systems Design course aims to equip students with knowledge of the hardware and software architecture of embedded systems, including microcontrollers, peripherals, and embedded software. Students will be able to design and program embedded applications using C/C++ and specialized development tools. The course helps students integrate hardware and software and communicate with peripheral devices such as sensors and communication modules. Simultaneously, students will be able to analyze and optimize system performance in terms of response time and system resources. Students will also develop teamwork skills and project implementation abilities. Finally, students will be able to learn independently and adapt to new technologies in the field of embedded systems and IoT.</ul><p></p>\n\n\n\n\n\n<p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>Nội dung bài giảng môn học này bao\ngồm các nội dung chính sau:</p>\n\n<p></p><ul><li>Kiến thức tổng quan về hệ thống nhúng, các đặc\nđiểm của hệ thống nhúng, <b>c</b>ác vấn đề\nkhi thiết kế hệ thống nhúng, tiến trình thiết kế hệ thống nhúng, và quy trình\nphát triển dự án hệ thống nhúng.</li><li>Kỹ thuật thiết kế phần cứng cho hệ thống nhúng\nsử dụng các vi điều khiển hiện đại và các ngoại vi phổ biến.</li><li>Kỹ thuật phát triển phần mềm cho hệ thống nhúng\nsử dụng ngôn ngữ C và trình biên dịch C cho vi điều khiển nhúng</li><li>Kỹ thuật tổng hợp, mô phỏng và kiểm tra hệ thống\nnhúng sử dụng công cụ phần mềm.</li></ul><p></p>\n\n\n\n\n\n\n\n\n\n\n\n<br><p></p>",
+      "en": "<p></p><p></p><p>The\nsyllabus of this course includes the followings:</p>\n\n<ul>\n <li>Overview\n     knowledge of embedded systems, features of embedded system, embedded\n     system design issues, embedded system design process, and method to\n     develop a embedded system design project</li>\n <li>Technique\n     of designing hardware part for embedded systems using modern\n     microcontrollers, and popular peripherals.</li>\n <li>Technique\n     of developing software program for embedded systems using C language and C\n     compiler for embedded microcontrollers.</li><li>Technique of synthesizing, simulating, and\ntesting an embedded system using software tools.</li></ul><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p><b>Giáo trình</b></p>\n\n<p>[1] Peter Marwedel, Embedded System Design, Springer, 4th\nEdition, 2021.</p><p><b>Tài liệu tham khảo</b></p>\n\n<p>[2] Mohammad Ayoub Khan at el., Embedded and Real Time\nSystem Development: A Software Engineering Perpective, Springer, 2014.</p>\n\n[3] Cem Unsalan at el., Embedded System Design\nwith ARM Cortex-M Microcontrollers, Springer, 2022.\n\n\n\n<br><p></p>",
+      "en": "<p><b>Textbooks</b><br></p><p><b>\n\n</b></p><p></p><p>[1] Peter Marwedel, Embedded System Design, Springer, 4th\nEdition, 2021.</p><p><b>References</b></p>\n\n<p>[2] Mohammad Ayoub Khan at el., Embedded and Real Time\nSystem Development: A Software Engineering Perpective, Springer, 2014.</p>\n\n[3] Cem Unsalan at el., Embedded System Design\nwith ARM Cortex-M Microcontrollers, Springer, 2022.<b>\n\n<br></b><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>Tài liệu được đưa lên LMS hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học.&nbsp;</p><p>Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học.<br></p><p>\n\n<u>Liêm chính học thuật và quy định sử dụng AI:</u></p>\n\n<ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul>\n\n<br><br><p></p>",
+      "en": "<p></p><p>Documents are uploaded to LMS weekly. Students download, print, and bring with them to class.&nbsp;</p><p>The final course score is assessed throughout the course of study.</p><p>\n\n<u>Academic Integrity and use of Al tools:</u></p><p></p><ul><li>Students must comply with the university's academic integrity regulations.&nbsp;</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by Al.&nbsp;</li><li>When Al tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.&nbsp;</li><li>Any misuse of Al for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university's regulations.\n\n</li></ul><p></p><br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1449,
+      "ma": "NG_0N41",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - CTTT - Điện - Điện Tử - Khóa 2021",
+        "en": "Electrical and Electronics Engineering - Year 2021"
+      }
+    },
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 1450,
+      "ma": "CN_VVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Viễn thông - Khóa 2021",
+        "en": "Telecommunication Engineering  - Year 2021"
+      }
+    },
+    {
+      "id": 1249,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2019)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1467,
+      "ma": "NG_COD_TN",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa +1",
+        "en": "Áp dụng cho tất cả ngành của khóa +1"
+      }
+    },
+    {
+      "id": 1389,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2018)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1250,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (2019)",
+        "en": "Electronics - Telecommunications Engineering (2019)"
+      }
+    },
+    {
+      "id": 1394,
+      "ma": "NG_DVT",
+      "ten": {
+        "vi": " CTĐT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Viễn thông (2021)",
+        "en": "Electronics - Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1387,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2019)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2019)"
+      }
+    },
+    {
+      "id": 1395,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuẩn đầu ra các môn khoa điện (K2021)",
+        "en": "Chuẩn đầu ra các môn khoa điện (K2021)"
+      }
+    },
+    {
+      "id": 1396,
+      "ma": "CN_DVT",
+      "ten": {
+        "vi": "Chuyên ngành Kỹ thuật Điện tử - Viễn thông (2021)",
+        "en": "Electronics - Telecommunications Engineering (2021)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 499,
+      "ma": "001900",
+      "ten": "Trương Quang Vinh"
+    },
+    {
+      "id": 505,
+      "ma": "002493",
+      "ten": "Bùi Quốc Bảo"
+    },
+    {
+      "id": 515,
+      "ma": "003197",
+      "ten": "Trần Hoàng Quân"
+    },
+    {
+      "id": 8785,
+      "ma": "003961",
+      "ten": "NGUYỄN TRUNG HIẾU"
+    },
+    {
+      "id": 9765,
+      "ma": "004078",
+      "ten": "NGUYỄN PHAN HẢI PHÚ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Bộ môn Điện tử - P. 201B3",
+      "dienThoai": "0838655353"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 499,
+        "maGiangVien": "001900",
+        "tenGiangVien": "Trương Quang Vinh",
+        "emailGiangVien": "tqvinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "EE2039 - Vi xử lý",
+        "en": "EE2039 - Microprocessor"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vi xử lý",
+        "en": "Microprocessor"
+      },
+      "mamonhoc": "EE2039"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 83568,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 83569,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "83568",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Class project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Class project"
+      }
+    },
+    {
+      "id": 83570,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "83568",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra",
+        "en": "Test"
+      },
+      "noidung": {
+        "vi": "Kiểm tra",
+        "en": "Test"
+      }
+    },
+    {
+      "id": 83571,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "83568",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 103870,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 135656,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": null
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Presenting lecture slides, Upload slides to LMS ) (Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184525,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "(K, mức 2) Mô tả định nghĩa hệ thống nhúng",
+              "en": "(K, level 2) Describe definition of an embedded system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221126,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221127,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221128,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135655,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184526,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(K, mức 3) Giải thích các tính năng của hệ thống nhúng",
+              "en": "(K, level 3) Explain features of an embedded system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221125,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221123,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221124,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 0: Giới thiệu về môn học\n- Thông tin Thầy/Cô\n- Các vấn đề liên quan đến môn học\n- Cách thức dạy và học \n\nChương 1: Tổng quan về hệ thống nhúng \n1.1. Định nghĩa hệ thống nhúng\n1.2. Các đặc điểm của hệ thống nhúng\n1.3. Các vấn đề khi thiết kế hệ thống nhúng\nTham khảo [1]",
+        "en": "Chapter 0: Introduction to the subject\n- Teacher's information\n- Subject-related issues\n- Teaching and learning methods\n\nChapter 1: Embedded System Overview\n1.1. Embedded system definition\n1.2. Features of embedded systems\n1.3. Problems when designing embedded systems\nReference [1]"
+      }
+    },
+    {
+      "id": 103865,
+      "stt": 2,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 135647,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184527,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(K, mức 4) Phân tích các vấn đề về thiết kế hệ thống nhúng",
+              "en": "(K, level 4) Analyze issues of designing an embedded system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221104,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221106,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221105,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Phát triển dự án thiết kế hệ thống nhúng\n2.1. Tiến trình thiết kế hệ thống nhúng\n2.2. Lựa chọn công nghệ\n2.3. Kế hoạch dự án thiết kế hệ thống nhúng\nTham khảo [1]\n",
+        "en": "Chapter 2: Developing an embedded system design project\n2.1. Embedded system design process\n2.2. Technology selection\n2.3. Embedded system design project plan\nReference [1]"
+      }
+    },
+    {
+      "id": 103871,
+      "stt": 3,
+      "buoi": "4-5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 135658,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184529,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "(K, mức 3) Giải thích cấu trúc và nguyên lý hoạt động của vi điều khiển",
+              "en": "(K, level 5) Explain the architecture and operational principle of microcontrollers."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221132,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221133,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221134,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135659,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184530,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "(K, mức 4) Lựa chọn vi điều khiển phù hợp với yêu cầu của hệ thống nhúng",
+              "en": "(K, level 4) Select the appropriate microcontroller for the embedded system requirements"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221135,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221136,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221137,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135657,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184531,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "(K, mức 4) Sử dụng vi điều khiển cho hệ thống nhúng đơn giản",
+              "en": "(K, level 4) Use microcontrollers for a simple embedded system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221131,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221129,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221130,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Vi điều khiển\n3.1. Giới thiệu họ vi điều khiển PIC/AVR/ARM\n3.2. Cấu trúc vi điều khiển \n3.3. Ứng dụng vi điều khiển cho hệ thống nhúng\nTham khảo [1], [2], [3[\n",
+        "en": "Chapter 3: Microcontroller\n3.1. Introducing the PIC/AVR/ARM microcontroller family\n3.2. Microcontroller architecture \n3.3. Application of microcontrollers for embedded systems\nReferences [1], [2], [3]"
+      }
+    },
+    {
+      "id": 103864,
+      "stt": 4,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 135645,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184533,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "(K, mức 4) Vẽ sơ đồ khối thiết kế phần cứng cho hệ thống nhúng.",
+              "en": "(K, level 4) Draw block diagram for hardware design of an embedded system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221095,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221097,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221096,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135646,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184534,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế sơ đồ mạch chi tiết cho hệ thống nhúng.",
+              "en": "(K, level 5) Design detail schematic for an embedded system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221101,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221103,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221102,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135644,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184535,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế ngoại vi cho hệ thống nhúng.",
+              "en": "(K, level 5) Design peripherals for an embedded system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221098,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221099,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221100,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Thiết kế phần cứng cho hệ thống nhúng\n4.1. Thiết kế sơ đồ khối\n4.2. Lựa chọn phần cứng\n4.3. Thiết kế chi tiết\nTham khảo [1], [2]",
+        "en": "Chapter 4: Hardware Design for Embedded Systems\n4.1. Block diagram design\n4.2. Hardware selection\n4.3. Detailed design\nReferences [1], [2]"
+      }
+    },
+    {
+      "id": 103866,
+      "stt": 5,
+      "buoi": "8-9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 135650,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184537,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "(K, mức 4) Vẽ lưu đồ giải thuật cho phần mềm của hệ thống nhúng",
+              "en": "(K, level 4) Draw flow chart of embedded software program."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221111,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221112,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135648,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184538,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "(K, mức 5) Viết chương trình điều khiển cho hệ thống nhúng bằng ngôn ngữ C",
+              "en": "(K, level 5) Write a program for an embedded system by using C language. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221108,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221107,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135649,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184539,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "(K, mức 5) Biên dịch và tổng hợp chương trình nhúng cho một vi điều khiển xác định.",
+              "en": "(K, level 5) Compile and synthesize an embedded program for a specific microcontroller."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221109,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221110,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phát triển phần mềm cho hệ thống nhúng\n5.1. Thiết kế lưu đồ giải thuật cho chương trình điều khiển hệ thống nhúng\n5.2. Lập trình C cho hệ thống nhúng\n5.3. Thiết kế chương trình C cho vi điều khiển\nTham khảo [1], [2]",
+        "en": "Chapter 5: Software development for embedded systems\n5.1. Design algorithm flowcharts for embedded system control programs\n5.2. C programming for embedded systems\n5.3. Design C program for microcontroller\nReferences [1], [2]"
+      }
+    },
+    {
+      "id": 103867,
+      "stt": 6,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 135651,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184541,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng tiến trình thiết kế hệ thống nhúng để phát triển dự án",
+              "en": "(K, level 4) Apply embedded system design process to develop a project."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221115,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221113,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221114,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Công cụ phát triển hệ thống nhúng\n6.1. Trình biên dịch C Compiler \n6.2. Phần mềm mô phỏng Proteus\nTham khảo [3]",
+        "en": "Chapter 6: Embedded System Development Tools\n6.1. C Compiler\n6.2. Proteus simulation software\nReference [3]"
+      }
+    },
+    {
+      "id": 103868,
+      "stt": 7,
+      "buoi": "12-13",
+      "chuandaurachitiet": [
+        {
+          "id": 135652,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184542,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "(K, mức 5) Lập kế hoạch dự án thiết kế hệ thống nhúng",
+              "en": "(K, level 5) Make a plan for the project of embedded system design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221117,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221116,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135653,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184543,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "(K, mức 4) Mô phỏng, hiện thực, và kiểm tra hoạt động của hệ thống nhúng bằng các công cụ phần mềm CAD",
+              "en": "(K, level 4) Simulate, implement, and verify the operations of an embedded system by using CAD software tools"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221119,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221118,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Thiết kế ngoại vi cho hệ thống nhúng \n7.1. Điều khiển thiết bị\n7.2. Điều khiển LCD\n7.3. Xuất nhập analog\n7.4. Giao tiếp nối tiếp UART, SPI, I2C\nTham khảo [1], [2]\n",
+        "en": "Chapter 7: Peripheral Design for Embedded Systems\n7.1. Device control\n7.2. LCD Control\n7.3. Analogue I/O\n7.4. UART, SPI, I2C . serial communication\nReference [1], [2]"
+      }
+    },
+    {
+      "id": 103869,
+      "stt": 8,
+      "buoi": "14-15",
+      "chuandaurachitiet": [
+        {
+          "id": 135654,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên nhận xét báo cáo bài tập lớn.",
+            "en": "Lecturer's comments on the major assignment report."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên trình bày kết quả bài tập lớn và chỉnh sửa theo góp ý của giảng viên.",
+            "en": "Students present the results of their major assignment and make revisions based on the instructor's feedback."
+          },
+          "chuandaura": {
+            "id": 184541,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "(K, mức 4) Áp dụng tiến trình thiết kế hệ thống nhúng để phát triển dự án",
+              "en": "(K, level 4) Apply embedded system design process to develop a project."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221120,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83569,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Class project"
+                }
+              }
+            },
+            {
+              "id": 221121,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83570,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 221122,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 83571,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Báo cáo bài tập lớn và ôn tập",
+        "en": "Class project report and review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 184525,
+      "ma": "L.O.1.1",
+      "ten_vi": "(K, mức 2) Mô tả định nghĩa hệ thống nhúng",
+      "ten_en": "(K, level 2) Describe definition of an embedded system.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184526,
+      "ma": "L.O.1.2",
+      "ten_vi": "(K, mức 3) Giải thích các tính năng của hệ thống nhúng",
+      "ten_en": "(K, level 3) Explain features of an embedded system.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184527,
+      "ma": "L.O.1.3",
+      "ten_vi": "(K, mức 4) Phân tích các vấn đề về thiết kế hệ thống nhúng",
+      "ten_en": "(K, level 4) Analyze issues of designing an embedded system.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184529,
+      "ma": "L.O.2.1",
+      "ten_vi": "(K, mức 3) Giải thích cấu trúc và nguyên lý hoạt động của vi điều khiển",
+      "ten_en": "(K, level 5) Explain the architecture and operational principle of microcontrollers.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184530,
+      "ma": "L.O.2.2",
+      "ten_vi": "(K, mức 4) Lựa chọn vi điều khiển phù hợp với yêu cầu của hệ thống nhúng",
+      "ten_en": "(K, level 4) Select the appropriate microcontroller for the embedded system requirements",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184531,
+      "ma": "L.O.2.3",
+      "ten_vi": "(K, mức 4) Sử dụng vi điều khiển cho hệ thống nhúng đơn giản",
+      "ten_en": "(K, level 4) Use microcontrollers for a simple embedded system.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184533,
+      "ma": "L.O.3.1",
+      "ten_vi": "(K, mức 4) Vẽ sơ đồ khối thiết kế phần cứng cho hệ thống nhúng.",
+      "ten_en": "(K, level 4) Draw block diagram for hardware design of an embedded system.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184534,
+      "ma": "L.O.3.2",
+      "ten_vi": "(K, mức 5) Thiết kế sơ đồ mạch chi tiết cho hệ thống nhúng.",
+      "ten_en": "(K, level 5) Design detail schematic for an embedded system.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184535,
+      "ma": "L.O.3.3",
+      "ten_vi": "(K, mức 5) Thiết kế ngoại vi cho hệ thống nhúng.",
+      "ten_en": "(K, level 5) Design peripherals for an embedded system.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184537,
+      "ma": "L.O.4.1",
+      "ten_vi": "(K, mức 4) Vẽ lưu đồ giải thuật cho phần mềm của hệ thống nhúng",
+      "ten_en": "(K, level 4) Draw flow chart of embedded software program.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184538,
+      "ma": "L.O.4.2",
+      "ten_vi": "(K, mức 5) Viết chương trình điều khiển cho hệ thống nhúng bằng ngôn ngữ C",
+      "ten_en": "(K, level 5) Write a program for an embedded system by using C language. ",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184539,
+      "ma": "L.O.4.3",
+      "ten_vi": "(K, mức 5) Biên dịch và tổng hợp chương trình nhúng cho một vi điều khiển xác định.",
+      "ten_en": "(K, level 5) Compile and synthesize an embedded program for a specific microcontroller.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184541,
+      "ma": "L.O.5.1",
+      "ten_vi": "(K, mức 4) Áp dụng tiến trình thiết kế hệ thống nhúng để phát triển dự án",
+      "ten_en": "(K, level 4) Apply embedded system design process to develop a project.",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83570,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra",
+          "ten_en": "Test"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184542,
+      "ma": "L.O.5.2",
+      "ten_vi": "(K, mức 5) Lập kế hoạch dự án thiết kế hệ thống nhúng",
+      "ten_en": "(K, level 5) Make a plan for the project of embedded system design",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 184543,
+      "ma": "L.O.5.3",
+      "ten_vi": "(K, mức 4) Mô phỏng, hiện thực, và kiểm tra hoạt động của hệ thống nhúng bằng các công cụ phần mềm CAD",
+      "ten_en": "(K, level 4) Simulate, implement, and verify the operations of an embedded system by using CAD software tools",
+      "hddg": [
+        {
+          "id": 83569,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Class project"
+        },
+        {
+          "id": 83571,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế Hệ thống Nhúng",
+  "tenmonhoc_eng": "Embedded System Design",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

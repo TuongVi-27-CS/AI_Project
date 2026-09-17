@@ -1,0 +1,1348 @@
+{
+  "ma": "DCMH.TR3055.2.1",
+  "phienban": "2.1",
+  "capnhat": "19/06/2024 14:32",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Giao Thông",
+    "en": "Faculty of Transportation Engineering"
+  },
+  "mamonhoc": "TR3055",
+  "ten": "TR3055 - Các Hệ thời gian thực",
+  "ten_eng": "TR3055 - Real-Time or Embedded Systems",
+  "hockyapdung": "HK231",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn \"Các hệ thời gian thực\" hướng người học đáp ứng 03 chuẩn đầu ra của chương trình đào tạo cử nhân ngành kỹ thuậthàng không. Đó là chuẩn đầu ra 1 (cấp độ trung bình), chuẩn đầu ra 2 (cấp độ trung bình), và chuẩn đầu ra 6(cấp độ trung bình). Người học có thể vận dụng kiến thức của môn học để giải thích, xác định đặc tính về đáp ứng ràng buộc thời gian của hệ điều khiển.<br></p>",
+      "en": "<p>This course aims students to satisfy the 03 learning outcomes (LO.) in the bachelor aerospace engineering program. They are the LO.1 (medium level); the LO.2 (medium level); and the LO.6 (medium level). Students could apply knowledge of this course to explain, to determine&nbsp;the “timing constraints in real-time system”.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học trang bị cho sinh viên các kiến thức cơ bản và chuyên sâu về đáp ứng ràng buộc thời gian của các hệ điều khiển (thế nào là hệ thời gian thực, các ràng buộc về thời gian, phân loại hệ thời gian thực); các tính chất cơ bản của một “task” trong hệ thời gian thực; các phương pháp phân tích và sắp xếp trật tự các “tasks” để đảm bảo thỏa các ràng buộc về thời gian; các phương pháp xử lý trong tình huống “surcharge” và cuối cùng là giới thiệu sơ về các “real-time executive” đang được sử dụng hiện nay trong hệ thời gian thực.<br></p>",
+      "en": "<p>This course provides the fundamental and advanced concepts of the “timing constraints in real-time system”: the definition of a real-time task, the behavior of tasks, the schedulability of a set of tasks with timing constraints in normal use and in case of “surcharge”. Some real-time executives and some real-time standards are also introduced.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>1. Jim Cooling, Software Engineering for Real-Time Systems : A Software Engineering Perspective Toward Designing Real-time Systems, 1st edition, Packt Publishing, 2019.</p><p>2. Bài giảng môn học, Ngô Khánh Hiếu<br></p>",
+      "en": "<p>\n\n</p><p></p>\n\n1. Jim Cooling, Software Engineering for Real-Time Systems : A Software Engineering Perspective Toward Designing Real-time Systems, 1st edition, Packt Publishing, 2019.\n\n<p></p><p>2. Lecture notes, Ngo Khanh Hieu</p><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BK-Elearning hàng tuần. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học.<br>- Bài tập: 10%<br>- Kiểm tra: 20%<br>- Bài tập lớn/Tiểu luận: 20%<br>- Thi: 5<small></small>0%<br>\n\nSinh viên phải hoàn thành bài tập về nhà đúng hạn cũng như thực hiện đầy đủ các phần thuyết trình của nhóm trên BK E-learning trước lịch thuyết trình.\n\n<br></p><p>Điều kiện để sinh viên được tham dự kỳ thi cuối kỳ của môn học: sinh viên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm danh chuyên cần).</p>",
+      "en": "<p>All learning resources related to this course will be uploaded in BK E-learning. Student should prepare material at home in order to participate in active learning activities such as Question &amp; Answers, problem based discussion in group, etc.<br>Final grade of this course will be as follows:<br>- In-class activities: 10%<br>- Mid-term examination: 20%<br>- Group activities at home: 30%<br>- Final examination: 40%<br>\n\nFinal report of group activities at home should be repaired according to the suggestions and comments of classmates and instructor, its presentation slides must be submitted via BK E-learning before the scheduled presentation.\n\n<br></p><p>Course requirements for the final examination: students are required to be in class at least 70% of the number of instruction lessons.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1145,
+      "ma": "CN_HKG",
+      "ten": {
+        "vi": "CTDT  Khoa Kỹ thuật Giao thông - Ngành Kỹ thuật Hàng không",
+        "en": "Bachelor Program - Aerospace Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 654,
+      "ma": "002263",
+      "ten": "Ngô Khánh Hiếu"
+    },
+    {
+      "id": 6999,
+      "ma": "003821",
+      "ten": "ĐẶNG TRUNG DUẨN"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 1.0,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 45,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 60,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 10,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 20,
+    "doAn": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 958,
+      "maBoMon": "HGK",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Hàng Không"
+      },
+      "maKhoa": "GT",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Giao Thông",
+        "en": "Faculty of Transportation Engineering"
+      },
+      "vanPhong": "Văn phòng Bộ môn Kỹ thuật Hàng không, lầu 1, P.107 nhà C5, Trường Đại học Bách khoa",
+      "dienThoai": "028 38647256 (local: 5654)"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 654,
+        "maGiangVien": "002263",
+        "tenGiangVien": "Ngô Khánh Hiếu",
+        "emailGiangVien": "ngokhanhhieu@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 4650,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 4651,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 1",
+        "en": "In-class activities 1"
+      },
+      "noidung": {
+        "vi": "Diễn đạt các đặc trưng của hệ thời gian thực thường gắp trong thực tế",
+        "en": "Demonstrate the real-time system characteristics in real world"
+      }
+    },
+    {
+      "id": 4652,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 2",
+        "en": "In-class activities 2"
+      },
+      "noidung": {
+        "vi": "Mô tả một hệ thời gian thực theo mô hình đáp ứng chức năng",
+        "en": "Describe a real-time or embedded system according to the functional model-based structures"
+      }
+    },
+    {
+      "id": 4653,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 3",
+        "en": "In-class activities 3"
+      },
+      "noidung": {
+        "vi": "Biểu diễn trạng thái của một hệ thời gian thực theo mô hình đáp ứng chức năng",
+        "en": "State-transition diagram of a real-time or embedded system according to the functional model-based structures"
+      }
+    },
+    {
+      "id": 4654,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 4",
+        "en": "In-class activities 4"
+      },
+      "noidung": {
+        "vi": "Biểu diễn trạng thái của một hệ thời gian thực theo mô hình hướng đối tượng",
+        "en": "Statechart diagram of a real-time or embedded system according to the object-oriented structures"
+      }
+    },
+    {
+      "id": 4655,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 5",
+        "en": "In-class activities 5"
+      },
+      "noidung": {
+        "vi": "Mô hình hóa hệ thời gian thực với công cụ LabVIEW",
+        "en": "Modelling and performance analysis of real-time systems with LabVIEW"
+      }
+    },
+    {
+      "id": 4656,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 6",
+        "en": "In-class activities 6"
+      },
+      "noidung": {
+        "vi": "Mô hình hóa hệ thời gian thực với công cụ AADL",
+        "en": "Modelling and performance analysis of real-time systems with AADL"
+      }
+    },
+    {
+      "id": 4657,
+      "stt": 0,
+      "ma": "A.O.7",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 7",
+        "en": "In-class activities 7"
+      },
+      "noidung": {
+        "vi": "Scheduling cho task độc lập trên một vi xử lý",
+        "en": "Monoprocessor real-time scheduling for independent tasks"
+      }
+    },
+    {
+      "id": 4658,
+      "stt": 0,
+      "ma": "A.O.8",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 8",
+        "en": "In-class activities 8"
+      },
+      "noidung": {
+        "vi": "Scheduling cho task phụ thuộc trên một vi xử lý",
+        "en": "Monoprocessor real-time scheduling for dependent tasks"
+      }
+    },
+    {
+      "id": 4659,
+      "stt": 0,
+      "ma": "A.O.9",
+      "capdo": "1",
+      "parentid": "4650",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bập tập lớn",
+        "en": "Group activity at home"
+      },
+      "noidung": {
+        "vi": "Phân tích/Mô hình hóa/Triển khai hệ thời gian thực với tình huống thực tế",
+        "en": "A case-study of the analysis/modelling/implementation of real-time systems"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 4689,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Giới thiệu về môn học;\nÔn lại kiến thức về điện - điện tử đã được học trước đó;\nCác ứng dụng thực tế của hệ thời gian thực",
+        "en": "Introduction to the course;\nRemind basics of the electric/electronics;\nApplications of real-time systems in real world"
+      }
+    },
+    {
+      "id": 4703,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 5752,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40320,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Nắm vững khái niệm, thuật ngữ và trình bày nguyên lý vận hành của hệ điều khiển theo thời gian thực.",
+              "en": "Understand the the common concepts, terminologies and demonstrate operating principles t in the real-time or embedded control system. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8277,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4651,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp 1",
+                  "en": "In-class activities 1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đặc trưng của hệ thời gian thực;\nCác dạng điển hình của hệ thời gian thực",
+        "en": "Real-time or embedded system characteristics;\nClassification of real-time or embedded systems"
+      }
+    },
+    {
+      "id": 4701,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 5750,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm",
+            "en": "Real-time reactions; Concept mapping"
+          },
+          "chuandaura": {
+            "id": 40320,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Nắm vững khái niệm, thuật ngữ và trình bày nguyên lý vận hành của hệ điều khiển theo thời gian thực.",
+              "en": "Understand the the common concepts, terminologies and demonstrate operating principles t in the real-time or embedded control system. "
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Các dạng mô hình của hệ thời gian thực;\nCấu trúc phần cứng/cấu trúc phần mềm trong hệ thời gian thực;",
+        "en": "Models of real-time or embedded systems;\nHardware/Software structures in a real-time or embedded system"
+      }
+    },
+    {
+      "id": 4691,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 5740,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40320,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Nắm vững khái niệm, thuật ngữ và trình bày nguyên lý vận hành của hệ điều khiển theo thời gian thực.",
+              "en": "Understand the the common concepts, terminologies and demonstrate operating principles t in the real-time or embedded control system. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8269,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4652,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp 2",
+                  "en": "In-class activities 2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cấu trúc của hệ thời gian thực theo mô hình đáp ứng chức năng (phần 1/2)",
+        "en": "Functional model-based structures of real-time or embedded systems (part 1/2)"
+      }
+    },
+    {
+      "id": 4690,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 5739,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40320,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Nắm vững khái niệm, thuật ngữ và trình bày nguyên lý vận hành của hệ điều khiển theo thời gian thực.",
+              "en": "Understand the the common concepts, terminologies and demonstrate operating principles t in the real-time or embedded control system. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8268,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4653,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp 3",
+                  "en": "In-class activities 3"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cấu trúc của hệ thời gian thực theo mô hình đáp ứng chức năng (phần 2/2)",
+        "en": "Functional model-based structures of real-time or embedded systems (part 2/2)"
+      }
+    },
+    {
+      "id": 4702,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 5751,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40320,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Nắm vững khái niệm, thuật ngữ và trình bày nguyên lý vận hành của hệ điều khiển theo thời gian thực.",
+              "en": "Understand the the common concepts, terminologies and demonstrate operating principles t in the real-time or embedded control system. "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8276,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4654,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp 4",
+                  "en": "In-class activities 4"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cấu trúc của hệ thời gian thực theo mô hình hướng đối tượng",
+        "en": "Object-oriented model-based structures of real-time or embedded systems"
+      }
+    },
+    {
+      "id": 4699,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 5748,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đặt câu hỏi thảo luận cho bài tập nhóm",
+            "en": "Quescussion for group activity"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm; Triển khai bài tập nhóm về mô hình mô tả phù hợp cho hệ thời gian thực trong thực tế",
+            "en": "Concept mapping; Do group activity about model-based system for a real-time system in real world"
+          },
+          "chuandaura": {
+            "id": 40323,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Trình bày thuyết minh đồ án nhóm về phương án thiết kế hoặc phân tích hệ thống điều khiển theo thời gian thực.",
+              "en": "Present group project about the design or analysis of the  real time or embedded control system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8274,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4659,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "Bập tập lớn",
+                  "en": "Group activity at home"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mô hình mô tả một hệ thời gian thực trong thực tế: theo chức năng hay theo hướng đối tượng? ",
+        "en": "Model-based system for a real-time or embedded system in real world"
+      }
+    },
+    {
+      "id": 4700,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 5749,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40322,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Trình bày nguyên lý của các chuẩn và ngôn ngữ lập trình cho hệ thời gian thực",
+              "en": "Present and analyze the principles of real-time standard and real-time programming languages"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8275,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4655,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp 5",
+                  "en": "In-class activities 5"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Công cụ mô hình hóa hệ thời gian thực: LabVIEW",
+        "en": "Tools for modelling and performance analysis of real-time or embedded systems: LabVIEW"
+      }
+    },
+    {
+      "id": 4696,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 5745,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40322,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Trình bày nguyên lý của các chuẩn và ngôn ngữ lập trình cho hệ thời gian thực",
+              "en": "Present and analyze the principles of real-time standard and real-time programming languages"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8272,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4656,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp 6",
+                  "en": "In-class activities 6"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Công cụ mô hình hóa hệ thời gian thực: AADL",
+        "en": "Tools for modelling and performance analysis of real-time or embedded systems: AADL"
+      }
+    },
+    {
+      "id": 4697,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 5746,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm",
+            "en": "Real-time reactions; Concept mapping"
+          },
+          "chuandaura": {
+            "id": 40321,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Trình bày nguyên lý và phân tích đáp ứng ràng buộc thời gian của hệ thời gian thực sử dụng nhiều vi xử lý",
+              "en": "Discuss the principles and analyze the real-time scheduling of tasks in the multiprocessor systems with the centralized control"
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Đáp ứng ràng buộc thời gian của hệ thời gian thực trên một vi xử lý (phần 1/3)",
+        "en": "Monoprocessor real-time scheduling (part 1/3)"
+      }
+    },
+    {
+      "id": 4698,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 5747,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40321,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Trình bày nguyên lý và phân tích đáp ứng ràng buộc thời gian của hệ thời gian thực sử dụng nhiều vi xử lý",
+              "en": "Discuss the principles and analyze the real-time scheduling of tasks in the multiprocessor systems with the centralized control"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8273,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4657,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp 7",
+                  "en": "In-class activities 7"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đáp ứng ràng buộc thời gian của hệ thời gian thực trên một vi xử lý (phần 2/3)",
+        "en": "Monoprocessor real-time scheduling (part 2/3)"
+      }
+    },
+    {
+      "id": 4694,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 5743,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40321,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Trình bày nguyên lý và phân tích đáp ứng ràng buộc thời gian của hệ thời gian thực sử dụng nhiều vi xử lý",
+              "en": "Discuss the principles and analyze the real-time scheduling of tasks in the multiprocessor systems with the centralized control"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8270,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4658,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập trên lớp 8",
+                  "en": "In-class activities 8"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đáp ứng ràng buộc thời gian của hệ thời gian thực trên một vi xử lý (phần 3/3)",
+        "en": "Monoprocessor real-time scheduling (part 3/3)"
+      }
+    },
+    {
+      "id": 4692,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 5741,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm",
+            "en": "Real-time reactions; Concept mapping"
+          },
+          "chuandaura": {
+            "id": 40321,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Trình bày nguyên lý và phân tích đáp ứng ràng buộc thời gian của hệ thời gian thực sử dụng nhiều vi xử lý",
+              "en": "Discuss the principles and analyze the real-time scheduling of tasks in the multiprocessor systems with the centralized control"
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Đáp ứng ràng buộc cho hệ thời gian thực trên nhiều vi xử lý",
+        "en": "Multiprocessor real-time scheduling"
+      }
+    },
+    {
+      "id": 4693,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 5742,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm",
+            "en": "Real-time reactions; Concept mapping"
+          },
+          "chuandaura": {
+            "id": 40322,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Trình bày nguyên lý của các chuẩn và ngôn ngữ lập trình cho hệ thời gian thực",
+              "en": "Present and analyze the principles of real-time standard and real-time programming languages"
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Ngôn ngữ lập trình cho hệ thời gian thực",
+        "en": "Real-time programming languages"
+      }
+    },
+    {
+      "id": 4695,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 5744,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đặt câu hỏi thảo luận cho bài tập nhóm",
+            "en": "Quescussion for group activity"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm; Triển khai bài tập nhóm về áp dụng phân tích ràng buộc thời gian, và triển khai ngôn ngữ lập trình cho một hệ thời gian thực cụ thể",
+            "en": "Concept mapping; Do group activity about the real-time scheduling, and real-time programming languages for a real-time system in real world"
+          },
+          "chuandaura": {
+            "id": 40323,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Trình bày thuyết minh đồ án nhóm về phương án thiết kế hoặc phân tích hệ thống điều khiển theo thời gian thực.",
+              "en": "Present group project about the design or analysis of the  real time or embedded control system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8271,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4659,
+                "ma": "A.O.9",
+                "ten": {
+                  "vi": "Bập tập lớn",
+                  "en": "Group activity at home"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Áp dụng phân tích đáp ứng ràng buộc thời gian, và ngôn ngữ lập trình cho một hệ thời gian thực",
+        "en": "Case study of real-time scheduling and real-time programming language for a real-time system in real world"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 40320,
+      "ma": "L.O.1",
+      "ten_vi": "Nắm vững khái niệm, thuật ngữ và trình bày nguyên lý vận hành của hệ điều khiển theo thời gian thực.",
+      "ten_en": "Understand the the common concepts, terminologies and demonstrate operating principles t in the real-time or embedded control system. ",
+      "hddg": [
+        {
+          "id": 4651,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp 1",
+          "ten_en": "In-class activities 1"
+        },
+        {
+          "id": 4652,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập trên lớp 2",
+          "ten_en": "In-class activities 2"
+        },
+        {
+          "id": 4653,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp 3",
+          "ten_en": "In-class activities 3"
+        },
+        {
+          "id": 4654,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp 4",
+          "ten_en": "In-class activities 4"
+        }
+      ]
+    },
+    {
+      "id": 40321,
+      "ma": "L.O.2",
+      "ten_vi": "Trình bày nguyên lý và phân tích đáp ứng ràng buộc thời gian của hệ thời gian thực sử dụng nhiều vi xử lý",
+      "ten_en": "Discuss the principles and analyze the real-time scheduling of tasks in the multiprocessor systems with the centralized control",
+      "hddg": [
+        {
+          "id": 4657,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp 7",
+          "ten_en": "In-class activities 7"
+        },
+        {
+          "id": 4658,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập trên lớp 8",
+          "ten_en": "In-class activities 8"
+        }
+      ]
+    },
+    {
+      "id": 40322,
+      "ma": "L.O.3",
+      "ten_vi": "Trình bày nguyên lý của các chuẩn và ngôn ngữ lập trình cho hệ thời gian thực",
+      "ten_en": "Present and analyze the principles of real-time standard and real-time programming languages",
+      "hddg": [
+        {
+          "id": 4655,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp 5",
+          "ten_en": "In-class activities 5"
+        },
+        {
+          "id": 4656,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp 6",
+          "ten_en": "In-class activities 6"
+        }
+      ]
+    },
+    {
+      "id": 40323,
+      "ma": "L.O.4",
+      "ten_vi": "Trình bày thuyết minh đồ án nhóm về phương án thiết kế hoặc phân tích hệ thống điều khiển theo thời gian thực.",
+      "ten_en": "Present group project about the design or analysis of the  real time or embedded control system.",
+      "hddg": [
+        {
+          "id": 4659,
+          "ma": "A.O.9",
+          "ten_vi": "Bập tập lớn",
+          "ten_en": "Group activity at home"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Các Hệ thời gian thực",
+  "tenmonhoc_eng": "Real-Time or Embedded Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

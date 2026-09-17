@@ -1,0 +1,1417 @@
+{
+  "ma": "DCMH.CO3115.5.1",
+  "phienban": "5.1",
+  "capnhat": "28/05/2026 11:11",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3115",
+  "ten": "CO3115 - Phân tích và Thiết kế Hệ thống",
+  "ten_eng": "CO3115 - Systems Analysis and Design",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Sau khi kết thúc môn học, sinh viên cần phải:<br>- Nắm được các bước của chu kỳ phát triển hệ thống và các kỹ thuật trong mỗi bước.<br>- Sử dụng được một phần mềm công cụ để phân tích và thiết kế hệ thống.<br>- Ứng dụng vào một hệ thống trong thực tế.<br><br><br></p>",
+      "en": "<p>Course Goals:<br>At the end of this course the student should be able to:<br>-  Understand the steps of the System Development Life Cycle and the techniques for each step<br>-  Using a CASE tool in analysis and design a system.<br>-  Apply to a real system<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Mục tiêu của môn học là cung cấp cho sinh viên các hiểu biết về các phương pháp luận và kỹ thuật để phân tích, thiết kế và xây dựng một hệ thống thông tin. Môn học sẽ giới thiệu về phân tích và thiết kế hệ thống, chu kỳ phát triển hệ thống, nghiên cứu sơ bộ, mô hình hóa yêu cầu, dữ liệu và quá trình, mô hình hóa đối tượng, thiết kế nhập xuất và giao diện người sử dụng, thiết kế dữ liệu, kiến trúc ứng dụng, thực hiện, cài đặt, vận hành và hỗ trợ hệ thống.<br></p>",
+      "en": "<p>This course aims to provides the student with a thorough understanding of varying methodologies and techniques in analysis, design and implementation of information system.<br>In particular, its major topics are an introduction to systems analysis and design, system development life cycle, preliminary investigation, requirements modeling, data and process modeling, object modeling, user interface, input and output design, data design, application architecture, system implementation and installation, system operation and support.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>Sách, Giáo trình</b>:<br>[1]  Kenneth E. Kendall, Julie E. Kendall, Systems Analysis and Design, 11th ed., Pearson, 2023.<br>[2] David P. Tegarden, Binny Samuel, Roman Lukyanenko, Alan Dennis, Barbara H. Wixom, Systems Analysis and Design: An Object-Oriented Approach with UML, 7th ed., John Wiley &amp; Sons, 2025.<br></p><p><b>Tài liệu tham khảo</b>:<br>[3]  Scott Tilley, Harry J. Rosenblatt, Systems Analysis and Design (Shelly Cashman Series), 11th ed., Cengage Learning, 2016.<br>[4]  Các tài liệu tiếng Việt về phân tích và thiết kế hệ thống.<br></p>",
+      "en": "<p><b>Books</b>:<br>[1]  Kenneth E. Kendall, Julie E. Kendall, Systems Analysis and Design, 11th ed., Pearson, 2023.<br>[2] David P. Tegarden, Binny Samuel, Roman Lukyanenko, Alan Dennis, Barbara H. Wixom, Systems Analysis and Design: An Object-Oriented Approach with UML, 7th ed., John Wiley &amp; Sons, 2025.</p><p><b>References</b>:<br>[3]  Scott Tilley, Harry J. Rosenblatt, Systems Analysis and Design (Shelly Cashman Series), 11th ed., Cengage Learning, 2016.<br>[4]&nbsp;Vietnamese documents on system analysis and design.</p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tỉ lệ đánh giá các thành phần của môn học như sau:</p><p>- Thuyết trình nội dung bài học (20%): làm việc theo nhóm</p><p>\n\n- Tiểu luận/Bài tập lớn (30%): làm việc theo nhóm\n\n<br></p><p>\n\n- Thi cuối kỳ (50%):&nbsp; Trắc nghiệm và viết (70 phút)<br></p><p><b>Liêm chính học thuật và sử dụng công cụ AI</b>:<br>- Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.<br>- Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.<br>- Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.<br>- Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.<br></p>",
+      "en": "<p><b>Learning Strategies &amp; Assessment Scheme</b>:<br>\n\n</p><p>- Presentation for learning topics (20%): Group/Team work</p><p>\n\n- Mini Project (30%): \n\nGroup/Team work\n\n\n\n<br></p><p>\n\n- Final exam (50%): Multiple choice questions and writing (70 minutes)</p>\n\n<b>Academic Integrity and the Use of AI Tools</b>:<br>- Students must comply with the university’s academic integrity regulations.<br>- The use of AI tools (e.g., ChatGPT, Copilot, etc.) is only permitted for supportive purposes such as searching for materials, referencing ideas, checking grammar, or suggesting presentation methods. Students must not submit work that is entirely or largely generated by AI.<br>- If AI is used during the completion of an assignment, students must clearly state the tool and how it was used in the references or notes section.<br>- Any misuse of AI for cheating purposes will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 378,
+      "ma": "CN_KHM",
+      "ten": {
+        "vi": "CTDT Khoa KHOA HỌC & KỸ THUẬT MÁY TÍNH - Chuyên ngành Khoa học Máy tính"
+      }
+    },
+    {
+      "id": 1009,
+      "ma": "CN_CNP",
+      "ten": {
+        "vi": "Chuyên ngành: Công nghệ Phần mềm",
+        "en": "Speciality: Advanced Software Engineering"
+      }
+    },
+    {
+      "id": 1242,
+      "ma": "CN_CND",
+      "ten": {
+        "vi": "Chuyên ngành: Công nghệ Dữ liệu Bảo mật và Trí tuệ Kinh doanh",
+        "en": "Data, Security Engineering an Business Intelligence Data Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1193,
+      "ma": "001964",
+      "ten": "Trần Minh Quang"
+    },
+    {
+      "id": 1209,
+      "ma": "003379",
+      "ten": "Nguyễn Thanh Tùng"
+    },
+    {
+      "id": 1202,
+      "ma": "002919",
+      "ten": "VÕ THỊ NGỌC CHÂU"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.33,
+    "thiNghiem": 0,
+    "baiTapLon": 0.67,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 10,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 65,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 964,
+      "maBoMon": "CDL",
+      "tenBoMon": {
+        "vi": "Hệ Thống Thông Tin"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Tòa nhà A3",
+      "dienThoai": "+84 (8) 3864.7256 (ext: 7847)"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1193,
+        "maGiangVien": "001964",
+        "tenGiangVien": "Trần Minh Quang",
+        "emailGiangVien": "quangtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.33_0_0.67/1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88698,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Assessment activity root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Assessment activity root"
+      }
+    },
+    {
+      "id": 88699,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "88698",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Quiz"
+      },
+      "noidung": {
+        "vi": "làm các bài tập cuối mỗi buổi học",
+        "en": "Take a quiz at the end of each class"
+      }
+    },
+    {
+      "id": 88700,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88698",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm trên lớp",
+        "en": "Group quiz"
+      },
+      "noidung": {
+        "vi": "Bài tập nhóm trên lớp",
+        "en": "Group quiz"
+      }
+    },
+    {
+      "id": 88701,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "88698",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "trắc nghiệm và viết",
+        "en": "quizzes and essays"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109605,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 144602,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Liên hệ thực tiễn các loại hệ thống phần mềm",
+            "en": "- Lecturing\n- Real-life Case Studies"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân: xác định các chu kỳ phát triển phần mềm, vai trò và nhiệm vụ của người phân tích và thiết kế hệ thống trong từng bước của chu kỳ.\n- Bài tập nhóm trên lớp: nhóm thảo luận và xác định vai trò của người phân tích thiết kế hệ thống.\n- Câu hỏi trên lớp theo cá nhân xác định các phần mềm thực tế tại Việt Nam",
+            "en": "- In-class Individual Assignments: Identify software development life cycles (SDLC), as well as the roles and responsibilities of systems analysts and designers at each stage.\n- In-class Group Exercises: Discuss and define the specific roles of systems analysts and designers within a team context.\n- Individual questions in class: Identify and analyze real-world software applications currently in use in Vietnam."
+          },
+          "chuandaura": {
+            "id": 182535,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích vai trò, trách nhiệm của người phân tích hệ thống và đánh giá tính khả thi của dự án phần mềm",
+              "en": "Analyze the roles and responsibilities of the system analyst and evaluate the feasibility of software projects"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235645,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88700,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm trên lớp",
+                  "en": "Group quiz"
+                }
+              }
+            },
+            {
+              "id": 235644,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. \tGiới thiệu về phân tích và thiết kế hệ thống\n1.1\tGiới thiệu\n1.2\tĐịnh nghĩa hệ thống\n1.3\tCác thành phần của hệ thống thông tin (HTTT)\n1.4\tCác loại HTTT\n1.5\tChu kỳ phát triển hệ thống\n1.6\tVai trò của người phân tích hệ thống\nTham khảo: [1], [2], [3]",
+        "en": "Chapter 1. Introduction to system analysis and design\n1.1 Introduction\n1.2 System definition\n1.3 Components of an information system\n1.4 Types of information systems\n1.5 System development cycle\n1.6 Role of system analyst\nReferences: [1], [2], [3]"
+      }
+    },
+    {
+      "id": 109604,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 144606,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Cho bài tập thực tế",
+            "en": "- Lecturing\n- Real-life Case Studies"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Câu hỏi trên lớp theo nhóm:\n- Xác định một dự án là khả thi hay không?\n- Khởi tạo dự án thực tế.\n- Lập kế hoạch dự án.",
+            "en": "Group questions in class\n- Determine the feasibility of a project.\n- Initiate a real-world project.\n- Develop a project plan."
+          },
+          "chuandaura": {
+            "id": 182536,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Lập kế hoạch và điều phối tài nguyên dự án theo các phương pháp luận phát triển phần mềm hiện đại",
+              "en": "Plan and coordinate project resources according to modern software development methodologies"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235643,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88700,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm trên lớp",
+                  "en": "Group quiz"
+                }
+              }
+            },
+            {
+              "id": 235642,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. \tGiai đoạn 1 – Lập kế hoạch\n2.1\tGiới thiệu\n2.2\tKhởi tạo dự án\n2.3\tPhân tích khả thi\n2.4\tQuản trị dự án\nTham khảo: [1]",
+        "en": "Chapter 2. Stage 1 – Planning\n2.1 Introduction\n2.2 Initializing the project\n2.3 Feasibility analysis\n2.4 Project Management\nReferences: [1]"
+      }
+    },
+    {
+      "id": 109599,
+      "stt": 3,
+      "buoi": "3, 4",
+      "chuandaurachitiet": [
+        {
+          "id": 144605,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Phân tích các bước trong quá trình thu thập yêu cầu thực tế",
+            "en": "- Lecturing\n- Analyzing the steps in a real-world requirements collection process."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân: Sinh viên xác định cần làm gì cho một buổi phỏng vấn, JAD và làm bảng câu hỏi.",
+            "en": "Individual questions in class: Preparing for Interviews, JAD sessions, and Questionnaire design."
+          },
+          "chuandaura": {
+            "id": 182543,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Xác định và tổng hợp các yêu cầu hệ thống từ người dùng và các bên liên quan",
+              "en": "Determine and synthesize system requirements from users and stakeholders"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235635,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235636,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88700,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm trên lớp",
+                  "en": "Group quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. \tGiai đoạn 2 – Phân tích hệ thống. Mô hình hóa yêu cầu\n3.1\tGiới thiệu\n3.2\tTổng quan giai đoạn phân tích hệ thống\n3.3\tCác phương pháp phát triển hệ thống\n3.4\tCác phương pháp thu thập yêu cầu \n3.5\tDanh mục các yêu cầu hệ thống\n3.6\tLập tài liệu\nTham khảo: [1], [3]",
+        "en": "Chapter 3. Phase 2 – System Analysis. Requirement modeling\n3.1 Introduction\n3.2 System analysis phase overview\n3.3 Systems development methods\n3.4 Requirements collection methods\n3.5 List of system requirements\n3.6 Documentation\nReferences: [1], [3]"
+      }
+    },
+    {
+      "id": 109602,
+      "stt": 4,
+      "buoi": "5, 6",
+      "chuandaurachitiet": [
+        {
+          "id": 144604,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Trình bày case-study từ đặc tả hệ thống đến phần mềm cụ thể thông qua vibe-coding.",
+            "en": "- Lecturing\n- Case study presentation: From system specifications to functional software via vibe-coding"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo nhóm: Đặc tả hệ thống theo nhiều phương pháp được trình bày trên lớp",
+            "en": "- Group questions in class: System specification using various methodologies presented in class."
+          },
+          "chuandaura": {
+            "id": 182544,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Vận dụng các phương pháp chuyên dụng để thiết kế các mô hình luồng dữ liệu, chức năng và đối tượng",
+              "en": "Utilize specialized methods to design data flow, functional, and object-oriented models"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235640,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235641,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88700,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm trên lớp",
+                  "en": "Group quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. \tGiai đoạn 2 – Phân tích hệ thống. Mô hình hóa quá trình và dữ liệu\n4.1\tGiới thiệu\n4.2\tSơ đồ dòng dữ liệu\n4.3\tTừ điển dữ liệu\n4.4\tCác công cụ mô tả quá trình\n4.5\tMô hình luận lý và vật lý\nTham khảo: [1], [2], [3]",
+        "en": "Chapter 4. Stage 2 – System Analysis. Process and data modeling\n4.1 Introduction\n4.2 Data Flow Diagram\n4.3 Data dictionary\n4.4 Process description tools\n4.5 Logical and physical models\nReferences: [1], [2], [3]"
+      }
+    },
+    {
+      "id": 109600,
+      "stt": 5,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 144601,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Trình bày case-study đánh giá phần mềm / phần cứng cụ thể",
+            "en": "- Lecturing.\n- Delivering a comprehensive case study on software and hardware assessment."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân: Thực hiện bài tập đánh giá phần mềm / phần cứng.",
+            "en": "Individual questions in class: Software and hardware evaluation exercise"
+          },
+          "chuandaura": {
+            "id": 182545,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Phân tích các phương pháp đánh giá và lựa chọn giải pháp phần mềm",
+              "en": "Analyze methods for evaluating and selecting software solutions"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235637,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235638,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88700,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm trên lớp",
+                  "en": "Group quiz"
+                }
+              }
+            },
+            {
+              "id": 235639,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88701,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. \tGiai đoạn 2 – Phân tích hệ thống. Chuyển sang thiết kế\n5.1\tGiới thiệu\n5.2\tĐánh giá các giải pháp phần mềm\n5.3\tCác bước đánh giá và mua gói phần mềm\n5.4\tTổng quan về thiết kế\n5.5\tThiết kế và sử dụng mã\nTham khảo: [1], [3]",
+        "en": "Chapter 5. Phase 2 – System Analysis. Switch to design\n5.1 Introduction\n5.2 Evaluation of software solutions\n5.3 Steps to evaluate and purchase software packages\n5.4 Design overview\n5.5 Design and use of code\nReferences: [1], [3]"
+      }
+    },
+    {
+      "id": 109608,
+      "stt": 6,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 144603,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Hướng dẫn sinh viên thiết kế giao diện dựa trên các công cụ AI.",
+            "en": "- Lecturing\n- Instructing students on leveraging AI-driven platforms for User Interface design."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân: thiết kế một phiên bản giao diện phần mềm do giảng viên đưa ra",
+            "en": "- Individual questions in class: Develop a User Interface (UI) design for a system specification assigned by the lecturer"
+          },
+          "chuandaura": {
+            "id": 182547,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thiết kế kiến trúc tổng thể và mô hình cơ sở dữ liệu vật lý đảm bảo tính toàn vẹn, bảo mật và các yêu cầu phi chức năng",
+              "en": "Design the overall system architecture and physical database models to ensure data integrity, security, and non-functional requirements"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235648,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235649,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88701,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. \tGiai đoạn 3 – Thiết kế hệ thống. Thiết kế giao diện người dùng, nhập và xuất\n6.1\tGiới thiệu\n6.2\tThiết kế giao diện người dùng\n6.3\tThiết kế nhập\n6.4\tThiết kế xuất\nReferences: [1], [3]",
+        "en": "Chapter 6. Phase 3 – System Design. User interface design, import and export\n6.1 Introduction\n6.2 User Interface Design\n6.3 Input Design\n6.4 Output design\nReferences: [1], [3]"
+      }
+    },
+    {
+      "id": 109606,
+      "stt": 7,
+      "buoi": "9, 10",
+      "chuandaurachitiet": [
+        {
+          "id": 144608,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Phân tích một case-study về thiết kế cơ sở dữ liệu, chuẩn hóa và phi chuẩn hóa",
+            "en": "- Lecturing\n- Case study analysis of database design, normalization, and denormalization."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo cá nhân: Sinh viên tìm hiểu ưu / nhược điểm khi chuẩn hóa và phi chuẩn hóa cơ sở dữ liệu",
+            "en": "- Individual questions in class: Researching the pros and cons of database normalization and denormalization"
+          },
+          "chuandaura": {
+            "id": 182548,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thiết kế giao diện tương tác người dùng (UI/UX)",
+              "en": "Design user interfaces (UI/UX)"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235647,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235646,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88701,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. \tGiai đoạn 3 – Thiết kế hệ thống. Thiết kế dữ liệu\n7.1\tGiới thiệu\n7.2\tCác khái niệm và thuật ngữ thiết kế dữ liệu\n7.3\tChuẩn hóa\n7.4\tCác bước thiết kế dữ liệu\n7.5\tCác mô hình cơ sở dữ liệu\n7.6\tLưu trữ dữ liệu\nTham khảo: [1], [2], [3]",
+        "en": "Chapter 7. Phase 3 – System Design. Data Design\n7.1 Introduction\n7.2 Data design concepts and terms\n7.3 Normalization\n7.4 Data Design Steps\n7.5 Database Models\n7.6 Data storage\nReferences: [1], [2], [3]"
+      }
+    },
+    {
+      "id": 109609,
+      "stt": 8,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 144607,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Phân tích kiến trúc hệ thống thông tin cụ thể (như của TP.HCM)",
+            "en": "- Lecturing\n- Analyzing a specific Information System Architecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Câu hỏi trên lớp theo nhóm: Nhóm đề xuất thiết kế hệ thống do giảng viên đưa ra.",
+            "en": "- Group question in class: Proposing a system design based on instructor-provided requirements"
+          },
+          "chuandaura": {
+            "id": 182547,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thiết kế kiến trúc tổng thể và mô hình cơ sở dữ liệu vật lý đảm bảo tính toàn vẹn, bảo mật và các yêu cầu phi chức năng",
+              "en": "Design the overall system architecture and physical database models to ensure data integrity, security, and non-functional requirements"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235650,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235651,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88701,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. \tGiai đoạn 3 – Thiết kế hệ thống. Kiến trúc hệ thống\n8.1\tGiới thiệu\n8.2\tKiến trúc khách / chủ\n8.3\tKiến trúc 3 lớp\n8.4\tGiới thiệu một số kiến trúc: kiến trúc hướng dịch vụ, tính toán lưới, tính toán ngang hàng, …\n8.5   Phân tích và thiết kế hướng đối tượng\nTham khảo: [1], [2]",
+        "en": "Chapter 8. Stage 3 – System Design. system architecture\n8.1 Introduction\n8.2 Client/Server Architecture\n8.3 3-layer architecture\n8.4 Introduction to some architectures: service-oriented architecture, grid computing, peer-to-peer computing, ...\n8.5 Object-oriented analysis and design\nReferences: [1], [2]"
+      }
+    },
+    {
+      "id": 109603,
+      "stt": 10,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 144598,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Phân tích trường hợp thực tế kiểm thử phần mềm",
+            "en": "- Lecturing\n- Analysis of a real-world software testing case study."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên đề xuất cách thức kiểm thử phần mềm cụ thể",
+            "en": "- Students propose specific approaches to software testing"
+          },
+          "chuandaura": {
+            "id": 182539,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thiết lập chiến lược kiểm thử phần mềm, kế hoạch đào tạo người dùng và lộ trình chuyển đổi hệ thống",
+              "en": "Establish software testing strategies, user training plans, and system conversion roadmaps"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235654,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235633,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88701,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10. \tGiai đoạn 4 – Thực hiện hệ thống\n10.1\tGiới thiệu\n10.2\tBảo đảm chất lượng\n10.3\tTổng quan về phát triển ứng dụng\n10.4\tKiểm tra ứng dụng\n10.5\tLập tài liệu\nTham khảo: [1]",
+        "en": "Chapter 10. Stage 4 – System Implementation\n10.1 Introduction\n10.2 Quality Assurance\n10.3 Application Development Overview\n10.4 Application Testing\n10.5 Documenting\nReferences: [1]"
+      }
+    },
+    {
+      "id": 109607,
+      "stt": 11,
+      "buoi": "13, 14",
+      "chuandaurachitiet": [
+        {
+          "id": 144599,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Phân tích quy trình đào tạo sử dụng phần mềm\n- Phân tích các cách thức chuyển đổi hệ thống",
+            "en": "- Lecturing\n- Analyze the software training process\n- Analyze system changeover approaches"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập nhóm trên lớp: sinh viên đề xuất cách thức chuyển đổi phần mềm cụ thể",
+            "en": "- In-class group assignment: Students propose specific software conversion methods."
+          },
+          "chuandaura": {
+            "id": 182539,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thiết lập chiến lược kiểm thử phần mềm, kế hoạch đào tạo người dùng và lộ trình chuyển đổi hệ thống",
+              "en": "Establish software testing strategies, user training plans, and system conversion roadmaps"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235634,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88701,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 235652,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88700,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm trên lớp",
+                  "en": "Group quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 11. \tGiai đoạn 4 – Thực hiện hệ thống. Cài đặt và đánh giá\n11.1\tGiới thiệu\n11.2\tMôi trường kiểm tra và vận hành\n11.3\tĐào tạo\n11.4\tChuyển đổi dữ liệu\n11.5\tThay đổi hệ thống cũ sang hệ thống mới\nTham khảo: [1], [3]",
+        "en": "Chapter 11. Stage 4 – System Implementation. Install and rate\n11.1 Introduction\n11.2 Test and Operation Environment\n11.3 Training\n11.4 Data Transformation\n11.5 Change old system to new system\nReferences: [1], [3]"
+      }
+    },
+    {
+      "id": 109601,
+      "stt": 12,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 144600,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng lý thuyết\n- Phân tích một trường hợp thực tế về các hoạt động hỗ trợ người dùng, bảo trì hệ thống",
+            "en": "- Lecturing.\n- Analyze a practical case study regarding user support and system maintenance."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm bài tập nhóm: Nhóm tìm hiểu và đề xuất cách thức vận hành, quản lý hiệu suất hệ thống",
+            "en": "- Group Assignment: Research and propose system operation and performance management methods."
+          },
+          "chuandaura": {
+            "id": 182540,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Đề xuất quy trình vận hành và kế hoạch bảo trì hệ thống trên môi trường thực tế",
+              "en": "Propose operating procedures and system maintenance plans in a real-world environment"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235653,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88699,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz"
+                }
+              }
+            },
+            {
+              "id": 235655,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88701,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12. \tGiai đoạn 4. Vận hành và hỗ trợ hệ thống\n12.1\tGiới thiệu\n12.2\tCác hoạt động hỗ trợ người dùng\n12.3\tCác hoạt động bảo trì \n12.4\tQuản lý vận hành và hỗ trợ hệ thống\n12.5\tQuản lý hiệu suất hệ thống\n12.6\tHệ thống bị lỗi thời\nTham khảo: [1]",
+        "en": "Chapter 12. Stage 4. System Operation and Support\n12.1 Introduction\n12.2 User support activities\n12.3 Maintenance activities\n12.4 Operational management and system support\n12.5 System Performance Management\n12.6 The system is out of date\nReferences: [1]"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 182535,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phân tích vai trò, trách nhiệm của người phân tích hệ thống và đánh giá tính khả thi của dự án phần mềm",
+      "ten_en": "Analyze the roles and responsibilities of the system analyst and evaluate the feasibility of software projects",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88700,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm trên lớp",
+          "ten_en": "Group quiz"
+        }
+      ]
+    },
+    {
+      "id": 182536,
+      "ma": "L.O.1.2",
+      "ten_vi": "Lập kế hoạch và điều phối tài nguyên dự án theo các phương pháp luận phát triển phần mềm hiện đại",
+      "ten_en": "Plan and coordinate project resources according to modern software development methodologies",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88700,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm trên lớp",
+          "ten_en": "Group quiz"
+        }
+      ]
+    },
+    {
+      "id": 182543,
+      "ma": "L.O.2.1",
+      "ten_vi": "Xác định và tổng hợp các yêu cầu hệ thống từ người dùng và các bên liên quan",
+      "ten_en": "Determine and synthesize system requirements from users and stakeholders",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88700,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm trên lớp",
+          "ten_en": "Group quiz"
+        }
+      ]
+    },
+    {
+      "id": 182544,
+      "ma": "L.O.2.2",
+      "ten_vi": "Vận dụng các phương pháp chuyên dụng để thiết kế các mô hình luồng dữ liệu, chức năng và đối tượng",
+      "ten_en": "Utilize specialized methods to design data flow, functional, and object-oriented models",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88700,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm trên lớp",
+          "ten_en": "Group quiz"
+        }
+      ]
+    },
+    {
+      "id": 182545,
+      "ma": "L.O.2.3",
+      "ten_vi": "Phân tích các phương pháp đánh giá và lựa chọn giải pháp phần mềm",
+      "ten_en": "Analyze methods for evaluating and selecting software solutions",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88700,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm trên lớp",
+          "ten_en": "Group quiz"
+        },
+        {
+          "id": 88701,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182547,
+      "ma": "L.O.3.1",
+      "ten_vi": "Thiết kế kiến trúc tổng thể và mô hình cơ sở dữ liệu vật lý đảm bảo tính toàn vẹn, bảo mật và các yêu cầu phi chức năng",
+      "ten_en": "Design the overall system architecture and physical database models to ensure data integrity, security, and non-functional requirements",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88701,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182548,
+      "ma": "L.O.3.2",
+      "ten_vi": "Thiết kế giao diện tương tác người dùng (UI/UX)",
+      "ten_en": "Design user interfaces (UI/UX)",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88701,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182539,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thiết lập chiến lược kiểm thử phần mềm, kế hoạch đào tạo người dùng và lộ trình chuyển đổi hệ thống",
+      "ten_en": "Establish software testing strategies, user training plans, and system conversion roadmaps",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88700,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm trên lớp",
+          "ten_en": "Group quiz"
+        },
+        {
+          "id": 88701,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 182540,
+      "ma": "L.O.4.2",
+      "ten_vi": "Đề xuất quy trình vận hành và kế hoạch bảo trì hệ thống trên môi trường thực tế",
+      "ten_en": "Propose operating procedures and system maintenance plans in a real-world environment",
+      "hddg": [
+        {
+          "id": 88699,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 88701,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phân tích và Thiết kế Hệ thống",
+  "tenmonhoc_eng": "Systems Analysis and Design",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

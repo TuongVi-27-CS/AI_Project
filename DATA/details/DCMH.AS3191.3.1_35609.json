@@ -1,0 +1,4486 @@
+{
+  "ma": "DCMH.AS3191.3.1",
+  "phienban": "3.1",
+  "capnhat": "12/06/2025 08:14",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS3191",
+  "ten": "AS3191 - Cơ sở học máy",
+  "ten_eng": "AS3191 - Fundamentals of Machine Learning",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>- Hiểu biết các khái niệm và nguyên lý cơ bản của Học Máy.<br>- Vận dụng được các phương pháp học máy phổ biến vào các bài toán thực tế<br></p>",
+      "en": "<p>- Understand the basic concepts and principles of Machine Learning.<br>- Apply popular machine learning methods to real-world problems.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học cung cấp các khái niệm, nguyên lý và một số thuật toán cơ bản của học máy.<br></p>",
+      "en": "<p>The course introduces fundamental concepts, principles, and algorithms in machine learning.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] \"The Elements of Statistical Learning\" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.<br>[2] \"All of statistics. A concise course in statistical inference \" by Larry Wasserman.<br>[3] \"Probability and Statistical Inference\" by Robert Hogg, Elliot Tanis, and Dale Zimmerman.<br>[4] \"An Introduction to Statistical Learning\" by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.<br>[5] \"Bayesian Data Analysis\" by Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, and Donald B. Rubin.<br>[6] \"Data mining. The textbook\" by Charu C. Aggarwal.<br></p>",
+      "en": "<p>\n\n[1] \"The Elements of Statistical Learning\" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.<br>[2] \"All of statistics. A concise course in statistical inference \" by Larry Wasserman.<br>[3] \"Probability and Statistical Inference\" by Robert Hogg, Elliot Tanis, and Dale Zimmerman.<br>[4] \"An Introduction to Statistical Learning\" by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.<br>[5] \"Bayesian Data Analysis\" by Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, and Donald B. Rubin.<br>[6] \"Data mining. The textbook\" by Charu C. Aggarwal.\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Vì chương trình học cho một học kỳ khá dài, để đảm bảo cho kết quả học tập, sinh viên cần phải:<br>- Chuẩn bị đầy đủ bài giảng và giáo trình.<br>- Tham dự đầy đủ các buổi học trên lớp.<br>- Hoàn thành các bài tập e-learning theo thời hạn, cách thức thực hiện và mức đạt quy định<br>- Tổ chức các hoạt động học tập nhóm để hoàn thành bài tập lớn hoặc bài thuyết trình<br>- Thường xuyên ôn tập để tránh bị động lúc thi kiểm tra giữa kỳ và cuối kỳ.<br></p>",
+      "en": ""
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": -1,
+      "ma": "",
+      "ten": "Áp dụng cho toàn bộ môn AS3191 - Cơ sở học máy"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 1,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 45,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 10,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 40,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "tong": 100
+  },
+  "lienhe": null,
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "AS3179 - Mô hình thống kê",
+        "en": "AS3179 - Statistical Modeling"
+      },
+      "tenmonhoc_only": {
+        "vi": "Mô hình thống kê",
+        "en": "Statistical Modeling"
+      },
+      "mamonhoc": "AS3179"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 57809,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 57810,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "57809",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Exercises"
+      },
+      "noidung": {
+        "vi": "Hoàn thành các bài tập e-learning theo thời hạn, cách thức thực hiện và mức đạt quy định.",
+        "en": "Complete the elearning exercises within assigned time, implementation method and score."
+      }
+    },
+    {
+      "id": 58001,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "57809",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Xây dựng kế hoạch, làm việc nhóm hiệu quả, đáp ứng các mục tiêu được yêu cầu.",
+        "en": "Design an effective plan, work in groups, and meet the required goals."
+      }
+    },
+    {
+      "id": 58002,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "57809",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá cuối kỳ",
+        "en": "Final exams"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ bằng hình thức trắc nghiệm kết hợp tự luận",
+        "en": "Final exams form: Multiple choice and Essay problems"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 67405,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 85019,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130645,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130644,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85020,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130647,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            },
+            {
+              "id": 130646,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85016,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130639,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130638,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85015,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130636,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130637,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130635,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85022,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130651,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130652,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85021,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130649,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130648,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130650,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85017,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130641,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130640,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85018,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130642,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130643,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Các khái niệm cơ bản\n1.1 Định nghĩa về Học Máy\n1.2 Các kiểu học máy\n1.3 Các giai đoạn học máy\n1.4 Độ đo hiệu quả",
+        "en": "Chapter 1. Basic concepts\n1.1 Definition of Machine Learning\n1.2 Types of Machine learning\n1.3 Stages of Machine learning\n1.4 Efficiency metric"
+      }
+    },
+    {
+      "id": 67409,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 85046,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130703,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130704,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85048,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130708,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130707,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85047,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130705,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130706,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85049,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130709,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130710,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85050,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130711,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130712,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85045,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130702,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130701,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Đánh giá và lựa chọn mô hình\n2.1 Độ chệch, độ biến thiên, và sự phức tạp của mô hình.\n2.2 Vấn đề quá khớp và chưa khớp.\n2.3 Đánh giá chéo.",
+        "en": "Chapter 2: Model\nAssessment and Selection\n2.1 Bias, Variance and Model Complexity\n2.2 Overfitting and under fitting\n2.3 Cross-Validation"
+      }
+    },
+    {
+      "id": 67406,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 85025,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130657,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130658,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85027,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130662,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130661,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85028,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130663,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130664,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85023,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130653,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130654,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85026,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130659,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130660,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85024,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130655,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130656,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Hiệu chỉnh và ổn định\n3.1 Hiệu chỉnh mất mát tối thiểu.\n3.2 Các quy luật ổn định không quá khớp.\n3.3 Hiệu chỉnh Tikhonov\n3.4 Điều khiển tính khớp và tính ổn định.",
+        "en": "Chapter 3: Regularization and Stability\n3.1 Regularized Loss Minimization\n3.2 Stable Rules Do Not Overfit\n3.3 Tikhonov Regularization as a Stabilizer\n3.4 Controlling the Fitting-Stability Tradeoff"
+      }
+    },
+    {
+      "id": 67407,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 85035,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130679,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130680,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85033,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130674,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130676,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130675,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85029,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130665,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130666,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85034,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130677,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130678,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85030,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130668,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130667,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85032,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130671,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130672,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130673,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85031,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130670,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130669,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85036,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130681,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130682,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Thuật toán giảm độ dốc ngẫu nhiên\n4.1 Định nghĩa\n4.2 Các loại thuật toán\n4.3 Một số vấn đề liên quan.\n",
+        "en": "Chapter 4: Stochastic gradient descent.\n4.1 Definition\n4.2 Algorithm types\n4.3 Some problems"
+      }
+    },
+    {
+      "id": 67602,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 85067,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130749,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130750,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85072,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130760,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130759,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130758,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85070,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130755,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130754,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85068,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130752,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130751,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85069,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130766,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130753,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85073,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130763,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130761,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130762,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85074,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130764,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130765,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85071,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130756,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130757,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Vec-tơ hỗ trợ\n5.1 Phân loại vec-tơ hỗ trợ.\n5.2 Phân loại vec-tơ hỗ trợ mềm.\n",
+        "en": "Chapter 5: Support Vector Machines.\n5.1 The Support Vector Classifier\n5.2 The soft Support Vector Classifier"
+      }
+    },
+    {
+      "id": 67408,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 85043,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130697,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130698,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130696,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85038,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130685,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130686,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85039,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130688,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130687,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85040,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130690,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            },
+            {
+              "id": 130689,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85037,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130683,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130684,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85042,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130694,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130693,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130695,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85044,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130699,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130700,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85041,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130692,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130691,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Phân tích biệt thức linh hoạt.\n",
+        "en": "Chapter 6: Flexible Discriminants"
+      }
+    },
+    {
+      "id": 67601,
+      "stt": 7,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 85063,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130740,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130741,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85060,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130733,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130734,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130735,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85064,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130743,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130742,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85065,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130745,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130744,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85061,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130736,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130737,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85066,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130747,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130746,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130748,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85059,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130731,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130732,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85062,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130739,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130738,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Mạng nơ- ron.\n7.1 Học đại diện.\n7.2 Quá trình tiến và quá trình lùi.\n7.3 Huấn luyện mạng nơ- ron.\n7.4 Một số vấn đề trong huấn luyện mạng nơ-ron.",
+        "en": "Chapter 7: Neural Networks\n7.1 Representative learning.\n7.2 Feed-forward and Backpropagation\n7.3 Network Training\n7.4 Some Issues in Training Neural Networks"
+      }
+    },
+    {
+      "id": 67410,
+      "stt": 8,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 85052,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130716,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130717,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85051,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130714,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130713,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130715,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85054,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130721,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130720,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85056,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130725,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130724,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85053,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130718,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130719,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85058,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130728,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130729,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130730,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85055,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130722,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130723,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85057,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130727,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130726,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. Mạng nơ-ron tích chập.",
+        "en": "Chapter 8. Convolution neural network."
+      }
+    },
+    {
+      "id": 67402,
+      "stt": 9,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 85001,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130604,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130605,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85005,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130615,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            },
+            {
+              "id": 130613,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130614,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 84809,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130601,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130410,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 84810,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130603,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130602,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85004,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130611,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130612,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85003,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130610,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130609,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130608,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85002,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130606,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130607,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85006,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130616,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130617,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9: Thuật toán mã hóa tự động.",
+        "en": "Chapter 9: Autoencoder"
+      }
+    },
+    {
+      "id": 67403,
+      "stt": 10,
+      "buoi": "13",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Ôn tập cuối kỳ",
+        "en": "Final review"
+      }
+    },
+    {
+      "id": 67404,
+      "stt": 11,
+      "buoi": "14-15",
+      "chuandaurachitiet": [
+        {
+          "id": 85008,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82355,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130622,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130621,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85007,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82356,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130618,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130620,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130619,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85009,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82357,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130623,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130409,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85014,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan",
+            "en": "Present the lecture and discuss the relevant issues."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.",
+            "en": "Participate in group discussions and activities."
+          },
+          "chuandaura": {
+            "id": 82358,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130633,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130634,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85012,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82360,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+              "en": "Understand the basic concepts, principles, and algorithm of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130630,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130629,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85010,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82361,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130625,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130624,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 57810,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercises"
+                }
+              }
+            },
+            {
+              "id": 130626,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85011,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82362,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130627,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130628,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85013,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày bài giảng\n- Nêu thảo luận các vấn đề liên quan\n",
+            "en": "Present the lecture and discuss the relevant issues.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tham gia thảo luận, hoạt động nhóm.\n",
+            "en": "Participate in group discussions and activities.\n"
+          },
+          "chuandaura": {
+            "id": 82363,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức học máy.",
+              "en": "Be able to self study and enhance new knowledge of machine learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 130631,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 58001,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 130632,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 58002,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Đánh giá cuối kỳ",
+                  "en": "Final exams"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Case study & Project"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 82355,
+      "ma": "L.O.1",
+      "ten_vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+      "ten_en": "Understand the basic concepts, principles, and algorithm of machine learning.",
+      "hddg": [
+        {
+          "id": 57810,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 82360,
+      "ma": "L.O.1",
+      "ten_vi": "Hiểu các khái niệm, nguyên lý, và giải thuật của các phương pháp học máy.",
+      "ten_en": "Understand the basic concepts, principles, and algorithm of machine learning.",
+      "hddg": [
+        {
+          "id": 57810,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 82356,
+      "ma": "L.O.2",
+      "ten_vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+      "ten_en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems.",
+      "hddg": [
+        {
+          "id": 57810,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 58001,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 82361,
+      "ma": "L.O.2",
+      "ten_vi": "Có khả năng phân tích, lựa chọn và áp dụng các giải thuật học máy phù hợp cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+      "ten_en": "Be able to analyze, select, and apply suitable machine learning algorithms as well as programming skills to solve practical problems.",
+      "hddg": [
+        {
+          "id": 57810,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercises"
+        },
+        {
+          "id": 58001,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 82357,
+      "ma": "L.O.3",
+      "ten_vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+      "ten_en": "Be able to perform teamwork skills, management skills, and presentation skills.",
+      "hddg": [
+        {
+          "id": 58001,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 82362,
+      "ma": "L.O.3",
+      "ten_vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+      "ten_en": "Be able to perform teamwork skills, management skills, and presentation skills.",
+      "hddg": [
+        {
+          "id": 58001,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 82358,
+      "ma": "L.O.4",
+      "ten_vi": "Có khả năng tự cập nhật kiến thức học máy.",
+      "ten_en": "Be able to self study and enhance new knowledge of machine learning.",
+      "hddg": [
+        {
+          "id": 58001,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    },
+    {
+      "id": 82363,
+      "ma": "L.O.4",
+      "ten_vi": "Có khả năng tự cập nhật kiến thức học máy.",
+      "ten_en": "Be able to self study and enhance new knowledge of machine learning.",
+      "hddg": [
+        {
+          "id": 58001,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        },
+        {
+          "id": 58002,
+          "ma": "A.O.4",
+          "ten_vi": "Đánh giá cuối kỳ",
+          "ten_en": "Final exams"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Cơ sở học máy",
+  "tenmonhoc_eng": "Fundamentals of Machine Learning",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": null
+}

@@ -1,0 +1,1270 @@
+{
+  "ma": "DCMH.EE5221.2.1",
+  "phienban": "2.1",
+  "capnhat": "14/08/2026 15:18",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5221",
+  "ten": "EE5221 - Kỹ thuật tổng hợp mạch ",
+  "ten_eng": "EE5221 - Logic Synthesis",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n</p><p></p>\n\nHọc phần nhằm trang bị cho học viên kiến thức và kỹ năng nâng cao trong tổng hợp logic và tối ưu hóa mạch số trong các hệ thống VLSI hiện đại. Sau khi hoàn thành học phần, học viên có khả năng phân tích và tối thiểu hóa hàm Boolean bằng các biểu diễn và cấu trúc dữ liệu hiện đại, thiết kế và tối ưu các mạch logic đa tầng và thực hiện technology mapping dựa trên thư viện standard cell. Học viên cũng có khả năng áp dụng các phương pháp SAT và formal equivalence checking trong quy trình tổng hợp mạch, phân tích hazard và fault model, cũng như sử dụng các công cụ CAD hiện đại để đánh giá và tối ưu thiết kế mạch số.\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p><em></em></p>\n\nThe course aims to provide students with advanced knowledge and skills in logic synthesis and optimization for modern VLSI systems. Upon completion of the course, students will be able to analyze and minimize Boolean functions using modern representations and data structures, design and optimize multi-level logic circuits, and perform technology mapping based on standard-cell libraries. Students will also be able to apply SAT-based methods and formal equivalence checking in synthesis flows, analyze hazards and fault models, and use modern CAD tools to evaluate and optimize digital circuit designs.\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n</p><p></p>\n\nHọc phần <em>Kỹ thuật tổng hợp mạch</em> cung cấp kiến thức chuyên sâu về các phương pháp và thuật toán tổng hợp logic cho thiết kế vi mạch số hiện đại. Nội dung học phần bao gồm các biểu diễn hàm Boolean, các thuật toán tối ưu hóa logic đa tầng, technology mapping, cũng như các phương pháp tổng hợp dựa trên SAT và kiểm chứng tương đương hình thức. Học phần cũng giới thiệu các vấn đề hazard, fault model và testability trong quy trình thiết kế. Thông qua các bài tập phân tích, thảo luận các công trình nghiên cứu và thực hành với công cụ CAD như ABC, học viên phát triển khả năng phân tích và tối ưu hóa mạch số trong quy trình thiết kế VLSI hiện đại.\n\n\n\n<br><p></p>",
+      "en": "<p>\n\n<em>\n\nThe course <em>Logic Synthesis Techniques</em> provides in-depth knowledge of algorithms and methodologies for logic synthesis in modern digital integrated circuit design. The course covers Boolean function representations, multi-level logic optimization techniques, technology mapping, and SAT-based synthesis methods with formal equivalence checking. Issues related to hazards, fault models, and testability in synthesis flows are also introduced. Through analytical exercises, research discussions, and hands-on experiments with CAD tools such as ABC, students develop the ability to analyze and optimize digital circuits within modern VLSI design flows.\n\n</em>\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n</p><p></p>Textbook<br><br>[1] De Micheli, G.,&nbsp;Logic Synthesis and Verification Algorithms,&nbsp;Springer, 2018.<br><br>References<br><br>[2] De Micheli, G., Drechsler, R.,&nbsp;Advanced Logic Synthesis, Springer, 2019.<br><br>[3] Cheng, K.-T., Hwang, T.-A.,&nbsp;Design Automation for VLSI Systems, Cambridge University Press, 2016.<br><br>[4] Hachtel, G., Somenzi, F.,&nbsp;Logic Synthesis and Verification Algorithms, Springer, 2005.<br><br>[5] Mishchenko, A.,&nbsp;ABC: A System for Logic Synthesis and Verification, UC Berkeley materials, 2018–2023.<br><p></p>",
+      "en": "<p>\n\n</p><p></p>\n\nTextbook<br><br>[1] De Micheli, G., Logic Synthesis and Verification Algorithms, Springer, 2018.<br><br>References<br><br>[2] De Micheli, G., Drechsler, R., Advanced Logic Synthesis, Springer, 2019.<br><br>[3] Cheng, K.-T., Hwang, T.-A., Design Automation for VLSI Systems, Cambridge University Press, 2016.<br><br>[4] Hachtel, G., Somenzi, F., Logic Synthesis and Verification Algorithms, Springer, 2005.<br><br>[5] Mishchenko, A., ABC: A System for Logic Synthesis and Verification, UC Berkeley materials, 2018–2023.\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n</p><p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học</p><ul><li>Bài tập lớn: 40%</li><li>Bài tập: 10%</li><li>Thi: 50% Điều kiện dự thi: hoàn thành bài tập lớn.</li></ul>\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p><em>Course materials are posted on BKEL weekly. Students download, print and bring to class. The final grade of the course is assessed throughout the learning process</em></p><ul><li><em>Project: 40%</em></li><li><em>Exercises: 10%</em></li><li><em>Exam: 50%</em>&nbsp;<em>Eligibility: complete a project.</em></li></ul>\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 9933,
+      "ma": "NG_TKV_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Thiết Kế Vi Mạch",
+        "en": "Master Training Program in Integrated Circuit Design"
+      }
+    },
+    {
+      "id": 9009,
+      "ma": "NG_KVT_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Kỹ Thuật Viễn Thông ",
+        "en": "Master Training Program in Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    },
+    {
+      "id": 9930,
+      "ma": "NG_KDT_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Kỹ Thuật Điện Tử",
+        "en": "Master Training Program in Electronic Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 514,
+      "ma": "003176",
+      "ten": "TRẦN HOÀNG LINH"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 70,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Khoa Điện - Điện tử",
+      "dienThoai": "0945303030"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 514,
+        "maGiangVien": "003176",
+        "tenGiangVien": "TRẦN HOÀNG LINH",
+        "emailGiangVien": "linhtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 96055,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 96056,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "96055",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà ",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 96057,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "96055",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      }
+    },
+    {
+      "id": 96058,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "96055",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Thi",
+        "en": "Final Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 120111,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 160402,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên trình bày các biểu diễn SOP, BDD và AIG",
+            "en": "Lecture on SOP, BDD, and AIG representations with discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên phân tích ví dụ tối ưu logic.",
+            "en": "Lecture on SOP, BDD, and AIG representations with discussion."
+          },
+          "chuandaura": {
+            "id": 265448,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "So sánh SOP, BDD, AIG và Reed–Muller forms về độ phức tạp và khả năng mở rộng.",
+              "en": "Compare SOP, BDD, AIG, and Reed–Muller forms in terms of complexity and scalability."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265435,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265443,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96058,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Biểu diễn hàm Boolean và tối thiểu hóa logic\n",
+        "en": "Boolean representations and logic minimization"
+      }
+    },
+    {
+      "id": 120107,
+      "stt": 2,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 160403,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Phân tích thuật toán và cho bài tập tối ưu logic.",
+            "en": "Analysis of optimization algorithms with exercises."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập tối ưu logic.",
+            "en": "Analysis of optimization algorithms with exercises."
+          },
+          "chuandaura": {
+            "id": 265449,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Đánh giá thuật toán tối ưu hóa chính xác và heuristic trong tổng hợp logic.",
+              "en": "Evaluate exact and heuristic optimization algorithms in logic synthesis."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265441,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265439,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96058,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thuật toán tối ưu hóa logic heuristic và exact\n",
+        "en": "Exact and heuristic logic optimization algorithms"
+      }
+    },
+    {
+      "id": 120108,
+      "stt": 3,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 160404,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng viên phân tích factoring và decomposition",
+            "en": "Lecture and design exercises on multi-level synthesis."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên thực hành thiết kế",
+            "en": "Exercises on multi-level synthesis."
+          },
+          "chuandaura": {
+            "id": 265450,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân tích decomposition, factoring và resubstitution trong multi-level synthesis.",
+              "en": "Analyze decomposition, factoring, and resubstitution in multi-level synthesis."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265429,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265430,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96058,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng hợp logic đa tầng và decomposition\n",
+        "en": "Multi-level logic synthesis and decomposition"
+      }
+    },
+    {
+      "id": 120110,
+      "stt": 4,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 160405,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Phân tích mapping dựa trên standard-cell library.",
+            "en": "Discussion of technology mapping strategies."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích mapping dựa trên standard-cell library.",
+            "en": "Discussion of technology mapping strategies."
+          },
+          "chuandaura": {
+            "id": 265451,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Đánh giá chiến lược mapping dựa trên area, delay, power và logic depth.",
+              "en": "Evaluate mapping strategies based on area, delay, power, and logic depth."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265444,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265436,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96057,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Technology mapping và tối ưu PPA\n",
+        "en": "Technology mapping and PPA optimization"
+      }
+    },
+    {
+      "id": 120109,
+      "stt": 5,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 160408,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Bài giảng và ví dụ sử dụng SAT solver.",
+            "en": "Lecture and case studies using SAT solvers."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sử dụng SAT solver",
+            "en": "Case studies using SAT solvers."
+          },
+          "chuandaura": {
+            "id": 265452,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Xây dựng mệnh đề CNF và sử dụng SAT solver cho logic optimization.",
+              "en": "Construct CNF formulations and use SAT solvers for logic optimization."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265431,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265432,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96058,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "SAT-based synthesis và CNF formulation\n",
+        "en": "SAT-based synthesis and CNF formulation"
+      }
+    },
+    {
+      "id": 120104,
+      "stt": 6,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 160409,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Phân tích RTL vs gate-level equivalence.",
+            "en": "Case study on RTL–gate equivalence checking."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích RTL vs gate-level equivalence.",
+            "en": "Case study on RTL–gate equivalence checking."
+          },
+          "chuandaura": {
+            "id": 265453,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thực hiện formal equivalence checking giữa RTL và gate-level netlist.",
+              "en": "Perform formal equivalence checking between RTL and gate-level netlists"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265437,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265445,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96057,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Formal equivalence checking\n",
+        "en": "Formal equivalence checking"
+      }
+    },
+    {
+      "id": 120103,
+      "stt": 7,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 160406,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Phân tích static và dynamic hazards.",
+            "en": "Lecture and discussion on hazards."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích static và dynamic hazards.",
+            "en": "Discussion on hazards."
+          },
+          "chuandaura": {
+            "id": 265454,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phát hiện và loại bỏ static, dynamic và essential hazards.",
+              "en": "Detect and eliminate static, dynamic, and essential hazards."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265440,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265442,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96058,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hazard và fault model trong tổng hợp logic\n",
+        "en": "Hazard and fault models in logic synthesis"
+      }
+    },
+    {
+      "id": 120105,
+      "stt": 8,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 160407,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Phân tích test vectors và fault coverage.",
+            "en": "Test generation and coverage analysis."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên phân tích test vectors và fault coverage.",
+            "en": "Exercises on test generation and coverage analysis."
+          },
+          "chuandaura": {
+            "id": 265455,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Sinh test vector cho lỗi stuck-at và phân tích fault coverage.",
+              "en": "Generate test vectors for stuck-at faults and analyze fault coverage."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265433,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265434,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96058,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Test generation và fault coverage\n",
+        "en": "Test generation and fault coverage"
+      }
+    },
+    {
+      "id": 120106,
+      "stt": 9,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 160410,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thảo luận kỹ thuật.",
+            "en": "Technical discussion."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Sinh viên trình bày kết quả tối ưu hóa và thảo luận kỹ thuật.",
+            "en": "Student presentations and technical discussion."
+          },
+          "chuandaura": {
+            "id": 265457,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Phân tích báo cáo synthesis và bảo vệ chiến lược tối ưu hóa dựa trên dữ liệu định lượng.",
+              "en": "Analyze synthesis reports and defend optimization strategies based on quantitative data."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 265438,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 96056,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà ",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 265446,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 96057,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ứng dụng công cụ ABC và trình bày dự án",
+        "en": "Using ABC tool for synthesis and project presentation"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 265448,
+      "ma": "L.O.1.1",
+      "ten_vi": "So sánh SOP, BDD, AIG và Reed–Muller forms về độ phức tạp và khả năng mở rộng.",
+      "ten_en": "Compare SOP, BDD, AIG, and Reed–Muller forms in terms of complexity and scalability.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96058,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 265449,
+      "ma": "L.O.1.2",
+      "ten_vi": "Đánh giá thuật toán tối ưu hóa chính xác và heuristic trong tổng hợp logic.",
+      "ten_en": "Evaluate exact and heuristic optimization algorithms in logic synthesis.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96058,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 265450,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phân tích decomposition, factoring và resubstitution trong multi-level synthesis.",
+      "ten_en": "Analyze decomposition, factoring, and resubstitution in multi-level synthesis.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96058,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 265451,
+      "ma": "L.O.2.2",
+      "ten_vi": "Đánh giá chiến lược mapping dựa trên area, delay, power và logic depth.",
+      "ten_en": "Evaluate mapping strategies based on area, delay, power, and logic depth.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96057,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 265452,
+      "ma": "L.O.3.1",
+      "ten_vi": "Xây dựng mệnh đề CNF và sử dụng SAT solver cho logic optimization.",
+      "ten_en": "Construct CNF formulations and use SAT solvers for logic optimization.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96058,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 265453,
+      "ma": "L.O.3.2",
+      "ten_vi": "Thực hiện formal equivalence checking giữa RTL và gate-level netlist.",
+      "ten_en": "Perform formal equivalence checking between RTL and gate-level netlists",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96057,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 265454,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phát hiện và loại bỏ static, dynamic và essential hazards.",
+      "ten_en": "Detect and eliminate static, dynamic, and essential hazards.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96058,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 265455,
+      "ma": "L.O.4.2",
+      "ten_vi": "Sinh test vector cho lỗi stuck-at và phân tích fault coverage.",
+      "ten_en": "Generate test vectors for stuck-at faults and analyze fault coverage.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96058,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Final Exam"
+        }
+      ]
+    },
+    {
+      "id": 265457,
+      "ma": "L.O.5.2",
+      "ten_vi": "Phân tích báo cáo synthesis và bảo vệ chiến lược tối ưu hóa dựa trên dữ liệu định lượng.",
+      "ten_en": "Analyze synthesis reports and defend optimization strategies based on quantitative data.",
+      "hddg": [
+        {
+          "id": 96056,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà ",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 96057,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Kỹ thuật tổng hợp mạch ",
+  "tenmonhoc_eng": "Logic Synthesis",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

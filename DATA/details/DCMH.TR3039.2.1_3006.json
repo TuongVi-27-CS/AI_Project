@@ -1,0 +1,1384 @@
+{
+  "ma": "DCMH.TR3039.2.1",
+  "phienban": "2.1",
+  "capnhat": "22/10/2024 14:09",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Giao Thông",
+    "en": "Faculty of Transportation Engineering"
+  },
+  "mamonhoc": "TR3039",
+  "ten": "TR3039 - Ổn định và Điều khiển bay",
+  "ten_eng": "TR3039 - Aircraft Stability and Control",
+  "hockyapdung": "HK231",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn \"Ổn định và điều khiển bay\" hướng người học đáp ứng 03 chuẩn đầu ra của chương trình đào tạo cử nhân ngành kỹ thuật hàng không. Đó là chuẩn đầu ra 1 (cấp độ trung bình), chuẩn đầu ra 2 (cấp độ trung bình), và chuẩn đầu ra 6 (cấp độ trung bình). Người học có thể vận dụng kiến thức của môn học để giải thích, xác định đặc tính ổn định và điều khiển, cũng như xây dựng mô hình điều khiển đặc tính điều khiển bay&nbsp;của một máy bay dạng cánh cố định.</p>",
+      "en": "<p>This course aims students to satisfy the 03 learning outcomes (LO.) in the bachelor aerospace engineering program.&nbsp;They are the LO.1 (medium level); the LO.2 (medium level); and the LO.6 (medium level).&nbsp;Students could apply knowledge of this course to explain, to determine the stability and control characteristics of a fixed-wing aircraft;<br>and also build a model for its stability and control.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nMôn học cung cấp cho sinh viên các kiến thức về ổn định bay và điều khiển bay, làm cơ sở để phát triển phần thiết kế/kiểm tra đặc tính ổn định và điều khiển của máy bay, cũng như phần lập trình bay tự động. Môn học trang bị cho sinh viên các kiến thức cơ bản về đặc tính khí động của các bề mặt điều khiển, ổn định tĩnh, ổn định động, phương pháp tuyến tính hóa các ảnh hưởng của đạo hàm khí động đặc trưng cho ổn định và điều khiển bay…; các nguyên lý về điều khiển bay thông qua các bề mặt điều khiển; các nhân tố ảnh hưởng đến ổn định bay; và cuối cùng là giới thiệu về cơ sở lý thuyết của chế độ lái tự động.\n\n<br></p>",
+      "en": "<p>This course provides the basic concepts of the aircraft stability and control in order to develop and/or to verify the aircraft’s stability-control characteristics, and also the automatic control/auto-pilot mode. They are the basic concepts of the aerodynamics control surfaces, the aircraft static/dynamic stability, how to linearize the influence of aerodynamics derivatives of airplane's parts to stability derivatives...; some principles of the airplane control system; the flying qualities; and finally an introduction to the aircraft's automatic control theory.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>1. Stephen Corda, Introduction to aerospace engineering with a flight test perspective, 1st edition, Wiley, 2017.</p><p>2. Robert F. Stengel, Flight dynamics, Princeton University Press, 2022.</p><p>3. Bài giảng môn học, Ngô Khánh Hiếu.</p>",
+      "en": "<p>\n\n</p><p></p>\n\n<p>1. Stephen Corda, Introduction to aerospace engineering with a flight test perspective, 1st edition, Wiley, 2017.</p><p>2. Robert F. Stengel, Flight dynamics, Princeton University Press, 2022.</p><p>3. Lecture notes, Ngo Khanh Hieu.</p>\n\n<p></p><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BK-Elearning hàng tuần. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học.<br></p><p>-&nbsp;Bài tập: 20%</p><p>-&nbsp;Kiểm tra: 20%</p><p>-&nbsp;Bài tập lớn/Tiểu luận: 10%</p><p>- Thi: 50%</p><p>\n\nSinh viên phải hoàn thành tất cả bài tập trên lớp. Báo cáo bài tập lớn về nhà phải được thực hiện theo hướng dẫn của giảng viên, và được nộp đúng hạn trên hệ thống BK E-learning.\n\n<br></p><p>Sinh viên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm danh chuyên cần).</p>",
+      "en": "<p>All learning resources related to this course will be uploaded in BK E-learning. Student should prepare material at home in order to participate in active learning activities such as Question &amp; Answers, problem based discussion in group, etc.<br></p><p>Final grade of this course will be as follows:<br></p><p>-&nbsp;In-class activities: 20%</p><p>-&nbsp;Mid-term examination: 20%</p><p>- Group activities at home: 10%</p><p>-&nbsp;Final examination: 50%</p><p>Students must complete all in-class activities of this course. The report of group activities at home should be repaired according to instructions of instructor, it must be submitted via BK E-learning on-time.\n\n<br></p><p>Course requirements for the final examination: students are required to be in class at least 70% of the number of instruction lessons.</p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0
+  },
+  "nganh": [
+    {
+      "id": 1145,
+      "ma": "CN_HKG",
+      "ten": {
+        "vi": "CTDT  Khoa Kỹ thuật Giao thông - Ngành Kỹ thuật Hàng không",
+        "en": "Bachelor Program - Aerospace Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 654,
+      "ma": "002263",
+      "ten": "Ngô Khánh Hiếu"
+    },
+    {
+      "id": 658,
+      "ma": "003387",
+      "ten": "VŨ NGỌC ÁNH"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 0.2,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 9,
+    "tuHoc": 72,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "tong": 100,
+    "kiemTra": 20,
+    "thi": 50,
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 10,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 958,
+      "maBoMon": "HGK",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Hàng Không"
+      },
+      "maKhoa": "GT",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Giao Thông",
+        "en": "Faculty of Transportation Engineering"
+      },
+      "vanPhong": "Văn phòng Bộ môn Kỹ thuật Hàng không, lầu 1, P.107 nhà C5, Trường Đại học Bách khoa",
+      "dienThoai": "028 38647256 (local: 5654)"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 654,
+        "maGiangVien": "002263",
+        "tenGiangVien": "Ngô Khánh Hiếu",
+        "emailGiangVien": "ngokhanhhieu@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3a",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "TR3001 - Cơ học bay",
+        "en": "TR3001 - Flight Mechanics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ học bay",
+        "en": "Flight Mechanics"
+      },
+      "mamonhoc": "TR3001"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 4633,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 4634,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 1",
+        "en": "In-class activities 1"
+      },
+      "noidung": {
+        "vi": "Vai trò của các bộ phận cấu thành máy bay đối với ổn định và điểu khiển của máy bay",
+        "en": "Contribution of aircraft components to the flight stability and control "
+      }
+    },
+    {
+      "id": 4635,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 2",
+        "en": "In-class activities 2"
+      },
+      "noidung": {
+        "vi": "Đánh giá ảnh hưởng của vị trí trọng tâm máy bay đến đặc tính ổn định tĩnh dọc",
+        "en": "Effect on the longitudinal static stability of the CG of a fixed-wing aircraft "
+      }
+    },
+    {
+      "id": 4636,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 3",
+        "en": "In-class activities 3"
+      },
+      "noidung": {
+        "vi": "Phân tích đặc tính ổn định tĩnh của một máy bay dạng cánh cố định",
+        "en": "Analysis of the static stability of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4637,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 4",
+        "en": "In-class activities 4"
+      },
+      "noidung": {
+        "vi": "Xác định hệ số đạo hàm đặc trưng chuyển động của máy bay trên cơ sở giả thuyết nhiễu động nhỏ",
+        "en": "Estimation of the aircraft motion derivatives based on the small-disturbance theory"
+      }
+    },
+    {
+      "id": 4638,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 5",
+        "en": "In-class activities 5"
+      },
+      "noidung": {
+        "vi": "Phân tích đặc trưng ổn định và điểu khiển dọc của một máy bay dạng cánh cố định",
+        "en": "Analysis of the longitudinal stability and control of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4639,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 6",
+        "en": "In-class activities 6"
+      },
+      "noidung": {
+        "vi": "Phân tích đặc trưng ổn định và điều khiển hướng/lăn của một máy bay dạng cánh cố định",
+        "en": "Analysis of the lateral/directional stability and control of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4640,
+      "stt": 0,
+      "ma": "A.O.7",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp 7",
+        "en": "In-class activities 7"
+      },
+      "noidung": {
+        "vi": "Xác định hàm dạng đặc trưng điều khiển của một máy bay dạng cánh cố định ",
+        "en": "Estimation of the aircraft transfer functions of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4641,
+      "stt": 0,
+      "ma": "A.O.8",
+      "capdo": "1",
+      "parentid": "4633",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Group activity"
+      },
+      "noidung": {
+        "vi": "Phân tích ngược đặc tính ổn định và điều khiển của một mẫu máy bay thương mại dạng cánh cố định",
+        "en": "Reverse engineering of a commercial fixed-wing aircraft: the flight stability and control characteristics"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 4671,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 5704,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Đặt câu hỏi; Thảo luận mở các vấn đề đưa ra trong bài giảng",
+            "en": "Real-time reactions; Quescussion; Concept mapping"
+          },
+          "chuandaura": {
+            "id": 40274,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học để giải thích vấn đề liên quan đến ổn định tĩnh của một máy bay.",
+              "en": "Apply  knowledge to explain problems related to the static stability of an aircraft."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về môn học; \nÔn lại các kiến thức về bầu khí quyền, về khí động lực học cơ bản; \nCác thiết bị đo trên máy bay",
+        "en": "Introduction to the course;\nReview on characteristics of the atmosphere, the aerodynamic nomenclature;\nAircraft intruments"
+      }
+    },
+    {
+      "id": 4666,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 5700,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận mở",
+            "en": "Real-time reactions; Concept mapping"
+          },
+          "chuandaura": {
+            "id": 40274,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học để giải thích vấn đề liên quan đến ổn định tĩnh của một máy bay.",
+              "en": "Apply  knowledge to explain problems related to the static stability of an aircraft."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8200,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4634,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp 1",
+                  "en": "In-class activities 1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Các thuật ngữ về ổn định, điều khiển của một máy bay dạng cánh cố định;\nVai trò của các bộ phận cấu thành máy bay đối với ổn định và điều khiển",
+        "en": "Nomenclature used in describing a fixed-wing aircraft stability and control;\nContribution of a fixed-wing aircraft components to the flight stability and control"
+      }
+    },
+    {
+      "id": 4672,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 5705,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận mở; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40274,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học để giải thích vấn đề liên quan đến ổn định tĩnh của một máy bay.",
+              "en": "Apply  knowledge to explain problems related to the static stability of an aircraft."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Ổn định tĩnh của một máy bay dạng cánh cố định;\nVai trò của vị trí trọng tâm máy bay đến ổn định tĩnh dọc",
+        "en": "Static stability of a fixed-wing aircraft;\nEffect of the CG on longitudinal static stability of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4667,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 5701,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận mở; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40274,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học để giải thích vấn đề liên quan đến ổn định tĩnh của một máy bay.",
+              "en": "Apply  knowledge to explain problems related to the static stability of an aircraft."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8201,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4635,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp 2",
+                  "en": "In-class activities 2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá tác động của bánh lái độ cao đến ổn định dọc của máy bay dạng cánh cố định;\nGiới hạn của vị trí trọng tâm máy bay đối với ổn định tĩnh dọc của máy bay dạng cánh cố định",
+        "en": "Effect of elevator on the longitudinal static stability of a fixed-wing aircraft;\nNP and FCG of the CG position of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4659,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 5693,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận mở; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40274,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học để giải thích vấn đề liên quan đến ổn định tĩnh của một máy bay.",
+              "en": "Apply  knowledge to explain problems related to the static stability of an aircraft."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8194,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4636,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp 3",
+                  "en": "In-class activities 3"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích ổn định tĩnh hướng, ổn định tĩnh lăn của máy bay dạng cánh cố định\nĐánh giá ngược đặc trưng ổn định tĩnh của máy bay dạng cánh cố định",
+        "en": "Analysis of the static lateral/directional stability of a fixed-wing aircraft;\nReverse engineering of the static stability of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4660,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 5694,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đặt câu hỏi thảo luận cho bài tập nhóm",
+            "en": "Quescussion for group activity"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm; Triển khai bài tập nhóm về ổn định tĩnh của máy bay dạng cánh cố định",
+            "en": "Concept mapping; Do group activity about static stability of a fixed-wing aircraft"
+          },
+          "chuandaura": {
+            "id": 40276,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Vận dụng kiến thức để giải thích được sự hoạt động của máy bay theo các thiết lập điều khiển bay ",
+              "en": "Apply knowledge to interpret aircraft operations and performance under flight control settings"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8195,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4641,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group activity"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đánh giá ngược đặc trưng ổn định tĩnh của một mẫu máy bay thương mại dạng cánh cố định",
+        "en": "Reverse engineering of the static stability of a commercial fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4661,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 5695,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Đặt câu hỏi",
+            "en": "Real-time reactions; Concept mapping; Quescussion"
+          },
+          "chuandaura": {
+            "id": 40275,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Xác định đặc tính ổn định động của máy bay theo các thông số thiết kế của nó.",
+              "en": "Determine the dynamic stability characteristics of the aircraft according to its design parameters."
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Hướng và vị trí của máy bay;\nẢnh hưởng của trọng lực, lực đẩy đến chuyển động của máy bay;\nGiả thuyết về nhiễu động nhỏ trong phân tích chuyển động của máy bay",
+        "en": "Orientation and position of an aircraft;\nEffect of gravitational and thrust forces on the aircraft motion;\nUse of small-disturbance theory on aircraft equations of motion"
+      }
+    },
+    {
+      "id": 4668,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 5706,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40275,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Xác định đặc tính ổn định động của máy bay theo các thông số thiết kế của nó.",
+              "en": "Determine the dynamic stability characteristics of the aircraft according to its design parameters."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8202,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4637,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập trên lớp 4",
+                  "en": "In-class activities 4"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đạo hàm đặc trưng về lực/moment khí động của chuyển động của một máy dạng cánh cố định",
+        "en": "Aerodynamic force and moment derivatives due to the motion of a fixed-wing aircraft "
+      }
+    },
+    {
+      "id": 4669,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 5702,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đặt câu hỏi thảo luận cho bài tập nhóm",
+            "en": "Quescussion for group activity"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm; Triển khai bài tập nhóm về đạo hàm đặc trưng chuyển động của một mẫu máy bay thương mại dạng cánh cố định",
+            "en": "Concept mapping; Do group activity about the aircraft motion derivative of a commercial fixed-wing aircraft"
+          },
+          "chuandaura": {
+            "id": 40276,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Vận dụng kiến thức để giải thích được sự hoạt động của máy bay theo các thiết lập điều khiển bay ",
+              "en": "Apply knowledge to interpret aircraft operations and performance under flight control settings"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8203,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4641,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group activity"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khảo sát ngược đạo hàm đặc trưng chuyển động của một mẫu máy bay thương mại dạng cánh cố định",
+        "en": "Reverse engineering of the aircraft motion derivatives of a commercial fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4670,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 5703,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40275,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Xác định đặc tính ổn định động của máy bay theo các thông số thiết kế của nó.",
+              "en": "Determine the dynamic stability characteristics of the aircraft according to its design parameters."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8204,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4638,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Bài tập trên lớp 5",
+                  "en": "In-class activities 5"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đặc trưng chuyển động dọc của một máy bay dạng cánh cố định",
+        "en": "Longitudinal motion of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4662,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 5696,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đặt câu hỏi thảo luận cho bài tập nhóm",
+            "en": "Quescussion for group activity"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm; Triển khai bài tập nhóm về đặc trưng chuyển động dọc của một mẫu máy bay thương mại dạng cánh cố định",
+            "en": "Concept mapping; Do group activity about longitudinal motion of a commercial fixed-wing aircraft"
+          },
+          "chuandaura": {
+            "id": 40276,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Vận dụng kiến thức để giải thích được sự hoạt động của máy bay theo các thiết lập điều khiển bay ",
+              "en": "Apply knowledge to interpret aircraft operations and performance under flight control settings"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8196,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4641,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group activity"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khảo sát ngược đặc trưng chuyển động dọc của một mẫu máy bay thương mại dạng cánh cố định",
+        "en": "Reverse engineering of the longitudinal motion of a commercial fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4663,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 5697,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40275,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Xác định đặc tính ổn định động của máy bay theo các thông số thiết kế của nó.",
+              "en": "Determine the dynamic stability characteristics of the aircraft according to its design parameters."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8197,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4639,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Bài tập trên lớp 6",
+                  "en": "In-class activities 6"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đặc trưng chuyển động hướng/lắn của một máy bay dạng cánh cố định",
+        "en": "Lateral motion of a fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4664,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 5698,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đặt câu hỏi thảo luận cho bài tập nhóm",
+            "en": "Quescussion for group activity"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm; Triển khai bài tập nhóm về khảo sát ngược đặc tính ổn định hướng/lăn của một mẫu máy bay thương mại dạng cánh cố định",
+            "en": "Concept mapping; Do group activity about reverse engineering of lateral motion of a commercial fixed-wing aircraft"
+          },
+          "chuandaura": {
+            "id": 40276,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Vận dụng kiến thức để giải thích được sự hoạt động của máy bay theo các thiết lập điều khiển bay ",
+              "en": "Apply knowledge to interpret aircraft operations and performance under flight control settings"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8198,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4641,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group activity"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khảo sát ngược đặc trưng chuyển động hướng/lăn của một mẫu máy bay thương mại dạng cánh cố định",
+        "en": "Reverse engineering of lateral motion of a commercial fixed-wing aircraft"
+      }
+    },
+    {
+      "id": 4665,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 5699,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày bài giảng; Đặt câu hỏi thảo luận",
+            "en": "Lecturing; Quescussion"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tương tác trực tiếp bài giảng; Thảo luận nhóm; Làm bài tập trên lớp",
+            "en": "Real-time reactions; Concept mapping; Complete in-class activity"
+          },
+          "chuandaura": {
+            "id": 40277,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Đưa ra được thiết lập điều khiển bay tự động cổ điển cho máy bay theo yêu cầu tính năng bay",
+              "en": "Setup classic automatic flight control for aircraft based on required flight performance."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8199,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4640,
+                "ma": "A.O.7",
+                "ten": {
+                  "vi": "Bài tập trên lớp 7",
+                  "en": "In-class activities 7"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đặc trưng đáp ứng điều khiển của một máy bay dạng cánh cố định;\nCơ sở lý thuyết điều khiển bay tự động",
+        "en": "Fixed-wing aircraft response to control\nControl theory to aircraft autopilot"
+      }
+    },
+    {
+      "id": 4658,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 5692,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Đặt câu hỏi thảo luận cho bài tập nhóm",
+            "en": "Quescussion for group activity"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm; Triển khai bài tập nhóm về khảo sát ngược đặc trưng đáp ứng điều khiển của một mẫu máy bay thương mại dạng cánh cố định",
+            "en": "Concept mapping; Do group activity about reverse engineering of the aircraft response to control of a commercial fixed-wing aircraft"
+          },
+          "chuandaura": {
+            "id": 40277,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Đưa ra được thiết lập điều khiển bay tự động cổ điển cho máy bay theo yêu cầu tính năng bay",
+              "en": "Setup classic automatic flight control for aircraft based on required flight performance."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 8193,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4641,
+                "ma": "A.O.8",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Group activity"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Khảo sát ngược đặc trưng đáp ứng điều khiển của một mẫu máy bay thương mại dạng cánh cố định",
+        "en": "Reverse engineering of the aircraft response to control of a commercial fixed wing aircraft"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 40274,
+      "ma": "L.O.1",
+      "ten_vi": "Vận dụng được kiến thức đã học để giải thích vấn đề liên quan đến ổn định tĩnh của một máy bay.",
+      "ten_en": "Apply  knowledge to explain problems related to the static stability of an aircraft.",
+      "hddg": [
+        {
+          "id": 4634,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp 1",
+          "ten_en": "In-class activities 1"
+        },
+        {
+          "id": 4635,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập trên lớp 2",
+          "ten_en": "In-class activities 2"
+        },
+        {
+          "id": 4636,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập trên lớp 3",
+          "ten_en": "In-class activities 3"
+        }
+      ]
+    },
+    {
+      "id": 40275,
+      "ma": "L.O.2",
+      "ten_vi": "Xác định đặc tính ổn định động của máy bay theo các thông số thiết kế của nó.",
+      "ten_en": "Determine the dynamic stability characteristics of the aircraft according to its design parameters.",
+      "hddg": [
+        {
+          "id": 4637,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập trên lớp 4",
+          "ten_en": "In-class activities 4"
+        },
+        {
+          "id": 4638,
+          "ma": "A.O.5",
+          "ten_vi": "Bài tập trên lớp 5",
+          "ten_en": "In-class activities 5"
+        },
+        {
+          "id": 4639,
+          "ma": "A.O.6",
+          "ten_vi": "Bài tập trên lớp 6",
+          "ten_en": "In-class activities 6"
+        }
+      ]
+    },
+    {
+      "id": 40276,
+      "ma": "L.O.3",
+      "ten_vi": "Vận dụng kiến thức để giải thích được sự hoạt động của máy bay theo các thiết lập điều khiển bay ",
+      "ten_en": "Apply knowledge to interpret aircraft operations and performance under flight control settings",
+      "hddg": [
+        {
+          "id": 4641,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group activity"
+        }
+      ]
+    },
+    {
+      "id": 40277,
+      "ma": "L.O.4",
+      "ten_vi": "Đưa ra được thiết lập điều khiển bay tự động cổ điển cho máy bay theo yêu cầu tính năng bay",
+      "ten_en": "Setup classic automatic flight control for aircraft based on required flight performance.",
+      "hddg": [
+        {
+          "id": 4640,
+          "ma": "A.O.7",
+          "ten_vi": "Bài tập trên lớp 7",
+          "ten_en": "In-class activities 7"
+        },
+        {
+          "id": 4641,
+          "ma": "A.O.8",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Group activity"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Ổn định và Điều khiển bay",
+  "tenmonhoc_eng": "Aircraft Stability and Control",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

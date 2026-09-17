@@ -1,0 +1,1612 @@
+{
+  "ma": "DCMH.TR2037.7.1",
+  "phienban": "5.1",
+  "capnhat": "24/03/2026 13:56",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Giao Thông",
+    "en": "Faculty of Transportation Engineering"
+  },
+  "mamonhoc": "TR2037",
+  "ten": "TR2037 - Lý thuyết Tàu thủy 1 - Tĩnh học",
+  "ten_eng": "TR2037 - Ship Theory 1 - Hydrostatic",
+  "hockyapdung": "HK261",
+  "sotcgoc": 4,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>- Môn học nhằm cung cấp kiến thức về các đặc trưng tính toán phần hình dáng tàu.<br>- Giải thích và hướng dẫn phương pháp tính toán kiểm tra tính nổi, tính ổn định (nguyên vẹn và tai nạn) cho tàu.<br>- Ngoài ra, giúp đánh giá các nội dung trên  theo các tiêu chuẩn liên quan đến qui chuẩn chuyên ngành hiện nay.<br></p>",
+      "en": "<p>The course aims to provide the knowledge about ship geometry (integrating rules and methods), hydrostatic (buoyancy, stability curve), intact stability, subdivision and damage stability.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p><b>1.\nGiới thiệu về môn học</b></p>\n\n<p>- Thông tin Thầy/Cô</p>\n\n<p>- Các vấn đề liên quan đến môn học</p>\n\n<p>- Cách thức dạy và học </p>\n\n<p><b>2.\nHình dáng tàu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b></p>\n\n<p> - Tuyến\nhình tàu và kích thước chính.</p>\n\n<p>- Mối quan hệ giữa khối lượng và lượng chiếm\nnước.</p>\n\n<p><b>3.\nĐại lượng tính nổi</b></p>\n\n<p>- Cách xây dựng các đường cong tính nổi.</p>\n\n<p>- Cách xây dựng đường Bonjean.</p>\n\n<p>- Đồ thị dung tích tàu.</p>\n\n<p><b>4.\nỔn định nguyên vẹn</b></p>\n\n<p>- Khái niệm chung </p>\n\n<p>- Khối lượng và trọng tâm tàu</p>\n\n<p>- Đồ thị ổn định </p>\n\n<p>- Các nguyên nhân ảnh hưởng đến ổn định tàu.</p>\n\n<p>- Tiêu chuẩn ổn định theo qui chuẩn hiện\nhành.</p>\n\n<p>- Quy trình thử nghiêng</p>\n\n<p><b>5.\nPhân khoang chống chìm và tiêu chuẩn ổn định do tai nạn</b></p>\n\n<p>- Các khái niệm liên quan</p>\n\n<p>- Ảnh hưởng khi mất ổn định do tai nạn </p>\n\n<p>- Chống chìm khi ngập nhóm khoang.</p>\n\n- Tiêu\nchuẩn ổn định tai nạn (IMO).<br><p></p>",
+      "en": "<p>\n\n</p><p><b>1. Introduce about the course</b></p>\n\n<p>- Lecturer self-introduction</p>\n\n<p>- Related issues</p>\n\n<p>- Method for Teaching and Learning&nbsp;</p>\n\n<p><b>2.\nHull form parameter&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</b></p>\n\n<p> - Hull form drawing and parameter.</p>\n\n<p>- Principal of Archimedes.</p>\n\n<p><b>3.\nHydrostatic&nbsp;</b></p>\n\n<p>- Hydrostatic calculation and graphic.</p>\n\n<p>- \"Bonjean\" calculation and graphic.</p>\n\n<p><b>4.\nIntact Stability</b><br></p>\n\n<p>- General introduction.</p>\n\n<p>- Weight and gravity center of hull.</p>\n\n<p>- GZ graphic.</p>\n\n<p>- Cause effect to ship stability.</p>\n\n<p>- Shipbuilding regulations</p>\n\n<p>- Incline experiment process</p>\n\n<p><b>5.\nCompartment&nbsp;</b>subdivision and damaged stability.</p>\n\n<p>- Concept of subdivision and damaged stability.</p>\n\n<p>- Consequence of\n\ndamaged stability.</p>\n\n<p>- Flooding avoid.</p>\n\n- IMO about damaged stability.<p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p>Giáo trình chính:</p>\n\n<p>[1] Trần\nCông Nghị, Lý thuyết tàu I (tĩnh học tàu thủy), NXBĐHQG, 2008.</p>\n\n<p>Tài liệu\ntham khảo:</p>\n\n<p>[2] E. V.\nLewis, Volume 1 – Stability and Strength, The Society of Naval Architects and\nMarine Engineers, 1988</p>\n\n<p>[3]\nE.Tupper, Introduction to naval architecture, Butterworth-Heinemann, Oxford,\n2001.</p>\n\n[4] J. Marchal, “Course de théorie du\nnavire, Volume 1: La statique”, Université de Liège, Belgique, 1998.\n\n\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p>Main textbook:</p>\n\n<p>[1] Tran Cong Nghi, Ship theory part I (Hydrostatic), NXBĐHQG, 2008.</p>\n\n<p>Reference textbook:</p>\n\n<p>[2] E. V.\nLewis, Volume 1 – Stability and Strength, The Society of Naval Architects and\nMarine Engineers, 1988</p>\n\n<p>[3]\nE.Tupper, Introduction to naval architecture, Butterworth-Heinemann, Oxford,\n2001.</p>\n\n[4] J. Marchal, “Course de théorie du\nnavire, Volume 1: La statique”, Université de Liège, Belgique, 1998.\n\n<p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p>1. Thông tin buổi học được đưa lên hệ thống Elearning, sinh viên vào xem và chuẩn bị trước khi tham gia buổi học.</p>\n\n<p>2. Trong buổi học tham gia đầy đủ các hoạt động: kiểm tra đầu giờ, nghe giảng, làm bài tập cá nhân/nhóm, thuyết trình/thảo luận.&nbsp;</p><p>3. Thực hiện các bài tập được giao thêm ở nhà, nộp trên Bkel.</p>\n\n<p>4. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học<b></b></p>\n\n<ul>\n <li>Bài tập:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10%</li><li>Thí nghiệm:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20%</li><li>Kiểm tra giữa kì:&nbsp; 20%</li><li>Thi:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 50%</li></ul><p><i></i></p>\n\n<p><i>&nbsp;</i>5. Điều kiện dự thi:</p><p>- Sinh\nviên được yêu cầu phải tham dự giờ giảng trên lớp ít nhất 70% (số lần được điểm\ndanh chuyên cần). Ngoài ra, sinh viên phải hoàn thành tất cả bài tập về nhà\nđúng hạn cũng như thực hiện đầy đủ các phần thuyết trình của nhóm. Đây là những\nđiều kiện cần để sinh viên đạt môn học này.</p><p>- Sinh viên\ncần lưu ý thời hạn nộp bài tập. Nộp muộn sẽ không được chấp nhận nếu không có\nmột lý do chính đáng đã được trình bày và phê duyệt của giảng viên trước ngày\nđến hạn. Bài tập nộp muộn cho phép sẽ bị trừ đi 2 điểm đối với mỗi ngày nộp\ntrễ.</p><p></p>",
+      "en": "<p>\n\n</p><p></p>\n\n<p>1. Student must read information \n\nabout class on Bkel (Elearning)\n\ncarefully .</p>\n\n<p>2. Join and carry out all activities in class.</p>\n\n<p>3. Finish homework and submit on Bkel.</p>\n\n<p>4. Course grading&nbsp;<b></b></p>\n\n<ul>\n <li>Exercise (homework include): 10%</li><li>Experiment: 20%</li><li>Midterm-test: 20%</li><li>Final - test: 50%</li></ul><p><i></i></p>\n\n<p><i>&nbsp;</i>5. Condition of final test:&nbsp; Class attend 70% at least and submit all exercise.</p>\n\n<p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>Môn học nghiên cứu về tính năng ổn định của tàu.</p><p>Để xác định tàu có ổn định hay không chúng ta cần tính toán về tính nổi và khả năng giữ ổn định của tàu khi hoạt động trong các điều kiện sóng gió khác nhau.</p><p>Số liệu tính toán thường liên quan đến:</p><p>- Tuyến hình tàu,&nbsp;</p><p>- Kích thước cơ bản</p><p>- Đặc điểm tải trọng</p><p>- Giả định ngoại lực gây mất ổn định</p><p>Ngoài ra, nghiên cứu ổn định còn giúp cho quá trình hạ thủy được an toàn.</p><p>\n\n<u><b>Yëu cầu khác về học phần</b></u>:&nbsp;</p><p>o Người học phải tuãn thủ các quy định về liëm chính học thuật của nhâ trường.&nbsp;</p><p>o Việc sử dụng cõng cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tîm tâi liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trînh bây. Người học khõng được nộp sản phẩm do AI tạo ra toân bộ hoặc phần lớn nội dung.&nbsp;</p><p>o Khi có sử dụng AI trong quá trînh lâm bâi, người học cần ghi rõ cõng cụ vâ cách sử dụng trong phần tâi liệu tham khảo hoặc ghi chö.&nbsp;</p><p>o Mọi hânh vi lạm dụng AI nhằm gian lận sẽ bị coi lâ vi phạm liëm chính học thuật vâ xử lý theo quy định của nhâ trường.\n\n</p><p><br></p>",
+      "en": "<p>Hull form definition: principal dimensions, ships' lines, coefficients of form. Hull form characteristics: integration methods, Bonjean curves, wetted surface, hydrostatic curves.  Equilibrium conditions. Initial stability, metacentric height, cross curves of stability, GZ curve, free  surface effect, effects of changes in weight on stability, stability criteria, inclining experiment. Dynamical stability. Trim, moment causing trim, effect of added weights on draft, trim and heel. Subdivision and damage stability calculations. Stability criteria for  damaged stability. Load line regulations, tonnage regulation.<br></p><p>\n\n<u>Academic Integrity and use of AI tools</u>:&nbsp;</p><p>o Students must comply with the university’s academic integrity regulations.&nbsp;</p><p>o The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.&nbsp;</p><p>o When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.&nbsp;</p><p>o Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.\n\n<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1166,
+      "ma": "CN_TAU",
+      "ten": {
+        "vi": "Chuyên ngành: Kỹ thuật Tàu thủy",
+        "en": "Naval Architecture and Marine Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 624,
+      "ma": "001996",
+      "ten": "Trần Văn Tạo"
+    },
+    {
+      "id": 626,
+      "ma": "002533",
+      "ten": "Lê Tất Hiển"
+    },
+    {
+      "id": 625,
+      "ma": "002207",
+      "ten": "Đoàn Minh Thiện"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 4,
+    "soTC_ETC": 8,
+    "lyThuyet": 3,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 200,
+    "tongGioHocTapLamViec": 203,
+    "lyThuyet": 45,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 100,
+    "khac": 20
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": true,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 10,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 960,
+      "maBoMon": "TAU",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Tàu Thủy"
+      },
+      "maKhoa": "GT",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Giao Thông",
+        "en": "Faculty of Transportation Engineering"
+      },
+      "vanPhong": "Khoa KT Giao thông - Bộ môn KT Tàu thủy",
+      "dienThoai": "0908 157 029"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 624,
+        "maGiangVien": "001996",
+        "tenGiangVien": "Trần Văn Tạo",
+        "emailGiangVien": "tao.tranvan@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "4_3_0_0.67_0.33",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 82058,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá gốc",
+        "en": "activities assess root"
+      },
+      "noidung": {
+        "vi": "Triển khai các hoạt động chi tiết",
+        "en": "carry out activities for root assessing"
+      }
+    },
+    {
+      "id": 82059,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "82058",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+        "en": "AIC"
+      },
+      "noidung": {
+        "vi": "Bài tập lớp cá nhân / nhóm, điểm danh đầu giờ.",
+        "en": "AIC"
+      }
+    },
+    {
+      "id": 82060,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "82058",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà cá nhân.",
+        "en": "IHW."
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà cá nhân (theo tiến độ bài tập lớn)",
+        "en": "IHW."
+      }
+    },
+    {
+      "id": 82061,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "82058",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm về nhà.",
+        "en": "GHW."
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà của nhóm (theo tiến độ bài tập lớn).",
+        "en": "GHW."
+      }
+    },
+    {
+      "id": 82062,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "82058",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn nhóm.",
+        "en": "GPJ."
+      },
+      "noidung": {
+        "vi": "Bài tập lớn nhóm.",
+        "en": "GPJ."
+      }
+    },
+    {
+      "id": 82063,
+      "stt": 0,
+      "ma": "A.O.5",
+      "capdo": "1",
+      "parentid": "82058",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kì.",
+        "en": "TES-mid."
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kì.",
+        "en": "TES-mid."
+      }
+    },
+    {
+      "id": 82064,
+      "stt": 0,
+      "ma": "A.O.6",
+      "capdo": "1",
+      "parentid": "82058",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kì.",
+        "en": "Examination."
+      },
+      "noidung": {
+        "vi": "Thi cuối kì.",
+        "en": "Examination."
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 101825,
+      "stt": 1,
+      "buoi": "Chương 1",
+      "chuandaurachitiet": [
+        {
+          "id": 131420,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216974,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nhắc lại cách vẽ các hình chiếu và kí hiệu trên bản vẽ tuyến hình.",
+              "en": "Nhắc lại cách vẽ các hình chiếu và kí hiệu trên bản vẽ tuyến hình."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213969,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213973,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82060,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà cá nhân.",
+                  "en": "IHW."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131423,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216975,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Vẽ lại được 1 bản vẽ tuyến hình cho trước.",
+              "en": "Vẽ lại được 1 bản vẽ tuyến hình cho trước."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213970,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213960,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82061,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập nhóm về nhà.",
+                  "en": "GHW."
+                }
+              }
+            },
+            {
+              "id": 213978,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131419,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216976,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Tìm được các thông tin cần thiết (đường sườn, đường nước) trong tính toán thuỷ tĩnh trên bản vẽ này.",
+              "en": "Tìm được các thông tin cần thiết (đường sườn, đường nước) trong tính toán thuỷ tĩnh trên bản vẽ này."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213955,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82063,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì.",
+                  "en": "TES-mid."
+                }
+              }
+            },
+            {
+              "id": 213953,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213979,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131425,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết. ",
+            "en": "Lecture.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học. \n",
+            "en": "Learning.\n"
+          },
+          "chuandaura": {
+            "id": 216977,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Trình bày lại được phương pháp simpson.",
+              "en": "Trình bày lại được phương pháp simpson."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213956,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82064,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thi cuối kì.",
+                  "en": "Examination."
+                }
+              }
+            },
+            {
+              "id": 213971,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213954,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131430,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết. \n",
+            "en": "Lecture.\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học. \n",
+            "en": "Learning.\n"
+          },
+          "chuandaura": {
+            "id": 216978,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tóm tắt được các đại lượng liên quan thuỷ tĩnh và tra được số liệu trên đồ thị hydrostatic.",
+              "en": "Tóm tắt được các đại lượng liên quan thuỷ tĩnh và tra được số liệu trên đồ thị hydrostatic."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213981,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82064,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thi cuối kì.",
+                  "en": "Examination."
+                }
+              }
+            },
+            {
+              "id": 213976,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213974,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131424,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết. \n",
+            "en": "Lecture.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học. \n",
+            "en": "Learning.\n"
+          },
+          "chuandaura": {
+            "id": 216979,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Tính và vẽ được các đồ thị Hydrostatic và Bonjean.",
+              "en": "Tính và vẽ được các đồ thị Hydrostatic và Bonjean."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213951,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82063,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì.",
+                  "en": "TES-mid."
+                }
+              }
+            },
+            {
+              "id": 213977,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213975,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "1. Giới thiệu chung môn học.\n2. Chương 1. Tính nổi\n- Giới thiệu các loại tàu thuyền\n- Tính nổi tàu thuỷ",
+        "en": "Hull Form\n- Drawing method\n- Hull form parametric\nHydrostatic parameter\n- Theory of ship hydrostatic\n- Hydrostatic graphics\n"
+      }
+    },
+    {
+      "id": 101827,
+      "stt": 2,
+      "buoi": "Chương 2",
+      "chuandaurachitiet": [
+        {
+          "id": 131431,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216980,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Giải thích được phương trình Archimest và điều kiện cân bằng.",
+              "en": "Giải thích được phương trình Archimest và điều kiện cân bằng."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213957,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213961,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131421,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216981,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Trình bày được cách xác định trọng tâm trọng lượng tàu (bảng trạng thái).",
+              "en": "Trình bày được cách xác định trọng tâm trọng lượng tàu (bảng trạng thái)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213952,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82063,
+                "ma": "A.O.5",
+                "ten": {
+                  "vi": "Kiểm tra giữa kì.",
+                  "en": "TES-mid."
+                }
+              }
+            },
+            {
+              "id": 213966,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82064,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thi cuối kì.",
+                  "en": "Examination."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131422,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216982,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Tính toán được các yếu tố ảnh hưởng làm thay đổi giá trị trọng lượng và trọng tâm.",
+              "en": "Tính toán được các yếu tố ảnh hưởng làm thay đổi giá trị trọng lượng và trọng tâm."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213958,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213963,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ổn định nguyên vẹn\n- Khái niệm chung \n- Khối lượng tàu\n- Cân bằng dọc\n- Ổn định nguyên vẹn \n- Các đại lượng ảnh hưởng đến ổn định tàu.\n- Tiêu chuẩn đánh giá ổn định theo qui định hiện hành. \n- Giới thiệu quy trình thử nghiêng",
+        "en": "Intact stability\n- General definition.\n- Weight and gravity center of ship.\n- Longitudinal balance.\n- Intact stability requirement. \n- Problem effect to intact stability.\n- Intact stability criterion. \n- Introduce about inclination experiment"
+      }
+    },
+    {
+      "id": 101828,
+      "stt": 3,
+      "buoi": "Chương 3",
+      "chuandaurachitiet": [
+        {
+          "id": 131426,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216983,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Tóm tắt được các đại lượng liên quan cân bằng và ổn định ban đầu.",
+              "en": "Tóm tắt được các đại lượng liên quan cân bằng và ổn định ban đầu."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213972,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213964,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131427,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216984,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Lập và tính toán được bảng tính kết quả cân bằng dọc cho tàu cụ thể.",
+              "en": "Lập và tính toán được bảng tính kết quả cân bằng dọc cho tàu cụ thể."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213967,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82064,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thi cuối kì.",
+                  "en": "Examination."
+                }
+              }
+            },
+            {
+              "id": 213962,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân khoang chống chìm và tiêu chuẩn ổn định do tai nạn\n- Vai trò của phân khoang\n- Đánh già ổn định do tai nạn  ngập nhóm khoang.\n- Tiêu chuẩn ổn định tai nạn theo đăng kiểm (IMO)",
+        "en": "Compartment subdivision and Damaged Stability. \n- The importance of compartment subdivision.\n- Damaged stability Judgment. \n- IMO criterion."
+      }
+    },
+    {
+      "id": 101826,
+      "stt": 4,
+      "buoi": "Chương 4",
+      "chuandaurachitiet": [
+        {
+          "id": 131428,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216985,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Phân tích được các thành phần liên quan đến tính ổn định khi tàu chịu ngoại lực.",
+              "en": "Phân tích được các thành phần liên quan đến tính ổn định khi tàu chịu ngoại lực."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213959,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82059,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+                  "en": "AIC"
+                }
+              }
+            },
+            {
+              "id": 213965,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131429,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy lí thuyết.",
+            "en": "Lecture."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tham gia buổi học.",
+            "en": "Learning."
+          },
+          "chuandaura": {
+            "id": 216986,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Trình bày lại được đồ thị ổn định từ cơ sở đường cong Cross-curves.",
+              "en": "Trình bày lại được đồ thị ổn định từ cơ sở đường cong Cross-curves."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 213968,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 82064,
+                "ma": "A.O.6",
+                "ten": {
+                  "vi": "Thi cuối kì.",
+                  "en": "Examination."
+                }
+              }
+            },
+            {
+              "id": 213980,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 82062,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn nhóm.",
+                  "en": "GPJ."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phương pháp đánh giá tính ổn định cho tàu thủy theo qui chuẩn",
+        "en": "Hydrostatic and Stability report for real ship."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 216974,
+      "ma": "L.O.1.1",
+      "ten_vi": "Nhắc lại cách vẽ các hình chiếu và kí hiệu trên bản vẽ tuyến hình.",
+      "ten_en": "Nhắc lại cách vẽ các hình chiếu và kí hiệu trên bản vẽ tuyến hình.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82060,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà cá nhân.",
+          "ten_en": "IHW."
+        }
+      ]
+    },
+    {
+      "id": 216975,
+      "ma": "L.O.1.2",
+      "ten_vi": "Vẽ lại được 1 bản vẽ tuyến hình cho trước.",
+      "ten_en": "Vẽ lại được 1 bản vẽ tuyến hình cho trước.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82061,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập nhóm về nhà.",
+          "ten_en": "GHW."
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        }
+      ]
+    },
+    {
+      "id": 216976,
+      "ma": "L.O.1.3",
+      "ten_vi": "Tìm được các thông tin cần thiết (đường sườn, đường nước) trong tính toán thuỷ tĩnh trên bản vẽ này.",
+      "ten_en": "Tìm được các thông tin cần thiết (đường sườn, đường nước) trong tính toán thuỷ tĩnh trên bản vẽ này.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        },
+        {
+          "id": 82063,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra giữa kì.",
+          "ten_en": "TES-mid."
+        }
+      ]
+    },
+    {
+      "id": 216977,
+      "ma": "L.O.2.1",
+      "ten_vi": "Trình bày lại được phương pháp simpson.",
+      "ten_en": "Trình bày lại được phương pháp simpson.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        },
+        {
+          "id": 82064,
+          "ma": "A.O.6",
+          "ten_vi": "Thi cuối kì.",
+          "ten_en": "Examination."
+        }
+      ]
+    },
+    {
+      "id": 216978,
+      "ma": "L.O.2.2",
+      "ten_vi": "Tóm tắt được các đại lượng liên quan thuỷ tĩnh và tra được số liệu trên đồ thị hydrostatic.",
+      "ten_en": "Tóm tắt được các đại lượng liên quan thuỷ tĩnh và tra được số liệu trên đồ thị hydrostatic.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        },
+        {
+          "id": 82064,
+          "ma": "A.O.6",
+          "ten_vi": "Thi cuối kì.",
+          "ten_en": "Examination."
+        }
+      ]
+    },
+    {
+      "id": 216979,
+      "ma": "L.O.2.3",
+      "ten_vi": "Tính và vẽ được các đồ thị Hydrostatic và Bonjean.",
+      "ten_en": "Tính và vẽ được các đồ thị Hydrostatic và Bonjean.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        },
+        {
+          "id": 82063,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra giữa kì.",
+          "ten_en": "TES-mid."
+        }
+      ]
+    },
+    {
+      "id": 216980,
+      "ma": "L.O.3.1",
+      "ten_vi": "Giải thích được phương trình Archimest và điều kiện cân bằng.",
+      "ten_en": "Giải thích được phương trình Archimest và điều kiện cân bằng.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        }
+      ]
+    },
+    {
+      "id": 216981,
+      "ma": "L.O.3.2",
+      "ten_vi": "Trình bày được cách xác định trọng tâm trọng lượng tàu (bảng trạng thái).",
+      "ten_en": "Trình bày được cách xác định trọng tâm trọng lượng tàu (bảng trạng thái).",
+      "hddg": [
+        {
+          "id": 82063,
+          "ma": "A.O.5",
+          "ten_vi": "Kiểm tra giữa kì.",
+          "ten_en": "TES-mid."
+        },
+        {
+          "id": 82064,
+          "ma": "A.O.6",
+          "ten_vi": "Thi cuối kì.",
+          "ten_en": "Examination."
+        }
+      ]
+    },
+    {
+      "id": 216982,
+      "ma": "L.O.3.3",
+      "ten_vi": "Tính toán được các yếu tố ảnh hưởng làm thay đổi giá trị trọng lượng và trọng tâm.",
+      "ten_en": "Tính toán được các yếu tố ảnh hưởng làm thay đổi giá trị trọng lượng và trọng tâm.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        }
+      ]
+    },
+    {
+      "id": 216983,
+      "ma": "L.O.4.1",
+      "ten_vi": "Tóm tắt được các đại lượng liên quan cân bằng và ổn định ban đầu.",
+      "ten_en": "Tóm tắt được các đại lượng liên quan cân bằng và ổn định ban đầu.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        }
+      ]
+    },
+    {
+      "id": 216984,
+      "ma": "L.O.4.2",
+      "ten_vi": "Lập và tính toán được bảng tính kết quả cân bằng dọc cho tàu cụ thể.",
+      "ten_en": "Lập và tính toán được bảng tính kết quả cân bằng dọc cho tàu cụ thể.",
+      "hddg": [
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        },
+        {
+          "id": 82064,
+          "ma": "A.O.6",
+          "ten_vi": "Thi cuối kì.",
+          "ten_en": "Examination."
+        }
+      ]
+    },
+    {
+      "id": 216985,
+      "ma": "L.O.5.1",
+      "ten_vi": "Phân tích được các thành phần liên quan đến tính ổn định khi tàu chịu ngoại lực.",
+      "ten_en": "Phân tích được các thành phần liên quan đến tính ổn định khi tàu chịu ngoại lực.",
+      "hddg": [
+        {
+          "id": 82059,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động trong lớp (điểm danh, bài tập lớp)",
+          "ten_en": "AIC"
+        },
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        }
+      ]
+    },
+    {
+      "id": 216986,
+      "ma": "L.O.5.2",
+      "ten_vi": "Trình bày lại được đồ thị ổn định từ cơ sở đường cong Cross-curves.",
+      "ten_en": "Trình bày lại được đồ thị ổn định từ cơ sở đường cong Cross-curves.",
+      "hddg": [
+        {
+          "id": 82062,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn nhóm.",
+          "ten_en": "GPJ."
+        },
+        {
+          "id": 82064,
+          "ma": "A.O.6",
+          "ten_vi": "Thi cuối kì.",
+          "ten_en": "Examination."
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Lý thuyết Tàu thủy 1 - Tĩnh học",
+  "tenmonhoc_eng": "Ship Theory 1 - Hydrostatic",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

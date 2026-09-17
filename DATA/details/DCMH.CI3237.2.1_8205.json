@@ -1,0 +1,2309 @@
+{
+  "ma": "DCMH.CI3237.2.1",
+  "phienban": "2.1",
+  "capnhat": "22/07/2024 10:32",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Xây Dựng",
+    "en": "Faculty of Civil Engineering"
+  },
+  "mamonhoc": "CI3237",
+  "ten": "CI3237 - Kết cấu Bê tông Cốt thép",
+  "ten_eng": "CI3237 - Reinforced Concrete Structures",
+  "hockyapdung": "HK221",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 2,
+      "ma": "TK",
+      "ten": {
+        "vi": "Toàn khoa"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>-  Cung cấp kiến thức về các tính năng cơ lý, ứng xử của vật liệu bê tông, cốt thép; ứng xử tương tác của bê tông và cốt thép; và cấu kiện kết cấu bê tông cốt thép (BTCT) dưới tác dụng của tải trọng.<br>-  Cung cấp kiến thức về nguyên lý thiết kế và xây dựng các giả thuyết tính toán các cấu kiện cơ bản BTCT (uốn, cắt, nén, xoắn).<br>-  Giới thiệu và hướng dẫn một số phương pháp phân tích, tính toán và cấu tạo cốt thép cho các cấu kiện BTCT cơ bản theo các trạng thái giới hạn bền và sử dụng.<br>-  Cung cấp kiến thức về thực hành phân tích và thiết kế cho các cấu kiện BTCT đơn giản.<br></p>",
+      "en": "<p>-  To provide the knowledge on the mechanical and physical properties and behavior of structural concrete, steel reinforcing bar; behavior of composite action of concrete and steel reinforcing bar; and steel reinforced concrete (RC) members.<br>-  To provide the knowledge on the conceptual principles and assumptions of  the design of steel RC members (in flexure, shear, combined compression-flexure, torsion).<br>-  To present and recommend some methods of analysis, calculation and detailing of steel RC members according to ultimate and serviceability limit states.<br>-  To provide the knowledge on practice of analysis and design of fundamental RC structural members<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>-  Vật liệu, ứng xử tương tác giữa bê tông và cốt thép.<br>-  Nguyên lý thiết kế và cấu tạo kết cấu BTCT.<br>-  Phân tích và thiết kế các cấu kiện BTCT cơ bản (uốn, cắt, nén, xoắn) theo trạng thái giới hạn bền và sử dụng.<br>-  Thực hành phân tích và thiết kế cho cho các cấu kiện BTCT đơn giản.<br></p>",
+      "en": "<p>-  Structural concrete and steel rebars, composite action of concrete and steel rebars.<br>-  Basic principles of structural design and detailing of reinforced concrete structures.<br>-  Analysis and design of steel RC members (in flexure, shear, combined compression-flexure, torsion).<br>-  Practice of analysis and design of fundamental RC structural members.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br>[1]  Phan Quang Minh (Chủ biên), Kết cấu bê tông cốt thép – Phần cấu kiện cơ bản, NXB Khoa học và Kỹ thuật, 2014.<br>[2]  Võ Bá Tầm (Chủ biên), Kết cấu bê tông cốt thép – Cấu kiện cơ bản, NXB ĐHQG TPHCM, 2012.<br>[3]  TCVN 5574:2012, Kết bê tông cốt thép – Tiêu chuẩn thiết kế.<br><br>Tài liệu tham khảo:<br>[4]  Nilson, A., Darwin, D and Dolan, C., Design of reinforced structures, 14th Edition, McGraw-Hill, 2009.<br>[5]  Martin, L. H. and Purkiss, J. A, Concrete design to EC2, 2nd Edition, Elsevier, 2006.<br>[6]  ACI Committee 318, Building code requirements for reinforced concrete and commentary, American Concrete Institute, Detroit, MI, 2014.<br>[7]  CEB-FIP Model Code for Concrete Structures 2010, Lausanne, Switzerland, 2010<br>[8]  EC2. Eurocode 2, Design of concrete structures. EN 1992:2004, Part 1 – 1: General rules and rules for buildings. European Committee for Standardization.<br></p>",
+      "en": "<p>Required textbooks:<br>[1] Phan Quang Minh (Chief editor), Reinforced concrete structures – Part of basic members, Science and Technology Press, 2014.<br>[2] Võ Bá Tầm (Chief editor), Reinforced concrete structures – Basic members, VNU-HCM Press, 2012.<br>[3] TCVN 5574:2012, Reinforced concrete structures – Design standard.<br><br>Other references:<br>[4]  Nilson, A., Darwin, D and Dolan, C., Design of reinforced structures, 14th Edition, McGraw-Hill, 2009.<br>[5]  Martin, L. H. and Purkiss, J. A, Concrete design to EC2, 2nd Edition, Elsevier, 2006.<br>[6]  ACI Committee 318, Building code requirements for reinforced concrete and commentary, American Concrete Institute, Detroit, MI, 2014.<br>[7]  CEB-FIP Model Code for Concrete Structures 2010, Lausanne, Switzerland, 2010<br>[8]  EC2. Eurocode 2, Design of concrete structures. EN 1992:2004, Part 1 – 1: General rules and rules for buildings. European Committee for Standardization.<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Bài giảng được giảng viên đưa lên BKeL hoặc được cung cấp trực tiếp trước buổi học; sinh viên cần mang theo bài giảng khi học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học như sau:<br>•  Bài tập lớn (20%): 3 bài<br>o  Bài tập lớn được cho theo chủ đề nhằm giúp cho sinh viên hệ thống lại kiến thức đã học và rèn luyện kỹ năng phân tích, tính toán và trình bày.<br>o  Nội dung: Thiết kế và cấu tạo thép cho dầm BTCT liên tục; kiểm tra võng nứt cho dầm BTCT liên tục; thiết  kế và cấu tạo cốt thép cho cột BTCT.<br>o  Bài tập làm theo nhóm, ở nhà bà nộp sau thời gian làm bài quy định.<br>•  Kiểm tra giữa kỳ (20%): Kiến thức và bài tập các chương 1, 2, 3 và một phần chương 4 (đến mục 4.3.3).<br>•  Thi cuối kỳ (60%): Kiến thức và bài tập toàn bộ chương trình.<br><br>Điều kiện dự thi cuối kỳ: (1) Nộp các bài tập; (2) Không vắng mặt quá 20% tổng số buổi học.<br></p>",
+      "en": "<p>Lecture notes are uploaded to BKeL or provided directly by the instructor before class; the students need bring lecture notes when taking class. The overall grade is evaluated throughout the study process as follows:<br>• Projects (20%): 3 sets<br>o Projects are given by topics to help students to systematize studied knowledge and practice the skills of analysis, calculation and report writing.<br>o Contents: Design of a continuous beam; Calculation of crack width and deflection of a continuous beam; Design of columns in combined compression-flexure.<br>o Assignments are done in groups, at home, and submitted to instructiors on the due time.<br>• Midterm examination (20%): Knowledge and assignments in chapters 1, 2, 3 and a part of chapter 4.<br>• Final examination (60%): Knowledge and assigments in whole course.<br><br>Required condition for taking final examination: (1) All assignments are submitted; (2) Class attendance - Not absent over 20 percent of total classes.<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "nganh": [
+    {
+      "id": 1107,
+      "ma": "CN_COS",
+      "ten": {
+        "vi": "CTDT Ngành Kỹ thuật Cơ sở Hạ tầng - Năm 2019",
+        "en": "Infastructure Engineering - 2019"
+      }
+    },
+    {
+      "id": 1088,
+      "ma": "NG_CVX",
+      "ten": {
+        "vi": "CTDT Ngành Công nghệ Kỹ thuật Vật liệu Xây dựng - Năm 2019",
+        "en": "Construction Materials - 2019"
+      }
+    },
+    {
+      "id": 1085,
+      "ma": "CN_CAU",
+      "ten": {
+        "vi": "CTDT Ngành Kỹ thuật Xây dựng Công trình Giao thông - Năm 2019 ",
+        "en": "Transportation Engineering - 2019"
+      }
+    },
+    {
+      "id": 1087,
+      "ma": "CN_THL",
+      "ten": {
+        "vi": "CTDT Ngành Kỹ thuật Xây dựng Công trình Thủy - Năm 2019  ",
+        "en": "Hydraulics Engineering - 2019"
+      }
+    },
+    {
+      "id": 1086,
+      "ma": "CN_CTB",
+      "ten": {
+        "vi": "CTDT Ngành Kỹ thuật Xây dựng Công trình Biển - Năm 2019  ",
+        "en": "Coastal Engineering - 2019"
+      }
+    },
+    {
+      "id": 1066,
+      "ma": "CN_XDC",
+      "ten": {
+        "vi": "CTDT Ngành Kỹ thuật Xây dựng - Năm 2019",
+        "en": "Civil Engineering - 2019"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 761,
+      "ma": "002841",
+      "ten": "Nguyễn Minh Long"
+    },
+    {
+      "id": 756,
+      "ma": "002552",
+      "ten": "Hồ Hữu Chỉnh"
+    },
+    {
+      "id": 7160,
+      "ma": "003829",
+      "ten": "Đoàn Ngọc Tịnh Nghiêm"
+    },
+    {
+      "id": 759,
+      "ma": "002642",
+      "ten": "Trần Thái Minh Chánh"
+    },
+    {
+      "id": 757,
+      "ma": "002553",
+      "ten": "Hồ Đức Duy"
+    },
+    {
+      "id": 752,
+      "ma": "001290",
+      "ten": "Nguyễn Quốc Thông"
+    },
+    {
+      "id": 748,
+      "ma": "000669",
+      "ten": "Võ Bá Tầm"
+    },
+    {
+      "id": 1643,
+      "ma": "000670",
+      "ten": "Trần Ngọc Bích"
+    },
+    {
+      "id": 1807,
+      "ma": "000657",
+      "ten": "Nguyễn Văn Hiệp"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 1.0,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 45,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 60,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 20,
+    "doAn": 0,
+    "kiemTra": 20,
+    "thi": 60,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1052,
+      "maBoMon": "CTR",
+      "tenBoMon": {
+        "vi": "Công Trình"
+      },
+      "maKhoa": "XD",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Xây Dựng",
+        "en": "Faculty of Civil Engineering"
+      },
+      "vanPhong": "Phòng 105, Nhà B6, Trường Đại học Bách Khoa – ĐHQG Tp.HCM, 268 Lý Thường Kiệt, P. 14, Q. 10, Tp. Hồ Chí Minh/ Room 105, B6 Bldg., Ho Chi Minh City University of Technology – VNU-HCM, 268 Ly Thuong Kiet St., Ward 14, Dist. 10, Ho Chi Minh City",
+      "dienThoai": "ĐT: (+84) 28 3864 7256 Ext 5559"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 761,
+        "maGiangVien": "002841",
+        "tenGiangVien": "Nguyễn Minh Long",
+        "emailGiangVien": "nguyenminhlong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "CI2007 - Sức bền Vật liệu",
+        "en": "CI2007 - Strength of Materials"
+      },
+      "tenmonhoc_only": {
+        "vi": "Sức bền Vật liệu",
+        "en": "Strength of Materials"
+      },
+      "mamonhoc": "CI2007"
+    },
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "CI3233 - Cơ kết cấu",
+        "en": "CI3233 - Mechanics of Structures"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ kết cấu",
+        "en": "Mechanics of Structures"
+      },
+      "mamonhoc": "CI3233"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 11292,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 11293,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "11292",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Activities in class"
+      },
+      "noidung": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Activities in class"
+      }
+    },
+    {
+      "id": 11295,
+      "stt": 0,
+      "ma": "A.O.1.1",
+      "capdo": "2",
+      "parentid": "11293",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhanh theo nhóm",
+        "en": "Quick exersice in groups"
+      },
+      "noidung": {
+        "vi": "Bài tập nhanh theo nhóm",
+        "en": "Quick exersice in groups"
+      }
+    },
+    {
+      "id": 11296,
+      "stt": 0,
+      "ma": "A.O.1.2",
+      "capdo": "2",
+      "parentid": "11293",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Câu hỏi trắc nghiệm ",
+        "en": "Quiz"
+      },
+      "noidung": {
+        "vi": "Câu hỏi trắc nghiệm ",
+        "en": "Quiz"
+      }
+    },
+    {
+      "id": 11297,
+      "stt": 0,
+      "ma": "A.O.1.3",
+      "capdo": "2",
+      "parentid": "11293",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exercise"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exercise"
+      }
+    },
+    {
+      "id": 11294,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "11292",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Thiết kế và cấu tạo thép cho dầm BTCT liên tục; kiểm tra võng nứt cho dầm BTCT liên tục; thiết  kế và cấu tạo cốt thép cho cột BTCT. Bài tập làm theo nhóm, ở nhà bà nộp sau thời gian làm bài quy định",
+        "en": "Design of a continuous beam; Calculation of crack width and deflection of a continuous beam; Design of columns in combined compression-flexure. Assignments are done in groups, at home, and submitted to instructiors on the due time."
+      }
+    },
+    {
+      "id": 11298,
+      "stt": 0,
+      "ma": "A.O.2.1",
+      "capdo": "2",
+      "parentid": "11294",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Làm bài tập lớn theo nhóm",
+        "en": "Group project"
+      },
+      "noidung": {
+        "vi": "Làm bài tập lớn theo nhóm.",
+        "en": "Assignments are done in groups."
+      }
+    },
+    {
+      "id": 11299,
+      "stt": 0,
+      "ma": "A.O.2.2",
+      "capdo": "2",
+      "parentid": "11294",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Trả lời vấn đáp",
+        "en": "Answer the questions"
+      },
+      "noidung": {
+        "vi": "Trả lời vấn đáp",
+        "en": "Answer the questions"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 12181,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 16224,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Tự giới thiệu, cách liên hệ;\n- Trình bày lướt qua ĐCMH: Mục tiêu, Nội dung, TLTK, Cách đánh giá; Phương pháp học tập.\n- Điểm danh và làm quen với SV theo DS lớp ở BkeL;\n- Giảng Chương Mở đầu.",
+            "en": "- To introduce about yourself and give students personal contact;\n- To present course syllabus: aims; content; grading and study methods.\n- To check the students' list;\n- To present the chapter 1."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Trao đổi thêm với Thầy/Cô những thắc mắc liên quan đến môn học",
+            "en": "- To discuss with the instructor about the course"
+          },
+          "chuandaura": {
+            "id": 52540,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Vận dụng được các kiến thức về đặc tính cơ lý của vật liệu bê tông, cốt thép, sự làm việc chung giữa bê tông và cốt thép; các kiến thức về ứng xử, nguyên lý thiết kế và cấu tạo cấu kiện bê tông cốt thép căn bản vào phân tích cấu kiện bê tông cốt thép cơ bản",
+              "en": "To be able to apply knowledge about the mechanical behavior of steel material and their physical and mechanical properties, the behavior of composite action of concrete and steel reinforcing bar, the principles of design and detailing of fundamental structrural reinforced concrete members in to anlyzing fundamental structrural reinforced concrete members."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25851,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25850,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Mở đầu\n1.1 Nội dung và yêu cầu môn học\n1.2 Sơ lược về quá trình phát triển của vật liệu bê tông và kết cấu bê tông cốt thép\n1.2.1 Ưu và khuyết điểm \n1.2.2 Phạm vi sử dụng\n1.2.3 Cấu kiện trong hệ kết cấu bê tông cốt thép\n1.2.3 Sơ lược lịch sử phát triển\n1.2.4 Phương hướng phát triển",
+        "en": "Chapter 1: Introduction\n1.1 Goals and requirements of the course\n1.2 A brief of historical development of concrete and reinforced concrete structures\n1.2.1 Strong and weak aspects\n1.2.2 Application\n1.2.3 Structural components\n1.2.3 Historical development\n1.2.4 The trend of development\n"
+      }
+    },
+    {
+      "id": 12183,
+      "stt": 2,
+      "buoi": "2-1",
+      "chuandaurachitiet": [
+        {
+          "id": 16226,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày về vật liệu và ứng xử tương tác giữa bê tông và cốt thép.",
+            "en": "- To present materials and composite action of concrete and reinforcement."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về cách thức xác biến dạng do co ngót và nở nhiệt của bê tông.",
+            "en": "- To discuss shrinkage strain and thermal expansion strain of concrete."
+          },
+          "chuandaura": {
+            "id": 52540,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Vận dụng được các kiến thức về đặc tính cơ lý của vật liệu bê tông, cốt thép, sự làm việc chung giữa bê tông và cốt thép; các kiến thức về ứng xử, nguyên lý thiết kế và cấu tạo cấu kiện bê tông cốt thép căn bản vào phân tích cấu kiện bê tông cốt thép cơ bản",
+              "en": "To be able to apply knowledge about the mechanical behavior of steel material and their physical and mechanical properties, the behavior of composite action of concrete and steel reinforcing bar, the principles of design and detailing of fundamental structrural reinforced concrete members in to anlyzing fundamental structrural reinforced concrete members."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25854,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25855,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Vật liệu và ứng xử tương tác giữa bê tông và cốt thép\n2.1 Bê tông\n2.1.1 Phân loại\n2.1.2 Tính năng cơ-lý \n2.1.3 Một số tính chất khác liên quan đến độ bền\n2.2 Cốt thép\n2.2.1 Phân loại\n2.2.2 Tính năng cơ học\n\n",
+        "en": "Chapter 2: Materials and composite action of concrete and reinforcement\n2.1 Concrete\n2.1.1  Classification\n2.1.2 Mechanical and physical properties\n2.1.3 Properties related to durability\n2.2 Reinforcing steel\n2.2.1 Classification\n2.2.2 Mechanical properties\n"
+      }
+    },
+    {
+      "id": 12172,
+      "stt": 3,
+      "buoi": "2-2",
+      "chuandaurachitiet": [
+        {
+          "id": 16211,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "-  Trình bày về sự làm việc chung của bê tông và cốt thép.",
+            "en": "- To present on composite action of concrete and reinforcement."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về cách thức xây dựng quan hệ bám dính - trượt cục bộ của cốt thép trong bê tông.",
+            "en": "- To discuss the local bond-slip relationship.\n"
+          },
+          "chuandaura": {
+            "id": 52540,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Vận dụng được các kiến thức về đặc tính cơ lý của vật liệu bê tông, cốt thép, sự làm việc chung giữa bê tông và cốt thép; các kiến thức về ứng xử, nguyên lý thiết kế và cấu tạo cấu kiện bê tông cốt thép căn bản vào phân tích cấu kiện bê tông cốt thép cơ bản",
+              "en": "To be able to apply knowledge about the mechanical behavior of steel material and their physical and mechanical properties, the behavior of composite action of concrete and steel reinforcing bar, the principles of design and detailing of fundamental structrural reinforced concrete members in to anlyzing fundamental structrural reinforced concrete members."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25825,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25824,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2.3 Sự làm việc chung của bê tông và cốt thép\n2.3.1 Quan hệ bám dính – trượt cục bộ\n2.3.2 Chiều dài neo của cốt thép\n2.3.3 Neo và nối cốt thép thanh\n2.3.4 Neo và nối lưới thép hàn",
+        "en": "2.3 Composite action of concrete and reinforcement\n2.3.1 Local bond-slip relationship\n2.3.2 Anchorage length of reinforcement\n2.3.3 Anchorage and laps of rebars\n2.3.4 Anchorage and laps of welded fabric"
+      }
+    },
+    {
+      "id": 12173,
+      "stt": 4,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 16212,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày về tải trọng và tổ hợp tải trọng",
+            "en": "- To present on loads, actions, and combonations"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về tải trọng \n- Các hệ số an toàn và tổ hợp tải trọng \n",
+            "en": "- To discuss on the actions\n- Load combonation"
+          },
+          "chuandaura": {
+            "id": 52544,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Thực hành tính toán được tải trọng và tác động",
+              "en": "To able to calculate loading and actions"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25826,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25827,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16213,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "-  Trình bày phương pháp phân tích nội lực",
+            "en": " To present on calculation methods.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận phương pháp đàn hồi\n",
+            "en": "- To discuss on analysis based on linear elasticity"
+          },
+          "chuandaura": {
+            "id": 52545,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Thực hành tính toán được nội lực trong cấu kiện BTCT",
+              "en": "To be able to apply analysis methods for determination of internal forces of RC members"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25829,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25828,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16216,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu qui trình thiết kế kết cấu.",
+            "en": "- To introduce the design procedure."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về qui trình thiết kế kết cấu ",
+            "en": "- To discuss on the design procedure"
+          },
+          "chuandaura": {
+            "id": 52543,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hành được qui trình thiết kế",
+              "en": "To be able to practice design procedure"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25835,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25834,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16215,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày các yêu cầu cơ bản cho công tác thiết kế.",
+            "en": "- To present fundamental requirements."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về các yêu cầu cơ bản này.",
+            "en": "-  To discuss the fundamental requirements."
+          },
+          "chuandaura": {
+            "id": 52542,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Vận dụng được các yêu cầu cơ bản trong thiết kế ",
+              "en": "To be able to apply fundamental requirements of the design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25832,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25833,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16214,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày cấu tạo BTCT",
+            "en": "- To present on detailing of RC members."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về cấu tạo của cấu kiện bê tông cốt thép.",
+            "en": "- To discuss on the detailing of RC members."
+          },
+          "chuandaura": {
+            "id": 52547,
+            "ma": "L.O.2.6",
+            "ten": {
+              "vi": "Thực hành được cấu tạo cấu kiện BTCT",
+              "en": "To be able to practice detailing of structural RC members"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25831,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25830,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Nguyên lý thiết kế và cấu tạo\n3.1 Các yêu cầu cơ bản\n3.2 Qui trình thiết kế\n3.3 Các trạng thái giới hạn\n3.3.1 Trạng thái giới hạn về độ bền (TTGH 1)\n3.3.2 Trạng thái giới hạn về sử dụng (TTGH 2)\n3.4 Tải trọng và tác động\n3.4.1 Tải trọng\n3.4.2 Tổ hợp tải trọng và hệ số tổ hợp\n3.5 Phương pháp phân tích\n3.5.1 Đàn hồi tuyến tính\n3.5.2 Sự tái phân bố mô men\n3.6 Cấu tạo\n3.6.1 Hình dạng và kích thước tiết diện\n3.6.2 Chiều dày lớp bê tông bảo vệ\n3.6.3 Khoảng cách giữa các cốt thép\n3.6.4 Qui định về cắt và uốn cốt thép\n3.6.5 Qui định và phương pháp neo, nối cốt thép",
+        "en": "Chapter 3: Conceptual design and detailing\n3.1 Fundamental requirements\n3.2 Design procedure\n3.3 Limit states\n3.3.1 Ultimate limit states(ULS)\n3.3.2 Serviceability limit states (SLS)\n3.4 Loads and actions\n3.4.1 Loads\n3.4.2 Combination of actions\n3.5 Calculation methods\n3.5.1 Analysis based on linear elasticity\n3.5.2 Moment redistribution\n3.6 Detailing\n3.6.1 Shapes and cross-sectional  dimensions of members\n3.6.2 Concrete cover\n3.6.3 Rebars spacing\n3.6.4 Requirements of forms, cutting-off, and bends of rebars\n3.6.5 Requirements of anchorage and lap of rebars"
+      }
+    },
+    {
+      "id": 12174,
+      "stt": 5,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 16217,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày về trạng thái ứng suất - biến dạng của tiết diện ",
+            "en": "- To present on stress–strain distribution across a section"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về các dạng phá hoại uốn của dầm \n- Thảo luận về chiều cao vùng nén giới hạn.\n",
+            "en": "- To discuss on the failure modes\n- To discuss on the allowable depth of concrete compressive area."
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25837,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25836,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Cấu kiện chịu uốn - cắt\n4.1 Giới thiệu\n4.2 Trạng thái ứng suất - biến dạng của tiết diện\n4.2.1 Các giả thiết cơ bản\n4.2.2 Các giai đoạn làm việc của tiết diện\n4.2.3 Vùng ứng suất nén tương đương\n4.2.4 Biến dạng nén của bê tông và quan hệ tương thích về biến dạng",
+        "en": "Chapter 4: Members in flexure - shear\n4.1 Introduction\n4.2 Stress–strain distribution across a section\n4.2.1 Assumptions\n4.2.2 Working stages\n4.2.3 Equivalent compressive stress block\n4.2.4 Strain distribution of concrete and reinforcement"
+      }
+    },
+    {
+      "id": 12175,
+      "stt": 6,
+      "buoi": "5-1",
+      "chuandaurachitiet": [
+        {
+          "id": 16218,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày thiết kế kháng uốn cho dầm tiết diện chữ nhật đặt cốt đơn và cốt kép",
+            "en": "- Singly and doubly reinforced rectangular section\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thực hành đề xuất kích thước tiết diện hợp lý.",
+            "en": "To practice on selection of section reasonably."
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25838,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25839,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4.3 Thiết kế kháng uốn\n4.3.1 Tiết diện chữ nhật đặt cốt đơn\n4.3.2 Tiết diện chữ nhật đặt cốt kép",
+        "en": "4.3 Flexural design\n4.3.1 Singly reinforced rectangular section \n4.3.2 Double reinforced rectangular section"
+      }
+    },
+    {
+      "id": 12182,
+      "stt": 7,
+      "buoi": "5-2",
+      "chuandaurachitiet": [
+        {
+          "id": 16225,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày ví dụ minh họa",
+            "en": "- To present excersice"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thực hành bài tập.",
+            "en": " - To do excersice."
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25853,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11297,
+                "ma": "A.O.1.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 25852,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ví dụ minh họa – Thiết kế và kiểm tra khả năng kháng uốn dầm tiết diện chữ nhật đặt cốt đơn",
+        "en": "Exsercise – Design of single reinforced rectangular section"
+      }
+    },
+    {
+      "id": 12194,
+      "stt": 8,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 16234,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày thiết kế kháng uốn cho dầm tiết diện chữ T, đặt cốt đơn và cốt kép.\n",
+            "en": "- Singly and doubly reinforced T section"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về biểu đồ bao vật liệu và cách thiết lập.",
+            "en": "- Estimate the envelop of resisting moment\n"
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25870,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25871,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4.3.3 Tiết diện chữ T\n4.3.4 Điều kiện hàm lượng cốt thép tối thiểu và tối đa\n4.3.5 Thiết kế có xét đến sự tái phân bố mô men \n4.3.6 Biểu đồ bao vật liệu",
+        "en": "4.3.3 T - section\n4.3.4 Minimum and maximum reinforcement ratio\n4.3.5 Design considering moment redistribution \n4.3.6 Envelop of resisting moment"
+      }
+    },
+    {
+      "id": 12186,
+      "stt": 9,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 16228,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày về thiết kế kháng cắt. ",
+            "en": "- To present on shear design."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về các phương pháp xác định khả năng kháng cắt.",
+            "en": "- Discuss on the Calculation methods"
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25858,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25859,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4.4 Thiết kế kháng cắt\n4.4.1 Giới thiệu\n4.4.2 Ứng suất nén-kéo chính và trường ứng suất trong dầm\n4.4.3 Ứng xử và các cơ chế kháng cắt trong dầm\n4.4.4 Các phương pháp xác định khả năng kháng cắt \n4.4.4 Điều kiện độ bền trên tiết diện nghiêng",
+        "en": "4.4 Shear design\n4.4.1 Introduction\n4.4.2 Principal stress field\n4.4.3 Shear mechanism\n4.4.4 Calculation methods\n4.4.4 Inclined-section analysis"
+      }
+    },
+    {
+      "id": 12191,
+      "stt": 10,
+      "buoi": "8-1",
+      "chuandaurachitiet": [
+        {
+          "id": 16232,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày ví dụ minh họa",
+            "en": "- To present excersice"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thực hành bài tập.",
+            "en": "- To do excersice"
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25867,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11297,
+                "ma": "A.O.1.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 25866,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ví dụ minh họa – Thiết kế kháng cắt cho dầm tiết diện chữ nhật",
+        "en": "Excersice  – Shear design of reinforced rectangular concrete beams"
+      }
+    },
+    {
+      "id": 12190,
+      "stt": 11,
+      "buoi": "8-2",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "KIỂM TRA GIỮA KỲ (tiết đầu)",
+        "en": "MID-EXAM"
+      }
+    },
+    {
+      "id": 12178,
+      "stt": 12,
+      "buoi": "8-3",
+      "chuandaurachitiet": [
+        {
+          "id": 16221,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Sắp xếp thời gian trong tuần thứ 8 sau buổi học lý thuyết, tự xin phòng hướng dẫn sinh viên làm đồ án về thiết kế và cấu tạo thép cho một dầm BTCT liên tục trong vòng 2 tiết.",
+            "en": "- To give project on design of a continuous beam"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm theo nhóm, tại nhà và nộp sau một tuần ",
+            "en": "- To do in groups, at home, and submitted to the instructor after one week."
+          },
+          "chuandaura": {
+            "id": 52550,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học vào phân tích, đề xuất phương án thiết kế hợp lý, tính toán các cấu kiện và chi tiết liên kết trong kết cấu BTCT",
+              "en": "To be able to apply studied knowledge on analyzing and proposing reasonable alternatives in design and calculation of structural RC members"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25845,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11298,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Làm bài tập lớn theo nhóm",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 25844,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11299,
+                "ma": "A.O.2.2",
+                "ten": {
+                  "vi": "Trả lời vấn đáp",
+                  "en": "Answer the questions"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "BÀI TẬP LỚN SỐ 1 - Thiết kế và cấu tạo thép cho dầm BTCT liên tục",
+        "en": "Project No. 1  – Design of a continuous beam."
+      }
+    },
+    {
+      "id": 12184,
+      "stt": 13,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 16227,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày về ứng xử của cột nén đúng và lệch tâm",
+            "en": "- To present on behavior of members under axial or eccentric compressive loading"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Phân biệt được sự khác biệt giữa ứng xử của cột chịu nén đúng tâm và lệch tâm\n- Nắm vững các khái niệm về chiều dài làm việc, độ mảnh, độ lệch tâm; thảo luận về ảnh hưởng của uốn dọc.",
+            "en": "- Distinguish the behavior of two members\n- Master the effective length and slenderness ratio of columns; the effect of column deformation."
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25856,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25857,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Cấu kiện chịu nén\n5.1 Giới thiệu\n5.2 Cấu kiện chịu nén đúng tâm\n5.3 Cấu kiện chịu nén lệch tâm\n5.3.1 Ứng xử của cột chịu nén lệch tâm\n5.3.2 Chiều dài làm việc và độ mảnh của cột\n5.3.3 Ảnh hưởng của uốn dọc\n5.3.4 Độ lệch tâm",
+        "en": "Chapter 5: Members resisting moments and axial compressive forces\n5.1 Introduction\n5.2 Axially compressive loaded members \n5.3 Members subject to axial compressive force and moment about one axis\n5.3.1 Behavior of columns under eccentric compresion\n5.3.2 Effective length and slenderness ratio of columns\n5.3.3 Effect of column deformation (second order effect)\n5.3.4 Eccentricities"
+      }
+    },
+    {
+      "id": 12187,
+      "stt": 14,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 16229,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày qui trình thiết kế cột nén lệch tâm một phương: (a) phương pháp thiết kế trực tiếp; (b) đường cong tương tác N-M.",
+            "en": "- To introduce on direct design method and interactive diagram N-M method."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về phương pháp thiết kế trực tiếp.\n- Thảo luận về phương pháp đường cong tương tác.\n",
+            "en": "- Discuss the direct design method.\n- Discuss the interactive diagram N-M."
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25861,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25860,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "5.3.5 Cột nén lệch tâm bé\n5.3.6 Cột nén lệch tâm lớn\n5.3.7 Thiết kế cột nén lệch tâm một phương\n(a) Phương pháp thiết kế trực tiếp\n(b) Đường cong tương tác N-M",
+        "en": "5.3.5 Small eccentricity\n5.3.6 Large eccentricity\n5.3.7 Design of columns resisting axial compressive force and one-axis bending moment\n(a) Direct design method\n(b) Interactive diagram N-M"
+      }
+    },
+    {
+      "id": 12177,
+      "stt": 15,
+      "buoi": "11-1",
+      "chuandaurachitiet": [
+        {
+          "id": 16220,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu phương pháp thiết kế cột nén lệch tâm 2 phương.",
+            "en": "- To present on design method of columns resisting axial force and bi-axial bending moments."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về phương pháp thiết kế trực tiếp dựa trên phương trình cân bằng.",
+            "en": "- To discuss the direct design method based on equilibrium equations."
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25842,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25843,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "5.3.8 Thiết kế cột chịu nén lệch tâm hai phương\n",
+        "en": "5.3.8 Columns resisting axial force and bi-axial bending moments\n"
+      }
+    },
+    {
+      "id": 12180,
+      "stt": 16,
+      "buoi": "11-2",
+      "chuandaurachitiet": [
+        {
+          "id": 16223,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Sắp xếp thời gian trong tuần thứ 11 sau buổi học lý thuyết, tự xin phòng hướng dẫn sinh viên làm đồ án về thiết kế và cấu tạo thép cho cột chịu nén lệch tâm trong vòng 2 tiết.",
+            "en": "- To give project on design of a column in combined compression-flexure."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm và nộp tại lớp ",
+            "en": "To do and submit the problem."
+          },
+          "chuandaura": {
+            "id": 52549,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thực hành được trình bày thuyết minh tính toán rõ ràng, cẩn thận và khoa học",
+              "en": "To be able to conduct a calculation report clearly, precisely and scientifically"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25849,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11297,
+                "ma": "A.O.1.3",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 25848,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ví dụ minh họa – Thiết kế cột tiết diện chữ nhật chịu nén một phương.\n",
+        "en": "Exercise  – Design of columns subject to axial compressive force and one-axis bending moment.\n"
+      }
+    },
+    {
+      "id": 12189,
+      "stt": 17,
+      "buoi": "11-3",
+      "chuandaurachitiet": [
+        {
+          "id": 16231,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Sắp xếp thời gian trong tuần thứ 11 sau buổi học lý thuyết, tự xin phòng hướng dẫn sinh viên làm đồ án về thiết kế và cấu tạo thép cho cột chịu nén lệch tâm trong vòng 2 tiết",
+            "en": "- To give projetct on design of a column in combined compression-flexure"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Làm theo nhóm, tại nhà và nộp sau một tuần",
+            "en": " - To do in groups, at home, and submitted to the instructor after one week."
+          },
+          "chuandaura": {
+            "id": 52550,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học vào phân tích, đề xuất phương án thiết kế hợp lý, tính toán các cấu kiện và chi tiết liên kết trong kết cấu BTCT",
+              "en": "To be able to apply studied knowledge on analyzing and proposing reasonable alternatives in design and calculation of structural RC members"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25864,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11298,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Làm bài tập lớn theo nhóm",
+                  "en": "Group project"
+                }
+              }
+            },
+            {
+              "id": 25865,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11299,
+                "ma": "A.O.2.2",
+                "ten": {
+                  "vi": "Trả lời vấn đáp",
+                  "en": "Answer the questions"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "BÀI TẬP LỚN SỐ 2 - Thiết kế cột chịu nén lệch tâm hai phương",
+        "en": "Assignment No. 2 - Design of a column in combined compression-flexure "
+      }
+    },
+    {
+      "id": 12176,
+      "stt": 18,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 16219,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày về cấu kiện chịu kéo.",
+            "en": "- To present on tensile members."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận ứng xử cột chịu kéo.",
+            "en": "- To discuss the behavior of tensile members."
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25840,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25841,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6 : Cấu kiện chịu kéo\n6.1 Giới thiệu\n6.2 Cấu kiện chịu kéo đúng tâm\n6.3 Cấu kiện chịu kéo lệch tâm",
+        "en": "Chapter 6: Members subject to tensile forces\n6.1 Introduction\n6.2 Axially tensile loaded members\n6.3 Members resisting eccentric tension"
+      }
+    },
+    {
+      "id": 12193,
+      "stt": 19,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 16233,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu trạng thái giới hạn sử dụng\n- Trình bày các điều kiện về nứt võng\n- Trình bày và giải thích các khái niệm về độ cong và độ cứng kháng uốn của tiết diện",
+            "en": "- Giới thiệu trạng thái giới hạn sử dụng / Introduce Serviceability Limit States\n- Trình bày các điều kiện về nứt võng / Requirements for cracks and deflection\n- Trình bày và giải thích các khái niệm về độ cong và độ cứng kháng uốn của tiết diện / Curvature and flexural stifness of cross-section"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Hiểu được ứng xử nứt, võng của cấu kiện chịu uốn\n- Nắm và tính toán được: (a) Mô đun kháng nứt dẻo của tiết diện Wpl; (b) Chiều cao bê tông vùng nén của tiết diện sau khi đã nứt; (c) Độ cong toàn phần. ",
+            "en": "- Study on behavior of crack and deflection\n- Determine the (a) Plastic sectional modulus; (b) Depth of concrete compressive area; (c) Total curvature. "
+          },
+          "chuandaura": {
+            "id": 52546,
+            "ma": "L.O.2.5",
+            "ten": {
+              "vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+              "en": "To be able to practice design fundamental structural RC members according to the limit states"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25868,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25869,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Thiết kế theo trạng thái giới hạn sử dụng (TTGH2)\n7.1 Giới thiệu\n7.2 Điều kiện về nứt và võng\n7.3 Độ cong và độ cứng kháng uốn của tiết diện\n7.3.1 Mô đun kháng nứt dẻo của tiết diện\n7.3.2 Chiều cao bê tông vùng nén của tiết diện sau khi đã nứt\n7.3.3 Độ cong toàn phần",
+        "en": "Chapter 7: Design according to Serviceability Limit States\n7.1 Introduction\n7.2 Requirements for cracks and deflection \n7.3 Curvature and flexural stifness of cross-section\n7.3.1 Plastic sectional modulus\n7.3.2 Depth of concrete compressive area\n7.3.3 Total curvature"
+      }
+    },
+    {
+      "id": 12179,
+      "stt": 20,
+      "buoi": "14-1",
+      "chuandaurachitiet": [
+        {
+          "id": 16222,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Mô hình và phương pháp xác định bề rộng vết nứt\n- Mô hình và phương pháp xác định độ võng",
+            "en": "- Model and calculation method for cracking.\n- Model and calculation method for deflection."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về mô hình và phương pháp xác định bề rộng vết nứt\n- Thảo luận về mô hình và phương pháp xác định độ võng",
+            "en": "- Discuss the model and calculation method for cracking.\n- Discuss the model and calculation method for deflection.\n"
+          },
+          "chuandaura": {
+            "id": 52550,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Vận dụng được kiến thức đã học vào phân tích, đề xuất phương án thiết kế hợp lý, tính toán các cấu kiện và chi tiết liên kết trong kết cấu BTCT",
+              "en": "To be able to apply studied knowledge on analyzing and proposing reasonable alternatives in design and calculation of structural RC members"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25846,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 11295,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Bài tập nhanh theo nhóm",
+                  "en": "Quick exersice in groups"
+                }
+              }
+            },
+            {
+              "id": 25847,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11296,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Câu hỏi trắc nghiệm ",
+                  "en": "Quiz"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "7.4 Mô hình và phương pháp xác định bề rộng vết nứt\n7.4.1 Vết nứt do uốn\n7.4.2 Vết nứt do cắt\n7.5 Mô hình và phương pháp xác định độ võng\n7.5.1. Độ võng khi cấu kiện chưa nứt\n7.5.2. Độ võng khi cấu kiện đã nứt",
+        "en": "7.4 Model and calculation method\n7.4.1 Flexural cracks\n7.4.2 Shear cracks\n7.5 Model and calculation method\n7.5.1. Deflection of uncracked members\n7.5.2. Deflection of cracked members"
+      }
+    },
+    {
+      "id": 12188,
+      "stt": 21,
+      "buoi": "14-2",
+      "chuandaurachitiet": [
+        {
+          "id": 16230,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Sắp xếp thời gian trong tuần thứ 14 sau buổi học lý thuyết, tự xin phòng hướng dẫn sinh viên làm đồ án về  kiểm tra võng – nứt cho dầm liên tục.",
+            "en": "- To give a project on the calculation of crack width and deflection of a continuous beam."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm theo nhóm, tại nhà và nộp sau một tuần.",
+            "en": "Do in groups, at home, and submitted to the instructor after one week."
+          },
+          "chuandaura": {
+            "id": 52551,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Vận dụng được phương pháp và kỹ năng thiết kế bộ phận kết cấu BTCT",
+              "en": "To be able to apply methods and skills in design of structural RC members"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 25863,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 11299,
+                "ma": "A.O.2.2",
+                "ten": {
+                  "vi": "Trả lời vấn đáp",
+                  "en": "Answer the questions"
+                }
+              }
+            },
+            {
+              "id": 25862,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 11298,
+                "ma": "A.O.2.1",
+                "ten": {
+                  "vi": "Làm bài tập lớn theo nhóm",
+                  "en": "Group project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "BÀI TẬP LỚN SỐ 3 – Kiểm tra võng – nứt cho dầm liên tục",
+        "en": "Project No. 3 – Calculation of crack width and deflection of a continuous beam "
+      }
+    },
+    {
+      "id": 12185,
+      "stt": 22,
+      "buoi": "15",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "ÔN TẬP THI CUỐI KỲ",
+        "en": "REVIEW AND SUMMARY"
+      }
+    },
+    {
+      "id": 12192,
+      "stt": 23,
+      "buoi": "-",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "THI CUỐI KỲ",
+        "en": "FINAL EXAM"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 52540,
+      "ma": "L.O.1.1",
+      "ten_vi": "Vận dụng được các kiến thức về đặc tính cơ lý của vật liệu bê tông, cốt thép, sự làm việc chung giữa bê tông và cốt thép; các kiến thức về ứng xử, nguyên lý thiết kế và cấu tạo cấu kiện bê tông cốt thép căn bản vào phân tích cấu kiện bê tông cốt thép cơ bản",
+      "ten_en": "To be able to apply knowledge about the mechanical behavior of steel material and their physical and mechanical properties, the behavior of composite action of concrete and steel reinforcing bar, the principles of design and detailing of fundamental structrural reinforced concrete members in to anlyzing fundamental structrural reinforced concrete members.",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 52542,
+      "ma": "L.O.2.1",
+      "ten_vi": "Vận dụng được các yêu cầu cơ bản trong thiết kế ",
+      "ten_en": "To be able to apply fundamental requirements of the design",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 52543,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thực hành được qui trình thiết kế",
+      "ten_en": "To be able to practice design procedure",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 52544,
+      "ma": "L.O.2.3",
+      "ten_vi": "Thực hành tính toán được tải trọng và tác động",
+      "ten_en": "To able to calculate loading and actions",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 52545,
+      "ma": "L.O.2.4",
+      "ten_vi": "Thực hành tính toán được nội lực trong cấu kiện BTCT",
+      "ten_en": "To be able to apply analysis methods for determination of internal forces of RC members",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 52546,
+      "ma": "L.O.2.5",
+      "ten_vi": "Thực hành được thiết kế cấu kiện theo các trạng thái giới hạn",
+      "ten_en": "To be able to practice design fundamental structural RC members according to the limit states",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 11297,
+          "ma": "A.O.1.3",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exercise"
+        }
+      ]
+    },
+    {
+      "id": 52547,
+      "ma": "L.O.2.6",
+      "ten_vi": "Thực hành được cấu tạo cấu kiện BTCT",
+      "ten_en": "To be able to practice detailing of structural RC members",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        }
+      ]
+    },
+    {
+      "id": 52549,
+      "ma": "L.O.3.1",
+      "ten_vi": "Thực hành được trình bày thuyết minh tính toán rõ ràng, cẩn thận và khoa học",
+      "ten_en": "To be able to conduct a calculation report clearly, precisely and scientifically",
+      "hddg": [
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 11297,
+          "ma": "A.O.1.3",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exercise"
+        }
+      ]
+    },
+    {
+      "id": 52550,
+      "ma": "L.O.3.2",
+      "ten_vi": "Vận dụng được kiến thức đã học vào phân tích, đề xuất phương án thiết kế hợp lý, tính toán các cấu kiện và chi tiết liên kết trong kết cấu BTCT",
+      "ten_en": "To be able to apply studied knowledge on analyzing and proposing reasonable alternatives in design and calculation of structural RC members",
+      "hddg": [
+        {
+          "id": 11295,
+          "ma": "A.O.1.1",
+          "ten_vi": "Bài tập nhanh theo nhóm",
+          "ten_en": "Quick exersice in groups"
+        },
+        {
+          "id": 11296,
+          "ma": "A.O.1.2",
+          "ten_vi": "Câu hỏi trắc nghiệm ",
+          "ten_en": "Quiz"
+        },
+        {
+          "id": 11298,
+          "ma": "A.O.2.1",
+          "ten_vi": "Làm bài tập lớn theo nhóm",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 11299,
+          "ma": "A.O.2.2",
+          "ten_vi": "Trả lời vấn đáp",
+          "ten_en": "Answer the questions"
+        }
+      ]
+    },
+    {
+      "id": 52551,
+      "ma": "L.O.3.3",
+      "ten_vi": "Vận dụng được phương pháp và kỹ năng thiết kế bộ phận kết cấu BTCT",
+      "ten_en": "To be able to apply methods and skills in design of structural RC members",
+      "hddg": [
+        {
+          "id": 11298,
+          "ma": "A.O.2.1",
+          "ten_vi": "Làm bài tập lớn theo nhóm",
+          "ten_en": "Group project"
+        },
+        {
+          "id": 11299,
+          "ma": "A.O.2.2",
+          "ten_vi": "Trả lời vấn đáp",
+          "ten_en": "Answer the questions"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Kết cấu Bê tông Cốt thép",
+  "tenmonhoc_eng": "Reinforced Concrete Structures",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

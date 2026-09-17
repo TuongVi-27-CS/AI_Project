@@ -1,0 +1,1854 @@
+{
+  "ma": "DCMH.EE5435.1.1",
+  "phienban": "1.1",
+  "capnhat": "01/06/2026 15:03",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5435",
+  "ten": "EE5435 - Thiết kế PCB và Phân tích toàn vẹn Tín hiệu và công suất ",
+  "ten_eng": "EE5435 - Advanced PCB Design and Power/Signal Integrity",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học nhằm trang bị cho sinh viên kiến thức và kỹ năng cần thiết để thiết kế và phân tích các mạch điện tử trên PCB, đặc biệt đối với các mạch xử lý tín hiệu và mạch nguồn, đáp ứng các yêu cầu về toàn vẹn tín hiệu (Signal Integrity) và toàn vẹn công suất (Power Integrity) trong các hệ thống điện tử hiện đại.</p><p>Sau khi hoàn thành môn học, sinh viên có khả năng:</p><p></p><ol><li>Thiết kế nguyên lý các mạch xử lý tín hiệu và mạch nguồn cơ bản, làm nền tảng cho việc triển khai hệ thống điện tử trên PCB.</li><li>Thực hiện thiết kế layout PCB cho các mạch xử lý tín hiệu và mạch nguồn theo các quy tắc thiết kế tiêu chuẩn, đảm bảo tính khả thi trong chế tạo và tích hợp hệ thống.</li><li>Phân tích và áp dụng các nguyên lý Signal Integrity trong thiết kế PCB nhằm giảm nhiễu, phản xạ tín hiệu và đảm bảo chất lượng truyền tín hiệu trong các mạch tốc độ cao.</li><li>Phân tích và áp dụng các nguyên lý Power Integrity để thiết kế mạng phân phối nguồn (Power Distribution Network – PDN) ổn định, đảm bảo độ tin cậy và hiệu năng của hệ thống điện tử.</li><li>Phát triển tư duy thiết kế PCB theo hướng kỹ thuật hệ thống, kết hợp giữa thiết kế mạch nguyên lý, bố trí PCB và phân tích hiệu năng điện từ, đáp ứng yêu cầu của các hệ thống điện tử hiện đại như hệ thống nhúng, thiết kế vi mạch và thiết bị điện tử tốc độ cao.</li></ol><p></p>",
+      "en": "<p>This course aims to equip students with the essential knowledge and practical skills required to design and analyze electronic circuits on printed circuit boards (PCBs), particularly for signal processing circuits and power circuits, in order to meet the requirements of Signal Integrity (SI) and Power Integrity (PI) in modern electronic systems.</p><p>After completing this course, students will be able to:<br></p><ol><li>Design the schematics of basic signal processing circuits and power circuits, providing a foundation for implementing electronic systems on PCBs.</li><li>Develop PCB layouts for signal processing and power circuits in accordance with standard design rules to ensure manufacturability and effective system integration.</li><li>Analyze and apply Signal Integrity principles in PCB design to reduce noise, minimize signal reflections, and ensure reliable signal transmission in high-speed circuits.</li><li>Analyze and apply Power Integrity principles to design stable Power Distribution Networks (PDNs), ensuring the reliability and performance of electronic systems.</li><li>Develop a system-level approach to PCB design, integrating schematic design, PCB layout, and electromagnetic performance analysis to meet the requirements of modern electronic systems such as embedded systems, integrated circuit (IC) design, and high-speed electronic devices.</li></ol><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học này giới thiệu các nguyên lý và phương pháp trong thiết kế PCB và phân tích toàn vẹn tín hiệu – công suất cho các hệ thống điện tử. Nội dung môn học bao gồm thiết kế sơ đồ nguyên lý cho các mạch xử lý tín hiệu và mạch nguồn, kỹ thuật layout PCB, các vấn đề liên quan đến toàn vẹn tín hiệu (Signal Integrity) và phân tích toàn vẹn công suất (Power Integrity). Sinh viên sẽ được học các phương pháp thiết kế, chiến lược định tuyến (routing), kỹ thuật nối đất (grounding) và thiết kế mạng phân phối nguồn (Power Distribution Network – PDN) nhằm đảm bảo các hệ thống PCB có hiệu năng cao và độ tin cậy tốt.<br></p>",
+      "en": "<p>This course introduces the principles of PCB design and integrity analysis for electronic systems. Topics include schematic design of signal processing and power circuits, PCB layout techniques, signal integrity considerations, and power integrity analysis. Students will learn design methodologies, routing strategies, grounding techniques, and power distribution network design to ensure reliable high-performance PCB systems.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Textbook:&nbsp;<br><br>[1] Eric Bogatin,&nbsp;Signal and Power Integrity – Simplified,&nbsp;Prentice Hall / Pearson Education, 3rd Edition, 2018.<br><br>References<br><br>[2] Howard Johnson, Martin Graham,&nbsp;High-Speed Digital Design: A Handbook of Black Magic,&nbsp;Prentice Hall, 1993.<br><br>[3] Lee W. Ritchey,&nbsp;Right the First Time: A Practical Handbook on High-Speed PCB and System Design,&nbsp;Speeding Edge, 2003.<br><br>[4] Bruce Archambeault,&nbsp;PCB Design for Real-World EMI Control,&nbsp;Springer, 2002.<br></p>",
+      "en": "<p>\n\nTextbook: <br><br>[1] Eric Bogatin, Signal and Power Integrity – Simplified, Prentice Hall / Pearson Education, 3rd Edition, 2018.<br><br>References<br><br>[2] Howard Johnson, Martin Graham, High-Speed Digital Design: A Handbook of Black Magic, Prentice Hall, 1993.<br><br>[3] Lee W. Ritchey, Right the First Time: A Practical Handbook on High-Speed PCB and System Design, Speeding Edge, 2003.<br><br>[4] Bruce Archambeault, PCB Design for Real-World EMI Control, Springer, 2002.\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\nĐiều kiện dự thi: Hoàn thành tất cả bài tập chương và bài tập lớn \n\n<br></p><p><br></p>",
+      "en": "<p>Eligibility for the examination: Students must complete all chapter assignments and the course project<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 9930,
+      "ma": "NG_KDT_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Kỹ Thuật Điện Tử",
+        "en": "Master Training Program in Electronic Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 514,
+      "ma": "003176",
+      "ten": "TRẦN HOÀNG LINH"
+    },
+    {
+      "id": 513,
+      "ma": "003169",
+      "ten": "NGUYỄN LÝ THIÊN TRƯỜNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 70,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Bộ môn Điện tử - P. 203B3",
+      "dienThoai": "0945303030"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 514,
+        "maGiangVien": "003176",
+        "tenGiangVien": "TRẦN HOÀNG LINH",
+        "emailGiangVien": "linhtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2035 - Mạch điện tử",
+        "en": "EE2035 - Electronic Circuits"
+      },
+      "tenmonhoc_only": {
+        "vi": "Mạch điện tử",
+        "en": "Electronic Circuits"
+      },
+      "mamonhoc": "EE2035"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 89930,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 89931,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "89930",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tự kiểm tra tại nhà",
+        "en": "Self-assessment homework"
+      },
+      "noidung": {
+        "vi": "Bài tập tự kiểm tra tại nhà",
+        "en": "Self-assessment homework"
+      }
+    },
+    {
+      "id": 89932,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "89930",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Big project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Big project "
+      }
+    },
+    {
+      "id": 89933,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "89930",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 111255,
+      "stt": 1,
+      "buoi": "Tuần 1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Chương 1: Tổng quan về thiết kế PCB\n- Vai trò của PCB trong hệ thống điện tử hiện đại\n- Quy trình thiết kế PCB từ schematic đến sản xuất\n- Các loại PCB và công nghệ chế tạo\n- Giới thiệu các công cụ thiết kế PCB",
+        "en": "Chapter 1: Introduction to PCB Design\n- Role of PCBs in modern electronic systems\n- PCB design flow from schematic to manufacturing\n- PCB technologies and board structures\n- Introduction to PCB design tools"
+      }
+    },
+    {
+      "id": 111261,
+      "stt": 2,
+      "buoi": "Tuần 1+2",
+      "chuandaurachitiet": [
+        {
+          "id": 147897,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240414,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích yêu cầu chức năng và lựa chọn linh kiện phù hợp cho các mạch xử lý tín hiệu trong hệ thống điện tử",
+              "en": "Analyze the functional requirements and select appropriate components for signal-processing circuits in electronic systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242028,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 241993,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241992,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89933,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147905,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240416,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Thiết kế sơ đồ nguyên lý (schematic) cho các mạch xử lý tín hiệu và mạch nguồn bằng công cụ thiết kế PCB",
+              "en": "Design schematics of signal processing and power supply circuits using PCB design tools"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242010,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242011,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Thiết kế mạch xử lý tín hiệu cơ bản\n- Mạch khuếch đại cơ bản\n- Mạch lọc cơ bản\n- Mạch đóng ngắt \n- Mạch so sánh\n- Mạch giao tiếp tín hiệu analog và digital\n- Các vấn đề nhiễu trong mạch xử lý tín hiệu",
+        "en": "Chapter 2: Basic Signal Processing Circuit Design\n- Basic amplifier circuits\n- Basic filter circuits\n- Switching circuits\n- Comparator circuits\n- Analog–digital signal interface circuits\n- Noise issues in signal processing circuits"
+      }
+    },
+    {
+      "id": 111257,
+      "stt": 3,
+      "buoi": "Tuần 3+4",
+      "chuandaurachitiet": [
+        {
+          "id": 147899,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240415,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích yêu cầu chức năng và lựa chọn linh kiện phù hợp cho các mạch nguồn trong hệ thống điện tử",
+              "en": "Analyze the functional requirements and select appropriate components for power supply circuits in electronic systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241994,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 241995,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242007,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89933,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147900,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240416,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Thiết kế sơ đồ nguyên lý (schematic) cho các mạch xử lý tín hiệu và mạch nguồn bằng công cụ thiết kế PCB",
+              "en": "Design schematics of signal processing and power supply circuits using PCB design tools"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241996,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242008,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89933,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Thiết kế mạch nguồn cơ bản\n- LDO regulators\n- DC-DC converters\n- Thiết kế mạch ổn áp\n- Nguyên tắc lọc nguồn",
+        "en": "Chapter 3: Basic Power Circuit Design\n- Linear regulators (LDO)\n- Switching regulators (DC-DC converters)\n- Power filtering techniques\n- Basic power circuit design"
+      }
+    },
+    {
+      "id": 111258,
+      "stt": 4,
+      "buoi": "Tuần 5+6",
+      "chuandaurachitiet": [
+        {
+          "id": 147894,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240417,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Xây dựng thư viện linh kiện và footprint cho thiết kế PCB",
+              "en": "Develop component libraries and footprints for PCB design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242012,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242031,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147907,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240418,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thực hiện bố trí linh kiện (component placement) hợp lý trên PCB",
+              "en": "Perform appropriate component placement on PCBs"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242005,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 242023,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147903,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240419,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Thực hiện định tuyến mạch (routing) theo các quy tắc thiết kế PCB cơ bản",
+              "en": "Thực hiện định tuyến mạch (routing) theo các quy tắc thiết kế PCB cơ bản"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242026,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242027,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147906,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240420,
+            "ma": "L.O.2.4",
+            "ten": {
+              "vi": "Kiểm tra và đánh giá thiết kế PCB bằng các công cụ ERC và DRC",
+              "en": "Verify and evaluate PCB designs using ERC and DRC tools"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242024,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242013,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Thư viện PCB và kỹ thuật thiết kế Layout PCB\n- Thiết kế footprint cho linh kiện PCB\n- Các package IC phổ biến trong thiết kế PCB\n- Quản lý và xây dựng thư viện linh kiện PCB\n- Nguyên tắc bố trí linh kiện (Component Placement) trên PCB\n- Phân vùng mạch analog, digital và mạch nguồn\n- Các kỹ thuật định tuyến PCB (PCB Routing)\n- Thiết lập quy tắc thiết kế PCB (Design Rules)\n- Thiết kế cấu trúc lớp PCB (PCB Stack-up)\n- Nguyên tắc thiết kế ground plane và power plane\n- Các kỹ thuật nối đất và giảm nhiễu trong PCB",
+        "en": "Chapter 4: PCB Libraries and Layout Design Techniques\n- PCB footprint design\n- Common IC packages used in PCB design\n- PCB library creation and management\n- Component placement strategies\n- Analog, digital, and power domain partitioning\n- PCB routing techniques\n- PCB design rule configuration\n- PCB stack-up design\n- Ground plane and power plane design\n- Grounding strategies and noise reduction techniques"
+      }
+    },
+    {
+      "id": 111259,
+      "stt": 5,
+      "buoi": "Tuần 7",
+      "chuandaurachitiet": [
+        {
+          "id": 147895,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240421,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích các hiện tượng ảnh hưởng đến toàn vẹn tín hiệu như nhiễu, phản xạ tín hiệu và xuyên nhiễu",
+              "en": "Analyze signal integrity issues such as noise, signal reflection, and crosstalk"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242016,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 242006,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242017,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89933,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147898,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240423,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Đánh giá chất lượng truyền tín hiệu trong các mạch PCB tốc độ cao",
+              "en": "Evaluate signal transmission quality in high-speed PCB circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242019,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 242002,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242029,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89933,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Nguyên lý Signal Integrity trong thiết kế PCB\n- Tổng quan về Signal Integrity (SI) trong hệ thống điện tử tốc độ cao\n- Mô hình Transmission Line trong PCB\n- Hiện tượng phản xạ tín hiệu (Signal Reflection)\n- Ảnh hưởng của impedance mismatch\n- Crosstalk giữa các đường tín hiệu\n- Các nguồn nhiễu tín hiệu trong PCB",
+        "en": "Chapter 5: Signal Integrity Principles in PCB Design\n- Overview of signal integrity in high-speed electronic systems\n- Transmission line modeling in PCB traces\n- Signal reflection phenomena\n- Effects of impedance mismatch\n- Crosstalk between signal traces\n- Sources of signal noise in PCB systems"
+      }
+    },
+    {
+      "id": 111254,
+      "stt": 6,
+      "buoi": "Tuần 8",
+      "chuandaurachitiet": [
+        {
+          "id": 147908,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240422,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Áp dụng các kỹ thuật thiết kế PCB để cải thiện toàn vẹn tín hiệu",
+              "en": "Apply PCB design techniques to improve signal integrity"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242014,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242009,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147909,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240423,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Đánh giá chất lượng truyền tín hiệu trong các mạch PCB tốc độ cao",
+              "en": "Evaluate signal transmission quality in high-speed PCB circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242022,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 241998,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Kỹ thuật thiết kế PCB cho Signal Integrity\n- Thiết kế controlled impedance routing\n- Thiết kế differential pairs\n- Length matching cho tín hiệu tốc độ cao\n- Kỹ thuật giảm crosstalk\n- Thiết kế ground reference cho tín hiệu tốc độ cao\n- Các nguyên tắc layout cho high-speed PCB",
+        "en": "Chapter 6: PCB Design Techniques for Signal Integrity\n- Controlled impedance routing\n- Differential pair routing\n- Length matching for high-speed signals\n- Techniques for crosstalk reduction\n- Ground reference design for high-speed signals\n- Layout principles for high-speed PCB design"
+      }
+    },
+    {
+      "id": 111260,
+      "stt": 7,
+      "buoi": "Tuần 9",
+      "chuandaurachitiet": [
+        {
+          "id": 147893,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240424,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phân tích các vấn đề về nhiễu nguồn và ổn định điện áp trong hệ thống PCB",
+              "en": "Analyze power noise and voltage stability issues in PCB systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241997,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 242003,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242004,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89933,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147896,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240427,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Đánh giá hiệu năng của hệ thống nguồn trên PCB",
+              "en": "Evaluate the performance of PCB power delivery systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242018,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 242030,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241999,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89933,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Nguyên lý Power Integrity trong hệ thống PCB\n- Tổng quan về Power Integrity (PI)\n- Các nguồn nhiễu nguồn trong hệ thống điện tử\n- Khái niệm Power Distribution Network (PDN)\n- Ảnh hưởng của PDN đến độ ổn định điện áp\n- Ground bounce và nhiễu nguồn\n- Phân tích độ ổn định nguồn trong hệ thống số",
+        "en": "Chapter 7: Power Integrity Principles in PCB Systems\n- Overview of power integrity\n- Sources of power noise in electronic systems\n- Power Distribution Network (PDN) concepts\n- PDN impact on voltage stability\n- Ground bounce and power noise\n- Power stability analysis in digital systems"
+      }
+    },
+    {
+      "id": 111256,
+      "stt": 8,
+      "buoi": "Tuần 10",
+      "chuandaurachitiet": [
+        {
+          "id": 147904,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240425,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Thiết kế mạng phân phối nguồn (Power Distribution Network – PDN) cho hệ thống PCB",
+              "en": "Design power distribution networks (PDN) for PCB systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242025,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 242000,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147902,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240426,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Áp dụng các kỹ thuật giảm nhiễu nguồn như decoupling, grounding và bố trí lớp nguồn",
+              "en": "Apply power noise reduction techniques such as decoupling, grounding, and power plane design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242001,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 242020,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147901,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240427,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Đánh giá hiệu năng của hệ thống nguồn trên PCB",
+              "en": "Evaluate the performance of PCB power delivery systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242015,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89931,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tự kiểm tra tại nhà",
+                  "en": "Self-assessment homework"
+                }
+              }
+            },
+            {
+              "id": 242021,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89932,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8: Kỹ thuật thiết kế Power Integrity cho PCB\n- Thiết kế Power Distribution Network (PDN)\n- Decoupling capacitors và bypass capacitors\n- Nguyên tắc bố trí tụ decoupling\n- Thiết kế power plane và ground plane\n- Kỹ thuật giảm power noise\n- Đánh giá hiệu năng hệ thống phân phối nguồn",
+        "en": "Chapter 8: PCB Design Techniques for Power Integrity\n- Power distribution network design\n- Decoupling and bypass capacitors\n- Decoupling capacitor placement strategies\n- Power plane and ground plane design\n- Techniques for power noise reduction\n- Evaluation of power delivery performance"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 240414,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phân tích yêu cầu chức năng và lựa chọn linh kiện phù hợp cho các mạch xử lý tín hiệu trong hệ thống điện tử",
+      "ten_en": "Analyze the functional requirements and select appropriate components for signal-processing circuits in electronic systems",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89933,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240415,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích yêu cầu chức năng và lựa chọn linh kiện phù hợp cho các mạch nguồn trong hệ thống điện tử",
+      "ten_en": "Analyze the functional requirements and select appropriate components for power supply circuits in electronic systems",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89933,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240416,
+      "ma": "L.O.1.3",
+      "ten_vi": "Thiết kế sơ đồ nguyên lý (schematic) cho các mạch xử lý tín hiệu và mạch nguồn bằng công cụ thiết kế PCB",
+      "ten_en": "Design schematics of signal processing and power supply circuits using PCB design tools",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89933,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240417,
+      "ma": "L.O.2.1",
+      "ten_vi": "Xây dựng thư viện linh kiện và footprint cho thiết kế PCB",
+      "ten_en": "Develop component libraries and footprints for PCB design",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240418,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thực hiện bố trí linh kiện (component placement) hợp lý trên PCB",
+      "ten_en": "Perform appropriate component placement on PCBs",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240419,
+      "ma": "L.O.2.3",
+      "ten_vi": "Thực hiện định tuyến mạch (routing) theo các quy tắc thiết kế PCB cơ bản",
+      "ten_en": "Thực hiện định tuyến mạch (routing) theo các quy tắc thiết kế PCB cơ bản",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240420,
+      "ma": "L.O.2.4",
+      "ten_vi": "Kiểm tra và đánh giá thiết kế PCB bằng các công cụ ERC và DRC",
+      "ten_en": "Verify and evaluate PCB designs using ERC and DRC tools",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240421,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phân tích các hiện tượng ảnh hưởng đến toàn vẹn tín hiệu như nhiễu, phản xạ tín hiệu và xuyên nhiễu",
+      "ten_en": "Analyze signal integrity issues such as noise, signal reflection, and crosstalk",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89933,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240422,
+      "ma": "L.O.3.2",
+      "ten_vi": "Áp dụng các kỹ thuật thiết kế PCB để cải thiện toàn vẹn tín hiệu",
+      "ten_en": "Apply PCB design techniques to improve signal integrity",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240423,
+      "ma": "L.O.3.3",
+      "ten_vi": "Đánh giá chất lượng truyền tín hiệu trong các mạch PCB tốc độ cao",
+      "ten_en": "Evaluate signal transmission quality in high-speed PCB circuits",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89933,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240424,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phân tích các vấn đề về nhiễu nguồn và ổn định điện áp trong hệ thống PCB",
+      "ten_en": "Analyze power noise and voltage stability issues in PCB systems",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89933,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240425,
+      "ma": "L.O.4.2",
+      "ten_vi": "Thiết kế mạng phân phối nguồn (Power Distribution Network – PDN) cho hệ thống PCB",
+      "ten_en": "Design power distribution networks (PDN) for PCB systems",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240426,
+      "ma": "L.O.4.3",
+      "ten_vi": "Áp dụng các kỹ thuật giảm nhiễu nguồn như decoupling, grounding và bố trí lớp nguồn",
+      "ten_en": "Apply power noise reduction techniques such as decoupling, grounding, and power plane design",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240427,
+      "ma": "L.O.4.4",
+      "ten_vi": "Đánh giá hiệu năng của hệ thống nguồn trên PCB",
+      "ten_en": "Evaluate the performance of PCB power delivery systems",
+      "hddg": [
+        {
+          "id": 89931,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tự kiểm tra tại nhà",
+          "ten_en": "Self-assessment homework"
+        },
+        {
+          "id": 89932,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89933,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế PCB và Phân tích toàn vẹn Tín hiệu và công suất ",
+  "tenmonhoc_eng": "Advanced PCB Design and Power/Signal Integrity",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 4,
+      "ma": "pphtqnc",
+      "ten": {
+        "vi": "Phương pháp học tập qua nghiên cứu",
+        "en": "Research-based learning "
+      }
+    }
+  ]
+}

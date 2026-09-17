@@ -1,0 +1,529 @@
+[
+  {
+    "passage_id": "DCMH.CO5177.1.1_P1",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 1,
+    "section_path": [
+      "Thông tin chung",
+      "Mục tiêu môn học"
+    ],
+    "content_type": "paragraph",
+    "text": "Học phần trang bị cho học viên sau đại học năng lực lập trình cấp độ nghiên cứu để thực hiện toàn bộ vòng đời phân tích và trực quan hóa dữ liệu phục vụ luận văn/luận án. Trọng tâm không chỉ là viết được mã, mà là xây dựng quy trình phân tích tái lập được (reproducible research) - điều đã trở thành yêu cầu bắt buộc trong công bố khoa học hiện đại. Học viên làm chủ hệ sinh thái dữ liệu Python (pandas/Polars, SQL/DuckDB, NumPy/Arrow), trực quan hóa chất lượng xuất bản và tương tác, các thực hành kỹ thuật phần mềm cho nghiên cứu (Git, quản lý môi trường, container, kiểm thử, versioning dữ liệu, experiment tracking), đồng thời học cách sử dụng trợ lý lập trình AI và LLM một cách có phê phán và có trách nhiệm.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.mucTieuMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P2",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 2,
+    "section_path": [
+      "Thông tin chung",
+      "Nội dung tóm tắt môn học"
+    ],
+    "content_type": "paragraph",
+    "text": "Học phần gồm bốn mạch chính: (1) lập trình Python cho dữ liệu và xử lý dữ liệu bảng ở quy mô lớn (pandas, Polars, SQL/DuckDB); (2) phân tích khám phá dữ liệu (EDA) nghiêm ngặt về thống kê và trực quan hóa chất lượng xuất bản & tương tác; (3) quy trình nghiên cứu tái lập (Git, môi trường/container, Quarto, versioning dữ liệu, experiment tracking) và xây dựng data app; (4) sử dụng AI/LLM có phê phán cùng đạo đức và quản trị dữ liệu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.noiDungTomTatMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P3",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 3,
+    "section_path": [
+      "Thông tin chung",
+      "Tài liệu học tập"
+    ],
+    "content_type": "paragraph",
+    "text": "Giáo trình:. ● Wes McKinney, Python for Data Analysis, 3rd ed. (O'Reilly, 2023). ● Claus O. Wilke, Fundamentals of Data Visualization (O'Reilly, 2019). Tài liệu tham khảo:. ● Tài liệu chính thức: pandas, Polars, DuckDB, NumPy/Arrow, Altair/Vega-Lite, Plotly, Streamlit, Quarto. ● Jeroen Janssens & Thijs Nieuwdorp, Python Polars: The Definitive Guide (O'Reilly, 2025). ● Mark Needham, Michael Hunger & Michael Simons, DuckDB in Action (Manning, 2024). ● Cole Nussbaumer Knaflic, Storytelling with Data (O'Reilly, 2019). ● Wilson et al., Good Enough Practices in Scientific Computing.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.taiLieuHocTap.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P4",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 4,
+    "section_path": [
+      "Thông tin chung",
+      "Hướng dẫn cách học"
+    ],
+    "content_type": "paragraph",
+    "text": ". Tài liệu học tập gồm: đề cương môn học, slide bài giảng, bộ lab notebook được lưu trữ trên hệ thống quản lý học liệu của khoa/trường. Học viên cần tải về, xem trước khi lên lớp và mang theo máy tính cá nhân đã cài sẵn môi trường (Python, Git và các thư viện cần thiết) để thực hành ngay tại lớp. Bên cạnh tài liệu được cung cấp, học viên nên chủ động tìm thêm tài liệu liên quan từ Internet: tài liệu chính thức của các thư viện, chương trình/notebook mẫu, các tập dữ liệu mở (Kaggle, Hugging Face) và các mô hình tiền huấn luyện cho văn bản/hình ảnh khi cần cho đồ án. Việc dùng trợ lý lập trình AI/LLM được khuyến khích nhưng phải có phê phán - luôn kiểm chứng, hiểu rõ và ghi nguồn kết quả do AI sinh ra. Học viên cần tham gia đầy đủ các buổi học và tích cực trao đổi, đặt câu hỏi trên lớp để làm rõ các vấn đề. Ngoài giờ lên lớp, học viên nên nghiên cứu kỹ tài liệu, lập trình và thực hành nhiều hơn, duy trì kho mã (repository) một cách có tổ chức và tái lập được, đồng thời hoàn thành đầy đủ bài tập và đồ án gắn với chủ đề nghiên cứu của mình. Liêm chính học thuật và sử dụng công cụ AI:. + Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường. + Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung. + Khi có sử dụng AI trong quá trình lâm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú. + Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.huongDanCachHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P5",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 5,
+    "section_path": [
+      "Phân bổ thời gian"
+    ],
+    "content_type": "paragraph",
+    "text": "Phân bổ tín chỉ: {'soTC': 3, 'soTC_ETC': 6, 'lyThuyet': 2, 'baiTapThucHanh': 0.4, 'thiNghiem': 0, 'baiTapLon': 0.6, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 0, 'khac': 0} | Phân bổ tiết: {'tongSoTiet': 150, 'tongGioHocTapLamViec': 136.17, 'lyThuyet': 30, 'baiTapThucHanh': 12, 'thiNghiem': 0, 'baiTapLon': 27, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 66, 'khac': 15}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "pbsotc_pbsotiet"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P6",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 6,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[0].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P7",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 7,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[1].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P8",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 8,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[2].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P9",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 9,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[3].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P10",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 10,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[4].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P11",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 11,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[5].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P12",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 12,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[6].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P13",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 13,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[7].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P14",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 14,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[8].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P15",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 15,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[9].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P16",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 16,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[10].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P17",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 17,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[11].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P18",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 18,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[12].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P19",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 19,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[13].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P20",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 20,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97473, 'stt': 0, 'ma': 'A.O', 'capdo': '0', 'parentid': None, 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}, 'noidung': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P21",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 21,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.1"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97474, 'stt': 0, 'ma': 'A.O.1', 'capdo': '1', 'parentid': '97473', 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Bài tập', 'en': 'Exercise'}, 'noidung': {'vi': 'Trắc nghiệm, thực hành coding', 'en': 'Quiz, coding practice'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P22",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 22,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.2"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97475, 'stt': 0, 'ma': 'A.O.2', 'capdo': '1', 'parentid': '97473', 'loaihoatdong': {'ma': 'GPJ', 'ten': {'vi': 'Project nhóm', 'en': 'Group project'}}, 'ten': {'vi': 'Bài tập lớn', 'en': 'Assignment'}, 'noidung': {'vi': 'Project nhóm, thuyết trình', 'en': 'Group project, Presentation'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P23",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 23,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.3"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 97476, 'stt': 0, 'ma': 'A.O.3', 'capdo': '1', 'parentid': '97473', 'loaihoatdong': {'ma': 'EXM', 'ten': {'vi': 'Thi cuối kỳ', 'en': 'Final exam'}}, 'ten': {'vi': 'Thi cuối kỳ', 'en': 'Final Exam'}, 'noidung': {'vi': 'Thi cuối kỳ', 'en': 'Final Exam'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P24",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 24,
+    "section_path": [
+      "Nội dung chi tiết",
+      "1"
+    ],
+    "content_type": "paragraph",
+    "text": "Nền tảng & toolchain + Python cho nghiên cứu: vòng đời dữ liệu, khủng hoảng tái lập; cài đặt toolchain ((Python, uv, Git, VS Code, Colab/Jupyter/Marimo); Python idiomatic, type hints, hàm thuần, clean code. Hoạt động giảng viên: Thuyết giảng, Live coding Hoạt động sinh viên: Cài đặt môi trường, thực hành Git cơ bản, làm bài tập Python ngắn tại lớp. Hoạt động giảng viên: Thuyết giảng, live coding Hoạt động sinh viên: Cài đặt môi trường, thực hành Git cơ bản, làm bài tập Python ngắn tại lớp.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P25",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 25,
+    "section_path": [
+      "Nội dung chi tiết",
+      "2"
+    ],
+    "content_type": "paragraph",
+    "text": "Dữ liệu bảng với pandas: NumPy & tư duy vector hóa; pandas nạp/chọn/dtypes; nguyên tắc tidy data; làm sạch, xử lý thiếu, join, reshape, groupby. Hoạt động giảng viên: Live-coding pandas & tidy data; giải thích làm sạch, join, reshape, groupby. Hoạt động sinh viên: Hoàn thành notebook xử lý dữ liệu bảng.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P26",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 26,
+    "section_path": [
+      "Nội dung chi tiết",
+      "3"
+    ],
+    "content_type": "paragraph",
+    "text": "DataFrame & SQL: Polars + Arrow; xử lý dữ liệu lớn hơn RAM; SQL cho phân tích với DuckDB. Hoạt động giảng viên: Demo Polars (lazy) và DuckDB; đối chiếu với pandas; phân tích khi nào dùng công cụ nào. Hoạt động sinh viên: Chuyển một pipeline pandas sang Polars; viết truy vấn SQL trên file với DuckDB.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P27",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 27,
+    "section_path": [
+      "Nội dung chi tiết",
+      "4"
+    ],
+    "content_type": "paragraph",
+    "text": "EDA chuyên sâu: profiling, phân phối, tương quan, ngoại lệ; cạm bẫy thống kê - nghịch lý Simpson, confounding, data leakage, multiple testing; EDA tái lập. Hoạt động giảng viên: Giảng EDA & cạm bẫy thống kê; demo profiling; thảo luận các ca lỗi. Hoạt động sinh viên: Thực hiện EDA trên một tập dữ liệu; nhận diện cạm bẫy; chuẩn bị đề xuất chủ đề đồ án.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P28",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 28,
+    "section_path": [
+      "Nội dung chi tiết",
+      "5"
+    ],
+    "content_type": "paragraph",
+    "text": "Trực quan hóa I - chất lượng xuất bản: grammar of graphics; matplotlib/seaborn; nguyên tắc cảm nhận, màu, khả năng tiếp cận; figure cho paper. Hoạt động giảng viên: Giảng grammar of graphics & nguyên tắc trực quan; live-coding matplotlib/seaborn; critique figure. Hoạt động sinh viên: Dựng figure chất lượng xuất bản, xuất vector; tự phê bình theo checklist.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[4]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P29",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 29,
+    "section_path": [
+      "Nội dung chi tiết",
+      "6"
+    ],
+    "content_type": "paragraph",
+    "text": "Trực quan hóa II - tương tác & data app: Plotly & Altair/Vega-Lite; faceting, linked/brushed views; xây data app/dashboard (Streamlit/Gradio) để chia sẻ kết quả. Hoạt động giảng viên: Demo Plotly/Altair và data app Streamlit; hướng dẫn linked/faceted views. Hoạt động sinh viên: Xây một dashboard/data app nhỏ từ dữ liệu của mình. Hoạt động giảng viên: Demo Plotly/Altair và data app Streamlit; hướng dẫn linked/faceted views. Hoạt động sinh viên: Xây một dashboard/data app nhỏ từ dữ liệu của mình.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[5]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P30",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 30,
+    "section_path": [
+      "Nội dung chi tiết",
+      "7"
+    ],
+    "content_type": "paragraph",
+    "text": "Reproducible research toolkit: Git/GitHub workflow; môi trường (uv/conda) & giới thiệu Docker; versioning dữ liệu (DVC); Quarto (notebook → paper); kiểm thử code phân tích; experiment tracking (MLflow/W&B, mức giới thiệu). Hoạt động giảng viên: Hướng dẫn Git workflow, môi trường/Docker, Quarto, DVC, kiểm thử, experiment tracking; review cấu trúc repo. Hoạt động sinh viên: Tổ chức repo đồ án theo chuẩn tái lập; viết test và báo cáo Quarto.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[6]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P31",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 31,
+    "section_path": [
+      "Nội dung chi tiết",
+      "8"
+    ],
+    "content_type": "paragraph",
+    "text": "Dữ liệu thực & LLM trong nghiên cứu: API/web, xử lý text & ngày tháng, dữ liệu bán cấu trúc; xử lý dữ liệu lớn với DuckDB; trích xuất có cấu trúc bằng LLM và cách kiểm chứng. Hoạt động giảng viên: Demo nạp dữ liệu API/web & xử lý dữ liệu lớn với DuckDB; trích xuất bằng LLM và cách kiểm chứng. Hoạt động sinh viên: Thu thập & xử lý dữ liệu thực; thử trích xuất bằng LLM rồi kiểm chứng kết quả.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[7]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P32",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 32,
+    "section_path": [
+      "Nội dung chi tiết",
+      "9"
+    ],
+    "content_type": "paragraph",
+    "text": "Quản trị dữ liệu, đạo đức & data storytelling: FAIR, RDM, dữ liệu nhạy cảm & de-identification, bias; đạo đức dùng AI; từ figure đến narrative, figure cho paper/slide/poster. Hoạt động giảng viên: Giảng FAIR/RDM/dữ liệu nhạy cảm, đạo đức AI; hướng dẫn data storytelling. Hoạt động sinh viên: Viết phần đạo đức/quản trị dữ liệu cho đồ án; dựng narrative từ figure.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[8]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO5177.1.1_P33",
+    "doc_id": "DCMH.CO5177.1.1",
+    "order": 33,
+    "section_path": [
+      "Nội dung chi tiết",
+      "10"
+    ],
+    "content_type": "paragraph",
+    "text": "Seminar & tổng kết: trình bày đồ án + phản biện chéo. Hoạt động giảng viên: Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành. Hoạt động sinh viên: Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập. Hoạt động giảng viên: Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành. Hoạt động sinh viên: Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập. Hoạt động giảng viên: Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành. Hoạt động sinh viên: Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập. Hoạt động giảng viên: Điều phối seminar & phản biện; tổng ôn; hướng dẫn định dạng thi thực hành. Hoạt động sinh viên: Trình bày & bảo vệ đồ án; phản biện chéo; ôn tập.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[9]"
+    },
+    "review_status": "pending"
+  }
+]

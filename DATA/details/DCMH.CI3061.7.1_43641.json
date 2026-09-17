@@ -1,0 +1,1489 @@
+{
+  "ma": "DCMH.CI3061.7.1",
+  "phienban": "7.1",
+  "capnhat": "03/02/2026 09:13",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Xây Dựng",
+    "en": "Faculty of Civil Engineering"
+  },
+  "mamonhoc": "CI3061",
+  "ten": "CI3061 - Phương pháp Phần tử Hữu hạn",
+  "ten_eng": "CI3061 - Finite Element MeThod",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n</p><p><strong>Mục tiêu tổng quát</strong><br>\nTrang bị cho sinh viên năng lực <strong>phân tích và đánh giá</strong> bài toán kết cấu bằng <strong>phương pháp phần tử hữu hạn (FEM)</strong> theo quy trình <strong>mô hình hóa – rời rạc hóa – giải số – kiểm tra hợp lý (V&amp;V) – trình bày kết quả</strong>, đồng thời phát triển năng lực <strong>làm việc nhóm</strong> và <strong>tự học</strong> trong bối cảnh kỹ thuật xây dựng. <em>(Mức MIT mục tiêu: 3.5 – Phân tích/Đánh giá).</em></p>\n<p><strong>Mục tiêu cụ thể (CO1–CO4)</strong></p>\n<ul>\n<li>\n<p><strong>CO1:</strong> Phân tích và vận dụng quy trình FEM để mô hình hóa, rời rạc hóa, thiết lập hệ và khai thác kết quả cho các kết cấu điển hình (thanh, dàn, dầm, khung phẳng, đàn hồi phẳng).</p>\n</li>\n<li>\n<p><strong>CO2:</strong> Tổ chức và phối hợp nhóm triển khai bài toán mô phỏng FEM (phân công – tích hợp – báo cáo) đúng yêu cầu kỹ thuật và tiến độ.</p>\n</li>\n<li>\n<p><strong>CO3:</strong> Đánh giá chất lượng mô hình/kết quả FEM bằng V&amp;V (sanity checks, đối chiếu nghiệm tay/benchmark, hội tụ lưới/đối sánh phần mềm) và đề xuất hiệu chỉnh.</p>\n</li>\n<li>\n<p><strong>CO4:</strong> Chủ động tự học tài liệu/công cụ FEM (CALFEM/MATLAB hoặc tương đương, phần mềm thương mại) để mở rộng năng lực và định hướng nghề nghiệp.</p></li></ul>\n\n<p></p>",
+      "en": "<p>\n\n</p><p><strong>General objective</strong><br>\nThis course equips students with the ability to <strong>analyze and evaluate</strong> structural problems using the <strong>Finite Element Method (FEM)</strong> through the workflow of <strong>modeling – discretization – numerical solving – verification &amp; validation (V&amp;V) – result presentation</strong>, while strengthening <strong>teamwork</strong> and <strong>self-directed learning</strong> in construction engineering contexts. <em>(Target MIT level: 3.5 – Analyze/Evaluate).</em></p>\n<p><strong>Specific objectives (CO1–CO4)</strong></p>\n<ul>\n<li>\n<p><strong>CO1:</strong> Analyze and apply the FEM workflow to model, discretize, formulate the system, and interpret results for typical structures (bars, trusses, beams, plane frames, 2D elasticity).</p>\n</li>\n<li>\n<p><strong>CO2:</strong> Organize and collaborate in teams to execute FEM simulation tasks (role assignment – integration – reporting) meeting technical requirements and deadlines.</p>\n</li>\n<li>\n<p><strong>CO3:</strong> Evaluate FEM model quality/results via V&amp;V (sanity checks, hand/benchmark comparison, mesh convergence and/or software cross-checking) and propose corrections.</p>\n</li>\n<li>\n<p><strong>CO4:</strong> Engage in self-directed learning of FEM resources/tools (CALFEM/MATLAB or equivalents, commercial FE software) to extend competence and support career development.</p></li></ul>\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n</p><p></p>\n\nHọc phần giới thiệu và rèn luyện quy trình phân tích kết cấu bằng FEM: cơ sở đàn hồi và phương pháp năng lượng; nguyên lý thế năng toàn phần và phương pháp Rayleigh–Ritz; phần tử thanh/dàn; phần tử dầm Euler–Bernoulli và khung phẳng; bài toán đàn hồi phẳng (CST, phần tử chữ nhật). Sinh viên thực hành tính toán/lập trình (CALFEM/MATLAB hoặc tương đương), đọc – đánh giá kết quả theo tư duy V&amp;V, và thực hiện bài tập lớn theo nhóm.\n\n<br><p></p>",
+      "en": "<p>\n\n\n\nThe course introduces and practices the FEM workflow for structural analysis: elasticity basics and energy methods; total potential energy and Rayleigh–Ritz; bar/truss elements; Euler–Bernoulli beam and plane frame elements; 2D elasticity (CST and rectangular elements). Students implement basic computation/programming (CALFEM/MATLAB or equivalents), interpret results using V&amp;V thinking, and complete a team project in milestones.\n\n\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n</p><p><strong>Giáo trình/Tài liệu chính</strong></p>\n<ul>\n<li>\n<p>Bài giảng CI3061 (Lecture notes) + ví dụ tính/Code minh họa (CALFEM/MATLAB).</p>\n</li>\n</ul>\n<p><strong>Tài liệu tham khảo</strong></p>\n<ul>\n<li>\n<p>J.N. Reddy, <em>An Introduction to the Finite Element Method</em>.</p>\n</li>\n<li>\n<p>K.J. Bathe, <em>Finite Element Procedures</em>.</p>\n</li>\n<li>\n<p>Timoshenko &amp; Goodier, <em>Theory of Elasticity</em>.</p>\n</li>\n<li>\n<p>Cook et al., <em>Concepts and Applications of Finite Element Analysis</em> (hoặc tương đương).</p>\n</li>\n<li>\n<p>Tài liệu FEM/CAE theo phần mềm (SAP2000/ETABS/ANSYS) do GV cung cấp khi cần.</p></li></ul>\n\n<br><p></p><p><br></p>",
+      "en": "<p>\n\n\n\n</p><p><strong>Primary</strong></p>\n<ul>\n<li>\n<p>CI3061 lecture notes + worked examples / code templates (CALFEM/MATLAB).</p>\n</li>\n</ul>\n<p><strong>References</strong></p>\n<ul>\n<li>\n<p>J.N. Reddy, <em>An Introduction to the Finite Element Method</em>.</p>\n</li>\n<li>\n<p>K.J. Bathe, <em>Finite Element Procedures</em>.</p>\n</li>\n<li>\n<p>Timoshenko &amp; Goodier, <em>Theory of Elasticity</em>.</p>\n</li>\n<li>\n<p>Cook et al., <em>Concepts and Applications of Finite Element Analysis</em> (or equivalent).</p>\n</li>\n<li>\n<p>CAE/FEM software manuals (SAP2000/ETABS/ANSYS) provided when needed.</p></li></ul>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n</p><ul><li><p>Tham dự lớp tối thiểu theo quy định môn; chuẩn bị bài trước khi lên lớp.</p>\n</li><li>\n<p>Hoàn thành Bài tập trên lớp/Bài tập về nhà/Bài tập lớn theo nhóm&nbsp;(A.O.1/A.O.2/A.O.3) đúng hạn; bài trễ bị trừ điểm theo quy định môn.</p>\n</li><li>\n<p>Bài tập lớn theo nhóm (A.O.3): có phân công rõ ràng, có bằng chứng đóng góp; khuyến nghị lưu lịch sử chỉnh sửa/tệp.</p>\n</li><li>\n<p>Khuyến nghị cài đặt công cụ tính toán (MATLAB/CALFEM hoặc tương đương) để thực hành.</p>\n</li><li>\n<p><strong>Liêm chính học thuật &amp; AI:</strong> được phép dùng AI cho hỗ trợ (ý tưởng, kiểm lỗi, trình bày), <strong>không</strong> nộp sản phẩm do AI tạo ra toàn bộ/phần lớn; phải ghi rõ công cụ và cách dùng khi có sử dụng.</p></li></ul>\n\n\n\n\n\n<br><br><p></p>",
+      "en": "<p>\n\n</p><ul><li>Attend classes as required; prepare before lectures.</li><li><p>Submit A.O.1/A.O.2/A.O.2\n\n on time; late submissions are penalized per course policy.</p></li><li><p>Team project: clear role assignment and contribution evidence are required.</p></li><li><p>Recommended tools: MATLAB/CALFEM (or equivalents).</p></li><li><p><strong>Academic integrity &amp; AI:</strong> AI tools may be used only for supportive purposes (ideas, proofreading, presentation); do not submit work wholly/substantially generated by AI; disclose the tool and how it was used.</p></li></ul>\n\n\n\n\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p><strong><small>Phạm vi áp dụng:</small></strong><small> Đề cương theo CTĐT 2026; mức năng lực mục tiêu </small><strong><small>MIT 3.5 (Phân tích–Đánh giá)</small></strong><small>.</small><br><strong><small>Tổ chức bài tập lớn (A.O.3):</small></strong><small> thực hiện theo nhóm (3–5 SV), </small><strong><small>3 mốc</small></strong><small> (M1–M3) gắn với các chương; yêu cầu có </small><strong><small>V&amp;V tối thiểu 2 kiểm tra</small></strong><small> (cân bằng/phản lực; đối chiếu nghiệm tay/benchmark; hội tụ lưới/đối sánh phần mềm).</small><br><strong><small>Yêu cầu công cụ:</small></strong><small> khuyến nghị MATLAB/CALFEM (hoặc tương đương). Có thể dùng phần mềm thương mại (SAP2000/ETABS/ANSYS…) để </small><strong><small>đối chiếu</small></strong><small>, không thay thế hoàn toàn phần triển khai cơ bản.</small><br><strong><small>Quy định nộp bài:</small></strong><small> nộp đúng hạn; nộp trễ xử lý theo quy định môn/giảng viên công bố đầu kỳ.</small><br><strong><small>Liêm chính học thuật &amp; AI:</small></strong><small> được phép dùng AI cho hỗ trợ (ý tưởng, kiểm lỗi, trình bày), </small><strong><small>không</small></strong><small> nộp sản phẩm do AI tạo ra toàn bộ/phần lớn; phải ghi rõ công cụ và cách sử dụng khi có dùng; vi phạm xử lý theo quy định Nhà trường.</small><br>\n\n\n\n\n\n\n\n<br></p>",
+      "en": "<p>\n\n<strong><small>Scope:</small></strong><small> Syllabus aligned with the 2026 curriculum; target </small><strong><small>MIT level 3.5 (Analyze–Evaluate)</small></strong><small>.</small><br><strong><small>Team project (A.O.3):</small></strong><small> groups of 3–5 students, delivered in </small><strong><small>three milestones (M1–M3)</small></strong><small> aligned with chapters; each milestone must include at least </small><strong><small>two V&amp;V checks</small></strong><small> (equilibrium/reactions; hand/benchmark comparison; mesh convergence and/or software cross-check).</small><br><strong><small>Tools:</small></strong><small> MATLAB/CALFEM (or equivalents) is recommended. Commercial software (SAP2000/ETABS/ANSYS…) may be used for </small><strong><small>cross-checking</small></strong><small>, not as a full replacement of basic implementation.</small><br><strong><small>Submission policy:</small></strong><small> on-time submission is required; late submissions follow the course/lecturer policy announced at the beginning of the semester.</small><br><strong><small>Academic integrity &amp; AI:</small></strong><small> AI tools may be used for supportive purposes only (ideas, proofreading, presentation). Work wholly/substantially generated by AI must not be submitted; AI usage must be disclosed; violations are handled per university regulations.</small><br>\n\n\n\n\n\n<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 6019,
+      "ma": "003789",
+      "ten": "NGUYỄN THÁI BÌNH"
+    },
+    {
+      "id": 723,
+      "ma": "001937",
+      "ten": "LƯƠNG VĂN HẢI"
+    },
+    {
+      "id": 5600,
+      "ma": "003766",
+      "ten": "TRẦN MINH THI"
+    },
+    {
+      "id": 8661,
+      "ma": "003927",
+      "ten": "LIÊU XUÂN QUÍ"
+    },
+    {
+      "id": 1840,
+      "ma": "003642",
+      "ten": "CAO VĂN VUI"
+    },
+    {
+      "id": 726,
+      "ma": "002355",
+      "ten": "NGUYỄN HỒNG ÂN"
+    },
+    {
+      "id": 11548,
+      "ma": "004256",
+      "ten": "VŨ BẮC NAM"
+    },
+    {
+      "id": 12528,
+      "ma": "004283",
+      "ten": "BÙI VĂN HỒNG LĨNH"
+    },
+    {
+      "id": 10138,
+      "ma": "004155",
+      "ten": "TRẦN NAM HẢI"
+    },
+    {
+      "id": 13928,
+      "ma": "004357",
+      "ten": "LÊ MINH TOÀN"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1060,
+      "maBoMon": "SBK",
+      "tenBoMon": {
+        "vi": "Sức Bền - Kết Cấu"
+      },
+      "maKhoa": "XD",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Xây Dựng",
+        "en": "Faculty of Civil Engineering"
+      },
+      "vanPhong": "Bộ môn Sức bền - Kết cấu / Khoa Kỹ Thuật Xây Dựng",
+      "dienThoai": "0283 865 7951 (Ext. 5596)"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 6019,
+        "maGiangVien": "003789",
+        "tenGiangVien": "Nguyễn Thái Bình",
+        "emailGiangVien": "tbnguyen@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CI2135 - Cơ kết cấu",
+        "en": "CI2135 - Mechanics of Structures"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ kết cấu",
+        "en": "Mechanics of Structures"
+      },
+      "mamonhoc": "CI2135"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 74494,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 74495,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "74494",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exercises at class"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exercises at class"
+      }
+    },
+    {
+      "id": 74496,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "74494",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Assignments"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Assignments"
+      }
+    },
+    {
+      "id": 74497,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "74494",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn/nhóm",
+        "en": "Group project/assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn/nhóm",
+        "en": "Group project/assignment"
+      }
+    },
+    {
+      "id": 74498,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "74494",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final-term exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final-term exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 90080,
+      "stt": 1,
+      "buoi": "1-3/Chương1-Chapter1",
+      "chuandaurachitiet": [
+        {
+          "id": 115716,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188046,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Áp dụng FEM để mô hình hóa–rời rạc–phân tích và trình bày kết quả kỹ thuật",
+              "en": "Apply FEM to model – discretize – analyze and present engineering results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184446,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises at class"
+                }
+              }
+            },
+            {
+              "id": 184447,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115712,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188052,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Chủ động tự học–đổi mới–định hướng phát triển nghề nghiệp (FEM)",
+              "en": "Self-directed learning, innovation, and career orientation in FEM."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184444,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184442,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 1. GIỚI THIỆU: \n1. Mở đầu: ý nghĩa môn học, nội dung, tài liệu, cách học, cách đánh giá. \n2. Nhập môn đàn hồi: ứng suất–biến dạng, quan hệ vật liệu. \n3. Cơ sở FEM: nguyên lý thế năng toàn phần; Rayleigh–Ritz; tư duy rời rạc hóa.\n",
+        "en": "CHAPTER 1. INTRODUCTION: \n1. Introduction - Introduction of the course - Lecturer's introduction - Information of the course - Teaching and learning methods - Reference books; \n2. Review of theory of elasticity - Analysis of Stress - Analysis of Strain - Elastic Stress-Strain Relations; \n3. Basic Concept of FEM - Principle of Minimum Potential Energy - Rayleigh-Ritz Method - A General Procedure for FEA."
+      }
+    },
+    {
+      "id": 90081,
+      "stt": 2,
+      "buoi": "4-7/Chương2-Chapter2",
+      "chuandaurachitiet": [
+        {
+          "id": 115717,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Explain content; guide practice; Q&A and feedback.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188046,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Áp dụng FEM để mô hình hóa–rời rạc–phân tích và trình bày kết quả kỹ thuật",
+              "en": "Apply FEM to model – discretize – analyze and present engineering results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184474,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises at class"
+                }
+              }
+            },
+            {
+              "id": 184448,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184471,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74498,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115708,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188050,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tư duy phản biện FEM: nhận diện–đánh giá–đề xuất xử lý dựa trên kiểm tra hợp lý (V&V)",
+              "en": "Demonstrate FEM critical thinking: identify – evaluate – propose actions based on V&V checks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184441,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            },
+            {
+              "id": 184445,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184466,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74498,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115711,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; minh hoạ ví dụ; hướng dẫn bài tập.",
+            "en": "Giảng nội dung; minh hoạ ví dụ; hướng dẫn bài tập."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Ôn tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Ôn tài liệu; làm bài tập; nộp đúng hạn."
+          },
+          "chuandaura": {
+            "id": 188052,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Chủ động tự học–đổi mới–định hướng phát triển nghề nghiệp (FEM)",
+              "en": "Self-directed learning, innovation, and career orientation in FEM."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184459,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184458,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115709,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; minh hoạ ví dụ; hướng dẫn bài tập.",
+            "en": "Giảng nội dung; minh hoạ ví dụ; hướng dẫn bài tập."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Ôn tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Review notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188048,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phối hợp–tổ chức–dẫn dắt nhóm trong dự án mô phỏng FEM (phân công–tích hợp–báo cáo)",
+              "en": "Collaborate, organize, and lead a team in an FEM simulation project (roles – integration – reporting)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184473,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184472,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 2. TÍNH TOÁN THANH VÀ HỆ DÀN PHẲNG: \n1. Ma trận độ cứng phần tử trong hệ tọa độ địa phương. \n2. Ma trận độ cứng phần tử trong hệ tọa độ tổng thể. \n3. Vecto tải trọng, lắp ráp hệ, áp điều kiện biên. \n4. Phân tích kết cấu thanh/dàn phẳng; đọc kết quả.",
+        "en": "CHAPTER 2. BAR AND PLANE TRUSS ANALYSIS: \n1. Element stiffness matrix in local coordinates;\n2. Element stiffness matrix in global coordinates;\n3. Load vector;\n4. Analysis of bar structures and plane trusses."
+      }
+    },
+    {
+      "id": 90082,
+      "stt": 3,
+      "buoi": "8-2/Chương3-Chapter3",
+      "chuandaurachitiet": [
+        {
+          "id": 115714,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188046,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Áp dụng FEM để mô hình hóa–rời rạc–phân tích và trình bày kết quả kỹ thuật",
+              "en": "Apply FEM to model – discretize – analyze and present engineering results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184464,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises at class"
+                }
+              }
+            },
+            {
+              "id": 184460,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184453,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74498,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115715,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188050,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tư duy phản biện FEM: nhận diện–đánh giá–đề xuất xử lý dựa trên kiểm tra hợp lý (V&V)",
+              "en": "Demonstrate FEM critical thinking: identify – evaluate – propose actions based on V&V checks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184456,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            },
+            {
+              "id": 184463,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184467,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74498,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115718,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; minh hoạ ví dụ; hướng dẫn bài tập.",
+            "en": "Giảng nội dung; minh hoạ ví dụ; hướng dẫn bài tập."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Ôn tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Ôn tài liệu; làm bài tập; nộp đúng hạn."
+          },
+          "chuandaura": {
+            "id": 188052,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Chủ động tự học–đổi mới–định hướng phát triển nghề nghiệp (FEM)",
+              "en": "Self-directed learning, innovation, and career orientation in FEM."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184469,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184470,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115706,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; minh hoạ ví dụ; hướng dẫn bài tập.",
+            "en": "Explain topic; demo example; guide practice."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Ôn tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Review notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188048,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phối hợp–tổ chức–dẫn dắt nhóm trong dự án mô phỏng FEM (phân công–tích hợp–báo cáo)",
+              "en": "Collaborate, organize, and lead a team in an FEM simulation project (roles – integration – reporting)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184452,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184443,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 3. TÍNH TOÁN DẦM VÀ KHUNG PHẲNG: \n1. Ma trận độ cứng phần tử trong hệ tọa độ địa phương; \n2. Ma trận độ cứng phần tử trong hệ tọa độ tổng thể; \n3. Vecto tải trọng; \n4. Phân tích kết cấu dầm, khung phẳng.\n",
+        "en": "CHAPTER 3. BEAMS AND FRAMES: \n1. Element stiffness matrix in local coordinates;\n2. Element stiffness matrix in global coordinates;\n3. Load vector;\n4. Analysis of plane beams and frames."
+      }
+    },
+    {
+      "id": 90083,
+      "stt": 4,
+      "buoi": "3-5/Chương4-Chapter4",
+      "chuandaurachitiet": [
+        {
+          "id": 115710,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188046,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Áp dụng FEM để mô hình hóa–rời rạc–phân tích và trình bày kết quả kỹ thuật",
+              "en": "Apply FEM to model – discretize – analyze and present engineering results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184461,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74495,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exercises at class"
+                }
+              }
+            },
+            {
+              "id": 184449,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184465,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74498,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115719,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188050,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Tư duy phản biện FEM: nhận diện–đánh giá–đề xuất xử lý dựa trên kiểm tra hợp lý (V&V)",
+              "en": "Demonstrate FEM critical thinking: identify – evaluate – propose actions based on V&V checks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184454,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184468,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74498,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final-term exam"
+                }
+              }
+            },
+            {
+              "id": 184450,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115707,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188052,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Chủ động tự học–đổi mới–định hướng phát triển nghề nghiệp (FEM)",
+              "en": "Self-directed learning, innovation, and career orientation in FEM."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184462,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            },
+            {
+              "id": 184455,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 115713,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng nội dung; hướng dẫn thực hành; giải đáp và phản hồi.",
+            "en": "Explain content; guide practice; Q&A and feedback."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tự học tài liệu; làm bài tập; nộp đúng hạn.",
+            "en": "Self-study notes; do exercises; submit on time."
+          },
+          "chuandaura": {
+            "id": 188048,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phối hợp–tổ chức–dẫn dắt nhóm trong dự án mô phỏng FEM (phân công–tích hợp–báo cáo)",
+              "en": "Collaborate, organize, and lead a team in an FEM simulation project (roles – integration – reporting)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 184451,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 74497,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn/nhóm",
+                  "en": "Group project/assignment"
+                }
+              }
+            },
+            {
+              "id": 184457,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 74496,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Assignments"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "CHƯƠNG 4. TÍNH TOÁN BÀI TOÁN ĐÀN HỒI PHẲNG: \n1. Ma trận độ cứng phần tử tam giác (CST-element); \n2. Ma trận độ cứng phần tử chữ nhật; \n3. Vecto tải trọng; \n4. Phân tích bài toán đàn hồi phẳng.",
+        "en": "CHAPTER 4. TWO-DIMENSIONAL ELASTICITY: \n1. CST triangle element stiffness matrix;\n2. Rectangular element stiffness matrix;\n3. Load vector;\n4. Plane elasticity analysis."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 188046,
+      "ma": "L.O.1.1",
+      "ten_vi": "Áp dụng FEM để mô hình hóa–rời rạc–phân tích và trình bày kết quả kỹ thuật",
+      "ten_en": "Apply FEM to model – discretize – analyze and present engineering results.",
+      "hddg": [
+        {
+          "id": 74495,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exercises at class"
+        },
+        {
+          "id": 74496,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Assignments"
+        },
+        {
+          "id": 74498,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 188048,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phối hợp–tổ chức–dẫn dắt nhóm trong dự án mô phỏng FEM (phân công–tích hợp–báo cáo)",
+      "ten_en": "Collaborate, organize, and lead a team in an FEM simulation project (roles – integration – reporting).",
+      "hddg": [
+        {
+          "id": 74496,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Assignments"
+        },
+        {
+          "id": 74497,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/nhóm",
+          "ten_en": "Group project/assignment"
+        }
+      ]
+    },
+    {
+      "id": 188050,
+      "ma": "L.O.3.1",
+      "ten_vi": "Tư duy phản biện FEM: nhận diện–đánh giá–đề xuất xử lý dựa trên kiểm tra hợp lý (V&V)",
+      "ten_en": "Demonstrate FEM critical thinking: identify – evaluate – propose actions based on V&V checks.",
+      "hddg": [
+        {
+          "id": 74496,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Assignments"
+        },
+        {
+          "id": 74497,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/nhóm",
+          "ten_en": "Group project/assignment"
+        },
+        {
+          "id": 74498,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 188052,
+      "ma": "L.O.4.1",
+      "ten_vi": "Chủ động tự học–đổi mới–định hướng phát triển nghề nghiệp (FEM)",
+      "ten_en": "Self-directed learning, innovation, and career orientation in FEM.",
+      "hddg": [
+        {
+          "id": 74496,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Assignments"
+        },
+        {
+          "id": 74497,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn/nhóm",
+          "ten_en": "Group project/assignment"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phương pháp Phần tử Hữu hạn",
+  "tenmonhoc_eng": "Finite Element MeThod",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

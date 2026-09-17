@@ -1,0 +1,1305 @@
+{
+  "ma": "DCMH.EE2419.8.1",
+  "phienban": "8.1",
+  "capnhat": "30/03/2026 16:05",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE2419",
+  "ten": "EE2419 - Kỹ thuật số",
+  "ten_eng": "EE2419 - Digital Systems",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>•  Giải thích các hệ thống số <br>•  Giải thích về đại số Boole và cổng logic<br>•  Giải thích các IC tiêu chuẩn (họ 74 và họ 40), bộ nhớ (ROM, RAM), và các thiết bị logic lập trình được.<br>•  Thiết kế các mạch logic tổ hợp cơ bản<br>•  Thiết kế mạch logic tuần tự cơ bản<br><br></p>",
+      "en": "<p>•  Explain digital systems<br>•  Explain Boolean Algebra and logic gates<br>•  Explain logic gate IC (74xx and 40xx families), memories (ROM, RAM), and programmable logic devices.<br>•  Design basic combinational logic circuits<br>•  Design basic sequential logic circuits<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học này trình bày các khái niệm và phương pháp được sử dụng trong thiết kế số. Môn học cũng trình bày các công cụ cơ bản cho việc thiết kế mạch tổ hợp và mạch tuần tự. Môn học này sẽ tập trung vào các phương pháp và quy trình thích hợp cho nhiều loại thiết kế sử dụng các phương pháp cổ điển cùng với công cụ hiện đại có thể được áp dụng vào máy tính, hệ thống điều khiển, truyền dữ liệu … Sinh viên có khả năng nắm bắt các vấn đề sau:<br>•  Hệ thống số<br>•  Tính toán số học số<br>•  Đại số Boole<br>•  Cổng logic<br>•  Thiết kế mạch tổ hợp<br>•  Thiết kế logic CMOS<br>•  Flip-Flops<br>•  Bộ đếm và thanh ghi<br>•  Thiết kế mạch tuần tự<br><br></p>",
+      "en": "<p>This course presents the concepts and methods used in digital system design. This course also presents the basic tools for the design of combinational and sequential circuits. Concentration will be on methods and procedures suitable for a variety of digital design using classical manual methods as well as modern tools, which can be applied in computers, control systems, data communications, etc.. Students will be able to demonstrate understanding of the following concepts:<br>•  Number Systems<br>•  Digital Arithmetic<br>•  Boolean Algebra<br>•  Logic Gates<br>•  Combinational Logic Design<br>•  CMOS Logic Design<br>•  Flip-Flops<br>•  Counters and Registers<br>•  Sequential Circuit Design<br><br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, giáo trình chính (Textbooks)<br>\n\n</p>\n\n[1] C. H. Roth, Jr. and L. L. Kinney, Fundamentals of Logic Design, 7th ed. Stamford, CT, USA: Cengage Learning, 2014.<div>[2] D. M. Harris and S. L. Harris, Digital Design and Computer Architecture: RISC-V Edition. Cambridge, MA, USA: Morgan Kaufmann, 2021.&nbsp;</div><div><br></div><div>Sách tham khảo (References)</div><div><p>\n\n</p><p>\n\n<div>[3] S. Brown and Z. Vranesic, Fundamentals of Digital Logic with Verilog Design, 3rd ed. New York, NY, USA: McGraw-Hill, 2014. </div><div>[4] R. H. Katz and G. Borriello, Contemporary Logic Design, 2nd ed. Upper Saddle River, NJ, USA: Prentice Hall, 2004.</div><div>[5] G. De Micheli, Synthesis and Optimization of Digital Circuits. New York, NY, USA: McGraw-Hill, 1994.</div>\n\n<br></p>\n\n<br><br><p></p></div>",
+      "en": "<p>\n\n<p>Textbooks<br>\n\n</p>\n\n[1] C. H. Roth, Jr. and L. L. Kinney, Fundamentals of Logic Design, 7th ed. Stamford, CT, USA: Cengage Learning, 2014.<div>[2] D. M. Harris and S. L. Harris, Digital Design and Computer Architecture: RISC-V Edition. Cambridge, MA, USA: Morgan Kaufmann, 2021. </div><div><br></div><div>References</div><div><p>\n\n</p><p>\n\n</p><div>[3] S. Brown and Z. Vranesic, Fundamentals of Digital Logic with Verilog Design, 3rd ed. New York, NY, USA: McGraw-Hill, 2014. </div><div>[4] R. H. Katz and G. Borriello, Contemporary Logic Design, 2nd ed. Upper Saddle River, NJ, USA: Prentice Hall, 2004.</div><div>[5] G. De Micheli, Synthesis and Optimization of Digital Circuits. New York, NY, USA: McGraw-Hill, 1994.</div><p></p></div>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên BKEL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học<br>• Thí nghiệm: 70% (Hoàn thành các bài lab: 50% và bài tập lớn: 20%)<br>• Thi: 30%<br><br>Điều kiện dự thi: hoàn thành đủ bài thí nghiệm và điểm thí nghiệm phải từ 3 trở lên<br><br></p><p>\n\n- Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.\n\n<br></p>",
+      "en": "<p></p><p>Documents are uploaded to BKEL weekly. Students download, print, and bring with them to class. The final course score is assessed throughout the course of study.</p><p>Experiment: 70% (Completed labs: 50% and Big project: 20%)</p><p>Exam: 30%&nbsp;</p><p>Eligibility requirements: complete the test and the test score must be 3 or higher</p>\n\n- The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for support purposes, such as searching for references, exploring ideas, checking grammar, or suggesting presentation formats. Students are not allowed to submit work generated entirely or predominantly by AI\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>Lớp thí nghiệm bắt đầu từ tuần thứ 5<br></p>",
+      "en": "<p>Experiment class starts from week 5<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1392,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho trương trình đào tạo toàn khóa",
+        "en": "Áp dụng cho trương trình đào tạo toàn khóa"
+      }
+    },
+    {
+      "id": 1465,
+      "ma": "NG_COD_TN",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa -1",
+        "en": "Áp dụng cho tất cả ngành của khóa -1"
+      }
+    },
+    {
+      "id": 1467,
+      "ma": "NG_COD_TN",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa +1",
+        "en": "Áp dụng cho tất cả ngành của khóa +1"
+      }
+    },
+    {
+      "id": 164,
+      "ma": "CN_DTH",
+      "ten": {
+        "vi": "CTDT Khoa Điện - Điện tử - Chuyên Ngành Kỹ thuật Điều khiển và Tự động hóa   "
+      }
+    },
+    {
+      "id": 165,
+      "ma": "NG_DTT",
+      "ten": {
+        "vi": "CTDT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện tử - Truyền thông  "
+      }
+    },
+    {
+      "id": 161,
+      "ma": "NG_KDU",
+      "ten": {
+        "vi": "CTDT Khoa Điện - Điện tử - Ngành Kỹ thuật Điện - Điện tử"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 514,
+      "ma": "003176",
+      "ten": "Trần Hoàng Linh"
+    },
+    {
+      "id": 511,
+      "ma": "002976",
+      "ten": "Phan Võ Kim Anh"
+    },
+    {
+      "id": 8785,
+      "ma": "003961",
+      "ten": "NGUYỄN TRUNG HIẾU"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 1,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 30,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 75,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 70,
+    "baiTapLon": 0,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Bộ môn Điện tử - P. 201B3",
+      "dienThoai": "0838655353"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 514,
+        "maGiangVien": "003176",
+        "tenGiangVien": "Trần Hoàng Linh",
+        "emailGiangVien": "linhtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_1_0",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "EE2417 - Cơ sở Máy tính",
+        "en": "EE2417 - Introduction to Computing"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ sở Máy tính",
+        "en": "Introduction to Computing"
+      },
+      "mamonhoc": "EE2417"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 83559,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 83560,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "83559",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tại lớp",
+        "en": "In class exercise"
+      },
+      "noidung": {
+        "vi": "Bài tập tại lớp",
+        "en": "In class exercise"
+      }
+    },
+    {
+      "id": 83561,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "83559",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài Tập Về Nhà ",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài Tập Về Nhà ",
+        "en": "Homework"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 103850,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Giới thiệu về môn học\n- Thông tin Thầy/Cô\n- Các vấn đề liên quan đến môn học\n- Cách thức dạy và học \n\nGiới thiệu hệ thống số\n-Giải thích về hệ thống số đếm\n-Số nhị phân, số thập phân và thập lục phân\n-Chuyển đổi cơ số\n",
+        "en": "Introduction to the subject\n- Teacher / Teacher information\n- Subject-related issues\n- Teach and learn how\n\nAbout system number\n-An explanation of the system numbering\n-Binary numbers, decimal and hexadecimal analysis\n-Convert radix"
+      }
+    },
+    {
+      "id": 103851,
+      "stt": 2,
+      "buoi": "1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Biểu diễn số trong hệ thống số \nPhép toán số học trên số nhị phân\nMã nhị phân: BCD, Gray, ..\nSố bù 1, bù 2\nSố nhị phân có dấu\nCộng trừ số nhị phân bù 2\n\n",
+        "en": "Number representation in the number system\nArithmetic operations on binary numbers\nBinary code: BCD, Gray, ..\n1's complement, 2's complement\nSigned binary number\nAdd and subtract 2'' complement binary numbers"
+      }
+    },
+    {
+      "id": 103839,
+      "stt": 3,
+      "buoi": "2-4",
+      "chuandaurachitiet": [
+        {
+          "id": 135623,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184514,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "(K, mức 3) Áp dụng phương pháp Quine–McCluskey để rút gọn hàm Boolean.",
+              "en": "(K, level 3) Apply the Quine–McCluskey method to minimize Boolean functions."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221050,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221051,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Đại số Boole và cổng logic \n•\tCác phép toán logic cơ bản: NOT, AND, OR. \n•\tĐại số Boole: định lý, tiên đề\n•\tBảng chân trị\n•\tMinterm và maxterm\n•\tĐịnh dạng chính tắc\n•\tĐịnh dạng SOP và POS \n•\tCổng logic: NOT, AND, NAND, OR, NOR, XOR, XNOR\n•\tDãy logic: dãy AND, dãy OR, cấu trúc AND-OR, cấu trúc OR-AND.\n•\tThực hiện hàm Boole dùng dãy logic\n•\tĐơn giản hóa hàm Boole sử dụng đại số Boole\n•\tĐơn giản hóa hàm Boole dùng bìa K\n•\tCấu trúc cổng: AND-OR, OR-AND, AOI, OAI, NAND, NOR\n",
+        "en": "Boolean algebra and logic gates\n• Basic logical operations: NOT, AND, OR.\n• Boolean algebra: theorems, axioms\n• Truth table\n• Minterm and maxterm\n• Canonical format\n• SOP and POS . formats\n• Logic gates: NOT, AND, NAND, OR, NOR, XOR, XNOR\n• Logical sequence: AND sequence, OR sequence, AND-OR structure, OR-AND structure.\n• Implement Boolean functions using logical sequences\n• Simplify Boolean functions using Boolean algebra\n• Simplify the Boolean function using the cover K\n• Gate structure: AND-OR, OR-AND, AOI, OAI, NAND, NOR"
+      }
+    },
+    {
+      "id": 103841,
+      "stt": 4,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 135625,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184516,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế hệ tổ hợp tổng quát từ các mạch tổ hợp chức năng (giải mã, mã hoá, dồn kênh, phân kênh, so sánh, mạch cộng).",
+              "en": "(K, level 5) Design a general combinational system using decoder, encoder, multiplexer, demultiplexer, comparator, adder) to ."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221054,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221055,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Công nghệ thực hiện\n•\tCông tắc transistor\n•\tCổng logic NMOS\n•\tCổng logic CMOS\n•\tTốc độ của mạch cổng logic \n•\tCác IC tiêu chuẩn\n•\tHọ IC chuẩn 74 (TTL)\n•\tHọ IC chuẩn 40 (CMOS)\n•\tCấu trúc bộ nhớ (ROM, RAM)\n•\tThiết bị logic lập trình được\n•\tProgrammable Logic Array (PLA) \n•\tProgrammable Array Logic (PAL) \n•\tLập trình cho PLAs and PALs \n•\tComplex Programmable Logic Devices (CPLDs) \n•\tField-Programmable Gate Arrays (FPGA)\n",
+        "en": "Implementation technology\n• Transistor switch\n• NMOS . logic gates\n• CMOS logic gates\n• Speed ​​of logic gate circuit\n• Standard ICs\n• Standard 74 IC family (TTL)\n• Standard IC family 40 (CMOS)\n• Memory structure (ROM, RAM)\n• Programmable logic device\n• Programmable Logic Array (PLA)\n• Programmable Array Logic (PAL)\n• Programming for PLAs and PALs\n• Complex Programmable Logic Devices (CPLDs)\n• Field-Programmable Gate Arrays (FPGA)"
+      }
+    },
+    {
+      "id": 103842,
+      "stt": 5,
+      "buoi": "6",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Midterm Exam"
+      }
+    },
+    {
+      "id": 103840,
+      "stt": 6,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 135624,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184516,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế hệ tổ hợp tổng quát từ các mạch tổ hợp chức năng (giải mã, mã hoá, dồn kênh, phân kênh, so sánh, mạch cộng).",
+              "en": "(K, level 5) Design a general combinational system using decoder, encoder, multiplexer, demultiplexer, comparator, adder) to ."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221052,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221053,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch tổ hợp\n•\tThiết kế mạch tổ hợp sử dụng cổng logic\n•\tCác bộ tính toán số học: bộ cộng bán phần (HA), bộ cộng toàn phần (FA), bộ cộng số nhớ gợn (RCA), bộ cộng/trừ 4 bit\n•\tBộ giải mã\n•\tBộ mã hóa\n•\tBộ dồn kênh\n•\tBộ phân kênh\n•\tBộ so sánh\n•\tThiết kế mạch tổ hợp sử dụng vi mạch MSI như bộ giải mã, bộ dồn kênh, bộ logic-toán học, ROM và PLD\n",
+        "en": "Combinational circuit\n• Design a combinational circuit using logic gates\n• Arithmetic calculators: half adder (HA), full adder (FA), ripple memory adder (RCA), 4-bit add/subtractor\n•\tDecoder\n• Encoder\n• Multiplexer\n• Multiplexer\n• Comparator\n• Design combinational circuits using MSI chips such as decoders, multiplexers, logic-mathematicians, ROMs and PLDs"
+      }
+    },
+    {
+      "id": 103843,
+      "stt": 7,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 135626,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184516,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế hệ tổ hợp tổng quát từ các mạch tổ hợp chức năng (giải mã, mã hoá, dồn kênh, phân kênh, so sánh, mạch cộng).",
+              "en": "(K, level 5) Design a general combinational system using decoder, encoder, multiplexer, demultiplexer, comparator, adder) to ."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221056,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221057,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch tuần tự\nBộ chốt\nFlip-Flop (FF)\nMô tả VHDL cho bộ chốt và FF\nBộ đếm bất đồng bộ: thiết kế và phân tích\nBộ đếm đồng bộ: thiết kế và phân tích\nThanh ghi, thanh ghi dịch\nBộ đếm vòng\nBộ đếm Johnson\nMô tả VHDL cho thanh ghi dịch và bộ đếm\n",
+        "en": "Sequential Circuits\nSet of latches\nFlip-Flop (FF)\nVHDL description for latch and FF\nAsynchronous counters: design and analysis\nSynchronous counters: design and analysis\nRegister, shift register thanh\nRing counter đếm\nJohnson counter\nVHDL description for shift registers and counters"
+      }
+    },
+    {
+      "id": 103844,
+      "stt": 8,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 135627,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184518,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "(K, mức 5) Phân tích và thiết kế datapath của hệ thống số.",
+              "en": "(K, level 5) Design the datapath of a digital system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221058,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221059,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Máy trạng thái (FSMs)\nMáy trạng thái Mealy\nMáy trạng thái Moore\nThiết kế máy trạng thái\nTạo giản đố trạng thái\nTạo bảng trạng thái\nMã hóa trạng thái bằng nhị phân\nTạo phương trình trạng thái kế và ngõ ra\nVẽ sơ đồ logic\n",
+        "en": "State Machines (FSMs)\nMealy state machine\nMoore state machine\nState machine design\nCreate status quiz đố\nCreate status table\nState encoding in binary\nGenerate next state equation and output ngõ\nDraw logic diagrams"
+      }
+    },
+    {
+      "id": 103845,
+      "stt": 9,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 135628,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184517,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "(K, mức 5) Phân tích và thiết kế hệ thống số.",
+              "en": "(K, level 5) Analyze and design digital systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221061,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221060,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phần 1: Thiết kế mạch tổ hợp\n1.\tKhảo sát cổng logic\n2.\tThiết kế hàm dùng cổng logic\n3.\tKhảo sát vi mạch chức năng\n",
+        "en": "Part 1: Design of Combinational Circuits\n1. Logic gate survey\n2. Function design using logic gates\n3. Functional Circuit Survey"
+      }
+    },
+    {
+      "id": 103846,
+      "stt": 10,
+      "buoi": "3-4",
+      "chuandaurachitiet": [
+        {
+          "id": 135629,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184521,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "(K, mức 4) Xây dựng sơ đồ mạch RTL (controller và datapath) cho hệ thống số.",
+              "en": "(K, level 4) Construct RTL circuit for digital systems (controller và datapath)."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221063,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221062,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4.\tThiết kế hàm dùng vi mạch chức năng\n5.\tThiết kế hệ tổ hợp\n",
+        "en": "4. Design functions using functional circuits\n5. Combination system design"
+      }
+    },
+    {
+      "id": 103849,
+      "stt": 11,
+      "buoi": "5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 135631,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": "Presenting lecture slides, Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184515,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "(K, mức 3) Giải thích cơ chế xuất hiện hazard trong mạch số, suy ra cách thiết kế mạch không có hazard.",
+              "en": "(K, level 3) Explain the mechanism of hazards in digital circuits and infer hazard-free design techniques."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221066,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221067,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phần 2: Thiết kế mạch tuần tự\n1.\tKhảo sát vi mạch tuần tự cơ bản\n2.\tThiết kế hệ tuần tự từ các thành phần cơ bản\n3.\tKhảo sát vi mạch tuần tự chức năng\n",
+        "en": "Part 2: Sequential Circuit Design\n1. Basic Sequential Circuit Investigation\n2. Design a sequential system from basic components\n3. Functional Sequential Circuit Investigation"
+      }
+    },
+    {
+      "id": 103847,
+      "stt": 12,
+      "buoi": "7-9",
+      "chuandaurachitiet": [
+        {
+          "id": 135630,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày slide bài giảng, Tải slide lên LMS",
+            "en": null
+          },
+          "hoatdongsinhvien": {
+            "vi": "Xem lại bài giảng, In ra các slide thiết yếu, Tự tóm tắt",
+            "en": "Presenting lecture slides, Upload slides to LMS ) (Review the lecture, Print out essential slides, Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 184522,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "(K, mức 5) Thiết kế mạch RTL sử dụng công cụ EDA và ngôn ngữ lập trình phần cứng.",
+              "en": "(K, level 5) Design RTL digital circuits using EDA tools and hardware description languages."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 221065,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 83560,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tại lớp",
+                  "en": "In class exercise"
+                }
+              }
+            },
+            {
+              "id": 221064,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 83561,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài Tập Về Nhà ",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4.\tỨng dụng vi mạch tuần tự chức năng\n5.\tThiết kế hệ tuần tự\n",
+        "en": "4. Functional Sequential Circuit Application\n5. Sequential system design\n"
+      }
+    },
+    {
+      "id": 103848,
+      "stt": 13,
+      "buoi": "10",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Kiểm tra",
+        "en": "Final Exam\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 184514,
+      "ma": "L.O.1.1",
+      "ten_vi": "(K, mức 3) Áp dụng phương pháp Quine–McCluskey để rút gọn hàm Boolean.",
+      "ten_en": "(K, level 3) Apply the Quine–McCluskey method to minimize Boolean functions.",
+      "hddg": [
+        {
+          "id": 83560,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercise"
+        },
+        {
+          "id": 83561,
+          "ma": "A.O.4",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 184515,
+      "ma": "L.O.1.2",
+      "ten_vi": "(K, mức 3) Giải thích cơ chế xuất hiện hazard trong mạch số, suy ra cách thiết kế mạch không có hazard.",
+      "ten_en": "(K, level 3) Explain the mechanism of hazards in digital circuits and infer hazard-free design techniques.",
+      "hddg": [
+        {
+          "id": 83560,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercise"
+        },
+        {
+          "id": 83561,
+          "ma": "A.O.4",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 184516,
+      "ma": "L.O.1.3",
+      "ten_vi": "(K, mức 5) Thiết kế hệ tổ hợp tổng quát từ các mạch tổ hợp chức năng (giải mã, mã hoá, dồn kênh, phân kênh, so sánh, mạch cộng).",
+      "ten_en": "(K, level 5) Design a general combinational system using decoder, encoder, multiplexer, demultiplexer, comparator, adder) to .",
+      "hddg": [
+        {
+          "id": 83560,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercise"
+        },
+        {
+          "id": 83561,
+          "ma": "A.O.4",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 184517,
+      "ma": "L.O.2",
+      "ten_vi": "(K, mức 5) Phân tích và thiết kế hệ thống số.",
+      "ten_en": "(K, level 5) Analyze and design digital systems",
+      "hddg": [
+        {
+          "id": 83560,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercise"
+        },
+        {
+          "id": 83561,
+          "ma": "A.O.4",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 184518,
+      "ma": "L.O.2.1",
+      "ten_vi": "(K, mức 5) Phân tích và thiết kế datapath của hệ thống số.",
+      "ten_en": "(K, level 5) Design the datapath of a digital system.",
+      "hddg": [
+        {
+          "id": 83560,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercise"
+        },
+        {
+          "id": 83561,
+          "ma": "A.O.4",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 184521,
+      "ma": "L.O.3.1",
+      "ten_vi": "(K, mức 4) Xây dựng sơ đồ mạch RTL (controller và datapath) cho hệ thống số.",
+      "ten_en": "(K, level 4) Construct RTL circuit for digital systems (controller và datapath).",
+      "hddg": [
+        {
+          "id": 83560,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercise"
+        },
+        {
+          "id": 83561,
+          "ma": "A.O.4",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        }
+      ]
+    },
+    {
+      "id": 184522,
+      "ma": "L.O.3.2",
+      "ten_vi": "(K, mức 5) Thiết kế mạch RTL sử dụng công cụ EDA và ngôn ngữ lập trình phần cứng.",
+      "ten_en": "(K, level 5) Design RTL digital circuits using EDA tools and hardware description languages.",
+      "hddg": [
+        {
+          "id": 83560,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tại lớp",
+          "ten_en": "In class exercise"
+        },
+        {
+          "id": 83561,
+          "ma": "A.O.4",
+          "ten_vi": "Bài Tập Về Nhà ",
+          "ten_en": "Homework"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Kỹ thuật số",
+  "tenmonhoc_eng": "Digital Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    },
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

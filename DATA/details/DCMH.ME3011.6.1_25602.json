@@ -1,0 +1,3054 @@
+{
+  "ma": "DCMH.ME3011.6.1",
+  "phienban": "6.1",
+  "capnhat": "14/03/2025 02:11",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME3011",
+  "ten": "ME3011 - Động lực học và Điều khiển",
+  "ten_eng": "ME3011 - Dynamic Systems and Control",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học nhằm trang bị các kiến thức cơ bản về mô hình hóa và đáp ứng của các hệ thống động lực học; về các phương pháp phân tích và thiết kế hệ thống điều khiển tuyến tính có hồi tiếp.<br></p>",
+      "en": "<p>The course aims to equip basic knowledge about modeling and response of dynamical systems; on methods of analysis and design of linear feedback control systems<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Những nội dung sau đây sẽ được giảng dạy và thảo luận trong môn học<br>Mô hình toán học của các hệ thống tuyến tính liên tục: sơ đồ khối, phương trình trạng thái, biến đổi Laplace, hàm truyền, mô phỏng số. Lý thuyết hệ thống tuyến tính liên tục: đáp ứng trạng thái với điều kiện đầu, đáp ứng trạng thái với ngõ vào, đáp ứng trên miền tần số, ổn định của các phương trình trạng thái, ổn định ngõ vào ngõ ra.<br>Thiết kế và phân tích hệ thống hồi tiếp tuyến tính liên tục: tiêu chuẩn ổn định Nyquist, biểu đồ Bode, phương pháp quỹ đạo nghiệm số, chất lượng của hệ thống điều khiển, bộ điều khiển PID, phương pháp hiệu chỉnh bộ điều khiển PID.<br>Hệ thống rời rạc: hệ thống số, khâu lấy mẫu bậc nhất, tác động của tốc độ lấy mẫu lên hệ thống điều khiển, chuyển đổi từ phương trình vi phân sang phương trình sai phân, chuyển đổi z, phương pháp đặt cực.<br><br></p>",
+      "en": "<p>The following topics will be taught and discussed in the course.<br>Mathematical models of continuous linear systems: block diagrams, state variable equations, Laplace transforms, transfer functions, numerical simulations.<br>Continuous linear system theory: system response to initial input conditions, system response to input, frequency domain response, stability of state equations, Bounded Input Bounded Output stability (BIBO).<br>Design and analysis of continuous linear feedback system: Nyquist stability criterion, Bode plot, root-orbit method, quality of control system, PID controller, PID tuning methods.<br>Discrete systems: numerical system, first order sampling, effect of sampling rate on control system, conversion of differential equation, z conversion, pole placement technique.<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, giáo trình chính<br>[1]  Norman S. Nise, Control System Engineering, Wiley, 8th Ed., 2019<br>[2]  Richard C. Dorf and Robert H. Bishop, Modern Control System, Pearson Education, 14th Ed., 2022<br>[3]  Nguyễn Thị Phương Hà và Huỳnh Thái Hoàng, Lý thuyết Điều khiển Tự động, NXB ĐHQG-HCM, 2006<br>Sách tham khảo<br>[4]  Karl Johan Astrom and Richard M. Murray, Feedback Systems: An Introduction for Scientists and Engineers, Princeton University Press, 2nd Ed., 2021<br>[5]  Matlab Handbook, h ttp://<a href=\"http://www.mathworks.com/support/books/\">www.mathworks.com/support/books/</a><br>[6]  Farid Golnaraghi and Benjamin C. Kuo, Automatic Control Systems, John Willey and Son, Inc., 9th Ed., 2009<br>[7]  John Doyle, Bruce Francis, and Allen Tannenbaum, Feedback Control Theory, Macmillan Publishing Co., 1990<br>﻿<br></p>",
+      "en": "<p>Lecture&nbsp;notes<br>[1]  Norman S. Nise, Control System Engineering, Wiley, 8th Ed., 2019<br>[2]  Richard C. Dorf and Robert H. Bishop, Modern Control System, Pearson Education, 14th Ed., 2022<br>[3]  Nguyễn Thị Phương Hà và Huỳnh Thái Hoàng, Lý thuyết Điều khiển Tự động, NXB ĐHQG-HCM, 2006<br>References<br>[4]  Karl Johan Astrom and Richard M. Murray, Feedback Systems: An Introduction for Scientists and Engineers, Princeton University Press, 2nd Ed., 2021<br>[5]  Matlab Handbook, http://<a href=\"http://www.mathworks.com/support/books/\" title=\"Link: http://www.mathworks.com/support/books/\">www.mathworks.com/support/books/</a><br>[6]  Farid Golnaraghi and Benjamin C. Kuo, Automatic Control Systems, John Willey and Son, Inc., 9th Ed., 2009<br>[7]  John Doyle, Bruce Francis, and Allen Tannenbaum, Feedback Control Theory, Macmillan Publishing Co., 1990<br>﻿<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><b>Cách học</b><br>-  Áp dụng các phương pháp học tập tích cực, chủ động trên lớp: kết hợp truyền đạt kiến thức thông qua bài giảng, mô phỏng, làm bài tập trên lớp, đặt câu hỏi để sinh viên trả lời, tạo các hoạt động thảo luận, thi đua giữa các nhóm, khuyến khích sinh viên đặt câu hỏi và trình bày suy nghĩ cá nhân.<br>-  Đưa bài giảng, bài tập, đề cương môn học, các thông báo, yêu cầu về bài tập, đồ án, các tài liệu tham khảo, điểm đánh giá, điểm thi vv... lên website E-learning để sinh viên có thể chủ động hơn trong việc học tập; tạo diễn đàn trao đổi các vấn đề liên quan đến môn học <br><b>Cách đánh giá:</b> Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học, cơ bản gồm hai cột điểm: điểm quá trình (70%) và điểm thi cuối kỳ (30%). Điểm đánh giá chi tiết như sau:<br>-  Bài tập:<br>Bài tập kiểm tra trên lớp:  50%<br>Bài tập nhóm/Bài tập cá nhân nộp qua BKEL:  20%<br>-  Thi:<br>Thi cuối kỳ:  30%<br><b></b>Điều kiện dự thi:<b></b><br>-  Sinh viên phải tham dự giờ giảng trên lớp ít nhất 70% thời lượng môn học<br>-  Sinh viên phải hoàn thành tất cả bài tập về nhà đúng hạn cũng như thực hiện đầy đủ các phần thuyết trình của nhóm nếu có. Sinh viêncần lưu ý thời hạn nộp bài tập. Nộp muộn sẽ không được chấp nhận nếu không có lý do chính đáng đã được giảng viên đồng ý trước ngày đến hạn nộp. Bài tập nộp muộn cho phép sẽ bị trừ đi 2 điểm đối với mỗi ngày nộp trễ<br><br></p>",
+      "en": "<p><b>Learning Strategies</b><br>-  Apply active learning methods in class: combine knowledge through lectures, simulations, doing exercises in class, asking questions for students to answer, creating discussion activities debate, compete between groups, encourage students to ask questions and present personal thoughts.<br>-  Post lectures, exercises, course outlines, notices, requests for assignments, projects, reference documents, assessment scores, exam scores, etc. on the E-learning website for students to use; Create a forum to discuss issues related to the subject.<br><b>Assessment Scheme:</b> The final score is assessed throughout the learning process, basically consisting of two points: the learning process score (70%) and the final exam score (30%). The detailed ratings are as follows:<br>-  Exercise:<br>Chapter examination:  50%<br>Group exercises/Individual assignments submitted through BKEL:  20%<br>-  Exam:<br>Final exam:  30% <br>Final exam requirements:<br>-  Students must attend class lectures at least 70% of the course time<br>-  Students must complete all homework on time as well as complete group presentations if any. Students should note the deadline for submitting assignments. Late submissions will not be accepted without a valid reason approved by the instructor. Any late submission of assignments will result in a deduction of 2 points for each day of late submission.<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 2495,
+      "ma": "NG_COD",
+      "ten": {
+        "vi": "2. Kỹ thuật Cơ điện tử - 2023",
+        "en": "Mechatronic Engineering - 2023"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 917,
+      "ma": "003038",
+      "ten": "NGUYỄN DUY ANH"
+    },
+    {
+      "id": 10989,
+      "ma": "004212",
+      "ten": "PHÙNG THANH HUY"
+    },
+    {
+      "id": 10988,
+      "ma": "004211",
+      "ten": "NGUYỄN DUY ÁNH"
+    },
+    {
+      "id": 911,
+      "ma": "002338",
+      "ten": "NGUYỄN QUỐC CHÍ"
+    },
+    {
+      "id": 915,
+      "ma": "002588",
+      "ten": "PHÙNG TRÍ CÔNG"
+    },
+    {
+      "id": 973,
+      "ma": "002335",
+      "ten": "VÕ TƯỜNG QUÂN"
+    },
+    {
+      "id": 907,
+      "ma": "001612",
+      "ten": "NGUYỄN TẤN TIẾN"
+    },
+    {
+      "id": 10143,
+      "ma": "004150",
+      "ten": "PHẠM PHƯƠNG TÙNG"
+    },
+    {
+      "id": 916,
+      "ma": "002917",
+      "ten": "LÊ ĐỨC HẠNH"
+    },
+    {
+      "id": 9882,
+      "ma": "004059",
+      "ten": "DƯƠNG VĂN TÚ"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 0.2,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 9,
+    "tuHoc": 72,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 50,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 20,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Tòa nhà B11",
+      "dienThoai": "0918255355"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 907,
+        "maGiangVien": "001612",
+        "tenGiangVien": "NGUYỄN TẤN TIẾN",
+        "emailGiangVien": "nttien@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3a",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "ME2009 - Kỹ thuật Điều khiển Tự động",
+        "en": "ME2009 - Control System Technology"
+      },
+      "tenmonhoc_only": {
+        "vi": "Kỹ thuật Điều khiển Tự động",
+        "en": "Control System Technology"
+      },
+      "mamonhoc": "ME2009"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 38051,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Activity in class"
+      },
+      "noidung": {
+        "vi": "Hoạt động trên lớp",
+        "en": "Activity in class"
+      }
+    },
+    {
+      "id": 38052,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "38051",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Assigment"
+      },
+      "noidung": {
+        "vi": "Bài tập",
+        "en": "Assigment"
+      }
+    },
+    {
+      "id": 38053,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "38051",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra chương",
+        "en": "Test"
+      },
+      "noidung": {
+        "vi": "Kiểm tra chương",
+        "en": "Test"
+      }
+    },
+    {
+      "id": 38054,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "38051",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối khóa",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối khóa",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 43096,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 57203,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập",
+            "en": "Do excersises, home assignments"
+          },
+          "chuandaura": {
+            "id": 87904,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng mô tả khái niệm hàm truyền, phương trình trạng thái, mối quan hệ giữa hàm truyền và phương trình trạng thái ",
+              "en": "Able to describe the concept of transfer function, state equation, relationship between transfer function and state equation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88608,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88635,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88636,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu\n1.1 Giới thiệu\n1.2 Cấu hình hệ thống\n1.3 Bài toán phân tích và thiết kế hệ thống\n",
+        "en": "Chapter 1: Introduction\n1.1 Introduction\n1.2 System configuration\n1.3 Analysis and design problems \n"
+      }
+    },
+    {
+      "id": 43107,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 57228,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": " Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87908,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Có khả năng thành lập các phương trình vi phân mô tả các hệ thống",
+              "en": "Able to establish differential equations that describe systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88637,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88639,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88682,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57227,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87909,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được hàm truyền và phương trình trạng thái",
+              "en": "Able to construct transfer function and state equation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88643,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88611,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88618,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57229,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87910,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Xây dựng được chuyển đổi giữa hàm truyền và phương trình trạng thái",
+              "en": "Able to construct the conversion between transfer function and state-state representation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88683,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88684,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88663,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Mô hình hóa trong miền tần số\n2.1\tÔn biến đổi Laplace\n2.2\tHàm truyền \n2.3\tHàm truyền mạch điện\n2.4\tHàm truyền hệ cơ khí\n2.5\tHàm truyền hệ cơ điện\n",
+        "en": "Chapter 2: Modeling in the Frequency Domain\n2.1 Review of Laplace Transform\n2.2 Transfer Functions\n2.3 Transfer Functions of Electrical Circuits\n2.4 Transfer Functions of Mechanical Systems\n2.5 Transfer Functions of Electromechanical Systems"
+      }
+    },
+    {
+      "id": 43102,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 57214,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87908,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Có khả năng thành lập các phương trình vi phân mô tả các hệ thống",
+              "en": "Able to establish differential equations that describe systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88640,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88652,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88674,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57215,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87909,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được hàm truyền và phương trình trạng thái",
+              "en": "Able to construct transfer function and state equation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88612,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88672,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88664,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57213,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87910,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Xây dựng được chuyển đổi giữa hàm truyền và phương trình trạng thái",
+              "en": "Able to construct the conversion between transfer function and state-state representation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88619,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88665,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88624,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Mô hình hóa trong miền thời gian\n3.1\tPhương trình trạng thái\n3.2\tBiến đổi từ hàm truyền sang phương trình trạng thái\n3.3\tBiến đổi từ phương trình trạng thái sang hàm truyền\n3.4\tTuyến tính hóa",
+        "en": "Chapter 3: Modeling in the Time Domain\n3.1 State Equations\n3.2 Transformation from Transfer Functions to State Equations\n3.3 Transformation from State Equations to Transfer Functions\n3.4 Linearization"
+      }
+    },
+    {
+      "id": 43100,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 57230,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87912,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định theo tiêu chuẩn Routh-Hurwitz",
+              "en": "Able to verify the system stability using Routh-Hurwitz standard"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88638,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88685,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88626,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57216,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87913,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định và đáp ứng quá độ của hệ thống bằng phương pháp biểu đồ Bode",
+              "en": "Able to verify the stability and transient response of the system using Bode diagram method."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88627,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88686,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88666,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57231,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87914,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định và đáp ứng quá độ của hệ thống bằng phương pháp biến trạng thái",
+              "en": "Able to verify the stability and transient response of the system using state variable"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88667,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88687,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88609,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Đáp ứng thời gian\n4.1\tCực, zero, và đáp ứng hệ thống\n4.2\tHệ bậc nhất\n4.3\tHệ bậc hai\n4.4\tĐáp ứng hệ thống khi thêm cực\n4.5\tĐáp ứng hệ thống khi thêm zero",
+        "en": "Chapter 4: Time Response\n4.1 Poles, Zeros, and System Response\n4.2 First-Order Systems\n4.3 Second-Order Systems\n4.4 System Response with the Addition of Poles\n4.5 System Response with the Addition of Zeros"
+      }
+    },
+    {
+      "id": 43109,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 57232,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87904,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng mô tả khái niệm hàm truyền, phương trình trạng thái, mối quan hệ giữa hàm truyền và phương trình trạng thái ",
+              "en": "Able to describe the concept of transfer function, state equation, relationship between transfer function and state equation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88688,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88610,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88689,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Rút gọn hàm truyền\n3.1\tSơ đồ khối\n3.2\tPhân tích và thiết kế hệ hồi tiếp\n3.3\tSơ đồ đường tín hiệu\n3.4\tĐịnh lý Manson\n3.5\tSơ đồ đường tín hiệu của phương trình trạng thái",
+        "en": "Chapter 5: Transfer Function Reduction\n3.1 Block Diagram\n3.2 Feedback System Analysis and Design\n3.3 Signal Path Diagram\n3.4 Manson's Theorem\n3.5 Signal Path Diagram of State Equation"
+      }
+    },
+    {
+      "id": 43101,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 57222,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87912,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định theo tiêu chuẩn Routh-Hurwitz",
+              "en": "Able to verify the system stability using Routh-Hurwitz standard"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88631,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88654,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88616,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57217,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87913,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định và đáp ứng quá độ của hệ thống bằng phương pháp biểu đồ Bode",
+              "en": "Able to verify the stability and transient response of the system using Bode diagram method."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88677,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88655,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88678,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57218,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87914,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định và đáp ứng quá độ của hệ thống bằng phương pháp biến trạng thái",
+              "en": "Able to verify the stability and transient response of the system using state variable"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88679,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88648,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88649,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Tính ổn định\n6.1\tTiêu chuẩn Routh-Hurwitz\n6.2\tTiêu chuẩn Routh-Hurwitz: các trường hợp đặc biệt\n6.3\tTính ổn định của phương trình trạng thái",
+        "en": "Chapter 6: Stability\n6.1 Routh-Hurwitz Criterion\n6.2 Routh-Hurwitz Criterion: Special Cases\n6.3 Stability of State-space Equation"
+      }
+    },
+    {
+      "id": 43108,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 57219,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87916,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Xác định được các hệ số sai số vị trí, vận tốc, gia tốc",
+              "en": "Able to determine the position, velocity, and acceleration error constant"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88671,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88661,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88662,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57233,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87917,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Xác định được loại hệ thống",
+              "en": "Identify the system type"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88670,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88622,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88632,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57220,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87918,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Xác định được sai số xác lập",
+              "en": "Determine the steady-state error"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88659,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88669,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88660,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Sai số xác lập\n7.1\tSai số xác lập của hệ hồi tiếp đơn vị\n7.2\tHằng số sai số tĩnh và loại hệ thống\n7.3\tSai số xác lập của tín hiệu nhiễu\n7.4\tSai số xác lập của hệ hồi tiếp khác đơn vị\n7.5\tSai số xác lập của hệ dạng phương trình trạng thái",
+        "en": "Chapter 7: Steady-State Error\n7.1 Steady-State Error of Unity Feedback Systems\n7.2 Static Error Constants and System Types\n7.3 Steady-State Error of Disturbance Signals\n7.4 Steady-State Error of Non-Unity Feedback Systems\n7.5 Steady-State Error of State-Equation Type Systems"
+      }
+    },
+    {
+      "id": 43103,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 57235,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87921,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Sử dụng phương pháp quỹ đạo nghiệm số thiết kế các bộ điều khiển",
+              "en": "Students should be able to use root locus method to design controllers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88656,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88657,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88658,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8: Phương pháp quỹ đạo nghiệm\n8.1\tQuỹ đạo nghiệm\n8.2\tVẽ phác quỹ đạo nghiệm\n8.3\tTinh chỉnh quỹ đạo nghiệm\n8.4\tThiết kế đáp ứng hệ thống dựa vào thay đổi độ lợi\n",
+        "en": "Chapter 8: Root Locus Method\n8.1 Root Locus\n8.2 Sketching Root Locus\n8.3 Refining Root Locus\n8.4 System Response Design through Gain Adjustment"
+      }
+    },
+    {
+      "id": 43104,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 57221,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87921,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Sử dụng phương pháp quỹ đạo nghiệm số thiết kế các bộ điều khiển",
+              "en": "Students should be able to use root locus method to design controllers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88617,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88633,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88651,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9: Thiết kế bằng quỹ đạo nghiệm\n9.1\tThiết kế thỏa sai số xác lập \n9.2\tThiết kế thỏa đáp ứng tức thời\n9.3\tThiết kế thỏa sai số xác lập và đáp ứng tức thời\n9.4\tThiết kế hồi tiếp\n9.5\tMạch điện của bộ điều khiển",
+        "en": "Chapter 9: Design Using Root Locus\n9.1 Design for Steady-State Error\n9.2 Design for Transient Response\n9.3 Design for Both Steady-State Error and Transient Response\n9.4 Feedback Design\n9.5 Controller Circuit Design"
+      }
+    },
+    {
+      "id": 43097,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 57236,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87905,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Có khả năng mô tả phương pháp quỹ đạo nghiệm số, biểu đồ Bode, biểu đồ Nyquist",
+              "en": "Able to describe root locus method, Bode diagram, Nyquist diagram"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88641,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88680,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88650,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57223,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87913,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định và đáp ứng quá độ của hệ thống bằng phương pháp biểu đồ Bode",
+              "en": "Able to verify the stability and transient response of the system using Bode diagram method."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88621,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88642,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88681,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10: Kỹ thuật đáp ứng tần số\n10.1\tBiểu đồ Bode\n10.2\tỔn định, biên dộ độ lợi, biên độ pha\n10.3\tXây dựng hàm truyền từ thực nghiệm",
+        "en": "Chapter 10: Frequency Response Techniques\n10.1 Bode Plot\n10.2 Stability, Gain Margin, Phase Margin\n10.3 Constructing Transfer Function from Experimental Data"
+      }
+    },
+    {
+      "id": 43110,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 57234,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87906,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Có khả năng mô tả cấu trúc và đặc tính của bộ bù sớm pha, trễ pha, và sớm-trễ pha",
+              "en": "Able to describe the structure and characteristics of phase-leading, phase-lagging, and phase-leading-lag compensators"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88615,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88646,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 88647,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57209,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87920,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Sử dụng phương pháp biểu đồ Bode thiết kế các bộ điều khiển sớm pha, trễ pha, sớm-trễ pha, PID",
+              "en": "Able to use Bode diagram method to design phase leading, phase lagging, phase leading-lag, PID controllers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88676,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88645,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88653,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 11: Thiết kế trong miển tần số\n11.1\tĐáp ứng tức thời\n11.2\tBộ bù trễ pha\n11.3\tBộ bù sớm pha\n11.4\tBộ bù trễ-sớm pha",
+        "en": "Chapter 11: Frequency Domain Design\n11.1 Transient Response\n11.2 Phase-Lag Compensator\n11.3 Phase-Lead Compensator\n11.4 Phase-Lag-Lead Compensator"
+      }
+    },
+    {
+      "id": 43105,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 57224,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87922,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Sử dụng phương pháp chỉ định nghiệm thiết kế bộ điều khiển theo miền thời gian",
+              "en": "Students should be able to use pole placement technique to design controllers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88614,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88620,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88668,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 12: Thiết kế trong miền thời gian\n12.1\tThiết kế bộ điều khiển\n12.2\tTính điều khiển được\n12.3\tThiết kế bộ quan sát \n12.4\tTính quan sát được\n12.5\tThiết kế sai số xác lập dự trên điều khiển tích phân",
+        "en": "Chapter 12: Time Domain Design\n12.1 Controller Design\n12.2 Controllability\n12.3 Observer Design\n12.4 Observability\n12.5 Steady-State Error Design Based on Integral Control"
+      }
+    },
+    {
+      "id": 43098,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 57240,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87924,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Xác định được tần số lấy mẫu",
+              "en": "Determine the sampling frequency"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88625,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88628,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88629,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57205,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87925,
+            "ma": "L.O.6.2",
+            "ten": {
+              "vi": "Viết được phương trình dạng rời rạc",
+              "en": "Develop discrete equations"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88613,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88690,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88673,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57225,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy",
+            "en": "Lecturing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm bài tập trên lớp và ở nhà\n",
+            "en": "Do exercises in class and at home"
+          },
+          "chuandaura": {
+            "id": 87926,
+            "ma": "L.O.6.3",
+            "ten": {
+              "vi": "Thiết kế được bộ điều khiển rời rạc",
+              "en": "Design of discrete controller"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88644,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38052,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 88630,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38053,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 88675,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 13: Điều khiển số\n13.1 Mô hình hóa bộ điều khiển số\n13.2\tBiến đổi z\n13.3\tHàm truyền\n13.4\tRút gọn hàm truyền\n13.5\tTính ổn định\n13.6\tSai số xác lập\n13.7\tĐáp ứng tức thời\n13.8\tThiết kế bộ điều khiển",
+        "en": "Chapter 13: Digital Control\n13.1 Modeling Digital Controllers\n13.2 Z-Transform\n13.3 Transfer Function\n13.4 Transfer Function Reduction\n13.5 Stability\n13.6 Steady-State Error\n13.7 Transient Response\n13.8 Controller Design"
+      }
+    },
+    {
+      "id": 43099,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 57204,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87904,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng mô tả khái niệm hàm truyền, phương trình trạng thái, mối quan hệ giữa hàm truyền và phương trình trạng thái ",
+              "en": "Able to describe the concept of transfer function, state equation, relationship between transfer function and state equation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88623,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57206,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87908,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Có khả năng thành lập các phương trình vi phân mô tả các hệ thống",
+              "en": "Able to establish differential equations that describe systems"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57210,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87912,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định theo tiêu chuẩn Routh-Hurwitz",
+              "en": "Able to verify the system stability using Routh-Hurwitz standard"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57237,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87916,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Xác định được các hệ số sai số vị trí, vận tốc, gia tốc",
+              "en": "Able to determine the position, velocity, and acceleration error constant"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57207,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87920,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Sử dụng phương pháp biểu đồ Bode thiết kế các bộ điều khiển sớm pha, trễ pha, sớm-trễ pha, PID",
+              "en": "Able to use Bode diagram method to design phase leading, phase lagging, phase leading-lag, PID controllers"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57211,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87924,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Xác định được tần số lấy mẫu",
+              "en": "Determine the sampling frequency"
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Case study",
+        "en": "Case study"
+      }
+    },
+    {
+      "id": 43106,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 57241,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87904,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng mô tả khái niệm hàm truyền, phương trình trạng thái, mối quan hệ giữa hàm truyền và phương trình trạng thái ",
+              "en": "Able to describe the concept of transfer function, state equation, relationship between transfer function and state equation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 88634,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38054,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 57238,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87908,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Có khả năng thành lập các phương trình vi phân mô tả các hệ thống",
+              "en": "Able to establish differential equations that describe systems"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57226,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87912,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Kiểm tra được tính ổn định theo tiêu chuẩn Routh-Hurwitz",
+              "en": "Able to verify the system stability using Routh-Hurwitz standard"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57239,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87916,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Xác định được các hệ số sai số vị trí, vận tốc, gia tốc",
+              "en": "Able to determine the position, velocity, and acceleration error constant"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57212,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87920,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Sử dụng phương pháp biểu đồ Bode thiết kế các bộ điều khiển sớm pha, trễ pha, sớm-trễ pha, PID",
+              "en": "Able to use Bode diagram method to design phase leading, phase lagging, phase leading-lag, PID controllers"
+            }
+          },
+          "hoatdong": []
+        },
+        {
+          "id": 57208,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "hoatdongsinhvien": {
+            "vi": "N/A",
+            "en": "N/A"
+          },
+          "chuandaura": {
+            "id": 87924,
+            "ma": "L.O.6.1",
+            "ten": {
+              "vi": "Xác định được tần số lấy mẫu",
+              "en": "Determine the sampling frequency"
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "Case study",
+        "en": "Case study"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 87904,
+      "ma": "L.O.1.1",
+      "ten_vi": "Có khả năng mô tả khái niệm hàm truyền, phương trình trạng thái, mối quan hệ giữa hàm truyền và phương trình trạng thái ",
+      "ten_en": "Able to describe the concept of transfer function, state equation, relationship between transfer function and state equation",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87905,
+      "ma": "L.O.1.2",
+      "ten_vi": "Có khả năng mô tả phương pháp quỹ đạo nghiệm số, biểu đồ Bode, biểu đồ Nyquist",
+      "ten_en": "Able to describe root locus method, Bode diagram, Nyquist diagram",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87906,
+      "ma": "L.O.1.3",
+      "ten_vi": "Có khả năng mô tả cấu trúc và đặc tính của bộ bù sớm pha, trễ pha, và sớm-trễ pha",
+      "ten_en": "Able to describe the structure and characteristics of phase-leading, phase-lagging, and phase-leading-lag compensators",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87908,
+      "ma": "L.O.2.1",
+      "ten_vi": "Có khả năng thành lập các phương trình vi phân mô tả các hệ thống",
+      "ten_en": "Able to establish differential equations that describe systems",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87909,
+      "ma": "L.O.2.2",
+      "ten_vi": "Xây dựng được hàm truyền và phương trình trạng thái",
+      "ten_en": "Able to construct transfer function and state equation",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87910,
+      "ma": "L.O.2.3",
+      "ten_vi": "Xây dựng được chuyển đổi giữa hàm truyền và phương trình trạng thái",
+      "ten_en": "Able to construct the conversion between transfer function and state-state representation",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87912,
+      "ma": "L.O.3.1",
+      "ten_vi": "Kiểm tra được tính ổn định theo tiêu chuẩn Routh-Hurwitz",
+      "ten_en": "Able to verify the system stability using Routh-Hurwitz standard",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87913,
+      "ma": "L.O.3.2",
+      "ten_vi": "Kiểm tra được tính ổn định và đáp ứng quá độ của hệ thống bằng phương pháp biểu đồ Bode",
+      "ten_en": "Able to verify the stability and transient response of the system using Bode diagram method.",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87914,
+      "ma": "L.O.3.3",
+      "ten_vi": "Kiểm tra được tính ổn định và đáp ứng quá độ của hệ thống bằng phương pháp biến trạng thái",
+      "ten_en": "Able to verify the stability and transient response of the system using state variable",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87916,
+      "ma": "L.O.4.1",
+      "ten_vi": "Xác định được các hệ số sai số vị trí, vận tốc, gia tốc",
+      "ten_en": "Able to determine the position, velocity, and acceleration error constant",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87917,
+      "ma": "L.O.4.2",
+      "ten_vi": "Xác định được loại hệ thống",
+      "ten_en": "Identify the system type",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87918,
+      "ma": "L.O.4.3",
+      "ten_vi": "Xác định được sai số xác lập",
+      "ten_en": "Determine the steady-state error",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87920,
+      "ma": "L.O.5.1",
+      "ten_vi": "Sử dụng phương pháp biểu đồ Bode thiết kế các bộ điều khiển sớm pha, trễ pha, sớm-trễ pha, PID",
+      "ten_en": "Able to use Bode diagram method to design phase leading, phase lagging, phase leading-lag, PID controllers",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87921,
+      "ma": "L.O.5.2",
+      "ten_vi": "Sử dụng phương pháp quỹ đạo nghiệm số thiết kế các bộ điều khiển",
+      "ten_en": "Students should be able to use root locus method to design controllers",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87922,
+      "ma": "L.O.5.3",
+      "ten_vi": "Sử dụng phương pháp chỉ định nghiệm thiết kế bộ điều khiển theo miền thời gian",
+      "ten_en": "Students should be able to use pole placement technique to design controllers",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87924,
+      "ma": "L.O.6.1",
+      "ten_vi": "Xác định được tần số lấy mẫu",
+      "ten_en": "Determine the sampling frequency",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87925,
+      "ma": "L.O.6.2",
+      "ten_vi": "Viết được phương trình dạng rời rạc",
+      "ten_en": "Develop discrete equations",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 87926,
+      "ma": "L.O.6.3",
+      "ten_vi": "Thiết kế được bộ điều khiển rời rạc",
+      "ten_en": "Design of discrete controller",
+      "hddg": [
+        {
+          "id": 38052,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 38053,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 38054,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Động lực học và Điều khiển",
+  "tenmonhoc_eng": "Dynamic Systems and Control",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

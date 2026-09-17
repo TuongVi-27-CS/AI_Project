@@ -1,0 +1,1014 @@
+{
+  "ma": "DCMH.EE3207.1.1",
+  "phienban": "1.1",
+  "capnhat": "14/11/2024 13:21",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE3207",
+  "ten": "EE3207 - Thiết kế vi mạch tương tự",
+  "ten_eng": "EE3207 - Analog IC Design",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n<b></b></p><p></p><p></p><p>- &nbsp; &nbsp; &nbsp;\nPhân tích các mạch tích hợp tương tự CMOS cơ bản.</p>\n\n<p>- &nbsp; &nbsp; &nbsp;\nXác định các thông số đặc trưng của một\nmạch tích hợp tương tự theo yêu cầu cho trước.</p>\n\n<p>- &nbsp; &nbsp; &nbsp;\nTính toán lựa chọn kích thước CMOS cho các khối mạch tín\nhiệu tương tự.</p>\n\n<p>- &nbsp; &nbsp; &nbsp;\nSử\ndụng công cụ thiết kế và mô phỏng các vi mạch tích hợp tương tự cơ bản.</p><p></p><p></p>",
+      "en": "<p><p>- &nbsp; &nbsp; &nbsp;\nAnalyze basic analog CMOS integrated circuits.</p>\n\n<p>- &nbsp; &nbsp; &nbsp;\nIdentify specification of an\nanalog integrated circuit based on given requirements.</p>\n\n<p>- &nbsp; &nbsp; &nbsp;\nCalculate and select CMOS size for\nthe analog integrated circuits.</p>\n\n<p>- &nbsp; &nbsp; &nbsp;\nPractice using CAD tools to design\nand simulate basic integrated circuits.</p>\n\n\n\n\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n<b></b>Môn học này cung cấp cho sinh viên kiến thức về phân tích và thiết kế vi mạch tương tự sử dụng công nghệ CMOS. Các nội dung chính của môn học: mạch khuếch đại đơn tầng và đa tầng, mạch khuếch đại vi sai, mạch gương dòng điện, đáp ứng tần số của mạch khuếch đại. Bên cạnh đó, sinh viên sẽ được trang bị kiến thức về sử dụng các công cụ hỗ trợ trong thiết kế vi mạch tương tự, mô phỏng và kiểm chứng thiết kế.<b></b>\n\n<br></p>",
+      "en": "<p>\n\n<b><small>﻿</small></b>This course focuses on with basis knowledge on analog IC design using CMOS technology. The key contents are: single and multi-stage state amplifiers, differential CMOS amplifiers, passive and active currrent mirror, and the response of the amplifiers on frequency domain. Besides, students are provided with knowledge on using CAD tool to design analog integrated circuits, simulate and verify the design.<b></b>\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><blockquote>Behzad Razavi, Design of Analog CMOS Integrated Circuits 2nd Ed., Mc Graw Hill, 2017</blockquote><p></p><p></p><blockquote><p>Gray,\nHurst, Lewis and Meyer, Analysis and Design of Analog Integrated Circuits,\n5th ed., Wiley, 2009.</p>\n\n\n\n\n\n<b>﻿</b>Allen, Holberg, CMOS\nAnalog Circuit Design, 3rd ed., Oxford University Press, 2011.</blockquote><b><b></b>\n\n<br></b><p></p>",
+      "en": "<p>\n\n<blockquote>Behzad Razavi, Design of Analog CMOS Integrated Circuits 2nd Ed., Mc Graw Hill, 2017</blockquote><p></p><p></p><blockquote><p>Gray,\nHurst, Lewis and Meyer, Analysis and Design of Analog Integrated Circuits,\n5th ed., Wiley, 2009.</p>\n\n\n\n\n\n<b></b>Allen, Holberg, CMOS\nAnalog Circuit Design, 3rd ed., Oxford University Press, 2011.</blockquote></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Tài liệu được đưa lên\nBKEL hàng tuần. Sinh viên tải về, in các\nbài giảng và mang theo khi lên lớp học. Sinh viên làm bài tập về nhà để củng cố kiến thức.<br></p>",
+      "en": "<p>Course materials are\nposted on LMS weekly. Students download, print and bring them to class. Students do homework to reinforce knowledge.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 503,
+      "ma": "002323",
+      "ten": "HOÀNG TRANG"
+    },
+    {
+      "id": 511,
+      "ma": "002976",
+      "ten": "PHAN VÕ KIM ANH"
+    },
+    {
+      "id": 8785,
+      "ma": "003961",
+      "ten": "NGUYỄN TRUNG HIẾU"
+    },
+    {
+      "id": 465,
+      "ma": "001923",
+      "ten": "HUỲNH PHÚ MINH CƯỜNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": null,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 1.0,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 45,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 60,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 50,
+    "doAn": 0,
+    "kiemTra": 20,
+    "thi": 30,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Bộ môn Điện tử (201B3)",
+      "dienThoai": "5154"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 511,
+        "maGiangVien": "002976",
+        "tenGiangVien": "PHAN VÕ KIM ANH",
+        "emailGiangVien": "pvkanh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3c",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2035 - Mạch điện tử",
+        "en": "EE2035 - Electronic Circuits"
+      },
+      "tenmonhoc_only": {
+        "vi": "Mạch điện tử",
+        "en": "Electronic Circuits"
+      },
+      "mamonhoc": "EE2035"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "EE3201 - Cơ sở thiết kế vi mạch",
+        "en": "EE3201 - Introduction to IC Design"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ sở thiết kế vi mạch",
+        "en": "Introduction to IC Design"
+      },
+      "mamonhoc": "EE3201"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 29214,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 29215,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "29214",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Final Exam"
+      }
+    },
+    {
+      "id": 29216,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "29214",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa học kỳ",
+        "en": "Mid-term Test"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa học kỳ",
+        "en": "Mid-term Test"
+      }
+    },
+    {
+      "id": 29217,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "29214",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 33621,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 44426,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu về đề cương môn học, cách đánh giá, chuẩn đầu ra của môn học.\n- Giới thiệu tổng quan về thiết kế vi mạch tương tự. ",
+            "en": "- Introduce course outline, assessment method and learning outcomes.\n- Introduce overview of analog IC design."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận về nội dung của môn học và đặt các câu hỏi.\n- Hiểu được tổng quan thiết kế vi mạch tương tự.",
+            "en": "- Q&A.\n- Know overview of analog IC design."
+          },
+          "chuandaura": {
+            "id": 75622,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và thiết kế các khối vi mạch tương tự cơ bản ",
+              "en": "Analyze and design basic blocks of analog integrated circuits"
+            }
+          },
+          "hoatdong": []
+        }
+      ],
+      "noidung": {
+        "vi": "1) Giới thiệu tổng quan về thiết kế vi mạch tương tự\nTổng quan thiết kế vi mạch (Vi mạch tương tự và vi mạch số)\nCông nghệ CMOS\nTính chất hoạt động của MOSFET\n",
+        "en": "Introduction to Analog IC design\n- Introduction to Analog design (Analog vs Digital IC design)\n- CMOS technology\n- MOSFET characteristic"
+      }
+    },
+    {
+      "id": 33625,
+      "stt": 2,
+      "buoi": "2,3",
+      "chuandaurachitiet": [
+        {
+          "id": 44425,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Xem lại slide bài giảng.\n- Tải slide lên LMS.",
+            "en": "- Presenting lecture slides \n- Upload slides to LMS\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tải slide bài giảng.\n- In các slide thiết yếu.\n- Tự tóm tắt.\n",
+            "en": "- Review the lecture \n- Print out essential slides \n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 75622,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và thiết kế các khối vi mạch tương tự cơ bản ",
+              "en": "Analyze and design basic blocks of analog integrated circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 68660,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 29216,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa học kỳ",
+                  "en": "Mid-term Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2) Mạch khuếch đại đơn tầng\n- Mạch khuếch đại S chung.\n- Mạch khuếch đại D chung.\n- Mạch khuếch đại G chung.\n- Mạch khuếch đại Cascode.",
+        "en": "2) Single-stage amplifier\n- Common Source amplifier.\n- Common Drain amplifier.\n- Common Gate amplifier.\n- Cascode stage."
+      }
+    },
+    {
+      "id": 33624,
+      "stt": 3,
+      "buoi": "4-5",
+      "chuandaurachitiet": [
+        {
+          "id": 44428,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng \n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides \n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n - In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture \n- Print out essential slides \n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 75622,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và thiết kế các khối vi mạch tương tự cơ bản ",
+              "en": "Analyze and design basic blocks of analog integrated circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 68663,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 29215,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "3) Mạch khuếch đại vi sai\n- Phân tích khuếch đại vi sai \n- Đáp ứng mode chung\n- Mạch khuếch đại vi sai sử dụng tải MOS",
+        "en": "- Basic differential pair\n- Common mode response\n- Differential pair with MOS load\n"
+      }
+    },
+    {
+      "id": 33626,
+      "stt": 4,
+      "buoi": "6,7",
+      "chuandaurachitiet": [
+        {
+          "id": 44429,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng \n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides \n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n - In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture \n- Print out essential slides \n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 75622,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và thiết kế các khối vi mạch tương tự cơ bản ",
+              "en": "Analyze and design basic blocks of analog integrated circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 68657,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 29215,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4) Gương dòng điện\n- Phân tích mạch gương dòng điện\n- Gương dòng điện tích cực\n",
+        "en": "4) Current mirrors\n- Basic current mirror.\n- Differential pair with current source load.\n\n"
+      }
+    },
+    {
+      "id": 33623,
+      "stt": 5,
+      "buoi": "8,9",
+      "chuandaurachitiet": [
+        {
+          "id": 44430,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng \n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides \n- Upload slides to LMS"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n - In ra các slide thiết yếu\n- Tự tóm tắt\n",
+            "en": "- Review the lecture \n- Print out essential slides \n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 75622,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và thiết kế các khối vi mạch tương tự cơ bản ",
+              "en": "Analyze and design basic blocks of analog integrated circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 68656,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 29215,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "5) Đáp ứng tần số của mạch khuếch đại\n- Tổng quan.\n- Mạch khuếch đại đơn tầng (S chung, D chung, G chung).\n- Mạch Cascode.\n- Cặp vi sai.",
+        "en": "5) Frequency response of amplifiers\n- General consideration.\n- Single stage amplifiers (CS, CD, CG).\n- Cascode stage.\n- Differential pair.\n"
+      }
+    },
+    {
+      "id": 33622,
+      "stt": 6,
+      "buoi": "10,11",
+      "chuandaurachitiet": [
+        {
+          "id": 44423,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS",
+            "en": "- Presenting lecture slides \n- Upload slides to LMS\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại slide bài giảng\n- In các slide thiết yếu\n- Tự tóm tắt",
+            "en": "- Review the lecture \n- Print out essential slides \n- Summarize yourself"
+          },
+          "chuandaura": {
+            "id": 75622,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Phân tích và thiết kế các khối vi mạch tương tự cơ bản ",
+              "en": "Analyze and design basic blocks of analog integrated circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 68655,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 29215,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "6) Nhiễu\n- Đặc tính thống kê của nhiễu. \n- Các loại nhiễu\n- Nhiễu trong vi mạch\n- Nhiễu trong khuếch đại đơn tầng/cacode/vi sai/ gương dòng điện.\n- Băng thông - nhiễu.\n",
+        "en": "6) Noise\n- Statistical characteristic of noise. \n- Type of noise.\n- Representations of noise in circuits.\n- Noise in single-stage/cascode/current mirrors/ differential amplifiers \n- Noise - Bandwidth.\n"
+      }
+    },
+    {
+      "id": 33627,
+      "stt": 7,
+      "buoi": "12,13,14,15",
+      "chuandaurachitiet": [
+        {
+          "id": 44427,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn sinh viên thực hiện các bài thí nghiệm mô phỏng.\n- Hướng dẫn thực hiện đề tài Bài tập lớn.\n\n",
+            "en": "- Instruct students to simulate labs.\n- Instruct students how to do project."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên mô phỏng mạch, đo đạc thông số, so sánh với lý thuyết.\n- Sinh viên thực hiện bài tập lớn theo nhóm, làm báo cáo và trình bày tại lớp cho GVHD.",
+            "en": "- Students simulate and compare the results with theory calculations.\n- Students do  project in groups, submit reports and present in class."
+          },
+          "chuandaura": {
+            "id": 75623,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Thực hành sử dụng công cụ chuyên nghiệp trong thiết kế và mô phỏng những vi mạch tích hợp tương tự cơ bản",
+              "en": "Practice using CAD tools to design and simulate basic integrated circuits from schematic to layout"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 68661,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 29217,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 68659,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 29215,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 44424,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn sinh viên thực hiện các bài thí nghiệm mô phỏng.\n- Hướng dẫn thực hiện đề tài Bài tập lớn.\n\n\n\n",
+            "en": "- Instruct students to simulate labs.\n- Instruct students how to do project."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Sinh viên mô phỏng mạch, đo đạc thông số, so sánh với lý thuyết.\n- Sinh viên thực hiện bài tập lớn theo nhóm, làm báo cáo và trình bày tại lớp cho GVHD.",
+            "en": "- Students simulate and compare the results with theory calculations.\n- Students do  project in groups, submit reports and present in class."
+          },
+          "chuandaura": {
+            "id": 75624,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Thực hiện quy trình thiết kế và thuyết trình về một hệ thống vi mạch tương tự",
+              "en": "Carry out the design flow and present a system of analog integrated circuits "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 68658,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 29217,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 68662,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 29215,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hướng dẫn Bài tập lớn\n- Khảo sát đặc tính của MOSFET: đặc tuyến IV, hiệu ứng thứ cấp.\n- Mạch khuếch đại CS (Common source Amplifier): tải thuần trở, tải diode connected, tải tích cực.\n- Phân tích cổng đảo bằng ADE-XL\n- Gương dòng điện\n- Bài tập lớn (theo danh sách đề tài của GVHD)",
+        "en": "Project instruction\n- MOSFET characteristic examination: IV characteristic, second order effect.\n- Common source amplifier with different types of loads (resistor, diode connected, active load).\n- CMOS Inverter Analysis with ADE-XL\n- Current Mirror\n- Project (assigned by the instructors)"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 75622,
+      "ma": "L.O.1",
+      "ten_vi": "Phân tích và thiết kế các khối vi mạch tương tự cơ bản ",
+      "ten_en": "Analyze and design basic blocks of analog integrated circuits",
+      "hddg": [
+        {
+          "id": 29215,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final Exam"
+        },
+        {
+          "id": 29216,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa học kỳ",
+          "ten_en": "Mid-term Test"
+        }
+      ]
+    },
+    {
+      "id": 75623,
+      "ma": "L.O.2",
+      "ten_vi": "Thực hành sử dụng công cụ chuyên nghiệp trong thiết kế và mô phỏng những vi mạch tích hợp tương tự cơ bản",
+      "ten_en": "Practice using CAD tools to design and simulate basic integrated circuits from schematic to layout",
+      "hddg": [
+        {
+          "id": 29215,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final Exam"
+        },
+        {
+          "id": 29217,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 75624,
+      "ma": "L.O.3",
+      "ten_vi": "Thực hiện quy trình thiết kế và thuyết trình về một hệ thống vi mạch tương tự",
+      "ten_en": "Carry out the design flow and present a system of analog integrated circuits ",
+      "hddg": [
+        {
+          "id": 29215,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Final Exam"
+        },
+        {
+          "id": 29217,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế vi mạch tương tự",
+  "tenmonhoc_eng": "Analog IC Design",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    },
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

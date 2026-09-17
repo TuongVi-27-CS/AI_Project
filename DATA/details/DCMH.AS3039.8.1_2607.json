@@ -1,0 +1,1904 @@
+{
+  "ma": "DCMH.AS3039.8.1",
+  "phienban": "8.1",
+  "capnhat": "18/06/2024 13:18",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS3039",
+  "ten": "AS3039 - Mô hình Hóa động lực học Cơ hệ",
+  "ten_eng": "AS3039 - Modelling of Dynamic Systems",
+  "hockyapdung": "HK211",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Sau khi hoàn thành môn học, sinh viên thu được:<br>-  Nguyên tắc chung thiết lập phương trình động lực học cho cơ hệ<br>-  Kỹ năng thiết lập phương trình động lực học cho các hệ cơ cụ thể trong thực tế<br>-  Quy trình khảo sát ứng xử động lực học của các hệ cơ<br><br></p>",
+      "en": "<p>After completing the course, students obtain:<br>- General principles for setting up dynamic equations for mechanical systems<br>- Skills to set up dynamic equations for mechanical systems in practice<br>- The process of investigating the dynamic behavior of mechanical systems<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Trên cơ sở các quy luật của các lĩnh vực cơ học, xây dựng mô hình toán học của từng cơ cấu. Khảo sát các mô hình và phân tích đáp ứng trong miền thời gian và miền tần số.<br></p>",
+      "en": "<p>On the basic laws of mechanics, build a mathematical model of mechanical systems. Investigate models and analyze responses in the time domain and in the frequency domain<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>1.  Giáo trình chính<br>Bohdan T. Kulakowski, John F. Gardner, J. Lowen Shearer. Dynamic Modeling and Control of Engineering Systems. Cambridge University Press, 2007.<br>2.  Tài liệu tham khảo&nbsp;<br>Robert L. Woods, Kent L. Laurence, Modeling and simulation of dynamic systems, Ed. Prentice hall<br>3.  Tài liệu khác&nbsp;<br>Jorge Angeles. Dynamic Response of Linear Mechanical Systems: Modeling, Analysis and Simulation. Springer Science+Business Media 2011.<br><br></p>",
+      "en": "<p>1. Textbooks: <br>Bohdan T. Kulakowski, John F. Gardner, J. Lowen Shearer. Dynamic Modeling and Control of Engineering Systems. Cambridge University Press, 2007.<br>2. References<br>Robert L. Woods, Kent L. Laurence, Modeling and simulation of dynamic systems, Ed. Prentice hall<br>3. Other materials<br>Jorge Angeles. Dynamic Response of Linear Mechanical Systems: Modeling, Analysis and Simulation. Springer Science+Business Media 2011.<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Sinh viên tải slide bài giảng về mang kèm theo giáo trình khi lên lớp học.<br>Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học, sinh viên nên dự đầy đủ giờ giảng trên lớp sinh viên nên hoàn thành các bài tập theo thời hạn<br>Sinh viên nên thường xuyên ôn tập để tránh bị động lúc thi kiểm tra giữa kỳ và cuối kỳ.<br><br></p>",
+      "en": "<p>Students downlaod lecture slides to bring along with the textbooks when going to class.<br>Summary of the subject is assessed throughout the learning process, students should attend all lecture hours in class.<br>Students should complete assignments by deadline<br>Students should regularly review to avoid being passive in midterm and final exams<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "nganh": [
+    {
+      "id": 1829,
+      "ma": "NG_CKT",
+      "ten": {
+        "vi": "CƠ KỸ THUẬT",
+        "en": "Engineering Mechanics Program"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1402,
+      "ma": "002792",
+      "ten": "Ngô Kiều Nhi"
+    },
+    {
+      "id": 1406,
+      "ma": "003136",
+      "ten": "Phạm Bảo Toàn"
+    },
+    {
+      "id": 7399,
+      "ma": "003825",
+      "ten": "Nguyễn Quốc Hưng"
+    },
+    {
+      "id": 7400,
+      "ma": "003826",
+      "ten": "Vương Công Luận"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 0.6,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 27,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 66,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 10,
+    "doAn": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1079,
+      "maBoMon": "CKT",
+      "tenBoMon": {
+        "vi": "Cơ Kỹ Thuật"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "B4-201 - Đại học Bách Khoa TPHCM",
+      "dienThoai": "5291"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1402,
+        "maGiangVien": "002792",
+        "tenGiangVien": "Ngô Kiều Nhi",
+        "emailGiangVien": "ngokieunhi@hcmut.edu.vn"
+      },
+      {
+        "id": 1406,
+        "maGiangVien": "003136",
+        "tenGiangVien": "Phạm Bảo Toàn",
+        "emailGiangVien": "baotoanbk@hcmut.edu.vn"
+      },
+      {
+        "id": 7399,
+        "maGiangVien": "003825",
+        "tenGiangVien": "Nguyễn Quốc Hưng",
+        "emailGiangVien": "nqhung1706@hcmut.edu.vn"
+      },
+      {
+        "id": 7400,
+        "maGiangVien": "003826",
+        "tenGiangVien": "Vương Công Luận",
+        "emailGiangVien": "vuongluan@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3b",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CI2003 - Cơ lưu chất",
+        "en": "CI2003 - Fluid Mechanics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ lưu chất",
+        "en": "Fluid Mechanics"
+      },
+      "mamonhoc": "CI2003"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "AS1003 - Cơ lý thuyết",
+        "en": "AS1003 - Engineering Mechanics"
+      },
+      "tenmonhoc_only": {
+        "vi": "Cơ lý thuyết",
+        "en": "Engineering Mechanics"
+      },
+      "mamonhoc": "AS1003"
+    },
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "AS3061 - Dao động Cơ sở",
+        "en": "AS3061 - Fundamentals of Vibrations"
+      },
+      "tenmonhoc_only": {
+        "vi": "Dao động Cơ sở",
+        "en": "Fundamentals of Vibrations"
+      },
+      "mamonhoc": "AS3061"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 4037,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 4038,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "4037",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá quá trình",
+        "en": "On-going assessment"
+      },
+      "noidung": {
+        "vi": "Đánh giá quá trình",
+        "en": "On-going assessment"
+      }
+    },
+    {
+      "id": 4041,
+      "stt": 0,
+      "ma": "A.O.1.1",
+      "capdo": "2",
+      "parentid": "4038",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Câu hỏi trên lớp",
+        "en": "Quizz in classroom"
+      },
+      "noidung": {
+        "vi": "Câu hỏi trên lớp",
+        "en": "Quizz in classroom"
+      }
+    },
+    {
+      "id": 4042,
+      "stt": 0,
+      "ma": "A.O.1.2",
+      "capdo": "2",
+      "parentid": "4038",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Quiz in class"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Quiz in class"
+      }
+    },
+    {
+      "id": 4039,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "4037",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Mid-term test"
+      },
+      "noidung": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Mid-term test"
+      }
+    },
+    {
+      "id": 4040,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "4037",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Bài thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Bài thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 4081,
+      "stt": 1,
+      "buoi": "1/1",
+      "chuandaurachitiet": [
+        {
+          "id": 4713,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu ví dụ về các hệ thống kỹ thuật.\n - Cung cấp tài liệu\nhướng dẫn học tập\nvà giải thích\n",
+            "en": "- Introduce examples of engineering systems.\n  - Provide study guide and explanation\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng và trả lời câu hỏi\n\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39465,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm vững các khái niệm",
+              "en": "Understand the basic concepts and fundamentals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6415,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6416,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Giới thiệu về môn học\n",
+        "en": "Chapter 1: Introduction to the course"
+      }
+    },
+    {
+      "id": 4075,
+      "stt": 2,
+      "buoi": "2/2",
+      "chuandaurachitiet": [
+        {
+          "id": 4710,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên.",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39465,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm vững các khái niệm",
+              "en": "Understand the basic concepts and fundamentals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6399,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6400,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4706,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39467,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Biết quy trình chung mô hình hóa ",
+              "en": "Know the general modeling process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6403,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6404,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4705,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên.",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39468,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Biết phân tích kết quả ",
+              "en": "Know how to analyze results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6401,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6402,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Các kiến thức cơ bản về mô hình hóa\n- Dạng phương trình tổng quát \n- Phương pháp giải \n- Nghiệm và các khái niệm \n- Các dạng tín hiệu\n",
+        "en": "Chapter 2: Basic knowledge of modeling\n  - General equation form\n- Solution method\n- Experiments and concepts\n- Types of signals\n"
+      }
+    },
+    {
+      "id": 4079,
+      "stt": 3,
+      "buoi": "3/3",
+      "chuandaurachitiet": [
+        {
+          "id": 4711,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên.",
+            "en": "Present theory and answer question of student."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39465,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm vững các khái niệm",
+              "en": "Understand the basic concepts and fundamentals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6412,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6411,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Hệ cơ\n - Các phần tử cơ bản của cơ hệ\n- Sơ đồ cơ hệ\n- Các dạng chuyển động và hệ tọa độ.\n",
+        "en": "Chapter 3: Mechanical System\n  - Basic elements of a mechanical system\n- Diagram of the mechanical system\n- Motion forms and coordinate systems\n"
+      }
+    },
+    {
+      "id": 4080,
+      "stt": 4,
+      "buoi": "4/3",
+      "chuandaurachitiet": [
+        {
+          "id": 4712,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên.",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39465,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm vững các khái niệm",
+              "en": "Understand the basic concepts and fundamentals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6414,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6413,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Hệ cơ\n- Các định luật động lực học hệ cơ \n- Nguyên lý D’Alembert - Phương trình Lagrange\n",
+        "en": "Chapter 3: Mechanical System\n- Laws of Dynamics\n- D'Alembert's principle \n- Lagrange's equation\n"
+      }
+    },
+    {
+      "id": 4082,
+      "stt": 5,
+      "buoi": "5/3",
+      "chuandaurachitiet": [
+        {
+          "id": 4714,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên.",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39465,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm vững các khái niệm",
+              "en": "Understand the basic concepts and fundamentals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6417,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6418,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Mô hình toán\n- Phương pháp tuyến tính hóa\n",
+        "en": "Chapter 4:Mathematical Models\n- Linearization method\n"
+      }
+    },
+    {
+      "id": 4077,
+      "stt": 6,
+      "buoi": "6/4",
+      "chuandaurachitiet": [
+        {
+          "id": 4708,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39467,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Biết quy trình chung mô hình hóa ",
+              "en": "Know the general modeling process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6407,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6408,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Mô hình toán\n- Mô hình đầu vào – đầu ra\n- Mô hình trạng thái",
+        "en": "Chapter 4:Mathematical Models\nInput–Output Models\nState Models"
+      }
+    },
+    {
+      "id": 4085,
+      "stt": 7,
+      "buoi": "7/4",
+      "chuandaurachitiet": [
+        {
+          "id": 4717,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng\nvà đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39467,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Biết quy trình chung mô hình hóa ",
+              "en": "Know the general modeling process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6424,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6423,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Mô hình toán\n- Mối quan hệ giữa mô hình đầu vào- đầu ra và mô hình trạng thái\n",
+        "en": "Chapter 4:Mathematical Models\nTransition Between Input–Output and State Models\n"
+      }
+    },
+    {
+      "id": 4076,
+      "stt": 8,
+      "buoi": "8/5",
+      "chuandaurachitiet": [
+        {
+          "id": 4707,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng và đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39468,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Biết phân tích kết quả ",
+              "en": "Know how to analyze results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6406,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6405,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4040,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phân tích mô hình cơ hệ\n- Mô hình tuyến tính\n- Mô hình bậc 1\n",
+        "en": "Chapter 5: Analytical solutions of system input-output equations\n- Linear models\n- First-Order Models\n"
+      }
+    },
+    {
+      "id": 4083,
+      "stt": 9,
+      "buoi": "9/5",
+      "chuandaurachitiet": [
+        {
+          "id": 4715,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng và đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39468,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Biết phân tích kết quả ",
+              "en": "Know how to analyze results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6420,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6419,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4040,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phân tích mô hình cơ hệ\n- Mô hình bậc 2\n",
+        "en": "Chapter 5: Analytical solutions of system input-output equations\n- Second-Order Models\n"
+      }
+    },
+    {
+      "id": 4084,
+      "stt": 10,
+      "buoi": "10/5",
+      "chuandaurachitiet": [
+        {
+          "id": 4716,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày lý thuyết và trả lời câu hỏi của sinh viên",
+            "en": "Present theory and answer question of student"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng và đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39468,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Biết phân tích kết quả ",
+              "en": "Know how to analyze results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6422,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6421,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4040,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phân tích mô hình cơ hệ\n- Mô hình bậc 3\n",
+        "en": "Chapter 5: Analytical solutions of system input-output equations\n- Third-Order Models\n"
+      }
+    },
+    {
+      "id": 4086,
+      "stt": 11,
+      "buoi": "3/2",
+      "chuandaurachitiet": [
+        {
+          "id": 4719,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các bước thực hiện bài tập mẫu\n",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập mẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39465,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm vững các khái niệm",
+              "en": "Understand the basic concepts and fundamentals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6427,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            },
+            {
+              "id": 6428,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4718,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các\nbước thực hiện bài tập mẫu\n",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập mẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39470,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Làm việc nhóm",
+              "en": "Teamwork"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6426,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            },
+            {
+              "id": 6425,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Các kiến thức cơ bản về mô hình hóa",
+        "en": "Chapter 2: Basic knowledge of modeling"
+      }
+    },
+    {
+      "id": 4087,
+      "stt": 12,
+      "buoi": "5/2",
+      "chuandaurachitiet": [
+        {
+          "id": 4721,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các bước thực hiện bài tập mẫu\n",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập mẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39465,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Nắm vững các khái niệm",
+              "en": "Understand the basic concepts and fundamentals"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6432,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4039,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term test"
+                }
+              }
+            },
+            {
+              "id": 6431,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4720,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các bước thực hiện bài tập mẫu\n",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập mẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39470,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Làm việc nhóm",
+              "en": "Teamwork"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6429,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6430,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Hệ cơ",
+        "en": "Chapter 3: Mechanical System"
+      }
+    },
+    {
+      "id": 4088,
+      "stt": 13,
+      "buoi": "7/2",
+      "chuandaurachitiet": [
+        {
+          "id": 4722,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các bước thực hiện bài tập mẫu\n",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập mẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39467,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Biết quy trình chung mô hình hóa ",
+              "en": "Know the general modeling process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6434,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            },
+            {
+              "id": 6433,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4040,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4723,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các bước thực hiện bài tập mẫu\n",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập mẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39470,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Làm việc nhóm",
+              "en": "Teamwork"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6436,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6435,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Mô hình toán",
+        "en": "Chapter 4: Mathematical Models"
+      }
+    },
+    {
+      "id": 4089,
+      "stt": 14,
+      "buoi": "10/3",
+      "chuandaurachitiet": [
+        {
+          "id": 4725,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các\nbước thực hiện bài tập mẫu\n",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập\nmẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39468,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Biết phân tích kết quả ",
+              "en": "Know how to analyze results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6440,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            },
+            {
+              "id": 6439,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4040,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4724,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các bước thực hiện bài tập mẫu",
+            "en": "Guide student to solve sample problem"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện bài tập\nmẫu theo nhóm và đặt câu hỏi\n",
+            "en": "Do the sample problem and make questions"
+          },
+          "chuandaura": {
+            "id": 39470,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Làm việc nhóm",
+              "en": "Teamwork"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6437,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6438,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4042,
+                "ma": "A.O.1.2",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Quiz in class"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Phân tích mô hình cơ hệ",
+        "en": "Chapter 5: Analytical solutions of system input-output equations"
+      }
+    },
+    {
+      "id": 4078,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 4709,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Tổng hợp lại các kiến thức đã học",
+            "en": "Summarize the knowledge learned"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Theo dõi bài giảng và đặt câu hỏi\n",
+            "en": "Watch for  the lecture and make  questions"
+          },
+          "chuandaura": {
+            "id": 39467,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Biết quy trình chung mô hình hóa ",
+              "en": "Know the general modeling process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 6410,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 4041,
+                "ma": "A.O.1.1",
+                "ten": {
+                  "vi": "Câu hỏi trên lớp",
+                  "en": "Quizz in classroom"
+                }
+              }
+            },
+            {
+              "id": 6409,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 4040,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn tập",
+        "en": "Review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 39465,
+      "ma": "L.O.1.1",
+      "ten_vi": "Nắm vững các khái niệm",
+      "ten_en": "Understand the basic concepts and fundamentals",
+      "hddg": [
+        {
+          "id": 4041,
+          "ma": "A.O.1.1",
+          "ten_vi": "Câu hỏi trên lớp",
+          "ten_en": "Quizz in classroom"
+        },
+        {
+          "id": 4042,
+          "ma": "A.O.1.2",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz in class"
+        },
+        {
+          "id": 4039,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        }
+      ]
+    },
+    {
+      "id": 39467,
+      "ma": "L.O.2.1",
+      "ten_vi": "Biết quy trình chung mô hình hóa ",
+      "ten_en": "Know the general modeling process",
+      "hddg": [
+        {
+          "id": 4041,
+          "ma": "A.O.1.1",
+          "ten_vi": "Câu hỏi trên lớp",
+          "ten_en": "Quizz in classroom"
+        },
+        {
+          "id": 4042,
+          "ma": "A.O.1.2",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz in class"
+        },
+        {
+          "id": 4039,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        },
+        {
+          "id": 4040,
+          "ma": "A.O.3",
+          "ten_vi": "Bài thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 39468,
+      "ma": "L.O.2.2",
+      "ten_vi": "Biết phân tích kết quả ",
+      "ten_en": "Know how to analyze results",
+      "hddg": [
+        {
+          "id": 4041,
+          "ma": "A.O.1.1",
+          "ten_vi": "Câu hỏi trên lớp",
+          "ten_en": "Quizz in classroom"
+        },
+        {
+          "id": 4042,
+          "ma": "A.O.1.2",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz in class"
+        },
+        {
+          "id": 4040,
+          "ma": "A.O.3",
+          "ten_vi": "Bài thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 39470,
+      "ma": "L.O.3.1",
+      "ten_vi": "Làm việc nhóm",
+      "ten_en": "Teamwork",
+      "hddg": [
+        {
+          "id": 4041,
+          "ma": "A.O.1.1",
+          "ten_vi": "Câu hỏi trên lớp",
+          "ten_en": "Quizz in classroom"
+        },
+        {
+          "id": 4042,
+          "ma": "A.O.1.2",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Quiz in class"
+        },
+        {
+          "id": 4039,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term test"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Mô hình Hóa động lực học Cơ hệ",
+  "tenmonhoc_eng": "Modelling of Dynamic Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

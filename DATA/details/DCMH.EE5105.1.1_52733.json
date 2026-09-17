@@ -1,0 +1,1686 @@
+{
+  "ma": "DCMH.EE5105.1.1",
+  "phienban": "1.1",
+  "capnhat": "01/06/2026 15:18",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5105",
+  "ten": "EE5105 - Hệ thống điều khiển tích hợp",
+  "ten_eng": "EE5105 - Integrated Control Systems",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>•  Trang bị nền tảng về kiến trúc hệ thống điều khiển tích hợp trong công nghiệp, bao gồm tích hợp ngang và tích hợp dọc từ thiết bị hiện trường đến lớp giám sát và dữ liệu.<br>•  Giúp người học lựa chọn và áp dụng phù hợp các mô hình truyền thông và giao thức kết nối trong bài toán tích hợp hệ thống.<br>•  Rèn kỹ năng thiết kế và triển khai kết nối PLC–thiết bị qua Modbus TCP/IP trên TIA Portal, phục vụ thu thập dữ liệu và điều khiển.<br>•  Rèn kỹ năng thiết kế và triển khai tích hợp PLC–PLC và SCADA–PLC qua OPC UA, bao gồm cấu hình server/client và kiểm thử.<br>•  Phát triển tư duy và kỹ thuật xây dựng giải pháp truyền thông bền vững và mở rộng, đáp ứng hệ thống có số lượng lớn thiết bị/tag và yêu cầu vận hành ổn định.<br>•  Tiếp cận hướng tích hợp AI vào hệ SCADA/ICS để hỗ trợ giám sát, phân tích và ra quyết định vận hành dựa trên dữ liệu thông qua các bài tập/đồ án.<br></p>",
+      "en": "<p>•  Provide a solid foundation on integrated control system architectures, including horizontal and vertical integration from field devices to supervision and data layers.<br>•  Enable students to select and apply suitable communication models and protocols for system integration.<br>•  Develop practical skills to design and implement PLC-to-field device connectivity via Modbus TCP/IP in TIA Portal for data acquisition and control.<br>•  Develop practical skills to design and implement PLC-to-PLC and SCADA-to-PLC integration via OPC UA, including server/client configuration and validation.<br>•  Build the capability to deliver resilient and scalable communication solutions for stable operation with large numbers of devices/tags.<br>•  Introduce AI integration in SCADA/ICS for data-driven monitoring, analytics, and operational decision support through projects and case studies.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>•  Tổng quan kiến trúc hệ thống điều khiển tích hợp và các hướng tích hợp.<br>•  Tích hợp ngang, tích hợp dọc; luồng dữ liệu và luồng điều khiển.<br>•  Đặc tính truyền thông trong nhà máy và telemetry; tiêu chí lựa chọn giao thức.<br>•  Kết nối PLC–thiết bị qua Modbus TCP/IP trong TIA Portal.<br>•  Tích hợp PLC–PLC và SCADA–PLC qua OPC UA.<br>•  Thiết kế truyền thông bền vững và mở rộng cho hệ nhiều thiết bị/tag.<br>•  Tích hợp AI vào SCADA/ICS để hỗ trợ giám sát và vận hành dựa trên dữ liệu.<br>•  Bốn bài tập lớn: Modbus TCP/IP, OPC UA, bài toán tích hợp SCADA, và tích hợp AI.<br></p>",
+      "en": "<p>•  Overview of integrated control system architectures and integration approaches.<br>•  Horizontal and vertical integration; data flow and control flow.<br>•  In-plant vs telemetry communication characteristics and protocol selection criteria.<br>•  PLC-to-field device connectivity via Modbus TCP/IP in TIA Portal.<br>•  PLC-to-PLC and SCADA-to-PLC integration via OPC UA.<br>•  Resilient and scalable communication design for large device/tag systems.<br>•  AI integration in SCADA/ICS for data-driven monitoring and operational support.<br>•  Four major projects: Modbus TCP/IP, OPC UA, SCADA integration case study, and AI integration.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] Siemens AG. Modbus/TCP with instructions “MB_CLIENT” and “MB_SERVER” (S7-1200, S7-1500). Siemens Industry Online Support, technical documentation. Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://cache.industry.siemens.com/dl/files/340/102020340/att_118119/v6/net_modbus_tcp_s7-1500_s7-1200_en.pdf\">https://cache.industry.siemens.com/dl/files/340/102020340/att_118119/v6/net_modbus_tcp_s7-1500_s7-12...</a><br>[2] Siemens AG. Modbus (TCP) (S7-1200, S7-1500) – TIA Portal V20 documentation (cloud). Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://docs.tia.siemens.cloud/r/en-us/v20/modbus-tcp-s7-1200-s7-1500\">https://docs.tia.siemens.cloud/r/en-us/v20/modbus-tcp-s7-1200-s7-1500</a><br>[3] Siemens AG. Communication (S7-1200, S7-1500) – TIA Portal V20 documentation (cloud). Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://docs.tia.siemens.cloud/r/en-us/v20/communication-s7-1200-s7-1500\">https://docs.tia.siemens.cloud/r/en-us/v20/communication-s7-1200-s7-1500</a><br>[4] Siemens Industry Support Portal (trung tâm hỗ trợ kỹ thuật và tải phần mềm chính thức). Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://support.industry.siemens.com\">https://support.industry.siemens.com</a><br>[5] WinCC OA documentation. OPC Unified Architecture (OPC UA) – basics. Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.winccoa.com/documentation/WinCCOA/3.20/en_US/OPC_UA/opc_ua_basics.html\">https://www.winccoa.com/documentation/WinCCOA/3.20/en_US/OPC_UA/opc_ua_basics.html</a><br>[6] Trương Đình Châu. Practice resources for the postgraduate course “Integrated Control Systems” (TIA Portal projects and simulators). GitHub repository: <a target=\"_blank\" rel=\"nofollow\" href=\"https://github.com/chau-truong/ics-resources\">https://github.com/chau-truong/ics-resources</a><br>[7] OPC Foundation. OPC Unified Architecture (OPC UA) – unified architecture overview. Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://opcfoundation.org/about/opc-technologies/opc-ua\">https://opcfoundation.org/about/opc-technologies/opc-ua</a><br>[8] Modbus Organization. Modbus application protocol specification V1.1b3, 2012. Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.modbus.org/file/secure/modbusprotocolspecification.pdf\">https://www.modbus.org/file/secure/modbusprotocolspecification.pdf</a><br>[9] Trương Đình Châu. PLC ảo – giải pháp lập trình và kiểm tra hệ thống sớm. Tự động hóa ngày nay. Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html\">https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html</a><br>[10] Trương Đình Châu. Tổ chức chương trình thu thập dữ liệu từ các thiết bị đo đếm điện năng. Tự động hóa ngày nay. Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://tudonghoangaynay.vn/to-chuc-chuong-trinh-thu-thap-du-lieu-tu-cac-thiet-bi-do-dem-dien-nang-7514.html\">https://tudonghoangaynay.vn/to-chuc-chuong-trinh-thu-thap-du-lieu-tu-cac-thiet-bi-do-dem-dien-nang-7...</a><br>[11] Trương Đình Châu. Tích hợp trí tuệ nhân tạo vào hệ thống SCADA: từ thuật toán đến ứng dụng thực tiễn. Tự động hóa ngày nay, số 291–292, 05–06/2025. Truy cập tại: <a target=\"_blank\" rel=\"nofollow\" href=\"https://tudonghoangaynay.vn/tich-hop-tri-tue-nhan-tao-vao-he-thong-scada-tu-thuat-toan-den-ung-dung-thuc-tien-14243.html\">https://tudonghoangaynay.vn/tich-hop-tri-tue-nhan-tao-vao-he-thong-scada-tu-thuat-toan-den-ung-dung-...</a><br></p>",
+      "en": "<p>[1] Siemens AG. Modbus/TCP with instructions “MB_CLIENT” and “MB_SERVER” (S7-1200, S7-1500). Siemens Industry Online Support, technical documentation. Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://cache.industry.siemens.com/dl/files/340/102020340/att_118119/v6/net_modbus_tcp_s7-1500_s7-1200_en.pdf\">https://cache.industry.siemens.com/dl/files/340/102020340/att_118119/v6/net_modbus_tcp_s7-1500_s7-12...</a><br>[2] Siemens AG. Modbus (TCP) (S7-1200, S7-1500) – TIA Portal V20 documentation (cloud). Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://docs.tia.siemens.cloud/r/en-us/v20/modbus-tcp-s7-1200-s7-1500\">https://docs.tia.siemens.cloud/r/en-us/v20/modbus-tcp-s7-1200-s7-1500</a><br>[3] Siemens AG. Communication (S7-1200, S7-1500) – TIA Portal V20 documentation (cloud). Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://docs.tia.siemens.cloud/r/en-us/v20/communication-s7-1200-s7-1500\">https://docs.tia.siemens.cloud/r/en-us/v20/communication-s7-1200-s7-1500</a><br>[4] Siemens Industry Support Portal (official technical support center and software downloads). Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://support.industry.siemens.com\">https://support.industry.siemens.com</a><br>[5] WinCC OA Documentation. OPC Unified Architecture (OPC UA) – basics. Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.winccoa.com/documentation/WinCCOA/3.20/en_US/OPC_UA/opc_ua_basics.html\">https://www.winccoa.com/documentation/WinCCOA/3.20/en_US/OPC_UA/opc_ua_basics.html</a><br>[6] Truong Dinh Chau. Practice resources for the postgraduate course “Integrated Control Systems” (TIA Portal projects and simulators). GitHub repository: <a target=\"_blank\" rel=\"nofollow\" href=\"https://github.com/chau-truong/ics-resources\">https://github.com/chau-truong/ics-resources</a><br>[7] OPC Foundation. OPC Unified Architecture (OPC UA) – unified architecture overview. Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://opcfoundation.org/about/opc-technologies/opc-ua\">https://opcfoundation.org/about/opc-technologies/opc-ua</a><br>[8] Modbus Organization. Modbus Application Protocol Specification V1.1b3, 2012. Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.modbus.org/file/secure/modbusprotocolspecification.pdf\">https://www.modbus.org/file/secure/modbusprotocolspecification.pdf</a><br>[9] Truong Dinh Chau. Virtual PLC – an approach for early development and system validation. Automation Today magazine. Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html\">https://tudonghoangaynay.vn/plc-ao-giai-phap-lap-trinh-va-kiem-tra-he-thong-som-10133.html</a><br>[10] Truong Dinh Chau. Organizing a data acquisition program for energy metering devices. Automation Today magazine. Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://tudonghoangaynay.vn/to-chuc-chuong-trinh-thu-thap-du-lieu-tu-cac-thiet-bi-do-dem-dien-nang-7514.html\">https://tudonghoangaynay.vn/to-chuc-chuong-trinh-thu-thap-du-lieu-tu-cac-thiet-bi-do-dem-dien-nang-7...</a><br>[11] Truong Dinh Chau. Integrating artificial intelligence into SCADA systems: from algorithms to practical applications. Automation Today magazine, issues 291–292, May–June 2025. Available at: <a target=\"_blank\" rel=\"nofollow\" href=\"https://tudonghoangaynay.vn/tich-hop-tri-tue-nhan-tao-vao-he-thong-scada-tu-thuat-toan-den-ung-dung-thuc-tien-14243.html\">https://tudonghoangaynay.vn/tich-hop-tri-tue-nhan-tao-vao-he-thong-scada-tu-thuat-toan-den-ung-dung-...</a><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>•  Tham dự đầy đủ các buổi học và chủ động trao đổi với giảng viên để làm rõ yêu cầu kỹ thuật, tiêu chí đánh giá và phạm vi từng chủ đề.<br>•  Chuẩn bị trước mỗi buổi học: đọc tài liệu về kiến trúc hệ thống điều khiển tích hợp, tích hợp ngang/tích hợp dọc, đặc tính truyền thông in-plant và telemetry; ghi lại câu hỏi/điểm chưa rõ để thảo luận trên lớp.<br>•  Thực hành ngay sau mỗi buổi học trên TIA Portal: cấu hình kết nối, tạo cấu trúc dữ liệu, triển khai đọc/ghi và kiểm thử theo từng bước; ghi nhận kết quả và lỗi thường gặp.<br>•  Thực hành Modbus TCP/IP theo hướng chuẩn hóa và mở rộng: thống nhất quy ước mapping, đơn vị và chất lượng dữ liệu; tối ưu chu kỳ đọc; kiểm thử với nhiều thiết bị/tag.<br>•  Xây dựng cơ chế truyền thông bền vững: quản lý trạng thái kết nối, timeout/retry, tự phục hồi, chẩn đoán; thử nghiệm các tình huống lỗi như mất mạng, thiết bị không phản hồi, khởi động lại hệ thống.<br>•  Thực hành OPC UA theo từng giai đoạn: cấu hình OPC UA server, triển khai OPC UA client trong TIA Portal, thực hiện browse/read/write/subscription và method call, sau đó kiểm thử tích hợp PLC–PLC và SCADA–PLC.<br>•  Thực hành SCADA theo hướng “gắn với mô hình dữ liệu”: chuẩn hóa quy ước tag, alarm/trend, command và kiểm thử thao tác điều khiển; triển khai kết nối OPC UA với WinCC OA theo các kịch bản vận hành.<br>•  Tổ chức bài tập lớn theo nhóm (nếu có): phân công vai trò rõ ràng (Modbus, OPC UA, SCADA, AI, test &amp; documentation), họp ngắn định kỳ, thống nhất quyết định thiết kế và kịch bản kiểm thử.<br>•  Hoàn thành bài tập đúng hạn; ưu tiên chất lượng kỹ thuật: cấu trúc chương trình rõ ràng, có log/diagnostic, có checklist test case để chứng minh tính đúng và tính ổn định.<br>•  Chuẩn bị cho đánh giá cuối kỳ bằng cách hệ thống hóa: kiến trúc ICS, tiêu chí chọn giao thức, nguyên lý Modbus TCP/IP và OPC UA (gồm method), tích hợp SCADA với WinCC OA, thiết kế bền vững và mở rộng, và nguyên tắc tích hợp AI vào SCADA/ICS.<br></p>",
+      "en": "<p>•  Attend all sessions and actively discuss with the instructor to clarify technical requirements, assessment criteria, and the scope of each topic.<br>•  Prepare before each class by reading materials on integrated control system architectures, horizontal/vertical integration, and in-plant vs telemetry communication characteristics; note questions for in-class discussion.<br>•  Practice immediately after each session in TIA Portal: configure connectivity, define data structures, implement read/write, and validate step by step; record results and common issues.<br>•  Practice Modbus TCP/IP with a standardization-and-scaling mindset: apply consistent mapping rules, engineering units, and data quality handling; optimize polling cycles; test with large numbers of devices/tags.<br>•  Build resilient communication mechanisms: connection state management, timeout/retry, self-recovery, and diagnostics; test failure scenarios such as network loss, non-responding devices, and system restarts.<br>•  Practice OPC UA in phases: configure OPC UA servers, implement OPC UA clients in TIA Portal, perform browse/read/write/subscription and method calls, then validate PLC-to-PLC and SCADA-to-PLC integration.<br>•  Practice SCADA with a data-model-driven approach: standardize tag naming, alarm/trend, and command handling; verify control actions and data consistency; implement OPC UA connectivity in WinCC OA using operational test scenarios.<br>•  Organize major projects in teams (if applicable): assign clear roles (Modbus, OPC UA, SCADA, AI, testing &amp; documentation), hold short regular syncs, and document design decisions and test results.<br>•  Submit on time and prioritize engineering quality: clean structure, logging/diagnostics, and test-case checklists to demonstrate correctness and robustness.<br>•  Prepare for the final assessment by consolidating: ICS architecture, protocol selection criteria, Modbus TCP/IP and OPC UA fundamentals (including methods), SCADA integration with WinCC OA, resilience/scalability principles, and AI integration concepts for SCADA/ICS.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>•  Trang bị nền tảng về kiến trúc hệ thống điều khiển tích hợp trong công nghiệp, bao gồm tích hợp ngang và tích hợp dọc từ thiết bị hiện trường đến lớp giám sát và dữ liệu.<br>•  Giúp người học lựa chọn và áp dụng phù hợp các mô hình truyền thông và giao thức kết nối trong bài toán tích hợp hệ thống.<br>•  Rèn kỹ năng thiết kế và triển khai kết nối PLC–thiết bị qua Modbus TCP/IP trên TIA Portal, phục vụ thu thập dữ liệu và điều khiển.<br>•  Rèn kỹ năng thiết kế và triển khai tích hợp PLC–PLC và SCADA–PLC qua OPC UA, bao gồm cấu hình server/client và kiểm thử.<br>•  Phát triển tư duy và kỹ thuật xây dựng giải pháp truyền thông bền vững và mở rộng, đáp ứng hệ thống có số lượng lớn thiết bị/tag và yêu cầu vận hành ổn định.<br>•  Tiếp cận hướng tích hợp AI vào hệ SCADA/ICS để hỗ trợ giám sát, phân tích và ra quyết định vận hành dựa trên dữ liệu thông qua các bài tập/đồ án.<br></p>",
+      "en": "<p>•  Provide a solid foundation on integrated control system architectures, including horizontal and vertical integration from field devices to supervision and data layers.<br>•  Enable students to select and apply suitable communication models and protocols for system integration.<br>•  Develop practical skills to design and implement PLC-to-field device connectivity via Modbus TCP/IP in TIA Portal for data acquisition and control.<br>•  Develop practical skills to design and implement PLC-to-PLC and SCADA-to-PLC integration via OPC UA, including server/client configuration and validation.<br>•  Build the capability to deliver resilient and scalable communication solutions for stable operation with large numbers of devices/tags.<br>•  Introduce AI integration in SCADA/ICS for data-driven monitoring, analytics, and operational decision support through projects and case studies.<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 10289,
+      "ma": "NG_8520216",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Kỹ thuật Điều khiển và Tự động hóa",
+        "en": "Research-intensive Master Program in Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 10570,
+      "ma": "NG_8520114",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ hướng Nghiên cứu Ngành Kỹ Thuật Cơ Điện Tử",
+        "en": "Research-oriented Master Program in Mechatronics Engineering"
+      }
+    },
+    {
+      "id": 10291,
+      "ma": "NG_8520216",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Kỹ thuật Điều khiển và Tự động hóa",
+        "en": "Research-oriented Master Program in Control Engineering and Automation"
+      }
+    },
+    {
+      "id": 10283,
+      "ma": "NG_8520203",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu ngành Kỹ thuật Điện tử",
+        "en": "Research-oriented Master Program in Electronics Engineering"
+      }
+    },
+    {
+      "id": 10256,
+      "ma": "NG_8520114",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ hướng Ứng dụng Ngành Kỹ Thuật Cơ Điện Tử",
+        "en": "Coursework Master Program in Mechatronics Engineering"
+      }
+    },
+    {
+      "id": 10470,
+      "ma": "NG_8520114",
+      "ten": {
+        "vi": "Chương trình đào tạo Thạc sĩ hướng nghiên cứu chuyên sâu ngành Kỹ thuật Cơ Điện Tử",
+        "en": "Research-intensive Master Program in Mechatronics Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 541,
+      "ma": "002655",
+      "ten": "TRƯƠNG ĐÌNH CHÂU"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 30,
+    "thiNghiem": 0,
+    "baiTapLon": 50,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 20,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1031,
+      "maBoMon": "TDH",
+      "tenBoMon": {
+        "vi": "Điều Khiển Tự Động"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Dept of Automation and Control, 109B3",
+      "dienThoai": "+84-91-543-74-40"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 541,
+        "maGiangVien": "002655",
+        "tenGiangVien": "TRƯƠNG ĐÌNH CHÂU",
+        "emailGiangVien": "chau.truong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 90048,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 90049,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "90048",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá quá trình học tập",
+        "en": "Continuous assessment"
+      },
+      "noidung": {
+        "vi": "Điểm quá trình dựa trên mức độ tham gia học tập, chuẩn bị trước buổi học, thảo luận kỹ thuật, kết quả thực hành theo từng chủ đề và tuân thủ yêu cầu nộp bài/ghi nhận kết quả kiểm thử.",
+        "en": "The score is based on class participation, preparation, technical discussions, hands-on practice outcomes by topics, and compliance with submission and validation evidence."
+      }
+    },
+    {
+      "id": 90050,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "90048",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập cá nhân",
+        "en": "Individual assignments"
+      },
+      "noidung": {
+        "vi": "Các bài tập cá nhân theo từng module nhằm kiểm tra khả năng triển khai và kiểm thử kết nối Modbus TCP/IP và OPC UA, chuẩn hóa dữ liệu, xử lý lỗi truyền thông và ghi log/diagnostic theo yêu cầu.",
+        "en": "Individual tasks per module to assess the ability to implement and validate Modbus TCP/IP and OPC UA connectivity, data standardization, communication fault handling, and required logging/diagnostics."
+      }
+    },
+    {
+      "id": 90051,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "90048",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn theo nhóm",
+        "en": "Group projects"
+      },
+      "noidung": {
+        "vi": "Thực hiện 4 bài tập lớn theo tình huống thực tế: (1) Modbus TCP/IP, (2) OPC UA, (3) tích hợp SCADA–PLC bằng OPC UA, (4) tích hợp AI cho SCADA/ICS. Đánh giá theo thiết kế, triển khai, kiểm thử theo kịch bản, và báo cáo kỹ thuật.",
+        "en": "Four major projects based on realistic scenarios: (1) Modbus TCP/IP, (2) OPC UA, (3) SCADA-to-PLC integration via OPC UA, (4) AI integration for SCADA/ICS. Assessment covers design, implementation, scenario-based validation, and technical reporting."
+      }
+    },
+    {
+      "id": 90052,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "90048",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ dạng trắc nghiệm, thời lượng 60 phút. Nội dung đánh giá kiến thức tổng hợp về kiến trúc hệ thống điều khiển tích hợp, tích hợp ngang và tích hợp dọc, đặc tính truyền thông in-plant và telemetry, nguyên lý kết nối và mô hình dữ liệu của Modbus TCP/IP và OPC UA (bao gồm subscription và method), cơ chế truyền thông bền vững và mở rộng, cùng các nguyên tắc tích hợp SCADA và AI trong hệ ICS. Bài làm trả lời trực tiếp trên đề/phiếu theo quy định.",
+        "en": "The final exam is in multiple-choice format with a duration of 60 minutes. It assesses comprehensive knowledge of integrated control system architectures, horizontal and vertical integration, in-plant vs telemetry communication characteristics, connectivity fundamentals and data models of Modbus TCP/IP and OPC UA (including subscriptions and methods), resilient and scalable communication design, and key principles of SCADA and AI integration in ICS. Answers are written directly on the exam paper/answer sheet as required."
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 111462,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 148203,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu khái niệm ICS và mô hình kiến trúc theo lớp.\n• Giải thích vai trò từng lớp và quan hệ giữa PLC/RTU, SCADA/HMI, historian/MES/ERP, analytics/AI.\n• Minh họa bằng một ví dụ hệ thống thực tế và sơ đồ phân lớp.",
+            "en": "• Introduce the ICS concept and a layered architecture model.\n• Explain the role of each layer and the relationships among PLC/RTU, SCADA/HMI, historian/MES/ERP, and analytics/AI.\n• Illustrate with a practical example and a layered architecture diagram."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Phân tích một ví dụ ICS và liệt kê các lớp kiến trúc tương ứng.\n• Vẽ sơ đồ kiến trúc tổng thể (1 trang) và ghi chú vai trò từng lớp.\n• Trả lời câu hỏi nhanh về chức năng chính của từng lớp.",
+            "en": "• Analyze a sample ICS and list the corresponding architecture layers.\n• Draw a one-page overall architecture diagram and annotate the role of each layer.\n• Answer quick questions on the main functions of each layer."
+          },
+          "chuandaura": {
+            "id": 240712,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Kiến trúc tổng thể và lớp chức năng của hệ thống điều khiển tích hợp",
+              "en": "Integrated control systems - overall architecture and functional layers"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242675,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242676,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148208,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày tích hợp ngang và tích hợp dọc, phạm vi và mục tiêu của từng loại.\n• Minh họa luồng dữ liệu và luồng điều khiển bằng sơ đồ end-to-end.\n• Thảo luận các tình huống điển hình: giám sát, điều khiển, báo cáo, chia sẻ trạng thái liên vùng.",
+            "en": "• Present horizontal and vertical integration, including scope and goals.\n• Illustrate end-to-end data flow and control flow using system diagrams.\n• Discuss typical scenarios: monitoring, control, reporting, and cross-area state sharing."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Làm bài tập ngắn: phân loại các ví dụ thành tích hợp ngang hoặc tích hợp dọc.\n• Vẽ luồng dữ liệu/điều khiển cho một kịch bản vận hành và trình bày ngắn.\n• Nêu rủi ro nếu nhầm lẫn luồng dữ liệu và luồng điều khiển.",
+            "en": "• Complete a short task: classify examples as horizontal or vertical integration.\n• Draw data/control flows for an operational scenario and present briefly.\n• Identify risks caused by confusing data flow with control flow."
+          },
+          "chuandaura": {
+            "id": 240713,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Tích hợp ngang, tích hợp dọc và luồng dữ liệu/điều khiển",
+              "en": "Horizontal/vertical integration and data/control flows"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242641,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242657,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148199,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "• So sánh in-plant và telemetry theo độ trễ, jitter, độ ổn định và tính quyết định.\n• Giới thiệu các khái niệm cốt lõi cho telemetry: timestamp, buffering, store-and-forward, event-driven.\n• Trình bày tiêu chí chọn giao thức và liên hệ Modbus TCP/IP và OPC UA theo từng bài toán.",
+            "en": "• Compare in-plant and telemetry communications in terms of latency, jitter, stability, and determinism.\n• Introduce key telemetry concepts: timestamps, buffering, store-and-forward, and event-driven updates.\n• Present protocol selection criteria and relate Modbus TCP/IP and OPC UA to typical use cases."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Làm bài tập ngắn: chọn tiêu chí ưu tiên cho 2 bối cảnh in-plant và telemetry.\n• Đề xuất giao thức phù hợp cho từng bối cảnh và giải thích ngắn theo tiêu chí.\n• Nộp bảng tóm tắt 1 trang: bối cảnh → yêu cầu → tiêu chí → giao thức đề xuất.",
+            "en": "• Complete a short task: prioritize selection criteria for in-plant and telemetry scenarios.\n• Propose suitable protocols for each scenario and justify briefly using the criteria.\n• Submit a one-page summary table: scenario → requirements → criteria → proposed protocol."
+          },
+          "chuandaura": {
+            "id": 240714,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Đặc tính truyền thông và tiêu chí chọn giao thức",
+              "en": "Communication characteristics and protocol selection criteria"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242645,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242677,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nền tảng kiến trúc và tích hợp\n• Tổng quan kiến trúc ICS: lớp hiện trường, điều khiển, giám sát, dữ liệu/nghiệp vụ, phân tích/AI.\n• Tích hợp ngang và tích hợp dọc; luồng dữ liệu và luồng điều khiển.\n• Các khối chức năng: điều khiển, kết nối, giám sát, dữ liệu, quản trị vận hành.\n• Đặc tính truyền thông in-plant và telemetry; yêu cầu timestamp, bảo toàn dữ liệu, event-driven.\n• Giao thức đại diện và tiêu chí lựa chọn giao thức cho bài toán tích hợp.",
+        "en": "Foundational architecture and system integration\n• ICS architecture overview: field, control, supervision, data/business, analytics/AI layers.\n• Horizontal and vertical integration; data flow and control flow.\n• Functional blocks: control, connectivity, supervision, data, and operations management.\n• In-plant vs telemetry communications; timestamps, data preservation, and event-driven updates.\n• Representative protocols and engineering criteria for protocol selection."
+      }
+    },
+    {
+      "id": 111466,
+      "stt": 2,
+      "buoi": "3-5",
+      "chuandaurachitiet": [
+        {
+          "id": 148200,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu mô hình Modbus TCP/IP, vai trò client/server và nguyên tắc địa chỉ hóa thanh ghi.\n• Hướng dẫn mapping dữ liệu và chuẩn hóa đơn vị; minh họa packing/scaling và quy ước đặt tên tag.\n• Demo cấu hình và lập trình đọc/ghi trong TIA Portal; kiểm thử đọc/ghi theo từng bước và ghi nhận lỗi thường gặp.",
+            "en": "• Introduce the Modbus TCP/IP model, client/server roles, and register addressing principles.\n• Guide data mapping and engineering unit normalization; illustrate packing/scaling and tag naming conventions.\n• Demonstrate TIA Portal setup and read/write implementation; validate step by step and highlight common pitfalls."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Tạo bảng mapping cho một thiết bị mẫu: địa chỉ, kiểu dữ liệu, đơn vị, scale và hướng đọc/ghi.\n• Cấu hình và chạy thử đọc/ghi Modbus TCP/IP trên TIA Portal; đối chiếu kết quả với mapping.\n• Nộp bằng chứng kiểm thử: ảnh chụp/ghi log giá trị đọc/ghi và mô tả ngắn các bước thực hiện.",
+            "en": "• Create a mapping table for a sample device: addresses, data types, units, scaling, and read/write direction.\n• Configure and test Modbus TCP/IP read/write in TIA Portal; verify results against the mapping.\n• Submit validation evidence: screenshots/logs of read/write results and a brief procedure summary."
+          },
+          "chuandaura": {
+            "id": 240715,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Mapping dữ liệu và triển khai đọc/ghi Modbus TCP/IP",
+              "en": "Data mapping and Modbus TCP/IP read/write implementation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242653,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242658,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90050,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignments"
+                }
+              }
+            },
+            {
+              "id": 242671,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242640,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148201,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày mô hình trạng thái kết nối và yêu cầu bền vững: timeout, retry, reconnect, watchdog, quality.\n• Hướng dẫn tổ chức polling theo nhóm và ưu tiên; đọc theo block để tối ưu chu kỳ và giảm tải.\n• Demo kịch bản lỗi: mất mạng, thiết bị không phản hồi, restart; hướng dẫn cách ghi log/diagnostic và tiêu chí nghiệm thu.",
+            "en": "• Present a connection-state approach and resilience requirements: timeout, retry, reconnect, watchdog, and quality handling.\n• Guide grouped/prioritized polling and block-based reading to optimize cycle time and reduce load.\n• Demonstrate fault scenarios (network loss, no response, restart); explain logging/diagnostics and acceptance criteria."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Bổ sung cơ chế timeout/retry và tự khôi phục cho kết nối; gắn cờ chất lượng dữ liệu khi lỗi.\n• Tổ chức đọc theo block và theo nhóm thiết bị/tag; đo/ghi nhận chu kỳ cập nhật và tỷ lệ lỗi.\n• Thực hiện bộ test case lỗi và lập báo cáo ngắn: kịch bản, kết quả, log/ảnh minh chứng, kết luận ổn định.",
+            "en": "• Add timeout/retry and auto-recovery mechanisms; flag data quality under communication faults.\n• Implement block-based and grouped device/tag polling; measure update cycle and error rates.\n• Run fault test cases and submit a short report: scenarios, results, evidence logs/screenshots, and stability conclusion."
+          },
+          "chuandaura": {
+            "id": 240716,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Truyền thông bền vững và mở rộng cho Modbus TCP/IP",
+              "en": "Resilient and scalable Modbus TCP/IP communication"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242650,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242651,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90050,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignments"
+                }
+              }
+            },
+            {
+              "id": 242652,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242674,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tích hợp PLC – thiết bị với Modbus TCP/IP\n• Read/Write và tổ chức dữ liệu: mapping thanh ghi, chuẩn hoá đơn vị, đọc theo block.\n• Thiết kế truyền thông bền vững và mở rộng: trạng thái kết nối, tự khôi phục, timeout/retry, quản lý chất lượng dữ liệu.\n• Vận hành quy mô lớn: tổ chức polling theo nhóm/ưu tiên, xử lý nhiều thiết bị và tag.\n• Bài tập lớn 1: PLC đọc/ghi nhiều thiết bị Modbus TCP/IP; khối truyền thông dùng lại; kiểm thử theo kịch bản và báo cáo kết quả.",
+        "en": "PLC-to-field device integration via Modbus TCP/IP\n• Read/write and data organization: register mapping, engineering units, block-based access.\n• Resilient and scalable communication design: connection states, auto-recovery, timeout/retry, data quality handling.\n• Large-scale operation: grouped/prioritized polling, handling many devices and tags.\n• Major project 1: PLC reads/writes multiple Modbus TCP/IP devices; reusable communication block; scenario-based validation and report."
+      }
+    },
+    {
+      "id": 111463,
+      "stt": 3,
+      "buoi": "6-9",
+      "chuandaurachitiet": [
+        {
+          "id": 148202,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu address space, node, namespace và kiểu dữ liệu; minh họa cấu trúc node cho bài toán PLC–PLC.\n• Hướng dẫn cấu hình OPC UA server trên S7-1500 và thiết lập bảo mật cơ bản phục vụ kết nối.\n• Demo tạo node dữ liệu, kiểm tra truy cập và xác nhận đúng kiểu dữ liệu/đơn vị.",
+            "en": "• Introduce address space, nodes, namespaces, and data types; illustrate node structures for PLC-to-PLC use cases.\n• Guide OPC UA server setup on S7-1500 and configure essential security for connectivity.\n• Demonstrate creating data nodes and verifying access, data types, and engineering units."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Cấu hình OPC UA server trên S7-1500; tạo tập node dữ liệu theo yêu cầu lab.\n• Kiểm tra truy cập node bằng công cụ client và đối chiếu kiểu dữ liệu.\n• Nộp bằng chứng: cấu hình server, danh sách node và ảnh/log kiểm thử truy cập.",
+            "en": "• Configure an OPC UA server on S7-1500 and create the required data nodes for the lab.\n• Verify node access using a client tool and confirm data types.\n• Submit evidence: server configuration, node list, and access validation logs/screenshots."
+          },
+          "chuandaura": {
+            "id": 240717,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Cấu hình OPC UA server và mô hình dữ liệu",
+              "en": "OPC UA server configuration and information model"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242644,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242672,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90050,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignments"
+                }
+              }
+            },
+            {
+              "id": 242659,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242678,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148198,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Hướng dẫn thiết lập OPC UA client trên TIA Portal: browse, mapping node, read/write.\n• Trình bày subscription, chu kỳ cập nhật và cách kiểm thử tính nhất quán dữ liệu.\n• Minh họa method và kịch bản gọi method theo yêu cầu bài toán điều khiển.",
+            "en": "• Guide OPC UA client setup in TIA Portal: browsing, node mapping, and read/write.\n• Explain subscriptions, update cycles, and how to validate data consistency.\n• Demonstrate OPC UA methods and method calls for required control use cases."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Kết nối OPC UA client đến server; thực hiện browse và mapping node dữ liệu.\n• Thực hiện read/write và subscription; ghi nhận chu kỳ cập nhật và đối chiếu giá trị.\n• Thực hiện gọi method theo yêu cầu; nộp ảnh/log minh chứng kết quả.",
+            "en": "• Connect an OPC UA client to the server; browse and map the required data nodes.\n• Perform read/write and subscriptions; record update cycles and verify values.\n• Execute the required method calls and submit screenshots/logs as evidence."
+          },
+          "chuandaura": {
+            "id": 240718,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Triển khai OPC UA client và gọi method",
+              "en": "OPC UA client implementation and method invocation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242679,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242661,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90050,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignments"
+                }
+              }
+            },
+            {
+              "id": 242660,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242667,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148204,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày yêu cầu bền vững: quản lý session, subscription, reconnect và phục hồi sau lỗi.\n• Hướng dẫn thiết kế cơ chế tự reconnect và tự khôi phục subscription khi server restart.\n• Demo kịch bản lỗi: mất mạng, restart server; tiêu chí nghiệm thu ổn định và chẩn đoán.",
+            "en": "• Present resilience requirements: session handling, subscriptions, reconnect, and recovery.\n• Guide the design of auto-reconnect and subscription recovery after server restarts.\n• Demonstrate fault scenarios (network loss, server restart) and define stability acceptance criteria and diagnostics."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Thực hiện kịch bản lỗi: ngắt mạng và restart server; quan sát khả năng tự phục hồi.\n• Kiểm tra dữ liệu sau phục hồi: stale data, missing updates, resubscribe đúng danh sách node.\n• Nộp báo cáo ngắn: kịch bản, kết quả, log/ảnh minh chứng và kết luận ổn định.",
+            "en": "• Run fault scenarios: network disconnect and server restart; observe auto-recovery behavior.\n• Verify post-recovery data: stale detection, missing updates, correct resubscription of nodes.\n• Submit a short report: scenarios, results, evidence logs/screenshots, and stability conclusion."
+          },
+          "chuandaura": {
+            "id": 240719,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Truyền thông bền vững cho OPC UA",
+              "en": "Resilient OPC UA communication"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242648,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242649,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90050,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignments"
+                }
+              }
+            },
+            {
+              "id": 242668,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242662,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "PLC – PLC với OPC UA\n• Kiến trúc OPC UA: address space, node, kiểu dữ liệu; bảo mật ở mức triển khai.\n• Cấu hình server: S7-1500 làm OPC UA server; kết nối server mô phỏng theo lab.\n• OPC UA client trên TIA Portal: browse, read/write, subscription; method theo yêu cầu bài toán.\n• Thiết kế client bền vững: tự tạo session, tự khôi phục subscription, tự reconnect và đồng bộ lại dữ liệu.\n• Bài tập lớn 2: PLC–PLC trao đổi dữ liệu qua OPC UA; kiểm thử lỗi mạng/restart server; báo cáo và checklist nghiệm thu.",
+        "en": "PLC-to-PLC integration via OPC UA\n• OPC UA fundamentals: address space, nodes, data types; implementation-level security.\n• Server setup: S7-1500 as an OPC UA server; simulated servers for lab exercises.\n• OPC UA client in TIA Portal: browse, read/write, subscriptions; methods for control use cases.\n• Resilient client design: session creation, subscription recovery, auto-reconnect, and resynchronization.\n• Major project 2: PLC-to-PLC data exchange via OPC UA; fault/restart validation; report and acceptance checklist."
+      }
+    },
+    {
+      "id": 111464,
+      "stt": 4,
+      "buoi": "10-12",
+      "chuandaurachitiet": [
+        {
+          "id": 148205,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Giới thiệu cấu trúc dự án WinCC OA và nguyên tắc tổ chức hệ nhiều đối tượng.\n• Hướng dẫn quy ước đặt tên, phân nhóm thiết bị và xây dựng template dùng lại.\n• Demo kết nối OPC UA từ WinCC OA: browse/mapping node, tạo datapoint và kiểm thử đọc/ghi cơ bản.",
+            "en": "• Introduce WinCC OA project structure and principles for multi-object organization.\n• Guide naming conventions, device grouping, and reusable template setup.\n• Demonstrate OPC UA connectivity in WinCC OA: browsing/mapping nodes, creating datapoints, and basic read/write validation."
+          },
+          "hoatdongsinhvien": {
+            "vi": "•  Tạo cấu trúc dự án WinCC OA theo quy ước: nhóm thiết bị, template và datapoint tương ứng.\n• Thực hiện mapping OPC UA cho một tập node mẫu; kiểm thử đọc/ghi và đối chiếu giá trị.\n• Nộp bằng chứng: danh sách datapoint, mapping và ảnh/log kiểm thử đọc/ghi.",
+            "en": "• Build a WinCC OA project structure using conventions: device groups, templates, and corresponding datapoints.\n• Map a set of OPC UA nodes; validate read/write and verify values.\n• Submit evidence: datapoint list, mapping configuration, and read/write validation logs/screenshots."
+          },
+          "chuandaura": {
+            "id": 240718,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Triển khai OPC UA client và gọi method",
+              "en": "OPC UA client implementation and method invocation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242663,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242646,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90050,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignments"
+                }
+              }
+            },
+            {
+              "id": 242669,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242647,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148206,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày nguyên tắc subscription và tối ưu cập nhật khi dữ liệu lớn.\n• Hướng dẫn chiến lược giảm tải: phân nhóm subscription, giới hạn cập nhật, ưu tiên dữ liệu quan trọng.\n• Demo kịch bản tải lớn và lỗi kết nối: đo tốc độ cập nhật, phát hiện dữ liệu stale và tiêu chí nghiệm thu ổn định.",
+            "en": "• Explain subscription principles and update optimization for large-scale data.\n• Guide load-reduction strategies: subscription grouping, update limiting, prioritizing critical data.\n• Demonstrate high-load and connectivity fault scenarios: measure update performance, detect stale data, and define stability acceptance criteria."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Cấu hình subscription cho hệ nhiều đối tượng; theo dõi chu kỳ cập nhật và mức tải hệ thống.\n• Thực hiện kịch bản tải lớn và gián đoạn kết nối; kiểm tra khả năng phục hồi và tính liên tục dữ liệu.\n• Lập checklist kiểm thử ổn định và báo cáo ngắn: kịch bản, kết quả, log/ảnh minh chứng.",
+            "en": "• Configure subscriptions for a multi-object system; monitor update cycles and system load.\n• Run high-load and connectivity interruption scenarios; validate recovery behavior and data continuity.\n• Produce a stability test checklist and a short report: scenarios, results, and evidence logs/screenshots."
+          },
+          "chuandaura": {
+            "id": 240719,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Truyền thông bền vững cho OPC UA",
+              "en": "Resilient OPC UA communication"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242664,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242665,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90050,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập cá nhân",
+                  "en": "Individual assignments"
+                }
+              }
+            },
+            {
+              "id": 242670,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242666,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "SCADA – PLC với OPC UA (WinCC OA)\n• Mô hình dữ liệu và cấu trúc dự án WinCC OA: quy ước đặt tên, tổ chức dữ liệu cho hệ nhiều đối tượng; template và phân nhóm thiết bị.\n• Kết nối OPC UA và khai thác dữ liệu: mapping từ OPC UA vào điểm dữ liệu; subscription, xử lý dữ liệu lớn và tối ưu cập nhật.\n• Bài tập lớn 3: tích hợp SCADA–PLC bằng OPC UA với quy mô nhiều đối tượng; checklist kịch bản vận hành và kiểm thử tính ổn định.",
+        "en": "SCADA-to-PLC integration via OPC UA (WinCC OA)\n• WinCC OA project structure and data model: naming conventions, multi-object organization, templates, and device grouping.\n• OPC UA connectivity and data utilization: mapping OPC UA nodes to datapoints; subscriptions, large-scale data handling, and update optimization.\n• Major project 3: SCADA-to-PLC OPC UA integration at multi-object scale; operational test checklist and stability validation."
+      }
+    },
+    {
+      "id": 111465,
+      "stt": 5,
+      "buoi": "13-15",
+      "chuandaurachitiet": [
+        {
+          "id": 148207,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "• Trình bày các nhóm use case AI trong vận hành SCADA và tiêu chí chọn use case khả thi.\n• Hướng dẫn xác định dữ liệu đầu vào cần thiết: tag, alarm, event/log và ngữ cảnh vận hành.\n• Minh họa cách mô tả bài toán AI bằng yêu cầu đầu ra, phạm vi dữ liệu và tiêu chí đánh giá kết quả.",
+            "en": "• Present AI use-case categories in SCADA operations and criteria for selecting feasible use cases.\n• Guide the identification of required inputs: tags, alarms, events/logs, and operational context.\n• Illustrate how to specify an AI task with expected outputs, data scope, and evaluation criteria."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Chọn một use case AI cho SCADA và mô tả mục tiêu, đầu vào/đầu ra, phạm vi và ràng buộc.\n• Liệt kê tập dữ liệu cần thu thập và đề xuất cách chuẩn hoá tên tag, đơn vị, timestamp và quality.\n• Nộp đề cương 1–2 trang: use case, dữ liệu, tiêu chí đánh giá và kịch bản kiểm thử.",
+            "en": "• Select one SCADA AI use case and define goals, inputs/outputs, scope, and constraints.\n• List required data and propose standardization for tag names, units, timestamps, and quality.\n• Submit a 1–2 page outline: use case, data, evaluation criteria, and test scenarios."
+          },
+          "chuandaura": {
+            "id": 240720,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Xác định bài toán AI và dữ liệu đầu vào",
+              "en": "AI use-case definition and input data"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242655,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242642,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242673,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 148209,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "• Hướng dẫn kiến trúc pipeline dữ liệu: thu thập, chuẩn hoá, đóng gói ngữ cảnh và gọi AI.\n• Minh họa cách tổ chức prompt theo ngữ cảnh vận hành và cách hiển thị kết quả trên SCADA.\n• Trình bày yêu cầu kiểm soát dữ liệu: phân quyền, ẩn thông tin nhạy cảm và audit thao tác/gọi AI.",
+            "en": "• Guide the data pipeline architecture: collection, normalization, context packaging, and AI invocation.\n• Demonstrate context-driven prompting and result visualization in SCADA.\n• Explain data governance requirements: access control, sensitive-data filtering, and auditing of actions/AI requests."
+          },
+          "hoatdongsinhvien": {
+            "vi": "• Triển khai pipeline dữ liệu và tích hợp AI vào SCADA; hiển thị kết quả và lưu log truy vết.\n• Thiết kế các kịch bản kiểm thử: thiếu dữ liệu, dữ liệu sai, kết quả không phù hợp; cách xử lý khi AI trả lời không chắc chắn.\n• Nộp báo cáo kỹ thuật: kiến trúc, dữ liệu đầu vào, prompt mẫu, kết quả demo và checklist kiểm thử.",
+            "en": "• Implement the data pipeline and integrate AI into SCADA; visualize outputs and keep traceable logs.\n• Design validation scenarios: missing data, incorrect data, unsuitable outputs; define handling when AI responses are uncertain.\n• Submit a technical report: architecture, input data, sample prompts, demo results, and a validation checklist."
+          },
+          "chuandaura": {
+            "id": 240721,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Tích hợp AI vào SCADA và kiểm thử",
+              "en": "AI integration into SCADA and validation"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 242643,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90049,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Đánh giá quá trình học tập",
+                  "en": "Continuous assessment"
+                }
+              }
+            },
+            {
+              "id": 242656,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90051,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập lớn theo nhóm",
+                  "en": "Group projects"
+                }
+              }
+            },
+            {
+              "id": 242654,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90052,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tích hợp SCADA với AI\n• Mục tiêu ứng dụng AI: hỗ trợ vận hành, phát hiện bất thường, gom cảnh báo, gợi ý nguyên nhân, báo cáo tự động, trợ lý hỏi đáp theo tag/alarm/log.\n• Kiến trúc tích hợp và luồng dữ liệu: thu thập dữ liệu thời gian thực và sự kiện; chuẩn hoá dữ liệu và ngữ cảnh vận hành; lựa chọn mô hình triển khai theo ràng buộc hệ thống.\n• Tích hợp với OpenAI theo hướng ứng dụng: tổ chức prompt theo ngữ cảnh; kiểm soát dữ liệu, phân quyền và audit.\n• Bài tập lớn 4: chọn một use case AI và tích hợp vào SCADA; xây dựng pipeline dữ liệu, giao diện hiển thị; kiểm thử tình huống thiếu dữ liệu hoặc kết quả không phù hợp.",
+        "en": "SCADA integration with AI\n• AI application goals: operational support, anomaly detection, alarm grouping, root-cause hints, automated reporting, and an assistant based on tags/alarms/logs.\n• Integration architecture and data flow: collect real-time and event data; normalize data and operational context; choose deployment models based on system constraints.\n• Practical OpenAI integration: context-driven prompting; data control, access control, and audit.\n• Major project 4: select an AI use case and integrate it into SCADA; build a data pipeline and visualization; validate missing-data and unsuitable-output scenarios."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 240712,
+      "ma": "L.O.1.1",
+      "ten_vi": "Kiến trúc tổng thể và lớp chức năng của hệ thống điều khiển tích hợp",
+      "ten_en": "Integrated control systems - overall architecture and functional layers",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240713,
+      "ma": "L.O.1.2",
+      "ten_vi": "Tích hợp ngang, tích hợp dọc và luồng dữ liệu/điều khiển",
+      "ten_en": "Horizontal/vertical integration and data/control flows",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240714,
+      "ma": "L.O.1.3",
+      "ten_vi": "Đặc tính truyền thông và tiêu chí chọn giao thức",
+      "ten_en": "Communication characteristics and protocol selection criteria",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240715,
+      "ma": "L.O.2.1",
+      "ten_vi": "Mapping dữ liệu và triển khai đọc/ghi Modbus TCP/IP",
+      "ten_en": "Data mapping and Modbus TCP/IP read/write implementation",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90050,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignments"
+        },
+        {
+          "id": 90051,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group projects"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240716,
+      "ma": "L.O.2.2",
+      "ten_vi": "Truyền thông bền vững và mở rộng cho Modbus TCP/IP",
+      "ten_en": "Resilient and scalable Modbus TCP/IP communication",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90050,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignments"
+        },
+        {
+          "id": 90051,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group projects"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240717,
+      "ma": "L.O.3.1",
+      "ten_vi": "Cấu hình OPC UA server và mô hình dữ liệu",
+      "ten_en": "OPC UA server configuration and information model",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90050,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignments"
+        },
+        {
+          "id": 90051,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group projects"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240718,
+      "ma": "L.O.3.2",
+      "ten_vi": "Triển khai OPC UA client và gọi method",
+      "ten_en": "OPC UA client implementation and method invocation",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90050,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignments"
+        },
+        {
+          "id": 90051,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group projects"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240719,
+      "ma": "L.O.3.3",
+      "ten_vi": "Truyền thông bền vững cho OPC UA",
+      "ten_en": "Resilient OPC UA communication",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90050,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập cá nhân",
+          "ten_en": "Individual assignments"
+        },
+        {
+          "id": 90051,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group projects"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240720,
+      "ma": "L.O.4.1",
+      "ten_vi": "Xác định bài toán AI và dữ liệu đầu vào",
+      "ten_en": "AI use-case definition and input data",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90051,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group projects"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240721,
+      "ma": "L.O.4.2",
+      "ten_vi": "Tích hợp AI vào SCADA và kiểm thử",
+      "ten_en": "AI integration into SCADA and validation",
+      "hddg": [
+        {
+          "id": 90049,
+          "ma": "A.O.1",
+          "ten_vi": "Đánh giá quá trình học tập",
+          "ten_en": "Continuous assessment"
+        },
+        {
+          "id": 90051,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập lớn theo nhóm",
+          "ten_en": "Group projects"
+        },
+        {
+          "id": 90052,
+          "ma": "A.O.4",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Hệ thống điều khiển tích hợp",
+  "tenmonhoc_eng": "Integrated Control Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

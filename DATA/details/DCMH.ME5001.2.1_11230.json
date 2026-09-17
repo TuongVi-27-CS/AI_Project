@@ -1,0 +1,1181 @@
+{
+  "ma": "DCMH.ME5001.2.1",
+  "phienban": "2.1",
+  "capnhat": "08/09/2024 16:36",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME5001",
+  "ten": "ME5001 - Đồ án Chuyên ngành Cơ điện tử",
+  "ten_eng": "ME5001 - Mechatronics System Design Project",
+  "hockyapdung": "HK221",
+  "sotcgoc": 2,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 4,
+      "ma": "DA",
+      "ten": {
+        "vi": "Đồ Án",
+        "en": "Project"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Từ nhiệm vụ đề tài được giao, nhóm sinh viên phân tích các thành phần cấu thành hệ thống. Từ đó chọn lựa các phương án thiết kế đồng thời các module cơ khí, module điện – điện tử và module điều khiển. Chế tạo mẫu hệ thống tự động hoặc robot để kiểm chứng kết quả mô phỏng và thực nghiệm tùy theo đề tài được giao.<br></p>",
+      "en": "<p>With the research topics, the student teams have to analyze the components of the system. Then, they should choose the suitable methods to design at the same time these mechanical module, electrical – electronics module and also controller modules. The prototype of the system should be fabricate to evaluate the agreement between simulation results and experimental results. <br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Đối với đầu bài được cho, sinh viên sẽ thực hiện các nội dung bao gồm:<br>-  Trình bày ý tưởng.<br>-  Thiết kế: cơ khí, mô hình hóa hệ thống, thiết kế bộ điều khiển, thiết kế mạch điều khiển.<br>-  Mô phỏng hoạt động hệ thống.<br>-  Chế tạo chi tiết, lắp ráp mạch điện<br>-  Vận hành và đánh giá.<br>-  So sánh kết quả thực nghiệm và kết quả mô phỏng.<br>-  Đánh giá, nêu hướng cải tiến (nếu có)<br><br></p>",
+      "en": "<p>For a given project topic, the student teams must go through these following steps:<br>-  Analyze approaches.<br>-  Design process: Mechanical design; System Modelling; Controller design; Circuits design.<br>-  Simulate the operation of the system.<br>-  Implement the system.<br>-  Operate and evaluate the system.<br>-  Compare the agreements between simulation and experimental results.<br>-  Evaluate and propose the innovation methods (if possible)<br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] Robert H. Bishop, The Mechatronics Handbook, CRC Press, 2002  <br>[2] E. Boukas and F.M. AL-Sunni, Mechatronic Systems: Analysis, Design and Implementation, Springer, 2011<br><br></p>",
+      "en": "<p>[1] Robert H. Bishop, The Mechatronics Handbook, CRC Press, 2002  <br>[2] E. Boukas and F.M. AL-Sunni, Mechatronic Systems: Analysis, Design and Implementation, Springer, 2011<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>-  Sinh viên làm việc theo nhóm (4 sinh viên / nhóm)<br>-  Giáo viên hướng dẫn đánh giá và cho điểm hướng dẫn của từng sinh viên (50%). Nếu sinh viên nào có điểm hướng dẫn dưới 5 thì sẽ không được tham gia bảo vệ cuối kỳ. <br>-  Hội đồng sẽ đánh giá kết quả thực hiện đồ án của từng sinh viên dựa trên tiêu chí chấm điểm (50%).<br>-  Điểm tổng kết của từng sinh viên là tổng điểm hướng dẫn và điểm hội đồng.<br><br></p>",
+      "en": "<p>-  The instructor will evaluate for each student (50%). If a student has the instructor’s score under 5 points, this means that the student does not have ability to entrance the final examination.<br>-  The defense committee will evaluate the result of each student in team with respect to the criteria (50%)<br>-  The final score of the sudents is the total of instructor’s score and committee score.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    }
+  },
+  "nganh": [
+    {
+      "id": 1625,
+      "ma": "NG_CK1_VP",
+      "ten": {
+        "vi": "8. Kỹ thuật Cơ khí - CN Cơ điện tử (PFIEV) K2019",
+        "en": "8. Mechanical Engineering - Mechatronic Engineering (PFIEV 2019)"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 973,
+      "ma": "002335",
+      "ten": "Võ Tường Quân"
+    },
+    {
+      "id": 907,
+      "ma": "001612",
+      "ten": "Nguyễn Tấn Tiến"
+    },
+    {
+      "id": 917,
+      "ma": "003038",
+      "ten": "Nguyễn Duy Anh"
+    },
+    {
+      "id": 911,
+      "ma": "002338",
+      "ten": "Nguyễn Quốc Chí"
+    },
+    {
+      "id": 908,
+      "ma": "001813",
+      "ten": "Phạm Công Bằng"
+    },
+    {
+      "id": 910,
+      "ma": "002094",
+      "ten": "Đoàn Thế Thảo"
+    },
+    {
+      "id": 915,
+      "ma": "002588",
+      "ten": "Phùng Trí Công"
+    },
+    {
+      "id": 912,
+      "ma": "002342",
+      "ten": "Trần Việt Hồng"
+    },
+    {
+      "id": 921,
+      "ma": "003341",
+      "ten": "Lê Thanh Hải"
+    },
+    {
+      "id": 1884,
+      "ma": "003681",
+      "ten": "Ngô Hà Quang Thịnh"
+    },
+    {
+      "id": 9882,
+      "ma": "004059",
+      "ten": "Dương Văn Tú"
+    },
+    {
+      "id": 909,
+      "ma": "001987",
+      "ten": "Võ Anh Huy"
+    },
+    {
+      "id": 913,
+      "ma": "002344",
+      "ten": "Nguyễn Minh Tuấn"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 2,
+    "soTC_ETC": 4,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 2,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 100,
+    "tongGio_HocTap_LamViec": 90,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 90,
+    "tuHoc": 0,
+    "khac": 10
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "tong": 100,
+    "kiemTra": 0,
+    "thi": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 100,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "Bộ môn Cơ điện tử, P.210B11",
+      "dienThoai": "02838647256 - 5870"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 973,
+        "maGiangVien": "002335",
+        "tenGiangVien": "Võ Tường Quân",
+        "emailGiangVien": "vtquan@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "da2",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "ME4127 - Thiết kế Hệ thống Cơ điện tử",
+        "en": "ME4127 - Mechatronics System Design"
+      },
+      "tenmonhoc_only": {
+        "vi": "Thiết kế Hệ thống Cơ điện tử",
+        "en": "Mechatronics System Design"
+      },
+      "mamonhoc": "ME4127"
+    },
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME4385 - Thực tập Kỹ sư",
+        "en": "ME4385 - Engineering Internship"
+      },
+      "tenmonhoc_only": {
+        "vi": "Thực tập Kỹ sư",
+        "en": "Engineering Internship"
+      },
+      "mamonhoc": "ME4385"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 16146,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 16147,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "16146",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "GPJ #1",
+        "en": "GPJ #1"
+      },
+      "noidung": {
+        "vi": "GPJ #1",
+        "en": "GPJ #1"
+      }
+    },
+    {
+      "id": 16148,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "16146",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "GPJ #2",
+        "en": "GPJ #2"
+      },
+      "noidung": {
+        "vi": "GPJ #2",
+        "en": "GPJ #2"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 18381,
+      "stt": 1,
+      "buoi": "1-2",
+      "chuandaurachitiet": [
+        {
+          "id": 24277,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Đưa các quy định chia nhóm.\nGiới thiệu về đồ án\n",
+            "en": "Explain the regulation to make teams for students.\nIntroduction to the team project topic.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Chia nhóm.\nĐặt các câu hỏi nếu có thắc mắc về đồ án.\n",
+            "en": "Make the team.\nPropose the questions in case of necessary. \n"
+          },
+          "chuandaura": {
+            "id": 59498,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Minh họa các kỹ năng CDIO",
+              "en": "Demonstrate CDIO skills in the project"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39068,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            },
+            {
+              "id": 39067,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thành lập nhóm và chọn đề tài",
+        "en": "Make group of students"
+      }
+    },
+    {
+      "id": 18383,
+      "stt": 2,
+      "buoi": "3-4",
+      "chuandaurachitiet": [
+        {
+          "id": 24269,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các từ khóa tìm kiếm tài liệu",
+            "en": "Instruct the key words to find the material supply for the project"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Tìm kiếm tài liệu liên quan đến đề tài.",
+            "en": "Find the materials relating to the research topic."
+          },
+          "chuandaura": {
+            "id": 59499,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Minh họa tính thiết kế đồng thời giữa các module cơ khí, điện – điện tử và điều khiển.",
+              "en": "Demonstrate the simultaneous characteristic when design the mechaincal, electrical-electronics and controller modules"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39054,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            },
+            {
+              "id": 39055,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tìm kiếm tài liệu và xác định rõ nhiệm vụ",
+        "en": "Find the materials and decide the topics"
+      }
+    },
+    {
+      "id": 18376,
+      "stt": 3,
+      "buoi": "5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 24270,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn cách lựa chon các phương án thiết kế phù hợp",
+            "en": "Instruct the students to find the suitable design methods."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Chọn lựa các phương án khả thi.",
+            "en": "Choose the suitable and feasible design methods."
+          },
+          "chuandaura": {
+            "id": 59499,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Minh họa tính thiết kế đồng thời giữa các module cơ khí, điện – điện tử và điều khiển.",
+              "en": "Demonstrate the simultaneous characteristic when design the mechaincal, electrical-electronics and controller modules"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39056,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            },
+            {
+              "id": 39057,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích và lựa chọn các phương án thiết kế",
+        "en": "Analyze and choose the design methods."
+      }
+    },
+    {
+      "id": 18379,
+      "stt": 4,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 24275,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chỉnh sửa các thiết kế cho sinh viên.",
+            "en": "Edit the designs for students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện các chỉnh sửa dựa trên ý kiến của giáo viên hướng dẫn",
+            "en": "Complete the designs with respect to the comments of the instructors."
+          },
+          "chuandaura": {
+            "id": 59500,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Mô phỏng, đánh giá, hiệu chỉnh các thông số để cải thiện hệ thống",
+              "en": "Simulate, evaluate and edit the system parameters to upgrade the system performance"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39064,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            },
+            {
+              "id": 39065,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24274,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chỉnh sửa các thiết kế cho sinh viên.",
+            "en": "Edit the designs for students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện các chỉnh sửa dựa trên ý kiến của giáo viên hướng dẫn",
+            "en": "Complete the designs with respect to the comments of the instructors."
+          },
+          "chuandaura": {
+            "id": 59499,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Minh họa tính thiết kế đồng thời giữa các module cơ khí, điện – điện tử và điều khiển.",
+              "en": "Demonstrate the simultaneous characteristic when design the mechaincal, electrical-electronics and controller modules"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39063,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            },
+            {
+              "id": 39062,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tính toán thiết kế cơ khí, mô hình toán phương án lựa chọn",
+        "en": "Calculate the mechanical, system modelling with respect to the chosen method."
+      }
+    },
+    {
+      "id": 18377,
+      "stt": 5,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 24272,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chỉnh sửa các thiết kế cho sinh viên.",
+            "en": "Edit the designs for students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện các chỉnh sửa dựa trên ý kiến của giáo viên hướng dẫn",
+            "en": "Complete the designs with respect to the comments of the instructors."
+          },
+          "chuandaura": {
+            "id": 59500,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Mô phỏng, đánh giá, hiệu chỉnh các thông số để cải thiện hệ thống",
+              "en": "Simulate, evaluate and edit the system parameters to upgrade the system performance"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39059,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 24271,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chỉnh sửa các thiết kế cho sinh viên.",
+            "en": "Edit the designs for students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện các chỉnh sửa dựa trên ý kiến của giáo viên hướng dẫn",
+            "en": "."
+          },
+          "chuandaura": {
+            "id": 59499,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Minh họa tính thiết kế đồng thời giữa các module cơ khí, điện – điện tử và điều khiển.",
+              "en": "Demonstrate the simultaneous characteristic when design the mechaincal, electrical-electronics and controller modules"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39058,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thiết kế mạch điều khiển và lập trình điều khiển",
+        "en": "Controller design, circuits design and program the system."
+      }
+    },
+    {
+      "id": 18380,
+      "stt": 6,
+      "buoi": "13-14",
+      "chuandaurachitiet": [
+        {
+          "id": 24276,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chỉnh sửa các thiết kế cho sinh viên.",
+            "en": "Edit the designs for students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện các chỉnh sửa dựa trên ý kiến của giáo viên hướng dẫn",
+            "en": "Complete the designs with respect to the comments of the instructors."
+          },
+          "chuandaura": {
+            "id": 59500,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Mô phỏng, đánh giá, hiệu chỉnh các thông số để cải thiện hệ thống",
+              "en": "Simulate, evaluate and edit the system parameters to upgrade the system performance"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39066,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Hiệu chỉnh thông số",
+        "en": "Parameters tunning process."
+      }
+    },
+    {
+      "id": 18382,
+      "stt": 7,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 24278,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Chỉnh sửa các nội dung liên quan cho sinh viên.",
+            "en": "Edit the relating contens for students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện các chỉnh sửa dựa trên ý kiến của giáo viên hướng dẫn",
+            "en": ".Complete the designs with respect to the comments of the instructors."
+          },
+          "chuandaura": {
+            "id": 59501,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Viết thuyết minh, vẽ bản vẽ kỹ thuật để tạo nên hệ thống, trình bày trước hội đồng.",
+              "en": "Compose the project documents, design the engineering drawings,  present the results  to the defense committee"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39069,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thực nghiệm hệ thống",
+        "en": "Experimental process."
+      }
+    },
+    {
+      "id": 18378,
+      "stt": 8,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 24273,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Đánh giá kết quả thực hiện của sinh viên",
+            "en": "Evaluate the results of the students"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Trình bày các kết quả đạt được trước hội đồng.",
+            "en": "Present the results to the committee."
+          },
+          "chuandaura": {
+            "id": 59501,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Viết thuyết minh, vẽ bản vẽ kỹ thuật để tạo nên hệ thống, trình bày trước hội đồng.",
+              "en": "Compose the project documents, design the engineering drawings,  present the results  to the defense committee"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 39060,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 16147,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "GPJ #1",
+                  "en": "GPJ #1"
+                }
+              }
+            },
+            {
+              "id": 39061,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 16148,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "GPJ #2",
+                  "en": "GPJ #2"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bảo vệ kết quả đồ án trước hội đồng.",
+        "en": "Present the project to the defense committee"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 59498,
+      "ma": "L.O.1",
+      "ten_vi": "Minh họa các kỹ năng CDIO",
+      "ten_en": "Demonstrate CDIO skills in the project",
+      "hddg": [
+        {
+          "id": 16147,
+          "ma": "A.O.1",
+          "ten_vi": "GPJ #1",
+          "ten_en": "GPJ #1"
+        },
+        {
+          "id": 16148,
+          "ma": "A.O.2",
+          "ten_vi": "GPJ #2",
+          "ten_en": "GPJ #2"
+        }
+      ]
+    },
+    {
+      "id": 59499,
+      "ma": "L.O.2",
+      "ten_vi": "Minh họa tính thiết kế đồng thời giữa các module cơ khí, điện – điện tử và điều khiển.",
+      "ten_en": "Demonstrate the simultaneous characteristic when design the mechaincal, electrical-electronics and controller modules",
+      "hddg": [
+        {
+          "id": 16147,
+          "ma": "A.O.1",
+          "ten_vi": "GPJ #1",
+          "ten_en": "GPJ #1"
+        },
+        {
+          "id": 16148,
+          "ma": "A.O.2",
+          "ten_vi": "GPJ #2",
+          "ten_en": "GPJ #2"
+        }
+      ]
+    },
+    {
+      "id": 59500,
+      "ma": "L.O.3",
+      "ten_vi": "Mô phỏng, đánh giá, hiệu chỉnh các thông số để cải thiện hệ thống",
+      "ten_en": "Simulate, evaluate and edit the system parameters to upgrade the system performance",
+      "hddg": [
+        {
+          "id": 16147,
+          "ma": "A.O.1",
+          "ten_vi": "GPJ #1",
+          "ten_en": "GPJ #1"
+        },
+        {
+          "id": 16148,
+          "ma": "A.O.2",
+          "ten_vi": "GPJ #2",
+          "ten_en": "GPJ #2"
+        }
+      ]
+    },
+    {
+      "id": 59501,
+      "ma": "L.O.4",
+      "ten_vi": "Viết thuyết minh, vẽ bản vẽ kỹ thuật để tạo nên hệ thống, trình bày trước hội đồng.",
+      "ten_en": "Compose the project documents, design the engineering drawings,  present the results  to the defense committee",
+      "hddg": [
+        {
+          "id": 16147,
+          "ma": "A.O.1",
+          "ten_vi": "GPJ #1",
+          "ten_en": "GPJ #1"
+        },
+        {
+          "id": 16148,
+          "ma": "A.O.2",
+          "ten_vi": "GPJ #2",
+          "ten_en": "GPJ #2"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Đồ án Chuyên ngành Cơ điện tử",
+  "tenmonhoc_eng": "Mechatronics System Design Project",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 1
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

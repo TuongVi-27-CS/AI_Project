@@ -1,0 +1,3045 @@
+{
+  "ma": "DCMH.ME3005.5.1",
+  "phienban": "5.1",
+  "capnhat": "14/03/2025 02:44",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME3005",
+  "ten": "ME3005 - Thiết kế Hệ thống Cơ điện tử",
+  "ten_eng": "ME3005 - Mechatronics System Design",
+  "hockyapdung": "HK241",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học giới thiệu các thành phần cấu thành, quy trình thiết kế, và cách xây dựng kế hoạch thực hiện một hệ thống cơ điện tử.<br></p>",
+      "en": "<p>To provide the techniques of design, simulation, prototyping, and evaluating a mechatronics system which is combined by mechanical elements, electrical elements, and information hardware &amp; software.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Tổng quan về hệ thống cơ điện tử và ứng dụng Phương pháp thiết kế và Quản lý dự án.<br>Kỹ thuật và công cụ mô hình hóa và mô phỏng hệ cơ điện tử (cơ, điện).<br>Các thành phần hệ thống cơ điện tử (ôn): cảm biến, cơ cấu tác động, bộ điều khiển Case study.<br></p>",
+      "en": "<p>Introduction to mechatronics system and application Design methodology and Project management.<br>Techniques and Tools for Modeling and Simulation.<br>Mechatronic systems technologies (reminder): sensors, actuators, controllers Case study.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, giáo trình chính<br>[1] Nguyễn Tấn Tiến, Tập bài giảng Thiết kế hệ thống cơ điện tử, 2024.<br>[2]  Biswanath Samanta, Introduction to Mechatronics: An Integrated Approach, Springer, 2023<br>[3]  Devdas Shetty and Richard A. Kolk, Mechatronics System Design, SI Edition, Cengage Learning, 2011<br><br>Sách tham khảo<br>[4]  [1] El-Kébir Boukas and Fouad M. AL-Sunni, Mechatronic Systems: Analysis, Design and Implementation, Springer-Verlag Berlin Heidelberg, 2011<br><br></p>",
+      "en": "<p>\n\nTextbooks:<br>[1] Nguyễn Tấn Tiến, Lecture Notes on Mechatronics System Design, 2024.<br>[2]  Biswanath Samanta, Introduction to Mechatronics: An Integrated Approach, Springer, 2023<br>[3]  Devdas Shetty and Richard A. Kolk, Mechatronics System Design, SI Edition, Cengage Learning, 2011<br><br>References:<br>[4]  [1] El-Kébir Boukas and Fouad M. AL-Sunni, Mechatronic Systems: Analysis, Design and Implementation, Springer-Verlag Berlin Heidelberg, 2011<br>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><b>Cách học</b><br>-  Áp dụng các phương pháp học tập tích cực, chủ động trên lớp: kết hợp truyền đạt kiến thức thông qua bài giảng, mô phỏng, làm bài tập trên lớp, đặt câu hỏi để sinh viên trả lời, tạo các hoạt động thảo luận, thi đua giữa các nhóm, khuyến khích sinh viên đặt câu hỏi và trình bày suy nghĩ cá nhân.<br>-  Đưa bài giảng, bài tập, đề cương môn học, các thông báo, yêu cầu về bài tập, đồ án, các tài liệu tham khảo, điểm đánh giá, điểm thi vv... lên website E-learning để sinh viên có thể chủ động hơn trong việc học tập; tạo diễn đàn trao đổi các vấn đề liên quan đến môn học <br><b>Cách đánh giá</b>: Điểm tổng kết môn học được đánh giá xuyên suốt quá trình học, cơ bản gồm hai cột điểm: điểm quá trình (70%) và điểm thi cuối kỳ (30%). Điểm đánh giá chi tiết như sau:<br>-  Bài tập:<br>Bài tập kiểm tra trên lớp:  40%<br>Bài tập nhóm/Bài tập cá nhân nộp qua BKEL:  20%<br>-  Thi:<br>Thi cuối kỳ:  40%<br><b>Điều kiện dự thi</b>:<br>-  Sinh viên phải tham dự giờ giảng trên lớp ít nhất 70% thời lượng môn học<br>-  Sinh viên phải hoàn thành tất cả bài tập về nhà đúng hạn cũng như thực hiện đầy đủ các phần thuyết trình của nhóm nếu có. Sinh viêncần lưu ý thời hạn nộp bài tập. Nộp muộn sẽ không được chấp nhận nếu không có lý do chính đáng đã được giảng viên đồng ý trước ngày đến hạn nộp. Bài tập nộp muộn cho phép sẽ bị trừ đi 2 điểm đối với mỗi ngày nộp trễ<br><br></p>",
+      "en": "<p><b>Learning Strategies</b><br>-  Apply active learning methods in class: combine knowledge through lectures, simulations, doing exercises in class, asking questions for students to answer, creating discussion activities debate, compete between groups, encourage students to ask questions and present personal thoughts.<br>-  Post lectures, exercises, course outlines, notices, requests for assignments, projects, reference documents, assessment scores, exam scores, etc. on the E-learning website for students to use; Create a forum to discuss issues related to the subject.<br><b>Assessment Scheme</b>: The final score is assessed throughout the learning process, basically consisting of two points: the learning process score (70%) and the final exam score (30%). The detailed ratings are as follows:<br>-  Exercise:<br>Chapter examination:  40%<br>Group exercises/Individual assignments submitted through BKEL:  20%<br>-  Exam:<br>Final exam:  40% <br><b>Final exam requirements</b>:<br>-  Students must attend class lectures at least 70% of the course time<br>-  Students must complete all homework on time as well as complete group presentations if any. Students should note the deadline for submitting assignments. Late submissions will not be accepted without a valid reason approved by the instructor. Any late submission of assignments will result in a deduction of 2 points for each day of late submission.<br><br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 907,
+      "ma": "001612",
+      "ten": "NGUYỄN TẤN TIẾN"
+    },
+    {
+      "id": 10988,
+      "ma": "004211",
+      "ten": "NGUYỄN DUY ÁNH"
+    },
+    {
+      "id": 911,
+      "ma": "002338",
+      "ten": "NGUYỄN QUỐC CHÍ"
+    },
+    {
+      "id": 915,
+      "ma": "002588",
+      "ten": "PHÙNG TRÍ CÔNG"
+    },
+    {
+      "id": 909,
+      "ma": "001987",
+      "ten": "VÕ ANH HUY"
+    },
+    {
+      "id": 10989,
+      "ma": "004212",
+      "ten": "PHÙNG THANH HUY"
+    },
+    {
+      "id": 973,
+      "ma": "002335",
+      "ten": "VÕ TƯỜNG QUÂN"
+    },
+    {
+      "id": 9882,
+      "ma": "004059",
+      "ten": "DƯƠNG VĂN TÚ"
+    },
+    {
+      "id": 10143,
+      "ma": "004150",
+      "ten": "PHẠM PHƯƠNG TÙNG"
+    },
+    {
+      "id": 1884,
+      "ma": "003681",
+      "ten": "NGÔ HÀ QUANG THỊNH"
+    },
+    {
+      "id": 913,
+      "ma": "002344",
+      "ten": "NGUYỄN MINH TUẤN"
+    },
+    {
+      "id": 10068,
+      "ma": "004124",
+      "ten": "LƯƠNG THANH NHẬT"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2.0,
+    "baiTapThucHanh": 0.8,
+    "thiNghiem": null,
+    "thamQuan": 0.0,
+    "baiTapLon_TieuLuan": 0.2,
+    "doAn": 0.0,
+    "thucTapNgoaiTruong": 0.0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0.0,
+    "tuHoc": 0.0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 24,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 9,
+    "doAn": 0,
+    "thucTapNgoaiTruong": 0,
+    "tieuLuanTN_DeCuongLV_LVTN": 0,
+    "tuHoc": 72,
+    "khac": "15"
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": true,
+      "baiTapLon": true,
+      "kiemTra": false,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 40,
+    "thiNghiem": 0,
+    "thamQuan": 0,
+    "baiTapLon_TieuLuan": 20,
+    "doAn": 0,
+    "kiemTra": 0,
+    "thi": 40,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "P.210-B11",
+      "dienThoai": "(84-28)3886811"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 907,
+        "maGiangVien": "001612",
+        "tenGiangVien": "NGUYỄN TẤN TIẾN",
+        "emailGiangVien": "nttien@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3a",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME3007 - Vi điều khiển",
+        "en": "ME3007 - Micro-Controller"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vi điều khiển",
+        "en": "Micro-Controller"
+      },
+      "mamonhoc": "ME3007"
+    },
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME3011 - Động lực học và Điều khiển",
+        "en": "ME3011 - Dynamic Systems and Control"
+      },
+      "tenmonhoc_only": {
+        "vi": "Động lực học và Điều khiển",
+        "en": "Dynamic Systems and Control"
+      },
+      "mamonhoc": "ME3011"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 38440,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 38441,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "38440",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exerecies"
+      },
+      "noidung": {
+        "vi": "Bài tập trên lớp",
+        "en": "Exercises"
+      }
+    },
+    {
+      "id": 38442,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "38440",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập nhóm",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      }
+    },
+    {
+      "id": 38443,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "38440",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi",
+        "en": "Exam"
+      },
+      "noidung": {
+        "vi": "Thi",
+        "en": "Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 43720,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 58504,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu môn học, giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hình thành nhóm; Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91411,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91450,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58472,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu môn học, giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hình thành nhóm; Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88872,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm",
+              "en": "Able to assess group activities"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91422,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91412,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Tổng quan về Thiết kế Hệ thống cơ điện tử\n1.1.\tKhái niệm\n1.2.\tCấu trúc chung của hệ thống\n1.3.\tCác ứng dụng điển hình\n1.4.\tQuy trình thiết kế hệ thống",
+        "en": "Chapter 1. Overview of Mechatronic System Design\n1.1.\tIntroduction \n1.2.\tGeneral structure of a mechatronic system\n1.3.\tTypical applications\n1.4.\tSystem design process"
+      }
+    },
+    {
+      "id": 43725,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 58505,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu môn học, giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hình thành nhóm; Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91357,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91413,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58478,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu môn học, giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hình thành nhóm; Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88872,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm",
+              "en": "Able to assess group activities"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91415,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91358,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58473,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu môn học, giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hình thành nhóm; Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88875,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân chia được thành những khối công việc nhỏ, cụ thể",
+              "en": "Able to divide project into small parts"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91386,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91368,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91359,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58474,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu môn học, giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hình thành nhóm; Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88876,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Gán được các nguồn lực cần thiết để thực hiện từng công việc",
+              "en": "Able to assign resources needed to perform each small parts"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91372,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91373,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91397,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Tổng quan về Thiết kế Hệ thống cơ điện tử\n1.5.\tCông cụ thiết kế\n1.6.\tSản phẩm thiết kế\n1.7.\tXây dựng kế hoạch\n1.8.\tCâu hỏi và bài tập",
+        "en": "Chapter 1. Overview of Mechatronic System Design\n1.5.\tDesign tools\n1.6.\tDesign products\n1.7.\tBuild a plan\n1.8.\tQuestions and exercises"
+      }
+    },
+    {
+      "id": 43722,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 58477,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91374,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91360,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58484,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88872,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm",
+              "en": "Able to assess group activities"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91375,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91416,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58485,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88876,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Gán được các nguồn lực cần thiết để thực hiện từng công việc",
+              "en": "Able to assign resources needed to perform each small parts"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91382,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91438,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91439,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58486,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88875,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân chia được thành những khối công việc nhỏ, cụ thể",
+              "en": "Able to divide project into small parts"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91387,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91361,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91369,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Khảo lược và Phân tích\n2.1.\tKhái niệm về yêu cầu hệ thống\n2.2.\tSơ đồ nguyên lý\n2.3.\tCấu trúc hệ thống\n2.4.\tGiản đồ hoạt động\n",
+        "en": "Chapter 2. General study\n2.1.\tSystem requirements\n2.2.\tPrinciple diagram\n2.3.\tSystem structure\n2.4.\tOperational diagram\n"
+      }
+    },
+    {
+      "id": 43726,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 58500,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91383,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91431,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58475,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Introducing the subject, giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88874,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Sử dụng công cụ Microsoft project để thể hiện ý tưởng",
+              "en": "Able to use Microsoft project tools to express ideas"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91432,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91399,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91433,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Khảo lược và Phân tích\n2.5.\tĐiều kiện ràng buộc\n2.6.\tXác định chức năng và thông số chính\n2.7.\tCâu hỏi và bài tập",
+        "en": "Chapter 2. General study\n2.5.\tConstrains\n2.6.\tMain designed functions and  parameters\n2.7.\tQuestions and exercises"
+      }
+    },
+    {
+      "id": 43718,
+      "stt": 5,
+      "buoi": "5-6",
+      "chuandaurachitiet": [
+        {
+          "id": 58479,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91425,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91406,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58480,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88874,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Sử dụng công cụ Microsoft project để thể hiện ý tưởng",
+              "en": "Able to use Microsoft project tools to express ideas"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91426,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91389,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91390,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58506,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88878,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Lên kế hoạch thực hiện thiết kế thông qua bảng FRDPARRC",
+              "en": "Able to design implementation plan through FRDPARRC table"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91440,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91378,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91441,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58481,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài",
+            "en": "Giving lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88879,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Xây dựng được phương án khả thi cho thiết kế",
+              "en": "Able to build a feasible plan for the design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91442,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91364,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91405,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Thiết kế ý tưởng\n3.1.\tKhái niệm phương án thiết kế khả thi\n3.2.\tPhân tích yêu cầu và xây dựng giải pháp\n3.3.\tSơ đồ nguyên lý cơ cấu\n3.4.\tSơ đồ nguyên lý mạch điện\n3.5.\tSơ đồ khối hệ thống dự kiến\n3.6.\tĐánh giá thiết kế\n3.7.\tXác định phương án phù hợp\n3.8.\tCâu hỏi và bài tập\n",
+        "en": "Chapter 3. Concept design\n3.1.\tConcept of feasible design options\n3.2.\tAnalyze requirements and build solutions\n3.3.\tMechanical diagram\n3.4.\tElectrical circuit diagram\n3.5.\tBlock diagram of the proposed system\n3.6.\tDesign review\n3.7.\tDetermine the appropriate plan\n3.8.\tQuestions and exercises"
+      }
+    },
+    {
+      "id": 43719,
+      "stt": 6,
+      "buoi": "7-8",
+      "chuandaurachitiet": [
+        {
+          "id": 58487,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "\nThảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91391,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91434,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58507,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88878,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Lên kế hoạch thực hiện thiết kế thông qua bảng FRDPARRC",
+              "en": "Able to design implementation plan through FRDPARRC table"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91392,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91393,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91443,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58502,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88879,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Xây dựng được phương án khả thi cho thiết kế",
+              "en": "Able to build a feasible plan for the design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91435,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91420,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91394,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58503,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88881,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thiết kế được bản vẽ lắp, bản vẽ chi tiết cơ khí để chế tạo",
+              "en": "Able to design assembly drawings, mechanical detail drawings for fabrication"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91402,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91417,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58501,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88882,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Thiết kế được bản vẽ mạch điện để chế tạo",
+              "en": "Able to design electrical circuit drawings for manufacturing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91418,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91363,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58488,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88883,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Xây dựng được mô hình hóa và viết được chương trình mô phỏng bộ điều khiển",
+              "en": "Able to model and write a controller simulation program"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91423,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91403,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58489,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88884,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Xây dựng được giải thuật điều khiển",
+              "en": "Able to write control algorithm"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91419,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91404,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Thiết kế chi tiết (designdetailed )\n4.1.\tThiết kế cơ khí\n4.2.\tMô hình hóa\n4.3.\tMô phỏng thiết kế cơ khí\n4.4.\tThiết kế mạch điện\n4.5.\tMô phỏng nguyên lí\n4.6.\tThiết kế thuật toán\n4.7.\tMô phỏng thuật toán\n4.8.\tCâu hỏi và bài tập\n",
+        "en": "Chapter 4. Detailed design\n4.1.\tMechanical design\n4.2.\tModeling\n4.3.\tSimulate mechanical design\n4.4.\tElectrical circuit design\n4.5.\tSimulate the electrical circuit\n4.6.\tAlgorithm design\n4.7.\tAlgorithm simulation\n4.8.\tQuestions and exercises\n"
+      }
+    },
+    {
+      "id": 43723,
+      "stt": 7,
+      "buoi": "9-10",
+      "chuandaurachitiet": [
+        {
+          "id": 58492,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91421,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91407,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58493,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments\n"
+          },
+          "chuandaura": {
+            "id": 88872,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm",
+              "en": "Able to assess group activities"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91408,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91395,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58509,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88878,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Lên kế hoạch thực hiện thiết kế thông qua bảng FRDPARRC",
+              "en": "Able to design implementation plan through FRDPARRC table"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91444,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91445,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91427,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58510,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88879,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Xây dựng được phương án khả thi cho thiết kế",
+              "en": "Able to build a feasible plan for the design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91370,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91446,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 91428,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 38443,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58476,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88881,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thiết kế được bản vẽ lắp, bản vẽ chi tiết cơ khí để chế tạo",
+              "en": "Able to design assembly drawings, mechanical detail drawings for fabrication"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91396,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91424,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58494,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88882,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Thiết kế được bản vẽ mạch điện để chế tạo",
+              "en": "Able to design electrical circuit drawings for manufacturing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91371,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91376,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58483,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88883,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Xây dựng được mô hình hóa và viết được chương trình mô phỏng bộ điều khiển",
+              "en": "Able to model and write a controller simulation program"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91379,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91380,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58495,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88884,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Xây dựng được giải thuật điều khiển",
+              "en": "Able to write control algorithm"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91429,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91436,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Đánh giá thiết kế\n5.1.\tMô phỏng phần mềm trong vòng lặp (SIL)\n5.2.\tMô phỏng phần cứng trong vòng lặp (HIL)\n5.3.\tMô phỏng bộ xử lí trong vòng lặp (PIL)\n5.4.\tThực nghiệm\n5.5.\tPhân tích thống kê\n5.6.\tPhân tích độ chính xác\n5.7.\tPhân tích độ tin cậy\n5.8.\tCâu hỏi và bài tập\n",
+        "en": "Chapter 5. Evaluation the design\n5.1.\tSoftware Simulation in the Loop (SIL)\n5.2.\tHardware-in-the-loop (HIL) simulation\n5.3.\tProcessor-in-the-loop (PIL) simulation\n5.4.\tExperiment\n5.5.\tStatistical analysis\n5.6.\tAccuracy analysis\n5.7.\tReliability analysis\n5.8.\tQuestions and exercises\n"
+      }
+    },
+    {
+      "id": 43721,
+      "stt": 8,
+      "buoi": "11-12",
+      "chuandaurachitiet": [
+        {
+          "id": 58511,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": " Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91409,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91365,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58471,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88872,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm",
+              "en": "Able to assess group activities"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91447,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91448,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58496,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88881,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Thiết kế được bản vẽ lắp, bản vẽ chi tiết cơ khí để chế tạo",
+              "en": "Able to design assembly drawings, mechanical detail drawings for fabrication"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91430,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91437,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58497,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88882,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Thiết kế được bản vẽ mạch điện để chế tạo",
+              "en": "Able to design electrical circuit drawings for manufacturing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91381,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91366,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58498,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88883,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Xây dựng được mô hình hóa và viết được chương trình mô phỏng bộ điều khiển",
+              "en": "Able to model and write a controller simulation program"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91367,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91377,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58499,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises\nAt home: do assignments"
+          },
+          "chuandaura": {
+            "id": 88884,
+            "ma": "L.O.4.4",
+            "ten": {
+              "vi": "Xây dựng được giải thuật điều khiển",
+              "en": "Able to write control algorithm"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91410,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91449,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Xây dựng Hồ sơ kỹ thuật\n6.1.\tBản vẽ phương án\n6.2.\tBản vẽ lắp\n6.3.\tBản vẽ chi tiết\n6.4.\tBản vẽ sơ đồ nguyên lí mạch điện\n6.5.\tBản vẽ bố trí thiết bị - linh kiện\n6.6.\tBản vẽ lưu đồ giải thuật\n6.7.\tBản vẽ sơ đồ khối hệ thống điều khiển\n6.8.\tKết quả mô phỏng – thực nghiệm\n",
+        "en": "Chapter 6. Developing Technical Documents\n6.1.\tProposal drawing\n6.2.\tMechanical layout drawing\n6.3.\tDetailed drawing\n6.4.\tDrawing of electrical circuit\n6.5.\tWhole system layout drawings\n6.6.\tAlgorithmic flow chart drawing\n6.7.\tBlock diagram drawing of the control system\n6.8.\tSimulation and experimental results\n"
+      }
+    },
+    {
+      "id": 43724,
+      "stt": 9,
+      "buoi": "13-14-15",
+      "chuandaurachitiet": [
+        {
+          "id": 58490,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises"
+          },
+          "chuandaura": {
+            "id": 88871,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm",
+              "en": "Able to work in groups"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91398,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91388,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58491,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises"
+          },
+          "chuandaura": {
+            "id": 88872,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Có khả năng đánh giá được hoạt động nhóm",
+              "en": "Able to assess group activities"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91362,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91384,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58482,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n",
+            "en": "Giving lectures\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises"
+          },
+          "chuandaura": {
+            "id": 88886,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Xây dựng được slide báo cáo và thuyết trình kết quả thiết kế",
+              "en": "Able to write report slides and present design results"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91385,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91400,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58508,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Giảng bài\n\n",
+            "en": "Giving lectures\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận theo nhóm về những vấn đề đã học; Làm bài tập\n",
+            "en": "Form a group; Discuss in groups about learned issues; Do exercises"
+          },
+          "chuandaura": {
+            "id": 88887,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Viết được báo cáo kết quả thiết kế",
+              "en": "Able to writing design results report"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 91414,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 38441,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập trên lớp",
+                  "en": "Exerecies"
+                }
+              }
+            },
+            {
+              "id": 91401,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 38442,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập nhóm",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Trình bày kết quả\n7.1.\tCấu trúc báo cáo\n7.2.\tNội dung báo cáo\n7.3.\tHình thức báo cáo\n7.4.\tCấu trúc thuyết trình\n7.5.\tNội dung thuyết trình\n7.6.\tHình thức thuyết trình\n7.7.\tTrình bày công bố khoa học\n7.8.\tCâu hỏi và bài tập\n",
+        "en": "Chapter 5. Evaluation the design\n5.1.\tSoftware Simulation in the Loop (SIL)\n5.2.\tHardware-in-the-loop (HIL) simulation\n5.3.\tProcessor-in-the-loop (PIL) simulation\n5.4.\tExperiment\n5.5.\tStatistical analysis\n5.6.\tAccuracy analysis\n5.7.\tReliability analysis\n5.8.\tQuestions and exercises\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 88871,
+      "ma": "L.O.1.1",
+      "ten_vi": "Có khả năng làm việc nhóm",
+      "ten_en": "Able to work in groups",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 88872,
+      "ma": "L.O.1.2",
+      "ten_vi": "Có khả năng đánh giá được hoạt động nhóm",
+      "ten_en": "Able to assess group activities",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 88874,
+      "ma": "L.O.2.1",
+      "ten_vi": "Sử dụng công cụ Microsoft project để thể hiện ý tưởng",
+      "ten_en": "Able to use Microsoft project tools to express ideas",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        },
+        {
+          "id": 38443,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 88875,
+      "ma": "L.O.2.2",
+      "ten_vi": "Phân chia được thành những khối công việc nhỏ, cụ thể",
+      "ten_en": "Able to divide project into small parts",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        },
+        {
+          "id": 38443,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 88876,
+      "ma": "L.O.2.3",
+      "ten_vi": "Gán được các nguồn lực cần thiết để thực hiện từng công việc",
+      "ten_en": "Able to assign resources needed to perform each small parts",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        },
+        {
+          "id": 38443,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 88878,
+      "ma": "L.O.3.1",
+      "ten_vi": "Lên kế hoạch thực hiện thiết kế thông qua bảng FRDPARRC",
+      "ten_en": "Able to design implementation plan through FRDPARRC table",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        },
+        {
+          "id": 38443,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 88879,
+      "ma": "L.O.3.2",
+      "ten_vi": "Xây dựng được phương án khả thi cho thiết kế",
+      "ten_en": "Able to build a feasible plan for the design",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        },
+        {
+          "id": 38443,
+          "ma": "A.O.3",
+          "ten_vi": "Thi",
+          "ten_en": "Exam"
+        }
+      ]
+    },
+    {
+      "id": 88881,
+      "ma": "L.O.4.1",
+      "ten_vi": "Thiết kế được bản vẽ lắp, bản vẽ chi tiết cơ khí để chế tạo",
+      "ten_en": "Able to design assembly drawings, mechanical detail drawings for fabrication",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 88882,
+      "ma": "L.O.4.2",
+      "ten_vi": "Thiết kế được bản vẽ mạch điện để chế tạo",
+      "ten_en": "Able to design electrical circuit drawings for manufacturing",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 88883,
+      "ma": "L.O.4.3",
+      "ten_vi": "Xây dựng được mô hình hóa và viết được chương trình mô phỏng bộ điều khiển",
+      "ten_en": "Able to model and write a controller simulation program",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 88884,
+      "ma": "L.O.4.4",
+      "ten_vi": "Xây dựng được giải thuật điều khiển",
+      "ten_en": "Able to write control algorithm",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 88886,
+      "ma": "L.O.5.1",
+      "ten_vi": "Xây dựng được slide báo cáo và thuyết trình kết quả thiết kế",
+      "ten_en": "Able to write report slides and present design results",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 88887,
+      "ma": "L.O.5.2",
+      "ten_vi": "Viết được báo cáo kết quả thiết kế",
+      "ten_en": "Able to writing design results report",
+      "hddg": [
+        {
+          "id": 38441,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập trên lớp",
+          "ten_en": "Exerecies"
+        },
+        {
+          "id": 38442,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập nhóm",
+          "ten_en": "Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế Hệ thống Cơ điện tử",
+  "tenmonhoc_eng": "Mechatronics System Design",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

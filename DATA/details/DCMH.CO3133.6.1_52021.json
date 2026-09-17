@@ -1,0 +1,3434 @@
+{
+  "ma": "DCMH.CO3133.6.1",
+  "phienban": "6.1",
+  "capnhat": "28/05/2026 11:11",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3133",
+  "ten": "CO3133 - Học sâu và Ứng dụng",
+  "ten_eng": "CO3133 - Deep Learning and Its Applications",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><p>Môn học nhằm giúp người học hiểu biết, vận dụng và sáng tạo các kiến trúc mạng nơron học sâu để giải quyết các bài toán thực tế, cụ thể là phân tích các dạng dữ liệu như văn bản, hình ảnh, âm thanh, hay dữ liệu đa phương thức. Thông qua môn học này, người học có thể nắm vững toàn bộ quy trình phân tích dữ liệu, từ thu thập, làm sạch, gán nhãn, đến phát triển và triển khai mô hình phân tích.</p><p></p>",
+      "en": "<p>The course aims to help learners understand, apply, and create deep neural network architectures to solve real-world problems, specifically in analyzing various data types such as text, images, audio, or multimodal data. Through this course, learners can master the entire data analysis process, from collecting, cleaning, and labeling data to developing and deploying analytical models.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học này giúp người học tiếp cận các kỹ thuật và công nghệ tiên tiến trong lĩnh vực học sâu và ứng dụng của nó, đặc biệt là trong ngôn ngữ tự nhiên và thị giác máy tính. Cụ thể, môn học cung cấp kiến thức lý thuyết và thực hành để người học có thể hiểu, phân tích, điều chỉnh và sáng tạo các kiến trúc mạng nơron học sâu. Các chủ đề quan trọng khác được giảng dạy trong môn học bao gồm tổ chức dữ liệu và nhãn, cũng như các giải thuật và quy trình huấn luyện mạng nơron học sâu.<br></p>",
+      "en": "<p>This course helps learners approach advanced techniques and technologies in the field of deep learning and its applications, particularly in natural language processing and computer vision. Specifically, the course provides theoretical and practical knowledge for learners to understand, analyze,modify, and create deep learning neural network architectures. Other important topics covered in the course include data organization and labeling, as well as algorithms and training processes for deep learning neural networks.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p></p><p><b>Giáo trình:</b></p><p>[1] Aston Zhang et al. (2023), Dive into Deep Learning, Cambridge University Press.</p><p><b>Tài liệu tham khảo:</b></p><p>[2] Ian Goodfellow et al. (2016), Deep Learning, MIT Press.</p><p>[3] Francois Chollet (2025), Deep Learning with Python, Third Edition, Manning Publications.</p><p>[4] Selected papers from top-tier venues such as NeurIPS, ICML, CVPR, ICCV, and ICLR.</p><p>[5] Official documentation and tutorials from PyTorch, HuggingFace, and Ultralytics (YOLO).</p><br><p></p>",
+      "en": "<p></p><p><b>Textbooks:</b></p><p>[1] Aston Zhang et al. (2023), Dive into Deep Learning, Cambridge University Press.</p><p><b>References:</b></p><p>[2] Ian Goodfellow et al. (2016), Deep Learning, MIT Press.</p><p>[3] Francois Chollet (2025), Deep Learning with Python, Third Edition, Manning Publications.</p><p>[4] Selected papers from top-tier venues such as NeurIPS, ICML, CVPR, ICCV, and ICLR.</p><p>[5] Official documentation and tutorials from PyTorch, HuggingFace, and Ultralytics (YOLO).</p><br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p></p><ul><li>Tài liệu học tập bao gồm: đề cương môn học, slide bài giảng và bài tập lớn được lưu trữ trên máy chủ quản lý tài liệu học tập của khoa (trường).Sinh viên cần tải về, in ra và mang theo khi lên lớp.<br></li><li>Bên cạnh các tài liệu được cung cấp, sinh viên có thể tìm kiếm thêm tài liệu liên quan từ Internet, như hướng dẫn, kiến trúc mạng nơron mẫu,chương trình mẫu và các tập dữ liệu.<br></li><li>Sinh viên cần tham gia đầy đủ các buổi học và tích cực trao đổi trên lớp để làm rõ các vấn đề.<br></li><li>Ở nhà, sinh viên nên nghiên cứu kỹ tài liệu, lập trình nhiều hơn và hoàn thành bài tập lớn một cách đầy đủ.</li></ul><ul><li>Liêm chính học thuật và sử dụng công cụ AI</li><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học <b>không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung</b>.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.</li></ul></ul><p></p><p><br></p><br><p></p>",
+      "en": "<p></p><p></p><ul><li><i></i>Study materials include: the course syllabus, lecture slides, and major assignments stored on the faculty (school) learning resource server.Students need to download, print, and bring these materials to class.<br></li><li>In addition to the provided materials, students can search for additional related resources on the Internet, such as guides, sample neuralnetwork architectures, sample programs, and datasets.<br></li><li>Students are required to attend all classes and actively participate in discussions to clarify issues.<br></li><li>At home, students should thoroughly study the materials, practice programming more, and complete major assignments fully.<i></i></li></ul><ul><li><b></b>A<b></b>cademic Integrity and Use of AI Tools</li><ul><li>Students must comply with the university’s academic integrity regulations.</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are <b>not allowed to submit work that is wholly or substantially generated by AI</b>.</li><li>When AI tools are used in assignments, students must clearly indicate the tool and how it was used in the references or footnotes.</li><li>Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</li></ul></ul><p></p><br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>Sinh viên sẽ nhận điểm điểm tổng kết môn học bằng điểm BTL nếu điểm BTL nhỏ hơn hoặc bằng 3</p><br>",
+      "en": "<p>If the assignment's score is less than or equal to 3 then the final grade for the course is the same as the&nbsp;assignment' score.</p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1392,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho trương trình đào tạo toàn khóa",
+        "en": "Áp dụng cho trương trình đào tạo toàn khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1164,
+      "ma": "001995",
+      "ten": "LÊ THÀNH SÁCH"
+    },
+    {
+      "id": 5780,
+      "ma": "003778",
+      "ten": "TRẦN TUẤN ANH"
+    },
+    {
+      "id": 1885,
+      "ma": "003682",
+      "ten": "NGUYỄN ĐỨC DŨNG"
+    },
+    {
+      "id": 13749,
+      "ma": "004343",
+      "ten": "TRƯƠNG VĨNH LÂN"
+    },
+    {
+      "id": 13488,
+      "ma": "004336",
+      "ten": "HUỲNH VĂN THỐNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 21,
+        "ma": "TN2",
+        "text": {
+          "vi": "Trắc nghiệm (chấm máy)",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 40,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 965,
+      "maBoMon": "DTO",
+      "tenBoMon": {
+        "vi": "Khoa Học Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Bộ môn Khoa học Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1164,
+        "maGiangVien": "001995",
+        "tenGiangVien": "LÊ THÀNH SÁCH",
+        "emailGiangVien": "ltsach@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "KN",
+      "tenloaidieukien": {
+        "vi": "Khuyến Nghị",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "CO3061 - Nhập môn Trí tuệ Nhân tạo",
+        "en": "CO3061 - Introduction to Artificial Intelligence"
+      },
+      "tenmonhoc_only": {
+        "vi": "Nhập môn Trí tuệ Nhân tạo",
+        "en": "Introduction to Artificial Intelligence"
+      },
+      "mamonhoc": "CO3061"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88706,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 88707,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "88706",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn ",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn ",
+        "en": "Assignment"
+      }
+    },
+    {
+      "id": 88708,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88706",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kì",
+        "en": " Final exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kì",
+        "en": " Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109625,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 144671,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy tổng quan về học sâu và các ứng dụng, giới thiệu cấu trúc môn học, các dạng bài toán chính và công cụ sử dụng, kèm theo ví dụ minh họa.\n",
+            "en": "* Present an overview of deep learning and its applications, introduce the course structure, main problem types, and tools, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "* Nghiên cứu tài liệu: [1] (Chương 1); [2] (Chương 1); [3] (Chương 1).\n* Hoạt động: Làm quen với môi trường lập trình, cài đặt thư viện cần thiết và thực hiện các ví dụ cơ bản.",
+            "en": "* Study materials: [1] (Chapter 1); [2] (Chapter 1); [3] (Chapter 1).\n * Activities: Set up the programming environment, install required libraries, and run basic examples.\n"
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235784,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235785,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144699,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy tổng quan về học sâu và các ứng dụng, giới thiệu cấu trúc môn học, các dạng bài toán chính và công cụ sử dụng, kèm theo ví dụ minh họa.\n",
+            "en": "* Present an overview of deep learning and its applications, introduce the course structure, main problem types, and tools, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "* Nghiên cứu tài liệu: [1] (Chương 1); [2] (Chương 1); [3] (Chương 1).\n* Hoạt động: Làm quen với môi trường lập trình, cài đặt thư viện cần thiết và thực hiện các ví dụ cơ bản.",
+            "en": "* Study materials: [1] (Chapter 1); [2] (Chapter 1); [3] (Chapter 1).\n* Activities: Set up the programming environment, install required libraries, and run basic examples.\n"
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235786,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235787,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144677,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy tổng quan về học sâu và các ứng dụng, giới thiệu cấu trúc môn học, các dạng bài toán chính và công cụ sử dụng, kèm theo ví dụ minh họa.",
+            "en": "* Present an overview of deep learning and its applications, introduce the course structure, main problem types, and tools, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 1); [2] (Chương 1); [3] (Chương 1).\n    * Hoạt động: Làm quen với môi trường lập trình, cài đặt thư viện cần thiết và thực hiện các ví dụ cơ bản.",
+            "en": "    * Study materials: [1] (Chapter 1); [2] (Chapter 1); [3] (Chapter 1).\n    * Activities: Set up the programming environment, install required libraries, and run basic examples.\n"
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235851,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235861,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144672,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy tổng quan về học sâu và các ứng dụng, giới thiệu cấu trúc môn học, các dạng bài toán chính và công cụ sử dụng, kèm theo ví dụ minh họa.\n",
+            "en": "* Present an overview of deep learning and its applications, introduce the course structure, main problem types, and tools, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 1); [2] (Chương 1); [3] (Chương 1).\n    * Hoạt động: Làm quen với môi trường lập trình, cài đặt thư viện cần thiết và thực hiện các ví dụ cơ bản.",
+            "en": "    * Study materials: [1] (Chapter 1); [2] (Chapter 1); [3] (Chapter 1).\n    * Activities: Set up the programming environment, install required libraries, and run basic examples."
+          },
+          "chuandaura": {
+            "id": 183553,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Mô tả được quy trình xử lý bài toán học sâu cho các tác vụ khác nhau.",
+              "en": "Describe deep learning pipelines for different tasks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235788,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235789,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1. Giới thiệu\n1.1.\tCác khái niệm cơ bản\n1.2.\tBiểu diễn dữ liệu và nhãn\n1.3.\tCác bài toán và độ đo đánh giá\n1.4.\tQuy trình phân tích dữ liệu\n1.5.\tCác thư viện lập trình và công nghệ liên quan\n1.6.\tBài toán tổng hợp",
+        "en": "Chapter 1. Introduction\n1.1.\tBasic Concepts\n1.2.\tData and Label Representation\n1.3.\tProblems and Evaluation Metrics\n1.4.\tData Analysis Process\n1.5.\tProgramming Libraries and Related Technologies\n1.6.\tIntegrated Problem"
+      }
+    },
+    {
+      "id": 109622,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 144693,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.\n",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets.\n"
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235763,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235762,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144709,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets.\n"
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235852,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235860,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144697,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.\n",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.\n",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets."
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235766,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235767,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2. Huấn luyện mạng học sâu\n2.1.\tSơ đồ huấn luyện mạng\n2.2.\tGiải thuật huấn luyện\n2.3.\tCác chiến lược huấn luyện\n2.4.\tCác biểu đồ huấn luyện và đánh giá\n2.5.\tBài toán tổng hợp",
+        "en": "Chapter 2. Training Deep Learning Networks\n2.1.\tNetwork Training Diagram\n2.2.\tTraining Algorithms\n2.3.\tTraining Strategies\n2.4.\tTraining and Evaluation Graphs\n2.5.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 109624,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 144686,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets."
+          },
+          "chuandaura": {
+            "id": 183553,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Mô tả được quy trình xử lý bài toán học sâu cho các tác vụ khác nhau.",
+              "en": "Describe deep learning pipelines for different tasks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235845,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235846,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144669,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets."
+          },
+          "chuandaura": {
+            "id": 183555,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Hiện thực được các mô hình học sâu bằng các thư viện như PyTorch.",
+              "en": "Implement deep learning models using libraries such as PyTorch."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235834,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235840,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144670,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.\n",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets.\n"
+          },
+          "chuandaura": {
+            "id": 183559,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được kiến trúc và nguyên lý hoạt động của các mô hình học sâu.",
+              "en": "Analyze architectures and operating principles of deep learning models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235781,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235780,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144714,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.\n* ENE:",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets.\n"
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235843,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235865,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144702,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.\n",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets."
+          },
+          "chuandaura": {
+            "id": 183561,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Lựa chọn được mô hình và kỹ thuật phù hợp dựa trên đặc điểm bài toán.",
+              "en": "Select appropriate models and techniques based on problem characteristics."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235783,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235782,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144703,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets.\n"
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235833,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235839,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144710,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phân loại và hồi quy, bao gồm biểu diễn dữ liệu, hàm mất mát, độ đo đánh giá và mô hình cơ bản, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for classification and regression tasks, including data representation, loss functions, evaluation metrics, and basic models, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3-8); [2] (Chương 5); [3] (Chương 3, 4).\n    * Hoạt động: Xây dựng mô hình phân loại và hồi quy cơ bản, huấn luyện và đánh giá kết quả trên tập dữ liệu.",
+            "en": "    * Study materials: [1] (Chapter 3-8); [2] (Chapter 5); [3] (Chapters 3, 4).\n    * Activities: Build basic classification and regression models, train and evaluate performance on datasets."
+          },
+          "chuandaura": {
+            "id": 183557,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Áp dụng được các kỹ thuật trích xuất đặc trưng và transfer learning.",
+              "en": "Apply feature extraction and transfer learning techniques."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235841,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235761,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144659,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets."
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235844,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235838,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144701,
+          "stt": 10,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp huấn luyện mạng nơron, bao gồm lan truyền thuận, lan truyền ngược, hàm mất mát, và tối ưu hóa tham số, kèm theo ví dụ minh họa.\n",
+            "en": "* Present training concepts of neural networks, including forward propagation, backpropagation, loss functions, and optimization methods, with illustrative examples.\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 3,4,12); [2] (Chương 8); [3] (Chương 5, 6).\n    * Hoạt động: Thực hành xây dựng và huấn luyện mô hình, quan sát loss và đánh giá kết quả trên tập validation/test.",
+            "en": "    * Study materials: [1] (Chapters 3,4,12); [2] (Chapters 8); [3] (Chapters 5, 6).\n    * Activities: Implement and train models, monitor loss curves, and evaluate performance on validation/test datasets.\n"
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235778,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235779,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3. Bài toán phân loại và hồi quy\n3.1.\tCác lớp tính toán\n3.2.\tHàm mất mát và độ đo đánh giá.\n3.3.\tLàm giàu dữ liệu\n3.4.\tCác kiến trúc ứng dụng tiêu biểu\n3.5.\tBài toán tổng hợp\n",
+        "en": "Chapter 3. Classification and Regression\n3.1.\tComputational Layers\n3.2.\tLoss Functions and Evaluation Metrics\n3.3.\tData Augmentation\n3.4.\tTypical Application Architectures\n3.5.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 109627,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 144660,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.\n",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance.\n"
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235825,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235826,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144661,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples.\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "* Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n* Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance."
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235797,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235796,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144664,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance.\n"
+          },
+          "chuandaura": {
+            "id": 183559,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được kiến trúc và nguyên lý hoạt động của các mô hình học sâu.",
+              "en": "Analyze architectures and operating principles of deep learning models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235794,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235795,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144696,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.\n",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance."
+          },
+          "chuandaura": {
+            "id": 183555,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Hiện thực được các mô hình học sâu bằng các thư viện như PyTorch.",
+              "en": "Implement deep learning models using libraries such as PyTorch."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235831,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235824,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144674,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.\n",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance.\n"
+          },
+          "chuandaura": {
+            "id": 183561,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Lựa chọn được mô hình và kỹ thuật phù hợp dựa trên đặc điểm bài toán.",
+              "en": "Select appropriate models and techniques based on problem characteristics."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235799,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235798,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144687,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance.\n"
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235847,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235867,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144688,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.\n",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance.\n"
+          },
+          "chuandaura": {
+            "id": 183557,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Áp dụng được các kỹ thuật trích xuất đặc trưng và transfer learning.",
+              "en": "Apply feature extraction and transfer learning techniques."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235827,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235848,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144668,
+          "stt": 9,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm về cơ chế attention và kiến trúc Transformer, bao gồm self-attention, multi-head attention và biểu diễn chuỗi, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts of attention mechanisms and Transformer architectures, including self-attention, multi-head attention, and sequence representations, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 11);  [3] (Chương 15).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình sử dụng attention/Transformer, quan sát kết quả và phân tích hiệu năng.",
+            "en": "    * Study materials: [1] (Chapters 11); [3] (Chapter 15).\n    * Activities: Implement and experiment with attention/Transformer-based models, observe results, and analyze performance.\n"
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235832,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235850,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Attention và Transformer\n4.1.\tKhối tính toán Attention\n4.2.\tKhối tính toán Transformer\n4.3.\tCác kiến trúc ứng dụng tiêu biểu\n4.4.\tBài toán tổng hợp\n",
+        "en": "Chapter 4. Attention and Transformer\n4.1.\tAttention Computation Block\n4.2.\tTransformer Computation Block\n4.3.\tTypical Application Architectures\n4.4.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 109629,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 144662,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học tự giám sát, bao gồm tạo nhãn từ dữ liệu, học biểu diễn, contrastive learning và các mô hình tiền huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods of self-supervised learning, including label generation from data, representation learning, contrastive learning, and pretraining models, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình học tự giám sát đơn giản, quan sát đặc trưng học được và đánh giá hiệu quả trên các tác vụ downstream.",
+            "en": "    * Study materials: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Activities: Implement and experiment with basic self-supervised learning models, analyze learned representations, and evaluate performance on downstream tasks."
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235756,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235857,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144665,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học tự giám sát, bao gồm tạo nhãn từ dữ liệu, học biểu diễn, contrastive learning và các mô hình tiền huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods of self-supervised learning, including label generation from data, representation learning, contrastive learning, and pretraining models, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình học tự giám sát đơn giản, quan sát đặc trưng học được và đánh giá hiệu quả trên các tác vụ downstream.",
+            "en": "    * Study materials: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Activities: Implement and experiment with basic self-supervised learning models, analyze learned representations, and evaluate performance on downstream tasks."
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235842,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235853,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144708,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học tự giám sát, bao gồm tạo nhãn từ dữ liệu, học biểu diễn, contrastive learning và các mô hình tiền huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods of self-supervised learning, including label generation from data, representation learning, contrastive learning, and pretraining models, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình học tự giám sát đơn giản, quan sát đặc trưng học được và đánh giá hiệu quả trên các tác vụ downstream.",
+            "en": "    * Study materials: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Activities: Implement and experiment with basic self-supervised learning models, analyze learned representations, and evaluate performance on downstream tasks."
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235808,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235809,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144689,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học tự giám sát, bao gồm tạo nhãn từ dữ liệu, học biểu diễn, contrastive learning và các mô hình tiền huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods of self-supervised learning, including label generation from data, representation learning, contrastive learning, and pretraining models, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình học tự giám sát đơn giản, quan sát đặc trưng học được và đánh giá hiệu quả trên các tác vụ downstream.\n",
+            "en": "    * Study materials: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Activities: Implement and experiment with basic self-supervised learning models, analyze learned representations, and evaluate performance on downstream tasks."
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235806,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235807,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144685,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học tự giám sát, bao gồm tạo nhãn từ dữ liệu, học biểu diễn, contrastive learning và các mô hình tiền huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods of self-supervised learning, including label generation from data, representation learning, contrastive learning, and pretraining models, with illustrative examples.\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình học tự giám sát đơn giản, quan sát đặc trưng học được và đánh giá hiệu quả trên các tác vụ downstream.\n",
+            "en": "    * Study materials: [4] (self-supervised learning, BERT, GPT); [3] (Chương 16).\n    * Activities: Implement and experiment with basic self-supervised learning models, analyze learned representations, and evaluate performance on downstream tasks."
+          },
+          "chuandaura": {
+            "id": 183553,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Mô tả được quy trình xử lý bài toán học sâu cho các tác vụ khác nhau.",
+              "en": "Describe deep learning pipelines for different tasks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235811,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235810,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5. Kỹ thuật học tự giám sát\n5.1.\tNhãn: từ thủ công đến tự động\n5.2. Mô hình next token, next frame, next item\n5.3.\tMô hình che lấp cho văn bản\n5.4.\tMô hình che lấp cho hình ảnh\n5.5.\tBài toán tổng hợp\n",
+        "en": "Chapter 5. Self-Supervised Learning Techniques\n5.1. Labels: from manual annotation to automatic generation\n5.2. Next-token, next-frame, and next-item models\n5.3. Masked modeling for text\n5.4. Masked modeling for images\n5.5. Unified formulation / Integrated learning tasks\n"
+      }
+    },
+    {
+      "id": 109626,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 144690,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phân đoạn ảnh, bao gồm biểu diễn nhãn theo pixel, các kiến trúc mạng như FCN, U-Net và các phương pháp huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for image segmentation tasks, including pixel-wise labeling, network architectures such as FCN and U-Net, and training strategies, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 11); [4] (Segmention); [5] (Segmentation).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phân đoạn sử dụng PyTorch hoặc các thư viện như HuggingFace và Ultralytics; trực quan hóa kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chapter 12); [4] (Segmention); [5] (Segmentation).\n    * Activities: Build and train segmentation models using PyTorch or libraries such as HuggingFace and Ultralytics; visualize outputs and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235866,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235859,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144666,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phân đoạn ảnh, bao gồm biểu diễn nhãn theo pixel, các kiến trúc mạng như FCN, U-Net và các phương pháp huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for image segmentation tasks, including pixel-wise labeling, network architectures such as FCN and U-Net, and training strategies, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 11); [4] (Segmention); [5] (Segmentation).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phân đoạn sử dụng PyTorch hoặc các thư viện như HuggingFace và Ultralytics; trực quan hóa kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chapter 12); [4] (Segmention); [5] (Segmentation).\n    * Activities: Build and train segmentation models using PyTorch or libraries such as HuggingFace and Ultralytics; visualize outputs and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235858,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235856,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144704,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phân đoạn ảnh, bao gồm biểu diễn nhãn theo pixel, các kiến trúc mạng như FCN, U-Net và các phương pháp huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for image segmentation tasks, including pixel-wise labeling, network architectures such as FCN and U-Net, and training strategies, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "* Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 11); [4] (Segmention); [5] (Segmentation).\n* Hoạt động: Xây dựng và huấn luyện mô hình phân đoạn sử dụng PyTorch hoặc các thư viện như HuggingFace và Ultralytics; trực quan hóa kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chapter 12); [4] (Segmention); [5] (Segmentation).\n    * Activities: Build and train segmentation models using PyTorch or libraries such as HuggingFace and Ultralytics; visualize outputs and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183559,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được kiến trúc và nguyên lý hoạt động của các mô hình học sâu.",
+              "en": "Analyze architectures and operating principles of deep learning models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235793,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235792,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144678,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phân đoạn ảnh, bao gồm biểu diễn nhãn theo pixel, các kiến trúc mạng như FCN, U-Net và các phương pháp huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for image segmentation tasks, including pixel-wise labeling, network architectures such as FCN and U-Net, and training strategies, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 11); [4] (Segmention); [5] (Segmentation).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phân đoạn sử dụng PyTorch hoặc các thư viện như HuggingFace và Ultralytics; trực quan hóa kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chapter 12); [4] (Segmention); [5] (Segmentation).\n    * Activities: Build and train segmentation models using PyTorch or libraries such as HuggingFace and Ultralytics; visualize outputs and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235854,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235855,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144663,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phân đoạn ảnh, bao gồm biểu diễn nhãn theo pixel, các kiến trúc mạng như FCN, U-Net và các phương pháp huấn luyện, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for image segmentation tasks, including pixel-wise labeling, network architectures such as FCN and U-Net, and training strategies, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 11); [4] (Segmention); [5] (Segmentation).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phân đoạn sử dụng PyTorch hoặc các thư viện như HuggingFace và Ultralytics; trực quan hóa kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chapter 12); [4] (Segmention); [5] (Segmentation).\n    * Activities: Build and train segmentation models using PyTorch or libraries such as HuggingFace and Ultralytics; visualize outputs and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183555,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Hiện thực được các mô hình học sâu bằng các thư viện như PyTorch.",
+              "en": "Implement deep learning models using libraries such as PyTorch."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235757,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235758,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144673,
+          "stt": 8,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phân đoạn ảnh, bao gồm biểu diễn nhãn theo pixel, các kiến trúc mạng như FCN, U-Net và các phương pháp huấn luyện, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for image segmentation tasks, including pixel-wise labeling, network architectures such as FCN and U-Net, and training strategies, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 11); [4] (Segmention); [5] (Segmentation).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phân đoạn sử dụng PyTorch hoặc các thư viện như HuggingFace và Ultralytics; trực quan hóa kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chapter 12); [4] (Segmention); [5] (Segmentation).\n    * Activities: Build and train segmentation models using PyTorch or libraries such as HuggingFace and Ultralytics; visualize outputs and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235790,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235791,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Bài toán phân đoạn\n6.1.\tCác lớp tính toán\n6.2.\tHàm mất mát\n6.3.\tLàm giàu dữ liệu\n6.4.\tCác kiến trúc tiêu biểu\n6.5.\tBài toán tổng hợp\n",
+        "en": "Chapter 6. Segmentation Problems\n6.1.\tComputational Layers\n6.2.\tLoss Functions\n6.3.\tData Augmentation\n6.4.\tTypical Architectures\n6.5.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 109630,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 144667,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phát hiện và định danh đối tượng, bao gồm định vị (localization), phân loại (classification), trích xuất đặc trưng (embedding) và so khớp, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for object detection and identification tasks, including localization, classification, feature embedding, and matching, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phát hiện và định danh sử dụng các thư viện như PyTorch, HuggingFace hoặc Ultralytics (YOLO), phân tích kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Activities: Build and train detection and identification models using PyTorch, HuggingFace, or Ultralytics (YOLO), analyze results, and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235764,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235830,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144675,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phát hiện và định danh đối tượng, bao gồm định vị (localization), phân loại (classification), trích xuất đặc trưng (embedding) và so khớp, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for object detection and identification tasks, including localization, classification, feature embedding, and matching, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phát hiện và định danh sử dụng các thư viện như PyTorch, HuggingFace hoặc Ultralytics (YOLO), phân tích kết quả và đánh giá hiệu năng.\n",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Activities: Build and train detection and identification models using PyTorch, HuggingFace, or Ultralytics (YOLO), analyze results, and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183559,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được kiến trúc và nguyên lý hoạt động của các mô hình học sâu.",
+              "en": "Analyze architectures and operating principles of deep learning models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235815,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235814,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144706,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phát hiện và định danh đối tượng, bao gồm định vị (localization), phân loại (classification), trích xuất đặc trưng (embedding) và so khớp, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for object detection and identification tasks, including localization, classification, feature embedding, and matching, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phát hiện và định danh sử dụng các thư viện như PyTorch, HuggingFace hoặc Ultralytics (YOLO), phân tích kết quả và đánh giá hiệu năng.\n",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Activities: Build and train detection and identification models using PyTorch, HuggingFace, or Ultralytics (YOLO), analyze results, and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235817,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235816,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144705,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phát hiện và định danh đối tượng, bao gồm định vị (localization), phân loại (classification), trích xuất đặc trưng (embedding) và so khớp, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for object detection and identification tasks, including localization, classification, feature embedding, and matching, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phát hiện và định danh sử dụng các thư viện như PyTorch, HuggingFace hoặc Ultralytics (YOLO), phân tích kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Activities: Build and train detection and identification models using PyTorch, HuggingFace, or Ultralytics (YOLO), analyze results, and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183561,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Lựa chọn được mô hình và kỹ thuật phù hợp dựa trên đặc điểm bài toán.",
+              "en": "Select appropriate models and techniques based on problem characteristics."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235812,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235813,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144679,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho bài toán phát hiện và định danh đối tượng, bao gồm định vị (localization), phân loại (classification), trích xuất đặc trưng (embedding) và so khớp, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for object detection and identification tasks, including localization, classification, feature embedding, and matching, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu:[1](Chương 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Hoạt động: Xây dựng và huấn luyện mô hình phát hiện và định danh sử dụng các thư viện như PyTorch, HuggingFace hoặc Ultralytics (YOLO), phân tích kết quả và đánh giá hiệu năng.",
+            "en": "    * Study materials: [1](Chapter 14); [3] (Chương 12); [4] (Object detection and identification); [5] (Object detection and identification).\n    * Activities: Build and train detection and identification models using PyTorch, HuggingFace, or Ultralytics (YOLO), analyze results, and evaluate performance."
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235828,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235829,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7. Bài toán phát hiện và định danh đối tượng\n7.1.\tCác kiến trúc ứng dụng tiêu biểu\n7.2.\tHàm mất mát\n7.3.\tLàm giàu dữ liệu\n7.4.\tBài toán tổng hợp\n",
+        "en": "Chapter 7. Object Detection and Identification Problems\n7.1.\tTypical Application Architectures\n7.2.\tLoss Functions\n7.3.\tData Augmentation\n7.4.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 109628,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 144680,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho mô hình chuỗi sử dụng mạng nơron hồi quy, bao gồm biểu diễn dữ liệu theo chuỗi, kiến trúc RNN, LSTM, GRU và cơ chế xử lý phụ thuộc theo thời gian, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for sequence modeling using recurrent neural networks, including sequence representation, RNN, LSTM, GRU architectures, and temporal dependency handling, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 9,10); [2] (Chương 10); [3] (Chương 13).\n    * Hoạt động: Xây dựng và huấn luyện mô hình RNN/LSTM/GRU cho dữ liệu chuỗi, phân tích kết quả và đánh giá hiệu năng trên các tác vụ như dự đoán hoặc phân loại chuỗi.",
+            "en": "    * Study materials: [1] (Chapter 9,10); [2] (Chapter 10); [3] (Chapter 13).\n    * Activities: Build and train RNN/LSTM/GRU models for sequence data, analyze results, and evaluate performance on tasks such as sequence prediction or classification.\n"
+          },
+          "chuandaura": {
+            "id": 183561,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Lựa chọn được mô hình và kỹ thuật phù hợp dựa trên đặc điểm bài toán.",
+              "en": "Select appropriate models and techniques based on problem characteristics."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235804,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235805,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144681,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho mô hình chuỗi sử dụng mạng nơron hồi quy, bao gồm biểu diễn dữ liệu theo chuỗi, kiến trúc RNN, LSTM, GRU và cơ chế xử lý phụ thuộc theo thời gian, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for sequence modeling using recurrent neural networks, including sequence representation, RNN, LSTM, GRU architectures, and temporal dependency handling, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 9,10); [2] (Chương 10); [3] (Chương 13).\n    * Hoạt động: Xây dựng và huấn luyện mô hình RNN/LSTM/GRU cho dữ liệu chuỗi, phân tích kết quả và đánh giá hiệu năng trên các tác vụ như dự đoán hoặc phân loại chuỗi.",
+            "en": "    * Study materials: [1] (Chapter 9,10); [2] (Chapter 10); [3] (Chapter 13).\n    * Activities: Build and train RNN/LSTM/GRU models for sequence data, analyze results, and evaluate performance on tasks such as sequence prediction or classification."
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235849,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235759,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144695,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho mô hình chuỗi sử dụng mạng nơron hồi quy, bao gồm biểu diễn dữ liệu theo chuỗi, kiến trúc RNN, LSTM, GRU và cơ chế xử lý phụ thuộc theo thời gian, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for sequence modeling using recurrent neural networks, including sequence representation, RNN, LSTM, GRU architectures, and temporal dependency handling, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 9,10); [2] (Chương 10); [3] (Chương 13).\n    * Hoạt động: Xây dựng và huấn luyện mô hình RNN/LSTM/GRU cho dữ liệu chuỗi, phân tích kết quả và đánh giá hiệu năng trên các tác vụ như dự đoán hoặc phân loại chuỗi.",
+            "en": "    * Study materials: [1] (Chapter 9,10); [2] (Chapter 10); [3] (Chapter 13).\n    * Activities: Build and train RNN/LSTM/GRU models for sequence data, analyze results, and evaluate performance on tasks such as sequence prediction or classification."
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235765,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235836,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144694,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho mô hình chuỗi sử dụng mạng nơron hồi quy, bao gồm biểu diễn dữ liệu theo chuỗi, kiến trúc RNN, LSTM, GRU và cơ chế xử lý phụ thuộc theo thời gian, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for sequence modeling using recurrent neural networks, including sequence representation, RNN, LSTM, GRU architectures, and temporal dependency handling, with illustrative examples.\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 9,10); [2] (Chương 10); [3] (Chương 13).\n    * Hoạt động: Xây dựng và huấn luyện mô hình RNN/LSTM/GRU cho dữ liệu chuỗi, phân tích kết quả và đánh giá hiệu năng trên các tác vụ như dự đoán hoặc phân loại chuỗi.\n",
+            "en": "    * Study materials: [1] (Chapter 9,10); [2] (Chapter 10); [3] (Chapter 13).\n    * Activities: Build and train RNN/LSTM/GRU models for sequence data, analyze results, and evaluate performance on tasks such as sequence prediction or classification."
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235802,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235803,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144691,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp cho mô hình chuỗi sử dụng mạng nơron hồi quy, bao gồm biểu diễn dữ liệu theo chuỗi, kiến trúc RNN, LSTM, GRU và cơ chế xử lý phụ thuộc theo thời gian, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for sequence modeling using recurrent neural networks, including sequence representation, RNN, LSTM, GRU architectures, and temporal dependency handling, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 9,10); [2] (Chương 10); [3] (Chương 13).\n    * Hoạt động: Xây dựng và huấn luyện mô hình RNN/LSTM/GRU cho dữ liệu chuỗi, phân tích kết quả và đánh giá hiệu năng trên các tác vụ như dự đoán hoặc phân loại chuỗi.",
+            "en": "    * Study materials: [1] (Chapter 9,10); [2] (Chapter 10); [3] (Chapter 13).\n    * Activities: Build and train RNN/LSTM/GRU models for sequence data, analyze results, and evaluate performance on tasks such as sequence prediction or classification."
+          },
+          "chuandaura": {
+            "id": 183555,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Hiện thực được các mô hình học sâu bằng các thư viện như PyTorch.",
+              "en": "Implement deep learning models using libraries such as PyTorch."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235800,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235801,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8. Mạng nơron hồi quy\n8.1.\tCác phương pháp xử lý tín hiệu có yếu tố thời gian\n8.2.\tMạng nơron hồi quy một chiều\n8.3.\tMạng nơron hồi quy hai chiều\n8.4.\tBài toán tổng hợp\n",
+        "en": "Chapter 8. Recurrent Neural Networks\n8.1.\tTime-Series Signal Processing Methods\n8.2.\tOne-Dimensional Recurrent Neural Networks\n8.3.\tTwo-Dimensional Recurrent Neural Networks\n8.4.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 109631,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 144707,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp tạo sinh dữ liệu, bao gồm mô hình sinh xác suất, Autoencoder, Variational Autoencoder (VAE), Generative Adversarial Networks (GAN) và các phương pháp tạo sinh hiện đại, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for generative modeling, including probabilistic generative models, Autoencoders, Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and modern generative approaches, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 20); [2] (Chương 14,15,20); [3] (Chương 16,17).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình tạo sinh cơ bản (Autoencoder, VAE, GAN), quan sát dữ liệu sinh ra và đánh giá chất lượng kết quả.",
+            "en": "    * Study materials: [1] (Chapter 20); [2] (Chapter 14,15,20); [3] (Chapter 16,17).\n    * Activities: Build and experiment with basic generative models (Autoencoder, VAE, GAN), observe generated data, and evaluate output quality."
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235774,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235760,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144712,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp tạo sinh dữ liệu, bao gồm mô hình sinh xác suất, Autoencoder, Variational Autoencoder (VAE), Generative Adversarial Networks (GAN) và các phương pháp tạo sinh hiện đại, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for generative modeling, including probabilistic generative models, Autoencoders, Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and modern generative approaches, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 20); [2] (Chương 14,15,20); [3] (Chương 16,17).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình tạo sinh cơ bản (Autoencoder, VAE, GAN), quan sát dữ liệu sinh ra và đánh giá chất lượng kết quả.",
+            "en": "    * Study materials: [1] (Chapter 20); [2] (Chapter 14,15,20); [3] (Chapter 16,17).\n    * Activities: Build and experiment with basic generative models (Autoencoder, VAE, GAN), observe generated data, and evaluate output quality."
+          },
+          "chuandaura": {
+            "id": 183553,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Mô tả được quy trình xử lý bài toán học sâu cho các tác vụ khác nhau.",
+              "en": "Describe deep learning pipelines for different tasks."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235775,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235776,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144682,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp tạo sinh dữ liệu, bao gồm mô hình sinh xác suất, Autoencoder, Variational Autoencoder (VAE), Generative Adversarial Networks (GAN) và các phương pháp tạo sinh hiện đại, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for generative modeling, including probabilistic generative models, Autoencoders, Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and modern generative approaches, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 20); [2] (Chương 14,15,20); [3] (Chương 16,17).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình tạo sinh cơ bản (Autoencoder, VAE, GAN), quan sát dữ liệu sinh ra và đánh giá chất lượng kết quả.\n",
+            "en": "    * Study materials: [1] (Chapter 20); [2] (Chapter 14,15,20); [3] (Chapter 16,17).\n    * Activities: Build and experiment with basic generative models (Autoencoder, VAE, GAN), observe generated data, and evaluate output quality."
+          },
+          "chuandaura": {
+            "id": 183561,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Lựa chọn được mô hình và kỹ thuật phù hợp dựa trên đặc điểm bài toán.",
+              "en": "Select appropriate models and techniques based on problem characteristics."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235821,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235820,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144713,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp tạo sinh dữ liệu, bao gồm mô hình sinh xác suất, Autoencoder, Variational Autoencoder (VAE), Generative Adversarial Networks (GAN) và các phương pháp tạo sinh hiện đại, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for generative modeling, including probabilistic generative models, Autoencoders, Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and modern generative approaches, with illustrative examples.\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 20); [2] (Chương 14,15,20); [3] (Chương 16,17).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình tạo sinh cơ bản (Autoencoder, VAE, GAN), quan sát dữ liệu sinh ra và đánh giá chất lượng kết quả.",
+            "en": "    * Study materials: [1] (Chapter 20); [2] (Chapter 14,15,20); [3] (Chapter 16,17).\n    * Activities: Build and experiment with basic generative models (Autoencoder, VAE, GAN), observe generated data, and evaluate output quality."
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235822,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235823,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144676,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp tạo sinh dữ liệu, bao gồm mô hình sinh xác suất, Autoencoder, Variational Autoencoder (VAE), Generative Adversarial Networks (GAN) và các phương pháp tạo sinh hiện đại, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for generative modeling, including probabilistic generative models, Autoencoders, Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and modern generative approaches, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [1] (Chương 20); [2] (Chương 14,15,20); [3] (Chương 16,17).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình tạo sinh cơ bản (Autoencoder, VAE, GAN), quan sát dữ liệu sinh ra và đánh giá chất lượng kết quả.",
+            "en": "    * Study materials: [1] (Chapter 20); [2] (Chapter 14,15,20); [3] (Chapter 16,17).\n    * Activities: Build and experiment with basic generative models (Autoencoder, VAE, GAN), observe generated data, and evaluate output quality."
+          },
+          "chuandaura": {
+            "id": 183559,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được kiến trúc và nguyên lý hoạt động của các mô hình học sâu.",
+              "en": "Analyze architectures and operating principles of deep learning models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235819,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235818,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 9. Phương pháp tạo sinh\n9.1.\tMô hình sinh cho hình ảnh\n9.2.\tMô hình sinh cho văn bản\n9.3.\tBài toán tổng hợp\n",
+        "en": "Chapter 9. Generative Methods\n9.1.\tGenerative Models for Images\n9.2.\tGenerative Models for Text\n9.3.\tIntegrated Problem\n"
+      }
+    },
+    {
+      "id": 109623,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 144700,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học đa phương thức và đa nhiệm, bao gồm kết hợp nhiều nguồn dữ liệu (hình ảnh, văn bản, tín hiệu), cơ chế fusion và huấn luyện đồng thời nhiều tác vụ, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for multimodal and multi-task learning, including combining multiple data modalities (image, text, signals), fusion mechanisms, and joint training of multiple tasks, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình đa phương thức hoặc đa nhiệm sử dụng PyTorch hoặc HuggingFace (ví dụ: CLIP), phân tích kết quả và đánh giá hiệu năng trên các tác vụ kết hợp.",
+            "en": "    * Study materials: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Activities: Build and experiment with multimodal or multi-task models using PyTorch or HuggingFace (e.g., CLIP), analyze results, and evaluate performance on combined tasks.\n"
+          },
+          "chuandaura": {
+            "id": 183551,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+              "en": "Describe data, labels, and representation methods in deep learning."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235835,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235837,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144683,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học đa phương thức và đa nhiệm, bao gồm kết hợp nhiều nguồn dữ liệu (hình ảnh, văn bản, tín hiệu), cơ chế fusion và huấn luyện đồng thời nhiều tác vụ, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for multimodal and multi-task learning, including combining multiple data modalities (image, text, signals), fusion mechanisms, and joint training of multiple tasks, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình đa phương thức hoặc đa nhiệm sử dụng PyTorch hoặc HuggingFace (ví dụ: CLIP), phân tích kết quả và đánh giá hiệu năng trên các tác vụ kết hợp.",
+            "en": "    * Study materials: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Activities: Build and experiment with multimodal or multi-task models using PyTorch or HuggingFace (e.g., CLIP), analyze results, and evaluate performance on combined tasks.\n"
+          },
+          "chuandaura": {
+            "id": 183556,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+              "en": "Construct training and evaluation pipelines."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235862,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235863,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144692,
+          "stt": 6,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học đa phương thức và đa nhiệm, bao gồm kết hợp nhiều nguồn dữ liệu (hình ảnh, văn bản, tín hiệu), cơ chế fusion và huấn luyện đồng thời nhiều tác vụ, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for multimodal and multi-task learning, including combining multiple data modalities (image, text, signals), fusion mechanisms, and joint training of multiple tasks, with illustrative examples."
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình đa phương thức hoặc đa nhiệm sử dụng PyTorch hoặc HuggingFace (ví dụ: CLIP), phân tích kết quả và đánh giá hiệu năng trên các tác vụ kết hợp.",
+            "en": "    * Study materials: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Activities: Build and experiment with multimodal or multi-task models using PyTorch or HuggingFace (e.g., CLIP), analyze results, and evaluate performance on combined tasks.\n"
+          },
+          "chuandaura": {
+            "id": 183552,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+              "en": "Explain models, loss functions, and evaluation metrics for different types of problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235864,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235777,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144698,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học đa phương thức và đa nhiệm, bao gồm kết hợp nhiều nguồn dữ liệu (hình ảnh, văn bản, tín hiệu), cơ chế fusion và huấn luyện đồng thời nhiều tác vụ, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for multimodal and multi-task learning, including combining multiple data modalities (image, text, signals), fusion mechanisms, and joint training of multiple tasks, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình đa phương thức hoặc đa nhiệm sử dụng PyTorch hoặc HuggingFace (ví dụ: CLIP), phân tích kết quả và đánh giá hiệu năng trên các tác vụ kết hợp.\n",
+            "en": "    * Study materials: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Activities: Build and experiment with multimodal or multi-task models using PyTorch or HuggingFace (e.g., CLIP), analyze results, and evaluate performance on combined tasks."
+          },
+          "chuandaura": {
+            "id": 183560,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+              "en": "Evaluate model performance based on experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235772,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235773,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144684,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học đa phương thức và đa nhiệm, bao gồm kết hợp nhiều nguồn dữ liệu (hình ảnh, văn bản, tín hiệu), cơ chế fusion và huấn luyện đồng thời nhiều tác vụ, kèm theo ví dụ minh họa.",
+            "en": "* Present concepts and methods for multimodal and multi-task learning, including combining multiple data modalities (image, text, signals), fusion mechanisms, and joint training of multiple tasks, with illustrative examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình đa phương thức hoặc đa nhiệm sử dụng PyTorch hoặc HuggingFace (ví dụ: CLIP), phân tích kết quả và đánh giá hiệu năng trên các tác vụ kết hợp.",
+            "en": "    * Study materials: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Activities: Build and experiment with multimodal or multi-task models using PyTorch or HuggingFace (e.g., CLIP), analyze results, and evaluate performance on combined tasks."
+          },
+          "chuandaura": {
+            "id": 183561,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Lựa chọn được mô hình và kỹ thuật phù hợp dựa trên đặc điểm bài toán.",
+              "en": "Select appropriate models and techniques based on problem characteristics."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235770,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235771,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 144711,
+          "stt": 7,
+          "hoatdonggiangvien": {
+            "vi": "* Giảng dạy các khái niệm và phương pháp học đa phương thức và đa nhiệm, bao gồm kết hợp nhiều nguồn dữ liệu (hình ảnh, văn bản, tín hiệu), cơ chế fusion và huấn luyện đồng thời nhiều tác vụ, kèm theo ví dụ minh họa.\n",
+            "en": "* Present concepts and methods for multimodal and multi-task learning, including combining multiple data modalities (image, text, signals), fusion mechanisms, and joint training of multiple tasks, with illustrative examples.\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "    * Nghiên cứu tài liệu: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Hoạt động: Xây dựng và thử nghiệm các mô hình đa phương thức hoặc đa nhiệm sử dụng PyTorch hoặc HuggingFace (ví dụ: CLIP), phân tích kết quả và đánh giá hiệu năng trên các tác vụ kết hợp.\n",
+            "en": "    * Study materials: [4] (Multimodel and Multitask); [5] (Multimodel and Multitask).\n    * Activities: Build and experiment with multimodal or multi-task models using PyTorch or HuggingFace (e.g., CLIP), analyze results, and evaluate performance on combined tasks.\n"
+          },
+          "chuandaura": {
+            "id": 183559,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được kiến trúc và nguyên lý hoạt động của các mô hình học sâu.",
+              "en": "Analyze architectures and operating principles of deep learning models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 235769,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88707,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn ",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 235768,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88708,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kì",
+                  "en": " Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 10. Mô hình đa phương thức và đa nhiệm\n10.1. Các kiến trúc ứng dụng tiêu biểu\n10.2. Hàm mất mát\n10.3. Tổ chức dữ liệu và huấn luyện\n10.4. Bài toán tổng hợp\n",
+        "en": "Chapter 10. Multimodal and Multitask Models\n10.1. Typical Application Architectures\n10.2. Loss Functions\n10.3. Data Organization and Training\n10.4. Integrated Problem\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 183551,
+      "ma": "L.O.1.1",
+      "ten_vi": "Mô tả được dữ liệu, nhãn và các phương pháp biểu diễn trong học sâu.",
+      "ten_en": "Describe data, labels, and representation methods in deep learning.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183552,
+      "ma": "L.O.1.2",
+      "ten_vi": "Giải thích được các mô hình, hàm mất mát và độ đo đánh giá cho các dạng bài toán khác nhau.",
+      "ten_en": "Explain models, loss functions, and evaluation metrics for different types of problems.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183553,
+      "ma": "L.O.1.3",
+      "ten_vi": "Mô tả được quy trình xử lý bài toán học sâu cho các tác vụ khác nhau.",
+      "ten_en": "Describe deep learning pipelines for different tasks.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183555,
+      "ma": "L.O.2.1",
+      "ten_vi": "Hiện thực được các mô hình học sâu bằng các thư viện như PyTorch.",
+      "ten_en": "Implement deep learning models using libraries such as PyTorch.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183556,
+      "ma": "L.O.2.2",
+      "ten_vi": "Xây dựng được quy trình huấn luyện và đánh giá mô hình.",
+      "ten_en": "Construct training and evaluation pipelines.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183557,
+      "ma": "L.O.2.3",
+      "ten_vi": "Áp dụng được các kỹ thuật trích xuất đặc trưng và transfer learning.",
+      "ten_en": "Apply feature extraction and transfer learning techniques.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183559,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phân tích được kiến trúc và nguyên lý hoạt động của các mô hình học sâu.",
+      "ten_en": "Analyze architectures and operating principles of deep learning models.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183560,
+      "ma": "L.O.3.2",
+      "ten_vi": "Đánh giá được hiệu năng mô hình dựa trên kết quả thực nghiệm.",
+      "ten_en": "Evaluate model performance based on experimental results.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    },
+    {
+      "id": 183561,
+      "ma": "L.O.3.3",
+      "ten_vi": "Lựa chọn được mô hình và kỹ thuật phù hợp dựa trên đặc điểm bài toán.",
+      "ten_en": "Select appropriate models and techniques based on problem characteristics.",
+      "hddg": [
+        {
+          "id": 88707,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn ",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 88708,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kì",
+          "ten_en": " Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Học sâu và Ứng dụng",
+  "tenmonhoc_eng": "Deep Learning and Its Applications",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 1
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

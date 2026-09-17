@@ -1,0 +1,1429 @@
+{
+  "ma": "DCMH.CO3151.6.1",
+  "phienban": "6.1",
+  "capnhat": "28/05/2026 13:45",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO3151",
+  "ten": "CO3151 - Quản trị mạng",
+  "ten_eng": "CO3151 - Network management",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p></p><ul><li>Hiểu rõ mô hình quản lý mạng tiêu chuẩn ISO (FCAPS) và các giao thức cốt lõi như SNMP, NetFlow, AAA.</li><li>Nắm vững nguyên lý thiết kế mạng dự phòng và các công nghệ tự động hóa mạng (NetDevOps).</li><li>Triển khai thành thạo các hệ thống giám sát tập trung (NMS) để theo dõi hiệu suất và cảnh báo sự cố theo thời gian thực.</li><li>Sử dụng ngôn ngữ lập trình (Python) và công cụ (Ansible) để tự động hóa các tác vụ quản trị lặp đi lặp lại.</li><li>Hình thành tư duy quản lý chủ động, luôn sẵn sàng ứng phó với các kịch bản lỗi và đảm bảo tính liên tục của dịch vụ.</li></ul><p></p>",
+      "en": "<p></p><ul><li>Understand the standard ISO network management model (FCAPS) and core protocols such as SNMP, NetFlow, and AAA.</li><li>Master the principles of redundant network design and network automation technologies (NetDevOps).</li><li>Proficiency in deploying Centralized Network Management Systems (NMS) to monitor performance and alert incidents in real-time.</li><li>Utilize programming languages (Python) and tools (Ansible) to automate repetitive administrative tasks.</li><li>Develop a proactive management mindset, being prepared for failure scenarios and ensuring service continuity.</li></ul><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học tập trung vào việc chuyển đổi từ quản trị thiết bị đơn lẻ sang quản lý hệ thống mạng quy mô lớn. Sinh viên sẽ học cách vận hành mạng dựa trên khung tiêu chuẩn FCAPS:</p><p></p><ol><li>Quy hoạch và dự phòng: Tập trung vào thiết kế hạ tầng bền vững thông qua các công nghệ dự phòng Lớp 2 (RSTP, EtherChannel) và Lớp 3 (HSRP/VRRP), kết hợp với quy hoạch địa chỉ IP (VLSM).</li><li>Giám sát và quản lý hiệu suất&nbsp; Triển khai các hệ thống giám sát tập trung (NMS) sử dụng giao thức SNMP và NetFlow. Sinh viên học cách thiết lập Dashboard, cảnh báo tự động và phân tích gói tin (Wireshark) để tối ưu hiệu suất.</li><li>An ninh và tự động hóa: Tiếp cận xu hướng quản trị mạng hiện đại (NetDevOps), quản trị truy cập tập trung (AAA) và ứng dụng Python/Ansible để tự động hóa cấu hình hàng loạt.</li></ol><p></p>",
+      "en": "<p>The course focuses on transitioning from individual device administration to large-scale network system management. Students will learn to operate networks based on the FCAPS framework (Fault, Configuration, Accounting, Performance, Security):<br></p><p></p><ol><li>Planning and Redundancy:&nbsp;&nbsp;Focuses on designing resilient infrastructure through Layer 2 (RSTP, EtherChannel) and Layer 3 (HSRP/VRRP) redundancy technologies, combined with IP address planning (VLSM).</li><li>Monitoring and Performance Management: Deploying centralized network management systems (NMS) using SNMP and NetFlow protocols. Students learn to set up Dashboards, automated alerts, and packet analysis (Wireshark) to optimize performance.</li><li>Security and Automation:&nbsp;Approaching modern network administration trends (NetDevOps), centralized access management (AAA) and applying Python/Ansible to automate bulk configurations.</li></ol><p></p><p><br></p><p><br><br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<div>Giáo trình:</div><p></p>[1]. Network Management: Principles and Practice, Mani Subramanian, 2nd Edition, Pearson Education, 2012.<div>[2]. Computer Networking: A Top-Down Approach, Jim Kurose &amp; Keith Ross, 9th Global Edition, Pearson, 2025.</div><div>\n\n<div>[3]. Practice of System and Network Administration, The: DevOps and other Best Practices for Enterprise IT, Volume 1,Thomas A. Limoncelli, Christina J. Hogan, Strata R. Chalup, 3rd Edition, Addison Wesley Professional,2016</div><div><div><p></p><p></p><p></p></div></div></div><div>Tài liệu tham khảo:</div><div>\n\n<div>\n\n[4]. CCNA 200-301 Official Cert Guide, Volume 1 &amp; 2, Wendell Odom, Cisco Press, 2023.\n\n<div>\n\n[5]. Network Programmability and Automation, Jason Edelman, Scott S. Lowe, Matt Oswalt, 2nd Edition, O'Reilly Media, 2018</div>\n\n</div><div><br></div><br>\n\n<br></div>",
+      "en": "<p>Textbooks:</p><p>\n\n</p>\n\n[1]. Network Management: Principles and Practice, Mani Subramanian, 2nd Edition, Pearson Education, 2012.<div>[2]. Computer Networking: A Top-Down Approach, Jim Kurose &amp; Keith Ross, 9th Global Edition, Pearson, 2025.<div><div>[3]. Practice of System and Network Administration, The: DevOps and other Best Practices for Enterprise IT, Volume 1,Thomas A. Limoncelli, Christina J. Hogan, Strata R. Chalup, 3rd Edition, Addison Wesley Professional,2016<br></div><div><br></div><div>References:</div></div><p>\n\n\n\n[4]. CCNA 200-301 Official Cert Guide, Volume 1 &amp; 2, Wendell Odom, Cisco Press, 2023.\n\n</p><div>\n\n[5]. Network Programmability and Automation, Jason Edelman, Scott S. Lowe, Matt Oswalt, 2nd Edition, O'Reilly Media, 2018</div><p></p><p><br>\n\n<br></p></div>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p></p><p><b><i>Môn học sẽ được đánh giá qua bài tập lớn, các bài thực\nhành trên phòng thí nghiệm và thi cuối kỳ, </i></b>theo tỷ lệ\nphần trăm như sau:</p>\n\n<p></p><ul><li>Bài thực\nhành (20%)</li><ul><li>Được thực\nhiện theo từng cá nhân</li><li>Việc tham gia các giờ thực hành là bắt buộc.</li></ul><br><li>Bài tập lớn\n(30%)</li><ul><li>Được\nthực hiện theo nhóm (2 hoặc 3 người học)</li></ul></ul><ul><li>Thi cuối kỳ\n(50%)</li></ul><p>Liëm chính học thuật vâ sử dụng cõng cụ AI:</p><p></p><ul><li>Người học phải tuãn thủ các quy định về liëm chính học thuật của nhâ trường.</li><li>Việc sử dụng cõng cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tâi liệu, tham khảo ý tưởng, kiểm tra ngữ pháp hoặc gợi ý cách trình bày. Người học khõng được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tâi liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liëm chính học thuật và xử lý theo quy đjnh của nhâ trường.</li></ul><br><p></p><p></p><p></p>",
+      "en": "<p></p><p><i>The subject\nwill be evaluated through 1 major </i><i>assignment</i><i>, laboratory exercises and final exams, according to the\nfollowing percentages:</i></p>\n\n<p></p><ul><li><i>Exercises\nand homework (20%)</i></li><ul><li><i>Done individually</i></li><li><i>Participation\nin practice hours in labs is mandatory. </i></li></ul><p><i></i></p><li><i><i>Assignments</i><i>\n(30%)</i></i></li><ul><li><i><i>Done in groups (2 or 3 students)</i></i></li></ul><p></p><li><i>Final exam\n(50%)</i></li></ul><i>Academic Integrity and use of AI tools:<br><ul><li><i>Students must comply with the university’s academic integrity regulations.</i></li><li><i>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive&nbsp;</i><i>purposes such as finding references, generating ideas, checking grammar, or&nbsp;</i><i>improving presentation. Students are not allowed to submit work that is wholly&nbsp;</i><i>or substantially generated by AI.&nbsp;</i><i>When AI tools are used in assignments, students must clearly indicate the tool&nbsp;</i><i>and how it was used in the references or footnotes.</i></li><li><i>Any misuse of AI for academic dishonesty will be considered a violation of&nbsp;</i><i>academic integrity and will be handled in accordance with the university’s&nbsp;</i><i>regulations.</i></li></ul></i><p></p><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 4405,
+      "ma": "NG_KHM",
+      "ten": {
+        "vi": "Ngành: Khoa học Máy tính (2024)",
+        "en": "Major: Computer Science"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1221,
+      "ma": "002921",
+      "ten": "NGUYỄN LÊ DUY LAI"
+    },
+    {
+      "id": 1386,
+      "ma": "002415",
+      "ten": "NGUYỄN CAO ĐẠT"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 1,
+        "ma": "TN",
+        "text": {
+          "vi": "Trắc nghiệm",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 963,
+      "maBoMon": "PMH",
+      "tenBoMon": {
+        "vi": "Hệ Thống và Mạng Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1386,
+        "maGiangVien": "002415",
+        "tenGiangVien": "NGUYỄN CAO ĐẠT",
+        "emailGiangVien": "dat@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0.67_0.33",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88886,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 88887,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88886",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Exam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối kỳ",
+        "en": "Exam"
+      }
+    },
+    {
+      "id": 88888,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "88886",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thực hành",
+        "en": "Lab"
+      },
+      "noidung": {
+        "vi": "Thực hành",
+        "en": "Lab"
+      }
+    },
+    {
+      "id": 88889,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "88886",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109981,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 145425,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học",
+            "en": "Discuss in class and self-study"
+          },
+          "chuandaura": {
+            "id": 198779,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Thiết kế mạng dự phòng cao",
+              "en": "Design high availability network"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237427,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88889,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 237426,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng quan Quản lý mạng và Mô hình FCAPS [1][2]\n- Định nghĩa quản lý mạng\n- Phân tích 5 chức năng FCAPS\n- Kiến trúc Manager-Agent",
+        "en": "Network Management Overview and FCAPS [1][2]\n- Definition of Network Management\n- Analysis of 5 FCAPS functions\n- Manager-Agent architecture."
+      }
+    },
+    {
+      "id": 109975,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 145419,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab"
+          },
+          "chuandaura": {
+            "id": 198779,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Thiết kế mạng dự phòng cao",
+              "en": "Design high availability network"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237414,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88889,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 237415,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thiết kế dự phòng Lớp 2 (STP, EtherChannel)[1][4]\n- Giao thức STP/RSTP\n- Cơ chế bầu chọn Root Bridge\n- Cấu hình EtherChannel (LACP)",
+        "en": "Layer 2 Redundancy Design (STP, EtherChannel)[1][4]\n- STP/RSTP Protocol\n- Root Bridge Election Mechanism\n- EtherChannel Configuration (LACP)"
+      }
+    },
+    {
+      "id": 109982,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 145426,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class\t"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab"
+          },
+          "chuandaura": {
+            "id": 198779,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Thiết kế mạng dự phòng cao",
+              "en": "Design high availability network"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237428,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88889,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 237429,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thiết kế dự phòng Lớp 3 (HSRP/VRRP)[1][4]\n- Giao thức FHRP (HSRP/VRRP)\n- Cơ chế dự phòng Gateway và chia tải.",
+        "en": "Layer 3 Redundancy Design (HSRP/VRRP)[1][4]\n- FHRP (HSRP/VRRP) Protocol\n- Gateway Redundancy and Load Balancing Mechanism."
+      }
+    },
+    {
+      "id": 109971,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 145416,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class\t"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nLàm bài tập trên lớp",
+            "en": "Discuss in class and self-study\nDo exercises in class"
+          },
+          "chuandaura": {
+            "id": 198780,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Quy hoạch tài nguyên IP và VLAN",
+              "en": "Plan IP and VLAN Resources"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237409,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88889,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 237408,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Quy hoạch IPAM & VLAN nâng cao [1][3]\n- Kỹ thuật VLSM\n- Quy hoạch vùng địa chỉ IP\n- Định tuyến Inter-VLAN",
+        "en": "Advanced IPAM & VLAN Planning [1][3]\n- VLSM Techniques\n- IP Address Area Planning\n- Inter-VLAN Routing"
+      }
+    },
+    {
+      "id": 109976,
+      "stt": 4,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 145420,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Giảng dạy trên lớp"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học",
+            "en": "Discuss in class and self-study"
+          },
+          "chuandaura": {
+            "id": 198776,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Triển khai hệ thống giám sát tập trung",
+              "en": "Deploy Centralized NMS"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237416,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237417,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 88889,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giao thức SNMP và Kiến trúc MIB [1][2][3]\n- Kiến trúc SNMP\n- Cấu trúc cây MIB & OID\n- SNMP Traps ",
+        "en": "SNMP Protocol and MIB Architecture [1][2][3]\n- SNMP Architecture\n- MIB & OID Tree Structure\n- SNMP Traps"
+      }
+    },
+    {
+      "id": 109973,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 145418,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm\n",
+            "en": "Discuss in class and self-study\nPracticing at the lab\n\n"
+          },
+          "chuandaura": {
+            "id": 198777,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích lưu lượng và xử lý sự cố",
+              "en": "Analyze traffic and troubleshooting"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237413,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237412,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích lưu lượng với NetFlow [3][4]\n- Nguyên lý NetFlow\n- Phân tích băng thông ứng dụng\n- Giám sát từ xa RMON",
+        "en": "Traffic Analysis with NetFlow [3][4]\n- NetFlow Principles\n- Application Bandwidth Analysis\n- Remote RMON Monitoring"
+      }
+    },
+    {
+      "id": 109969,
+      "stt": 7,
+      "buoi": "7,8",
+      "chuandaurachitiet": [
+        {
+          "id": 145414,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab\n"
+          },
+          "chuandaura": {
+            "id": 198776,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Triển khai hệ thống giám sát tập trung",
+              "en": "Deploy Centralized NMS"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237407,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237404,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88889,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Triển khai hệ thống giám sát mạng [3][4]\n- Kiến trúc NMS\n- Thiết lập cảnh báo\n- Thiết kế Dashboard",
+        "en": "Network Monitoring System Deployment [3][4]\n- NMS Architecture\n- Alarm Setup\n- Dashboard Design"
+      }
+    },
+    {
+      "id": 109977,
+      "stt": 8,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 145421,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab\n"
+          },
+          "chuandaura": {
+            "id": 198777,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích lưu lượng và xử lý sự cố",
+              "en": "Analyze traffic and troubleshooting"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237419,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237418,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích gói tin với Wireshark (SPAN/RSPAN) [2][3][5]\n- Kỹ thuật SPAN/RSPAN\n- Sử dụng Wireshark chuyên sâu để xử lý sự cố kết nối",
+        "en": "Packet Analysis with Wireshark (SPAN/RSPAN) [2][3][5]\n- SPAN/RSPAN Techniques\n- Advanced Wireshark Troubleshooting"
+      }
+    },
+    {
+      "id": 109978,
+      "stt": 9,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 145422,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab"
+          },
+          "chuandaura": {
+            "id": 198773,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Cải tiến công tác quản trị truy cập và bảo mật thiết bị",
+              "en": "Improve access management and device security"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237421,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237420,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Bảo mật hạ tầng với AAA [3][4]\n- Giao thức RADIUS/TACACS+\n- Phân quyền quản trị viên trên thiết bị",
+        "en": "Infrastructure Security with AAA [3][4]\n- RADIUS/TACACS+ Protocol\n- Device Administrator Permissions"
+      }
+    },
+    {
+      "id": 109970,
+      "stt": 10,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 145415,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab"
+          },
+          "chuandaura": {
+            "id": 198774,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đề xuất tự động hóa mạng",
+              "en": "Propose network automation "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237406,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237405,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Quản lý cấu hình và Sao lưu tự động [3][5]\n- Sao lưu tự động\n- Quản lý phiên bản\n- Quy trình khôi phục thảm họa",
+        "en": "Configuration Management and Automatic Backup [3][5]\n- Automatic Backup\n- Version Management\n- Carpet Recovery Procedure Illustrations"
+      }
+    },
+    {
+      "id": 109972,
+      "stt": 11,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 145417,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab"
+          },
+          "chuandaura": {
+            "id": 198774,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đề xuất tự động hóa mạng",
+              "en": "Propose network automation "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237410,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237411,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tự động hóa với Python [3][5]\n- Thư viện Netmiko\n- Kết nối SSH\n- Script thay đổi cấu hình hàng loạt\n",
+        "en": "Automation with Python [3][5]\n- Netmiko Library\n- SSH Connection\n- Bulk Configuration Change Scripts\n"
+      }
+    },
+    {
+      "id": 109979,
+      "stt": 12,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 145423,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học\nThực hành ở phòng thí nghiệm",
+            "en": "Discuss in class and self-study\nPracticing at the lab"
+          },
+          "chuandaura": {
+            "id": 198774,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đề xuất tự động hóa mạng",
+              "en": "Propose network automation "
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237423,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88888,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thực hành",
+                  "en": "Lab"
+                }
+              }
+            },
+            {
+              "id": 237422,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tự động hóa với Ansible [3][5]\n- Kiến trúc Agentless\n- Tự động hóa VLAN/Routing quy mô lớn",
+        "en": "Automation with Ansible [3][5]\n- Agentless Architecture\n- Large-Scale VLAN/Routing Automation"
+      }
+    },
+    {
+      "id": 109980,
+      "stt": 13,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 145424,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giảng dạy trên lớp",
+            "en": "Teaching in class"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận trên lớp và tự học",
+            "en": "Discuss in class and self-study"
+          },
+          "chuandaura": {
+            "id": 198779,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Thiết kế mạng dự phòng cao",
+              "en": "Design high availability network"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 237425,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88889,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 237424,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88887,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra cuối kỳ",
+                  "en": "Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Quản lý SDN và điện toán đám mây [2][3]\n- Mạng điều khiển bằng phần mềm \n- Quản lý mạng trên Điện toán đám mây",
+        "en": "SDN and Cloud Computing Management [2][3]\n- Software-Controlled Networks\n- Cloud Network Management"
+      }
+    },
+    {
+      "id": 109974,
+      "stt": 14,
+      "buoi": "15",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Ôn tập",
+        "en": "Review"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 198779,
+      "ma": "L.O.1.1",
+      "ten_vi": "Thiết kế mạng dự phòng cao",
+      "ten_en": "Design high availability network",
+      "hddg": [
+        {
+          "id": 88887,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 88889,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 198780,
+      "ma": "L.O.1.2",
+      "ten_vi": "Quy hoạch tài nguyên IP và VLAN",
+      "ten_en": "Plan IP and VLAN Resources",
+      "hddg": [
+        {
+          "id": 88887,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 88889,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 198776,
+      "ma": "L.O.2.1",
+      "ten_vi": "Triển khai hệ thống giám sát tập trung",
+      "ten_en": "Deploy Centralized NMS",
+      "hddg": [
+        {
+          "id": 88888,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        },
+        {
+          "id": 88889,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 198777,
+      "ma": "L.O.2.2",
+      "ten_vi": "Phân tích lưu lượng và xử lý sự cố",
+      "ten_en": "Analyze traffic and troubleshooting",
+      "hddg": [
+        {
+          "id": 88887,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 88888,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        }
+      ]
+    },
+    {
+      "id": 198773,
+      "ma": "L.O.3.1",
+      "ten_vi": "Cải tiến công tác quản trị truy cập và bảo mật thiết bị",
+      "ten_en": "Improve access management and device security",
+      "hddg": [
+        {
+          "id": 88887,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 88888,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        }
+      ]
+    },
+    {
+      "id": 198774,
+      "ma": "L.O.3.2",
+      "ten_vi": "Đề xuất tự động hóa mạng",
+      "ten_en": "Propose network automation ",
+      "hddg": [
+        {
+          "id": 88887,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra cuối kỳ",
+          "ten_en": "Exam"
+        },
+        {
+          "id": 88888,
+          "ma": "A.O.3",
+          "ten_vi": "Thực hành",
+          "ten_en": "Lab"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Quản trị mạng",
+  "tenmonhoc_eng": "Network management",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

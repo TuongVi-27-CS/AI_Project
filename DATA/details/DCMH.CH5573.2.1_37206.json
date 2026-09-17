@@ -1,0 +1,933 @@
+{
+  "ma": "DCMH.CH5573.2.1",
+  "phienban": "2.1",
+  "capnhat": "23/07/2025 14:39",
+  "khoa": {
+    "vi": "Khoa Kỹ Thuật Hóa Học",
+    "en": "Faculty of Chemical Engineering"
+  },
+  "mamonhoc": "CH5573",
+  "ten": "CH5573 - Đồ án quá trình thiết bị và điều khiển",
+  "ten_eng": "CH5573 - Project of unit operation and process control",
+  "hockyapdung": "HK251",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 7,
+      "ma": "DH6",
+      "ten": {
+        "vi": "Đại học chuyên sâu đặc thù",
+        "en": "Undergraduate (Specialized)"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 4,
+      "ma": "DA",
+      "ten": {
+        "vi": "Đồ Án",
+        "en": "Project"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Mục tiêu cơ bản của đồ án này là thiết kế hoặc phân tích một hệ thống thiết bị hoặc quá trình cụ thể và đưa ra&nbsp;đề xuất giải pháp điều khiển vận hành và tối ưu hóa hệ thống. Thực hiện đồ án sinh viên sẽ rèn luyện được kỹ năng thiết kế thiết bị và quá trình công nghệ đối với quá trình sản xuất sản phẩm cụ thể. Hiểu biết rõ về các&nbsp;tiêu chuẩn thiết kế thiết bị và bản vẽ kỹ thuật.<br></p>",
+      "en": "<p>The basic objective of this project is to design or analyze a specific equipment or process system and propose solutions for operating control and system optimization. By completing the project, students will practice the skills of designing equipment and technological processes for the production of specific products. Understand clearly the standards of equipment design and technical drawings.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Thiết kế hoặc phân tích một quá trình sản xuất một ản phẩm cụ thể. Trên cơ sở sản phẩm, nguyên liệu để lựa chọn thiết bị, quy trình công nghệ, xác định chế độ công nghệ thích hợp để vận hành. Đề xuất giải pháp điều khiển vận hành nhằm đạt năng xuất, hiệu suất cao với chi phí thấp và đảm bảo vận hành an toàn. Trình bày kết quả tính toán thiết kế bằng bản vẽ kỹ thuật theo tiêu chuẩn.</p><p>Đồ án được thể hiện dưới hai phần có dạng khác nhau:&nbsp;</p><p>1) Bản thuyết minh: đánh máy 35 - 40 trang<br>2) Bản vẽ kỹ thuật: gồm một số bản, tối thiểu 1 bản A1&nbsp;vẽ sơ đồ công nghệ có điều khiển (P&amp;ID).<br></p>",
+      "en": "<p>Design or analyze a manufacturing process for a specific product. Based on the product and raw materials, select equipment and technological processes, and determine appropriate technological modes for operation. Propose operational control solutions to achieve high productivity and efficiency at low cost and ensure safe operation. Present design calculation results using technical drawings according to standards.<br>The project is presented in two parts with different formats:<br>1) Explanation: typed 35 - 40 pages<br>2) Technical drawings: including several copies, at least 1 A1 copy of a controlled technological diagram (P&amp;ID).<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>[1] Trần, X., Sổ tay quá trình và thiết bị công nghệ hóa chất: cơ sở lý thuyết, phương pháp tính toán, tra cứu số liệu và<br>thiết bị, Hà Nội : Khoa học và kỹ thuật, 2010, Call no. 660.28303 TR-X.\n\n<br></p><p>[2] PERRY, JOHN H., Chemical Engineers' Handbook, New York : McGraw - Hill Book Company, 2018, Call no. 660.03 PE-J</p><p>[3]&nbsp;\n\n<em></em>Nguyển Minh Tuyển, Phạm Văn Thiêm, Đỗ Duy Phi, Phạm Quang Trung, Nguyễn Xuân Nguyên, Lưu Ngọc Vĩnh<em></em>\n\n, Kỹ thuật hóa học, thực phẩm, dược phẩm, môi trường, dầu khí và ứng dụng,Tập 1,&nbsp;Hà Nội: Khoa học và kỹ thuật, 2023.</p><p>[4] Phạm, Văn B., Quá trình và thiết bị trong công nghệ hóa học và thực phẩm, Tp. Hồ Chí Minh : Đại học Quốc gia TP. Hồ Chí Minh, 2015, Call No. 660 P534B 2015<br></p><p><br></p>",
+      "en": "<p></p>\n\n<p>[1] Trần, X., Sổ tay quá trình và thiết bị công nghệ hóa chất: cơ sở lý thuyết, phương pháp tính toán, tra cứu số liệu và<br>thiết bị, Hà Nội : Khoa học và kỹ thuật, 2010, Call no. 660.28303 TR-X.\n\n<br></p><p>[2] PERRY, JOHN H., Chemical Engineers' Handbook, New York : McGraw - Hill Book Company, 2018, Call no. 660.03 PE-J</p><p>[3] \n\n<em></em>Nguyển Minh Tuyển, Phạm Văn Thiêm, Đỗ Duy Phi, Phạm Quang Trung, Nguyễn Xuân Nguyên, Lưu Ngọc Vĩnh<em></em>\n\n, Kỹ thuật hóa học, thực phẩm, dược phẩm, môi trường, dầu khí và ứng dụng,Tập 1, Hà Nội: Khoa học và kỹ thuật, 2023.</p><p>[4] Phạm, Văn B., Quá trình và thiết bị trong công nghệ hóa học và thực phẩm, Tp. Hồ Chí Minh : Đại học Quốc gia TP. Hồ Chí Minh, 2015, Call No. 660 P534B 2015<br></p><p></p>\n\n<p>\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Sinh viên nhận đề tài từ giáo viên hướng dẫn, sinh viên thực hiện theo tiến độ, nội dung, yêu cầu của giáo viên hướng dẫn.</p><p>Trong quá trình thực hiện cần phải thường xuyên báo cáo tiến độ và được giáo viên hướng dẫn xác nhận.</p><p>Trước khi thi cuối kỳ, sinh viên cần hoàn thiện và nộp bản thuyết minh và các bản vẽ đúng quy định.</p>",
+      "en": "<p>Students receive topics from their supervisors, and students carry out the project according to the progress, content, and requirements of their supervisors.<br>During the implementation process, they must regularly report on their progress and receive confirmation from their supervisors.<br>Before the final exam, students must complete and submit the required explanations and drawings.<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 4685,
+      "ma": "NG_HC1",
+      "ten": {
+        "vi": "Chương trình chuyên sâu đặc thù cấp bằng Kỹ sư - Ngành Kỹ thuật Hoá học",
+        "en": "Advanced Specialized Training Program (Engineer) - Chemical Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1695,
+      "ma": "003578",
+      "ten": "BÙI NGỌC PHA"
+    },
+    {
+      "id": 424,
+      "ma": "002349",
+      "ten": "TRẦN TẤN VIỆT"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 3,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGio_HocTap_LamViec": 135,
+    "lyThuyet": 0,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 135,
+    "tuHoc": 0,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon_TieuLuan": 100,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 0,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1003,
+      "maBoMon": "MTB",
+      "tenBoMon": {
+        "vi": "Qúa Trình - Thiết Bị"
+      },
+      "maKhoa": "HC",
+      "tenKhoa": {
+        "vi": "Khoa Kỹ Thuật Hóa Học",
+        "en": "Faculty of Chemical Engineering"
+      },
+      "vanPhong": "Bộ môn Quá trình & Thiết bị/Khoa Kỹ thuật Hóa học 110B2",
+      "dienThoai": "5680"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1695,
+        "maGiangVien": "003578",
+        "tenGiangVien": "BÙI NGỌC PHA",
+        "emailGiangVien": "buingocpha@hcmut.edu.vn"
+      },
+      {
+        "id": 424,
+        "maGiangVien": "002349",
+        "tenGiangVien": "TRẦN TẤN VIỆT",
+        "emailGiangVien": "trantanviet@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "pbl3",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 60010,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Đánh giá quá trình và cuối kỳ",
+        "en": "Process anh filnal assessment activities"
+      },
+      "noidung": {
+        "vi": "Đánh giá quá trình và cuối kỳ",
+        "en": "Process anh filnal assessment activities"
+      }
+    },
+    {
+      "id": 60201,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "60010",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá quá trình",
+        "en": "Process assessment activities"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá quá trình",
+        "en": "Process assessment activities"
+      }
+    },
+    {
+      "id": 60202,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "60010",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Finally Exam"
+      },
+      "noidung": {
+        "vi": "Bảo vệ trước hội đồng",
+        "en": "Finally Exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 70209,
+      "stt": 1,
+      "buoi": "1/ Chương 1",
+      "chuandaurachitiet": [
+        {
+          "id": 87603,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trao đổi",
+            "en": "Discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện yêu cầu theo đề cương",
+            "en": "Carry out the requirements according to the outline"
+          },
+          "chuandaura": {
+            "id": 76982,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Thiết kế được một hệ thống quy trình công nghệ hóa học, sinh học, thực phẩm\t",
+              "en": "Design a chemical, biological or food technology process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 133820,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 60201,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động đánh giá quá trình",
+                  "en": "Process assessment activities"
+                }
+              }
+            },
+            {
+              "id": 133821,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 60202,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Finally Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Tổng quan tài liệu\n1. Tổng quan công nghệ sản xuất sản phẩm được chọn\nChế độ công nghệ, các thiết bị được sử dụng...\n2. Tổng quan hệ thống điều khiển và tự động hóa\nCơ sở lý thuyết của hệ thống điều khiển tự động (PID, điều khiển feedforward, feedback, etc.).\nỨng dụng điều khiển trong hệ thống cụ thể.",
+        "en": "Chapter 1: Literature Review\n1. Overview of the selected product manufacturing technology\nTechnology mode, equipment used...\n2. Overview of control and automation systems\nTheoretical basis of automatic control systems (PID, feedforward control, feedback, etc.).\nControl applications in specific systems."
+      }
+    },
+    {
+      "id": 70211,
+      "stt": 2,
+      "buoi": "2/ Chương 2",
+      "chuandaurachitiet": [
+        {
+          "id": 87605,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trao đổi",
+            "en": "Discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện yêu cầu theo đề cương",
+            "en": "Carry out the requirements according to the outline"
+          },
+          "chuandaura": {
+            "id": 76982,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Thiết kế được một hệ thống quy trình công nghệ hóa học, sinh học, thực phẩm\t",
+              "en": "Design a chemical, biological or food technology process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 133824,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 60201,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động đánh giá quá trình",
+                  "en": "Process assessment activities"
+                }
+              }
+            },
+            {
+              "id": 133825,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 60202,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Finally Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Thiết kế/ phân tích hệ thống quy trình công nghệ\nMô tả hệ thống hoặc quá trình lựa chọn\nSơ đồ công nghệ và giải thích từng bước.\nCác giả định trong tính toán.",
+        "en": "Chapter 2: Technological Process Design/ system analysis \nDescription of the system or process selected\nTechnology diagram and step-by-step explanation.\nAssumptions in the calculation."
+      }
+    },
+    {
+      "id": 70212,
+      "stt": 3,
+      "buoi": "3/ Chương 3",
+      "chuandaurachitiet": [
+        {
+          "id": 87606,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trao đổi\n\n",
+            "en": "Discussing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện yêu cầu theo đề cương\n",
+            "en": "Carry out the requirements according to the outline"
+          },
+          "chuandaura": {
+            "id": 76982,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Thiết kế được một hệ thống quy trình công nghệ hóa học, sinh học, thực phẩm\t",
+              "en": "Design a chemical, biological or food technology process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 133827,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 60201,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động đánh giá quá trình",
+                  "en": "Process assessment activities"
+                }
+              }
+            },
+            {
+              "id": 133826,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 60202,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Finally Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Tính cân bằng vật chất ăng lượng\nXây dựng các phương trình cân bằng vật chất và năng lượng",
+        "en": "Chapter 3: Mass and Energy Balances\nConstructing material and energy balance equations"
+      }
+    },
+    {
+      "id": 70208,
+      "stt": 4,
+      "buoi": "4/ Chương 4",
+      "chuandaurachitiet": [
+        {
+          "id": 87602,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trao đổi\n\n",
+            "en": "Discussing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện yêu cầu theo đề cương\n",
+            "en": "Carry out the requirements according to the outline"
+          },
+          "chuandaura": {
+            "id": 76982,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Thiết kế được một hệ thống quy trình công nghệ hóa học, sinh học, thực phẩm\t",
+              "en": "Design a chemical, biological or food technology process"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 133819,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 60201,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động đánh giá quá trình",
+                  "en": "Process assessment activities"
+                }
+              }
+            },
+            {
+              "id": 133818,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 60202,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Finally Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Tính và chọn thiết bị công nghệ cần thiết\nTính toán các thông số chính (kích thước thiết bị, công suất, năng suất).",
+        "en": "Chapter 4: Calculating and selecting the equipment\nCalculate the main parameters (equipment size, capacity, productivity)."
+      }
+    },
+    {
+      "id": 70210,
+      "stt": 5,
+      "buoi": "5/ Chương 5",
+      "chuandaurachitiet": [
+        {
+          "id": 87604,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trao đổi\n\n",
+            "en": "Discussing\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện yêu cầu theo đề cương\n",
+            "en": "Carry out the requirements according to the outline"
+          },
+          "chuandaura": {
+            "id": 76983,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Thiết kế được hệ thống điều khiển phù hợp dựa trên các ràng buộc cho trước nhằm đảm bảo tính khả thi kinh tế và tính an toàn\t",
+              "en": "Design a suitable control system based on given constraints to ensure economic feasibility and safety"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 133822,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 60201,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động đánh giá quá trình",
+                  "en": "Process assessment activities"
+                }
+              }
+            },
+            {
+              "id": 133823,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 60202,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Finally Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Hệ thống điều khiển và tự động hóa.\nXây dựng giải pháp điều khiển đảm bảo vận hành an toàn và ổn định.\nSử dụng phần mềm (ASPEN, MATLAB, hay các phần mềm mô phỏng khác) để kiểm chứng kết quả.\nSơ đồ P&ID (Piping and Instrumentation Diagram) và các thông số điều khiển chính.\nPhân tích và tối ưu hóa điều khiển, đề xuất các cải tiến (nếu có).",
+        "en": "Chapter 5: Control and Automation Systems.\nBuilding control solutions to ensure safe and stable operation.\nUsing software (ASPEN, MATLAB, or other simulation software) to verify the results.\nP&ID (Piping and Instrumentation Diagram) and main control parameters.\nAnalyze and optimize control, propose improvements (if any)."
+      }
+    },
+    {
+      "id": 70207,
+      "stt": 6,
+      "buoi": "6/ Chương 6",
+      "chuandaurachitiet": [
+        {
+          "id": 87601,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trao đổi",
+            "en": "Discussing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hiện yêu cầu theo đề cương\n",
+            "en": "Carry out the requirements according to the outline"
+          },
+          "chuandaura": {
+            "id": 76984,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Đánh giá và lựa chọn được các giải pháp kỹ thuật, các thiết bị công nghệ và thiết bị điều khiển phù hợp\t",
+              "en": "Evaluate and select appropriate technical solutions, technological equipment and control devices"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 133816,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 60201,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Hoạt động đánh giá quá trình",
+                  "en": "Process assessment activities"
+                }
+              }
+            },
+            {
+              "id": 133817,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 60202,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Finally Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Kết luận và kiến nghị\nĐánh giá kết quả đạt được so với mục tiêu ban đầu.\nNhững điểm nổi bật trong nghiên cứu.\nCác vấn đề chưa giải quyết được.\nHướng nghiên cứu tiếp theo.",
+        "en": "Chapter 6: Conclusion and Recommendations\nEvaluation of results achieved compared to initial objectives.\nResearch highlights.\nUnresolved issues.\nDirections for further research."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 76982,
+      "ma": "L.O.1",
+      "ten_vi": "Thiết kế được một hệ thống quy trình công nghệ hóa học, sinh học, thực phẩm",
+      "ten_en": "Design a chemical, biological or food technology process",
+      "hddg": [
+        {
+          "id": 60201,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động đánh giá quá trình",
+          "ten_en": "Process assessment activities"
+        },
+        {
+          "id": 60202,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Finally Exam"
+        }
+      ]
+    },
+    {
+      "id": 76983,
+      "ma": "L.O.2",
+      "ten_vi": "Thiết kế được hệ thống điều khiển phù hợp dựa trên các ràng buộc cho trước nhằm đảm bảo tính khả thi kinh tế và tính an toàn",
+      "ten_en": "Design a suitable control system based on given constraints to ensure economic feasibility and safety",
+      "hddg": [
+        {
+          "id": 60201,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động đánh giá quá trình",
+          "ten_en": "Process assessment activities"
+        },
+        {
+          "id": 60202,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Finally Exam"
+        }
+      ]
+    },
+    {
+      "id": 76984,
+      "ma": "L.O.3",
+      "ten_vi": "Đánh giá và lựa chọn được các giải pháp kỹ thuật, các thiết bị công nghệ và thiết bị điều khiển phù hợp",
+      "ten_en": "Evaluate and select appropriate technical solutions, technological equipment and control devices",
+      "hddg": [
+        {
+          "id": 60201,
+          "ma": "A.O.1",
+          "ten_vi": "Hoạt động đánh giá quá trình",
+          "ten_en": "Process assessment activities"
+        },
+        {
+          "id": 60202,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Finally Exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Đồ án quá trình thiết bị và điều khiển",
+  "tenmonhoc_eng": "Project of unit operation and process control",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    }
+  ]
+}

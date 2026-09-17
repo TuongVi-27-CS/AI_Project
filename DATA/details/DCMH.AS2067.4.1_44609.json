@@ -1,0 +1,1328 @@
+{
+  "ma": "DCMH.AS2067.4.1",
+  "phienban": "2.1",
+  "capnhat": "23/02/2026 14:28",
+  "khoa": {
+    "vi": "Khoa Khoa Học Ứng Dụng",
+    "en": "Faculty of Applied Science"
+  },
+  "mamonhoc": "AS2067",
+  "ten": "AS2067 - Giải tích ma trận và topo tính toán",
+  "ten_eng": "AS2067 - Matrix Analysis and Computational Topology",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p>Môn học Giải tích ma trận và topo tính toán nhằm cung cấp cho sinh viên các phân tích quan trọng của ma trận và ứng dụng các phân tích này trong Khoa học dữ liệu, bên cạnh đó môn học còn cung cấp các khái niệm cơ bản của topo tính toán và các ứng dụng liên quan.&nbsp; Đồng thời trang bị cho sinh viên khả năng nhận biết, áp dụng và giải quyết các vấn đề liên quan đến tính toán số. Sinh viên được\nphát triển kỹ năng thực hành và khả năng làm việc nhóm trong việc sử dụng các phần mềm lập trình để giải quyết các bài toán thực\ntế.\n</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n<br><p></p>",
+      "en": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p>The course provides students with basic knowledge about matrix analysis and computational topology. Besides, the course\nequips the students with the ability to recognize, apply and solve problems involving numerical computation problems. Finally, the\nstudents develop their skills in using a programing language and the ability to work in groups to solve given practical problems.\n</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p>Những nội dung sau đây sẽ được giảng dạy và thảo luận trong môn học:&nbsp;</p><p>  1/ Chuẩn của vécto, chuẩn của ma trận, số điều kiện<br></p><p>  2/ Các phân tích ma trận: phân tích LU, phân tích Cholesky, phân tích QR, phân tích ma trận khối, phân tích SVD. Các ứng dụng của những phân tích này<br></p><p>&nbsp; &nbsp; &nbsp; &nbsp;3/ Phân tích PCA, phân tích POD và các ứng dụng</p><p>  4/ Phân tích Tenso và các ứng dụng<br></p><p>  5/ Topo tính toán: homology đơn giản, homology bền vững và các ứng dụng trong khoa học dữ liệu<br></p><br></div></div></div></div><p></p>",
+      "en": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p>The following topics will be presented and discussed in this course:&nbsp;</p><p>  1/ vector norm, matrix norm and conditional number<br></p><p>  2/ Matrix decompositions: LU \n\ndecomposition\n\n, Cholesky \n\ndecomposition\n\n, QR \n\ndecomposition\n\n,Block matrix decomposition, SVD \n\ndecomposition\n\n. Applications of these decompositions<br></p><p>&nbsp; &nbsp; &nbsp; &nbsp;3/ Principle component analysis, proper orthogonal decomposition and applications</p><p>  4/ Tensor decomposition and applications in data analysis<br></p><p>  5/ Computational topology: Simplicial homology, persistent homology, applications in data science<br></p>\n\n<br></div></div></div></div><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p>Tài liệu học tập bao gồm slide bài giảng và video sẽ được cập nhật lên trang BKEL (<a target=\"_blank\" rel=\"nofollow\" href=\"http://e-learning.hcmut.edu.vn/)\" title=\"Link: http://e-learning.hcmut.edu.vn/)\">http://e-learning.hcmut.edu.vn/)</a>. Bên cạnh đó,\nsinh viên có thể tự học, tìm hiểu sâu hơn thông qua các tài liệu dưới đây:&nbsp;</p><p></p>\n\n<p>[1] \n\nMeyer, C. D. (2023). <em>Matrix Analysis and Applied Linear Algebra</em> (2nd ed.). Society for Industrial and Applied Mathematics (SIAM) \n\n</p><div><p>[2] \n\nPanagiotis Symeonidis, Andreas Zioupos , (2016).&nbsp;﻿&nbsp;Matrix and Tensor Factorization Techniques for recommendation systems, Springer</p><p>[3] Dan A. Simovici, Chabane Djeraba, (2014). ﻿Mathematical tools for data mining, Springer</p><p>[4] James F. Peters. ﻿(2020). Computational Geometry, Topology and Physics of Digital Images with Applications. Springer﻿</p></div>\n\n﻿<p></p><div>\n\n<p></p></div></div></div></div></div><p></p>",
+      "en": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p>Learning materials including lecture notes and video can be downloaded from e-learning webpage ( <a target=\"_blank\" rel=\"nofollow\" href=\"http://e-learning.hcmut.edu.vn/\" title=\"Link: http://e-learning.hcmut.edu.vn/\">http://e-learning.hcmut.edu.vn/</a> ).\nBesides, students can self-study and find deeper knowledge from the following reference books:\n</p>\n\t\t\t\t\t\t<p></p>\n\n<p>\n\n<p>[1] \n\nMeyer, C. D. (2023). <em>Matrix Analysis and Applied Linear Algebra</em> (2nd ed.). Society for Industrial and Applied Mathematics (SIAM) \n\n</p><div><p>[2] \n\nPanagiotis Symeonidis, Andreas Zioupos , (2016). &nbsp;Matrix and Tensor Factorization Techniques for recommendation systems, Springer</p><p>[3] Dan A. Simovici, Chabane Djeraba, (2014). Mathematical tools for data mining, Springer</p><p>[4] James F. Peters. (2020). Computational Geometry, Topology and Physics of Digital Images with Applications. Springer</p></div>\n\n﻿<br></p></div></div></div></div><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p></p><ul><li>Sinh viên cần xem video và đọc bài giảng trước giờ lên lớp.</li><li>Làm đầy đủ các bài Quiz trực tuyến trên BK-Elearning (hoặc myopenmath.com).&nbsp;</li><li>Tham gia ít nhất 70% giờ lên lớp ( được dùng để đánh giá chuyên cần).</li></ul><p></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n<br><p></p>",
+      "en": "<p>\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t</p><div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<p></p><ul><li>Students must prepare (view the video and read the lecture notes) before attending the class.&nbsp;</li><li>Attend at least 70% duration in class.</li><li>Do all the online quiz in BK-E-learning (or myopenmath.com).</li></ul><p></p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 3505,
+      "ma": "NG_KDL",
+      "ten": {
+        "vi": "Khoa học dữ liệu",
+        "en": "Data Science"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1662,
+      "ma": "003556",
+      "ten": "Đậu Thế Phiệt"
+    },
+    {
+      "id": 1426,
+      "ma": "003262",
+      "ten": "Hoàng Hải Hà"
+    },
+    {
+      "id": 1431,
+      "ma": "003537",
+      "ten": "Phùng Trọng Thực"
+    },
+    {
+      "id": 1423,
+      "ma": "002571",
+      "ten": "ĐẶNG VĂN VINH"
+    },
+    {
+      "id": 1422,
+      "ma": "002288",
+      "ten": "NGUYỄN TIẾN DŨNG"
+    },
+    {
+      "id": 1427,
+      "ma": "003264",
+      "ten": "LÊ XUÂN ĐẠI"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 152,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 21,
+        "ma": "TN2",
+        "text": {
+          "vi": "Trắc nghiệm (chấm máy)",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 1,
+        "ma": "50",
+        "thoigian": 50,
+        "text": {
+          "vi": "50 phút",
+          "en": "50 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 21,
+        "ma": "TN2",
+        "text": {
+          "vi": "Trắc nghiệm (chấm máy)",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "moTa": {
+      "baiTap": false,
+      "baiTapLon": true,
+      "kiemTra": true,
+      "thiNghiem": false,
+      "thucHanh": false,
+      "doAn": false,
+      "luanVan": false,
+      "thucTap": false
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 30,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 30,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1080,
+      "maBoMon": "TUD",
+      "tenBoMon": {
+        "vi": "Toán ứng Dụng"
+      },
+      "maKhoa": "UD",
+      "tenKhoa": {
+        "vi": "Khoa Khoa Học Ứng Dụng",
+        "en": "Faculty of Applied Science"
+      },
+      "vanPhong": "Văn phòng bộ môn Toán Ứng dụng, 104B4",
+      "dienThoai": "0909992149"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1423,
+        "maGiangVien": "002571",
+        "tenGiangVien": "ĐẶNG VĂN VINH",
+        "emailGiangVien": "dangvvinh@hcmut.edu.vn"
+      },
+      {
+        "id": 1662,
+        "maGiangVien": "003556",
+        "tenGiangVien": "ĐẬU THẾ PHIỆT",
+        "emailGiangVien": "dauthephiet@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "HT",
+      "tenloaidieukien": {
+        "vi": "Học trước",
+        "en": "Recommended-Courses"
+      },
+      "tenmonhoc": {
+        "vi": "MT1007 - Đại số Tuyến tính",
+        "en": "MT1007 - Linear Algebra"
+      },
+      "tenmonhoc_only": {
+        "vi": "Đại số Tuyến tính",
+        "en": "Linear Algebra"
+      },
+      "mamonhoc": "MT1007"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 76243,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 76244,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "76243",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra giữa kỳ",
+        "en": "Mid-term Test"
+      },
+      "noidung": {
+        "vi": "Sinh viên tham gia thi giữa kỳ.",
+        "en": "Students take a mid-term test."
+      }
+    },
+    {
+      "id": 76245,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "76243",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final Exam"
+      },
+      "noidung": {
+        "vi": "Sinh viên tham gia thi cuối kỳ tập trung.",
+        "en": "Students take the final exam."
+      }
+    },
+    {
+      "id": 76246,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "76243",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Exercise"
+      },
+      "noidung": {
+        "vi": "Sinh viên làm các bài tập được giao về nhà.",
+        "en": "Students do given homework."
+      }
+    },
+    {
+      "id": 76247,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "76243",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Project"
+      },
+      "noidung": {
+        "vi": "Sinh viên tham gia làm bài tập lớn theo nhóm và đề tài được phân.",
+        "en": "Students work in groups for the given projects."
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 93053,
+      "stt": 1,
+      "buoi": "1,2,3,4",
+      "chuandaurachitiet": [
+        {
+          "id": 119445,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1/ Giới thiệu môn học, giáo trình,  phương thức đánh giá (bài tập lớn, kiểm giữa kỳ, thi cuối kỳ);\n2/ Trình bày phân tích A = LU. Điều kiện để có phân tích LU. Áp dụng phân tích LU để giải hệ AX=b\n3/ Trình bày phân tích cholesky. \n4/ Trình bày phân tích QR.\n5/ Trình bày phân tích ma trận khối.\n6/ Trình bày phân tích SVD.\n7/ Trình bày chi tiết một trong các ứng dụng của phân tích ma trận: 1/ Ứng dụng để giảm chiều dữ liệu, 2/ Ứng dụng khử nhiễu, 3/ Ứng dụng trong nhận diện, 4/ Ứng dụng trong nén dữ liệu, 5/ Ứng dụng trong hệ thống gợi ý",
+            "en": "1/ Introduce the course, syllabus, and evaluation methods (assignments, mid-term test, final exam).\n2/ Present LU decomposition. Conditions and application in solving linear system of equations\n3/ Describe Cholesky decomposition\n4/ Describe QR decomposition\n5/ Desribe Block matrix decomposition\n5/ Present SVD decomposition\n6/ Present in detail one of the following applications of matrix decomposition in data science: 1/ Dimensionality reduction, 2/ Noise reduction, 3/ Image recognition, 4/ Data compression, 5/ Recognition system"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị bài trước giờ lên lớp\n- Nghe giảng và hoạt động nhóm theo yêu cầu của giảng viên.",
+            "en": " - Preparing before the class.\n- Listening the lecture and working in groups to solve given exercises."
+          },
+          "chuandaura": {
+            "id": 190632,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức giải tích ma trận và topo tính toán cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of matrix analysis and computational topology as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191501,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76244,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Kiểm tra giữa kỳ",
+                  "en": "Mid-term Test"
+                }
+              }
+            },
+            {
+              "id": 191498,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76245,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            },
+            {
+              "id": 191499,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 76246,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 191500,
+              "stt": 4,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 1: Các phân tích ma trận\n1.1: Phương pháp phân tích LU.\n1.2: Phân tích Choleski\n1.3: Phân tích QR\n1.4: Phân tích ma trận khối\n1.5: Phân tích SVD\n1.6: Ứng dụng",
+        "en": "Chapter 1: System of Linear Equations \n1.1: LU decomposition. \n1.2: Cholesky decomposition\n1.3: QR decomposition\n1.4: Block matrix decomposition\n1.5: SVD decomposition\n1.6: Applications"
+      }
+    },
+    {
+      "id": 93049,
+      "stt": 2,
+      "buoi": "3_BTL",
+      "chuandaurachitiet": [
+        {
+          "id": 119442,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên giải bài tập\nHướng dẫn sinh viên làm bài tập lớn",
+            "en": "Guide to do exercises\nGuide to do the project"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các bài tập và chuẩn bị bài tập lớn",
+            "en": "Solve exercises and prepare for the project"
+          },
+          "chuandaura": {
+            "id": 190634,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191491,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76246,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 191492,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giải bài tập. Phân nhóm và giao đề tài bài tập lớn và hướng dẫn làm bài tập lớn.",
+        "en": "Do exercises and guide to do project"
+      }
+    },
+    {
+      "id": 93054,
+      "stt": 3,
+      "buoi": "5,6",
+      "chuandaurachitiet": [
+        {
+          "id": 119446,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1/ Nêu cơ sở lý thuyết của phân tích PCA\n2/ Trình bày các bước chính để phân tích PCA\n3/ Nêu cơ sở lý thuyết của phân tích POD\n4/ Trình bày các bước chính để phân tích POD\n5/ Trình bày chi tiết một trong các ứng dụng: 1/ Giảm chiều dữ liệu, 2/ Khử nhiễu, 3/ Nhận diện, 4/ Nén dữ liệu, 5/ Hệ thống gợi ý, 6/ Trực quan hoá dữ liệu, 7/ Trích chọn thuộc tính, 8/ Nhận dạng và phân loại mẫu",
+            "en": "1/ Present theory of principle component analysis\n2/ Give main steps for PCA \n3/ Present theory of proper orthogonal decomposition\n4/ Establish main steps for POD\n5/ Present in detail one of the following applications: 1/ Dimensionality reduction, 2/ Denoising, 3/ Recognition, 4/ Data compression, 5/ Recommendation system, 6/ Data visualization, 7/ Feature extraction, 8/ Pattern Recognition and classification"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị bài trước giờ lên lớp\n- Nghe giảng và hoạt động nhóm theo yêu cầu của giảng viên.\n- Làm bài tập về nhà.",
+            "en": "- Preparing before the class.\n- Listening the lecture and working in groups to solve given exercises.\n- Doing homework. "
+          },
+          "chuandaura": {
+            "id": 190630,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức giải tích ma trận và topo tính toán.",
+              "en": "Be able to self study and enhance new knowledge of matrix analysis and computational topology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191503,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76245,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            },
+            {
+              "id": 191502,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76246,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 191504,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Phân tích PCA và phân tích POD\n2.1: Phân tích PCA\n2.2: Phân tích POD.\n2.3: Ứng dụng",
+        "en": "Chapter 2: Principle component analysis and Proper orthogonal decomposition \n2.1: Principle component analysis\n2.2: Proper orthogonal decomposition \n2.3: Applications"
+      }
+    },
+    {
+      "id": 93055,
+      "stt": 4,
+      "buoi": "6_BTL",
+      "chuandaurachitiet": [
+        {
+          "id": 119447,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên giải bài tập\nHướng dẫn sinh viên làm bài tập lớn",
+            "en": "Guide to do exercises\nGuide to do the project"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các bài tập và chuẩn bị bài tập lớn",
+            "en": "Solve exercises and prepare for the project"
+          },
+          "chuandaura": {
+            "id": 190634,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191505,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 191506,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76246,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn thi giữa kỳ và hướng dẫn bài tập lớn. Kiểm tra tiến độ thực hiện bài tập lớn của từng nhóm",
+        "en": "Do exercises and guide to project"
+      }
+    },
+    {
+      "id": 93052,
+      "stt": 5,
+      "buoi": "7,8",
+      "chuandaurachitiet": [
+        {
+          "id": 119444,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1/ Lý thuyết và các bước phân tích Tenxơ \n2/ Phân tích CP và phân tích Tucker\n3/ Trình bày chi tiết một trong các ứng dụng của phân tích Tenxơ trong khoa hocj dữ liệu: Phân tích dữ liệu đa chiều; Nén hình ảnh và video; Hệ thống gợi ý; Phân tích dữ liệu gen; Phân tích mạng xã hội",
+            "en": "1/ Present theory of Tenso and computation\n2/ Introduce CP decomposition, Tucker decomposition\n3/ Present in detail one of the following applications in data science:Multi-way data analysis; Image and video compression; Recommender systems; Genomics data analysis; Social network analysis"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị bài trước giờ lên lớp - Nghe giảng và hoạt động nhóm theo yêu cầu của giảng viên. - Làm bài tập về nhà. ",
+            "en": "- Preparing before the class. \n- Listening the lecture and working in groups to solve given exercises. \n- Doing homework. "
+          },
+          "chuandaura": {
+            "id": 190636,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Trình bày được những khái niệm cơ bản về giải tích ma trận và topo tính toán.",
+              "en": "Be able to demonstrate basic concepts of matrix analysis and computational topology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191497,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76245,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            },
+            {
+              "id": 191495,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76246,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            },
+            {
+              "id": 191496,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Phân tích Tensor\n3.1: Phân tích Tensor\n3.2: Ứng dụng",
+        "en": "Chapter 3: Tensor Decomposion\n3.1: Tensor decomposition\n3.2: Applications"
+      }
+    },
+    {
+      "id": 93056,
+      "stt": 6,
+      "buoi": "10_BTL",
+      "chuandaurachitiet": [
+        {
+          "id": 119448,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn sinh viên giải bài tập\nHướng dẫn sinh viên làm bài tập lớn",
+            "en": "Guide to do exercises\nInstructing students to present the report and evaluate the results."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Giải các bài tập và chuẩn bị bài tập lớn",
+            "en": "Solve exercises and prepare for the project"
+          },
+          "chuandaura": {
+            "id": 190634,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+              "en": "Be able to perform teamwork skills, management skills, and presentation skills."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191507,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            },
+            {
+              "id": 191508,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76246,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Exercise"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giải bài tập và hướng dẫn bài tập lớn. Kiểm tra tiến độ thực hiện bài tập lớn. Yêu cầu: xong phần lý thuyết",
+        "en": "Do exercises and guide to project"
+      }
+    },
+    {
+      "id": 93050,
+      "stt": 7,
+      "buoi": "9,10",
+      "chuandaurachitiet": [
+        {
+          "id": 119443,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1/ Giới thiệu về các khái niệm cơ bản của topo tính toán\n5/ Trình bày chi tiết một ứng dụng của topo tính toán trong khoa học dữ liệu",
+            "en": "1/ Introduce basis concept of computational topology\n5/ Present in detail one application of computational topology in data science"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị bài trước giờ lên lớp\n- Nghe giảng và hoạt động nhóm theo yêu cầu của giảng viên.",
+            "en": "- Preparing before the class.\n- Listening the lecture and working in groups to solve given exercises."
+          },
+          "chuandaura": {
+            "id": 190632,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức giải tích ma trận và topo tính toán cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of matrix analysis and computational topology as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191493,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76245,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            },
+            {
+              "id": 191494,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4. Topo tính toán\n4.1: Các khái niệm cơ bản\n4.2: Ứng dụng của topo tính toán trong khoa học dữ liệu",
+        "en": "Chapter 4. Computational topology\n4.1: Basis concept\n4.2: Applications of computational topology in data science"
+      }
+    },
+    {
+      "id": 93048,
+      "stt": 8,
+      "buoi": "11,12",
+      "chuandaurachitiet": [
+        {
+          "id": 119441,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1/ Giới thiệu các khái niệm cơ bản của Homology đơn giản: định nghĩa, ví dụ, tính toán, nhóm Homology\n2/ Trình bày chi tiết một ứng dụng của Homology đơn giản trong khoa học dữ liệu: 1/ Phân tích hình dạng,  2/ Trích xuất thuộc tính trong dữ liệu đa chiều, 3/ Nhận diện vật thể 3D",
+            "en": "1/ Present basis concept of simplicial homology: definition and computation, Homology groups\n2/ Present in detail one of the following applications in data science: 1/ Shape analysis, 2/ Feature extraction in high-dimensional data, 3/ 3D object recognition"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị bài trước giờ lên lớp - Nghe giảng và hoạt động nhóm theo yêu cầu của giảng viên. - Làm bài tập về nhà. ",
+            "en": "- Preparing before the class. \n- Listening the lecture and working in groups to solve given exercises. \n- Doing homework. "
+          },
+          "chuandaura": {
+            "id": 190630,
+            "ma": "L.O.4",
+            "ten": {
+              "vi": "Có khả năng tự cập nhật kiến thức giải tích ma trận và topo tính toán.",
+              "en": "Be able to self study and enhance new knowledge of matrix analysis and computational topology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191489,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76245,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            },
+            {
+              "id": 191490,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5.  Homology đơn giản\n5.1. Định nghĩa và tính toán\n5.2. Nhóm homology\n5.3. Ứng dụng trong Khoa học dữ liệu",
+        "en": "Chapter 5. Simplicial homology\n5.1. Definition and computation\n5.2. Homology group\n5.3. Applications in data science"
+      }
+    },
+    {
+      "id": 93057,
+      "stt": 9,
+      "buoi": "13,14",
+      "chuandaurachitiet": [
+        {
+          "id": 119449,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "1/Nêu các khái niệm cơ bản\n2/ Trình bày các sơ đồ lọc và lưu trữ\n3/Trình bày chi tiết một trong các ứng dụng trong khoa học dữ liệu: 1/ Phân tích dữ liệu tôpô,  2/ Phân cụm và phân loại, 3/ Phân tích chuỗi thời gian,  4/ Xử lý hình ảnh",
+            "en": "1/ Give concept and significance\n2/ Present filtrations and persistence diagrams\n3/ Present in detail one of the following applications in data science: 1/ Topological data analysis (TDA), 2/ Clustering and classification, 3/ Time series analysis, 4/ Image processing"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Chuẩn bị bài trước giờ lên lớp - Nghe giảng và hoạt động nhóm theo yêu cầu của giảng viên. - Làm bài tập về nhà. ",
+            "en": "- Preparing before the class. \n- Listening the lecture and working in groups to solve given exercises. \n- Doing homework. "
+          },
+          "chuandaura": {
+            "id": 190632,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức giải tích ma trận và topo tính toán cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+              "en": "Be able to analyze, select, and apply knowledge of matrix analysis and computational topology as well as programming skills to solve practical problems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191510,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76245,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            },
+            {
+              "id": 191509,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 76247,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6. Homology bền vững\n6.1. Các khái niệm cơ bản\n6.2. Các sơ đồ \n6.3. Ứng dụng trong khoa học dữ liệu:",
+        "en": "Chapter 6. Persistent homology\n6.1. Concept and significance\n6.2. Filtrations and persistence diagrams\n6.3. Applications in data science"
+      }
+    },
+    {
+      "id": 93051,
+      "stt": 10,
+      "buoi": "15_BTL",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Sinh viên báo cáo bài tập lớn.\n",
+        "en": "Students present the report."
+      }
+    },
+    {
+      "id": 93047,
+      "stt": 11,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 119440,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Ôn thi học kỳ",
+            "en": "Revision"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Ôn thi học kỳ",
+            "en": "Revision"
+          },
+          "chuandaura": {
+            "id": 190636,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "Trình bày được những khái niệm cơ bản về giải tích ma trận và topo tính toán.",
+              "en": "Be able to demonstrate basic concepts of matrix analysis and computational topology."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 191488,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 76245,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final Exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn thi học kỳ",
+        "en": "Revision"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 190636,
+      "ma": "L.O.1",
+      "ten_vi": "Trình bày được những khái niệm cơ bản về giải tích ma trận và topo tính toán.",
+      "ten_en": "Be able to demonstrate basic concepts of matrix analysis and computational topology.",
+      "hddg": [
+        {
+          "id": 76245,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        },
+        {
+          "id": 76246,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 76247,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 190632,
+      "ma": "L.O.2",
+      "ten_vi": "Có khả năng phân tích, lựa chọn và áp dụng kiến thức giải tích ma trận và topo tính toán cũng như kỹ năng lập trình để giải quyết các bài toán thực tế.",
+      "ten_en": "Be able to analyze, select, and apply knowledge of matrix analysis and computational topology as well as programming skills to solve practical problems.",
+      "hddg": [
+        {
+          "id": 76244,
+          "ma": "A.O.1",
+          "ten_vi": "Kiểm tra giữa kỳ",
+          "ten_en": "Mid-term Test"
+        },
+        {
+          "id": 76245,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        },
+        {
+          "id": 76246,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 76247,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 190634,
+      "ma": "L.O.3",
+      "ten_vi": "Có khả năng làm việc nhóm, kỹ năng quản lý và kỹ năng trình bày.",
+      "ten_en": "Be able to perform teamwork skills, management skills, and presentation skills.",
+      "hddg": [
+        {
+          "id": 76246,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 76247,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    },
+    {
+      "id": 190630,
+      "ma": "L.O.4",
+      "ten_vi": "Có khả năng tự cập nhật kiến thức giải tích ma trận và topo tính toán.",
+      "ten_en": "Be able to self study and enhance new knowledge of matrix analysis and computational topology.",
+      "hddg": [
+        {
+          "id": 76245,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final Exam"
+        },
+        {
+          "id": 76246,
+          "ma": "A.O.3",
+          "ten_vi": "Bài tập",
+          "ten_en": "Exercise"
+        },
+        {
+          "id": 76247,
+          "ma": "A.O.4",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Giải tích ma trận và topo tính toán",
+  "tenmonhoc_eng": "Matrix Analysis and Computational Topology",
+  "kkt_JSON": null,
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

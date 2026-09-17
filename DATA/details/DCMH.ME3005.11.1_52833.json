@@ -1,0 +1,1793 @@
+{
+  "ma": "DCMH.ME3005.11.1",
+  "phienban": "11.1",
+  "capnhat": "01/06/2026 16:00",
+  "khoa": {
+    "vi": "Khoa Cơ khí",
+    "en": "Faculty of Mechanical Engineering"
+  },
+  "mamonhoc": "ME3005",
+  "ten": "ME3005 - Thiết kế Hệ thống Cơ điện tử",
+  "ten_eng": "ME3005 - Mechatronics System Design",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học nhằm trang bị cho sinh viên nền tảng kiến thức và phương pháp thiết kế hệ thống cơ điện tử. Thông qua việcphân tích yêu cầu, ràng buộc và thông số kỹ thuật, sinh viên hình thành tư duy thiết kế, phát triển ý tưởng và triển khaichi tiết phương án. Bằng các công cụ mô phỏng số, sinh viên được rèn luyện kỹ năng đánh giá và kiểm chứng thiết kế,đồng thời hoàn thiện năng lực lập hồ sơ kỹ thuật, báo cáo và thuyết trình một cách mạch lạc và chuyên nghiệp.<br></p>",
+      "en": "<p>This course aims to provide students with fundamental knowledge and methodologies in mechatronic system design. Byanalyzing requirements, constraints, and specifications, students develop design thinking, formulate concepts, andcarry out detailed implementations. Through numerical simulations, they acquire skills to evaluate and verify designs,while enhancing their ability to prepare technical documentation, deliver reports, and present effectively andprofessionally.<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Môn học cung cấp cho sinh viên kiến thức nền tảng và kỹ năng cần thiết để thiết kế hệ thống cơ điện tử. Nội dung baogồm: tổng quan và quy trình thiết kế hệ thống, phân tích yêu cầu, thiết kế ý tưởng, thiết kế chi tiết (cơ khí, điện, điềukhiển, lập trình), đánh giá và kiểm chứng bằng mô phỏng số (CAD, CAE, MATLAB/Simulink), xây dựng hồ sơ kỹthuật, và trình bày kết quả. Sinh viên được rèn luyện tư duy thiết kế, khả năng phân tích-tổng hợp, và kỹ năng giao tiếpkỹ thuật thông qua báo cáo và thuyết trình.<br></p>",
+      "en": "<p>This course provides students with fundamental knowledge and essential skills for mechatronic system design. Thecontents include: an overview and design process, requirement analysis, conceptual design, detailed design(mechanical, electrical, control), evaluation and verification using numerical simulations (CAD, CAE,MATLAB/Simulink), preparation of technical documentation, and presentation of results. Students will practice designthinking, analytical and synthesis skills, as well as technical communication skills through reports and presentations<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, giáo trình chính<br>[1] Klaus Janschek, Mechatronic Systems Design: Methods, Models, Concepts, Springer, 2012.<br>[2] Robert H. Bishop (Ed.), The Mechatronics Handbook, CRC Press, 3rd Ed., 2020.<br>[3] David G. Alciatore, Michael B. Histand, Introduction to Mechatronics and Measurement Systems, McGraw-Hill,5th Ed., 2018.<br>[4] Devdas Shetty, Richard A. Kolk, Mechatronics System Design, Cengage Learning, 2nd Ed., 2011.</p><p>Sách tham khảo<br>[5] William Bolton, Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering, Pearson, 6thEd., 2015.<br>[6] Dean C. Karnopp, Donald L. Margolis, Ronald C. Rosenberg, System Dynamics: Modeling, Simulation, andControl of Mechatronic Systems, Wiley, 5th Ed., 2012.<br></p>",
+      "en": "<p>\n\nTextbooks:<br>\n\n[1] Klaus Janschek, Mechatronic Systems Design: Methods, Models, Concepts, Springer, 2012.<br>[2] Robert H. Bishop (Ed.), The Mechatronics Handbook, CRC Press, 3rd Ed., 2020.<br>[3] David G. Alciatore, Michael B. Histand, Introduction to Mechatronics and Measurement Systems, McGraw-Hill,5th Ed., 2018.<br>[4] Devdas Shetty, Richard A. Kolk, Mechatronics System Design, Cengage Learning, 2nd Ed., 2011.\n\n<br><br>References:<br>[5] William Bolton, Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering, Pearson, 6thEd., 2015.<br>[6] Dean C. Karnopp, Donald L. Margolis, Ronald C. Rosenberg, System Dynamics: Modeling, Simulation, andControl of Mechatronic Systems, Wiley, 5th Ed., 2012.\n\n<br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p><b>Cách học</b><br>Sinh viên cần chủ động và tích cực trong quá trình học. Trên lớp, sinh viên tham gia nghe giảng, thảo luận, làm bài tập và mô phỏng để củng cố kiến thức. Ngoài giờ học, sinh viên phải tự đọc tài liệu, hoàn thành các bài tập cá nhân và nhóm, cũng như chuẩn bị cho các kỳ kiểm tra và thi cuối kỳ. Việc sử dụng hệ thống E-learning được khuyến khích nhằm theo dõi thông báo, nộp bài tập và trao đổi học thuật <br><b>Cách đánh giá</b>: \n\nĐiểm tổng kết môn học được đánh giá xuyên suốt quá trình học. Điểm đánh giá chi tiết như sau:<br>- Bài tập:<br>Bài tập lớn: 20%<br>Thảo luận/Thực hành tại lớp: 50%<br>- Thi:<br>Thi cuối kỳ: 30%<br>Điều kiện dự thi:<br>- Sinh viên phải tham dự giờ giảng trên lớp ít nhất 70% thời lượng môn học<br>- Sinh viên phải hoàn thành tất cả bài tập về nhà đúng hạn cũng như thực hiện đầy đủ các phần thuyết trình của nhómnếu có.\n\n<br></p>",
+      "en": "<p><b></b>\n\n</p><p><b>Study Guidelines</b></p><p>Students are expected to adopt an active and self-directed learning approach. In class, they should engage in lectures, discussions, exercises, and simulations to reinforce knowledge. Outside class, students are required to read references, complete individual and group assignments, and prepare for quizzes and the final exam. The use of the E-learning platform is encouraged for accessing announcements, submitting assignments, and participating in academic discussions.</p><p><b>Assessment Scheme</b><br></p><p>The final score is assessed throughout the learning process, basically consisting of two points: the learning process score (70%) and the final exam score (30%). The detailed ratings are as follows:<br>-  Exercise:<br>&nbsp; Class assignments: 20%<br>&nbsp; \n\nIn-class discussion and practice: 50%<br>-  Exam:<br>&nbsp; Final exam: 30%<br>\n\n Final exam\n\n conditions:<br>- Students must attend class lectures at least 70% of the course time<br>- Students must complete all homework on time as well as complete group presentations if any.</p>\n\n<br><p></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 907,
+      "ma": "001612",
+      "ten": "NGUYỄN TẤN TIẾN"
+    },
+    {
+      "id": 10988,
+      "ma": "004211",
+      "ten": "NGUYỄN DUY ÁNH"
+    },
+    {
+      "id": 911,
+      "ma": "002338",
+      "ten": "NGUYỄN QUỐC CHÍ"
+    },
+    {
+      "id": 915,
+      "ma": "002588",
+      "ten": "PHÙNG TRÍ CÔNG"
+    },
+    {
+      "id": 909,
+      "ma": "001987",
+      "ten": "VÕ ANH HUY"
+    },
+    {
+      "id": 10989,
+      "ma": "004212",
+      "ten": "PHÙNG THANH HUY"
+    },
+    {
+      "id": 973,
+      "ma": "002335",
+      "ten": "VÕ TƯỜNG QUÂN"
+    },
+    {
+      "id": 9882,
+      "ma": "004059",
+      "ten": "DƯƠNG VĂN TÚ"
+    },
+    {
+      "id": 10143,
+      "ma": "004150",
+      "ten": "PHẠM PHƯƠNG TÙNG"
+    },
+    {
+      "id": 913,
+      "ma": "002344",
+      "ten": "NGUYỄN MINH TUẤN"
+    },
+    {
+      "id": 10068,
+      "ma": "004124",
+      "ten": "LƯƠNG THANH NHẬT"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 30,
+    "thiNghiem": 0,
+    "baiTapLon": 40,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 945,
+      "maBoMon": "CDT",
+      "tenBoMon": {
+        "vi": "Cơ Điện Tử"
+      },
+      "maKhoa": "CK",
+      "tenKhoa": {
+        "vi": "Khoa Cơ khí",
+        "en": "Faculty of Mechanical Engineering"
+      },
+      "vanPhong": "P.210-B11",
+      "dienThoai": "(84-28)3886811"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 907,
+        "maGiangVien": "001612",
+        "tenGiangVien": "NGUYỄN TẤN TIẾN",
+        "emailGiangVien": "nttien@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME3007 - Vi điều khiển",
+        "en": "ME3007 - Micro-Controller"
+      },
+      "tenmonhoc_only": {
+        "vi": "Vi điều khiển",
+        "en": "Micro-Controller"
+      },
+      "mamonhoc": "ME3007"
+    },
+    {
+      "maloaidieukien": "SHT",
+      "tenloaidieukien": {
+        "vi": "Song hành (trước)",
+        "en": "Co-requisite Courses or previous"
+      },
+      "tenmonhoc": {
+        "vi": "ME3011 - Động lực học và Điều khiển",
+        "en": "ME3011 - Dynamic Systems and Control"
+      },
+      "tenmonhoc_only": {
+        "vi": "Động lực học và Điều khiển",
+        "en": "Dynamic Systems and Control"
+      },
+      "mamonhoc": "ME3011"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 90594,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động trong lớp",
+        "en": "Acitvity inclass"
+      },
+      "noidung": {
+        "vi": "Hoạt động trong lớp",
+        "en": "Acitvity inclass"
+      }
+    },
+    {
+      "id": 90595,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "90594",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập",
+        "en": "Assigment"
+      },
+      "noidung": {
+        "vi": "Bài tập",
+        "en": "Assigment"
+      }
+    },
+    {
+      "id": 90596,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "90594",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra chương",
+        "en": "Test"
+      },
+      "noidung": {
+        "vi": "Kiểm tra chương",
+        "en": "Test"
+      }
+    },
+    {
+      "id": 90597,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "90594",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Kiểm tra cuối khóa",
+        "en": "Finalexam"
+      },
+      "noidung": {
+        "vi": "Kiểm tra cuối khóa",
+        "en": "Finalexam"
+      }
+    },
+    {
+      "id": 90598,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "90594",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Project/Bài tập lớn",
+        "en": "Project/Team Assignment"
+      },
+      "noidung": {
+        "vi": "Project/Bài tập lớn",
+        "en": "Project/Team Assignment"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 112202,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 149288,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu khái niệm, lịch sử phát triển, cấu trúc, ứng dụng và quy trình thiết kế hệ thống cơ điện tử; minh họa bằng các ví dụ thực tế.\n",
+            "en": "Introduce concepts, historical development, system structure, applications, and the mechatronic system design process with real-world examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng, ghi chú nội dung cốt lõi; tham gia thảo luận để trình bày lại cấu trúc và quy trình thiết kế hệ thống\n",
+            "en": "Attend lectures and take notes; participate in discussions to explain system structure and design process\n"
+          },
+          "chuandaura": {
+            "id": 180341,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Trình bày được khái niệm, cấu trúc tổng thể và quy trình thiết kế hệ thống cơ điện tử.",
+              "en": "Explain the concepts, overall structure, and design process of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244827,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244828,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.01 Tổng quan về Thiết kế Hệ thống Cơ điện tử\n1.1. Khái niệm \n1.2. Lịch sử phát triển \n1.3. Cấu trúc chung của hệ thống \n1.4. Các ứng dụng điển hình \n1.5. Quy trình thiết kế hệ thống \n",
+        "en": "Ch.01 Introduction to Mechatronic System Design\n1.1. Concepts \n1.2. History of development \n1.3. System structure \n1.4. Typical applications \n1.5. System design process \n"
+      }
+    },
+    {
+      "id": 112207,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 149293,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu khái niệm, lịch sử phát triển, cấu trúc, ứng dụng và quy trình thiết kế hệ thống cơ điện tử; minh họa bằng các ví dụ thực tế.\n",
+            "en": "Introduce concepts, historical development, system structure, applications, and the mechatronic system design process with real-world examples.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Đồng thời phân tích sơ bộ yêu cầu, chức năng và ràng buộc của các hệ thống ví dụ",
+            "en": "Preliminarily analyze requirements, functions, and constraints of example systems\n"
+          },
+          "chuandaura": {
+            "id": 180342,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích yêu cầu hệ thống, sơ đồ nguyên lý, giản đồ hoạt động, các chức năng chính và điều kiện ràng buộc của hệ thống cơ điện tử.",
+              "en": "Analyze system requirements, schematics, activity diagrams, main functions, and design constraints of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244841,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244842,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "1.6. Công cụ thiết kế trong hệ thống cơ điện tử \n1.7. Sản phẩm thiết kế hệ thống cơ điện tử \n1.8. Xây dựng kế hoạch thiết kế hệ thống cơ điện tử \n1.9. Câu hỏi và Bài tập",
+        "en": "1.6. Design tools in mechatronic systems \n1.7. Design products of mechatronic systems \n1.8. Planning of mechatronic system design \n1.9. Questions and Exercises\n"
+      }
+    },
+    {
+      "id": 112204,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 149290,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn lập kế hoạch dự án, xây dựng biểu đồ Gantt, phân công nhiệm vụ, quản lý rủi ro và chi phí; giới thiệu công cụ MS Project và Trello.\n",
+            "en": "Guide project planning, Gantt chart development, task assignment, risk and cost management; introduce MS Project and Trello tools.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thảo luận nhóm để trình bày quy trình quản lý dự án",
+            "en": "Work in groups to explain the project management process\n"
+          },
+          "chuandaura": {
+            "id": 180341,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Trình bày được khái niệm, cấu trúc tổng thể và quy trình thiết kế hệ thống cơ điện tử.",
+              "en": "Explain the concepts, overall structure, and design process of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244833,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244832,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244834,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90597,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Finalexam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.02 Quản lý dự án thiết kế cơ điện tử\n2.1. Khái niệm về quản lý dự án thiết kế \n2.2. Lập kế hoạch và Biểu đồ Gantt \n2.3. Phân công nhiệm vụ và quản lý nhóm \n2.4. Quản lý rủi ro và chi phí trong dự án thiết kế ",
+        "en": "Ch.02 Project Management in Mechatronic System Design\n2.1. Project management concepts \n2.2. Planning and Gantt Chart \n2.3. Task assignment and teamwork \n2.4. Risk and cost management \n"
+      }
+    },
+    {
+      "id": 112208,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 149294,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn lập kế hoạch dự án, xây dựng biểu đồ Gantt, phân công nhiệm vụ, quản lý rủi ro và chi phí; giới thiệu công cụ MS Project và Trello.",
+            "en": "Guide project planning, Gantt chart development, task assignment, risk and cost management; introduce MS Project and Trello tools.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích yêu cầu, nhiệm vụ, ràng buộc của dự án thiết kế thông qua kế hoạch và biểu đồ Gantt\n",
+            "en": "Analyze project requirements, tasks, and constraints through planning and Gantt charts\n"
+          },
+          "chuandaura": {
+            "id": 180342,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích yêu cầu hệ thống, sơ đồ nguyên lý, giản đồ hoạt động, các chức năng chính và điều kiện ràng buộc của hệ thống cơ điện tử.",
+              "en": "Analyze system requirements, schematics, activity diagrams, main functions, and design constraints of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244845,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244844,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244843,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90597,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Finalexam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "2.5. Công cụ hỗ trợ quản lý (MS Project, Trello, Gantt chart tools) \n2.6. Đánh giá hiệu quả làm việc nhóm \n2.7. Câu hỏi và Bài tập ",
+        "en": "2.5. Management support tools (MS Project, Trello, Gantt chart tools) \n2.6. Evaluation of teamwork effectiveness \n2.7. Questions and Exercises\n"
+      }
+    },
+    {
+      "id": 112200,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 149286,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày phương pháp phân tích yêu cầu hệ thống, xây dựng sơ đồ nguyên lý, giản đồ hoạt động và xác định các điều kiện ràng buộc thiết kế.\n",
+            "en": "Explain methods for system requirement analysis, schematic development, activity diagrams, and identification of design constraints."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích bài toán hệ thống mẫu, xác định yêu cầu, vẽ sơ đồ nguyên lý và giản đồ hoạt động theo nhóm.",
+            "en": "Analyze a sample system problem, identify requirements, and draw schematics and activity diagrams in groups."
+          },
+          "chuandaura": {
+            "id": 180342,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích yêu cầu hệ thống, sơ đồ nguyên lý, giản đồ hoạt động, các chức năng chính và điều kiện ràng buộc của hệ thống cơ điện tử.",
+              "en": "Analyze system requirements, schematics, activity diagrams, main functions, and design constraints of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244821,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244822,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244823,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90597,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Finalexam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.03 Khảo lược và Phân tích\n3.1. Khái niệm về yêu cầu hệ thống (chức năng, phi chức năng) \n3.2. Sơ đồ nguyên lý (cơ khí, điện–điện tử, điều khiển, lưu đồ giải thuật, sơ đồ khối tổng thể) \n3.3. Cấu trúc hệ thống (hệ thống con, module, thành phần) ",
+        "en": "Ch.03 Review and Analysis\n3.1. System requirements (functional and non-functional) \n3.2. Block diagrams (mechanical, electrical, control, algorithm flowchart, overall system) \n3.3. System structure (subsystems, modules, components) \n"
+      }
+    },
+    {
+      "id": 112201,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 149287,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày phương pháp phân tích yêu cầu hệ thống, xây dựng sơ đồ nguyên lý, giản đồ hoạt động và xác định các điều kiện ràng buộc thiết kế.",
+            "en": "Explain methods for system requirement analysis, schematic development, activity diagrams, and identification of design constraints."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích bài toán hệ thống mẫu, xác định yêu cầu, vẽ sơ đồ nguyên lý và giản đồ hoạt động theo nhóm.\n",
+            "en": "Analyze a sample system problem, identify requirements, and draw schematics and activity diagrams in groups.\n"
+          },
+          "chuandaura": {
+            "id": 180342,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích yêu cầu hệ thống, sơ đồ nguyên lý, giản đồ hoạt động, các chức năng chính và điều kiện ràng buộc của hệ thống cơ điện tử.",
+              "en": "Analyze system requirements, schematics, activity diagrams, main functions, and design constraints of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244825,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244826,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244824,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90597,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Kiểm tra cuối khóa",
+                  "en": "Finalexam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "3.4. Giản đồ hoạt động \n3.5. Điều kiện ràng buộc (kỹ thuật, kinh tế, môi trường, xã hội–pháp lý) \n3.6. Xác định chức năng và thông số chính \n3.7. Câu hỏi và Bài tập",
+        "en": "3.4. Activity diagrams \n3.5. Design constraints (technical, economic, environmental, legal) \n3.6. Identify functions and key parameters \n3.7. Questions and Exercises"
+      }
+    },
+    {
+      "id": 112205,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 149291,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xây dựng các phương án thiết kế cơ khí, điện, điều khiển và lập trình; trình bày phương pháp đánh giá và lựa chọn phương án.",
+            "en": "Guide the development of mechanical, electrical, control, and programming design options; explain evaluation and selection methods."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Đề xuất các phương án thiết kế, phân tích ưu nhược điểm và lựa chọn phương án tối ưu cho dự án nhóm.\n",
+            "en": "Propose design alternatives, analyze advantages and disadvantages, and select the optimal solution for the group project."
+          },
+          "chuandaura": {
+            "id": 180345,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Sử dụng được các phần mềm mô phỏng số (CAD, CAE, Simulink) để phân tích, kiểm chứng thiết kế",
+              "en": "Propose, evaluate, and select feasible design alternatives for mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244836,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244835,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244837,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90598,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project/Bài tập lớn",
+                  "en": "Project/Team Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.04 Thiết kế ý tưởng\n4.1. Khái niệm phương án thiết kế khả thi \n4.2. Phân tích yêu cầu và xây dựng giải pháp \n4.3. Phương án thiết kế cơ khí \n4.4. Phương án thiết kế điện",
+        "en": "Ch.04 Conceptual Design\n4.1. Feasible design concepts \n4.2. Requirement analysis and solution development \n4.3. Mechanical design options \n4.4. Electrical design options \n"
+      }
+    },
+    {
+      "id": 112203,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 149289,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn xây dựng các phương án thiết kế cơ khí, điện, điều khiển và lập trình; trình bày phương pháp đánh giá và lựa chọn phương án.\n",
+            "en": "Guide the development of mechanical, electrical, control, and programming design options; explain evaluation and selection methods.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Đề xuất các phương án thiết kế, phân tích ưu nhược điểm và lựa chọn phương án tối ưu cho dự án nhóm.\n",
+            "en": "Propose design alternatives, analyze advantages and disadvantages, and select the optimal solution for the group project."
+          },
+          "chuandaura": {
+            "id": 180345,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Sử dụng được các phần mềm mô phỏng số (CAD, CAE, Simulink) để phân tích, kiểm chứng thiết kế",
+              "en": "Propose, evaluate, and select feasible design alternatives for mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244829,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244831,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244830,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90598,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project/Bài tập lớn",
+                  "en": "Project/Team Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "4.5. Phương án thiết kế điều khiển (mô hình tổ chức, chiến lược, tiêu chí lựa chọn) \n4.6. Phương án lập trình nhúng \n4.7. Đánh giá và lựa chọn phương án (nguyên tắc, ma trận Pugh) \n4.8. Câu hỏi và Bài tập ",
+        "en": "4.5. Control design options (organization, strategy, selection criteria) \n4.6. Embedded programming options \n4.7. Evaluation and selection (principles, Pugh matrix) \n4.8. Questions and Exercises\n"
+      }
+    },
+    {
+      "id": 112206,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 149292,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu quy trình thiết kế chi tiết cơ khí, mạch điện và thuật toán điều khiển; hướng dẫn mô hình hóa và mô phỏng bằng CAD/CAE và MATLAB/Simulink.",
+            "en": "Introduce detailed mechanical, electrical, and control algorithm design; guide modeling and simulation using CAD/CAE and MATLAB/Simulink.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành thiết kế chi tiết, xây dựng mô hình và mô phỏng các thành phần của hệ thống theo yêu cầu thiết kế.",
+            "en": "Practice detailed design, build models, and simulate system components according to design requirements."
+          },
+          "chuandaura": {
+            "id": 180344,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thiết kế chi tiết các thành phần cơ khí, mạch điện và thuật toán điều khiển của hệ thống cơ điện tử.",
+              "en": "Design mechanical components, electrical circuits, and control algorithms of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244839,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244838,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244840,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90598,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project/Bài tập lớn",
+                  "en": "Project/Team Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.05 Thiết kế chi tiết\n5.1. Thiết kế cơ khí (khung, vỏ, cơ cấu truyền động) \n5.2. Mô hình hóa (động học, động lực học) \n5.3. Mô phỏng thiết kế cơ khí (chuyển động, ứng suất, biến dạng) \n5.4. Thiết kế mạch điện (sơ đồ nguyên lý, PCB layout)",
+        "en": "Ch.05 Detailed Design\n5.1. Mechanical design (frame, housing, transmission) \n5.2. Modeling (kinematics, dynamics) \n5.3. Mechanical simulation (motion, stress, deformation) \n5.4. Electrical design (schematic, PCB layout) \n"
+      }
+    },
+    {
+      "id": 112209,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 149295,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Giới thiệu quy trình thiết kế chi tiết cơ khí, mạch điện và thuật toán điều khiển; hướng dẫn mô hình hóa và mô phỏng bằng CAD/CAE và MATLAB/Simulink.",
+            "en": "Introduce detailed mechanical, electrical, and control algorithm design; guide modeling and simulation using CAD/CAE and MATLAB/Simulink."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Thực hành thiết kế chi tiết, xây dựng mô hình và mô phỏng các thành phần của hệ thống theo yêu cầu thiết kế.\n",
+            "en": "Practice detailed design, build models, and simulate system components according to design requirements."
+          },
+          "chuandaura": {
+            "id": 180344,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Thiết kế chi tiết các thành phần cơ khí, mạch điện và thuật toán điều khiển của hệ thống cơ điện tử.",
+              "en": "Design mechanical components, electrical circuits, and control algorithms of mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244847,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244846,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            },
+            {
+              "id": 244848,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 90598,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project/Bài tập lớn",
+                  "en": "Project/Team Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "5.5. Mô phỏng nguyên lý (Proteus/Multisim, mô phỏng chức năng) \n5.6. Thiết kế thuật toán (lưu đồ giải thuật, pseudocode) \n5.7. Mô phỏng thuật toán (MATLAB/Simulink, testbench trên vi điều khiển) \n5.8. Câu hỏi và Bài tập ",
+        "en": "5.5. Electrical simulation (Proteus/Multisim) \n5.6. Algorithm design (flowchart, pseudocode) \n5.7. Algorithm simulation (MATLAB/Simulink, microcontroller testbench) \n5.8. Questions and Exercises\n"
+      }
+    },
+    {
+      "id": 112212,
+      "stt": 11,
+      "buoi": "11",
+      "chuandaurachitiet": [
+        {
+          "id": 149298,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các phương pháp đánh giá thiết kế thông qua mô phỏng SIL/HIL/PIL và phân tích độ chính xác, độ tin cậy của hệ thống.\n",
+            "en": "Guide design evaluation methods using SIL/HIL/PIL simulations and analysis of system accuracy and reliability."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Mô hình hóa và mô phỏng hệ thống để đánh giá hành vi động\n",
+            "en": "Model and simulate the system to evaluate dynamic behavior\n"
+          },
+          "chuandaura": {
+            "id": 180347,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Sử dụng các phần mềm CAD, CAE và MATLAB/Simulink để mô hình hóa và mô phỏng hệ thống cơ điện tử. ",
+              "en": "Use CAD, CAE, and MATLAB/Simulink software to model and simulate mechatronic systems."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244854,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244853,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.06 Đánh giá thiết kế\n6.1. Mô phỏng phần mềm trong vòng lặp (SIL) \n6.2. Mô phỏng phần cứng trong vòng lặp (HIL) \n6.3. Mô phỏng bộ xử lý trong vòng lặp (PIL)",
+        "en": "Ch.06 Design Evaluation\n6.1. Mô phỏng phần mềm trong vòng lặp (SIL) \n6.2. Mô phỏng phần cứng trong vòng lặp (HIL) \n6.3. Mô phỏng bộ xử lý trong vòng lặp (PIL) "
+      }
+    },
+    {
+      "id": 112213,
+      "stt": 12,
+      "buoi": "12",
+      "chuandaurachitiet": [
+        {
+          "id": 149299,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn các phương pháp đánh giá thiết kế thông qua mô phỏng SIL/HIL/PIL và phân tích độ chính xác, độ tin cậy của hệ thống.\n",
+            "en": "Guide design evaluation methods using SIL/HIL/PIL simulations and analysis of system accuracy and reliability.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Phân tích độ chính xác và độ tin cậy của thiết kế dựa trên kết quả mô phỏng\n",
+            "en": "Analyze design accuracy and reliability based on simulation results"
+          },
+          "chuandaura": {
+            "id": 180348,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Phân tích, đánh giá độ tin cậy và độ chính xác của thiết kế dựa trên kết quả mô phỏng hoặc thực nghiệm",
+              "en": "Analyze and evaluate the reliability and accuracy of designs based on simulation or experimental results."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244856,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244855,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90596,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Kiểm tra chương",
+                  "en": "Test"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "6.4. Thực nghiệm kiểm chứng \n6.5. Phân tích thống kê và độ chính xác \n6.6. Phân tích độ tin cậy \n6.7. Câu hỏi và Bài tập",
+        "en": "6.4. Experimental validation \n6.5. Statistical analysis and accuracy \n6.6. Reliability analysis \n6.7. Questions and Exercises\n"
+      }
+    },
+    {
+      "id": 112211,
+      "stt": 13,
+      "buoi": "13",
+      "chuandaurachitiet": [
+        {
+          "id": 149297,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn lập và chuẩn hóa hồ sơ kỹ thuật, bao gồm bản vẽ cơ khí, sơ đồ mạch điện, sơ đồ khối và tài liệu kỹ thuật liên quan.",
+            "en": "Guide the preparation and standardization of technical documentation, including drawings, schematics, block diagrams, and related documents."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện hồ sơ kỹ thuật của dự án thiết kế theo yêu cầu.",
+            "en": "Complete the technical documentation for the design project."
+          },
+          "chuandaura": {
+            "id": 180351,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Lập hồ sơ kỹ thuật, viết báo cáo và thuyết trình, bảo vệ kết quả thiết kế theo chuẩn báo cáo kỹ thuật.",
+              "en": "Prepare technical documentation, write reports, and present/defend design results according to technical reporting standards."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244851,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244852,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90598,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project/Bài tập lớn",
+                  "en": "Project/Team Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.07 Xây dựng Hồ sơ kỹ thuật\n7.1. Bản vẽ phương án \n7.2. Bản vẽ lắp \n7.3. Bản vẽ chi tiết \n7.4. Bản vẽ sơ đồ nguyên lý mạch điện \n7.5. Bản vẽ bố trí thiết bị – linh kiện ",
+        "en": "Ch.07 Preparation of Technical Documentation\n7.1. Design drawings \n7.2. Assembly drawings \n7.3. Detailed drawings \n7.4. Electrical schematics \n7.5. Layout drawings \n"
+      }
+    },
+    {
+      "id": 112214,
+      "stt": 14,
+      "buoi": "14",
+      "chuandaurachitiet": [
+        {
+          "id": 149300,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn lập và chuẩn hóa hồ sơ kỹ thuật, bao gồm bản vẽ cơ khí, sơ đồ mạch điện, sơ đồ khối và tài liệu kỹ thuật liên quan.",
+            "en": "Guide the preparation and standardization of technical documentation, including drawings, schematics, block diagrams, and related documents."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hoàn thiện hồ sơ kỹ thuật của dự án thiết kế theo yêu cầu.",
+            "en": "Complete the technical documentation for the design project."
+          },
+          "chuandaura": {
+            "id": 180351,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Lập hồ sơ kỹ thuật, viết báo cáo và thuyết trình, bảo vệ kết quả thiết kế theo chuẩn báo cáo kỹ thuật.",
+              "en": "Prepare technical documentation, write reports, and present/defend design results according to technical reporting standards."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244858,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244857,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90598,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project/Bài tập lớn",
+                  "en": "Project/Team Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "7.6. Bản vẽ lưu đồ giải thuật \n7.7. Bản vẽ sơ đồ khối hệ thống điều khiển \n7.8. Kết quả mô phỏng – thực nghiệm \n7.9. Tiêu chuẩn kỹ thuật áp dụng (ISO, IEC, TCVN) \n7.10. Câu hỏi và Bài tập ",
+        "en": "7.6. Algorithm flowcharts \n7.7. Control block diagrams \n7.8. Simulation and experimental results \n7.9. Applied technical standards \n7.10. Questions and Exercises\n"
+      }
+    },
+    {
+      "id": 112210,
+      "stt": 15,
+      "buoi": "15",
+      "chuandaurachitiet": [
+        {
+          "id": 149296,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Hướng dẫn cấu trúc báo cáo, kỹ năng thuyết trình và phản biện; tổ chức đánh giá và bảo vệ kết quả dự án.",
+            "en": "Guide report structure, presentation and defense skills; organize project evaluation and defense.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Làm việc nhóm để trình bày và bảo vệ kết quả thiết kế, đồng thời báo cáo và giải trình hồ sơ kỹ thuật trước phản biện\n",
+            "en": "Work in teams to present and defend design results, and report and justify technical documentation during the defense\n"
+          },
+          "chuandaura": {
+            "id": 180350,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Làm việc nhóm hiệu quả trong dự án thiết kế hệ thống cơ điện tử, bao gồm lập kế hoạch và phân công nhiệm vụ",
+              "en": "Work effectively in teams on mechatronic system design projects, including planning and task assignment."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 244849,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 90595,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập",
+                  "en": "Assigment"
+                }
+              }
+            },
+            {
+              "id": 244850,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 90598,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Project/Bài tập lớn",
+                  "en": "Project/Team Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ch.08 Trình bày kết quả\n8.1. Cấu trúc báo cáo \n8.2. Nội dung báo cáo \n8.3. Hình thức báo cáo \n8.4. Cấu trúc thuyết trình \n8.5. Nội dung thuyết trình \n8.6. Hình thức thuyết trình (trực tiếp, trực tuyến) \n8.7. Trình bày công bố khoa học \n8.8. Kỹ năng bảo vệ và phản biện \n8.9. Câu hỏi và Bài tập",
+        "en": "Ch.08 Presentation of Results\n8.1. Report structure \n82. Report content \n8.3. Report format \n8.4. Presentation structure \n8.5. Presentation content \n8.6. Presentation formats (in-person, online) \n8.7. Scientific publication presentation \n8.8. Defense and discussion skills \n8.9. Questions and Exercises"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 180341,
+      "ma": "L.O.1.1",
+      "ten_vi": "Trình bày được khái niệm, cấu trúc tổng thể và quy trình thiết kế hệ thống cơ điện tử.",
+      "ten_en": "Explain the concepts, overall structure, and design process of mechatronic systems.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90596,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 90597,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Finalexam"
+        }
+      ]
+    },
+    {
+      "id": 180342,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích yêu cầu hệ thống, sơ đồ nguyên lý, giản đồ hoạt động, các chức năng chính và điều kiện ràng buộc của hệ thống cơ điện tử.",
+      "ten_en": "Analyze system requirements, schematics, activity diagrams, main functions, and design constraints of mechatronic systems.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90596,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 90597,
+          "ma": "A.O.3",
+          "ten_vi": "Kiểm tra cuối khóa",
+          "ten_en": "Finalexam"
+        }
+      ]
+    },
+    {
+      "id": 180345,
+      "ma": "L.O.2.1",
+      "ten_vi": "Sử dụng được các phần mềm mô phỏng số (CAD, CAE, Simulink) để phân tích, kiểm chứng thiết kế",
+      "ten_en": "Propose, evaluate, and select feasible design alternatives for mechatronic systems.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90596,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 90598,
+          "ma": "A.O.4",
+          "ten_vi": "Project/Bài tập lớn",
+          "ten_en": "Project/Team Assignment"
+        }
+      ]
+    },
+    {
+      "id": 180344,
+      "ma": "L.O.2.2",
+      "ten_vi": "Thiết kế chi tiết các thành phần cơ khí, mạch điện và thuật toán điều khiển của hệ thống cơ điện tử.",
+      "ten_en": "Design mechanical components, electrical circuits, and control algorithms of mechatronic systems.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90596,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        },
+        {
+          "id": 90598,
+          "ma": "A.O.4",
+          "ten_vi": "Project/Bài tập lớn",
+          "ten_en": "Project/Team Assignment"
+        }
+      ]
+    },
+    {
+      "id": 180347,
+      "ma": "L.O.3.1",
+      "ten_vi": "Sử dụng các phần mềm CAD, CAE và MATLAB/Simulink để mô hình hóa và mô phỏng hệ thống cơ điện tử. ",
+      "ten_en": "Use CAD, CAE, and MATLAB/Simulink software to model and simulate mechatronic systems.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90596,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        }
+      ]
+    },
+    {
+      "id": 180348,
+      "ma": "L.O.3.2",
+      "ten_vi": "Phân tích, đánh giá độ tin cậy và độ chính xác của thiết kế dựa trên kết quả mô phỏng hoặc thực nghiệm",
+      "ten_en": "Analyze and evaluate the reliability and accuracy of designs based on simulation or experimental results.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90596,
+          "ma": "A.O.2",
+          "ten_vi": "Kiểm tra chương",
+          "ten_en": "Test"
+        }
+      ]
+    },
+    {
+      "id": 180350,
+      "ma": "L.O.4.1",
+      "ten_vi": "Làm việc nhóm hiệu quả trong dự án thiết kế hệ thống cơ điện tử, bao gồm lập kế hoạch và phân công nhiệm vụ",
+      "ten_en": "Work effectively in teams on mechatronic system design projects, including planning and task assignment.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90598,
+          "ma": "A.O.4",
+          "ten_vi": "Project/Bài tập lớn",
+          "ten_en": "Project/Team Assignment"
+        }
+      ]
+    },
+    {
+      "id": 180351,
+      "ma": "L.O.4.2",
+      "ten_vi": "Lập hồ sơ kỹ thuật, viết báo cáo và thuyết trình, bảo vệ kết quả thiết kế theo chuẩn báo cáo kỹ thuật.",
+      "ten_en": "Prepare technical documentation, write reports, and present/defend design results according to technical reporting standards.",
+      "hddg": [
+        {
+          "id": 90595,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập",
+          "ten_en": "Assigment"
+        },
+        {
+          "id": 90598,
+          "ma": "A.O.4",
+          "ten_vi": "Project/Bài tập lớn",
+          "ten_en": "Project/Team Assignment"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Thiết kế Hệ thống Cơ điện tử",
+  "tenmonhoc_eng": "Mechatronics System Design",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1361 @@
+{
+  "ma": "DCMH.EE5277.1.1",
+  "phienban": "1.1",
+  "capnhat": "01/06/2026 14:56",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5277",
+  "ten": "EE5277 - Xử lý số tín hiệu nâng cao",
+  "ten_eng": "EE5277 - Advanced Digital Signal Processing",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\n</p><p><b></b>Giới thiệu về lý thuyết và các thuật toán<b></b> được sử dụng để phân tích và xử lý tín hiệu ngẫu nhiên và ứng dụng trong các bài toán xử lý tín hiệu (trong viễn thông, xử lý âm thanh/hình ảnh/video, radar/sonar, v.v.).</p><p></p><ul><li><b></b>Phân tích tín hiệu ngẫu nhiên thông qua các đặc tính thống kê, mô hình hóa và sự phụ thuộc giữa các mẫu của một hoặc nhiều tín hiệu ngẫu nhiên rời rạc theo thời gian.</li></ul><p></p><p></p><p></p><p></p><ul><li><b></b>Phát triển các phương pháp lý thuyết/kỹ thuật thực tế<b></b>&nbsp;để xử lý số tín hiệu ngẫu nhiên nhằm đạt được một mục tiêu đã định trước tùy thuộc vào từng ứng dụng cụ thể. Các ứng dụng chính trong xử lý số tín hiệu bao gồm: mô hình hóa tín hiệu, ước lượng phổ, lọc chọn lọc tần số, lọc tối ưu, lọc thích nghi, và xử lý dãy.</li></ul><p></p>\n\n<br><p></p>",
+      "en": "<p>\n\n\n\n\n\n\n\n\n\n\n</p><p>Introduction\nto the theory\nand algorithms\nused for the analysis\nand processing of random\nsignals\n(stochastic\nsignals)\nand their applications\nto signal processing problems (communications,\naudio/image/video processing, radar/sonar, etc.).</p>\n\n<p></p>\n\n<div><ul><li><u></u>Analyzing the random signals via statistical characteristics, modeling and the dependence between the samples of one\nor more discrete-time random signals.</li></ul></div><p></p><p></p><div><ul><li><u></u>Developing the theoretically\nmethods/practical techniques<u></u> for\nprocessing random signals to achieve a predefined application-dependent\nobjective. Major\napplications in signal processing: signal modeling, spectral estimation,\nfrequency-selective filtering, adaptive filtering, array processing.</li></ul></div>\n\n\n\n\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p></p><p>Môn học gồm các nội dung chính như sau:</p><p>Các chương 1, 2, 3 trình\nbày các khái niệm cơ bản về xử lý số tín hiệu ngẫu nhiên, các mô hình ngẫu nhiên\n(AR, MA, ARMA), các quá trình ngẫu nhiên cũng như các đặc tính cơ bản của quá\ntrình ngẫu nhiên; đồng thời ôn tập và mở rộng các lý thuyết cơ bản như biến đổi\nz, biến đổi Fourier rời rạc, các bộ lọc tuyến tính bất biến theo thời gian, các\nkiến trúc bộ lọc số, các phương pháp phân tích phổ tín hiệu ngẫu nhiên.</p>\n\n<p>Các chương 4 và 5 trình\nbày cơ sở lý thuyết, giải thuật và ứng dụng của các bộ xử lý tối ưu như bộ lọc\nWiener, bộ lọc phương sai cực tiểu có ràng buộc tuyến tính (LCMV), bộ dự đoán\ntuyến tính. Chương 6 trình bày cơ sở lý thuyết, giải thuật và ứng dụng của bộ lọc\nKalman trong các hệ thống động. Nhằm giải quyết các bài toán trong môi trường không dừng (non-stationary), các bộ lọc thích nghi tuyến tính với\ncác giải thuật tiêu biểu như bình phương trung bình tối thiểu (LMS) và bình\nphương tối thiểu đệ quy (RLS) được phân tích cùng với các ứng dụng khác nhau\ntrong chương 7. Chương 8 trình bày lý thuyết ước lượng cùng với các giải thuật tiêu\nbiểu như: ước lượng không lệch phương sai cực tiểu (MVUE), ước lượng không lệch\ntuyến tính tốt nhất (BLUE), ước lượng hợp lý cực đại (MLE) và các giải thuật\nước lượng phổ.</p>\n\n<p>&nbsp;</p>\n\n\n\n\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p>The course consists of the following main topics:</p><p>Chapters 1, 2, and 3 present the fundamental concepts of the digital processing of random signals, stochastic models (AR, MA, ARMA), and stochastic processes as well as their basic characteristics. These chapters simultaneously review and expand upon basic theories such as the z-transform, Discrete Fourier Transform (DFT), linear time-invariant (LTI) filters, digital filter architectures, and spectral analysis methods for random signals.</p><p>Chapters 4 and 5 cover the theoretical background, algorithms, and applications of optimal processors such as Wiener filters, Linearly Constrained Minimum Variance (LCMV) filters, and linear predictors. Chapter 6 introduces the theoretical basis, algorithms, and applications of Kalman filters in dynamic systems. To address problems in non-stationary environments, Chapter 7 analyzes linear adaptive filters using typical algorithms like Least-Mean-Square (LMS) and Recursive Least-Squares (RLS), along with their various applications. Finally, Chapter 8 presents estimation theory alongside standard algorithms, including Minimum Variance Unbiased Estimate (MVUE), Best Linear Unbiased Estimate (BLUE), Maximum Likelihood Estimate (MLE), and spectral estimation algorithms.</p>\n\n<br><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n\n\n\n\n\n\n\n\n\n</p><p>[1]  Simon Haykin,\nAdaptive\nFilter Theory,\nPrentice Hall, 1996 (3rd\nEd.), 2002 (4th\nEd.), 2014 (5th\nEd.).</p>\n\n<p>[2]  Steven M. Kay, Fundamentals\nof Statistical Signal Processing: Estimation Theory,\nPrentice Hall, 1993.</p>\n\n<p>[3]  Alan V. Oppenheim, Ronald W. Schafer, Discrete-Time\nSignal Processing,\nPrentice Hall, 1998.</p>\n\n<p>[4]  Athanasios Papoulis, Probability,\nRandom Variables, and Stochastic Processes, McGraw-Hill, 1991 (3rd Ed.), 2001 (4th Ed.).</p>\n\n<p>[5]  Dimitris G. Manolakis,\nVinay\nK. Ingle, Stephen M. Kogon,\nStatistical\nand Adaptive Signal Processing,\nArtech\nHouse, 2005.</p>\n\n<p>[6]  William Navidi,\nStatistics\nfor Engineers and Scientists,\nMcGraw-Hill, 2011 (3rd\nEd.).</p>\n\n\n\n\n\n<br><p></p>",
+      "en": ""
+    },
+    "huongDanCachHoc": {
+      "vi": "",
+      "en": ""
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 9009,
+      "ma": "NG_KVT_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Kỹ Thuật Viễn Thông ",
+        "en": "Master Training Program in Telecommunications Engineering"
+      }
+    },
+    {
+      "id": 9930,
+      "ma": "NG_KDT_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Kỹ Thuật Điện Tử",
+        "en": "Master Training Program in Electronic Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 462,
+      "ma": "001727",
+      "ten": "ĐỖ HỒNG TUẤN"
+    },
+    {
+      "id": 466,
+      "ma": "001925",
+      "ten": "HÀ HOÀNG KHA"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0.4,
+    "thiNghiem": 0,
+    "baiTapLon": 0.6,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 12,
+    "thiNghiem": 0,
+    "baiTapLon": 27,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 66,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 20,
+    "thiNghiem": 0,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1040,
+      "maBoMon": "KTT",
+      "tenBoMon": {
+        "vi": "Viễn Thông"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "Phòng 113 B3 cơ sở 1",
+      "dienThoai": "0988649240"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 462,
+        "maGiangVien": "001727",
+        "tenGiangVien": "ĐỖ HỒNG TUẤN",
+        "emailGiangVien": "do-hong@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0.4_0_0.6_SDH",
+  "monhocdieukien": [
+    {
+      "maloaidieukien": "TQ",
+      "tenloaidieukien": {
+        "vi": "Tiên quyết",
+        "en": "Prerequisite"
+      },
+      "tenmonhoc": {
+        "vi": "EE2015 - Xử lý số Tín hiệu",
+        "en": "EE2015 - Digital Signal Processing"
+      },
+      "tenmonhoc_only": {
+        "vi": "Xử lý số Tín hiệu",
+        "en": "Digital Signal Processing"
+      },
+      "mamonhoc": "EE2015"
+    }
+  ],
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 89858,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 89859,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "89858",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      },
+      "noidung": {
+        "vi": "Bài tập về nhà",
+        "en": "Homework"
+      }
+    },
+    {
+      "id": 89860,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "89858",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Assignment"
+      }
+    },
+    {
+      "id": 89861,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "89858",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 111145,
+      "stt": 1,
+      "buoi": "Tuần 1, Chương 1",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Giới thiệu môn học. Trình bày các khái niệm cơ bản về xử lý số tín hiệu ngẫu nhiên.",
+        "en": "Course introduction. Present the fundamental concepts of digital processing of random signals."
+      }
+    },
+    {
+      "id": 111146,
+      "stt": 2,
+      "buoi": "Tuần 2, Chương 2",
+      "chuandaurachitiet": [
+        {
+          "id": 147730,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vấn đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240274,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích, tính toán các hàm tương quan và ma trận tương quan của tín hiệu ngẫu nhiên. ",
+              "en": "Analyze and compute the correlation functions and correlation matrices of random signals."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241600,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 241591,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147728,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vấn đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240275,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích, đánh giá các mô hình ngẫu nhiên AR, MA, ARMA.",
+              "en": "Analyze and evaluate AR, MA, and ARMA stochastic models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241594,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 241587,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Ôn tập về xác suất thống kê, biến ngẫu nhiên, và quá trình ngẫu nhiên. Giới thiệu các mô hình ngẫu nhiên (AR, MA, ARMA). ",
+        "en": "Review of probability and statistics, random variables, and stochastic processes. Introduction to stochastic models (AR, MA, ARMA)."
+      }
+    },
+    {
+      "id": 111147,
+      "stt": 3,
+      "buoi": "Tuần 3, Chương 2",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Ôn tập về xử lý tín hiệu rời rạc theo thời gian, các phép biến đổi (z, Fourier rời rạc), các hệ thống tuyến tính bất biến theo thời gian, các kiến trúc bộ lọc số, thiết kế bộ lọc số chọn lọc tần số.",
+        "en": "Review of discrete-time signal processing, transforms (z, discrete Fourier), linear time-invariant (LTI) systems, digital filter architectures, and frequency-selective digital filter design."
+      }
+    },
+    {
+      "id": 111148,
+      "stt": 4,
+      "buoi": "Tuần 4, Chương 3",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Phân tích phổ tín hiệu ngẫu nhiên và ứng dụng.",
+        "en": "Spectral analysis of random signals and applications."
+      }
+    },
+    {
+      "id": 111149,
+      "stt": 5,
+      "buoi": "Tuần 5, Chương 4",
+      "chuandaurachitiet": [
+        {
+          "id": 147727,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240276,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Đánh giá hiệu năng các giải thuật Wiener cho các ứng dụng: (1) nhận dạng/ước lượng hệ thống/mô hình; (2) nghịch đảo hệ thống; (3) dự đoán tuyến tính. ",
+              "en": "Evaluate the performance of Wiener algorithms for the following applications: (1) system/model identification/estimation; (2) system inversion; (3) linear prediction."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241585,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89861,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 241601,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 241589,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147725,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vấn đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240277,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Đánh giá hiệu năng các giải thuật LCMV, GSC kết hợp với xử lý dãy cho các ứng dụng: triệt nhiễu/can nhiễu, phân tập không gian.",
+              "en": "Evaluate the performance of LCMV and GSC algorithms combined with array processing for the applications of noise/interference cancellation and spatial diversity."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241596,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89861,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 241597,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 241602,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trình bày bộ lọc Wiener, LCMV và các ứng dụng.",
+        "en": "Presentation of Wiener and LCMV filters and their applications."
+      }
+    },
+    {
+      "id": 111150,
+      "stt": 6,
+      "buoi": "Tuần 6, Chương 2, 3, 4",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Thảo luận/Bài tập trên lớp cho các chương 2, 3, 4.",
+        "en": "Discussion/Classwork for Chapters 2, 3, and 4."
+      }
+    },
+    {
+      "id": 111151,
+      "stt": 7,
+      "buoi": "Tuần 7, Chương 5",
+      "chuandaurachitiet": [
+        {
+          "id": 147729,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vần đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240276,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Đánh giá hiệu năng các giải thuật Wiener cho các ứng dụng: (1) nhận dạng/ước lượng hệ thống/mô hình; (2) nghịch đảo hệ thống; (3) dự đoán tuyến tính. ",
+              "en": "Evaluate the performance of Wiener algorithms for the following applications: (1) system/model identification/estimation; (2) system inversion; (3) linear prediction."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241595,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89861,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 241604,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 241603,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trình bày về các bộ dự đoán tuyến tính, giải thuật Levinson-Durbin.",
+        "en": "Presentation of linear predictors and the Levinson-Durbin algorithm."
+      }
+    },
+    {
+      "id": 111152,
+      "stt": 8,
+      "buoi": "Tuần 8, Chương 5",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Thảo luận/Bài tập trên lớp cho chương 5.",
+        "en": "Discussion/Classwork for Chapter 5."
+      }
+    },
+    {
+      "id": 111153,
+      "stt": 9,
+      "buoi": "Tuần 9, Chương 6",
+      "chuandaurachitiet": [
+        {
+          "id": 147722,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vấn đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240278,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Đánh giá hiệu năng các giải thuật Kalman cho các ứng dụng: (1) nhận dạng/ước lượng hệ thống/mô hình bất biến và thay đổi theo thời gian; (2) các ứng dụng lọc và ước lượng tín hiệu ngẫu nhiên. ",
+              "en": "Evaluate the performance of Kalman algorithms for the following applications: (1) time-invariant and time-varying system/model identification/estimation; (2) random signal filtering and estimation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241592,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 241590,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trình bày bộ lọc Kalman và các ứng dụng.",
+        "en": "Presentation of Kalman filter and its applications."
+      }
+    },
+    {
+      "id": 111154,
+      "stt": 10,
+      "buoi": "Tuần 10, Chương 7",
+      "chuandaurachitiet": [
+        {
+          "id": 147723,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vấn đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240279,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Đánh giá hiệu năng các giải thuật thích nghi LMS và RLS cho các ứng dụng: (1) nhận dạng/ước lượng hệ thống/mô hình; (2) nghịch đảo hệ thống; (3) dự đoán tuyến tính; (4) triệt nhiễu/can nhiễu, phân tập không gian.",
+              "en": "Evaluate the performance of the LMS and RLS adaptive algorithms for the following applications: (1) system/model identification/estimation; (2) system inversion; (3) linear prediction; (4) noise/interference cancellation and spatial diversity."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241586,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 241605,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trình bày về các bộ lọc thích nghi (với các giải thuật LMS, RLS) và các ứng dụng.",
+        "en": "Presentation of adaptive filters (with LMS and RLS algorithms) and their applications."
+      }
+    },
+    {
+      "id": 111158,
+      "stt": 11,
+      "buoi": "Tuần 11, Chương 6, 7",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Thảo luận/Bài tập trên lớp cho các chương 6 và 7.",
+        "en": "Discussion/Classwork for Chapters 6 and 7."
+      }
+    },
+    {
+      "id": 111155,
+      "stt": 12,
+      "buoi": "Tuần 12, Chương 8",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Trình bày các khái niệm cơ bản về lý thuyết ước lượng. Giới thiệu về Cramer-Rao Lower Bound (CRLB).",
+        "en": "Presentation of the fundamental concepts of estimation theory. Introduction to the Cramer-Rao Lower Bound (CRLB)."
+      }
+    },
+    {
+      "id": 111156,
+      "stt": 13,
+      "buoi": "Tuần 13, Chương 8",
+      "chuandaurachitiet": [
+        {
+          "id": 147724,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vấn đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240280,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Phân tích, đánh giá hiệu năng các giải thuật ước lượng MVUE, BLUE, MLE.",
+              "en": "Analyze and evaluate the performance of the MVUE, BLUE, and MLE estimation algorithms."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241593,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89861,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 241588,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            },
+            {
+              "id": 241606,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147726,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Trình bày và phân tích vấn đề trên lớp.",
+            "en": "Presentation and analysis in class."
+          },
+          "hoatdongsinhvien": {
+            "vi": "Hiểu và trao đổi mở rộng.",
+            "en": "Comprehend and expand upon the topics."
+          },
+          "chuandaura": {
+            "id": 240281,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Phân tích, đánh giá hiệu năng các giải thuật ước lượng phổ tín hiệu ngẫu nhiên như:  periodogram, ước lượng phổ dựa trên thông số, ước lượng phổ độ phân giải cao. Ứng dụng ước lượng phổ để xác định tần số và hướng đến của các nguồn tín hiệu.",
+              "en": "Analyze and evaluate the performance of spectral estimation algorithms for random signals, such as: the periodogram, parametric spectral estimation, and high-resolution spectral estimation. Applications of spectral estimation for frequency estimation and direction-of-arrival estimation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241598,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89859,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập về nhà",
+                  "en": "Homework"
+                }
+              }
+            },
+            {
+              "id": 241599,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89860,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Assignment"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Trình bày các giải thuật ước lượng cơ bản: Minimum Variance Unbiased Estimate (MVUE), Best Linear Unbiased Estimate (BLUE), Maximum Likelihood Estimate (MLE). Trình bày các phương pháp ước lượng phổ tín hiệu ngẫu nhiên và ứng dụng.\n\n",
+        "en": "Presentation of basic estimation algorithms: Minimum Variance Unbiased Estimate (MVUE), Best Linear Unbiased Estimate (BLUE), and Maximum Likelihood Estimate (MLE). Presentation of spectral estimation methods for random signals and their applications."
+      }
+    },
+    {
+      "id": 111157,
+      "stt": 14,
+      "buoi": "Tuần 14, Chương 8",
+      "chuandaurachitiet": [],
+      "noidung": {
+        "vi": "Thảo luận/Bài tập trên lớp cho chương 8.",
+        "en": "Discussion/Classwork for Chapter 8."
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 240274,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phân tích, tính toán các hàm tương quan và ma trận tương quan của tín hiệu ngẫu nhiên. ",
+      "ten_en": "Analyze and compute the correlation functions and correlation matrices of random signals.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 240275,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích, đánh giá các mô hình ngẫu nhiên AR, MA, ARMA.",
+      "ten_en": "Analyze and evaluate AR, MA, and ARMA stochastic models.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 240276,
+      "ma": "L.O.2.1",
+      "ten_vi": "Đánh giá hiệu năng các giải thuật Wiener cho các ứng dụng: (1) nhận dạng/ước lượng hệ thống/mô hình; (2) nghịch đảo hệ thống; (3) dự đoán tuyến tính. ",
+      "ten_en": "Evaluate the performance of Wiener algorithms for the following applications: (1) system/model identification/estimation; (2) system inversion; (3) linear prediction.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 89861,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240277,
+      "ma": "L.O.2.2",
+      "ten_vi": "Đánh giá hiệu năng các giải thuật LCMV, GSC kết hợp với xử lý dãy cho các ứng dụng: triệt nhiễu/can nhiễu, phân tập không gian.",
+      "ten_en": "Evaluate the performance of LCMV and GSC algorithms combined with array processing for the applications of noise/interference cancellation and spatial diversity.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 89861,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240278,
+      "ma": "L.O.3.1",
+      "ten_vi": "Đánh giá hiệu năng các giải thuật Kalman cho các ứng dụng: (1) nhận dạng/ước lượng hệ thống/mô hình bất biến và thay đổi theo thời gian; (2) các ứng dụng lọc và ước lượng tín hiệu ngẫu nhiên. ",
+      "ten_en": "Evaluate the performance of Kalman algorithms for the following applications: (1) time-invariant and time-varying system/model identification/estimation; (2) random signal filtering and estimation.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 240279,
+      "ma": "L.O.3.2",
+      "ten_vi": "Đánh giá hiệu năng các giải thuật thích nghi LMS và RLS cho các ứng dụng: (1) nhận dạng/ước lượng hệ thống/mô hình; (2) nghịch đảo hệ thống; (3) dự đoán tuyến tính; (4) triệt nhiễu/can nhiễu, phân tập không gian.",
+      "ten_en": "Evaluate the performance of the LMS and RLS adaptive algorithms for the following applications: (1) system/model identification/estimation; (2) system inversion; (3) linear prediction; (4) noise/interference cancellation and spatial diversity.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    },
+    {
+      "id": 240280,
+      "ma": "L.O.4.1",
+      "ten_vi": "Phân tích, đánh giá hiệu năng các giải thuật ước lượng MVUE, BLUE, MLE.",
+      "ten_en": "Analyze and evaluate the performance of the MVUE, BLUE, and MLE estimation algorithms.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        },
+        {
+          "id": 89861,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240281,
+      "ma": "L.O.4.2",
+      "ten_vi": "Phân tích, đánh giá hiệu năng các giải thuật ước lượng phổ tín hiệu ngẫu nhiên như:  periodogram, ước lượng phổ dựa trên thông số, ước lượng phổ độ phân giải cao. Ứng dụng ước lượng phổ để xác định tần số và hướng đến của các nguồn tín hiệu.",
+      "ten_en": "Analyze and evaluate the performance of spectral estimation algorithms for random signals, such as: the periodogram, parametric spectral estimation, and high-resolution spectral estimation. Applications of spectral estimation for frequency estimation and direction-of-arrival estimation.",
+      "hddg": [
+        {
+          "id": 89859,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập về nhà",
+          "ten_en": "Homework"
+        },
+        {
+          "id": 89860,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Assignment"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Xử lý số tín hiệu nâng cao",
+  "tenmonhoc_eng": "Advanced Digital Signal Processing",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": null
+}

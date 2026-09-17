@@ -1,0 +1,1580 @@
+{
+  "ma": "DCMH.EE5441.1.1",
+  "phienban": "1.1",
+  "capnhat": "01/06/2026 14:59",
+  "khoa": {
+    "vi": "Khoa Điện - Điện tử",
+    "en": "Faculty of Electrical and Electronics Engineering"
+  },
+  "mamonhoc": "EE5441",
+  "ten": "EE5441 - Phân tích mạch điện tử trong hệ thống nhúng và vi mạch ",
+  "ten_eng": "EE5441 - Electronic Circuit Analysis for Embedded and IC Systems",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>\n\nHọc phần này nhằm trang bị cho người học nền tảng và phương pháp luận để phân tích, mô hình hóa và thiết kế các mạch điện tử cơ bản dùng trong hệ thống nhúng và vi mạch, với trọng tâm là mối liên hệ từ linh kiện bán dẫn → mô hình mạch → khối chức năng analog → ứng dụng trong hệ thống. Sau khi hoàn thành học phần, người học có khả năng:\n<br></p><ol><li>Giải thích bản chất vật lý, nguyên lý hoạt động và đặc tính điện của các linh kiện bán dẫn cơ bản như diode, BJT, MOSFET và các phần tử liên quan; từ đó lựa chọn mô hình phù hợp cho phân tích mạch trong các điều kiện làm việc khác nhau.\n</li><li>Mô hình hóa và phân tích mạch điện tử trong miền thời gian, miền tần số và quanh điểm làm việc, bao gồm phân cực DC, mô hình tín hiệu nhỏ, đáp ứng quá độ, đáp ứng biên độ–pha, cực–zero và băng thông; đồng thời biết sử dụng các công cụ giải tích và mô phỏng để kiểm chứng kết quả.\n</li><li>Phân tích và thiết kế các khối mạch analog cơ bản như tầng khuếch đại đơn, khuếch đại nhiều tầng, gương dòng, mạch phân cực, mạch vi sai, op-amp cơ bản, mạch lọc và các khối điều hòa tín hiệu; đánh giá các chỉ tiêu hiệu năng chính như hệ số khuếch đại, trở kháng vào/ra, dải tần, công suất tiêu thụ và độ tuyến tính.\n</li><li>Phân tích và đánh giá vai trò của phản hồi trong mạch điện tử, bao gồm ảnh hưởng của phản hồi đến độ lợi, độ ổn định, độ nhạy tham số, méo, nhiễu và đáp ứng tần số; từ đó hình thành tư duy thiết kế mạch đạt cân bằng giữa ổn định và hiệu năng.\n</li><li>Liên hệ kiến thức phân tích mạch với các bài toán giao tiếp tương tự–số trong hệ thống nhúng và vi mạch, như mạch giao tiếp cảm biến, khối tiền xử lý tín hiệu, bộ khuếch đại, lọc, tham chiếu, chuyển đổi dữ liệu và các khối front-end cơ bản; từ đó hiểu vai trò của mạch điện tử trong chuỗi tín hiệu của một hệ thống hoàn chỉnh.\n\n</li></ol><p></p>",
+      "en": "<p>\n\n</p><p>This course is designed to equip students with the foundational knowledge and methodological framework needed to analyze, model, and design basic electronic circuits used in \n\nEmbedded and IC Systems\n\n, with an emphasis on the progression from semiconductor devices → circuit models → analog functional blocks → system-level applications. Upon completion of the course, students will be able to:</p><p></p><ol><li>Explain the physical principles, operating mechanisms, and electrical characteristics of basic semiconductor devices such as diodes, BJTs, MOSFETs, and related components; and accordingly select appropriate models for circuit analysis under different operating conditions.</li><li>Model and analyze electronic circuits in the time domain, frequency domain, and around the operating point, including DC biasing, small-signal models, transient response, magnitude–phase response, poles and zeros, and bandwidth; and use analytical and simulation tools to verify results.</li><li>Analyze and design basic analog circuit building blocks, including single-stage and multistage amplifiers, current mirrors, bias circuits, differential amplifiers, basic op-amps, filters, and signal-conditioning blocks, and evaluate key performance metrics such as gain, input/output impedance, bandwidth, power consumption, and linearity.</li><li>Analyze and evaluate the role of feedback in electronic circuits, including its effects on gain, stability, parameter sensitivity, distortion, noise, and frequency response; thereby developing circuit design thinking that balances stability and performance.</li><li>Relate circuit analysis knowledge to analog–digital interfacing problems in embedded systems and microelectronics, such as sensor interface circuits, signal preconditioning blocks, amplifiers, filters, references, data conversion, and basic front-end blocks; thereby understanding the role of electronic circuits in the signal chain of a complete system.</li></ol><p></p>\n\n<br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>\n\nHọc phần cung cấp các kiến thức cốt lõi về linh kiện bán dẫn, mô hình mạch và phương pháp phân tích mạch điện tử trong các hệ thống nhúng và vi mạch. Nội dung bao gồm đặc tính của diode, BJT, MOSFET; phân tích phân cực DC, tín hiệu nhỏ, đáp ứng quá độ và đáp ứng tần số; các khối mạch analog cơ bản như khuếch đại đơn tầng, khuếch đại vi sai, gương dòng, mạch phản hồi và các mạch điều hòa tín hiệu. Học phần đồng thời nhấn mạnh mối liên hệ giữa phân tích mạch với các khối giao tiếp cảm biến, khối front-end tương tự, mạch khuếch đại, lọc và các mạch nguyên lý thường gặp trong hệ thống nhúng và vi mạch. Sinh viên được rèn luyện khả năng tính toán, mô phỏng, đánh giá và đề xuất phương án mạch phù hợp với các ràng buộc kỹ thuật cơ bản.\n\n<br></p>",
+      "en": "<p>\n\nThis course provides core knowledge of semiconductor devices, circuit models, and analytical methods for electronic circuits used in embedded systems and microelectronics. The contents include the characteristics of diodes, BJTs, and MOSFETs; DC biasing, small-signal analysis, transient response, and frequency response; and basic analog building blocks such as single-stage amplifiers, differential amplifiers, current mirrors, feedback circuits, and signal-conditioning circuits. The course also emphasizes the connection between circuit analysis and sensor interfaces, analog front-end blocks, amplification, filtering, and other schematic-level circuits commonly used in embedded and microelectronic systems. Students are trained to perform hand analysis, simulation, evaluation, and circuit-level design decisions under practical engineering constraints.\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n</p><p>[1] Sedra and Smith, <em>Microelectronic Circuits</em>, 8th edition, Oxford University Press, 2019.</p><p>[2] Donald Neamen, <em>Microelectronics Circuit Analysis and Design</em>, 4th edition, McGraw Hill, 2010.&nbsp;</p><p>[3] B. Razavi, <em>Fundamentals of Microelectronics</em>, 2nd edition, 2013.</p>\n\n<br><p></p>",
+      "en": "<p>\n\n</p><p>[1] Sedra and Smith, <em>Microelectronic Circuits</em>, 8th edition, Oxford University Press, 2019.</p><p>[2] Donald Neamen, <em>Microelectronics Circuit Analysis and Design</em>, 4th edition, McGraw Hill, 2010. </p><p>[3] B. Razavi, <em>Fundamentals of Microelectronics</em>, 2nd edition, 2013.</p>\n\n\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "",
+      "en": ""
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 9930,
+      "ma": "NG_KDT_TH",
+      "ten": {
+        "vi": "Chương Trình Đào Tạo Thạc Sĩ Ngành Kỹ Thuật Điện Tử",
+        "en": "Master Training Program in Electronic Engineering"
+      }
+    },
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 514,
+      "ma": "003176",
+      "ten": "TRẦN HOÀNG LINH"
+    },
+    {
+      "id": 513,
+      "ma": "003169",
+      "ten": "NGUYỄN LÝ THIÊN TRƯỜNG"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 70,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 30,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 1030,
+      "maBoMon": "DTU",
+      "tenBoMon": {
+        "vi": "Điện Tử"
+      },
+      "maKhoa": "DD",
+      "tenKhoa": {
+        "vi": "Khoa Điện - Điện tử",
+        "en": "Faculty of Electrical and Electronics Engineering"
+      },
+      "vanPhong": "203B3 - Bộ môn Điện tử, Khoa Điện – Điện tử",
+      "dienThoai": "0945303030"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 514,
+        "maGiangVien": "003176",
+        "tenGiangVien": "TRẦN HOÀNG LINH",
+        "emailGiangVien": "linhtran@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 89879,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 89880,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "89879",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập tính toán và mô phỏng cá nhân",
+        "en": "Individual calculation and simulation assignments"
+      },
+      "noidung": {
+        "vi": "Bài tập tính toán và mô phỏng cá nhân",
+        "en": "Individual calculation and simulation assignments"
+      }
+    },
+    {
+      "id": 89881,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "89879",
+      "loaihoatdong": {
+        "ma": "GPJ",
+        "ten": {
+          "vi": "Project nhóm",
+          "en": "Group project"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Big project"
+      },
+      "noidung": {
+        "vi": "Bài tập lớn",
+        "en": "Big project"
+      }
+    },
+    {
+      "id": 89882,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "89879",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kì",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 111183,
+      "stt": 1,
+      "buoi": "Tuần 1",
+      "chuandaurachitiet": [
+        {
+          "id": 147766,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240313,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Giải thích được nguyên lý hoạt động của các linh kiện bán dẫn cơ bản",
+              "en": "Explain the operating principles of basic semiconductor devices"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241683,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241695,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147770,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240314,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích được các đặc tuyến V-I và các miền làm việc cơ bản của linh kiện bán dẫn",
+              "en": "Analyze V-I characteristics and basic operating regions of semiconductor devices"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241684,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241685,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241697,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89882,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": " Chương 1: Linh kiện bán dẫn cơ bản\n- Ôn tập vật lý bán dẫn cần thiết cho phân tích mạch\n- BJT: nguyên lý hoạt động, các miền làm việc, đặc tuyến cơ bản\n- MOSFET: nguyên lý hoạt động, các miền làm việc, đặc tuyến cơ bản\n- So sánh BJT và MOSFET trong phân tích và thiết kế mạch\n- Các yếu tố vật lý và điện ảnh hưởng đến hành vi linh kiện",
+        "en": "Chapter 1:Basic Semiconductor Devices\n- Review of semiconductor physics relevant to circuit analysis\n- BJTs: operating principles, operating regions, and basic characteristics\n- MOSFETs: operating principles, operating regions, and basic characteristics\n- Comparison of BJTs and MOSFETs in circuit analysis and design\n- Physical and electrical factors affecting device behavior"
+      }
+    },
+    {
+      "id": 111188,
+      "stt": 2,
+      "buoi": "Tuần 2",
+      "chuandaurachitiet": [
+        {
+          "id": 147772,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240315,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Thiết lập được điểm làm việc DC và phân tích phân cực của mạch",
+              "en": "Determine DC operating points and analyze circuit biasing"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241671,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241690,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241672,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89882,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 2: Điểm làm việc DC và phân cực mạch\n- Khái niệm điểm làm việc và ý nghĩa trong phân tích mạch\n- Phân cực DC cho diode, BJT và MOSFET\n- Ổn định phân cực và ảnh hưởng của sai lệch tham số\n- Liên hệ giữa điểm làm việc DC và khả năng khuếch đại của mạch\n- Phân tích phân cực trong các cấu trúc mạch cơ bản",
+        "en": "Chapter 2: DC Operating Point and Biasing\n- The concept of operating point and its significance in circuit analysis\n- DC biasing of diode, BJT, and MOSFET circuits\n- Bias stability and the effects of parameter variations\n- The relationship between the DC operating point and circuit amplification capability\n- Bias analysis in basic circuit topologies"
+      }
+    },
+    {
+      "id": 111181,
+      "stt": 3,
+      "buoi": "Tuần 3",
+      "chuandaurachitiet": [
+        {
+          "id": 147767,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240316,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Xây dựng và sử dụng được mô hình tín hiệu nhỏ để phân tích độ lợi, trở kháng và đáp ứng mạch",
+              "en": "Build and use small-signal models to analyze gain, impedance, and circuit response"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241698,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241687,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241673,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89882,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 3: Mô hình tín hiệu nhỏ, độ lợi và trở kháng\n- Tuyến tính hóa quanh điểm làm việc\n- Mô hình tín hiệu nhỏ của diode, BJT, MOSFET\n- Điều kiện áp dụng mô hình tín hiệu nhỏ\n- Thiết lập sơ đồ tương đương tín hiệu nhỏ của linh kiện và mạch cơ bản\n- Phân tích độ lợi điện áp, độ lợi dòng điện, trở kháng vào và trở kháng ra\n- Ảnh hưởng của nguồn tín hiệu và tải",
+        "en": "Chapter 3: Small-Signal Modeling, Gain, and Impedance\n- Linearization around the operating point\n- Small-signal models of diodes, BJTs, and MOSFETs\n- Conditions for applying small-signal models\n- Construction of small-signal equivalent circuits for devices and basic circuits\n- Analysis of voltage gain, current gain, input impedance, and output impedance\n- Effects of the signal source and load"
+      }
+    },
+    {
+      "id": 111182,
+      "stt": 4,
+      "buoi": "Tuần 4 ",
+      "chuandaurachitiet": [
+        {
+          "id": 147763,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240318,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Phân tích được các tầng khuếch đại cơ bản dùng BJT hoặc MOSFET",
+              "en": "Analyze basic amplifier stages using BJTs or MOSFETs"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241674,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241675,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241691,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89882,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 4: Các tầng khuếch đại cơ bản dùng BJT và MOSFET\n- Common-emitter / common-source\n- Emitter follower / source follower\n- Common-base / common-gate\n- So sánh độ lợi, trở kháng vào/ra và miền ứng dụng\n- Lựa chọn tầng khuếch đại theo yêu cầu kỹ thuật",
+        "en": "Chapter 4: Basic BJT and MOSFET Amplifier Stages\n- Common-emitter and common-source stages\n- Emitter follower and source follower stages\n- Common-base and common-gate stages\n- Comparison of gain, input/output impedance, and application domains\n- Selection of amplifier stages based on technical requirements"
+      }
+    },
+    {
+      "id": 111187,
+      "stt": 5,
+      "buoi": "Tuần 5",
+      "chuandaurachitiet": [
+        {
+          "id": 147764,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240317,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Phân tích được đáp ứng biên độ–pha, cực–zero và băng thông trong miền tần số",
+              "en": "Analyze magnitude-phase response, poles-zeros, and bandwidth in the frequency domain"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241676,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241688,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241677,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89882,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 5: Đáp ứng mạch, cực–zero và giản đồ Bode\n- Khái niệm circuit response trong miền tần số\n- Đáp ứng biên độ–pha\n- Cực–zero và ý nghĩa vật lý\n- Băng thông\n- Ảnh hưởng của điện dung ký sinh\n- Giản đồ Bode và cách khai thác trong phân tích mạch khuếch đại",
+        "en": "Chapter 5: Circuit Response, Poles–Zeros, and Bode Plots\n- The concept of circuit response in the frequency domain\n- Magnitude and phase response\n- Poles, zeros, and their physical significance\n- Bandwidth\n- Effects of parasitic capacitances\n- Bode plots and their use in amplifier circuit analysis"
+      }
+    },
+    {
+      "id": 111186,
+      "stt": 6,
+      "buoi": "Tuần 6+7",
+      "chuandaurachitiet": [
+        {
+          "id": 147769,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240319,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Thiết kế sơ bộ được các khối mạch như khuếch đại liên tầng, vi sai, gương dòng và mạch phân cực",
+              "en": "Perform preliminary design of building blocks such as multistage amplifiers, differential amplifiers, current mirrors, and bias circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241689,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241686,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241682,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89882,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 6: Các khối analog cơ bản\n- Khuếch đại liên tầng\n- Khuếch vi sai\n- Mạch gương dòng và các ứng dụng cơ bản\n- Mạch phân cực và phân phối dòng/áp tham chiếu\n- Giới thiệu op-amp cơ bản ở mức khối chức năng",
+        "en": "Chapter 6: Fundamental Analog Building Blocks\n- Multistage amplifiers\n- Differential amplifiers\n- Current mirrors and their basic applications\n- Bias circuits and reference current/voltage distribution\n- Introduction to basic operational amplifiers at the functional-block level"
+      }
+    },
+    {
+      "id": 111184,
+      "stt": 7,
+      "buoi": "Tuần 8+9",
+      "chuandaurachitiet": [
+        {
+          "id": 147773,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240320,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Tính toán được các thông số độ lợi và trở kháng của mạch phản hồi",
+              "en": "Calculate the gain and impedance parameters of feedback circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241700,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241680,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            },
+            {
+              "id": 241678,
+              "stt": 3,
+              "hoatdongdanhgia": {
+                "id": 89882,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147762,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240321,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Đánh giá được ảnh hưởng của phản hồi đến ổn định và đáp ứng tần số của mạch",
+              "en": "Evaluate the effect of feedback on circuit stability and frequency response"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241701,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241692,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 7: Phản hồi trong mạch điện tử\n- Các dạng phản hồi cơ bản\n- Tính toán các thông số độ lợi và trở kháng của mạch phản hồi\n- Ảnh hưởng của phản hồi đến méo, nhiễu và độ tuyến tính\n- Đánh đổi giữa độ lợi, băng thông và độ ổn định\n- Định hướng sử dụng phản hồi trong thiết kế mạch analog",
+        "en": "Chapter 7: Feedback in Electronic Circuits\n- Basic feedback topologies\n- Calculation of the gain and impedance parameters of feedback circuits\n- Effects of feedback on distortion, noise, and linearity\n- Trade-offs among gain, bandwidth, and stability\n- Guidelines for the use of feedback in analog circuit design"
+      }
+    },
+    {
+      "id": 111185,
+      "stt": 8,
+      "buoi": "Tuần 10",
+      "chuandaurachitiet": [
+        {
+          "id": 147768,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240322,
+            "ma": "L.O.5.1",
+            "ten": {
+              "vi": "Phân tích được vai trò của các khối mạch điện tử trong các mạch của hệ thống vi mạch và hệ thống nhúng",
+              "en": "Analyze the roles of electronic circuit blocks in the circuits of IC and embedded systems"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241679,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241699,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147771,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240323,
+            "ma": "L.O.5.2",
+            "ten": {
+              "vi": "Lựa chọn được cấu trúc mạch phù hợp cho các bài toán giao tiếp cảm biến, khuếch đại và mạch nguồn",
+              "en": "Select suitable circuit structures for sensor interfacing, amplification and power supply circuits"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241693,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241681,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 147765,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Trình bày slide bài giảng\n- Tải slide lên LMS\n\n",
+            "en": "- Presenting lecture slides\n- Upload slides to LMS\n\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Xem lại bài giảng\n- In ra các slide thiết yếu\n- Tự tóm tắt\n- Làm bài tập về nhà\n\n",
+            "en": "- Review the lecture materials\n- Print the essential slides\n- Summarize the key contents independently\n- Complete the assigned homework exercises"
+          },
+          "chuandaura": {
+            "id": 240324,
+            "ma": "L.O.5.3",
+            "ten": {
+              "vi": "Đánh giá được mạch nguyên lý theo các ràng buộc cơ bản như độ chính xác, tốc độ, công suất và độ ổn định",
+              "en": "Evaluate schematic-level circuits under constraints such as accuracy, speed, power, and stability"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 241694,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 89880,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập tính toán và mô phỏng cá nhân",
+                  "en": "Individual calculation and simulation assignments"
+                }
+              }
+            },
+            {
+              "id": 241696,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 89881,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Big project"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Chương 8: Ứng dụng của mạch điện tử trong hệ thống vi mạch và hệ thống nhúng\n- Mạch khuếch đại ứng dụng trong xử lý tín hiệu \n- Mạch giao tiếp cảm biến\n- Mạch nguồn",
+        "en": "Chapter 8: Applications of Electronic Circuits in IC and Embedded Systems\n- Amplifier circuits for signal processing applications\n- Sensor interface circuits\n- Power supply circuits"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 240313,
+      "ma": "L.O.1.1",
+      "ten_vi": "Giải thích được nguyên lý hoạt động của các linh kiện bán dẫn cơ bản",
+      "ten_en": "Explain the operating principles of basic semiconductor devices",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240314,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích được các đặc tuyến V-I và các miền làm việc cơ bản của linh kiện bán dẫn",
+      "ten_en": "Analyze V-I characteristics and basic operating regions of semiconductor devices",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89882,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240315,
+      "ma": "L.O.2.1",
+      "ten_vi": "Thiết lập được điểm làm việc DC và phân tích phân cực của mạch",
+      "ten_en": "Determine DC operating points and analyze circuit biasing",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89882,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240316,
+      "ma": "L.O.2.2",
+      "ten_vi": "Xây dựng và sử dụng được mô hình tín hiệu nhỏ để phân tích độ lợi, trở kháng và đáp ứng mạch",
+      "ten_en": "Build and use small-signal models to analyze gain, impedance, and circuit response",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89882,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240317,
+      "ma": "L.O.2.3",
+      "ten_vi": "Phân tích được đáp ứng biên độ–pha, cực–zero và băng thông trong miền tần số",
+      "ten_en": "Analyze magnitude-phase response, poles-zeros, and bandwidth in the frequency domain",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89882,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240318,
+      "ma": "L.O.3.1",
+      "ten_vi": "Phân tích được các tầng khuếch đại cơ bản dùng BJT hoặc MOSFET",
+      "ten_en": "Analyze basic amplifier stages using BJTs or MOSFETs",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89882,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240319,
+      "ma": "L.O.3.2",
+      "ten_vi": "Thiết kế sơ bộ được các khối mạch như khuếch đại liên tầng, vi sai, gương dòng và mạch phân cực",
+      "ten_en": "Perform preliminary design of building blocks such as multistage amplifiers, differential amplifiers, current mirrors, and bias circuits",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89882,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240320,
+      "ma": "L.O.4.1",
+      "ten_vi": "Tính toán được các thông số độ lợi và trở kháng của mạch phản hồi",
+      "ten_en": "Calculate the gain and impedance parameters of feedback circuits",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        },
+        {
+          "id": 89882,
+          "ma": "A.O.3",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 240321,
+      "ma": "L.O.4.2",
+      "ten_vi": "Đánh giá được ảnh hưởng của phản hồi đến ổn định và đáp ứng tần số của mạch",
+      "ten_en": "Evaluate the effect of feedback on circuit stability and frequency response",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240322,
+      "ma": "L.O.5.1",
+      "ten_vi": "Phân tích được vai trò của các khối mạch điện tử trong các mạch của hệ thống vi mạch và hệ thống nhúng",
+      "ten_en": "Analyze the roles of electronic circuit blocks in the circuits of IC and embedded systems",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240323,
+      "ma": "L.O.5.2",
+      "ten_vi": "Lựa chọn được cấu trúc mạch phù hợp cho các bài toán giao tiếp cảm biến, khuếch đại và mạch nguồn",
+      "ten_en": "Select suitable circuit structures for sensor interfacing, amplification and power supply circuits",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    },
+    {
+      "id": 240324,
+      "ma": "L.O.5.3",
+      "ten_vi": "Đánh giá được mạch nguyên lý theo các ràng buộc cơ bản như độ chính xác, tốc độ, công suất và độ ổn định",
+      "ten_en": "Evaluate schematic-level circuits under constraints such as accuracy, speed, power, and stability",
+      "hddg": [
+        {
+          "id": 89880,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập tính toán và mô phỏng cá nhân",
+          "ten_en": "Individual calculation and simulation assignments"
+        },
+        {
+          "id": 89881,
+          "ma": "A.O.2",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Big project"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phân tích mạch điện tử trong hệ thống nhúng và vi mạch ",
+  "tenmonhoc_eng": "Electronic Circuit Analysis for Embedded and IC Systems",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 2,
+      "ma": "pphtqda",
+      "ten": {
+        "vi": "Phương pháp học tập qua dự án",
+        "en": "Project-based learning"
+      }
+    },
+    {
+      "id": 4,
+      "ma": "pphtqnc",
+      "ten": {
+        "vi": "Phương pháp học tập qua nghiên cứu",
+        "en": "Research-based learning "
+      }
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+{
+  "ma": "DCMH.CO5127.1.1",
+  "phienban": "1.1",
+  "capnhat": "11/09/2026 15:28",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO5127",
+  "ten": "CO5127 - Phương pháp thiết kế vi mạch",
+  "ten_eng": "CO5127 - Hardware Design Methodologies",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 6,
+      "ma": "SDH",
+      "ten": {
+        "vi": "Sau đại học",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 21,
+      "ma": "CN",
+      "ten": {
+        "vi": "Chuyên Ngành"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Chuẩn bị kiến thức cơ bản cho HV cho lĩnh vực thiết kế và hiện thực vi mạch ASIC/FPGA, bao gồm các vấn đề định thời, tối ưu hiệu suất và công suất, kiểm định và kiểm tra sản xuất \n<br>\n\n\n<br></p>",
+      "en": "<p>To give the student an understanding of issues and tools related to ASIC/FPGA design and implementation, including timing, performance and power optimization, verification and manufacturing test \n<br>\n\n\n<br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Mục đích của môn học là giới thiệu các khái niệm và phương pháp quan trọng liên quan đến việc thiết kế, kiểm tra và hiện thực các mạch tích hợp số có ứng dụng đặc thù (ASIC). Qui trình thiết kế vi mạch bắt đầu từ các đặc tả hành vi hoặc cấu trúc vi mạch bằng ngôn ngữ HDL. Môn học tập trung vào việc thiết kế vi mạch ở mức RTL, nhưng cũng đề cập đến vấn đề mô hình hóa, thiết kế cho việc tái sử dụng, thiết kế cho việc kiểm tra, thiết kế cho công suất thấp và kiểm tra thiết kế. Môn học có các bài thực tập quan trọng. Mục đích của các bài thí nghiệm là cung cấp một số kinh nghiệm với các công đoạn thiết kế và kiểm tra ASIC. Ngôn ngữ Verilog được sử dụng như ngôn ngữ đặc tả và mô phỏng vi mạch. Các công cụ dùng trong công nghiệp được sử dụng cho việc mô phỏng và tổng hợp mạch. \n<br>\n\n\n<br></p>",
+      "en": "<p>The main goal of this course is to introduce definitions and methods for designing, testing, and implementing application-specific integrated circuits (ASIC). The design flow starts with the structure or behavioral desciptions with HDL. The course mainly focuses on designing circuits at the RTL level. Besides, modeling, design reusing, design for testing, low power design and testing topics are also discussed. \n<br>\n\n\n<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>\n\n</p><div>Giáo trình:</div><div>1. M.&nbsp; J. Smith, “Application-Specific Integrated Circuits”, Addison Wesley, 2018</div>\n\n\n\n\n\n<p>Tài liệu tham khảo:</p><p></p><p></p>2.&nbsp; M.D. Ciletti, “Advanced Digital Design with the Verilog HDL”, \n\nPearson India, 2017.<br>3. D.R. Smith and P.D. Franzon, “Verilog Styles for Synthesis of Digital Systems”, Pearson Education, 2000. \n<br>\n\n\n<br><p></p>",
+      "en": "<p>\n\n</p><div>\n\nTextbook:\n\n</div><div>1. M.  J. Smith, “Application-Specific Integrated Circuits”, Addison Wesley, 2018</div>\n\n\n\n\n\n<p>\n\nReference books:\n\n</p><p></p><p></p>2.  M.D. Ciletti, “Advanced Digital Design with the Verilog HDL”, \n\nPearson India, 2017.<br>3. D.R. Smith and P.D. Franzon, “Verilog Styles for Synthesis of Digital Systems”, Pearson Education, 2000. \n<br>\n\n<br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>\n\nTham dự giờ giảng trên lớp + làm bài tập, chấm điểm chuyên cần ( 20%)<br>Báo cáo tiểu luận/BT Lớn : nộp báo cáo, đánh giá thuyết trình (30%)<br>Thi cuối kỳ (50%)\n\n<br></p>",
+      "en": "<p>\n\nAttending classes + completing assignments (20%)<br>Projects: Reports, Presentations and Evaluations (30%)<br>Final Exam (50%)\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1146,
+      "ma": "002765",
+      "ten": "PHẠM QUỐC CƯỜNG"
+    },
+    {
+      "id": 1139,
+      "ma": "001897",
+      "ten": "TRẦN NGỌC THỊNH"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.17,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 21,
+        "ma": "TN2",
+        "text": {
+          "vi": "Trắc nghiệm (chấm máy)",
+          "en": "Multiple choice (MCQ)"
+        }
+      },
+      "thoiGian": {
+        "id": 3,
+        "ma": "70",
+        "thoigian": 70,
+        "text": {
+          "vi": "70 phút",
+          "en": "70 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 50,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 50,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 967,
+      "maBoMon": "KTM",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Nhà A3, Khoa Khoa học & Kỹ thuật Máy tính",
+      "dienThoai": "0283 8647 256 - ext: 7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1139,
+        "maGiangVien": "001897",
+        "tenGiangVien": "TRẦN NGỌC THỊNH",
+        "emailGiangVien": "tnthinh@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 97567,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 97568,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "97567",
+      "loaihoatdong": {
+        "ma": "GHW",
+        "ten": {
+          "vi": "Bài tập nhóm về nhà",
+          "en": "Group homework"
+        }
+      },
+      "ten": {
+        "vi": "Bài tập lớn",
+        "en": "Projects"
+      },
+      "noidung": {
+        "vi": "Bản báo cáo bài tập lớn, và các nhóm trình bày trên lớp.",
+        "en": "The reports are for the projects, and the groups present them in class."
+      }
+    },
+    {
+      "id": 97569,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "97567",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kỳ",
+        "en": "Final exam"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 121778,
+      "stt": 1,
+      "buoi": "1,2",
+      "chuandaurachitiet": [
+        {
+          "id": 162910,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to Lectures"
+          },
+          "chuandaura": {
+            "id": 193770,
+            "ma": "L.O.3",
+            "ten": {
+              "vi": "L.O.3 - Sinh viên sẽ chứng tỏ sự hiểu biết về các vấn đề liên quan đến thiết kế ASIC, bao gồm cả sự lựa chọn công nghệ, quản lý thiết kế, công cụ, xác minh, gỡ lỗi và kiểm tra, cũng như tác động của việc nhân rộng công nghệ về thiết kế ASIC",
+              "en": "L.O.3 - Students will demonstrate an understanding of issues involved in ASIC design, including technology choice, design management, tool-flow, verification, debug and test, as well as the impact of technology scaling on ASIC design"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268865,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97569,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 268863,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97568,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Projects"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Giới thiệu về thiết kế vi mạch ASIC\n- Các loại vi mạch ASIC: Fullcustom, standard cell-based, Gatearray-based- Economics of ASIC",
+        "en": "Introduction to ASIC integrated circuit design\nTypes of ASIC integrated circuits: Fullcustom, standard cell-based, Gatearray-based- Economics of ASIC"
+      }
+    },
+    {
+      "id": 121781,
+      "stt": 2,
+      "buoi": "3,4",
+      "chuandaurachitiet": [
+        {
+          "id": 162911,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lectures"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to Lectures"
+          },
+          "chuandaura": {
+            "id": 193724,
+            "ma": "L.O.2",
+            "ten": {
+              "vi": "L.O.2 - Sinh viên sẽ thể hiện một sự hiểu biết làm thế nào để tối ưu hóa hiệu suất, diện tích và năng lượng của một khối chức năng kỹ thuật số phức tạp, và sự cân bằng giữa các khối này",
+              "en": "L.O.2 - Students will demonstrate an understanding of how to optimize the performance, area, and power of a complex digital functional block, and the tradeoffs between these"
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268866,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97569,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            },
+            {
+              "id": 268862,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97568,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Projects"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Định thời thiết kế\nGiới thiệu về định thời\nCác giải thuật và phương pháp định thời",
+        "en": "Design timing\nIntroduction to timing\nTiming algorithms and methods"
+      }
+    },
+    {
+      "id": 121780,
+      "stt": 3,
+      "buoi": "5-8",
+      "chuandaurachitiet": [
+        {
+          "id": 162909,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng\nHướng dẫn thực hành",
+            "en": "Lectures\nPractical Instruction"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng\nThực hành",
+            "en": "Listen to lectures\nPractice"
+          },
+          "chuandaura": {
+            "id": 193714,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "L.O.1 - Sinh viên sẽ có thể thiết kế và tổng hợp một khối chức năng kỹ thuật số phức tạp, bao gồm hơn 1.000 cổng, sử dụng Verilog HDL và phần mềm thiết kế Synopsys",
+              "en": "L.O.1 - Students will be able to design and synthesize a complex digital functional block, containing over 1,000 gates, using V erilog HDL and Synopsys Design Compiler."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268864,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97568,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Projects"
+                }
+              }
+            },
+            {
+              "id": 268868,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97569,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thiết kế mạch số dùng Verilog\nHành vi nhạy cạnh\nHành vi nhạy mức\nCác vấn đề nâng cao trong thiết kế vi mạch với Verilog",
+        "en": "Digital circuit design using Verilog\nEdge-sensitive behavior\nLevel-sensitive behavior\nAdvanced issues in integrated circuit design with Verilog"
+      }
+    },
+    {
+      "id": 121779,
+      "stt": 4,
+      "buoi": "9,10",
+      "chuandaurachitiet": [
+        {
+          "id": 162908,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng\nHướng dẫn Bài tập lớn",
+            "en": "Lecture\nGuidance for projects"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng\nThực hiện bài tập lớn",
+            "en": "Listen to lectures\nComplete projects"
+          },
+          "chuandaura": {
+            "id": 193714,
+            "ma": "L.O.1",
+            "ten": {
+              "vi": "L.O.1 - Sinh viên sẽ có thể thiết kế và tổng hợp một khối chức năng kỹ thuật số phức tạp, bao gồm hơn 1.000 cổng, sử dụng Verilog HDL và phần mềm thiết kế Synopsys",
+              "en": "L.O.1 - Students will be able to design and synthesize a complex digital functional block, containing over 1,000 gates, using V erilog HDL and Synopsys Design Compiler."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 268869,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 97568,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Bài tập lớn",
+                  "en": "Projects"
+                }
+              }
+            },
+            {
+              "id": 268867,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 97569,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kỳ",
+                  "en": "Final exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Thiết kế hệ thống phức tạp\nQuản lý phân cấp thiết kế",
+        "en": "Designing complex systems\nManaging design hierarchy"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 193714,
+      "ma": "L.O.1",
+      "ten_vi": "L.O.1 - Sinh viên sẽ có thể thiết kế và tổng hợp một khối chức năng kỹ thuật số phức tạp, bao gồm hơn 1.000 cổng, sử dụng Verilog HDL và phần mềm thiết kế Synopsys",
+      "ten_en": "L.O.1 - Students will be able to design and synthesize a complex digital functional block, containing over 1,000 gates, using V erilog HDL and Synopsys Design Compiler.",
+      "hddg": [
+        {
+          "id": 97568,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Projects"
+        },
+        {
+          "id": 97569,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 193724,
+      "ma": "L.O.2",
+      "ten_vi": "L.O.2 - Sinh viên sẽ thể hiện một sự hiểu biết làm thế nào để tối ưu hóa hiệu suất, diện tích và năng lượng của một khối chức năng kỹ thuật số phức tạp, và sự cân bằng giữa các khối này",
+      "ten_en": "L.O.2 - Students will demonstrate an understanding of how to optimize the performance, area, and power of a complex digital functional block, and the tradeoffs between these",
+      "hddg": [
+        {
+          "id": 97568,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Projects"
+        },
+        {
+          "id": 97569,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    },
+    {
+      "id": 193770,
+      "ma": "L.O.3",
+      "ten_vi": "L.O.3 - Sinh viên sẽ chứng tỏ sự hiểu biết về các vấn đề liên quan đến thiết kế ASIC, bao gồm cả sự lựa chọn công nghệ, quản lý thiết kế, công cụ, xác minh, gỡ lỗi và kiểm tra, cũng như tác động của việc nhân rộng công nghệ về thiết kế ASIC",
+      "ten_en": "L.O.3 - Students will demonstrate an understanding of issues involved in ASIC design, including technology choice, design management, tool-flow, verification, debug and test, as well as the impact of technology scaling on ASIC design",
+      "hddg": [
+        {
+          "id": 97568,
+          "ma": "A.O.1",
+          "ten_vi": "Bài tập lớn",
+          "ten_en": "Projects"
+        },
+        {
+          "id": 97569,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kỳ",
+          "ten_en": "Final exam"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Phương pháp thiết kế vi mạch",
+  "tenmonhoc_eng": "Hardware Design Methodologies",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 0,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 1,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}

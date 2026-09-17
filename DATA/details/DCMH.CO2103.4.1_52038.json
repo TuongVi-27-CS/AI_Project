@@ -1,0 +1,2009 @@
+{
+  "ma": "DCMH.CO2103.4.1",
+  "phienban": "4.1",
+  "capnhat": "28/05/2026 13:42",
+  "khoa": {
+    "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "en": "Faculty of Computer Science and Engineering"
+  },
+  "mamonhoc": "CO2103",
+  "ten": "CO2103 - Mạch điện - điện tử",
+  "ten_eng": "CO2103 - Electrical Electronic Circuits",
+  "hockyapdung": "HK261",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 2,
+      "ma": "DH",
+      "ten": {
+        "vi": "Đại học",
+        "en": "Undergraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học giới thiệu các kiến thức cơ bản về nguyên lý hoạt động của các linh kiện điện tử như điện trở, tụ điện, diode, BJT và FET. Dựa vào các kiến thức này, sinh viên được cung cấp những kĩ năng cơ bản liên quan đến thiết kế một số mạch ứng dụng đơn giản như các mạch liên quan đến hiển thị sử dụng đèn LED, các mạch liên quan đến cảm biến. Thông qua việc thực hành, sinh viên sẽ có khả năng thiết kế nguyên lý và bảng mạch in cho một số ứng dụng đơn giản. Sinh viên cũng có khả năng kiểm thử và đánh giá các bo mạch điện tử đơn giản bằng các phương pháp đo đạc và lập trình, liên quan đến các thông số như điện áp, dòng điện và công suất của mạch điện.<br><br><br>Trong môn học này, các bài thực hành sẽ hướng đến một số project nhỏ, là các mạch vi điều khiển hoặc các mạch mở rộng có khả năng tích hợp lên các nền tảng sử dụng vi điều khiển phổ biến. Với mỗi bài thực hành, sinh viên cần phải:<br></p><ul><li>Thiết kế và hiện thực một mạch vi điều khiển hoặc một Shield mở rộng có thể tích hợp với các bo mạch khác có sẵn.</li><li>Đo đạc các thông số như điện áp, dòng điện.</li><li>Lập trình cho vi điều khiển để tương tác với mạch mở rộng.</li></ul><br><p></p>",
+      "en": "<p><i></i>This course introduces the basic electrical concepts and explains the operating principles of electronic components such as resistors, capacitors, diodes, BJTs, and FETs. Thanks to the knowledge and skills provided by the course, students are equipped with the ability to design simple application electronic circuits such as LED drivers and sensor readers. Besides, by finishing the Lab exercises, students are expected to be able to do the schematic and printed circuit board (PCB) designs for simple electronic application circuits using CAD tools. In addition, students are also expected to have the ability to conduct measurements and use programming methods to assess several metrics and parameters such as voltages, currents, and powers to test and evaluate the circuits' efficiency.<br><br>In this course, every Lab exercise is an assignment to make a microcontroller (MCU) board or an extension shield for common MCU platforms. During these exercises, students have to: <br></p><ul><li>Design the schematic, layout the PCB, and then implement an MCU board or an extension shield compatible with existing boards, so they can be integrated.</li><li>Measure voltages and currents on the implemented circuit board.</li><li>Program MCUs to work with the shield.</li></ul><br><p></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Các nội dung chính bao gồm:<br>•  Giới thiệu về Linh kiện mạch điện tử<br>•  Giới thiệu những nguyên lý cơ bản về mạch điện<br>•  Thiết kế và Layout mạch điện với công cụ CAD<br>•  Kiểm thử mạch điện bằng các máy đo <br>•  Lập trình để kiểm tra chức năng của hệ thống<br><br></p>",
+      "en": "<p>The course covers:<br></p><ul><li>Introduction to electronic components.</li><li>Introduction to basic electronic principles.</li><li>Design the schematic and the PCB layout using CAD tools.</li><li>Testing and assessment using measurement equipment.</li><li>Programming for system's functionalities testing.</li></ul><br><p></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p>Sách, Giáo trình chính:<br><strong>[1]</strong> R. L. Boylestad and L. Nashelsky, <em>Electronic Devices and Circuit Theory</em>, 11th ed. Pearson Education, 2014.</p><p></p><p><strong>[2]</strong> A. S. Sedra and K. C. Smith, <em>Microelectronic Circuits</em>, 7th ed. Oxford University Press, 2016.</p><p></p>",
+      "en": "<p>Main textbooks:<br>\n\n</p><p><strong>[1]</strong> R. L. Boylestad and L. Nashelsky, <em>Electronic Devices and Circuit Theory</em>, 11th ed. Pearson Education, 2014.</p><p></p><p><strong>[2]</strong> A. S. Sedra and K. C. Smith, <em>Microelectronic Circuits</em>, 7th ed. Oxford University Press, 2016.</p><p></p>\n\n<br><br><p></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Sinh viên tham gia các buổi học lý thuyết, làm bài tập tại lớp và tại nhà. Sinh viên học kỹ năng mô phỏng, phân tích mạch để kiểm tra kết quả tính tay. Ngoài ra, sinh viên được phân vào các nhóm thực hiện một bài tập lớn, thiết kế các mạch ứng dụng theo yêu cầu và sử dụng kết quả mô phỏng để chứng minh.<br>•  Bài tập: 0%<br>•  Thí nghiệm: 20%<br>•  Kiểm tra: 20%<br>•  Bài tập lớn/ Tiểu luận: 20%<br>•  Thi: 40%</p><p>Liêm chính học thuật và sử dụng công cụ AI<br></p><ul><li>Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.</li><li>Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảo ý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặc phần lớn nội dung.</li><li>Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.</li><li>Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.&nbsp;</li></ul><p></p>",
+      "en": "<p>Students have to attend theory classes and do classroom assignments as well as homework and assignments. To achieve a satisfactory achievement, they should frequently practice simulation and analyzing skills to validate the paper analyses and calculations.<br></p><ul><li>Classroom exercises: 0%</li><li>Lab exercises: 20%</li><li>Mid-term exam: 20%</li><li>Assignments: 20%</li><li>Final exam: 40%</li></ul>Academic Integrity and Use of AI Tools<br><br><ul><li>Students must comply with the university’s academic integrity regulations.</li><li>The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.</li><li>When AI tools are used in assignments, students must clearly specify the tool(s) and describe how they were used, either in the references or in a footnote.</li><li>Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.</li></ul><p></p>"
+    },
+    "ghiChu": {
+      "vi": "<p>(*) Sinh viên sẽ phải tự học và giảng viên sắp giờ linh hoạt hàng tuần phản hồi thắc mắc và hỗ trợ sinh viên làm BTL.</p>",
+      "en": "<p>(*) Students have to self-study and the lecturer will arrange a flexible weekly schedule to respond to questions and support students to do the assignment.<br></p>"
+    },
+    "check_useSoTcGoc": 0,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 4425,
+      "ma": "NG_KTM",
+      "ten": {
+        "vi": "Ngành: Kỹ thuật Máy tính (2024)",
+        "en": "Major: Computer Engineering"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 5899,
+      "ma": "003777",
+      "ten": "Lê Trọng Nhân"
+    },
+    {
+      "id": 1141,
+      "ma": "002603",
+      "ten": "PHẠM HOÀNG ANH"
+    },
+    {
+      "id": 9778,
+      "ma": "004077",
+      "ten": "HUỲNH PHÚC NGHỊ"
+    },
+    {
+      "id": 10910,
+      "ma": "004202",
+      "ten": "NGUYỄN THIÊN ÂN"
+    },
+    {
+      "id": 11908,
+      "ma": "004269",
+      "ten": "NGUYỄN THÀNH LỘC"
+    },
+    {
+      "id": 11568,
+      "ma": "004258",
+      "ten": "PHẠM CÔNG THÁI"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0.67,
+    "baiTapLon": 0.33,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 137.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 15,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 70,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 2,
+        "ma": "60",
+        "thoigian": 60,
+        "text": {
+          "vi": "60 phút",
+          "en": "60 minute"
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 3,
+        "ma": "TN_TL",
+        "text": {
+          "vi": "Trắc nghiệm và tự luận",
+          "en": "MCQ & Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 20,
+    "baiTapLon": 20,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 20,
+    "thi": 40,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 967,
+      "maBoMon": "KTM",
+      "tenBoMon": {
+        "vi": "Kỹ Thuật Máy Tính"
+      },
+      "maKhoa": "MT",
+      "tenKhoa": {
+        "vi": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "en": "Faculty of Computer Science and Engineering"
+      },
+      "vanPhong": "Khoa Khoa học và Kỹ thuật Máy tính",
+      "dienThoai": "7847"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 5899,
+        "maGiangVien": "003777",
+        "tenGiangVien": "Lê Trọng Nhân",
+        "emailGiangVien": "trongnhanle@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0.67_0.33",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 88783,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Tiêu chí đánh giá",
+        "en": "Evaluation Criteria"
+      },
+      "noidung": {
+        "vi": "Tiêu chí đánh giá",
+        "en": "Evaluation Criteria"
+      }
+    },
+    {
+      "id": 88784,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "88783",
+      "loaihoatdong": {
+        "ma": "TES",
+        "ten": {
+          "vi": "Kiểm tra giữa kỳ",
+          "en": "Midterm exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi giữa kì",
+        "en": "Midterm exam"
+      },
+      "noidung": {
+        "vi": "Thi giữa kì",
+        "en": "Midterm exam"
+      }
+    },
+    {
+      "id": 88785,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "88783",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi cuối kì",
+        "en": "Final-term exam"
+      },
+      "noidung": {
+        "vi": "Thi cuối kì",
+        "en": "Final-term exam"
+      }
+    },
+    {
+      "id": 88786,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "88783",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo",
+        "en": "Interview"
+      },
+      "noidung": {
+        "vi": "Báo cáo",
+        "en": "Interview"
+      }
+    },
+    {
+      "id": 88787,
+      "stt": 0,
+      "ma": "A.O.4",
+      "capdo": "1",
+      "parentid": "88783",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo thực hành",
+        "en": "Report for LAB"
+      },
+      "noidung": {
+        "vi": "Báo cáo thực hành",
+        "en": "Report for LAB"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 109787,
+      "stt": 1,
+      "buoi": "1",
+      "chuandaurachitiet": [
+        {
+          "id": 145027,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196961,
+            "ma": "L.O.2.3",
+            "ten": {
+              "vi": "Sử dụng công cụ mô phỏng (CAD/SPICE) để mô phỏng, kiểm tra và đánh giá hoạt động của mạch điện.",
+              "en": "Use CAD/SPICE tools to simulate, verify, and evaluate circuit operations."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236532,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236531,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145029,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 196956,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Trình bày và áp dụng các khái niệm cơ bản về mạch điện: điện áp, dòng điện, công suất, năng lượng và các định luật Kirchhoff.",
+              "en": "Explain and apply basic circuit concepts: voltage, current, power, energy, and Kirchhoff’s laws."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236535,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236536,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145028,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 196955,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hiểu nguyên lý hoạt động của các linh kiện điện tử cơ bản như điện trở, tụ điện, diode, BJT, FET và OP-AMP.",
+              "en": "Understand operating principles of basic electronic components such as resistors, capacitors, diodes, BJTs, FETs, and OP-AMPs."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236534,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            },
+            {
+              "id": 236533,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Linh kiện mạch điện cơ bản và các ứng dụng\n1.1\tGiới thiệu về môn học và tài liệu tham khảo\n1.2\tCơ bản về điện trở, LED, Diode\n1.3\tCơ bản về Transitor: Nguyên lý hoạt động\n1.4\tMột số ứng dụng đơn giản\n1.5\tĐịnh luật Ohm: Tính toán cường độ dòng điện và điện áp\n1.6\tHướng dẫn sử dụng công cụ mô phỏng\n",
+        "en": "Basic circuit components and applications\n1.1 Introduction to the course and refferences\n1.2 Basics of Resistors, LEDs, Diodes\n1.3 Basic of Transistor: Principles and Operations\n1.4 Some simple applications\n1.5 Ohm's Law: Calculating amperage and voltage\n1.6 Instructions for using the simulation tool"
+      }
+    },
+    {
+      "id": 109793,
+      "stt": 2,
+      "buoi": "2",
+      "chuandaurachitiet": [
+        {
+          "id": 145021,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Chưa có"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Chưa có"
+          },
+          "chuandaura": {
+            "id": 196959,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân tích mạch điện DC/AC bằng các phương pháp dòng nhánh, dòng mắt lưới và điện thế nút.",
+              "en": "Analyze DC/AC circuits using branch current, mesh current, and nodal voltage methods."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236519,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236520,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145020,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196956,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Trình bày và áp dụng các khái niệm cơ bản về mạch điện: điện áp, dòng điện, công suất, năng lượng và các định luật Kirchhoff.",
+              "en": "Explain and apply basic circuit concepts: voltage, current, power, energy, and Kirchhoff’s laws."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236518,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236517,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích mạch\n2.1 Giới thiệu về phân tích mạch\n2.2 Phân tích DC/DC\n2.3 Quan hệ dòng áp trên các phần tử RLC\n2.4 Trở kháng và dẫn nạp\n2.5 Định luật Ohm và Kirchhoff\n2.6 Đồ thị vector\n2.7 Công suất và cân bằng công suất\n2.8 Phối hợp trở kháng giữa tải và nguồn\n",
+        "en": "Circuit analysis\n2.1 Introduction to circuit analysis\n2.2 DC/DC analysis\n2.3 Current-voltage relationship on RLC elements\n2.4 Impedance and Conduction\n2.5 Ohm and Kirchhoff's Laws\n2.6 Vector graph\n2.7 Power and power balance\n2.8 Impedance matching between load and source"
+      }
+    },
+    {
+      "id": 109788,
+      "stt": 3,
+      "buoi": "3",
+      "chuandaurachitiet": [
+        {
+          "id": 145030,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196959,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân tích mạch điện DC/AC bằng các phương pháp dòng nhánh, dòng mắt lưới và điện thế nút.",
+              "en": "Analyze DC/AC circuits using branch current, mesh current, and nodal voltage methods."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236538,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236537,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Các phương pháp phân tích mạch\n3.1 Phương pháp dòng nhánh\n3.2 Phương pháp dòng mắt lưới\n3.3 Phương pháp điện thế nút\n3.4 Phân tích mạch trong miền thời gian\n3.5 Phân tích mạch trong miền tần số\n",
+        "en": "Circuit Analysis Methods\n3.1 Branch current method\n3.2 Mesh flow method\n3.3 Nodal potential method\n3.4 Circuit analysis in the time domain\n3.5 Circuit analysis in the frequency domain"
+      }
+    },
+    {
+      "id": 109789,
+      "stt": 4,
+      "buoi": "4",
+      "chuandaurachitiet": [
+        {
+          "id": 145031,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196957,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Phân tích nguyên lý hoạt động của các mạch điện tử ứng dụng cơ bản: chỉnh lưu, khuếch đại, mạch nguồn, mạch cảm biến.",
+              "en": "Analyze operating principles of basic application circuits: rectifiers, amplifiers, power circuits, and sensor circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236540,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236539,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145032,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196960,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích mạch điện tử sử dụng diode, BJT, FET và OP-AMP ở chế độ làm việc cơ bản.",
+              "en": "Analyze electronic circuits using diodes, BJTs, FETs, and OP-AMPs in basic operating modes."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236542,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236541,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145033,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196963,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thiết kế sơ đồ nguyên lý và layout mạch in (PCB) cho một mạch điện tử đơn giản.",
+              "en": "Design schematics and PCB layouts for simple electronic circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236544,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88786,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo",
+                  "en": "Interview"
+                }
+              }
+            },
+            {
+              "id": 236543,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88787,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thực hành",
+                  "en": "Report for LAB"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mô hình phân tích mạch sử dụng Diode\n4.1. Giới thiệu về Diode\n4.2. Các mô hình phân tích mạch sử dụng Diode\n4.3. Cách đọc tài liệu và kiểm thử Diode\n4.4. Giới thiệu về Zener Diode\n4.5 Mạch half-wave rectification\n4.6 Mạch full-wave rectification\n4.7 Các mạch logic dựa trên Diode\n",
+        "en": "Circuit analysis model using Diode\n4.1. Introduction to Diodes\n4.2. Circuit analysis models using Diode\n4.3. How to read datasheet and validate a Diode\n4.4. Introduction to Zener Diode\n4.5 Half-wave rectification circuit\n4.6 Full-wave rectification circuit\n4.7 Diode-based logic circuits"
+      }
+    },
+    {
+      "id": 109790,
+      "stt": 5,
+      "buoi": "5",
+      "chuandaurachitiet": [
+        {
+          "id": 145035,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196955,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hiểu nguyên lý hoạt động của các linh kiện điện tử cơ bản như điện trở, tụ điện, diode, BJT, FET và OP-AMP.",
+              "en": "Understand operating principles of basic electronic components such as resistors, capacitors, diodes, BJTs, FETs, and OP-AMPs."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236547,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236548,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145034,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196960,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích mạch điện tử sử dụng diode, BJT, FET và OP-AMP ở chế độ làm việc cơ bản.",
+              "en": "Analyze electronic circuits using diodes, BJTs, FETs, and OP-AMPs in basic operating modes."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236545,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236546,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Transistor và BJT\n5.1. Giới thiệu về Transistor\n5.2. Nguyên lý hoạt động của Transistor và ứng dụng\n5.3 Cấu hình cực B chung\n5.4 Cấu hình cực E chung\n5.5 Cấu hình cực C chung\n5.6 Giới thiệu về BJT transitor và các ứng dụng\n5.7 Phân tích mạch sử dụng BJT transistor\n",
+        "en": "Transistor and BJT\n5.1. Introduction to Transistor\n5.2. Transistor principles and applications\n5.3 Common B configuration\n5.4 Common E configuration\n5.5 Common C configuration\n5.6 BJT transistors and applications\n5.7 Circuit analysis using BJT transistors"
+      }
+    },
+    {
+      "id": 109791,
+      "stt": 6,
+      "buoi": "6",
+      "chuandaurachitiet": [
+        {
+          "id": 145037,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196955,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hiểu nguyên lý hoạt động của các linh kiện điện tử cơ bản như điện trở, tụ điện, diode, BJT, FET và OP-AMP.",
+              "en": "Understand operating principles of basic electronic components such as resistors, capacitors, diodes, BJTs, FETs, and OP-AMPs."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236551,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236552,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145036,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196960,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích mạch điện tử sử dụng diode, BJT, FET và OP-AMP ở chế độ làm việc cơ bản.",
+              "en": "Analyze electronic circuits using diodes, BJTs, FETs, and OP-AMPs in basic operating modes."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236550,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236549,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Field-effect Transistor (FET)\n6.1. Giới thiệu về FET\n6.2. Nguyên lý dẫn của FET\n6.3. Cấu hình Fixed-Bias\n6.4. Cấu hình Self-Bias\n6.5. Cấu hình Voltage-Divider\n6.6. Một số ứng dụng với FET\n",
+        "en": "Field-effect Transistor (FET)\n6.1. About FET\n6.2. Conduction Principle of FET\n6.3. Fixed-Bias Configuration\n6.4. Self-Bias Configuration\n6.5. Configuration Voltage-Divider\n6.6. Some applications with FET"
+      }
+    },
+    {
+      "id": 109792,
+      "stt": 7,
+      "buoi": "7",
+      "chuandaurachitiet": [
+        {
+          "id": 145039,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196955,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Hiểu nguyên lý hoạt động của các linh kiện điện tử cơ bản như điện trở, tụ điện, diode, BJT, FET và OP-AMP.",
+              "en": "Understand operating principles of basic electronic components such as resistors, capacitors, diodes, BJTs, FETs, and OP-AMPs."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236556,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236555,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145038,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196960,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Phân tích mạch điện tử sử dụng diode, BJT, FET và OP-AMP ở chế độ làm việc cơ bản.",
+              "en": "Analyze electronic circuits using diodes, BJTs, FETs, and OP-AMPs in basic operating modes."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236553,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236554,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch khuyết đại thuật toán OPAM\n7.1 Giới thiệu về Op-Amp\n7.2 Nguyên lý hoạt động của Op-Amp\n7.3 Phân tích mạch sử dụng Op-Amp\n7.4 Một số ứng dụng sử dụng mạch Op-Am\n",
+        "en": "OPAM . algorithmic amplifier circuit\n7.1 Introduction to Op-Amp\n7.2 Principle of Operation of Op-Amp\n7.3 Circuit Analysis Using Op-Amp\n7.4 Some applications using Op-Am circuits"
+      }
+    },
+    {
+      "id": 109785,
+      "stt": 8,
+      "buoi": "8",
+      "chuandaurachitiet": [
+        {
+          "id": 145040,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196957,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Phân tích nguyên lý hoạt động của các mạch điện tử ứng dụng cơ bản: chỉnh lưu, khuếch đại, mạch nguồn, mạch cảm biến.",
+              "en": "Analyze operating principles of basic application circuits: rectifiers, amplifiers, power circuits, and sensor circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236558,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236557,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch công suất – Thiết kế cách ly\n8.1 Giới thiệu về mạch công suất\n8.2 Tại sao phải cách ly?\n8.3 Nguyên lý cách ly bằng Opto\n8.4 Mạch công suất dựa trên Relay\n8.5 Mạch công suất dựa trên FET\n8.6 Chip tích hợp cho mạch công suất\n",
+        "en": "Power Circuits – Isolation Design\n8.1 Introduction to power circuits\n8.2 Why isolation ?\n8.3 Principle of isolation by Opto\n8.4 Relay based power circuits\n8.5 FET based power circuits\n8.6 Integrated chip for power circuit"
+      }
+    },
+    {
+      "id": 109786,
+      "stt": 9,
+      "buoi": "9",
+      "chuandaurachitiet": [
+        {
+          "id": 145041,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196957,
+            "ma": "L.O.1.3",
+            "ten": {
+              "vi": "Phân tích nguyên lý hoạt động của các mạch điện tử ứng dụng cơ bản: chỉnh lưu, khuếch đại, mạch nguồn, mạch cảm biến.",
+              "en": "Analyze operating principles of basic application circuits: rectifiers, amplifiers, power circuits, and sensor circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236559,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88784,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Thi giữa kì",
+                  "en": "Midterm exam"
+                }
+              }
+            },
+            {
+              "id": 236560,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88785,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi cuối kì",
+                  "en": "Final-term exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145042,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196963,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Thiết kế sơ đồ nguyên lý và layout mạch in (PCB) cho một mạch điện tử đơn giản.",
+              "en": "Design schematics and PCB layouts for simple electronic circuits."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236561,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88786,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo",
+                  "en": "Interview"
+                }
+              }
+            },
+            {
+              "id": 236562,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88787,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thực hành",
+                  "en": "Report for LAB"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch cảm biến – Lọc nhiễu\n9.1 Giới thiệu mạch cảm biến\n9.2 Các tiêu chuẩn kết nối với cảm biến thông dụng\n9.3 Tiêu chuẩn kết nối cảm biến công nghiệp\n9.4 Thiết kế mạch chống nhiễu cho cảm biến\n9.5 Đọc giá trị và chống nhiễu cho cảm biến\n",
+        "en": "Sensor circuit – Noise filter\n9.1 Sensor Circuit Introduction\n9.2 Common sensor connection standards\n9.3 Industrial Sensor Connection Standard\n9.4 Design of anti-interference circuit for sensor\n9.5 Reading value and anti-interference for sensor"
+      }
+    },
+    {
+      "id": 109794,
+      "stt": 10,
+      "buoi": "10",
+      "chuandaurachitiet": [
+        {
+          "id": 145024,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196964,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Hiện thực mạch in, hàn linh kiện và tích hợp mạch vào hệ thống.",
+              "en": "Implement PCB, solder components, and integrate the circuit into a system."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236526,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88786,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo",
+                  "en": "Interview"
+                }
+              }
+            },
+            {
+              "id": 236525,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88787,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thực hành",
+                  "en": "Report for LAB"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145022,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196965,
+            "ma": "L.O.3.3",
+            "ten": {
+              "vi": "Sử dụng thiết bị đo (VOM, oscilloscope) để kiểm thử, đo đạc và đánh giá hoạt động của mạch.",
+              "en": "Use measurement instruments (VOM, oscilloscope) to test, measure, and evaluate circuit performance."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236522,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88786,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo",
+                  "en": "Interview"
+                }
+              }
+            },
+            {
+              "id": 236521,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88787,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thực hành",
+                  "en": "Report for LAB"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145025,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196967,
+            "ma": "L.O.4.1",
+            "ten": {
+              "vi": "Làm việc nhóm để thực hiện một bài thực hành/đồ án mạch điện tử đơn giản.",
+              "en": "Work in a team to complete a simple electronic circuit lab/project."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236527,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88786,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo",
+                  "en": "Interview"
+                }
+              }
+            },
+            {
+              "id": 236528,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88787,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thực hành",
+                  "en": "Report for LAB"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145023,
+          "stt": 4,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196968,
+            "ma": "L.O.4.2",
+            "ten": {
+              "vi": "Lập kế hoạch, quản lý tiến độ và báo cáo kết quả thực hiện mạch điện.",
+              "en": "Plan, manage progress, and report results of circuit implementation."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236523,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88786,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo",
+                  "en": "Interview"
+                }
+              }
+            },
+            {
+              "id": 236524,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88787,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thực hành",
+                  "en": "Report for LAB"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 145026,
+          "stt": 5,
+          "hoatdonggiangvien": {
+            "vi": "Thuyết giảng",
+            "en": "Lecture"
+          },
+          "hoatdongsinhvien": {
+            "vi": "Nghe giảng",
+            "en": "Listen to the lecture"
+          },
+          "chuandaura": {
+            "id": 196969,
+            "ma": "L.O.4.3",
+            "ten": {
+              "vi": "Thể hiện tác phong làm việc nghiêm túc, tuân thủ quy trình kỹ thuật và an toàn trong phòng thí nghiệm.",
+              "en": "Demonstrate professional attitude, compliance with technical procedures and lab safety rules."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 236529,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 88786,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Báo cáo",
+                  "en": "Interview"
+                }
+              }
+            },
+            {
+              "id": 236530,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 88787,
+                "ma": "A.O.4",
+                "ten": {
+                  "vi": "Báo cáo thực hành",
+                  "en": "Report for LAB"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mạch thu thập năng lượng – Mạch nguồn – Bảo vệ\n10.1 Vấn đề năng lượng trong các ứng dụng \n10.2 Dòng chảy năng lượng trong hệ thống \n10.2 Đặc tính điện của các nguồn năng lượng sạch\n10.3 Phân tích mạch thu thập năng lượng mặt trời\n10.4 Phân tích mạch thu thập năng lượng gió\n10.5 Ước lượng năng lượng thu thập được\n10.6 Mạch nguồn – Bảo vệ\n",
+        "en": "Energy collection circuit – Power circuit – Protection\n10.1 Power issues in applications\n10.2 Energy flow in the system\n10.2 Electrical characteristics of clean energy sources\n10.3 Solar collector circuit analysis\n10.4 Wind Energy Collector Circuit Analysis\n10.5 Estimated Energy Collected\n10.6 Power circuit – Protection"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 196955,
+      "ma": "L.O.1.1",
+      "ten_vi": "Hiểu nguyên lý hoạt động của các linh kiện điện tử cơ bản như điện trở, tụ điện, diode, BJT, FET và OP-AMP.",
+      "ten_en": "Understand operating principles of basic electronic components such as resistors, capacitors, diodes, BJTs, FETs, and OP-AMPs.",
+      "hddg": [
+        {
+          "id": 88784,
+          "ma": "A.O.1",
+          "ten_vi": "Thi giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88785,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 196956,
+      "ma": "L.O.1.2",
+      "ten_vi": "Trình bày và áp dụng các khái niệm cơ bản về mạch điện: điện áp, dòng điện, công suất, năng lượng và các định luật Kirchhoff.",
+      "ten_en": "Explain and apply basic circuit concepts: voltage, current, power, energy, and Kirchhoff’s laws.",
+      "hddg": [
+        {
+          "id": 88784,
+          "ma": "A.O.1",
+          "ten_vi": "Thi giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88785,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 196957,
+      "ma": "L.O.1.3",
+      "ten_vi": "Phân tích nguyên lý hoạt động của các mạch điện tử ứng dụng cơ bản: chỉnh lưu, khuếch đại, mạch nguồn, mạch cảm biến.",
+      "ten_en": "Analyze operating principles of basic application circuits: rectifiers, amplifiers, power circuits, and sensor circuits.",
+      "hddg": [
+        {
+          "id": 88784,
+          "ma": "A.O.1",
+          "ten_vi": "Thi giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88785,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 196959,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phân tích mạch điện DC/AC bằng các phương pháp dòng nhánh, dòng mắt lưới và điện thế nút.",
+      "ten_en": "Analyze DC/AC circuits using branch current, mesh current, and nodal voltage methods.",
+      "hddg": [
+        {
+          "id": 88784,
+          "ma": "A.O.1",
+          "ten_vi": "Thi giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88785,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 196960,
+      "ma": "L.O.2.2",
+      "ten_vi": "Phân tích mạch điện tử sử dụng diode, BJT, FET và OP-AMP ở chế độ làm việc cơ bản.",
+      "ten_en": "Analyze electronic circuits using diodes, BJTs, FETs, and OP-AMPs in basic operating modes.",
+      "hddg": [
+        {
+          "id": 88784,
+          "ma": "A.O.1",
+          "ten_vi": "Thi giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88785,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 196961,
+      "ma": "L.O.2.3",
+      "ten_vi": "Sử dụng công cụ mô phỏng (CAD/SPICE) để mô phỏng, kiểm tra và đánh giá hoạt động của mạch điện.",
+      "ten_en": "Use CAD/SPICE tools to simulate, verify, and evaluate circuit operations.",
+      "hddg": [
+        {
+          "id": 88784,
+          "ma": "A.O.1",
+          "ten_vi": "Thi giữa kì",
+          "ten_en": "Midterm exam"
+        },
+        {
+          "id": 88785,
+          "ma": "A.O.2",
+          "ten_vi": "Thi cuối kì",
+          "ten_en": "Final-term exam"
+        }
+      ]
+    },
+    {
+      "id": 196963,
+      "ma": "L.O.3.1",
+      "ten_vi": "Thiết kế sơ đồ nguyên lý và layout mạch in (PCB) cho một mạch điện tử đơn giản.",
+      "ten_en": "Design schematics and PCB layouts for simple electronic circuits.",
+      "hddg": [
+        {
+          "id": 88786,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo",
+          "ten_en": "Interview"
+        },
+        {
+          "id": 88787,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thực hành",
+          "ten_en": "Report for LAB"
+        }
+      ]
+    },
+    {
+      "id": 196964,
+      "ma": "L.O.3.2",
+      "ten_vi": "Hiện thực mạch in, hàn linh kiện và tích hợp mạch vào hệ thống.",
+      "ten_en": "Implement PCB, solder components, and integrate the circuit into a system.",
+      "hddg": [
+        {
+          "id": 88786,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo",
+          "ten_en": "Interview"
+        },
+        {
+          "id": 88787,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thực hành",
+          "ten_en": "Report for LAB"
+        }
+      ]
+    },
+    {
+      "id": 196965,
+      "ma": "L.O.3.3",
+      "ten_vi": "Sử dụng thiết bị đo (VOM, oscilloscope) để kiểm thử, đo đạc và đánh giá hoạt động của mạch.",
+      "ten_en": "Use measurement instruments (VOM, oscilloscope) to test, measure, and evaluate circuit performance.",
+      "hddg": [
+        {
+          "id": 88786,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo",
+          "ten_en": "Interview"
+        },
+        {
+          "id": 88787,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thực hành",
+          "ten_en": "Report for LAB"
+        }
+      ]
+    },
+    {
+      "id": 196967,
+      "ma": "L.O.4.1",
+      "ten_vi": "Làm việc nhóm để thực hiện một bài thực hành/đồ án mạch điện tử đơn giản.",
+      "ten_en": "Work in a team to complete a simple electronic circuit lab/project.",
+      "hddg": [
+        {
+          "id": 88786,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo",
+          "ten_en": "Interview"
+        },
+        {
+          "id": 88787,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thực hành",
+          "ten_en": "Report for LAB"
+        }
+      ]
+    },
+    {
+      "id": 196968,
+      "ma": "L.O.4.2",
+      "ten_vi": "Lập kế hoạch, quản lý tiến độ và báo cáo kết quả thực hiện mạch điện.",
+      "ten_en": "Plan, manage progress, and report results of circuit implementation.",
+      "hddg": [
+        {
+          "id": 88786,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo",
+          "ten_en": "Interview"
+        },
+        {
+          "id": 88787,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thực hành",
+          "ten_en": "Report for LAB"
+        }
+      ]
+    },
+    {
+      "id": 196969,
+      "ma": "L.O.4.3",
+      "ten_vi": "Thể hiện tác phong làm việc nghiêm túc, tuân thủ quy trình kỹ thuật và an toàn trong phòng thí nghiệm.",
+      "ten_en": "Demonstrate professional attitude, compliance with technical procedures and lab safety rules.",
+      "hddg": [
+        {
+          "id": 88786,
+          "ma": "A.O.3",
+          "ten_vi": "Báo cáo",
+          "ten_en": "Interview"
+        },
+        {
+          "id": 88787,
+          "ma": "A.O.4",
+          "ten_vi": "Báo cáo thực hành",
+          "ten_en": "Report for LAB"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Mạch điện - điện tử",
+  "tenmonhoc_eng": "Electrical Electronic Circuits",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 1,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 1,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 3,
+      "ma": "pphtqth",
+      "ten": {
+        "vi": "Phương pháp học tập qua thực hành",
+        "en": "Practise-based learning "
+      }
+    }
+  ]
+}

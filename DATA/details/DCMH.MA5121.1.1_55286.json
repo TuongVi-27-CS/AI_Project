@@ -1,0 +1,1204 @@
+{
+  "ma": "DCMH.MA5121.1.1",
+  "phienban": "1.1",
+  "capnhat": "23/07/2026 11:08",
+  "khoa": {
+    "vi": "Khoa Công Nghệ Vật Liệu",
+    "en": "Faculty of Material Technology"
+  },
+  "mamonhoc": "MA5121",
+  "ten": "MA5121 - Cơ sở mô phỏng vật liệu",
+  "ten_eng": "MA5121 - Introduction to Simulation of Materials",
+  "hockyapdung": "HK252",
+  "sotcgoc": 3,
+  "thongtinchung": {
+    "bacDaoTao": {
+      "id": 3,
+      "ma": "ThS",
+      "ten": {
+        "vi": "Thạc sĩ",
+        "en": "Postgraduate"
+      }
+    },
+    "loaiMonHoc": {
+      "id": 3,
+      "ma": "CSN",
+      "ten": {
+        "vi": "Cơ sở ngành",
+        "en": "Core courses"
+      }
+    },
+    "mucTieuMonHoc": {
+      "vi": "<p>Môn học này hướng tới ba mục tiêu cốt lõi nhằm định hình năng lực toàn diện của học viên trong mô phỏng số kỹ thuật vật liệu:<br>- Trang bị cho học viên phương thức tiếp cận toàn diện về tích hợp kỹ thuật vật liệu tính toán (ICME); nâng cao năng lực làm chủ lý thuyết nền tảng và phương pháp luận mô hình hóa đa thang đo (từ trung mô đến vĩ mô), từ đó có khả năng phân tích và dịch chuyển chính xác các thông số quy trình công nghệ chế tạo thành các điều kiện biên kỹ thuật tương ứng trong môi trường mô phỏng số.<br>- Phát triển năng lực độc lập thiết lập, phân tích và tối ưu hóa các bài toán kỹ thuật sản xuất vật liệu thực tế (như trường nhiệt-ứng suất dư, động học chuyển pha tổ chức tế vi, cơ chế phá hủy); đồng thời thành thạo kỹ thuật xử lý dữ liệu số nâng cao để so sánh đối chiếu, kiểm chứng và thực chứng nhằm hiệu chuẩn các mô hình tính toán dựa trên dữ liệu thực nghiệm phân tích đánh giá vật liệu một cách khoa học.<br>- Nuôi dưỡng năng lực tự học suốt đời để chủ động cập nhật các thuật toán, công cụ và phần mềm mô phỏng tiên tiến; đồng thời rèn luyện tư duy phản biện khoa học sắc bén và trách nhiệm giải trình đạo đức, bảo đảm tính trung thực tuyệt đối trong báo cáo kết quả mô phỏng số vật liệu.<br><br></p>",
+      "en": "<p>This course aims to achieve three core objectives to comprehensively shape the competencies of graduate students in the field of computational materials engineering:<br>- To equip students with a holistic framework of Integrated Computational Materials Engineering (ICME); enabling them to master foundational theories and multiscale modeling methodologies (from mesoscale to macroscale) to accurately analyze and translate manufacturing processing parameters into precise digital engineering boundary conditions.<br>- To develop the capability to independently configure, analyze, and optimize real-world coupled engineering problems (such as thermal-residual stress fields, microstructural phase transformation kinetics, and component failure mechanisms); while honing advanced digital data post-processing techniques to critically compare, verify, validate, and calibrate numerical models against empirical experimental data.<br>- To cultivate lifelong learning capacities for proactively self-updating cutting-edge simulation software and algorithms; while fostering sharp scientific critical thinking and strict ethical accountability and integrity in engineering data reporting within materials simulation.<br><br></p>"
+    },
+    "noiDungTomTatMonHoc": {
+      "vi": "<p>Học phần này cung cấp cách tiếp cận hệ thống về mô phỏng kỹ thuật vật liệu nhằm tối ưu hóa chuỗi logic: quy trình chế tạo – cấu trúc – tính chất – hiệu năng ứng dụng của vật liệu. Học phần tập trung vào phương pháp luận mô hình hóa và mô phỏng số ở các thang đo từ trung mô đến vĩ mô, bao gồm Phần tử hữu hạn (FEM), yrường pha (Phase-field), và nhiệt động lực học tính toán (CALPHAD), kết hợp bổ trợ của động lực học phân tử (MD) ở thang đo nguyên tử. Học viên sẽ phân tích cách chuyển đổi các thông số công nghệ và điều kiện biên kỹ thuật thực tế thành các mô hình toán học tương ứng. Môn học nhấn mạnh kỹ năng trích xuất dữ liệu số, phân tích nguồn gốc sai số và kiểm soát độ tin cậy thông qua đối chiếu phê phán và hiệu chuẩn mô hình với các dữ liệu thực nghiệm (XRD, SEM/TEM, TG, thử nghiệm cơ tính). Qua đó, học viên được trang bị năng lực tự chủ nghiên cứu độc lập và trách nhiệm giải trình đạo đức khoa học để giải quyết các bài toán tối ưu hóa công nghệ và phân tích phá hủy vật liệu trong thực tế sản xuất. <br></p>",
+      "en": "<p>This course provides a systematic approach to materials engineering simulation aimed at optimizing the core chain: processing – structure – property – performance of engineering materials. The curriculum focuses on the methodology of modeling and numerical simulation at mesoscale and macroscale levels, including the Finite Element Method (FEM), Phase-field simulation, and Computational Thermodynamics (CALPHAD), supplemented by atomic-scale Molecular Dynamics (MD). Students will analyze how to transform manufacturing processing parameters and engineering boundary conditions into corresponding mathematical models. The course emphasizes digital data extraction, error source analysis, and reliability control through critical comparison and model calibration using experimental data (XRD, SEM/TEM, TG, mechanical testing). Consequently, students are equipped with independent research autonomy and ethical scientific accountability to solve real-world engineering challenges involving processing optimization and failure analysis.<br></p>"
+    },
+    "taiLieuHocTap": {
+      "vi": "<p><b>Giáo trình</b></p><p>[1] National Research Council (2020). Integrated Computational Materials Engineering (ICME): A Transformational Discipline for Improved Speed and Lower Cost. Washington, DC: The National Academies Press.&nbsp;ISBN-13‏ : ‎ 978-0309189859<br>[2] J. A. Dantzig and C. L. Tucker, Modeling in Materials Processing, 1st ed. Cambridge University Press, 2001</p><p><b>Tài liệu tham khảo</b></p><p>[3] Dierk Raabe, Franz Roters, Frédéric Barlat, &amp; Long-Qing Chen (Eds.) (2004). Continuum Scale Simulation of Engineering Materials: Fundamentals and Applications. Wiley-VCH.<br>[4] Richard LeSar (2013). Computational Materials Science: An Introduction. Cambridge University Press.<br>[5] Somnath Ghosh, &amp; Mark Groeber (Eds.) (2009). Computational Methods for Microstructure-Property Relationships. Springer.<br>[6] O.C. Zienkiewicz, R.L. Taylor, &amp; J.Z. Zhu (2013). The Finite Element Method: Its Basis and Fundamentals (7th Edition). Elsevier.<br>[7] C. Fragassa, J. Epp, G. Lesiak and M. Zivkovic, Advances in Design by Metallic Materials: Synthesis, Characterization, Simulation and Applications, 1st ed. MDPI, 2021<br>[8] C. H. Gur and J. Pan, Handbook of Thermal Process Modeling of Steels, 1st ed. CRC Press, 2009<br>[9] C. A. Chung, Simulation Modeling Handbook: A Practical Approach, 1st ed. CRC Press, 2004<br><br><br></p>",
+      "en": "<p><b>Textbook:</b></p><p>[1] \n\nNational Research Council (2020). Integrated Computational Materials Engineering (ICME): A Transformational Discipline for Improved Speed and Lower Cost. Washington, DC: The National Academies Press. ISBN-13‏ : ‎ 978-0309189859.<br>[2] J. A. Dantzig and C. L. Tucker, Modeling in Materials Processing, 1st ed. Cambridge University Press, 2001</p><p><b>Additional Readings:</b></p><p>[3] Dierk Raabe, Franz Roters, Frédéric Barlat, &amp; Long-Qing Chen (Eds.) (2004). Continuum Scale Simulation of Engineering Materials: Fundamentals and Applications. Wiley-VCH.<br>[4] Richard LeSar (2013). Computational Materials Science: An Introduction. Cambridge University Press.<br>[5] Somnath Ghosh, &amp; Mark Groeber (Eds.) (2009). Computational Methods for Microstructure-Property Relationships. Springer.<br>[6] O.C. Zienkiewicz, R.L. Taylor, &amp; J.Z. Zhu (2013). The Finite Element Method: Its Basis and Fundamentals (7th Edition). Elsevier.<br>[7] C. Fragassa, J. Epp, G. Lesiak and M. Zivkovic, Advances in Design by Metallic Materials: Synthesis, Characterization, Simulation and Applications, 1st ed. MDPI, 2021<br>[8] C. H. Gur and J. Pan, Handbook of Thermal Process Modeling of Steels, 1st ed. CRC Press, 2009<br>[9] C. A. Chung, Simulation Modeling Handbook: A Practical Approach, 1st ed. CRC Press, 2004<br><br></p>"
+    },
+    "huongDanCachHoc": {
+      "vi": "<p>Điểm tổng kết học phần gồm bài tập/thảo luận tại lớn 10%, bài tập cá nhân 40% và thi cuối kỳ 50%. Học viên cần tham dự đầy đủ các buổi học, đọc trước tài liệu theo hướng dẫn của giảng viên và chuẩn bị các ví dụ để tham gia thảo luận.<br>Bài tập lớn cá nhân yêu cầu mỗi học viên lựa chọn một bài toán mô phỏng vật liệu thông qua tham khảo, phân tích đánh giá các kết quả tiếp cận mô phỏng dựa trên các giả thiết.<br>Thi cuối kỳ được thực hiện theo hình thức tự luận.</p><p>\n\n<b>Liêm chính học thuật và sử dụng công cụ AI:</b><br>- Người học phải tuân thủ các quy định về liêm chính học thuật của nhà trường.<br>- Việc sử dụng công cụ AI (ví dụ: ChatGPT, Copilot, v.v.) chỉ được phép với mục đích hỗ trợ như tìm tài liệu, tham khảoý tưởng, kiểm tra ngữ pháp, hoặc gợi ý cách trình bày. Người học không được nộp sản phẩm do AI tạo ra toàn bộ hoặcphần lớn nội dung.<br>- Khi có sử dụng AI trong quá trình làm bài, người học cần ghi rõ công cụ và cách sử dụng trong phần tài liệu tham khảo hoặc ghi chú.<br>- Mọi hành vi lạm dụng AI nhằm gian lận sẽ bị coi là vi phạm liêm chính học thuật và xử lý theo quy định của nhà trường.<br></p>",
+      "en": "<p>The final course grade comprises in-class assignments/discussions (10%), individual projects (40%), and a final examination (50%). Students are required to maintain full attendance, read assigned materials beforehand as directed by the lecturer, and prepare case examples to actively engage in class discussions.<br>The individual project requires each student to select a specific materials simulation problem, critically analyze, and evaluate simulation approaches and outcomes based on their underlying model assumptions.<br>The final examination will be conducted in a written essay format.<br></p><p>\n\n<b>Academic Integrity and use of AI tools:</b><br>- Students must comply with the university’s academic integrity regulations.<br>- The use of AI tools (e.g., ChatGPT, Copilot, etc.) is permitted only for supportive purposes such as finding references, generating ideas, checking grammar, or improving presentation. Students are not allowed to submit work that is wholly or substantially generated by AI.<br>- When AI tools are used in assignments, students must clearly indicate the tool and how it was used in references or footnotes.<br>- Any misuse of AI for academic dishonesty will be considered a violation of academic integrity and will be handled in accordance with the university’s regulations.<br>\n\n<br></p>"
+    },
+    "ghiChu": {
+      "vi": "",
+      "en": ""
+    },
+    "check_useSoTcGoc": 1,
+    "check_hocPhanTotNghiep": 0
+  },
+  "nganh": [
+    {
+      "id": 1393,
+      "ma": "CN_KTM",
+      "ten": {
+        "vi": "Áp dụng cho tất cả ngành của khóa",
+        "en": "Áp dụng cho tất cả ngành của khóa"
+      }
+    }
+  ],
+  "giangvien": [
+    {
+      "id": 1363,
+      "ma": "003039",
+      "ten": "NGUYỄN KHÁNH SƠN"
+    },
+    {
+      "id": 9408,
+      "ma": "004014",
+      "ten": "TRẦN HOÀNG MINH"
+    }
+  ],
+  "pbsotc": {
+    "soTC": 3,
+    "soTC_ETC": 6,
+    "lyThuyet": 2,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 1,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0
+  },
+  "pbsotiet": {
+    "tongSoTiet": 150,
+    "tongGioHocTapLamViec": 136.5,
+    "lyThuyet": 30,
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 45,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 60,
+    "khac": 15
+  },
+  "hinhthucdanhgia": {
+    "kiemTra": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    },
+    "thi": {
+      "hinhThuc": {
+        "id": 2,
+        "ma": "TL",
+        "text": {
+          "vi": "Tự luận",
+          "en": "Constructed response"
+        }
+      },
+      "thoiGian": {
+        "id": 5,
+        "ma": "90",
+        "thoigian": 90,
+        "text": {
+          "vi": "90 phút",
+          "en": "90 minute"
+        }
+      }
+    },
+    "khac": {
+      "hinhThuc": {
+        "id": null,
+        "ma": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      },
+      "thoiGian": {
+        "id": null,
+        "ma": null,
+        "thoigian": null,
+        "text": {
+          "vi": null,
+          "en": null
+        }
+      }
+    }
+  },
+  "tyledanhgia": {
+    "baiTapThucHanh": 0,
+    "thiNghiem": 0,
+    "baiTapLon": 40,
+    "doAn": 0,
+    "thamQuan": 0,
+    "thucTapNgoaiTruong": 0,
+    "luanVanTotNghiep": 0,
+    "tuHoc": 0,
+    "khac": 0,
+    "kiemTra": 0,
+    "thi": 60,
+    "lyThuyetKhac": 0,
+    "tong": 100
+  },
+  "lienhe": {
+    "donVi": {
+      "id": 953,
+      "maBoMon": "GVL",
+      "tenBoMon": {
+        "vi": "Giáo Vụ Khoa CN Vật Liệu"
+      },
+      "maKhoa": "VL",
+      "tenKhoa": {
+        "vi": "Khoa Công Nghệ Vật Liệu",
+        "en": "Faculty of Material Technology"
+      },
+      "vanPhong": "C4-201, Văn phòng Khoa Công nghệ Vật liệu",
+      "dienThoai": "0933 623 629"
+    },
+    "giangVienPhuTrach": [
+      {
+        "id": 1363,
+        "maGiangVien": "003039",
+        "tenGiangVien": "NGUYỄN KHÁNH SƠN",
+        "emailGiangVien": "ksnguyen@hcmut.edu.vn"
+      }
+    ]
+  },
+  "chmh_mau": "3_2_0_0_1_SDH",
+  "monhocdieukien": null,
+  "cauhinhkhac": null,
+  "cdr": [
+    {
+      "id": 36361,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36362,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36363,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36364,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36365,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36366,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36367,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36361",
+      "type": "CDIO-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    },
+    {
+      "id": 36368,
+      "stt": 0,
+      "ma": "L.O",
+      "capdo": "0",
+      "parentid": null,
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+        "en": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019"
+      },
+      "noidung": {
+        "vi": null,
+        "en": null
+      }
+    },
+    {
+      "id": 36369,
+      "stt": 1,
+      "ma": "L.O.1",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      },
+      "noidung": {
+        "vi": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+        "en": "Vocabulary: Know a sufficient amount of vocabulary to be able to express yourself on everyday topics such as Who You Are, Where Your Heart Is, Health & Happiness, Study, and Family & Friends."
+      }
+    },
+    {
+      "id": 36370,
+      "stt": 2,
+      "ma": "L.O.2",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      },
+      "noidung": {
+        "vi": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+        "en": "Grammar: Know the common and necessary grammatical structures, apply them in familiar communication situations in a reasonable and accurate way."
+      }
+    },
+    {
+      "id": 36371,
+      "stt": 3,
+      "ma": "L.O.3",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      },
+      "noidung": {
+        "vi": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học...) qua các bài TED Talks.",
+        "en": "Listening: Can understand the clear information, main ideas and details of relatively simple talks on familiar topics related to Who You Are, Where Your Heart is, Health and Happiness, Study and Family & Friends. Besides, it is possible to understand the speeches and talks of experts (theoreticians, singers, archaeologists...) through TED Talks."
+      }
+    },
+    {
+      "id": 36372,
+      "stt": 4,
+      "ma": "L.O.4",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      },
+      "noidung": {
+        "vi": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+        "en": "Reading: Can read to a certain extent clear texts on topics related to everyday life and topics in TED Talks."
+      }
+    },
+    {
+      "id": 36373,
+      "stt": 5,
+      "ma": "L.O.5",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      },
+      "noidung": {
+        "vi": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+        "en": "Speaking: Apply vocabulary and grammatical structures, maintain fluency of speech. Can talk about a variety of topics, expressing opinions clearly and easily."
+      }
+    },
+    {
+      "id": 36374,
+      "stt": 6,
+      "ma": "L.O.6",
+      "capdo": "1",
+      "parentid": "36368",
+      "type": "ABET-MH",
+      "ghichu": null,
+      "ten": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      },
+      "noidung": {
+        "vi": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+        "en": "Writing: Apply vocabulary and structures to write clear, coherent texts on familiar topics."
+      }
+    }
+  ],
+  "hddg": [
+    {
+      "id": 94957,
+      "stt": 0,
+      "ma": "A.O",
+      "capdo": "0",
+      "parentid": null,
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      },
+      "noidung": {
+        "vi": "Hoạt động đánh giá root",
+        "en": "Hoạt động đánh giá root"
+      }
+    },
+    {
+      "id": 94958,
+      "stt": 0,
+      "ma": "A.O.1",
+      "capdo": "1",
+      "parentid": "94957",
+      "loaihoatdong": {
+        "ma": "IHW",
+        "ten": {
+          "vi": "Bài tập cá nhân về nhà",
+          "en": "Individual homework"
+        }
+      },
+      "ten": {
+        "vi": "Báo cáo tiểu luận cá nhân",
+        "en": "Review report"
+      },
+      "noidung": {
+        "vi": "Báo cáo tiểu luận cá nhân",
+        "en": "Review report"
+      }
+    },
+    {
+      "id": 94959,
+      "stt": 0,
+      "ma": "A.O.2",
+      "capdo": "1",
+      "parentid": "94957",
+      "loaihoatdong": {
+        "ma": "EXM",
+        "ten": {
+          "vi": "Thi cuối kỳ",
+          "en": "Final exam"
+        }
+      },
+      "ten": {
+        "vi": "Thi viết cuối kỳ",
+        "en": "Final written exam"
+      },
+      "noidung": {
+        "vi": "Thi viết cuối kỳ",
+        "en": "Final written exam"
+      }
+    },
+    {
+      "id": 94960,
+      "stt": 0,
+      "ma": "A.O.3",
+      "capdo": "1",
+      "parentid": "94957",
+      "loaihoatdong": {
+        "ma": "AIC",
+        "ten": {
+          "vi": "Hoạt động trong lớp",
+          "en": "Acitvity in class"
+        }
+      },
+      "ten": {
+        "vi": "Thảo luận/ Bài tập tại lớp",
+        "en": "Group discussion/ Exercise"
+      },
+      "noidung": {
+        "vi": "Thảo luận/ Bài tập tại lớp",
+        "en": "Group discussion/ Exercise"
+      }
+    }
+  ],
+  "ndct": [
+    {
+      "id": 118789,
+      "stt": 1,
+      "buoi": "1; Chương 1",
+      "chuandaurachitiet": [
+        {
+          "id": 158270,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Giới thiệu khung môn học.\n- Phân tích case-study công nghiệp thực tế chứng minh hiệu quả giảm chi phí/thời gian của mô phỏng số kỹ thuật vật liệu.",
+            "en": "- Introduce the course framework.\n- Analyze real industrial case-studies demonstrating the cost/time reduction effectiveness of numerical simulation in materials engineering.\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận nhóm, phân tích một sản phẩm lỗi thực tế và đề xuất thang đo mô phỏng phù hợp để tìm nguyên nhân.",
+            "en": "- Group discussion, analyze a real defective product and propose an appropriate simulation scale to find the cause."
+          },
+          "chuandaura": {
+            "id": 261438,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích áp dụng cơ sở vật lý – nhiệt động lực học và phạm vi giới hạn của các phương pháp mô phỏng kỹ thuật phổ biến nhằm thiết lập mối liên hệ logic giữa các thông số công nghệ, cấu trúc thực tế của vật liệu (khuyết tật, biên hạt, pha) với mô hình toán học tương ứng.",
+              "en": "Analyze the physical-thermodynamic foundations and limitations of common engineering simulation methods to establish logical relationships between processing parameters, actual material structures (defects, grain boundaries, phases), and corresponding mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261450,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94959,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi viết cuối kỳ",
+                  "en": "Final written exam"
+                }
+              }
+            },
+            {
+              "id": 261447,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94960,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thảo luận/ Bài tập tại lớp",
+                  "en": "Group discussion/ Exercise"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 158275,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Gợi ý các đề tài bài tập lớn mô phỏng số vật liệu.",
+            "en": "- Suggest topics for large assignments on materials numerical simulation."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận nhóm, đăng ký tên chủ đề bài toán mô phỏng.",
+            "en": "- Group discussion, register the topic name for the simulation problem."
+          },
+          "chuandaura": {
+            "id": 261442,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Làm việc nghiên cứu độc lập, tự định hướng cập nhật các thuật toán, phần mềm và xu hướng công nghệ mô phỏng mới trong lĩnh vực kỹ thuật vật liệu.",
+              "en": "Work for independent research and self-directed updating of new simulation algorithms, software, and technological trends in the field of materials engineering."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261439,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94958,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiểu luận cá nhân",
+                  "en": "Review report"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Tổng quan về tích hợp mô phỏng số kỹ thuật vật liệu và chuỗi logic vật liệu\n- Tứ diện kỹ thuật vật liệu: công nghệ – cấu trúc – tính chất – ứng dụng.\n- Phân loại thang đo (Macro-Meso-Micro-Nano) và bản chất của mô phỏng số vật liệu.",
+        "en": "Overview of numerical simulation integration in materials engineering and materials logic chain\n- Materials engineering tetrahedron: processing – structure – properties – performance.\n- Scale classification (Macro-Meso-Micro-Nano) and the nature of numerical simulation of materials.\n"
+      }
+    },
+    {
+      "id": 118790,
+      "stt": 2,
+      "buoi": "2,3,4,5; Chương 2",
+      "chuandaurachitiet": [
+        {
+          "id": 158274,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn phương pháp luận thiết lập phương trình bảo toàn (khối lượng, động lượng, năng lượng) và điều kiện biên dòng nhiệt/ vật chất.\n- Giảng giải định luật bảo toàn khối lượng; thiết lập toán học để chuyển đổi từ cấu trạng biến đổi theo thời gian sang cấu trạng quy chiếu cố định; chứng minh phương trình liên tục tổng quát và trường hợp khối lượng riêng không đổi (∇⋅v=0).\n- Phân tích tình huống kỹ thuật kéo sợi polymer mảnh; hướng dẫn áp dụng phương trình liên tục trong hệ tọa độ hình trụ kèm các giả thuyết đơn giản hóa (đối xứng trục, vận tốc dọc trục phân bố đều); định hình các số hạng năng lượng cơ bản (K,E,Q,P).\n- Trình bày định lý ứng suất Euler-Cauchy; hướng dẫn biến đổi số hạng công suất và tích hợp tenxơ tốc độ biến dạng để rút ra phương trình vi phân phân bố nhiệt độ bậc hai cuối cùng cho dòng lưu chất Newtonian chảy ngược chiều.\n- Giảng giải quy trình hệ thống 8 bước để định tỉ lệ phương trình chủ đạo và điều kiện biên; cách chuyển đổi biến số sang dạng không thứ nguyên (θ,x^*,t^*) chuẩn hóa; phương pháp giản lược số hạng dựa trên bậc độ lớn tham số.\n",
+            "en": "- Lecture on methodologies for establishing conservation equations (mass, momentum, energy) and thermal/mass flux boundary conditions\n- Lecture on the law of conservation of mass; establish mathematical formulations to transition from time-varying configurations to fixed reference frames; derive the general continuity equation and the constant density case (∇⋅v=0).\n- Analyze the engineering case of thin polymer fiber spinning; guide the application of the continuity equation in cylindrical coordinates with simplifying assumptions (axisymmetry, uniform axial velocity distribution); formulate fundamental energy terms (K,E,Q,P).\n- Present the Euler-Cauchy stress theorem; guide the transformation of the power term and integrate the rate-of-deformation tensor to derive the final second-order differential equation for counter-current Newtonian fluid flow.\n- Delineate the systematic 8-step scaling workflow for governing equations and boundary conditions; demonstrate the transformation of physical variables into normalized dimensionless forms; explain term reduction based on parameter orders of magnitude."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thảo luận nhóm, thực hành thiết lập mô hình toán học sơ bộ và các điều kiện biên tương ứng cho một quá trình chế tạo vật liệu cụ thể\n- Lắng nghe, ghi chép và thực hiện phân tích nhanh tại lớp về ý nghĩa vật lý của từng số hạng trong phương trình vi phân liên tục tổng quát.\n- Thảo luận nhóm, sử dụng điều kiện giới hạn ban đầu (v_r=0 tại r=0) để giải phương trình vi phân nhằm xác định hàm phân bố vận tốc ngang v_r.\n- Thực hành cá nhân tiến hành tích phân hai lần phương trình vi phân dẫn nhiệt; áp dụng các điều kiện biên nhiệt độ (T=T_0 tại z=±h) để tìm ra hàm phân bố nhiệt độ giải tích.\n- Thảo luận nhóm thực hành làm bài tập định tỉ lệ hệ phương trình dẫn nhiệt đối xứng trục của thanh trụ rắn mảnh; lập luận toán học để loại bỏ các số hạng không quan trọng khi tỷ số bán kính trên chiều dài vô cùng nhỏ (R/L≪1).",
+            "en": "- Group discussion, practice formulating a preliminary mathematical model and corresponding boundary conditions for specific materials processing.\n- Listen, take notes, and participate in a rapid in-class analysis regarding the physical interpretation of individual terms within the general differential continuity equation.\n- Work in teams, using the initial boundary condition (v_r=0 at r=0) to solve the differential equation and determine the radial velocity distribution function v_r.\n- Complete individual exercises to integrate the heat conduction differential equation twice; apply temperature boundary conditions (T=T_0 at z=±h) to solve for the analytical temperature profile.\n- Work in groups to practice scaling the axisymmetric transient heat conduction equation for a thin solid cylinder; formulate mathematical arguments to neglect minor terms when the radius-to-length ratio is extremely small (R/L≪1)."
+          },
+          "chuandaura": {
+            "id": 261438,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích áp dụng cơ sở vật lý – nhiệt động lực học và phạm vi giới hạn của các phương pháp mô phỏng kỹ thuật phổ biến nhằm thiết lập mối liên hệ logic giữa các thông số công nghệ, cấu trúc thực tế của vật liệu (khuyết tật, biên hạt, pha) với mô hình toán học tương ứng.",
+              "en": "Analyze the physical-thermodynamic foundations and limitations of common engineering simulation methods to establish logical relationships between processing parameters, actual material structures (defects, grain boundaries, phases), and corresponding mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261448,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94959,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi viết cuối kỳ",
+                  "en": "Final written exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Mô hình hóa các quá trình chuyển vận trong gia công vật liệu\n- Phương trình cân bằng khối lượng vi phân. Nền tảng của phương trình liên tục tổng quát, Định lý vận chuyển Reynolds và chuyển đổi đạo hàm vật liệu.\n- Ứng dụng mô hình hóa hệ tọa độ hình trụ thông qua bài toán quy trình kéo sợi polymer mảnh. Giới thiệu Phương trình cân bằng năng lượng tổng quát trong môi trường liên tục (Định luật 1 nhiệt động học, Động năng, Nội năng).\n- Phát triển phương trình năng lượng vi phân nâng cao (Tenxơ ứng suất Cauchy σ, Tenxơ tốc độ biến dạng D và Định luật Fourier). Giải bài toán phân bố nhiệt độ lưu chất chảy giữa hai bề mặt nhiệt song song (Dòng Couette có ma sát/lực nhớt).\n- Cơ sở phương pháp định tỉ lệ biến số và quy trình định tỉ lệ hệ phương trình toàn diện. Đơn giản hóa mô hình toán học dựa trên độ lớn của tham số (<<1 hoặc >>1). Ứng dụng bài toán tôi thanh trụ rắn mảnh (R≪L).\n",
+        "en": "Modeling transport phenomena in materials processing\n- Introduction to Mathematical Modeling and Differential Mass Balance Equations. Foundations of the general continuity equation, Reynolds Transport Theorem, and material derivative transformations.\n- Cylindrical coordinate modeling application via the thin polymer fiber spinning process. Introduction to General Energy Balance Equations in Continuum Mechanics (First Law of Thermodynamics, Kinetic energy, and Internal energy).\n- Advanced differential energy equation development (Cauchy stress tensor σ, rate-of-deformation tensor D, and Fourier's Law). Solving the temperature distribution profile for a fluid flowing between two parallel heated plates (Couette flow with viscous dissipation).\n- Fundamentals of the variable scaling method and Comprehensive equation scaling procedures. Mathematical model simplification based on parameter magnitudes (<<1 or >>1). Application to the quenching of a thin solid cylinder (R≪L).\n"
+      }
+    },
+    {
+      "id": 118788,
+      "stt": 3,
+      "buoi": "6, 7; Chương 3",
+      "chuandaurachitiet": [
+        {
+          "id": 158271,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn cách áp điều kiện biên nhiệt (dòng nhiệt, bức xạ, đối lưu) tương ứng với thực tế.",
+            "en": "- Guide how to apply thermal boundary conditions (heat flux, radiation, convection) corresponding to reality."
+          },
+          "hoatdongsinhvien": {
+            "vi": "-  Cấu hình bài toán mô phỏng phân bố nhiệt độ và ứng suất dư chi tiết vật liệu, phân tích các vùng có nguy cơ phá hoại.",
+            "en": "- Configure the simulation problem of temperature distribution and residual stress of material components, analyze areas at risk of failure."
+          },
+          "chuandaura": {
+            "id": 261440,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân tích và định cấu hình các bài toán kỹ thuật vật liệu cụ thể (như chu trình nhiệt, trường ứng suất dư, động học chuyển pha) để lựa chọn giải thuật mô phỏng tối ưu, bảo đảm cân bằng giữa chi phí tài nguyên tính toán và độ chính xác kỹ thuật yêu cầu.",
+              "en": "Construct and configure specific materials engineering problems (e.g., thermal cycles, residual stress fields, phase transformation kinetics) to select optimal simulation algorithms, ensuring a balance between computational resource costs and required engineering accuracy."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261444,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94959,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi viết cuối kỳ",
+                  "en": "Final written exam"
+                }
+              }
+            },
+            {
+              "id": 261449,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94960,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thảo luận/ Bài tập tại lớp",
+                  "en": "Group discussion/ Exercise"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 158280,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn phương pháp luận thiết lập RVE từ ảnh thực nghiệm (SEM, CT-Scan).\n- Giảng giải phương pháp luận toán học của FEM.\n- Demo kỹ thuật phân tích độ nhạy của lưới",
+            "en": "- Guide the methodology for establishing RVE from experimental images (SEM, CT-Scan).\n- Explain the mathematical methodology of FEM.\n- Demo mesh sensitivity analysis techniques"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Nghiên cứu tài liệu tổng quan về các mô hình RVE thông dụng.\n- Thực hành thao tác chia lưới trên mô hình khối vật liệu, kiểm tra sự hội tụ của kết quả theo mật độ lưới.",
+            "en": "- Study literature reviews on common RVE models.\n- Practice meshing operations on bulk material models, check the convergence of results according to mesh density."
+          },
+          "chuandaura": {
+            "id": 261439,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích ảnh hưởng của các điều kiện biên kỹ thuật và tham số đầu vào quyết định (mật độ lưới chia, bước thời gian, trường lực thế/hàm chức năng) để định vị nguồn gốc sai số và đánh giá độ tin cậy của kết quả mô phỏng đầu ra.",
+              "en": "Analyze the effects of engineering boundary conditions and critical input parameters (mesh density, time steps, force fields/functionals) to locate error sources and evaluate the reliability of simulation outputs."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261445,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94959,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi viết cuối kỳ",
+                  "en": "Final written exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 158272,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Phân tích cách thiết lập phương trình trạng thái vật liệu (σ=f(ϵ)) dựa trên dữ liệu kéo thử nghiệm.\n- Trình bày cơ học phá hủy liên tục và tiêu chuẩn phá hủy\n",
+            "en": "- Analyze how to establish the material state equation (σ=f(ϵ)) based on tensile test data.\n- Present continuum fracture mechanics and fracture criteria\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Tìm hiểu mô phỏng quá trình dập tấm, phân tích sự thay đổi chiều dày và ứng suất tập trung...\n- Thuyết trình nhóm về tiêu chuẩn phá hủy áp dụng cho các dòng vật liệu khác nhau",
+            "en": "- Learn about the simulation of the sheet metal stamping process, analyze thickness changes and stress concentration...\n- Group presentation on fracture criteria applied to different material classes\n"
+          },
+          "chuandaura": {
+            "id": 261441,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tổ chức, phân tích và trực quan hóa dữ liệu số từ công cụ mô phỏng (như trường ứng suất-biến dạng, tỷ lệ pha), đồng thời đối chiếu phê phán với dữ liệu thực nghiệm (XRD, SEM/TEM, thử nghiệm cơ tính) để đánh giá và hiệu chuẩn mô hình tính toán.",
+              "en": "Organize, analyze, and visualize digital data from simulation tools (e.g., stress-strain fields, phase fractions) while critically comparing them with experimental data (XRD, SEM/TEM, mechanical testing) to evaluate and calibrate computational models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261446,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94960,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thảo luận/ Bài tập tại lớp",
+                  "en": "Group discussion/ Exercise"
+                }
+              }
+            },
+            {
+              "id": 261442,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94959,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi viết cuối kỳ",
+                  "en": "Final written exam"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Cơ học môi trường liên tục, phần tử thể tích đại diện (RVE) và phương pháp vi phân, sai phân hữu hạn\n- Khái niệm RVE trong đồng nhất hóa tính chất vật liệu.\n- Thiết lập mối quan hệ toán học giữa cấu trúc tế vi và tính chất vĩ mô.\n- Thuật toán chia lưới, hàm chuyển đổi và  tiêu chuẩn hội tụ trong bài toán cơ, nhiệt kỹ thuật vật liệu\n\nMô phỏng trường nhiệt, ứng suất dư, biến dạng dẻo và phá hủy\n- Bài toán trường nhiệt phi tuyến trong các quá trình công nghệ sản xuất vật liệu.\n- Đặc điểm ứng xử cơ học phi tuyến đàn dẻo của vật liệu.\n- Mô phỏng các quá trình công nghệ sản xuất vật liệu.\n- Mô phỏng sự lan truyền vết nứt do tập trung ứng suất dưới các loại tải trọng.\n",
+        "en": "Continuum mechanics, representative volume element (RVE) and finite difference, finite element methods\n- Concept of RVE in homogenization of material properties.\n- Establishing mathematical relationships between microstructure and macroscopic properties.\n- Meshing algorithms, shape functions and convergence criteria in thermomechanical problems of materials engineering\n\nSimulation of thermal fields, residual stresses, plastic deformation and fracture\n- Non-linear thermal field problems in materials processing technologies.\n- Characteristics of non-linear elasto-plastic mechanical behavior of materials.\n- Simulation of materials processing technologies.\n- Simulation of crack propagation due to stress concentration under various types of loading.\n"
+      }
+    },
+    {
+      "id": 118787,
+      "stt": 4,
+      "buoi": "8, 9; Chương 4",
+      "chuandaurachitiet": [
+        {
+          "id": 158269,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn ứng dụng phần mềm nhiệt động (Thermo-Calc Education).\n- Phân tích cách đọc và trích xuất dữ liệu pha.\n",
+            "en": "- Analyze the effect of cooling rate on grain morphology.\n- Analyze an integrated problem of inputting microstructural data into macro models."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Thực hành máy tính mô phỏng giản đồ pha cho một mác hợp kim cụ thể.\n- Xác định nhiệt độ bắt đầu đông đặc và tỷ lệ pha .\n",
+            "en": "- Computer practice simulating phase diagrams for a specific alloy grade.\n- Determine the initial solidification temperature and phase fraction.\n"
+          },
+          "chuandaura": {
+            "id": 261438,
+            "ma": "L.O.1.1",
+            "ten": {
+              "vi": "Phân tích áp dụng cơ sở vật lý – nhiệt động lực học và phạm vi giới hạn của các phương pháp mô phỏng kỹ thuật phổ biến nhằm thiết lập mối liên hệ logic giữa các thông số công nghệ, cấu trúc thực tế của vật liệu (khuyết tật, biên hạt, pha) với mô hình toán học tương ứng.",
+              "en": "Analyze the physical-thermodynamic foundations and limitations of common engineering simulation methods to establish logical relationships between processing parameters, actual material structures (defects, grain boundaries, phases), and corresponding mathematical models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261440,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94958,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiểu luận cá nhân",
+                  "en": "Review report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 158273,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Phân tích ảnh hưởng của tốc độ làm nguội đến hình thái hạt.\n- Phân tích một bài toán tích hợp dữ liệu cấu trúc vi mô nạp vào vĩ mô.\n",
+            "en": "- Analyze the effect of cooling rate on grain morphology."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Phân tích dữ liệu ảnh mô phỏng trường pha từ các bài báo quốc tế.\n-  Liên hệ tính chất cơ lý vật liệu và sự thay đổi kích thước hạt trung bình theo thời gian lưu nhiệt.\n",
+            "en": "- Analyze phase-field simulation image data from international papers.\n- Relate the mechanical properties of materials and the change in average grain size with soaking time.\n"
+          },
+          "chuandaura": {
+            "id": 261440,
+            "ma": "L.O.2.1",
+            "ten": {
+              "vi": "Phân tích và định cấu hình các bài toán kỹ thuật vật liệu cụ thể (như chu trình nhiệt, trường ứng suất dư, động học chuyển pha) để lựa chọn giải thuật mô phỏng tối ưu, bảo đảm cân bằng giữa chi phí tài nguyên tính toán và độ chính xác kỹ thuật yêu cầu.",
+              "en": "Construct and configure specific materials engineering problems (e.g., thermal cycles, residual stress fields, phase transformation kinetics) to select optimal simulation algorithms, ensuring a balance between computational resource costs and required engineering accuracy."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261441,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94959,
+                "ma": "A.O.2",
+                "ten": {
+                  "vi": "Thi viết cuối kỳ",
+                  "en": "Final written exam"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 158276,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Phân tích một bài toán tích hợp dữ liệu cấu trúc vi mô nạp vào vĩ mô.",
+            "en": "- Analyze an integrated problem of inputting microstructural data into macro models."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Phân tích logic về quy trình dòng dữ liệu của một hệ thống mô phỏng đa thang đo.",
+            "en": "- Logical analysis of the data flow process of a multi-scale simulation system."
+          },
+          "chuandaura": {
+            "id": 261441,
+            "ma": "L.O.2.2",
+            "ten": {
+              "vi": "Tổ chức, phân tích và trực quan hóa dữ liệu số từ công cụ mô phỏng (như trường ứng suất-biến dạng, tỷ lệ pha), đồng thời đối chiếu phê phán với dữ liệu thực nghiệm (XRD, SEM/TEM, thử nghiệm cơ tính) để đánh giá và hiệu chuẩn mô hình tính toán.",
+              "en": "Organize, analyze, and visualize digital data from simulation tools (e.g., stress-strain fields, phase fractions) while critically comparing them with experimental data (XRD, SEM/TEM, mechanical testing) to evaluate and calibrate computational models."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261453,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94960,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thảo luận/ Bài tập tại lớp",
+                  "en": "Group discussion/ Exercise"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Nhiệt động lực học tính toán - Phương pháp CALPHAD\n- Tính toán năng lượng tự do Gibbs của hệ đa thành phần.\n- Dự đoán giản đồ pha thực tế của các hệ pha tạp.\n- Mô hình hóa sự phát triển tổ chức tế vi, tái kết tinh trong quá trình xử lý vật liệu\n- Cầu nối đa thang đo chuyển dữ liệu mô phỏng vi mô đến mô hình vĩ mô\n",
+        "en": "Computational thermodynamics - CALPHAD method\n- Calculation of Gibbs free energy of multi-component systems.\n- Prediction of practical phase diagrams of alloy systems.\n- Modeling of microstructural evolution, recrystallization during materials processing\n- Multi-scale bridging transferring micro-simulation data to macro-models\n"
+      }
+    },
+    {
+      "id": 118786,
+      "stt": 5,
+      "buoi": "10; Chương 5",
+      "chuandaurachitiet": [
+        {
+          "id": 158277,
+          "stt": 1,
+          "hoatdonggiangvien": {
+            "vi": "- Hướng dẫn kỹ thuật hiệu chuẩn (Curve-fitting/Parameter optimization).",
+            "en": "- Guide calibration techniques (Curve-fitting/Parameter optimization)."
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Lấy dữ liệu thực nghiệm thực tế để hiệu chuẩn lại tham số mô hình số.",
+            "en": "- Use actual experimental data to recalibrate numerical model parameters."
+          },
+          "chuandaura": {
+            "id": 261439,
+            "ma": "L.O.1.2",
+            "ten": {
+              "vi": "Phân tích ảnh hưởng của các điều kiện biên kỹ thuật và tham số đầu vào quyết định (mật độ lưới chia, bước thời gian, trường lực thế/hàm chức năng) để định vị nguồn gốc sai số và đánh giá độ tin cậy của kết quả mô phỏng đầu ra.",
+              "en": "Analyze the effects of engineering boundary conditions and critical input parameters (mesh density, time steps, force fields/functionals) to locate error sources and evaluate the reliability of simulation outputs."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261452,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94958,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiểu luận cá nhân",
+                  "en": "Review report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 158278,
+          "stt": 2,
+          "hoatdonggiangvien": {
+            "vi": "- Giảng về đạo đức khoa học: chống ngụy tạo, sửa cấu trúc dữ liệu mô phỏng.",
+            "en": "- Lecture on scientific ethics: against fabrication, altering simulation data structure."
+          },
+          "hoatdongsinhvien": {
+            "vi": "– Thảo luận nhóm và giảng viên về tầm quan trọng đạo đức xử lý dữ liệu mô phỏng và thực nghiệm.",
+            "en": "- Discussion on the importance of scientific ethics."
+          },
+          "chuandaura": {
+            "id": 261443,
+            "ma": "L.O.3.2",
+            "ten": {
+              "vi": "Tuân theo tính trung thực khoa học và trách nhiệm giải trình đạo đức trong việc báo cáo dữ liệu; chủ động phản biện các giả định mô hình và nhận diện rõ giới hạn của kết quả mô phỏng so với thực tế kỹ thuật sản xuất.",
+              "en": "Follow scientific integrity and ethical accountability in data reporting; actively review model assumptions and clearly recognize the limitations of simulation results compared to actual manufacturing engineering reality."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261454,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94960,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thảo luận/ Bài tập tại lớp",
+                  "en": "Group discussion/ Exercise"
+                }
+              }
+            },
+            {
+              "id": 261443,
+              "stt": 2,
+              "hoatdongdanhgia": {
+                "id": 94958,
+                "ma": "A.O.1",
+                "ten": {
+                  "vi": "Báo cáo tiểu luận cá nhân",
+                  "en": "Review report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 158279,
+          "stt": 3,
+          "hoatdonggiangvien": {
+            "vi": "- Điều phối thảo luận, phản biện đưa ra các câu hỏi chất vấn sâu về điều kiện biên kỹ thuật.\n- Tổng kết các định hướng ứng dụng mô phỏng trong nghiên cưu, công bố khoa học\n",
+            "en": "- Coordinate the discussion and review and raise in-depth questions about technical boundary conditions.\n- Summarize the module, orient the application of simulation in research, scientific publication\n"
+          },
+          "hoatdongsinhvien": {
+            "vi": "- Các nhóm báo cáo tóm tắt, thực hiện phản biện chéo bài tập của nhóm khác.\n\n\n",
+            "en": "- Groups present technical reports, conduct cross-review of other groups' assignments.\n\n"
+          },
+          "chuandaura": {
+            "id": 261442,
+            "ma": "L.O.3.1",
+            "ten": {
+              "vi": "Làm việc nghiên cứu độc lập, tự định hướng cập nhật các thuật toán, phần mềm và xu hướng công nghệ mô phỏng mới trong lĩnh vực kỹ thuật vật liệu.",
+              "en": "Work for independent research and self-directed updating of new simulation algorithms, software, and technological trends in the field of materials engineering."
+            }
+          },
+          "hoatdong": [
+            {
+              "id": 261451,
+              "stt": 1,
+              "hoatdongdanhgia": {
+                "id": 94960,
+                "ma": "A.O.3",
+                "ten": {
+                  "vi": "Thảo luận/ Bài tập tại lớp",
+                  "en": "Group discussion/ Exercise"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "noidung": {
+        "vi": "Phân tích sai số và hiệu chuẩn số liệu mô phỏng số\n- Nguồn gốc sai số trong mô phỏng số.\n- Đối sánh đánh giá kết quả số với dữ liệu thực nghiệm.\n- Trình bày các ví dụ bài toán kỹ thuật vật liệu tính toán, phương pháp dánh giá nghiên cứu mô phỏng hóa công nghệ hoặc phân tích vật liệu.\n",
+        "en": "Error analysis and calibration of numerical simulation data\n- Sources of error in numerical simulation.\n- Benchmarking and evaluating numerical results against experimental data.\n- Presentation of computational materials engineering problem and critical review of research on technology simulation or materials analysis.\n"
+      }
+    }
+  ],
+  "maping_hddg_cdr": [
+    {
+      "id": 261438,
+      "ma": "L.O.1.1",
+      "ten_vi": "Phân tích áp dụng cơ sở vật lý – nhiệt động lực học và phạm vi giới hạn của các phương pháp mô phỏng kỹ thuật phổ biến nhằm thiết lập mối liên hệ logic giữa các thông số công nghệ, cấu trúc thực tế của vật liệu (khuyết tật, biên hạt, pha) với mô hình toán học tương ứng.",
+      "ten_en": "Analyze the physical-thermodynamic foundations and limitations of common engineering simulation methods to establish logical relationships between processing parameters, actual material structures (defects, grain boundaries, phases), and corresponding mathematical models.",
+      "hddg": [
+        {
+          "id": 94958,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiểu luận cá nhân",
+          "ten_en": "Review report"
+        },
+        {
+          "id": 94959,
+          "ma": "A.O.2",
+          "ten_vi": "Thi viết cuối kỳ",
+          "ten_en": "Final written exam"
+        },
+        {
+          "id": 94960,
+          "ma": "A.O.3",
+          "ten_vi": "Thảo luận/ Bài tập tại lớp",
+          "ten_en": "Group discussion/ Exercise"
+        }
+      ]
+    },
+    {
+      "id": 261439,
+      "ma": "L.O.1.2",
+      "ten_vi": "Phân tích ảnh hưởng của các điều kiện biên kỹ thuật và tham số đầu vào quyết định (mật độ lưới chia, bước thời gian, trường lực thế/hàm chức năng) để định vị nguồn gốc sai số và đánh giá độ tin cậy của kết quả mô phỏng đầu ra.",
+      "ten_en": "Analyze the effects of engineering boundary conditions and critical input parameters (mesh density, time steps, force fields/functionals) to locate error sources and evaluate the reliability of simulation outputs.",
+      "hddg": [
+        {
+          "id": 94958,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiểu luận cá nhân",
+          "ten_en": "Review report"
+        },
+        {
+          "id": 94959,
+          "ma": "A.O.2",
+          "ten_vi": "Thi viết cuối kỳ",
+          "ten_en": "Final written exam"
+        }
+      ]
+    },
+    {
+      "id": 261440,
+      "ma": "L.O.2.1",
+      "ten_vi": "Phân tích và định cấu hình các bài toán kỹ thuật vật liệu cụ thể (như chu trình nhiệt, trường ứng suất dư, động học chuyển pha) để lựa chọn giải thuật mô phỏng tối ưu, bảo đảm cân bằng giữa chi phí tài nguyên tính toán và độ chính xác kỹ thuật yêu cầu.",
+      "ten_en": "Construct and configure specific materials engineering problems (e.g., thermal cycles, residual stress fields, phase transformation kinetics) to select optimal simulation algorithms, ensuring a balance between computational resource costs and required engineering accuracy.",
+      "hddg": [
+        {
+          "id": 94959,
+          "ma": "A.O.2",
+          "ten_vi": "Thi viết cuối kỳ",
+          "ten_en": "Final written exam"
+        },
+        {
+          "id": 94960,
+          "ma": "A.O.3",
+          "ten_vi": "Thảo luận/ Bài tập tại lớp",
+          "ten_en": "Group discussion/ Exercise"
+        }
+      ]
+    },
+    {
+      "id": 261441,
+      "ma": "L.O.2.2",
+      "ten_vi": "Tổ chức, phân tích và trực quan hóa dữ liệu số từ công cụ mô phỏng (như trường ứng suất-biến dạng, tỷ lệ pha), đồng thời đối chiếu phê phán với dữ liệu thực nghiệm (XRD, SEM/TEM, thử nghiệm cơ tính) để đánh giá và hiệu chuẩn mô hình tính toán.",
+      "ten_en": "Organize, analyze, and visualize digital data from simulation tools (e.g., stress-strain fields, phase fractions) while critically comparing them with experimental data (XRD, SEM/TEM, mechanical testing) to evaluate and calibrate computational models.",
+      "hddg": [
+        {
+          "id": 94959,
+          "ma": "A.O.2",
+          "ten_vi": "Thi viết cuối kỳ",
+          "ten_en": "Final written exam"
+        },
+        {
+          "id": 94960,
+          "ma": "A.O.3",
+          "ten_vi": "Thảo luận/ Bài tập tại lớp",
+          "ten_en": "Group discussion/ Exercise"
+        }
+      ]
+    },
+    {
+      "id": 261442,
+      "ma": "L.O.3.1",
+      "ten_vi": "Làm việc nghiên cứu độc lập, tự định hướng cập nhật các thuật toán, phần mềm và xu hướng công nghệ mô phỏng mới trong lĩnh vực kỹ thuật vật liệu.",
+      "ten_en": "Work for independent research and self-directed updating of new simulation algorithms, software, and technological trends in the field of materials engineering.",
+      "hddg": [
+        {
+          "id": 94958,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiểu luận cá nhân",
+          "ten_en": "Review report"
+        },
+        {
+          "id": 94960,
+          "ma": "A.O.3",
+          "ten_vi": "Thảo luận/ Bài tập tại lớp",
+          "ten_en": "Group discussion/ Exercise"
+        }
+      ]
+    },
+    {
+      "id": 261443,
+      "ma": "L.O.3.2",
+      "ten_vi": "Tuân theo tính trung thực khoa học và trách nhiệm giải trình đạo đức trong việc báo cáo dữ liệu; chủ động phản biện các giả định mô hình và nhận diện rõ giới hạn của kết quả mô phỏng so với thực tế kỹ thuật sản xuất.",
+      "ten_en": "Follow scientific integrity and ethical accountability in data reporting; actively review model assumptions and clearly recognize the limitations of simulation results compared to actual manufacturing engineering reality.",
+      "hddg": [
+        {
+          "id": 94958,
+          "ma": "A.O.1",
+          "ten_vi": "Báo cáo tiểu luận cá nhân",
+          "ten_en": "Review report"
+        },
+        {
+          "id": 94960,
+          "ma": "A.O.3",
+          "ten_vi": "Thảo luận/ Bài tập tại lớp",
+          "ten_en": "Group discussion/ Exercise"
+        }
+      ]
+    }
+  ],
+  "tenmonhoc": "Cơ sở mô phỏng vật liệu",
+  "tenmonhoc_eng": "Introduction to Simulation of Materials",
+  "kkt_JSON": {
+    "kkt_gddaicuong": 0,
+    "kkt_gdchuyennghiep": 0,
+    "kkt_csnganh": 1,
+    "kkt_nganh": 0,
+    "kkt_chuyennganh": 0,
+    "kkt_totnghiep": 0
+  },
+  "phuongthucgiangday_json": [
+    {
+      "id": 4,
+      "ma": "pphtqnc",
+      "ten": {
+        "vi": "Phương pháp học tập qua nghiên cứu",
+        "en": "Research-based learning "
+      }
+    },
+    {
+      "id": 1,
+      "ma": "pphtth",
+      "ten": {
+        "vi": "Phương pháp học tập tích hợp",
+        "en": "Blended learning"
+      }
+    }
+  ]
+}
