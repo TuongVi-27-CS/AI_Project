@@ -9,8 +9,8 @@ from datetime import datetime
 sys.stdout.reconfigure(encoding="utf-8")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PAGES_DIR = os.path.join(BASE_DIR, "pages")
-DETAILS_DIR = os.path.join(BASE_DIR, "details")
-OUTPUT_DIR = os.path.join(BASE_DIR, "output")
+DETAILS_DIR = os.path.join(BASE_DIR, "Raw_data_1")
+OUTPUT_DIR = os.path.join(BASE_DIR, "output_1")
 DOCS_OUT_DIR = os.path.join(OUTPUT_DIR, "documents")
 PASSAGES_OUT_DIR = os.path.join(OUTPUT_DIR, "passages")
 os.makedirs(DOCS_OUT_DIR, exist_ok=True)
@@ -18,7 +18,6 @@ os.makedirs(PASSAGES_OUT_DIR, exist_ok=True)
 
 
 def build_id_mapping():
-    """Đọc thư mục pages/ để lấy map từ code sang id"""
     mapping = {}
     page_files = glob.glob(os.path.join(PAGES_DIR, "page-*.json"))
     for file_path in page_files:
@@ -137,7 +136,7 @@ def process_details(id_mapping):
             "title": get_lang_text(data.get("ten")),
             "document_type": "course_syllabus",
             "source_url": source_url,
-            "source_file": f"details/{os.path.basename(file_path)}",
+            "source_file": f"Raw_data_1/{os.path.basename(file_path)}",
             "issued_date": issued_date_formatted,
             "effective_date": None,
             "scope": {
@@ -149,8 +148,16 @@ def process_details(id_mapping):
         }
         pb = PassageBuilder(doc_id)
         mndk = data.get("monhocdieukien")
-        if mndk:
-            pb.add_passage(["Môn học điều kiện"], mndk, "monhocdieukien")
+        if mndk and isinstance(mndk, list):
+            cond_sentences = []
+            for cond in mndk:
+                loai = cond.get("tenloaidieukien", {}).get("vi", "Điều kiện")
+                ma_mon = cond.get("mamonhoc", "")
+                ten_mon = cond.get("tenmonhoc_only", {}).get("vi", "")
+                cond_sentences.append(f"{loai}: {ma_mon} - {ten_mon}")
+            
+            natural_text = "Môn học điều kiện:\n" + "\n".join(f"- {s}" for s in cond_sentences)
+            pb.add_passage(["Môn học điều kiện"], natural_text, "monhocdieukien")
         ttc = data.get("thongtinchung", {})
         ttc_keys = [
             ("mucTieuMonHoc", "Mục tiêu môn học"),

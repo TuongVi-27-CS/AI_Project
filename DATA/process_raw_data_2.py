@@ -32,25 +32,77 @@ os.makedirs(DOCS_OUT_DIR, exist_ok=True)
 os.makedirs(PASSAGES_OUT_DIR, exist_ok=True)
 
 def remove_accents(input_str):
+    input_str = input_str.replace("đ", "d").replace("Đ", "D")
     s1 = unicodedata.normalize('NFD', input_str)
     s2 = s1.encode('ascii', 'ignore').decode('utf-8')
     return s2
 
-def clean_text(text):
+def clean_text(text, keep_newlines=False):
     text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)
     text = re.sub(r'\*(.*?)\*', r'\1', text)
-    text = re.sub(r'^#+\s*', '', text)
-    text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'^#+\s*', '', text, flags=re.MULTILINE)
+    if keep_newlines:
+        text = re.sub(r'[ \t]+', ' ', text)
+    else:
+        text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
 def extract_issued_date(text):
-    match = re.search(r'ngày\s+(\d{1,2})\s+tháng\s+(\d{1,2})\s+năm\s+(\d{4})', text, re.IGNORECASE)
-    if match:
-        day = int(match.group(1))
-        month = int(match.group(2))
-        year = int(match.group(3))
-        return f"{year:04d}-{month:02d}-{day:02d}"
+    match1 = re.search(r'ngày\s+(\d{1,2})\s*(?:tháng|/)\s*(\d{1,2})\s*(?:năm|/|,)\s*(\d{4})', text, re.IGNORECASE)
+    if match1:
+        return f"{int(match1.group(3)):04d}-{int(match1.group(2)):02d}-{int(match1.group(1)):02d}"
+    
+    match2 = re.search(r'(\d{1,2})\s+tháng\s+(\d{1,2})\s*(?:năm|,)?\s*(\d{4})', text, re.IGNORECASE)
+    if match2:
+        return f"{int(match2.group(3)):04d}-{int(match2.group(2)):02d}-{int(match2.group(1)):02d}"
+    
+    match3 = re.search(r'\b(\d{1,2})/(\d{1,2})/(\d{4})\b', text)
+    if match3:
+        return f"{int(match3.group(3)):04d}-{int(match3.group(2)):02d}-{int(match3.group(1)):02d}"
+        
     return None
+
+BOILERPLATE_PATTERNS = [
+    r"CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+    r"Độc lập\s*[–-]\s*Tự do\s*[–-]\s*Hạnh phúc",
+    r"ĐẠI HỌC QUỐC GIA",
+    r"TRƯỜNG ĐẠI HỌC BÁCH KHOA",
+    r"^Số:\s*/?QĐ",
+    r"^Thành phố Hồ Chí Minh,\s*ngày",
+    r"^HIỆU TRƯỞNG TRƯỜNG ĐẠI HỌC BÁCH KHOA$",
+]
+
+def is_boilerplate(text):
+    if len(text.strip()) < 30:
+        return True
+    for pat in BOILERPLATE_PATTERNS:
+        if re.search(pat, text, re.IGNORECASE):
+            return True
+    return False
+
+def parse_curriculum_markdown_table(table_text):
+    courses = []
+    lines = table_text.split("\n")
+    
+    pattern = r"\|?\s*\d*\s*\|\s*([A-Z]{2}\d{4})\s*\|\s*([^|]+)\|\s*(\d+)\s*\|\s*([^|]*)\|"
+    
+    for line in lines:
+        match = re.search(pattern, line)
+        if match:
+            course_code = match.group(1).strip()
+            course_name = re.sub(r"<br>.*", "", match.group(2)).strip()
+            credits = int(match.group(3).strip())
+            prereq_raw = match.group(4).strip()
+            
+            prereqs = re.findall(r"([A-Z]{2}\d{4})\s*\((TQ|SH|KN)\)", prereq_raw)
+            
+            courses.append({
+                "code": course_code,
+                "name": course_name,
+                "credits": credits,
+                "conditions": [{"code": code, "type": rel_type} for code, rel_type in prereqs]
+            })
+    return courses
 
 def parse_markdown(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -72,7 +124,7 @@ def parse_markdown(file_path):
         document_type = "meeting_minutes"
 
     full_text = "".join(lines)
-    issued_date = extract_issued_date(full_text[:2000])
+    issued_date = extract_issued_date(full_text)
 
     document = {
         "doc_id": doc_id,
@@ -100,10 +152,31 @@ def parse_markdown(file_path):
         if not current_paragraph_lines:
             return
         
-        raw_text = " ".join(current_paragraph_lines)
-        cleaned_text = clean_text(raw_text)
+        raw_text_newlines = "\n".join(current_paragraph_lines)
+        is_table = bool(re.search(r"\|.*\|.*\|", raw_text_newlines))
         
-        if cleaned_text:
+        raw_text = raw_text_newlines if is_table else " ".join(current_paragraph_lines)
+        cleaned_text = clean_text(raw_text, keep_newlines=is_table)
+        
+        if cleaned_text and not is_boilerplate(cleaned_text):
+            if is_table:
+                courses = parse_curriculum_markdown_table(raw_text_newlines)
+                if courses:
+                    for course in courses:
+                        passages.append({
+                            "passage_id": f"{doc_id}_P{order:03d}",
+                            "doc_id": doc_id,
+                            "order": order,
+                            "section_path": list(section_path),
+                            "content_type": "course_entity",
+                            "text": json.dumps(course, ensure_ascii=False),
+                            "source_locator": f"line_{start_line_idx + 1}",
+                            "review_status": "pending"
+                        })
+                        order += 1
+                    current_paragraph_lines = []
+                    return
+
             passages.append({
                 "passage_id": f"{doc_id}_P{order:03d}",
                 "doc_id": doc_id,
@@ -129,8 +202,12 @@ def parse_markdown(file_path):
         heading_match = re.match(r'^(#+)\s+(.*)', line)
         numbered_match = re.match(r'^(\d+(\.\d+)*)\.?\s+(.*)', line)
         dieu_match = re.match(r'^(Điều\s+\d+[:\.])\s*(.*)', line, re.IGNORECASE)
+        chuong_phan_match = re.match(r'^((?:Chương|Phần)\s+[IVX\d]+[:\.])\s*(.*)', line, re.IGNORECASE)
+        roman_match = re.match(r'^([IVX]+)[\.\)]\s+(.*)', line)
+        khoan_muc_match = re.match(r'^((?:Khoản|Mục)\s+\d+[:\.])\s*(.*)', line, re.IGNORECASE)
+        letter_match = re.match(r'^([a-z])\)\s+(.*)', line)
         
-        if heading_match or numbered_match or dieu_match:
+        if heading_match or numbered_match or dieu_match or chuong_phan_match or roman_match or khoan_muc_match or letter_match:
             process_current_paragraph(paragraph_start_idx)
             
             level = 1
@@ -138,13 +215,25 @@ def parse_markdown(file_path):
             if heading_match:
                 level = len(heading_match.group(1))
                 heading_text = clean_text(heading_match.group(2))
-            elif numbered_match:
-                number_str = numbered_match.group(1)
-                level = len(number_str.split('.'))
-                heading_text = f"{number_str}. {clean_text(numbered_match.group(3))}"
+            elif chuong_phan_match:
+                level = 1
+                heading_text = f"{chuong_phan_match.group(1)} {clean_text(chuong_phan_match.group(2))}".strip()
+            elif roman_match:
+                level = 1
+                heading_text = f"{roman_match.group(1)}. {clean_text(roman_match.group(2))}".strip()
             elif dieu_match:
                 level = 2
                 heading_text = f"{dieu_match.group(1)} {clean_text(dieu_match.group(2))}".strip()
+            elif numbered_match:
+                number_str = numbered_match.group(1)
+                level = len(number_str.split('.')) + 1
+                heading_text = f"{number_str}. {clean_text(numbered_match.group(3))}"
+            elif khoan_muc_match:
+                level = 3
+                heading_text = f"{khoan_muc_match.group(1)} {clean_text(khoan_muc_match.group(2))}".strip()
+            elif letter_match:
+                level = 4
+                heading_text = f"{letter_match.group(1)}) {clean_text(letter_match.group(2))}".strip()
                 
             if level <= len(section_path):
                 section_path = section_path[:level-1]
