@@ -1,0 +1,704 @@
+[
+  {
+    "passage_id": "DCMH.CO3147.3.1_P1",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 1,
+    "section_path": [
+      "Môn học điều kiện"
+    ],
+    "content_type": "paragraph",
+    "text": "Môn học điều kiện: - Khuyến Nghị: CO3097 - Thiết kế Vi mạch",
+    "source_locator": {
+      "type": "json_field",
+      "path": "monhocdieukien"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P2",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 2,
+    "section_path": [
+      "Thông tin chung",
+      "Mục tiêu môn học"
+    ],
+    "content_type": "paragraph",
+    "text": ". Môn học này nhằm cung cấp kiến thức về thiết kế vi mạch số nâng cao và Hệ thống trên Chip (SoC) với việc sử dụng các công cụ thiết kế hỗ trợ máy tính (CAD) đạt chuẩn công nghiệp. Tài liệu cung cấp cái nhìn thống nhất từ trên xuống dưới để tìm hiểu về mạch tích hợp quy mô rất lớn (VLSI) và các hệ thống máy tính số. Các kiến trúc hệ thống máy tính phức tạp, xu hướng phát triển VLSI, và quy trình VLSI hiện đại sẽ được giới thiệu. Các thiết bị CMOS cơ bản và quy trình sản xuất cũng sẽ được đề cập. Môn học đặc biệt chú trọng đến việc tìm hiểu về RISC-V, Kiến trúc Tập Lệnh (ISA) nguồn mở tiên tiến. Với RISC-V, khóa học cũng giới thiệu cách xây dựng phần cứng mức cao mới, tập trung vào tích hợp quy mô lớn các hệ thống máy tính trong cả FPGA (Mạch tích hợp cổng có thể lập trình trường) và ASIC (Mạch tích hợp ứng dụng đặc thù). Các bài thực hành trong phòng thí nghiệm giúp sinh viên luyện tập với các công cụ thiết kế FPGA và VLSI hiện đại. Sau khóa học, sinh viên có thể áp dụng các kỹ thuật thiết kế để xây dựng hệ thống máy tính phức tạp trên chip silicon.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.mucTieuMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P3",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 3,
+    "section_path": [
+      "Thông tin chung",
+      "Nội dung tóm tắt môn học"
+    ],
+    "content_type": "paragraph",
+    "text": ". Giới thiệu VLSI, Ôn tập MOSFET và sơ đồ mạch; Layout với Virtuoso, Thư viện standard cell; Back-end Bố trí vi mạch, Quy trình thiết kế Vi mạch số; Quy trình thiết kế vi mạch tương tự; IO-Cell và FullChup tích hợp; Giới thiệu về RISC-V; Dự án RISC-V với Chipyard; Hệ thống RISC-V trên Arty-A7; thiết bị ngoại vi cho RISC-V; phần cứng cấu hình cho RISC-V;.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.noiDungTomTatMonHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P4",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 4,
+    "section_path": [
+      "Thông tin chung",
+      "Tài liệu học tập"
+    ],
+    "content_type": "paragraph",
+    "text": ". Sách, Giáo trình chính:. [1] Wai Kai Chen, The VLSI Design Handbook, Second edition, 2007, CRC Press. Sách tham khảo:. [2] Tildon H. Glisson, Jr., Introduction to Circuit Analysis and Design, Springer, 2011.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.taiLieuHocTap.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P5",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 5,
+    "section_path": [
+      "Thông tin chung",
+      "Hướng dẫn cách học"
+    ],
+    "content_type": "paragraph",
+    "text": ". Hướng dẫn cách học: Tài liệu (slide bài giảng) được đưa lên BKeL hàng tuần. Sinh viên tải về, in ra và mang theo khi lên lớp học. Sinh viên làm thêm các bài tập và đọc thêm trong sách “Logic Synthesis” Sinh viên nên đi học đầy đủ và làm bài tập trong quá trình học sẽ giúp tiết kiệm thời gian trong quá trình ôn thi cuối kỳ. Đối với phần thực hành, sinh viên tham gia đầy đủ các buổi thí nghiệm và nộp lại báo cáo thí nghiệm ngay cuối giờ thí nghiệm. Chi tiết cách đánh giá môn học: Bài tập lớn (30%): Sinh viên thực hiện bài tập lớn theo nhóm 2-3 SV, đánh giá phần demo và báo cáo vào cuối môn học Thí nghiệm (20%) Thi cuối kỳ (50%).",
+    "source_locator": {
+      "type": "json_field",
+      "path": "thongtinchung.huongDanCachHoc.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P6",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 6,
+    "section_path": [
+      "Phân bổ thời gian"
+    ],
+    "content_type": "paragraph",
+    "text": "Phân bổ tín chỉ: {'soTC': 3, 'soTC_ETC': 6, 'lyThuyet': 2, 'baiTapThucHanh': 0, 'thiNghiem': 0.67, 'baiTapLon': 0.33, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 0, 'khac': 0} | Phân bổ tiết: {'tongSoTiet': 150, 'tongGioHocTapLamViec': 152, 'lyThuyet': 30, 'baiTapThucHanh': 0, 'thiNghiem': 20, 'baiTapLon': 15, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 70, 'khac': 15}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "pbsotc_pbsotiet"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P7",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 7,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[0].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P8",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 8,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[1].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P9",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 9,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[2].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P10",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 10,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[3].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P11",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 11,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[4].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P12",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 12,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[5].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P13",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 13,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[6].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P14",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 14,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O"
+    ],
+    "content_type": "list_item",
+    "text": "Chuẩn đầu ra môn học (Root) - Năm CTĐT 2019",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[7].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P15",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 15,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.1"
+    ],
+    "content_type": "list_item",
+    "text": "Từ vựng: Biết được một lượng từ vựng đủ để có thể diễn đạt ý mình về các chủ đề thường nhật như Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[8].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P16",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 16,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.2"
+    ],
+    "content_type": "list_item",
+    "text": "Ngữ pháp: Biết được những cấu trúc ngữ pháp phổ biến và cần thiết, áp dụng được chúng trong các tình huống giao tiếp quen thuộc một cách hợp lý, chính xác.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[9].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P17",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 17,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.3"
+    ],
+    "content_type": "list_item",
+    "text": "Nghe: Nghe hiểu được các thông tin rõ ràng, các ý chính cũng như chi tiết của những bài nói tương đối đơn giản về các chủ đề quen thuộc liên quan tới Bạn là ai, Trái tim ở đâu, Sức khỏe và hạnh phúc, Học tập và Gia đình & Bạn bè. Bên cạnh đó, có thể hiểu được những bài diễn thuyết, bài nói chuyện của các chuyên gia (nhà thuyết kế, ca sỹ, nhà khảo cổ học.) qua các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[10].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P18",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 18,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.4"
+    ],
+    "content_type": "list_item",
+    "text": "Đọc: Đọc hiểu được ở mức độ nhất định những văn bản rõ ràng về các chủ đề liên quan cuộc sống thường nhật và các chủ đề trong các bài TED Talks.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[11].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P19",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 19,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.5"
+    ],
+    "content_type": "list_item",
+    "text": "Nói: Áp dụng được từ vựng và cấu trúc ngữ pháp, duy trì được sự trôi chảy của lời nói. Có thể nói về nhiều chủ đề khác nhau, diễn đạt các quan điểm rõ ràng, dễ hiểu.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[12].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P20",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 20,
+    "section_path": [
+      "Chuẩn đầu ra",
+      "L.O.6"
+    ],
+    "content_type": "list_item",
+    "text": "Viết: Áp dụng từ vựng và các cấu trúc để viết các văn bản rõ ràng, mạch lạc về các chủ đề quen thuộc.",
+    "source_locator": {
+      "type": "json_field",
+      "path": "cdr[13].ten.vi"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P21",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 21,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 71745, 'stt': 0, 'ma': 'A.O', 'capdo': '0', 'parentid': None, 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}, 'noidung': {'vi': 'Hoạt động đánh giá root', 'en': 'Hoạt động đánh giá root'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P22",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 22,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.1"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 71746, 'stt': 0, 'ma': 'A.O.1', 'capdo': '1', 'parentid': '71745', 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Bài tập trên lớp', 'en': 'Chưa có'}, 'noidung': {'vi': 'Bài tập trên lớp', 'en': 'Chưa có'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P23",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 23,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.2"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 71747, 'stt': 0, 'ma': 'A.O.2', 'capdo': '1', 'parentid': '71745', 'loaihoatdong': {'ma': 'TES', 'ten': {'vi': 'Kiểm tra giữa kỳ', 'en': 'Midterm exam'}}, 'ten': {'vi': 'Kiểm tra giữa kỳ', 'en': 'Chưa có'}, 'noidung': {'vi': 'Kiểm tra giữa kỳ', 'en': 'Chưa có'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P24",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 24,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.3"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 71748, 'stt': 0, 'ma': 'A.O.3', 'capdo': '1', 'parentid': '71745', 'loaihoatdong': {'ma': 'EXM', 'ten': {'vi': 'Thi cuối kỳ', 'en': 'Final exam'}}, 'ten': {'vi': 'Kiểm tra cuối kỳ', 'en': 'Chưa có'}, 'noidung': {'vi': 'Kiểm tra cuối kỳ', 'en': 'Chưa có'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P25",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 25,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.4"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 71749, 'stt': 0, 'ma': 'A.O.4', 'capdo': '1', 'parentid': '71745', 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Báo cáo thí nghiệm', 'en': 'Chưa có'}, 'noidung': {'vi': 'Báo cáo thí nghiệm', 'en': 'Chưa có'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[4]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P26",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 26,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.5"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 71750, 'stt': 0, 'ma': 'A.O.5', 'capdo': '1', 'parentid': '71745', 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Báo cáo BTL', 'en': 'Chưa có'}, 'noidung': {'vi': 'Báo cáo BTL', 'en': 'Chưa có'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[5]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P27",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 27,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "A.O.6"
+    ],
+    "content_type": "paragraph",
+    "text": "{'id': 71751, 'stt': 0, 'ma': 'A.O.6', 'capdo': '1', 'parentid': '71745', 'loaihoatdong': {'ma': 'AIC', 'ten': {'vi': 'Hoạt động trong lớp', 'en': 'Acitvity in class'}}, 'ten': {'vi': 'Kết quả demo', 'en': 'Chưa có'}, 'noidung': {'vi': 'Kết quả demo', 'en': 'Chưa có'}}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hddg[6]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P28",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 28,
+    "section_path": [
+      "Nội dung chi tiết",
+      "1"
+    ],
+    "content_type": "paragraph",
+    "text": "VLSI Introduction 1.1 Introduce the overall VLSI flow 1.2 Explain digital design flow with an example 1.3 Explain necessary files when we design circuits 1.4 Introduce EDA tools for VLSI design. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[0]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P29",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 29,
+    "section_path": [
+      "Nội dung chi tiết",
+      "2"
+    ],
+    "content_type": "paragraph",
+    "text": "Review MOSFET and Schematic 2.1 Briefly review MOSFET characteristics and Boolean functions 2.2 Transistor-level optimization 2.3 Virtuoso tool for schematic design with simulation. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[1]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P30",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 30,
+    "section_path": [
+      "Nội dung chi tiết",
+      "3"
+    ],
+    "content_type": "paragraph",
+    "text": "Layout with Virtuoso 3.1 Introduce stick diagram via examples 3.2 Guide on using Virtuoso tool for drawing layout of an inverter circuit 3.3 Virtuoso tool for design rules check, and then run post-layout simulation with script. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[2]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P31",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 31,
+    "section_path": [
+      "Nội dung chi tiết",
+      "4"
+    ],
+    "content_type": "paragraph",
+    "text": "Standard Cell Library 4.1 Introduce the cell-based method 4.2 Explain the differences between standard and custom cells. 4.3 Explain the “rules” in standard cell design 4.4 An example of a standard cell library and each component. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[3]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P32",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 32,
+    "section_path": [
+      "Nội dung chi tiết",
+      "5"
+    ],
+    "content_type": "paragraph",
+    "text": "Back-end Synthesis & Place-and-Route 5.1 Guide on how to create various library files from the layouts 5.2 Guide on using Genus for synthesis 5.3 Guide on checking the synthesis results after the Genus run. 5.4 Guide on creating the necessary LEF files 5.5 Guide on using Innovus for Place-and-Route (PnR) 5.6 Guide on checking the PnR results after the Innovus run. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[4]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P33",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 33,
+    "section_path": [
+      "Nội dung chi tiết",
+      "6"
+    ],
+    "content_type": "paragraph",
+    "text": "Full Digital Design Flow & Analog Design flow 6.1 Explain the completed full digital design flow 6.2 Guide on using the full flow digital design template. 6.3 Explain the differences between analog and digital design flows. 6.4 The design rules checks, verifications, and post-layout simulation 6.5 Guide on creating other necessary files for FullChip integration. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[5]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P34",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 34,
+    "section_path": [
+      "Nội dung chi tiết",
+      "7"
+    ],
+    "content_type": "paragraph",
+    "text": "IO-cell and FullChip Integration 7.1 Introduce the FullChip integration task and explain the steps 7.2 Guide on using the FullChip integration template. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[6]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P35",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 35,
+    "section_path": [
+      "Nội dung chi tiết",
+      "8"
+    ],
+    "content_type": "paragraph",
+    "text": "RISC-V Introduction 8.1 Explain the structure of a typical computer system 8.2 ntroduce RISC-V and RISC-V ISA Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[7]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P36",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 36,
+    "section_path": [
+      "Nội dung chi tiết",
+      "9"
+    ],
+    "content_type": "paragraph",
+    "text": "Creating Project with Chipyard 9.1 Introduce Chipyard library and explain its structure. 9.2 Chisel project Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[8]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P37",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 37,
+    "section_path": [
+      "Nội dung chi tiết",
+      "10"
+    ],
+    "content_type": "paragraph",
+    "text": "Computer System on Arty-A7 10.1 Introduce the RISC-V computer system 10.2 Program with the Arty-A7 FPGA board Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[9]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P38",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 38,
+    "section_path": [
+      "Nội dung chi tiết",
+      "11"
+    ],
+    "content_type": "paragraph",
+    "text": "Boot Sequence and Software 11.1 Describe the typical boot flow of computer systems. 11.2 Describe our system's boot sequence with the default software. 11.3 the default program with your custom codes. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[10]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P39",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 39,
+    "section_path": [
+      "Nội dung chi tiết",
+      "12-13"
+    ],
+    "content_type": "paragraph",
+    "text": "Custom Hardware on Peripheral 12.1 Explain the TileLink bus protocol and the peripheral's memory-mapped communication 12.2 Explain the GCD circuit and how to write a Scala wrapper for that circuit 12.3 software to control the new hardware. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[11]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P40",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 40,
+    "section_path": [
+      "Nội dung chi tiết",
+      "14-15"
+    ],
+    "content_type": "paragraph",
+    "text": "Custom Hardware on ROCC 13.1 Explain the ROCC 13.2 Reuse the GCD circuit 13.3 Control the ROCC module with software. Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập Hoạt động giảng viên: Thuyết giảng và giao bài tập Hoạt động sinh viên: Nghe giảng và làm bài tập",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[12]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P41",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 41,
+    "section_path": [
+      "Nội dung chi tiết",
+      "1"
+    ],
+    "content_type": "paragraph",
+    "text": "Bài thực hành số 1 1.1 Cài đặt các công cụ hỗ trợ 1.2 Sử dụng Virtuoso Hoạt động giảng viên: Thuyết giảng Hoạt động sinh viên: làm thực nghiệm trên máy tính",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[13]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P42",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 42,
+    "section_path": [
+      "Nội dung chi tiết",
+      "2-3"
+    ],
+    "content_type": "paragraph",
+    "text": "Bài thực hành số 2 Sử dụng các công cụ Chisel và FPGAs Giao bài tập lớn vào tuần 3 Hoạt động giảng viên: Thuyết giảng Hoạt động sinh viên: làm thực nghiệm trên máy tính Hoạt động giảng viên: Thuyết giảng Hoạt động sinh viên: làm thực nghiệm trên máy tính",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[14]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P43",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 43,
+    "section_path": [
+      "Nội dung chi tiết",
+      "4-5"
+    ],
+    "content_type": "paragraph",
+    "text": "Bài thực hành số 3 Hiện thực bộ xử lý RISC-V với FPGA Hoạt động giảng viên: Thuyết giảng Hoạt động sinh viên: làm thực nghiệm trên máy tính Hoạt động giảng viên: Thuyết giảng Hoạt động sinh viên: làm thực nghiệm trên máy tính",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[15]"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3147.3.1_P44",
+    "doc_id": "DCMH.CO3147.3.1",
+    "order": 44,
+    "section_path": [
+      "Nội dung chi tiết",
+      "6"
+    ],
+    "content_type": "paragraph",
+    "text": "Chấm điểm bài tập lớn 10.1. Chấm điểm demo 10.2. Chấm điểm báo cáo Hoạt động giảng viên: Chấm điểm Hoạt động sinh viên: Báo cáo Hoạt động giảng viên: Chưa có Hoạt động sinh viên: Chưa có Hoạt động giảng viên: Chưa có Hoạt động sinh viên: Chưa có",
+    "source_locator": {
+      "type": "json_field",
+      "path": "ndct[16]"
+    },
+    "review_status": "pending"
+  }
+]
