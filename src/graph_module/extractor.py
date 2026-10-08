@@ -10,147 +10,165 @@ if str(BASE_DIR) not in sys.path:
 
 import glob
 import json
-import re
+from pydantic import BaseModel, Field
+from typing import List
+from langchain_openai import ChatOpenAI
 from src.config.settings import RAW_DATA_1_DIR, OUTPUT_2_DIR, GRAPH_TRIPLETS_DIR
 
-def clean_course_name(name_raw: str, code: str) -> str:
-    '''
-    Remove Course ID to avoid duplicate
-    Ex: CO1005 - Nhập môn Điện toán -> Nhập môn Điện toán
-    '''
-    if not name_raw:
-        return code
-    name = str(name_raw).strip()
-    if name.startswith(f"{code} - "):
-        name = name[len(f"{code} - "):].strip()
-    return name
+# --- 1. ĐỊNH NGHĨA SCHEMA CHO ĐỒ THỊ (PYDANTIC) ---
+class CourseNode(BaseModel):
+    code: str = Field(description="Mã môn học (VD: CO1005)")
+    name: str = Field(description="Tên môn học tiếng Việt")
+    credits: int = Field(description="Số tín chỉ (VD: 3)")
 
-def parse_credits(pbsotc_val) -> int:
-    "Parse credits from pbsotc string."
-    "4(3.1.4) → Trả về số nguyên 4."
-    if not pbsotc_val:
-        return 0
-    match = re.match(r"^(\d+)", str(pbsotc_val).strip())
-    return int(match.group(1)) if match else 0
+class RelationEdge(BaseModel):
+    source_code: str = Field(description="Mã môn học điều kiện/tiên quyết")
+    target_code: str = Field(description="Mã môn học chính")
+    relation_type: str = Field(description="Chỉ được chọn 1 trong: PREREQUISITE_FOR (Tiên quyết), RECOMMENDED_FOR (Khuyên nghị/Học trước), CO_REQUISITE_FOR (Song hành)")
 
+class GraphExtraction(BaseModel):
+    courses: List[CourseNode]
+    relationships: List[RelationEdge]
+
+
+# --- 2. HÀM GỌI LLM TRÍCH XUẤT ---
+def extract_with_llm(text_content: str, llm: ChatOpenAI) -> GraphExtraction:
+    structured_llm = llm.with_structured_output(GraphExtraction)
+    
+    prompt = f"""
+    Bạn là một chuyên gia bóc tách Dữ liệu Đồ thị Tri thức (Knowledge Graph) trong lĩnh vực Giáo dục.
+    Hãy đọc đoạn thông tin môn học dưới đây và bóc tách ra danh sách các Môn học (courses) và Mối quan hệ (relationships) giữa chúng.
+    
+    Quy tắc:
+    - Loại bỏ tiền tố mã môn khỏi tên môn học (VD: "CO1003 - Nhập môn" -> "Nhập môn").
+    - Số tín chỉ phải là số nguyên (Nếu ghi "4(3.1.4)" thì chỉ lấy 4).
+    - Mối quan hệ tiên quyết gán là PREREQUISITE_FOR. 
+    - Mối quan hệ học trước/khuyên nghị gán là RECOMMENDED_FOR.
+    - Mối quan hệ song hành gán là CO_REQUISITE_FOR.
+    
+    Văn bản:
+    {text_content}
+    """
+    try:
+        return structured_llm.invoke(prompt)
+    except Exception as e:
+        print(f"[!] Lỗi khi gọi LLM: {e}")
+        return GraphExtraction(courses=[], relationships=[])
+
+
+# --- 3. PIPELINE XỬ LÝ & NẠP METADATA NGUỒN ---
 def extract_curriculum_triplets():
     """
-    Trích xuất toàn bộ dữ liệu về Môn học (Đỉnh - Nodes) và Mối quan hệ tiên quyết/song hành (Cạnh - Edges / Triplets) từ hai nguồn:
-        Raw_data_1: 129 đề cương môn học chi tiết.
-        output_2 (2024_MT_KHMT.json): hung chương trình đào tạo để nạp bổ sung các môn đại cương (Toán, Lý...) không nằm trong 129 đề cương trên.
-    Return: Tạo ra file curriculum_graph.json chứa cấu trúc đồ thị
+    Dùng LLM đọc các text chunk để bóc tách Thực thể và Quan hệ.
+    Gắn thêm source_locator vào metadata của từng Node và Edge.
     """
     output_file = GRAPH_TRIPLETS_DIR / "curriculum_graph.json"
     os.makedirs(GRAPH_TRIPLETS_DIR, exist_ok=True)
 
-    courses = {} #Dictionary (Key = course id) -> No dup
-    relationships = [] #List of edges btw courses
-    seen_rel = set() #set of relationship (source, type, target) -> No dup relationship (edge)
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
-    #Process Raw_data_1 (129 de cuong)
+    all_nodes = {}
+    all_relationships = []
+    seen_rel = set()
+
+    # 3.1 Xử lý Raw_data_1 (Đề cương môn học)
     json_files = glob.glob(os.path.join(RAW_DATA_1_DIR, "*.json"))
-    print(f"[*] Quét {len(json_files)} đề cương môn học từ: {RAW_DATA_1_DIR}")
+    print(f"[*] Quét {len(json_files)} đề cương môn học bằng LLM...")
 
-    for file_path in json_files: # Đọc từng file đề cương
+    for file_path in json_files:
+        filename = os.path.basename(file_path)
+        source_metadata = f"File: {filename}"
+        
         try:
             with open(file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-        except Exception:
-            continue
+                
+            # Trích xuất các text quan trọng thay vì đưa nguyên cục JSON lớn để tiết kiệm token
+            essential_text = f"""
+            Mã môn: {data.get('mamonhoc')}
+            Tên môn: {data.get('ten')}
+            Tín chỉ: {data.get('pbsotc')}
+            Môn học điều kiện: {json.dumps(data.get('monhocdieukien', []), ensure_ascii=False)}
+            """
+            
+            extracted = extract_with_llm(essential_text, llm)
+            
+            # Neo nguồn (Source Grounding)
+            for c in extracted.courses:
+                if c.code not in all_nodes or all_nodes[c.code]["credits"] == 0:
+                    all_nodes[c.code] = {
+                        "code": c.code, "name": c.name, "credits": c.credits, 
+                        "source_locator": source_metadata
+                    }
+            
+            for r in extracted.relationships:
+                rel_key = (r.source_code, r.relation_type, r.target_code)
+                if rel_key not in seen_rel:
+                    seen_rel.add(rel_key)
+                    all_relationships.append({
+                        "source": r.source_code, "target": r.target_code, 
+                        "type": r.relation_type, "source_locator": source_metadata
+                    })
+        except Exception as e:
+            print(f"[!] Bỏ qua file {filename}: {e}")
 
-        code = data.get("mamonhoc", "").strip().upper()
-        if not code:
-            continue
-
-        ten_raw = data.get("ten", {})
-        name_vi = ten_raw.get("vi", str(ten_raw)) if isinstance(ten_raw, dict) else str(ten_raw)
-        credits = parse_credits(data.get("pbsotc"))
-
-        if code not in courses or courses[code]["credits"] == 0:
-            courses[code] = {
-                "code": code,
-                "name": clean_course_name(name_vi, code),
-                "credits": credits
-            }
-
-        # Bóc tách quan hệ tiên quyết (TQ, SH, KN)
-        for cond in data.get("monhocdieukien", []) or []:
-            prereq_code = cond.get("mamonhoc", "").strip().upper()
-            if not prereq_code:
-                continue
-
-            loai_dk = cond.get("maloaidieukien", "").strip().upper()
-            rel_type = "PREREQUISITE_FOR" if loai_dk == "TQ" else ("CO_REQUISITE_FOR" if loai_dk == "SH" else "RECOMMENDED_FOR")
-
-            rel_key = (prereq_code, rel_type, code)
-            if rel_key not in seen_rel: # Nếu MQH chưa tồn tại
-                seen_rel.add(rel_key)
-                relationships.append({"source": prereq_code, "target": code, "type": rel_type})
-
-            if prereq_code not in courses: #Nếu chưa có môn này trong đồ thị thì thêm vào
-                p_name = cond.get("tenmonhoc_only", {}).get("vi", prereq_code)
-                courses[prereq_code] = {"code": prereq_code, "name": clean_course_name(p_name, prereq_code), "credits": 0}
-
-    # Process Raw_data_2 (CTDT 2024 - KHMT & KTMT)
+    # 3.2 Xử lý Khung chương trình đào tạo
     matrix_files = sorted(glob.glob(str(OUTPUT_2_DIR / "passages" / "*_MT_*.json")))
-    print(f"[*] Quét {len(matrix_files)} khung chương trình đào tạo từ: {OUTPUT_2_DIR / 'passages'}")
+    print(f"\n[*] Quét {len(matrix_files)} khung CTĐT bằng LLM...")
 
     for m_file in matrix_files:
-        print(f"  -> Nạp bổ sung từ: {os.path.basename(m_file)}")
+        filename = os.path.basename(m_file)
+        source_metadata = f"File: {filename}"
+        
         try:
             with open(m_file, "r", encoding="utf-8") as f:
                 passages = json.load(f)
-        except Exception as e:
-            print(f"     [!] Lỗi khi đọc file {m_file}: {e}")
-            continue
-
-        for p in passages:
-            if p.get("content_type") == "course_entity":
-                try:
-                    c_data = json.loads(p.get("text", "{}"))
-                    c_code = c_data.get("code", "").strip().upper()
-                    if not c_code:
-                        continue
-
-                    # Thêm hoặc cập nhật môn học
-                    if c_code not in courses or courses[c_code]["credits"] == 0:
-                        courses[c_code] = {
-                            "code": c_code,
-                            "name": clean_course_name(c_data.get("name", c_code), c_code),
-                            "credits": c_data.get("credits", 0)
-                        }
-                    for cond in c_data.get("conditions", []):
-                        p_code = cond.get("code", "").strip().upper()
-                        rel_type = "PREREQUISITE_FOR" if cond.get("type") == "TQ" else "RECOMMENDED_FOR"
-                        rel_key = (p_code, rel_type, c_code)
+                
+            for p in passages:
+                if p.get("content_type") == "course_entity":
+                    # Giao việc đọc đoạn text cho LLM bóc tách
+                    extracted = extract_with_llm(p.get("text", ""), llm)
+                    
+                    for c in extracted.courses:
+                        if c.code not in all_nodes or all_nodes[c.code]["credits"] == 0:
+                            all_nodes[c.code] = {
+                                "code": c.code, "name": c.name, "credits": c.credits, 
+                                "source_locator": source_metadata
+                            }
+                    
+                    for r in extracted.relationships:
+                        rel_key = (r.source_code, r.relation_type, r.target_code)
                         if rel_key not in seen_rel:
                             seen_rel.add(rel_key)
-                            relationships.append({"source": p_code, "target": c_code, "type": rel_type})
-                except Exception:
-                    pass
-    # 3. Ghi ra file JSON trung gian
+                            all_relationships.append({
+                                "source": r.source_code, "target": r.target_code, 
+                                "type": r.relation_type, "source_locator": source_metadata
+                            })
+        except Exception as e:
+            print(f"[!] Bỏ qua file {filename}: {e}")
+
+    # --- 4. TỔNG HỢP & GHI KẾT QUẢ ---
     result_data = {
         "metadata": {
-            "total_courses": len(courses),
-            "total_relationships": len(relationships),
+            "total_courses": len(all_nodes),
+            "total_relationships": len(all_relationships),
             "breakdown": {
-                "PREREQUISITE_FOR": sum(1 for r in relationships if r["type"] == "PREREQUISITE_FOR"),
-                "RECOMMENDED_FOR": sum(1 for r in relationships if r["type"] == "RECOMMENDED_FOR"),
-                "CO_REQUISITE_FOR": sum(1 for r in relationships if r["type"] == "CO_REQUISITE_FOR"),
+                "PREREQUISITE_FOR": sum(1 for r in all_relationships if r["type"] == "PREREQUISITE_FOR"),
+                "RECOMMENDED_FOR": sum(1 for r in all_relationships if r["type"] == "RECOMMENDED_FOR"),
+                "CO_REQUISITE_FOR": sum(1 for r in all_relationships if r["type"] == "CO_REQUISITE_FOR"),
             }
         },
-        "nodes": list(courses.values()),
-        "relationships": relationships
+        "nodes": list(all_nodes.values()),
+        "relationships": all_relationships
     }
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
+
     print("\n" + "="*50)
-    print(" KẾT QUẢ TRÍCH XUẤT ĐỒ THỊ MÔN HỌC:")
-    print(f"  • Tổng số Môn học (Nodes): {len(courses)}")
-    print(f"  • Tổng số Quan hệ (Edges): {len(relationships)}")
-    print(f"    - Tiên quyết (PREREQUISITE_FOR): {result_data['metadata']['breakdown']['PREREQUISITE_FOR']}")
-    print(f"    - Khuyến nghị (RECOMMENDED_FOR): {result_data['metadata']['breakdown']['RECOMMENDED_FOR']}")
-    print(f"    - Song hành (CO_REQUISITE_FOR):  {result_data['metadata']['breakdown']['CO_REQUISITE_FOR']}")
+    print(" KẾT QUẢ TRÍCH XUẤT ĐỒ THỊ MÔN HỌC (BẰNG LLM):")
+    print(f"  • Tổng số Môn học (Nodes): {len(all_nodes)}")
+    print(f"  • Tổng số Quan hệ (Edges): {len(all_relationships)}")
+    print(f"  • Đã gán thành công `source_locator` cho mọi nút và cạnh.")
     print(f"  • Lưu tại: {output_file}")
     print("="*50 + "\n")
     return result_data

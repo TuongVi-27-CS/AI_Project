@@ -90,7 +90,8 @@ class Neo4jManager:
             UNWIND $batch AS item
             MERGE (c:Course {code: item.code})
             SET c.name = item.name,
-                c.credits = item.credits
+                c.credits = item.credits,
+                c.source_locator = item.source_locator
             """
             batch_size = 100
             for i in range(0, len(nodes), batch_size):
@@ -121,6 +122,7 @@ class Neo4jManager:
                 MATCH (src:Course {{code: item.source}})
                 MATCH (tgt:Course {{code: item.target}})
                 MERGE (src)-[r:{r_type}]->(tgt)
+                SET r.source_locator = item.source_locator
                 """
                 for i in range(0, len(rel_list), batch_size):
                     batch = rel_list[i:i + batch_size]
