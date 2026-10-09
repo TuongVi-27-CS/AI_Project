@@ -166,6 +166,10 @@ if __name__ == "__main__":
             for r_type, count in stats["relationships"].items():
                 print(f"    - {r_type}: {count}")
             print("="*50 + "\n")
+            print("Local host: http://localhost:7474")
+            print(f"URI: {NEO4J_URI}")
+            print(f"Username: {NEO4J_USERNAME}")
+            print(f"Password: {NEO4J_PASSWORD}")
     except Exception as e:
         print(f"[X] Lỗi trong quá trình thao tác Neo4j: {e}")
         print("[*] Gợi ý: Hãy đảm bảo Docker container Neo4j đang chạy (`docker start neo4j-dath`).")

@@ -1,4 +1,4 @@
-"""Extract entity-relation triplets from text using LLM."""
+﻿"""Extract entity-relation triplets from text using LLM."""
 import os
 import sys
 from pathlib import Path
@@ -12,7 +12,7 @@ import glob
 import json
 from pydantic import BaseModel, Field
 from typing import List
-from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 from src.config.settings import RAW_DATA_1_DIR, OUTPUT_2_DIR, GRAPH_TRIPLETS_DIR
 
 # --- 1. ĐỊNH NGHĨA SCHEMA CHO ĐỒ THỊ (PYDANTIC) ---
@@ -32,7 +32,7 @@ class GraphExtraction(BaseModel):
 
 
 # --- 2. HÀM GỌI LLM TRÍCH XUẤT ---
-def extract_with_llm(text_content: str, llm: ChatOpenAI) -> GraphExtraction:
+def extract_with_llm(text_content: str, llm: ChatOllama) -> GraphExtraction:
     structured_llm = llm.with_structured_output(GraphExtraction)
     
     prompt = f"""
@@ -65,15 +65,29 @@ def extract_curriculum_triplets():
     output_file = GRAPH_TRIPLETS_DIR / "curriculum_graph.json"
     os.makedirs(GRAPH_TRIPLETS_DIR, exist_ok=True)
 
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatOllama(model="llama3.1", temperature=0)
 
     all_nodes = {}
     all_relationships = []
     seen_rel = set()
 
-    # 3.1 Xử lý Raw_data_1 (Đề cương môn học)
+    # 3.1 Xử lý Raw_data_1 (Đề cương môn học) - DÙNG RULE-BASED ĐỂ TỐI ƯU TỐC ĐỘ
     json_files = glob.glob(os.path.join(RAW_DATA_1_DIR, "*.json"))
-    print(f"[*] Quét {len(json_files)} đề cương môn học bằng LLM...")
+    print(f"[*] Quét {len(json_files)} đề cương môn học bằng Rule-based (Tốc độ siêu tốc)...")
+
+    # Hàm parse tín chỉ
+    import re
+    def parse_credits(pbsotc_val) -> int:
+        if not pbsotc_val: return 0
+        match = re.match(r"^(\d+)", str(pbsotc_val).strip())
+        return int(match.group(1)) if match else 0
+        
+    def clean_course_name(name_raw: str, code: str) -> str:
+        if not name_raw: return code
+        name = str(name_raw).strip()
+        if name.startswith(f"{code} - "):
+            name = name[len(f"{code} - "):].strip()
+        return name
 
     for file_path in json_files:
         filename = os.path.basename(file_path)
@@ -83,32 +97,39 @@ def extract_curriculum_triplets():
             with open(file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 
-            # Trích xuất các text quan trọng thay vì đưa nguyên cục JSON lớn để tiết kiệm token
-            essential_text = f"""
-            Mã môn: {data.get('mamonhoc')}
-            Tên môn: {data.get('ten')}
-            Tín chỉ: {data.get('pbsotc')}
-            Môn học điều kiện: {json.dumps(data.get('monhocdieukien', []), ensure_ascii=False)}
-            """
-            
-            extracted = extract_with_llm(essential_text, llm)
-            
-            # Neo nguồn (Source Grounding)
-            for c in extracted.courses:
-                if c.code not in all_nodes or all_nodes[c.code]["credits"] == 0:
-                    all_nodes[c.code] = {
-                        "code": c.code, "name": c.name, "credits": c.credits, 
-                        "source_locator": source_metadata
-                    }
-            
-            for r in extracted.relationships:
-                rel_key = (r.source_code, r.relation_type, r.target_code)
+            code = data.get("mamonhoc", "").strip().upper()
+            if not code:
+                continue
+
+            ten_raw = data.get("ten", {})
+            name_vi = ten_raw.get("vi", str(ten_raw)) if isinstance(ten_raw, dict) else str(ten_raw)
+            credits = parse_credits(data.get("pbsotc"))
+
+            if code not in all_nodes or all_nodes[code]["credits"] == 0:
+                all_nodes[code] = {
+                    "code": code,
+                    "name": clean_course_name(name_vi, code),
+                    "credits": credits,
+                    "source_locator": source_metadata
+                }
+
+            # Bóc tách quan hệ tiên quyết (TQ, SH, KN)
+            for cond in data.get("monhocdieukien", []) or []:
+                prereq_code = cond.get("mamonhoc", "").strip().upper()
+                if not prereq_code:
+                    continue
+
+                loai_dk = cond.get("maloaidieukien", "").strip().upper()
+                rel_type = "PREREQUISITE_FOR" if loai_dk == "TQ" else ("CO_REQUISITE_FOR" if loai_dk == "SH" else "RECOMMENDED_FOR")
+
+                rel_key = (prereq_code, rel_type, code)
                 if rel_key not in seen_rel:
                     seen_rel.add(rel_key)
-                    all_relationships.append({
-                        "source": r.source_code, "target": r.target_code, 
-                        "type": r.relation_type, "source_locator": source_metadata
-                    })
+                    all_relationships.append({"source": prereq_code, "target": code, "type": rel_type, "source_locator": source_metadata})
+
+                if prereq_code not in all_nodes:
+                    p_name = cond.get("tenmonhoc_only", {}).get("vi", prereq_code)
+                    all_nodes[prereq_code] = {"code": prereq_code, "name": clean_course_name(p_name, prereq_code), "credits": 0, "source_locator": source_metadata}
         except Exception as e:
             print(f"[!] Bỏ qua file {filename}: {e}")
 
