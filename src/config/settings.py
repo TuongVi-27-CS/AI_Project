@@ -1,9 +1,17 @@
-﻿"""Global configuration and environment variable loader."""
+"""Global configuration and environment variable loader."""
 import os
 from pathlib import Path #Tự động đảm bảo cú pháp đường dẫn phù hợp với từng HDH
 
 # Đường dẫn gốc dự án
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# Tải biến môi trường từ .env nếu có
+try:
+    from dotenv import load_dotenv
+    load_dotenv(BASE_DIR / ".env")
+except ImportError:
+    pass
+
 # Đường dẫn dữ liệu
 DATA_DIR = BASE_DIR / "data"
 RAW_DATA_1_DIR = DATA_DIR / "raw" / "Raw_data_1"
