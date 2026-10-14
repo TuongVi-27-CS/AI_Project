@@ -12,14 +12,17 @@ class VectorRetriever:
     def search(
         self,
         question: str,
-        top_k: int = 5,
+        top_k: int = 3,
         where: dict | None = None,
         expand_section: bool = True
     ) -> list[dict]:
-        if not question.strip() or top_k < 1:
+        if not isinstance(question, str) or not question.strip() or type(top_k) is not int or top_k < 1:
             raise ValueError("Provide a non-empty question and positive top_k")
 
         collection = self.manager.ready_collection(self.embedder)
+        count = collection.count()
+        if count == 0:
+            return []
 
         # Avoid a paid query embedding when a filter cannot match any document.
         if where and not collection.get(where=where, limit=1, include=[])["ids"]:
@@ -28,7 +31,7 @@ class VectorRetriever:
         vector = self.embedder.embed([question])[0]
         result = collection.query(
             query_embeddings=[vector],
-            n_results=min(top_k, collection.count()),
+            n_results=min(top_k, count),
             where=where, include=["distances", "metadatas"]
         )
         matches = []

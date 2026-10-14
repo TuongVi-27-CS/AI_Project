@@ -29,7 +29,7 @@ def write_json(path: Path, data) -> None:
 
 
 def parser() -> argparse.ArgumentParser:
-    root = argparse.ArgumentParser(description="Vector module: validate, chunk, embed, index and search")
+    root = argparse.ArgumentParser(description="Vector module: validate, chunk, embed, index, understand and retrieve")
     root.add_argument("--env-file", type=Path, help="Defaults to repository .env")
 
     commands = root.add_subparsers(dest="command", required=True)
@@ -51,18 +51,22 @@ def parser() -> argparse.ArgumentParser:
     cmd.add_argument("--collection")
     cmd.add_argument("--report", type=Path)
 
-    cmd = commands.add_parser("search")
-    cmd.add_argument("question")
-    cmd.add_argument("--top-k", type=int, default=5)
-    cmd.add_argument("--collection")
-
-    filters = cmd.add_mutually_exclusive_group()
-    filters.add_argument("--doc-id", help="Filter by document ID without shell JSON escaping")
-    filters.add_argument("--where", help="Chroma JSON filter; use --where-file in Windows PowerShell")
-    filters.add_argument("--where-file", type=Path, help="UTF-8 JSON file containing a Chroma filter")
-
-    cmd.add_argument("--no-expand-section", action="store_true")
-    cmd.add_argument("--output", type=Path)
+    for name in ("search", "understand", "query"):
+        cmd = commands.add_parser(name)
+        cmd.add_argument("question")
+        cmd.add_argument("--output", type=Path, help="Write JSON (also printed to stdout)")
+        if name != "search":
+            cmd.add_argument("--history-file", type=Path, help="UTF-8 JSON list of user/assistant messages")
+        if name == "understand":
+            continue
+        cmd.add_argument("--top-k", type=int, default=3)
+        cmd.add_argument("--collection")
+        filters = cmd.add_mutually_exclusive_group()
+        filters.add_argument("--doc-id", help="Filter by document ID without shell JSON escaping")
+        filters.add_argument("--where", help="Chroma JSON filter; use --where-file in Windows PowerShell")
+        filters.add_argument("--where-file", type=Path, help="UTF-8 JSON file containing a Chroma filter")
+        if name == "search":
+            cmd.add_argument("--no-expand-section", action="store_true")
 
     cmd = commands.add_parser("evaluate")
     cmd.add_argument("dataset", type=Path, help="JSONL questions with expected_passage_ids")
@@ -73,7 +77,40 @@ def parser() -> argparse.ArgumentParser:
     return root
 
 
+def read_filter(args):
+    if args.doc_id:
+        return {"doc_id": args.doc_id}
+    if args.where_file:
+        where = json.loads(args.where_file.read_text(encoding="utf-8-sig"))
+    else:
+        where = json.loads(args.where) if args.where else None
+    if where is not None and not isinstance(where, dict):
+        raise ValueError("--where must be a JSON object")
+    return where
+
+
 def run(args) -> int:
+    if args.command in ("understand", "query"):
+        from src.config.settings import QueryUnderstandingSettings
+        from src.engine.query_understanding import QueryUnderstanding
+        from src.engine.vector_pipeline import VectorPipeline
+
+        history = json.loads(args.history_file.read_text(encoding="utf-8-sig")) if args.history_file else None
+        with QueryUnderstanding(QueryUnderstandingSettings.from_env(args.env_file)) as understanding:
+            if args.command == "understand":
+                result = understanding.analyze(args.question, history).model_dump(mode="json")
+            else:
+                settings = VectorModuleSettings.from_env(args.env_file)
+                if args.collection:
+                    settings = replace(settings, collection_name=args.collection)
+                result = VectorPipeline(understanding, settings=settings).run(
+                    args.question, history, args.top_k, read_filter(args),
+                ).model_dump(mode="json")
+        if args.output:
+            write_json(args.output, result)
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        return 0
+
     settings = VectorModuleSettings.from_env(args.env_file)
 
     if args.command in ("validate", "chunk"):
@@ -132,20 +169,8 @@ def run(args) -> int:
             write_json(report_path, {"status": "ready", **result})
 
         elif args.command == "search":
-            if args.doc_id:
-                where = {"doc_id": args.doc_id}
-
-            elif args.where_file:
-                where = json.loads(args.where_file.read_text(encoding="utf-8-sig"))
-
-            else:
-                where = json.loads(args.where) if args.where else None
-
-            if where is not None and not isinstance(where, dict):
-                raise ValueError("--where must be a JSON object")
-
             result = VectorRetriever(manager, embedder).search(
-                args.question, args.top_k, where, not args.no_expand_section)
+                args.question, args.top_k, read_filter(args), not args.no_expand_section)
 
             if args.output:
                 write_json(args.output, result)

@@ -158,33 +158,36 @@ class BgeM3API:
                     except ValueError:
                         pass
 
-                try:
-                    body = response.json()
-                    entries = body["data"]
-                    if (
-                        not isinstance(entries, list)
-                        or len(entries) != len(texts)
-                        or any(
-                            not isinstance(e, dict)
-                            or type(e.get("index")) is not int
-                            for e in entries
-                        )
-                        or sorted(e["index"] for e in entries) != list(range(len(texts)))
-                    ):
-                        raise EmbeddingError("Embedding API returned missing or duplicate indices")
+                else:
+                    # Only successful responses contain embedding data. Transient
+                    # errors (including HTML/empty bodies) reach the retry below.
+                    try:
+                        body = response.json()
+                        entries = body["data"]
+                        if (
+                            not isinstance(entries, list)
+                            or len(entries) != len(texts)
+                            or any(
+                                not isinstance(e, dict)
+                                or type(e.get("index")) is not int
+                                for e in entries
+                            )
+                            or sorted(e["index"] for e in entries) != list(range(len(texts)))
+                        ):
+                            raise EmbeddingError("Embedding API returned missing or duplicate indices")
 
-                    ordered = sorted(entries, key=lambda e: e["index"])
-                    vectors = [self._validate_vector(e["embedding"]) for e in ordered]
+                        ordered = sorted(entries, key=lambda e: e["index"])
+                        vectors = [self._validate_vector(e["embedding"]) for e in ordered]
 
-                except (ValueError, KeyError, TypeError) as exc:
-                    raise EmbeddingError("Malformed embedding response; expected indexed data[].embedding") from exc
+                    except (ValueError, KeyError, TypeError) as exc:
+                        raise EmbeddingError("Malformed embedding response; expected indexed data[].embedding") from exc
 
-                usage = body.get("usage") or {}
-                tokens = usage.get("total_tokens", 0) if isinstance(usage, dict) else 0
-                if type(tokens) is int and tokens >= 0:
-                    self.stats["reported_tokens"] += tokens
+                    usage = body.get("usage") or {}
+                    tokens = usage.get("total_tokens", 0) if isinstance(usage, dict) else 0
+                    if type(tokens) is int and tokens >= 0:
+                        self.stats["reported_tokens"] += tokens
 
-                return vectors
+                    return vectors
 
             if attempt == self.max_retries:
                 raise EmbeddingError(error + "; retries exhausted")
