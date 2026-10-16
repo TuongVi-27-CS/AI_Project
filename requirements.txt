@@ -10,8 +10,8 @@ neo4j>=5.20.0
 networkx>=3.3
 pyvis>=0.3.2
 
-# Vector Database
-chromadb>=0.5.0
+# Vector retrieval (ChromaDB + BGE-M3 API)
+-r requirements-vector.txt
 
 # Configuration & Data Handling
 pydantic>=2.7.0

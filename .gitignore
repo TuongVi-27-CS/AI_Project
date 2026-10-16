@@ -32,6 +32,10 @@ wheels/
 *.sqlite3
 *.chroma/
 
+# Generated vector artifacts
+/DATA/chromadb_store/
+/DATA/vector_artifacts/
+
 # Logs & test results
 logs/
 *.log
@@ -49,6 +53,7 @@ evaluation_results/
 Thumbs.db
 desktop.ini
 
+# Antigravity temp files
 final_plan_1.md
 final_plan_2.md
 requirement.md
