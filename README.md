@@ -1,4 +1,4 @@
-﻿# Đề tài 3: RAG Neuro-Symbolic kết hợp Knowledge Graph và Suy luận có kiểm chứng
+# Đề tài 3: RAG Neuro-Symbolic kết hợp Knowledge Graph và Suy luận có kiểm chứng
 
 > **Đồ án Tổng hợp - Hướng Trí tuệ Nhân tạo (AI Project)**  
 > **Trường Đại học Bách Khoa - ĐHQG-HCM (HCMUT)**
@@ -118,6 +118,37 @@ RAG-NeuroSymbolic-Project/
 ├── requirements.txt            # Danh sách thư viện Python cần cài đặt
 └── README.md                   # Tài liệu hướng dẫn dự án
 ```
+
+---
+
+## 🗄️ Chi tiết Thư mục Dữ liệu (Data Pipeline & Storage)
+
+Thư mục `data/` quản lý toàn bộ vòng đời dữ liệu của hệ thống, phục vụ hai miền tri thức chính: **Đề cương môn học** và **Quy chế học vụ** (Khoa Khoa học & Kỹ thuật Máy tính - HCMUT).
+
+### 1. Dữ liệu thô (`data/raw/`)
+* **`Raw_data_1/`**: Chứa **129 tệp JSON** thu thập từ hệ thống quản lý đào tạo (MyBK / DCMH Core). Mỗi tệp tương ứng với một đề cương môn học (ĐCMH), bao gồm: thông tin chung, mục tiêu môn học, chuẩn đầu ra (L.O), điều kiện tiên quyết/song hành, tài liệu tham khảo, tiêu chuẩn đánh giá và kế hoạch giảng dạy chi tiết theo tuần.
+* **`Raw_data_2/`**: Chứa **10 tệp Markdown (`.md`)** về các văn bản quy chế và kế hoạch đào tạo:
+  * Các Quyết định điều chỉnh học vụ chung và bậc Đại học (QĐ 1259, 1260, 2931, 2933,...).
+  * Khung chương trình đào tạo và cây môn học tiên quyết ngành Khoa học Máy tính (`2024_MT_KHMT.md`) và Kỹ thuật Máy tính (`2024_MT_KTMT.md`).
+  * Thông báo Kết luận các phiên họp Hội đồng học vụ qua các học kỳ (HK241, HK242, HK251, HK252,...).
+
+### 2. Dữ liệu đã xử lý & chuẩn hóa (`data/processed/`)
+Dữ liệu sau khi qua các pipeline làm sạch được tổ chức thống nhất thành 2 cấp: `documents` (metadata định danh tài liệu) và `passages` (các đoạn trích/chunk văn bản có cấu trúc phục vụ RAG):
+* **`output_1/`** *(Tiền xử lý từ `Raw_data_1` qua script `process_raw_data_1.py`)*:
+  * `documents/`: 129 tệp JSON lưu metadata từng môn học (`doc_id`, `title`, `scope`, `cohorts`, ngày ban hành, nguồn gốc).
+  * `passages/`: 129 tệp JSON chứa các đoạn trích (`passage_id`, `section_path`, `content_type`, `text`, `source_locator`) được phân loại theo từng phần nội dung đề cương.
+* **`output_2/`** *(Tiền xử lý từ `Raw_data_2` qua script `process_raw_data_2.py`)*:
+  * `documents/`: 10 tệp JSON lưu metadata văn bản quy chế, quyết định và khung đào tạo.
+  * `passages/`: 10 tệp JSON chứa các điều khoản, quy định và bảng môn học tiên quyết đã được bóc tách và phân đoạn có thứ tự.
+
+### 3. Lưu trữ Vector & Knowledge Graph
+* **`graph_triplets/`**: Lưu trữ các bộ ba tri thức (Triplets: `Subject - Predicate - Object`) trích xuất từ dữ liệu bằng LLM hoặc luật (rule-based), sẵn sàng nạp vào **Neo4j** phục vụ suy luận đồ thị và kiểm chứng câu trả lời.
+* **`chromadb_store/`**: Thư mục lưu trữ cục bộ (local persistence) của Vector Database **ChromaDB**, chứa các vector embeddings của các đoạn `passages` phục vụ tìm kiếm ngữ nghĩa (Dense Retrieval).
+* **`test_datasets/`**: Bộ dữ liệu chuẩn gồm **100 câu hỏi kiểm thử** (kèm Ground Truth và chuỗi lập luận mẫu) dùng để đánh giá định lượng và đối sánh (benchmark) hai pipeline bằng thư viện Ragas.
+
+### 4. Scripts tiền xử lý (`data/*.py`)
+* **`process_raw_data_1.py`**: Tự động lọc các môn học thuộc Khoa Máy tính áp dụng cho HK261/HK262, làm sạch mã HTML, trích xuất cấu trúc văn bản và xuất sang `output_1/`.
+* **`process_raw_data_2.py`**: Tự động loại bỏ boilerplate hành chính, phân tách điều khoản văn bản quy chế, trích xuất bảng môn học tiên quyết và xuất sang `output_2/`.
 
 ---
 
