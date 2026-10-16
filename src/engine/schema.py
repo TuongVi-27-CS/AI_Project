@@ -2,10 +2,15 @@
 Data Contracts (Hợp đồng dữ liệu) cho toàn bộ Luồng 2 (Online Pipeline).
 Sử dụng Pydantic để đảm bảo tính nhất quán giữa các module (Retrievers, Solver, UI).
 """
+from __future__ import annotations
+
+from typing import Any, Dict, List, Literal, Optional
 from pydantic import BaseModel, ConfigDict, Field, model_validator
-from typing import Any, Literal
 
 
+# ==========================================
+# 1. SCHEMAS CHO HỘI THOẠI & PHÂN TÍCH CÂU HỎI
+# ==========================================
 class ConversationMessage(BaseModel):
     """Caller-owned conversation history; system/tool messages are not accepted."""
     model_config = ConfigDict(extra="forbid", strict=True)
@@ -16,7 +21,7 @@ class ConversationMessage(BaseModel):
 class QueryAnalysis(BaseModel):
     model_config = ConfigDict(extra="forbid", strict=True)
     original_question: str
-    normalized_question: str | None
+    normalized_question: str | None = None
     status: Literal["ready", "needs_clarification"]
     clarification_question: str | None = None
     warnings: list[str] = Field(default_factory=list)
@@ -36,6 +41,10 @@ class QueryAnalysis(BaseModel):
             raise ValueError("An ambiguous query requires clarification and no normalized question")
         return self
 
+
+# ==========================================
+# 2. SCHEMAS CHO CÁC NHÁNH TRUY XUẤT (RETRIEVAL)
+# ==========================================
 class ContextResult(BaseModel):
     """Kết quả trả về chuẩn hóa từ bất kỳ nhánh nào (Vector, Graph, Symbolic)."""
     branch_name: str = Field(description="Tên nhánh xử lý (VD: 'Vector_Retrieval', 'Graph_Traversal', 'Symbolic_Solver')")
@@ -49,11 +58,15 @@ class ContextResult(BaseModel):
         description="Dữ liệu thô (như JSON đồ thị) dùng để vẽ UI (nếu cần)."
     )
 
+
 class VectorResult(BaseModel):
     query: QueryAnalysis
     vector_context: ContextResult | None = None
 
 
+# ==========================================
+# 3. SCHEMAS CHO KẾT QUẢ CUỐI CÙNG (UI DISPLAY)
+# ==========================================
 class FinalResponse(BaseModel):
     """Đầu ra cuối cùng để hiển thị lên Streamlit Web UI."""
     answer: str = Field(description="Câu trả lời ngôn ngữ tự nhiên đã được kiểm chứng (Verifiable Generation).")
