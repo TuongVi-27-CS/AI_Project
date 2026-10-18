@@ -99,13 +99,14 @@
     "doc_id": "DCMH.CO3145.3.1",
     "order": 7,
     "section_path": [
-      "Phân bổ thời gian"
+      "Phân bổ thời gian",
+      "Tín chỉ"
     ],
     "content_type": "paragraph",
-    "text": "Phân bổ tín chỉ: {'soTC': 3, 'soTC_ETC': 6, 'lyThuyet': 2, 'baiTapThucHanh': 0, 'thiNghiem': 0.67, 'baiTapLon': 0.33, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 0, 'khac': 0} | Phân bổ tiết: {'tongSoTiet': 150, 'tongGioHocTapLamViec': 152, 'lyThuyet': 30, 'baiTapThucHanh': 0, 'thiNghiem': 20, 'baiTapLon': 15, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 70, 'khac': 15}",
+    "text": "Phân bổ tín chỉ: {'soTC': 3, 'soTC_ETC': 6, 'lyThuyet': 2, 'baiTapThucHanh': 0, 'thiNghiem': 0.67, 'baiTapLon': 0.33, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 0, 'khac': 0}",
     "source_locator": {
       "type": "json_field",
-      "path": "pbsotc_pbsotiet"
+      "path": "pbsotc"
     },
     "review_status": "pending"
   },
@@ -113,6 +114,54 @@
     "passage_id": "DCMH.CO3145.3.1_P8",
     "doc_id": "DCMH.CO3145.3.1",
     "order": 8,
+    "section_path": [
+      "Phân bổ thời gian",
+      "Số tiết"
+    ],
+    "content_type": "paragraph",
+    "text": "Phân bổ tiết: {'tongSoTiet': 150, 'tongGioHocTapLamViec': 152, 'lyThuyet': 30, 'baiTapThucHanh': 0, 'thiNghiem': 20, 'baiTapLon': 15, 'doAn': 0, 'thamQuan': 0, 'thucTapNgoaiTruong': 0, 'luanVanTotNghiep': 0, 'tuHoc': 70, 'khac': 15}",
+    "source_locator": {
+      "type": "json_field",
+      "path": "pbsotiet"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3145.3.1_P9",
+    "doc_id": "DCMH.CO3145.3.1",
+    "order": 9,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "Tỷ lệ đánh giá"
+    ],
+    "content_type": "paragraph",
+    "text": "Tỷ lệ đánh giá môn học: - Bài tập lớn: 30% - Thi: 50% - Thí nghiệm: 20% - Tổng cộng: 100%",
+    "source_locator": {
+      "type": "json_field",
+      "path": "tyledanhgia"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3145.3.1_P10",
+    "doc_id": "DCMH.CO3145.3.1",
+    "order": 10,
+    "section_path": [
+      "Đánh giá kết quả học tập",
+      "Hình thức và thời lượng đánh giá"
+    ],
+    "content_type": "paragraph",
+    "text": "Hình thức và thời lượng kiểm tra/thi: - Thi cuối kỳ: Hình thức: Trắc nghiệm, Thời gian: 90 phút",
+    "source_locator": {
+      "type": "json_field",
+      "path": "hinhthucdanhgia"
+    },
+    "review_status": "pending"
+  },
+  {
+    "passage_id": "DCMH.CO3145.3.1_P11",
+    "doc_id": "DCMH.CO3145.3.1",
+    "order": 11,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O"
@@ -126,9 +175,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P9",
+    "passage_id": "DCMH.CO3145.3.1_P12",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 9,
+    "order": 12,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.1"
@@ -142,9 +191,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P10",
+    "passage_id": "DCMH.CO3145.3.1_P13",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 10,
+    "order": 13,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.2"
@@ -158,9 +207,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P11",
+    "passage_id": "DCMH.CO3145.3.1_P14",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 11,
+    "order": 14,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.3"
@@ -174,9 +223,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P12",
+    "passage_id": "DCMH.CO3145.3.1_P15",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 12,
+    "order": 15,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.4"
@@ -190,9 +239,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P13",
+    "passage_id": "DCMH.CO3145.3.1_P16",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 13,
+    "order": 16,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.5"
@@ -206,9 +255,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P14",
+    "passage_id": "DCMH.CO3145.3.1_P17",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 14,
+    "order": 17,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.6"
@@ -222,9 +271,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P15",
+    "passage_id": "DCMH.CO3145.3.1_P18",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 15,
+    "order": 18,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O"
@@ -238,9 +287,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P16",
+    "passage_id": "DCMH.CO3145.3.1_P19",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 16,
+    "order": 19,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.1"
@@ -254,9 +303,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P17",
+    "passage_id": "DCMH.CO3145.3.1_P20",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 17,
+    "order": 20,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.2"
@@ -270,9 +319,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P18",
+    "passage_id": "DCMH.CO3145.3.1_P21",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 18,
+    "order": 21,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.3"
@@ -286,9 +335,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P19",
+    "passage_id": "DCMH.CO3145.3.1_P22",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 19,
+    "order": 22,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.4"
@@ -302,9 +351,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P20",
+    "passage_id": "DCMH.CO3145.3.1_P23",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 20,
+    "order": 23,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.5"
@@ -318,9 +367,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P21",
+    "passage_id": "DCMH.CO3145.3.1_P24",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 21,
+    "order": 24,
     "section_path": [
       "Chuẩn đầu ra",
       "L.O.6"
@@ -334,9 +383,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P22",
+    "passage_id": "DCMH.CO3145.3.1_P25",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 22,
+    "order": 25,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O"
@@ -350,9 +399,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P23",
+    "passage_id": "DCMH.CO3145.3.1_P26",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 23,
+    "order": 26,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.1"
@@ -366,9 +415,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P24",
+    "passage_id": "DCMH.CO3145.3.1_P27",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 24,
+    "order": 27,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.10"
@@ -382,9 +431,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P25",
+    "passage_id": "DCMH.CO3145.3.1_P28",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 25,
+    "order": 28,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.11"
@@ -398,9 +447,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P26",
+    "passage_id": "DCMH.CO3145.3.1_P29",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 26,
+    "order": 29,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.12"
@@ -414,9 +463,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P27",
+    "passage_id": "DCMH.CO3145.3.1_P30",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 27,
+    "order": 30,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.13"
@@ -430,9 +479,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P28",
+    "passage_id": "DCMH.CO3145.3.1_P31",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 28,
+    "order": 31,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.14"
@@ -446,9 +495,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P29",
+    "passage_id": "DCMH.CO3145.3.1_P32",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 29,
+    "order": 32,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.15"
@@ -462,9 +511,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P30",
+    "passage_id": "DCMH.CO3145.3.1_P33",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 30,
+    "order": 33,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.16"
@@ -478,9 +527,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P31",
+    "passage_id": "DCMH.CO3145.3.1_P34",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 31,
+    "order": 34,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.17"
@@ -494,9 +543,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P32",
+    "passage_id": "DCMH.CO3145.3.1_P35",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 32,
+    "order": 35,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.18"
@@ -510,9 +559,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P33",
+    "passage_id": "DCMH.CO3145.3.1_P36",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 33,
+    "order": 36,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.19"
@@ -526,9 +575,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P34",
+    "passage_id": "DCMH.CO3145.3.1_P37",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 34,
+    "order": 37,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.2"
@@ -542,9 +591,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P35",
+    "passage_id": "DCMH.CO3145.3.1_P38",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 35,
+    "order": 38,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.20"
@@ -558,9 +607,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P36",
+    "passage_id": "DCMH.CO3145.3.1_P39",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 36,
+    "order": 39,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.21"
@@ -574,9 +623,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P37",
+    "passage_id": "DCMH.CO3145.3.1_P40",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 37,
+    "order": 40,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.3"
@@ -590,9 +639,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P38",
+    "passage_id": "DCMH.CO3145.3.1_P41",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 38,
+    "order": 41,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.4"
@@ -606,9 +655,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P39",
+    "passage_id": "DCMH.CO3145.3.1_P42",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 39,
+    "order": 42,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.5"
@@ -622,9 +671,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P40",
+    "passage_id": "DCMH.CO3145.3.1_P43",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 40,
+    "order": 43,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.6"
@@ -638,9 +687,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P41",
+    "passage_id": "DCMH.CO3145.3.1_P44",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 41,
+    "order": 44,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.7"
@@ -654,9 +703,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P42",
+    "passage_id": "DCMH.CO3145.3.1_P45",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 42,
+    "order": 45,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.8"
@@ -670,9 +719,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P43",
+    "passage_id": "DCMH.CO3145.3.1_P46",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 43,
+    "order": 46,
     "section_path": [
       "Đánh giá kết quả học tập",
       "A.O.9"
@@ -686,9 +735,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P44",
+    "passage_id": "DCMH.CO3145.3.1_P47",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 44,
+    "order": 47,
     "section_path": [
       "Nội dung chi tiết",
       "1"
@@ -702,9 +751,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P45",
+    "passage_id": "DCMH.CO3145.3.1_P48",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 45,
+    "order": 48,
     "section_path": [
       "Nội dung chi tiết",
       "2-3"
@@ -718,9 +767,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P46",
+    "passage_id": "DCMH.CO3145.3.1_P49",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 46,
+    "order": 49,
     "section_path": [
       "Nội dung chi tiết",
       "4"
@@ -734,9 +783,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P47",
+    "passage_id": "DCMH.CO3145.3.1_P50",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 47,
+    "order": 50,
     "section_path": [
       "Nội dung chi tiết",
       "5-6"
@@ -750,9 +799,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P48",
+    "passage_id": "DCMH.CO3145.3.1_P51",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 48,
+    "order": 51,
     "section_path": [
       "Nội dung chi tiết",
       "7-8-9"
@@ -766,9 +815,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P49",
+    "passage_id": "DCMH.CO3145.3.1_P52",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 49,
+    "order": 52,
     "section_path": [
       "Nội dung chi tiết",
       "10-11-12"
@@ -782,9 +831,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P50",
+    "passage_id": "DCMH.CO3145.3.1_P53",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 50,
+    "order": 53,
     "section_path": [
       "Nội dung chi tiết",
       "13-14"
@@ -798,9 +847,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P51",
+    "passage_id": "DCMH.CO3145.3.1_P54",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 51,
+    "order": 54,
     "section_path": [
       "Nội dung chi tiết",
       "15"
@@ -814,9 +863,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P52",
+    "passage_id": "DCMH.CO3145.3.1_P55",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 52,
+    "order": 55,
     "section_path": [
       "Nội dung chi tiết",
       "1"
@@ -830,9 +879,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P53",
+    "passage_id": "DCMH.CO3145.3.1_P56",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 53,
+    "order": 56,
     "section_path": [
       "Nội dung chi tiết",
       "2-3"
@@ -846,9 +895,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P54",
+    "passage_id": "DCMH.CO3145.3.1_P57",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 54,
+    "order": 57,
     "section_path": [
       "Nội dung chi tiết",
       "4-5"
@@ -862,9 +911,9 @@
     "review_status": "pending"
   },
   {
-    "passage_id": "DCMH.CO3145.3.1_P55",
+    "passage_id": "DCMH.CO3145.3.1_P58",
     "doc_id": "DCMH.CO3145.3.1",
-    "order": 55,
+    "order": 58,
     "section_path": [
       "Nội dung chi tiết",
       "6"
