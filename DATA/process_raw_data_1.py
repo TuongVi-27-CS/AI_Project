@@ -7,10 +7,14 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 sys.stdout.reconfigure(encoding="utf-8")
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PAGES_DIR = os.path.join(BASE_DIR, "pages")
-DETAILS_DIR = os.path.join(BASE_DIR, "Raw_data_1")
-OUTPUT_DIR = os.path.join(BASE_DIR, "output_1")
+DETAILS_DIR = os.path.join(BASE_DIR, "raw", "Raw_data_1")
+if not os.path.exists(DETAILS_DIR):
+    DETAILS_DIR = os.path.join(BASE_DIR, "Raw_data_1")
+
+OUTPUT_DIR = os.path.join(BASE_DIR, "processed", "output_1")
 DOCS_OUT_DIR = os.path.join(OUTPUT_DIR, "documents")
 PASSAGES_OUT_DIR = os.path.join(OUTPUT_DIR, "passages")
 os.makedirs(DOCS_OUT_DIR, exist_ok=True)
@@ -81,7 +85,13 @@ class PassageBuilder:
 
 def process_details(id_mapping):
     detail_files = glob.glob(os.path.join(DETAILS_DIR, "*.json"))
+    if not detail_files:
+        print(f"LỖI: Không tìm thấy tệp JSON nào trong {DETAILS_DIR}")
+        sys.exit(1)
+
     processed_subjects = set()
+    cdr_anomaly_count = 0
+
     for file_path in detail_files:
         if file_path.endswith(".raw.json"):
             continue
@@ -91,10 +101,12 @@ def process_details(id_mapping):
             except json.JSONDecodeError:
                 print(f"Lỗi cú pháp JSON tại file: {file_path}")
                 continue
+
         khoa_name = get_lang_text(data.get("khoa"))
         hockyapdung = data.get("hockyapdung", "")
         ma_mon_hoc = data.get("mamonhoc", "")
         doc_id = data.get("ma", "")
+
         if (
             not khoa_name
             or "Khoa Khoa Học và Kỹ Thuật Máy Tính" not in khoa_name
@@ -103,50 +115,64 @@ def process_details(id_mapping):
             not in get_lang_text(data.get("khoa"), "en")
         ):
             continue
+
         if hockyapdung not in ["HK261", "HK262"]:
             continue
+
         if ma_mon_hoc in processed_subjects:
-            print(
-                f"Bỏ qua (Trùng lặp): {ma_mon_hoc} ở {hockyapdung} (Đã xử lý trước đó)"
-            )
+            print(f"Bỏ qua (Trùng lặp): {ma_mon_hoc} ở {hockyapdung} (Đã xử lý trước đó)")
             continue
         processed_subjects.add(ma_mon_hoc)
-        print(
-            f"Đang xử lý: {doc_id} - Môn: {ma_mon_hoc} - {get_lang_text(data.get('ten'))}"
-        )
+
         source_url = None
         if doc_id in id_mapping:
             source_url = f"https://mybk.hcmut.edu.vn/app/he-thong-quan-ly-dao-tao/dcmh-core/{id_mapping[doc_id]}"
-        issued_date_str = data.get("capnhat")
-        issued_date_formatted = None
-        if issued_date_str:
+
+        # V06: Metadata - distinguish updated_at vs issued_date
+        updated_at_str = data.get("capnhat")
+        updated_at_formatted = None
+        if updated_at_str:
             try:
-                dt = datetime.strptime(issued_date_str, "%d/%m/%Y %H:%M")
-                issued_date_formatted = dt.strftime("%Y-%m-%d")
+                dt = datetime.strptime(updated_at_str, "%d/%m/%Y %H:%M")
+                updated_at_formatted = dt.strftime("%Y-%m-%d")
             except ValueError:
                 pass
-        program_name = None
-        if data.get("nganh") and len(data["nganh"]) > 0:
-            program_name = get_lang_text(data["nganh"][0].get("ten"))
-        study_mode = None
+
+        # V06: Preserve all majors/specialties, not only the first
+        all_nganh = []
+        if data.get("nganh") and isinstance(data["nganh"], list):
+            for ng in data["nganh"]:
+                ten_ng = get_lang_text(ng.get("ten"))
+                if ten_ng and ten_ng not in all_nganh:
+                    all_nganh.append(ten_ng)
+        program_name = "; ".join(all_nganh) if all_nganh else "Khoa Khoa học và Kỹ thuật Máy tính"
+
+        study_level = None
         if data.get("thongtinchung") and data["thongtinchung"].get("bacDaoTao"):
-            study_mode = get_lang_text(data["thongtinchung"]["bacDaoTao"].get("ten"))
+            study_level = get_lang_text(data["thongtinchung"]["bacDaoTao"].get("ten"))
+        study_mode = f"Chính quy ({study_level})" if study_level else "Chính quy"
+
+        # V06: cohorts should be admission cohorts, not semester (HK261/HK262)
         document = {
             "doc_id": doc_id,
             "title": get_lang_text(data.get("ten")),
             "document_type": "course_syllabus",
             "source_url": source_url,
             "source_file": f"Raw_data_1/{os.path.basename(file_path)}",
-            "issued_date": issued_date_formatted,
+            "issued_date": None,
+            "updated_at": updated_at_formatted,
             "effective_date": None,
             "scope": {
                 "institution": "Trường Đại học Bách khoa - ĐHQG-HCM",
                 "program": program_name,
                 "study_mode": study_mode,
-                "cohorts": [hockyapdung],
+                "cohorts": [],
             },
         }
+
         pb = PassageBuilder(doc_id)
+
+        # 1. Môn học điều kiện
         mndk = data.get("monhocdieukien")
         if mndk and isinstance(mndk, list):
             cond_sentences = []
@@ -155,9 +181,10 @@ def process_details(id_mapping):
                 ma_mon = cond.get("mamonhoc", "")
                 ten_mon = cond.get("tenmonhoc_only", {}).get("vi", "")
                 cond_sentences.append(f"{loai}: {ma_mon} - {ten_mon}")
-            
             natural_text = "Môn học điều kiện:\n" + "\n".join(f"- {s}" for s in cond_sentences)
             pb.add_passage(["Môn học điều kiện"], natural_text, "monhocdieukien")
+
+        # 2. Thông tin chung
         ttc = data.get("thongtinchung", {})
         ttc_keys = [
             ("mucTieuMonHoc", "Mục tiêu môn học"),
@@ -174,18 +201,82 @@ def process_details(id_mapping):
                     get_lang_text(val),
                     f"thongtinchung.{key}.vi",
                 )
+
+        # 3. V07: Phân bổ thời gian (tách riêng pbsotc và pbsotiet với locator hợp lệ)
         pbsotc = data.get("pbsotc")
         pbsotiet = data.get("pbsotiet")
-        time_text = []
         if pbsotc:
-            time_text.append(f"Phân bổ tín chỉ: {pbsotc}")
+            pb.add_passage(["Phân bổ thời gian", "Tín chỉ"], f"Phân bổ tín chỉ: {pbsotc}", "pbsotc")
         if pbsotiet:
-            time_text.append(f"Phân bổ tiết: {pbsotiet}")
-        if time_text:
-            pb.add_passage(
-                ["Phân bổ thời gian"], " | ".join(time_text), "pbsotc_pbsotiet"
-            )
+            pb.add_passage(["Phân bổ thời gian", "Số tiết"], f"Phân bổ tiết: {pbsotiet}", "pbsotiet")
+
+        # 4. V04: Tỷ lệ đánh giá (tyledanhgia)
+        tyledanhgia = data.get("tyledanhgia")
+        if tyledanhgia and isinstance(tyledanhgia, dict):
+            labels = {
+                "baiTapLon": "Bài tập lớn",
+                "kiemTra": "Kiểm tra",
+                "thi": "Thi",
+                "khac": "Khác",
+                "baiTapThucHanh": "Bài tập thực hành",
+                "thiNghiem": "Thí nghiệm",
+                "doAn": "Đồ án",
+                "thamQuan": "Tham quan",
+                "thucTapNgoaiTruong": "Thực tập ngoài trường",
+                "luanVanTotNghiep": "Luận văn tốt nghiệp",
+                "tuHoc": "Tự học",
+                "lyThuyetKhac": "Lý thuyết khác",
+                "tong": "Tổng cộng",
+            }
+            tyle_lines = []
+            for k, label in labels.items():
+                if k in tyledanhgia and tyledanhgia[k] is not None:
+                    val = tyledanhgia[k]
+                    if val > 0 or k == "tong":
+                        tyle_lines.append(f"- {label}: {val}%")
+            if tyle_lines:
+                pb.add_passage(
+                    ["Đánh giá kết quả học tập", "Tỷ lệ đánh giá"],
+                    "Tỷ lệ đánh giá môn học:\n" + "\n".join(tyle_lines),
+                    "tyledanhgia",
+                )
+
+        # 5. V04: Hình thức và thời lượng đánh giá (hinhthucdanhgia)
+        hinhthucdanhgia = data.get("hinhthucdanhgia")
+        if hinhthucdanhgia and isinstance(hinhthucdanhgia, dict):
+            ht_labels = {
+                "kiemTra": "Kiểm tra giữa kỳ",
+                "thi": "Thi cuối kỳ",
+                "khac": "Đánh giá khác",
+            }
+            ht_lines = []
+            for k, label in ht_labels.items():
+                info = hinhthucdanhgia.get(k)
+                if isinstance(info, dict):
+                    ht_text = info.get("hinhThuc", {}).get("text", {}).get("vi")
+                    tg_text = info.get("thoiGian", {}).get("text", {}).get("vi")
+                    tg_num = info.get("thoiGian", {}).get("thoigian")
+                    if not tg_text and tg_num:
+                        tg_text = f"{tg_num} phút"
+                    details = []
+                    if ht_text:
+                        details.append(f"Hình thức: {ht_text}")
+                    if tg_text:
+                        details.append(f"Thời gian: {tg_text}")
+                    if details:
+                        ht_lines.append(f"- {label}: " + ", ".join(details))
+            if ht_lines:
+                pb.add_passage(
+                    ["Đánh giá kết quả học tập", "Hình thức và thời lượng đánh giá"],
+                    "Hình thức và thời lượng kiểm tra/thi:\n" + "\n".join(ht_lines),
+                    "hinhthucdanhgia",
+                )
+
+        # 6. V05: Chuẩn đầu ra (ghi nhận cảnh báo nếu gặp 14 chuẩn đầu ra lặp)
         cdr_list = data.get("cdr", [])
+        if len(cdr_list) == 14 and any("Năm CTĐT 2019" in str(c.get("ten", "")) for c in cdr_list):
+            cdr_anomaly_count += 1
+
         for i, cdr in enumerate(cdr_list):
             ma_cdr = cdr.get("ma", f"L.O.{i}")
             ten_cdr = get_lang_text(cdr.get("ten"))
@@ -195,6 +286,8 @@ def process_details(id_mapping):
                 f"cdr[{i}].ten.vi",
                 content_type="list_item",
             )
+
+        # 7. Hoạt động đánh giá chi tiết
         hddg = data.get("hddg")
         if isinstance(hddg, dict):
             for hddg_key, hddg_val in hddg.items():
@@ -207,9 +300,7 @@ def process_details(id_mapping):
         elif isinstance(hddg, list):
             for i, item in enumerate(hddg):
                 if isinstance(item, dict):
-                    thanh_phan = get_lang_text(item.get("tenThanhPhan")) or item.get(
-                        "ma", f"Item_{i}"
-                    )
+                    thanh_phan = get_lang_text(item.get("tenThanhPhan")) or item.get("ma", f"Item_{i}")
                     pb.add_passage(
                         ["Đánh giá kết quả học tập", thanh_phan],
                         str(item),
@@ -221,6 +312,8 @@ def process_details(id_mapping):
                         str(item),
                         f"hddg[{i}]",
                     )
+
+        # 8. Nội dung chi tiết
         ndct_list = data.get("ndct", [])
         for i, session in enumerate(ndct_list):
             buoi = session.get("buoi", f"Buổi {i+1}")
@@ -235,9 +328,12 @@ def process_details(id_mapping):
                     activities.append(f"Hoạt động sinh viên: {sv}")
             full_content = noidung + "\n" + "\n".join(activities)
             pb.add_passage(["Nội dung chi tiết", buoi], full_content, f"ndct[{i}]")
+
+        # 9. Thông tin liên hệ
         lienhe = data.get("lienhe")
         if lienhe:
             pb.add_passage(["Thông tin liên hệ"], get_lang_text(lienhe), "lienhe")
+
         doc_out_path = os.path.join(DOCS_OUT_DIR, f"{doc_id}.json")
         passages_out_path = os.path.join(PASSAGES_OUT_DIR, f"{doc_id}.json")
         with open(doc_out_path, "w", encoding="utf-8") as f:
@@ -245,14 +341,13 @@ def process_details(id_mapping):
         with open(passages_out_path, "w", encoding="utf-8") as f:
             json.dump(pb.passages, f, ensure_ascii=False, indent=2)
 
+    print(f"Hoàn thành xử lý {len(processed_subjects)} đề cương môn học!")
+    if cdr_anomaly_count > 0:
+        print(f"Cảnh báo V05: Phát hiện {cdr_anomaly_count} đề cương có bộ chuẩn đầu ra tiếng Anh lặp từ nguồn dữ liệu thô.")
+
 
 if __name__ == "__main__":
-    print("Bắt đầu khởi chạy bộ chuyển đổi dữ liệu...")
-    print(f"Thư mục nguồn: {DETAILS_DIR}")
-    print(f"Thư mục đích: {OUTPUT_DIR}")
-    print("-" * 50)
+    print("Bắt đầu khởi chạy bộ chuyển đổi dữ liệu Raw_data_1...")
     mapping = build_id_mapping()
-    print(f"Đã nạp {len(mapping)} liên kết ID từ pages.")
     process_details(mapping)
-    print("-" * 50)
     print("HOÀN THÀNH!")
