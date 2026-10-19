@@ -272,9 +272,16 @@ def _get_response(question: str) -> dict[str, Any]:
                 "graph_data": r.get("graph_data"),
                 "intent": r.get("intent", "Backend"),
                 "verified": True,
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            return {
+                "answer": f"⚠️ **Lỗi thực thi từ Backend:**\n```\n{e}\n```\n*Vui lòng kiểm tra logs terminal hoặc API key.*",
+                "references": [],
+                "graph_data": None,
+                "intent": "Lỗi Backend",
+                "verified": False,
             }
-        except Exception:
-            pass  # fall through to demo
 
     lo = question.casefold()
 

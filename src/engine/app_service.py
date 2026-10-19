@@ -20,22 +20,23 @@ from src.engine.verifier import Verifier
 
 log = logging.getLogger(__name__)
 
-
 def _get_generation_client():
-    """Khởi tạo LLM client để sinh câu trả lời, ưu tiên theo API key sẵn có."""
-    openai_key = os.getenv("OPENAI_API_KEY", "").strip()
-    if openai_key:
-        try:
-            from openai import OpenAI
-            return OpenAI(api_key=openai_key), os.getenv("OPENAI_MODEL_NAME", "gpt-4o-mini")
-        except Exception:
-            pass
-
+    """Khởi tạo LLM client để sinh câu trả lời, ưu tiên Groq có sẵn và tốc độ cao."""
+    # 1. Ưu tiên Groq nếu có GROQ_API_KEY (hoạt động tốt, tốc độ cao)
     groq_key = os.getenv("GROQ_API_KEY", "").strip()
     if groq_key:
         try:
             from groq import Groq
             return Groq(api_key=groq_key), "qwen/qwen3.8-27b"
+        except Exception:
+            pass
+
+    # 2. Thử OpenAI nếu có OPENAI_API_KEY
+    openai_key = os.getenv("OPENAI_API_KEY", "").strip()
+    if openai_key:
+        try:
+            from openai import OpenAI
+            return OpenAI(api_key=openai_key), os.getenv("OPENAI_MODEL_NAME", "gpt-4o-mini")
         except Exception:
             pass
 

@@ -63,24 +63,24 @@ class Verifier:
         if self.client is not None:
             return self.client
 
-        # 1. Thử OpenAI nếu có OPENAI_API_KEY
-        openai_key = os.getenv("OPENAI_API_KEY", "").strip() or self.settings.api_key
-        if openai_key:
-            try:
-                from openai import OpenAI
-                self.client = OpenAI(api_key=openai_key)
-                self.provider = "openai"
-                return self.client
-            except Exception:
-                pass
-
-        # 2. Thử Groq nếu có GROQ_API_KEY
+        # 1. Ưu tiên Groq nếu có GROQ_API_KEY (ổn định, tốc độ cao)
         groq_key = os.getenv("GROQ_API_KEY", "").strip()
         if groq_key:
             try:
                 from groq import Groq
                 self.client = Groq(api_key=groq_key)
                 self.provider = "groq"
+                return self.client
+            except Exception:
+                pass
+
+        # 2. Thử OpenAI nếu có OPENAI_API_KEY
+        openai_key = os.getenv("OPENAI_API_KEY", "").strip() or self.settings.api_key
+        if openai_key:
+            try:
+                from openai import OpenAI
+                self.client = OpenAI(api_key=openai_key)
+                self.provider = "openai"
                 return self.client
             except Exception:
                 pass
