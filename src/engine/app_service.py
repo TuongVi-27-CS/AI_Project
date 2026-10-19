@@ -27,7 +27,7 @@ def _get_generation_client():
     if groq_key:
         try:
             from groq import Groq
-            return Groq(api_key=groq_key), "qwen/qwen3.8-27b"
+            return Groq(api_key=groq_key), "openai/gpt-oss-120b"
         except Exception:
             pass
 
@@ -276,13 +276,24 @@ def answer_question(
             user_prompt = f"NGỮ CẢNH ĐƯỢC CẤP:\n\"\"\"\n{fused.content}\n\"\"\"\n\nCÂU HỎI CỦA NGƯỜI DÙNG: {normalized_q}"
             messages.append({"role": "user", "content": user_prompt})
 
-            gen_response = client.chat.completions.create(
-                model=model_name,
-                messages=messages,
-                temperature=0.1,
-                timeout=30.0,
-            )
-            raw_answer = gen_response.choices[0].message.content or ""
+            models_to_try = [model_name]
+            if model_name != "openai/gpt-oss-20b":
+                models_to_try.append("openai/gpt-oss-20b")
+
+            for m in models_to_try:
+                try:
+                    gen_response = client.chat.completions.create(
+                        model=m,
+                        messages=messages,
+                        temperature=0.1,
+                        max_tokens=800,
+                        timeout=30.0,
+                    )
+                    raw_answer = gen_response.choices[0].message.content or ""
+                    if raw_answer:
+                        break
+                except Exception as ex_m:
+                    log.warning(f"Thử sinh câu trả lời với model {m} không thành công ({ex_m}), thử model tiếp theo...")
         except Exception as e:
             log.warning(f"Lỗi khi sinh câu trả lời bằng LLM ({e}), chuyển sang chế độ tóm tắt ngữ cảnh.")
 

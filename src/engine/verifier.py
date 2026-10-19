@@ -113,33 +113,41 @@ class Verifier:
                 "Vui lòng cấu hình OPENAI_API_KEY, GROQ_API_KEY hoặc OPENROUTER_API_KEY trong file .env."
             )
 
-        model_name = self.settings.model
+        models_to_try = [self.settings.model]
         if self.provider == "groq":
-            model_name = "qwen/qwen3.8-27b"
+            models_to_try = ["qwen/qwen3.8-27b", "openai/gpt-oss-120b"]
         elif self.provider == "openrouter":
-            model_name = os.getenv("OPENROUTER_MODEL_NAME", "meta-llama/llama-3.3-70b-instruct:free")
+            models_to_try = [os.getenv("OPENROUTER_MODEL_NAME", "meta-llama/llama-3.3-70b-instruct:free")]
 
-        try:
-            response = client.chat.completions.create(
-                model=model_name,
-                messages=[
-                    {"role": "system", "content": "You are a precise logic extraction engine that outputs valid JSON only."},
-                    {"role": "user", "content": f"{CLAIM_EXTRACTION_PROMPT}\n\nCâu trả lời cần phân rã:\n\"\"\"\n{answer}\n\"\"\""}
-                ],
-                temperature=0.0,
-                response_format={"type": "json_object"} if self.provider in ("openai", "groq") else None,
-                timeout=self.settings.timeout,
-            )
-            content = response.choices[0].message.content or "{}"
-            json_match = re.search(r"\{.*\}", content, re.DOTALL)
-            if json_match:
-                data = json.loads(json_match.group(0))
-                raw_claims = data.get("claims", [])
-                return [AtomicClaim(**c) for c in raw_claims]
-            return []
-        except Exception as e:
-            log.error("Lỗi khi bóc tách Atomic Claims bằng LLM (%s): %s", model_name, e)
-            raise RuntimeError(f"LLM Claim Extraction thất bại trên model {model_name}: {e}") from e
+        last_error = None
+        for model_name in models_to_try:
+            try:
+                # Chỉ dùng response_format json_object với model hỗ trợ đầy đủ
+                use_json_mode = self.provider in ("openai", "groq") and "gpt-oss" not in model_name
+                response = client.chat.completions.create(
+                    model=model_name,
+                    messages=[
+                        {"role": "system", "content": "You are a precise logic extraction engine that outputs valid JSON only."},
+                        {"role": "user", "content": f"{CLAIM_EXTRACTION_PROMPT}\n\nCâu trả lời cần phân rã:\n\"\"\"\n{answer}\n\"\"\""}
+                    ],
+                    temperature=0.0,
+                    max_tokens=500,
+                    response_format={"type": "json_object"} if use_json_mode else None,
+                    timeout=self.settings.timeout,
+                )
+                content = response.choices[0].message.content or "{}"
+                json_match = re.search(r"\{.*\}", content, re.DOTALL)
+                if json_match:
+                    data = json.loads(json_match.group(0))
+                    raw_claims = data.get("claims", [])
+                    return [AtomicClaim(**c) for c in raw_claims]
+                return []
+            except Exception as e:
+                log.warning("Bóc tách claims với model %s không thành công (%s), thử model tiếp theo...", model_name, e)
+                last_error = e
+
+        log.error("Tất cả models đều thất bại trong việc bóc tách Atomic Claims: %s", last_error)
+        raise RuntimeError(f"LLM Claim Extraction thất bại trên các model ({models_to_try}): {last_error}") from last_error
 
     def verify(
         self,
