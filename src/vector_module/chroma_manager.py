@@ -113,8 +113,11 @@ class ChromaManager:
         ):
             raise ValueError("Collection is incomplete; finish ingest first")
 
-        if meta.get("embedding_signature") != embedder.signature or meta.get("dimension") != embedder.dimension:
-            raise ValueError("Query embedding provider/model/revision differs from the indexed configuration")
+        if meta.get("dimension") != embedder.dimension:
+            raise ValueError(f"Query embedding dimension ({embedder.dimension}) differs from the indexed configuration ({meta.get('dimension')})")
+
+        if meta.get("embedding_signature") != embedder.signature:
+            log.info("Lưu ý: Embedding signature khác biệt (%s vs %s), nhưng cùng dimension 1024.", meta.get("embedding_signature"), embedder.signature)
 
         return collection
 

@@ -70,9 +70,9 @@ class VectorResult(BaseModel):
 class FinalResponse(BaseModel):
     """Đầu ra cuối cùng để hiển thị lên Streamlit Web UI."""
     answer: str = Field(description="Câu trả lời ngôn ngữ tự nhiên đã được kiểm chứng (Verifiable Generation).")
-    references: list[str] = Field(
+    references: list[str | dict[str, Any]] = Field(
         default_factory=list,
-        description="Danh sách nguồn tham khảo đã được lọc trùng lặp để hiển thị ở mục Citations."
+        description="Danh sách nguồn tham khảo (chuỗi hoặc object thẻ trích dẫn) để hiển thị ở mục Citations."
     )
     graph_data: dict[str, Any] | None = Field(
         default=None,
