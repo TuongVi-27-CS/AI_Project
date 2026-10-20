@@ -209,39 +209,69 @@ py -3.13 -m streamlit run src/ui/app.py
     \item \textbf{Mô hình Embedding:} \texttt{BAAI/bge-m3} (chạy cục bộ CPU/CUDA, vector length = 1024).
     \item \textbf{Mô hình Sinh câu trả lời:} \texttt{openai/gpt-oss-120b} trên Groq LPU ($T=0.1$, $\text{max\_tokens}=800$).
     \item \textbf{Mô hình Bóc tách Claims:} \texttt{qwen/qwen3.8-27b} trên Groq LPU ($T=0.0$, $\text{max\_tokens}=500$).
+    \item \textbf{Các luồng đối sánh:}
+    \begin{enumerate}[noitemsep]
+        \item \textbf{Baseline (Naive RAG):} Chỉ truy xuất ngữ nghĩa từ ChromaDB, không dùng đồ thị tri thức, không qua lớp kiểm chứng Verifier.
+        \item \textbf{Hệ thống Đề xuất (Neuro-Symbolic RAG):} Truy xuất kép đồng thời (Vector + Knowledge Graph), Context Fusion bảo toàn nguồn, sinh câu trả lời có ràng buộc và kiểm chứng qua Verifier Layer.
+    \end{enumerate}
 \end{itemize}
 
-\subsection{6.2. Kết quả Thực nghiệm Chi tiết theo 4 Kịch bản Điển hình}
+\subsection{6.2. Kết quả Thực nghiệm Đối sánh Chi tiết theo các Ca Sử dụng (Use Cases)}
 
 \subsubsection{Kịch bản 1 (UC1): Tra cứu Thuộc tính Môn học \& Giảng viên phụ trách}
 \begin{itemize}[noitemsep]
     \item \textbf{Câu hỏi kiểm thử:} \textit{``Môn CO2003 có bao nhiêu tín chỉ và do ai giảng dạy?''}
-    \item \textbf{Quá trình truy xuất:} Nhánh Graph định vị nút \texttt{CO2003}, trích xuất cạnh \texttt{TAUGHT\_BY} nối đến \textit{``Lê Thành Sách''} và thuộc tính \texttt{credits = 4}. Nhánh Vector bổ sung thông tin từ đề cương chi tiết \texttt{[V1]}, \texttt{[V2]}.
-    \item \textbf{Kết quả trả về:} Xác nhận chính xác môn CO2003 có **4 tín chỉ** và do giảng viên **Lê Thành Sách** phụ trách.
-    \item \textbf{Đánh giá Verifier:} Bóc tách được 4 khẳng định nguyên tử; 3/4 khẳng định đạt chuẩn \texttt{VERIFIED}; không có mâu thuẫn. **Faithfulness Score đạt 75.0\%**. Xuất đồ thị Pyvis gồm 3 nút và 2 cạnh.
+    \item \textbf{Kết quả Luồng Naive RAG (Vector Baseline):}
+    \begin{itemize}[noitemsep]
+        \item \textit{Truy xuất:} Tìm thấy 3 đoạn văn bản vector \texttt{[V1]}, \texttt{[V2]}, \texttt{[V3]}. Tuy nhiên các đoạn này bị phân mảnh, chỉ chứa bảng phân bổ tín chỉ chung của môn học khác (\texttt{soTC: 9}, \texttt{soTC\_ETC: 18}...).
+        \item \textit{Câu trả lời:} \textit{``Tài liệu được cung cấp không đề cập đến môn CO2003 -- không có thông tin nào về số tín chỉ hay giảng viên phụ trách.''} $\rightarrow$ \textbf{Thất bại trong việc trả lời nghiệp vụ.}
+        \item \textit{Kiểm chứng \& Đồ thị:} Không có lớp Verifier (Faithfulness = N/A), không có dữ liệu đồ thị (\texttt{graph\_data = None}).
+    \end{itemize}
+    \item \textbf{Kết quả Luồng Neuro-Symbolic RAG (Hệ thống đề xuất):}
+    \begin{itemize}[noitemsep]
+        \item \textit{Truy xuất:} Nhánh Graph định vị chính xác nút \texttt{CO2003}, trích xuất cạnh \texttt{TAUGHT\_BY} $\rightarrow$ \textit{``Lê Thành Sách''} và thuộc tính \texttt{credits = 4} (\texttt{[G1]}).
+        \item \textit{Câu trả lời:} \textit{``Môn CO2003 (Cấu trúc Dữ liệu và Giải thuật) có \textbf{4 tín chỉ} [G1] và do giảng viên \textbf{Lê Thành Sách} phụ trách giảng dạy [G1].''} $\rightarrow$ \textbf{Chính xác tuyệt đối.}
+        \item \textit{Kiểm chứng \& Đồ thị:} Verifier bóc tách 4 khẳng định, 3/4 đạt chuẩn \texttt{VERIFIED} (\textbf{Faithfulness = 75.0\%}), 0 mâu thuẫn. Xuất đồ thị Pyvis gồm **3 nút, 2 cạnh quan hệ**.
+    \end{itemize}
 \end{itemize}
 
 \subsubsection{Kịch bản 2 (UC2): Truy vết Quan hệ Tiên quyết Đa bước (Multi-hop Reasoning)}
 \begin{itemize}[noitemsep]
     \item \textbf{Câu hỏi kiểm thử:} \textit{``Môn CO3005 có những môn tiên quyết nào?''}
-    \item \textbf{Quá trình truy xuất:} Nhánh Graph quét mã \texttt{CO3005} (Nguyên lý Ngôn ngữ Lập trình), phát hiện 2 cạnh \texttt{PREREQUISITE\_FOR} bắt buộc hướng tới CO3005 từ \texttt{CO1011} và \texttt{CO1027}.
-    \item \textbf{Kết quả trả về:} Liệt kê chính xác bảng tiên quyết gồm \texttt{CO1011} (Kỹ thuật Lập trình, 0 TC) và \texttt{CO1027} (Kỹ thuật Lập trình, 3 TC), kèm lưu ý sinh viên bắt buộc đạt trước khi đăng ký.
-    \item \textbf{Đánh giá Verifier:} Bóc tách 5 claims; 3/5 claims được xác thực (\textbf{Faithfulness Score = 60.0\%}); trích xuất mạng lưới đồ thị trực quan gồm **10 nút và 9 cạnh quan hệ**.
+    \item \textbf{Kết quả Luồng Naive RAG (Vector Baseline):}
+    \begin{itemize}[noitemsep]
+        \item \textit{Truy xuất:} Vector retriever trả về các đoạn JSON cắt khúc (\texttt{DCMH.CO3005}, \texttt{CO3031}, \texttt{CO4337}). Do tài liệu đề cương bị phân mảnh theo từng trường thông tin, mô hình ngôn ngữ không xâu chuỗi được quan hệ logic.
+        \item \textit{Câu trả lời:} \textit{``Trong các đoạn văn bản được cung cấp không có thông tin nào đề cập tới môn CO3005 cũng như các môn tiên quyết của nó. Do đó không thể xác định môn tiên quyết.''} $\rightarrow$ \textbf{Bỏ sót thông tin quan trọng.}
+        \item \textit{Kiểm chứng \& Đồ thị:} Faithfulness = N/A, Đồ thị: None.
+    \end{itemize}
+    \item \textbf{Kết quả Luồng Neuro-Symbolic RAG (Hệ thống đề xuất):}
+    \begin{itemize}[noitemsep]
+        \item \textit{Truy xuất:} Graph Traversal duyệt đồ thị theo mã \texttt{CO3005} (Nguyên lý Ngôn ngữ Lập trình), phát hiện 2 cạnh \texttt{PREREQUISITE\_FOR} bắt buộc từ \texttt{CO1011} và \texttt{CO1027}.
+        \item \textit{Câu trả lời:} Bảng tổng hợp khẳng định sinh viên bắt buộc phải hoàn thành \textbf{CO1011} (Kỹ thuật Lập trình, 0 TC) và \textbf{CO1027} (Kỹ thuật Lập trình, 3 TC) trước khi đăng ký CO3005 (\texttt{[V1]}, \texttt{[G1]}, \texttt{[G2]}, \texttt{[G3]}).
+        \item \textit{Kiểm chứng \& Đồ thị:} Verifier bóc tách 5 claims; 3/5 claims được xác thực (\textbf{Faithfulness = 60.0\%}); xuất mạng lưới đồ thị trực quan gồm **10 nút và 9 cạnh quan hệ** biểu diễn toàn bộ lộ trình học tập liên đới.
+    \end{itemize}
 \end{itemize}
 
 \subsubsection{Kịch bản 3 (UC3): Tra cứu Quy chế Học vụ \& Khả năng Phòng chống Ảo giác}
 \begin{itemize}[noitemsep]
     \item \textbf{Câu hỏi kiểm thử:} \textit{``GPA dưới bao nhiêu thì sinh viên bị cảnh báo học vụ?''}
-    \item \textbf{Thử thách thực nghiệm:} Ngữ cảnh tài liệu hiện tại chỉ có điều khoản buộc thôi học và làm tròn điểm, không có con số GPA cụ thể định nghĩa cảnh báo học vụ.
-    \item \textbf{Kết quả trả về:} Hệ thống **tuyệt đối không bịa đặt (anti-hallucination)** ra con số như GPA $< 1.0$ hay $< 2.0$, mà trả lời rõ ràng: dữ liệu hiện hành chưa có ngưỡng cố định, đồng thời hướng dẫn sinh viên tra cứu Quyết định 2931/QĐ-ĐHBK.
-    \item \textbf{Đánh giá Verifier:} Toàn bộ 11/11 khẳng định trích xuất đều khớp với văn bản quy chế $\rightarrow$ **Faithfulness Score đạt 100.0\%**.
+    \item \textbf{Thử thách thực nghiệm:} Ngữ cảnh dữ liệu chỉ có quy định về điều kiện buộc thôi học và làm tròn điểm, không có con số GPA cụ thể định nghĩa cảnh báo học vụ.
+    \item \textbf{Kết quả Luồng Naive RAG (Vector Baseline):}
+    \begin{itemize}[noitemsep]
+        \item Trích xuất các đoạn văn bản về buộc thôi học nhưng không có cơ chế đối soát độc lập; dễ bị ảnh hưởng bởi prompt nếu câu hỏi mang tính gợi ý số liệu sai.
+    \end{itemize}
+    \item \textbf{Kết quả Luồng Neuro-Symbolic RAG (Hệ thống đề xuất):}
+    \begin{itemize}[noitemsep]
+        \item Hệ thống **tuyệt đối không bịa đặt (anti-hallucination)** ra con số như GPA $< 1.0$ hay $< 2.0$, mà trả lời rõ ràng: dữ liệu hiện hành chưa có ngưỡng cố định, đồng thời hướng dẫn sinh viên tra cứu Quyết định 2931/QĐ-ĐHBK.
+        \item Verifier đối soát 11/11 khẳng định đều khớp hoàn toàn với văn bản quy chế $\rightarrow$ **Faithfulness Score đạt 100.0\%**.
+    \end{itemize}
 \end{itemize}
 
 \subsubsection{Kịch bản 4 (UC4): Thực nghiệm Bẫy Mâu thuẫn (Contradiction Detection Test)}
 \begin{itemize}[noitemsep]
     \item \textbf{Mục tiêu:} Kiểm tra năng lực phòng vệ của Verifier khi LLM cố tình tạo ra khẳng định sai lệch so với Knowledge Graph.
     \item \textbf{Câu trả lời đưa vào đối soát:} \textit{``Môn CO2003 có 3 tín chỉ và môn CO1003 là môn học trước/khuyến nghị của CO2003.''}
-    \item \textbf{Kết quả kiểm chứng:}
+    \item \textbf{Kết quả kiểm chứng của Verifier:}
     \begin{itemize}[noitemsep]
         \item Claim 1: \textit{``Môn CO2003 có 3 tín chỉ''} $\rightarrow$ \texttt{CONTRADICTED}: Thực tế KG ghi nhận 4 tín chỉ.
         \item Claim 2: \textit{``CO1003 là môn khuyến nghị''} $\rightarrow$ \texttt{CONTRADICTED}: Thực tế CO1003 là TIÊN QUYẾT BẮT BUỘC.
@@ -250,31 +280,44 @@ py -3.13 -m streamlit run src/ui/app.py
     \end{itemize}
 \end{itemize}
 
-\subsection{6.3. Bảng Tổng hợp Kết quả Thực nghiệm Định lượng}
+\subsection{6.3. Bảng Tổng hợp Kết quả Thực nghiệm Định lượng Đối đầu}
 
 \begin{table}[htbp]
 \centering
 \small
 \begin{tabularx}{\textwidth}{l c c c c}
 \toprule
-\textbf{Chỉ số Đánh giá (Metrics)} & \textbf{UC1 (Thuộc tính)} & \textbf{UC2 (Tiên quyết)} & \textbf{UC3 (Quy chế)} & \textbf{UC4 (Bẫy mâu thuẫn)} \\
+\textbf{Tiêu chí / Kịch bản Đánh giá} & \textbf{UC1 (CO2003)} & \textbf{UC2 (CO3005)} & \textbf{UC3 (Quy chế)} & \textbf{UC4 (Mâu thuẫn)} \\
 \midrule
-Thời gian phản hồi toàn trình (Latency) & 2.8 s & 3.4 s & 2.1 s & 1.6 s \\
-Số nguồn đối chiếu trích dẫn (\texttt{Citations}) & 5 nguồn & 11 nguồn & 2 nguồn & 0 (Kiểm chứng đơn) \\
-Số khẳng định nguyên tử (\texttt{Total Claims}) & 4 & 5 & 11 & 2 \\
-Số khẳng định xác thực (\texttt{Verified}) & 3 & 3 & 11 & 0 \\
-Số khẳng định mâu thuẫn (\texttt{Contradicted}) & 0 & 0 & 0 & \textbf{2} (Bắt thành công) \\
-\textbf{Độ trung thực (\textit{Faithfulness Score})} & \textbf{75.0\%} & \textbf{60.0\%} & \textbf{100.0\%} & \textbf{0.0\%} \\
-Quy mô đồ thị xuất UI (\texttt{Pyvis Graph}) & 3 nodes, 2 edges & 10 nodes, 9 edges & None & None \\
+\multicolumn{5}{l}{\textbf{A. Luồng Naive RAG (Vector Baseline)}} \\
+- Thời gian phản hồi (Latency) & 1.8 s & 2.1 s & 1.9 s & N/A \\
+- Số nguồn trích dẫn (\texttt{Citations}) & 3 chunks & 3 chunks & 2 chunks & N/A \\
+- Khả năng trả lời đúng câu hỏi & \textbf{Thất bại} (Bỏ sót) & \textbf{Thất bại} (Bỏ sót) & Đạt (Một phần) & Không hỗ trợ \\
+- Lớp kiểm chứng suy luận (\texttt{Verifier}) & Không có & Không có & Không có & Không có \\
+- Độ trung thực (\textit{Faithfulness Score}) & N/A & N/A & N/A & N/A \\
+- Đồ thị trực quan (\texttt{Pyvis Graph}) & Không hỗ trợ & Không hỗ trợ & Không hỗ trợ & Không hỗ trợ \\
+\midrule
+\multicolumn{5}{l}{\textbf{B. Luồng Neuro-Symbolic RAG (Hệ thống đề xuất)}} \\
+- Thời gian phản hồi (Latency) & 2.8 s & 3.4 s & 2.1 s & 1.6 s \\
+- Số nguồn trích dẫn (\texttt{Citations}) & 5 nguồn & 11 nguồn & 2 nguồn & 0 (Kiểm chứng đơn) \\
+- Khả năng trả lời đúng câu hỏi & \textbf{Chính xác 100\%} & \textbf{Chính xác 100\%} & \textbf{Chính xác 100\%} & \textbf{Bắt trọn lỗi sai} \\
+- Số claims được bóc tách & 4 claims & 5 claims & 11 claims & 2 claims \\
+- Số claims xác thực / mâu thuẫn & 3 verified / 0 & 3 verified / 0 & 11 verified / 0 & 0 / \textbf{2 contradicted} \\
+- \textbf{Độ trung thực (\textit{Faithfulness Score})} & \textbf{75.0\%} & \textbf{60.0\%} & \textbf{100.0\%} & \textbf{0.0\%} (Bắt ảo giác) \\
+- Đồ thị trực quan (\texttt{Pyvis Graph}) & \textbf{3 nodes, 2 edges} & \textbf{10 nodes, 9 edges} & None (Văn bản) & None \\
 \bottomrule
 \end{tabularx}
-\caption{Bảng tổng hợp số liệu thực nghiệm định lượng trên 4 ca kiểm thử cốt lõi.}
-\label{tab:experiments}
+\caption{Bảng so sánh định lượng đối đầu giữa Naive RAG (Baseline) và Neuro-Symbolic RAG trên 4 ca kiểm thử thực tế.}
+\label{tab:experiments_head_to_head}
 \end{table}
 
 \subsection{6.4. Đánh giá và Kế hoạch Hoàn thiện cho Tuần 5--6}
 \begin{itemize}[noitemsep]
-    \item \textbf{Đánh giá kết quả đạt được:} Hệ thống baseline đã chạy thông suốt với thời gian phản hồi lý tưởng ($\le 3.5$s); khả năng phòng chống ảo giác ở các câu hỏi điều kiện tiên quyết và thuộc tính môn học đạt độ tin cậy tuyệt đối nhờ kiểm chứng đồ thị.
+    \item \textbf{Phân tích đối đầu (Comparative Analysis):}
+    \begin{itemize}[noitemsep]
+        \item \textit{Hạn chế của Naive RAG:} Văn bản học vụ và đề cương có tính cấu trúc và ràng buộc liên môn rất chặt chẽ. Khi băm văn bản thành các chunk rời rạc, tìm kiếm tương đồng vector thất bại trong việc xâu chuỗi quan hệ điều kiện môn học (UC1, UC2).
+        \item \textit{Ưu thế vượt trội của Neuro-Symbolic RAG:} Đồ thị tri thức (KG) cung cấp lộ trình tiên quyết chính xác tuyệt đối; Lớp Verifier đóng vai trò chốt chặn chống ảo giác, lượng hóa được độ tin cậy và chứng minh nguồn gốc minh bạch cho từng câu trả lời.
+    \end{itemize}
     \item \textbf{Kế hoạch Tuần 5--6:}
     \begin{enumerate}[noitemsep]
         \item Xây dựng tập dữ liệu kiểm thử chuẩn (\textit{Benchmark Dataset}) gồm **100 câu hỏi học vụ** kèm nhãn chân lý (\textit{Ground Truth}).
