@@ -14,7 +14,7 @@ from typing import Any, Dict, List, Optional
 
 from src.config.settings import QueryUnderstandingSettings, VectorModuleSettings
 from src.engine.fusion_chain import fuse_contexts
-from src.engine.prompts import GENERATION_SYSTEM_PROMPT
+from src.engine.prompts import GENERATION_SYSTEM_PROMPT, NAIVE_GENERATION_PROMPT
 from src.engine.schema import FinalResponse, ContextResult, QueryAnalysis
 from src.engine.verifier import Verifier
 
@@ -175,23 +175,148 @@ def _retrieve_from_graph_json(query_text: str) -> Optional[ContextResult]:
     )
 
 
-def answer_question(
+def answer_question_naive(
     question: str,
     history: Optional[List[Dict[str, str]]] = None,
     top_k_vector: int = 3,
     max_tokens: int = 4096,
 ) -> FinalResponse:
     """
-    Hàm giao tiếp chuẩn hóa được gọi từ Streamlit Web UI (src/ui/app.py).
-    
-    Quy trình:
-    1. Query Understanding: Phân tích & chuẩn hóa câu hỏi, kiểm tra làm rõ (disambiguation).
-    2. Retrieval kép: Gọi đồng thời Vector Retrieval (ChromaDB) và Graph Traversal (Neo4j / KG JSON).
-    3. Context Fusion: Ghép ngữ cảnh an toàn, trần 4096 tokens, bảo toàn nguồn [Vn]/[Gn].
-    4. Constrained Generation: LLM sinh câu trả lời có kiểm chứng.
-    5. Verifier Layer: Bóc tách claims 100% bằng LLM, đối soát với KG, tính Faithfulness.
-    6. Trả về FinalResponse với format hiển thị tương thích hoàn toàn với Streamlit.
+    Luồng Naive RAG (Vector Baseline truyền thống):
+    1. Chỉ thực hiện Vector Retrieval từ ChromaDB (BAAI/bge-m3).
+    2. Bỏ qua hoàn toàn Knowledge Graph (không gọi Neo4j hay curriculum_graph.json).
+    3. Bỏ qua Lớp kiểm chứng Verifier (không bóc tách khẳng định, không đối soát sự thật).
+    4. Trả về FinalResponse với graph_data=None và chú thích chế độ Naive RAG.
     """
+    settings_vec = VectorModuleSettings.from_env()
+
+    # 1. Truy xuất Vector đơn thuần
+    vector_context: Optional[ContextResult] = None
+    try:
+        from src.vector_module.chroma_manager import ChromaManager
+        from src.vector_module.embeddings import BgeM3API
+        from src.vector_module.vector_retriever import VectorRetriever
+        from src.engine.vector_pipeline import vector_context as make_vector_context
+
+        with BgeM3API.from_settings(settings_vec) as embedder:
+            manager = ChromaManager(settings_vec.chroma_path, settings_vec.collection_name)
+            matches = VectorRetriever(manager, embedder).search(
+                question, top_k=top_k_vector, expand_section=False
+            )
+            if matches:
+                vector_context = make_vector_context(matches)
+    except Exception as e:
+        log.warning(f"Naive RAG: Vector Retrieval gặp sự cố: {e}")
+        vector_context = None
+
+    context_text = vector_context.content if vector_context else ""
+    citations = vector_context.citations if vector_context else []
+
+    # 2. Sinh câu trả lời qua LLM (Naive Generation)
+    client, model_name = _get_generation_client()
+    raw_answer = ""
+
+    if client and model_name and context_text.strip():
+        try:
+            messages = [
+                {"role": "system", "content": NAIVE_GENERATION_PROMPT},
+            ]
+            if history:
+                for msg in history[-4:]:
+                    messages.append({"role": msg["role"], "content": msg["content"]})
+
+            user_prompt = f"NGỮ CẢNH TRUY XUẤT:\n\"\"\"\n{context_text[:max_tokens]}\n\"\"\"\n\nCÂU HỎI: {question}"
+            messages.append({"role": "user", "content": user_prompt})
+
+            models_to_try = [model_name]
+            if model_name != "openai/gpt-oss-20b":
+                models_to_try.append("openai/gpt-oss-20b")
+
+            for m in models_to_try:
+                try:
+                    gen_response = client.chat.completions.create(
+                        model=m,
+                        messages=messages,
+                        temperature=0.1,
+                        max_tokens=800,
+                        timeout=30.0,
+                    )
+                    raw_answer = gen_response.choices[0].message.content or ""
+                    if raw_answer:
+                        break
+                except Exception as ex_m:
+                    log.warning(f"Naive RAG: Thử model {m} không thành công ({ex_m}), thử model tiếp theo...")
+        except Exception as e:
+            log.warning(f"Naive RAG: Lỗi khi sinh câu trả lời bằng LLM ({e})")
+
+    if not raw_answer.strip():
+        if context_text.strip():
+            raw_answer = (
+                f"Dựa trên các đoạn văn bản học vụ tìm được cho câu hỏi *\"{question}\"*:\n\n"
+                f"{context_text[:1200]}\n\n"
+                "*(Đang hiển thị trích đoạn trực tiếp từ cơ sở dữ liệu văn bản)*"
+            )
+        else:
+            raw_answer = f"Naive RAG không tìm thấy thông tin phù hợp trong cơ sở dữ liệu văn bản cho câu hỏi: *\"{question}\"*."
+
+    # Gắn nhãn phân biệt chế độ Naive RAG
+    raw_answer += "\n\n---\n*Chế độ:* **Naive RAG (Vector Baseline)** · *Không kết hợp Knowledge Graph và không qua lớp kiểm chứng Verifier.*"
+
+    # 3. Đóng gói danh sách trích dẫn
+    references_ui = []
+    seen_refs = set()
+    for cit in citations:
+        match = re.match(r"^(\[[VG]\d+\])\s*(.*)$", cit)
+        code_label = match.group(1) if match else "[Nguồn]"
+        raw_info = match.group(2) if match else cit
+        title = "Tài liệu học vụ"
+        source = "ĐH Bách Khoa TP.HCM"
+        chunk_text = ""
+        try:
+            parsed = json.loads(raw_info)
+            title = parsed.get("source_file") or parsed.get("doc_id") or title
+            source = parsed.get("source_locator") or source
+            chunk_text = f"Mã đoạn: {parsed.get('passage_id', '')}"
+        except Exception:
+            title = raw_info[:40]
+
+        ref_key = (code_label, title)
+        if ref_key not in seen_refs:
+            seen_refs.add(ref_key)
+            references_ui.append({
+                "code": code_label,
+                "title": title,
+                "source": str(source),
+                "chunk": chunk_text,
+            })
+
+    return FinalResponse(
+        answer=raw_answer,
+        references=references_ui,
+        graph_data=None,
+    )
+
+
+def answer_question(
+    question: str,
+    history: Optional[List[Dict[str, str]]] = None,
+    top_k_vector: int = 3,
+    max_tokens: int = 4096,
+    mode: str = "neuro_symbolic",
+) -> FinalResponse:
+    """
+    Hàm giao tiếp chuẩn hóa được gọi từ Streamlit Web UI (src/ui/app.py).
+    Hỗ trợ 2 chế độ:
+    - mode="neuro_symbolic": Luồng hoàn chỉnh (Vector + Graph + Fusion + Verifier).
+    - mode="naive": Luồng Naive RAG baseline (Chỉ Vector + LLM, bỏ qua KG và Verifier).
+    """
+    if mode.lower() in ("naive", "vector", "baseline"):
+        return answer_question_naive(
+            question=question,
+            history=history,
+            top_k_vector=top_k_vector,
+            max_tokens=max_tokens,
+        )
     settings_qu = QueryUnderstandingSettings.from_env()
     settings_vec = VectorModuleSettings.from_env()
 
