@@ -1,0 +1,129 @@
+@startuml BK_Scholar_System_Architecture
+!theme plain
+skinparam roundcorner 12
+skinparam shadowing false
+skinparam handwritten false
+skinparam defaultFontName "Segoe UI", Arial, sans-serif
+skinparam defaultFontSize 12
+
+' --- Bảng màu chuyên nghiệp ---
+skinparam package {
+    BackgroundColor #F8F9FA
+    BorderColor #6C757D
+    BorderThickness 1.5
+    FontColor #212529
+    FontStyle bold
+    FontSize 13
+}
+
+skinparam component {
+    BackgroundColor #FFFFFF
+    BorderColor #0D6EFD
+    BorderThickness 1.2
+    FontColor #212529
+    FontSize 12
+}
+
+skinparam database {
+    BackgroundColor #F0FDF4
+    BorderColor #16A34A
+    BorderThickness 1.5
+    FontColor #166534
+}
+
+skinparam file {
+    BackgroundColor #FEF3C7
+    BorderColor #D97706
+    FontColor #92400E
+}
+
+skinparam arrow {
+    Color #374151
+    Thickness 1.2
+    FontColor #4B5563
+    FontSize 11
+}
+
+' =============================================================================
+' 1. PRESENTATION LAYER
+' =============================================================================
+package "TẦNG GIAO DIỆN (Presentation Layer)" as Presentation {
+    component "Streamlit Web Application\n(src/ui/app.py)\n--\n* Giao diện đàm thoại NotebookLM-style\n* Bộ chuyển đổi chế độ RAG (Radio)\n* Thẻ trích dẫn nguồn có thể mở rộng\n* Đồ thị mạng tương tác (vis.js/Pyvis)" as UI #EFF6FF
+}
+
+' =============================================================================
+' 2. SERVICE ORCHESTRATION LAYER
+' =============================================================================
+package "TẦNG ĐIỀU PHỐI DỊCH VỤ (Service Orchestration Layer)" as Orchestration {
+    component "Application Service\n(src/engine/app_service.py)\n--\n* Điều phối luồng xử lý End-to-End\n* Quản lý Session & State hội thoại\n* Hỗ trợ 2 chế độ: Neuro-Symbolic & Naive RAG\n* Đóng gói dữ liệu đầu ra FinalResponse" as AppService #F0F9FF
+
+    component "Query Understanding\n(src/engine/query_understanding.py)\n--\n* Chuẩn hóa đại từ thay thế từ lịch sử\n* Bóc tách thực thể môn học, giảng viên\n* Phát hiện câu hỏi mơ hồ (needs_clarification)" as QU #F0F9FF
+}
+
+' =============================================================================
+' 3. DUAL RETRIEVAL LAYER
+' =============================================================================
+package "TẦNG TRUY XUẤT KÉP (Dual Retrieval Layer)" as Retrieval {
+
+    package "Nhánh Neural (Unstructured Path)" as NeuralPath {
+        component "Vector Retriever\n(src/vector_module/vector_retriever.py)\n--\n* Semantic Similarity Search\n* Đánh nhãn trích dẫn [V1..Vn]" as VecRet #F0FDF4
+        component "Local BGE-M3 Embedder\n(BAAI/bge-m3 · 1024 dims)\n+ SQLite Embeddings Cache" as Embedder #F0FDF4
+        database "ChromaDB Store\n(collection: vector_bge_m3)\n--\n* 4.730 Chunks quy chế\n* Đề cương chi tiết môn học" as ChromaDB
+    }
+
+    package "Nhánh Symbolic (Structured Path)" as SymbolicPath {
+        component "Graph Retriever\n(src/graph_module/graph_retriever.py)\n--\n* Cypher Traversal đa bước (Multi-hop)\n* Trích xuất Subgraph dạng Pyvis Data\n* Đánh nhãn trích dẫn [G1..Gn]" as GraphRet #FAF5FF
+        database "Neo4j Graph Database\n(bolt://localhost:7687)\n--\n* 560 Nodes thực thể\n* 747 Edges quan hệ tiên quyết" as Neo4j
+        file "Curriculum Graph JSON\n(DATA/graph_triplets/curriculum_graph.json)\n--\n* Dự phòng offline khi Neo4j tắt" as GraphJSON
+    }
+}
+
+' =============================================================================
+' 4. FUSION & GENERATION LAYER
+' =============================================================================
+package "TẦNG HỢP NHẤT & SINH CÂU TRẢ LỜI (Fusion & Generation)" as Generation {
+    component "Context Fusion Chain\n(src/engine/fusion_chain.py)\n--\n* Hợp nhất 2 nguồn: Vector + Graph (50/50)\n* Cắt trần Token Budget an toàn (max 4096)\n* Bảo toàn nguồn trích dẫn [Vn], [Gn]" as Fusion #FFF7ED
+
+    component "Constrained LLM Generation\n(Groq LPU: openai/gpt-oss-120b)\n--\n* Strict Provenance Prompting\n* Bắt buộc có trích dẫn minh chứng\n* Phân biệt rõ Tiên quyết vs Khuyến nghị" as LLM #FFF7ED
+}
+
+' =============================================================================
+' 5. VERIFIABLE REASONING LAYER
+' =============================================================================
+package "TẦNG KIỂM CHỨNG SUY LUẬN (Verifiable Reasoning Layer)" as Verification {
+    component "LLM Claim Extractor\n(Groq LPU: qwen/qwen3.8-27b)\n--\n* 100% LLM (Không dùng Regex cứng)\n* Bóc tách mệnh đề nguyên tử dạng JSON\n* Phân loại: prerequisite, credits, lecturer..." as ClaimExt #FEF2F2
+
+    component "Symbolic Fact-Checker\n(src/engine/verifier.py)\n--\n* Đối soát logic với Knowledge Graph\n* Kiểm tra Tiên quyết vs Khuyến nghị\n* Kiểm tra số tín chỉ & Giảng viên phụ trách\n* Bắt mâu thuẫn (Contradiction Alert)\n* Tính toán Faithfulness Score (%)" as Verifier #FEF2F2
+}
+
+' =============================================================================
+' LUỒNG DỮ LIỆU CHÍNH (DATA FLOW RELATIONSHIPS)
+' =============================================================================
+UI -down-> AppService : "(1) Câu hỏi người dùng\n+ Lựa chọn chế độ RAG"
+AppService -down-> QU : "(2) Phân tích câu hỏi"
+
+' Nhánh Neural
+QU -down-> VecRet : "(3a) Câu truy vấn ngữ nghĩa"
+VecRet -down-> Embedder
+Embedder -down-> ChromaDB : "Vector Similarity"
+ChromaDB -right-> Fusion : "Ngữ cảnh văn bản quy chế [V1..Vn]"
+
+' Nhánh Symbolic
+QU -down-> GraphRet : "(3b) Bóc tách thực thể mã môn"
+GraphRet -down-> Neo4j : "Thực thi Cypher"
+GraphRet .down.> GraphJSON : "Tự động Fallback khi offline"
+GraphRet -right-> Fusion : "Ngữ cảnh quan hệ môn học [G1..Gn]\n+ Pyvis Subgraph Data"
+
+' Fusion & Generation
+Fusion -down-> LLM : "(4) Ngữ cảnh hợp nhất\n(Token Budget <= 4096)"
+LLM -down-> ClaimExt : "(5) Câu trả lời thô có trích dẫn"
+
+' Verifier
+ClaimExt -down-> Verifier : "(6) Danh sách khẳng định nguyên tử\n(Atomic Claims JSON)"
+GraphRet ..> Verifier : "Dữ liệu đối soát gốc\n(KG Triples & Node Attributes)"
+
+' Phản hồi cuối cùng
+Verifier -left-> AppService : "(7) Câu trả lời đã hiệu đính\n+ Faithfulness Score\n+ Cảnh báo mâu thuẫn (nếu có)"
+AppService -up-> UI : "(8) FinalResponse:\n* Câu trả lời Markdown\n* Thẻ trích dẫn mở rộng\n* Bản đồ mạng Pyvis tương tác"
+
+@enduml
