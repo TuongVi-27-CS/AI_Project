@@ -115,6 +115,7 @@ def _init() -> None:
     st.session_state.setdefault("messages", [])
     st.session_state.setdefault("pending_question", None)
     st.session_state.setdefault("dark_mode", True)
+    st.session_state.setdefault("rag_mode", "neuro_symbolic")
 
 
 # ╔═════════════════════════════════════════════════════════════════════════╗
@@ -257,24 +258,34 @@ w.on('zoom',function(){{
 # ╚═════════════════════════════════════════════════════════════════════════╝
 
 def _get_response(question: str) -> dict[str, Any]:
+    current_mode = st.session_state.get("rag_mode", "neuro_symbolic")
     # Try real backend first
     if (ROOT / "src/engine/app_service.py").is_file():
         try:
             from src.engine.app_service import answer_question  # type: ignore
             hist = [{"role": m["role"], "content": m.get("content", "")}
                     for m in st.session_state.messages[-4:]]
-            r = answer_question(question=question, history=hist)
+            r = answer_question(question=question, history=hist, mode=current_mode)
             if hasattr(r, "model_dump"):
                 r = r.model_dump()
+            mode_label = "Naive RAG (Vector Baseline)" if current_mode == "naive" else "Neuro-Symbolic RAG"
             return {
                 "answer": r.get("answer", ""),
                 "references": r.get("references") or r.get("citations") or [],
                 "graph_data": r.get("graph_data"),
-                "intent": r.get("intent", "Backend"),
-                "verified": True,
+                "intent": mode_label,
+                "verified": current_mode != "naive",
             }
-        except Exception:
-            pass  # fall through to demo
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            return {
+                "answer": f"⚠️ **Lỗi thực thi từ Backend:**\n```\n{e}\n```\n*Vui lòng kiểm tra logs terminal hoặc API key.*",
+                "references": [],
+                "graph_data": None,
+                "intent": "Lỗi Backend",
+                "verified": False,
+            }
 
     lo = question.casefold()
 
@@ -439,6 +450,22 @@ def _render_sidebar() -> None:
             st.session_state.messages = []
             st.session_state.pending_question = None
             st.rerun()
+
+        st.markdown(
+            '<div style="margin-top:14px; margin-bottom:6px; font-weight:600; font-size:12px; color:var(--fg-muted); letter-spacing:0.5px;">'
+            'CHẾ ĐỘ TRUY XUẤT'
+            '</div>',
+            unsafe_allow_html=True,
+        )
+        mode_idx = 0 if st.session_state.get("rag_mode", "neuro_symbolic") == "neuro_symbolic" else 1
+        chosen_mode = st.radio(
+            label="Chế độ RAG:",
+            options=["Neuro-Symbolic (KG + Verifier)", "Naive RAG (Chỉ Vector)"],
+            index=mode_idx,
+            key="sidebar_rag_mode_radio",
+            label_visibility="collapsed",
+        )
+        st.session_state.rag_mode = "naive" if "Naive" in chosen_mode else "neuro_symbolic" 
         with st.container(key="sidebar_sources"):
             _render_source_list(sources)
         with st.container(key="sidebar_theme"):
@@ -496,7 +523,13 @@ def _render_assistant(msg: dict[str, Any], idx: int) -> None:
     verified = resp.get("verified", False) and (ROOT / "src/engine/app_service.py").is_file()
     refs = resp.get("references", [])
 
-    label = "Đã đối chiếu nguồn" if verified else "Dữ liệu minh họa"
+    intent = str(resp.get("intent", ""))
+    if "naive" in intent.lower():
+        label = "Naive RAG · Vector Baseline"
+    elif verified:
+        label = "Neuro-Symbolic · Đã đối chiếu nguồn"
+    else:
+        label = "Dữ liệu minh họa"
     st.markdown(f'<div class="answer-label">BK Scholar <span>· {label}</span></div>', unsafe_allow_html=True)
 
     content = msg.get("content", "")

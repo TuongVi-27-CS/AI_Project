@@ -95,6 +95,10 @@ class BgeM3API:
 
     @classmethod
     def from_settings(cls, settings):
+        if not getattr(settings, "api_url", "").strip():
+            log.info("Không có BGE_M3_API_URL, tự động sử dụng LocalBgeM3 (sentence-transformers cục bộ).")
+            return LocalBgeM3.from_settings(settings)
+
         return cls(
             settings.api_url,
             settings.model,
@@ -213,6 +217,11 @@ class BgeM3API:
                 "SELECT vector FROM embeddings WHERE namespace=? AND hash=?",
                 (self.signature, key)
             ).fetchone()
+            if not row:
+                row = self.cache.execute(
+                    "SELECT vector FROM embeddings WHERE hash=?",
+                    (key,)
+                ).fetchone()
 
             if row:
                 vectors[key] = self._validate_vector(json.loads(row[0]))
@@ -243,3 +252,118 @@ class BgeM3API:
             self.stats["embedded_texts"] += len(batch)
 
         return [vectors[key] for key in keys]
+
+
+class LocalBgeM3:
+    """Mô hình BGE-M3 chạy trực tiếp cục bộ bằng sentence-transformers (offline 100%)."""
+
+    def __init__(
+        self,
+        model_name: str = "BAAI/bge-m3",
+        cache_path: Path | None = None,
+        dimension: int = 1024,
+        max_input_chars: int = 16000,
+        batch_size: int = 16,
+    ):
+        self.model_name = model_name
+        self.dimension = dimension
+        self.max_input_chars = max_input_chars
+        self.batch_size = batch_size
+        self._model = None
+
+        self.identity = {
+            "protocol": "sentence-transformers-local",
+            "model": model_name,
+            "dimension": dimension,
+        }
+        self.signature = hashlib.sha256(canonical(self.identity).encode("utf-8")).hexdigest()
+        self.configuration = {
+            **self.identity,
+            "batch_size": batch_size,
+            "max_input_chars": max_input_chars,
+        }
+
+        self.cache_path = Path(cache_path) if cache_path else None
+        if self.cache_path:
+            self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+            self.cache = sqlite3.connect(self.cache_path)
+            self.cache.execute("CREATE TABLE IF NOT EXISTS embeddings (namespace TEXT, hash TEXT, vector TEXT, PRIMARY KEY(namespace, hash))")
+        else:
+            self.cache = None
+
+        self.stats = {"cache_hits": 0, "embedded_texts": 0}
+
+    @classmethod
+    def from_settings(cls, settings):
+        return cls(
+            model_name=getattr(settings, "model", "BAAI/bge-m3") or "BAAI/bge-m3",
+            cache_path=getattr(settings, "cache_path", None),
+            dimension=1024,
+            max_input_chars=getattr(settings, "max_input_chars", 16000),
+            batch_size=getattr(settings, "batch_size", 16),
+        )
+
+    def _load_model(self):
+        if self._model is None:
+            from sentence_transformers import SentenceTransformer
+            log.info("Đang khởi tạo mô hình Local BGE-M3 (%s)...", self.model_name)
+            self._model = SentenceTransformer(self.model_name)
+        return self._model
+
+    def close(self):
+        if self.cache is not None:
+            self.cache.close()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_):
+        self.close()
+
+    def embed(self, texts: list[str]) -> list[list[float]]:
+        if any(not isinstance(t, str) or not t.strip() for t in texts):
+            raise ValueError("Embedding inputs must be non-empty strings")
+
+        if any(len(t) > self.max_input_chars for t in texts):
+            raise ValueError("Input exceeds EMBEDDING_MAX_INPUT_CHARS; inspect the chunk. No text was truncated.")
+
+        keys = [hashlib.sha256(t.encode("utf-8")).hexdigest() for t in texts]
+        unique = dict(zip(keys, texts))
+        vectors, missing = {}, []
+
+        if self.cache:
+            for key, text in unique.items():
+                row = self.cache.execute(
+                    "SELECT vector FROM embeddings WHERE namespace=? AND hash=?",
+                    (self.signature, key)
+                ).fetchone()
+                if not row:
+                    row = self.cache.execute(
+                        "SELECT vector FROM embeddings WHERE hash=?",
+                        (key,)
+                    ).fetchone()
+                if row:
+                    vectors[key] = json.loads(row[0])
+                    self.stats["cache_hits"] += 1
+                else:
+                    missing.append((key, text))
+        else:
+            missing = list(unique.items())
+
+        if missing:
+            model = self._load_model()
+            texts_to_embed = [t for _, t in missing]
+            embeddings = model.encode(texts_to_embed, batch_size=self.batch_size, normalize_embeddings=True)
+            for (key, _), vec in zip(missing, embeddings):
+                vector_list = [float(x) for x in vec]
+                vectors[key] = vector_list
+                if self.cache:
+                    with self.cache:
+                        self.cache.execute(
+                            "INSERT OR REPLACE INTO embeddings VALUES (?, ?, ?)",
+                            (self.signature, key, canonical(vector_list))
+                        )
+            self.stats["embedded_texts"] += len(missing)
+
+        return [vectors[key] for key in keys]
+
